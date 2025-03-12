@@ -2,8 +2,16 @@ import streamlit as st
 import json
 import openai
 
-# Set up OpenAI API Key
-openai.api_key = "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"
+# Load OpenAI API key from a separate text file
+def load_api_key():
+    try:
+        with open("openai_api_key.txt", "r") as file:
+            return file.read().strip()
+    except FileNotFoundError:
+        st.error("API key file not found. Please create 'openai_api_key.txt' and add your API key.")
+        return None
+
+openai.api_key = load_api_key()
 
 # Function to process persona data into readable text
 def process_persona(persona):

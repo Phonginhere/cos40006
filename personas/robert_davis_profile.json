@@ -1,0 +1,33 @@
+{
+    "Name": "Robert Davis",
+    "Age": 80,
+    "Location": "Small town, lives with his wife",
+    "Occupation": "Retired engineer",
+    "Marital_Status": "Married, two adult children and four grandchildren",
+    "Education": "Bachelor’s degree in Mechanical Engineering",
+    "Technology_Comfort_Level": "Moderate – Uses a tablet for browsing, watching videos, and communicating with his family. Comfortable with basic apps but avoids complicated features.",
+    "Goals": [
+        "Keep track of his medication and health appointments without relying on family members.",
+        "Monitor his vitals, especially blood pressure and heart rate, with ease.",
+        "Stay connected with family through video calls and messaging."
+    ],
+    "Challenges": [
+        "Finding features quickly without navigating through multiple screens.",
+        "Setting up the app without help from his children or caregivers.",
+        "Remembering to update the app and charge his devices regularly."
+    ],
+    "Frustrations": [
+        "Confusing setup processes or too many permissions requested by the app.",
+        "Features that require constant updates or internet access in areas with poor connectivity.",
+        "Difficulty accessing customer support or help when something goes wrong."
+    ],
+    "Preferred_Device_Technology": [
+        "Tablet with a large screen and straightforward navigation.",
+        "Wearable health device (e.g., smartwatch) that integrates with the app for health monitoring."
+    ],
+    "Key_Features_Desired": [
+        "A simple, guided setup process with clear instructions and large text.",
+        "Automated health monitoring and logging for vital signs like blood pressure.",
+        "Easy-to-use video calling feature to connect with his children and grandchildren."
+    ]
+}

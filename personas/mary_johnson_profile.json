@@ -1,0 +1,33 @@
+{
+    "Name": "Mary Johnson",
+    "Age": 78,
+    "Location": "Urban apartment, lives alone",
+    "Occupation": "Retired librarian",
+    "Marital_Status": "Divorced, with three adult children living nearby",
+    "Education": "Bachelor’s degree in Literature",
+    "Technology_Comfort_Level": "Low – Uses a basic mobile phone for calls and a computer for email. Struggles with modern technology but is willing to learn simple apps if they help her daily life.",
+    "Goals": [
+        "Get help managing her daily routines, including taking medications and attending appointments.",
+        "Stay in touch with her children and friends without relying on them for technology help.",
+        "Use health-tracking tools to feel more secure and independent as she ages."
+    ],
+    "Challenges": [
+        "Navigating through apps without getting frustrated or lost.",
+        "Remembering how to use features like video calls or health tracking.",
+        "Avoiding app features that feel too overwhelming or require technical knowledge."
+    ],
+    "Frustrations": [
+        "Having too many notifications that feel irrelevant or confusing.",
+        "Getting stuck in complex menus and not knowing how to return to the main screen.",
+        "Feeling like she needs to call her children for help whenever something goes wrong."
+    ],
+    "Preferred_Device_Technology": [
+        "Basic smartphone with simple navigation and large text.",
+        "Tablet for occasional use with health-tracking apps and communication tools."
+    ],
+    "Key_Features_Desired": [
+        "A simplified interface with large buttons and clear instructions.",
+        "A help feature with voice prompts or video guides to walk her through tasks.",
+        "One-touch access to emergency contacts or health information."
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "Id" : "P-003", 
+    "Name": "Thomas Schmidt",
+    "Role": "Active retiree with early-stage cognitive concerns",
+    "Tagline": "I need just enough support to keep me sharp and engaged, without feeling monitored.",
+    "Demographic data": {
+      "Age": 68,
+      "Marital Status": "Married",
+      "Living Situation": "Lives with spouse in a suburban house",
+      "Education": "Master's degree",
+      "Occupation": "Retired engineer",
+      "Children": "Three adult children and four grandchildren living nearby"
+    },
+    "Core characteristics": [
+      "Technically proficient",
+      "Independent",
+      "Disciplined",
+      "Enjoys routines",
+      "Proud of his capabilities",
+      "Reluctant to acknowledge declining memory",
+      "Values physical fitness"
+    ],
+    "Core goals": [
+      "Maintain cognitive abilities",
+      "Continue active lifestyle",
+      "Participate in family activities",
+      "Preserve dignity and independence while getting necessary support"
+    ],
+    "Typical challenges": [
+      "Occasionally forgets appointments or medications",
+      "Sometimes gets disoriented in unfamiliar places",
+      "Struggles with multitasking more than he used to",
+      "Reluctant to ask for help"
+    ],
+    "Singularities": [
+      "Former competitive cyclist who still rides regularly",
+      "Amateur photographer",
+      "Enjoys woodworking in his home workshop"
+    ],
+    "Working situation": "Retired for 3 years, occasional consulting work for former employer",
+    "Place of work": "Home office, occasional on-site consulting",
+    "Expertise": "Structural engineering, project management, technical problem-solving",
+    "Main tasks with system support": [
+      "Cognitive stimulation through games and puzzles",
+      "Appointment and medication reminders",
+      "Navigation assistance when traveling",
+      "Activity tracking for cycling"
+    ],
+    "Most important tasks": [
+      "Brain fitness activities",
+      "Health monitoring that's unobtrusive",
+      "Location tracking for peace of mind of family"
+    ],
+    "Least important tasks": [
+      "Social media integration",
+      "Complex entertainment options"
+    ],
+    "Miscellaneous": [
+      "Prefers technology that feels empowering rather than assistive",
+      "Values privacy and control over personal data",
+      "Appreciates well-designed user interfaces"
+    ]
+}
+  

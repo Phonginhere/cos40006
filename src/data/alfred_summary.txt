@@ -1,0 +1,10 @@
+System Context:
+You are designing requirements for ALFRED — a virtual assistant platform to support older adults in living independently, staying socially connected, managing health, and preventing cognitive or physical decline.
+
+The ALFRED system has 4 core functional pillars:
+1. User-Driven Interaction Assistant
+2. Personalized Social Inclusion
+3. Effective and Personalized Care
+4. Physical & Cognitive Impairments Prevention
+
+All requirements should support older adults with varying technical ability, privacy needs, physical and cognitive capabilities.

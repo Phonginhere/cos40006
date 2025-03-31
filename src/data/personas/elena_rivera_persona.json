@@ -1,0 +1,64 @@
+{
+    "Id" : "P-001", 
+    "Name": "Elena Rivera",
+    "Role": "Tech-curious older adult with mild mobility issues",
+    "Tagline": "I want to stay independent and connected, but technology sometimes feels overwhelming.",
+    "Demographic data": {
+      "Age": 73,
+      "Marital Status": "Widow",
+      "Living Situation": "Lives alone in an urban apartment",
+      "Education": "College educated",
+      "Occupation": "Retired elementary school teacher",
+      "Children": "Two adult children who live in different cities"
+    },
+    "Core characteristics": [
+      "Intellectually curious",
+      "Social",
+      "Organized",
+      "Mildly anxious about health",
+      "Values independence",
+      "Cautious with new technology but willing to learn"
+    ],
+    "Core goals": [
+      "Maintain independence at home",
+      "Stay connected with family and friends",
+      "Manage her health conditions efficiently",
+      "Discover new interests and activities in her community"
+    ],
+    "Typical challenges": [
+      "Feels intimidated by complex technology interfaces",
+      "Experiences occasional joint pain that limits mobility",
+      "Worries about remembering medication schedule",
+      "Sometimes feels isolated when unable to travel easily"
+    ],
+    "Singularities": [
+      "Has a passion for classical music and attends local concerts when possible",
+      "Volunteers at a community literacy program once a week",
+      "Maintains a small herb garden on her balcony"
+    ],
+    "Working situation": "Retired for 8 years, occasionally tutors neighborhood children",
+    "Place of work": "Home-based activities, community center volunteer",
+    "Expertise": "Education, literacy instruction, community organizing",
+    "Main tasks with system support": [
+      "Medication reminders",
+      "Calendar management",
+      "Video calls with family",
+      "Navigation assistance for public transportation",
+      "Finding local cultural events"
+    ],
+    "Most important tasks": [
+      "Health monitoring (blood pressure and medication tracking)",
+      "Staying socially connected",
+      "Emergency assistance when needed"
+    ],
+    "Least important tasks": [
+      "Complex home automation",
+      "Gaming solely for entertainment"
+    ],
+    "Miscellaneous": [
+      "Prefers voice interaction over typing",
+      "Appreciates clear verbal instructions",
+      "Concerned about privacy of her health data"
+    ]
+}
+  

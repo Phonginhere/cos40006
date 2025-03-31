@@ -1,0 +1,98 @@
+{
+    "FunctionalRequirements": [
+        {
+            "ID": "P-001-FR-001",
+            "Name": "Voice Command Interaction",
+            "Description": "The system shall allow users to perform actions and navigate the interface using voice commands, simplifying interactions for users like Elena who may feel overwhelmed by technology.",
+            "UseCases": [
+                "UC-001",
+                "UC-002",
+                "UC-003",
+                "UC-004"
+            ],
+            "Tags": [
+                "User_Interaction",
+                "Communication",
+                "Accessibility"
+            ]
+        },
+        {
+            "ID": "P-001-FR-002",
+            "Name": "Personalized Medication Reminders",
+            "Description": "The system shall provide personalized medication reminders through voice prompts, allowing users to confirm medication intake and receive wellness check-ins tailored to their preferences.",
+            "UseCases": [
+                "UC-002"
+            ],
+            "Tags": [
+                "Health_Support",
+                "Personalization"
+            ]
+        },
+        {
+            "ID": "P-001-FR-003",
+            "Name": "Cognitive Engagement Reminders",
+            "Description": "The system shall enable users to set daily reminders for cognitive exercises, with the option to customize the frequency and type of activities based on their preferences and cognitive abilities.",
+            "UseCases": [
+                "UC-003"
+            ],
+            "Tags": [
+                "Cognitive_Support",
+                "Personalization"
+            ]
+        },
+        {
+            "ID": "P-001-FR-004",
+            "Name": "Event Participation Assistance",
+            "Description": "The system shall assist users in accessing virtual community events by providing step-by-step guidance, ensuring users can connect with minimal technical barriers.",
+            "UseCases": [
+                "UC-004"
+            ],
+            "Tags": [
+                "Event_Management",
+                "Usability",
+                "Local_Engagement"
+            ]
+        }
+    ],
+    "NonFunctionalRequirements": [
+        {
+            "ID": "P-001-NFR-001",
+            "Name": "User Interface Simplicity",
+            "Description": "The system shall ensure that the user interface is simple and intuitive, catering to users with varying technical abilities to enhance overall usability and reduce feelings of overwhelm.",
+            "UseCases": [
+                "UC-001",
+                "UC-004"
+            ],
+            "Tags": [
+                "Usability",
+                "Accessibility"
+            ]
+        },
+        {
+            "ID": "P-001-NFR-002",
+            "Name": "Data Privacy Assurance",
+            "Description": "The system shall implement robust privacy controls to ensure that users' health data is protected and that users feel secure in sharing their information with the platform.",
+            "UseCases": [
+                "UC-002"
+            ],
+            "Tags": [
+                "Privacy_Controls",
+                "Data_Privacy",
+                "Security"
+            ]
+        },
+        {
+            "ID": "P-001-NFR-003",
+            "Name": "System Reliability",
+            "Description": "The system shall demonstrate high reliability, ensuring that reminders, notifications, and functionalities are consistently available to users without failures.",
+            "UseCases": [
+                "UC-002",
+                "UC-003"
+            ],
+            "Tags": [
+                "Reliability",
+                "Responsiveness"
+            ]
+        }
+    ]
+}

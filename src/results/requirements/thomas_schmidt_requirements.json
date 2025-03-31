@@ -1,0 +1,75 @@
+{
+    "FunctionalRequirements": [
+        {
+            "ID": "P-003-FR-001",
+            "Name": "Personalized Medication Reminder",
+            "Description": "The system shall provide personalized medication reminders through voice commands, allowing users to confirm whether they have taken their medications. The reminders should be customizable in frequency and type to maintain user autonomy.",
+            "UseCases": [
+                "UC-002"
+            ],
+            "Tags": [
+                "Health_Support",
+                "Personalization",
+                "User_Interaction"
+            ]
+        },
+        {
+            "ID": "P-003-FR-002",
+            "Name": "Cognitive Engagement Reminders",
+            "Description": "The system shall allow users to set daily reminders for cognitive exercises such as puzzles and memory games. The reminders will be tailored based on the user's preferences and cognitive abilities.",
+            "UseCases": [
+                "UC-003"
+            ],
+            "Tags": [
+                "Cognitive_Support",
+                "Personalization",
+                "User_Interaction"
+            ]
+        },
+        {
+            "ID": "P-003-FR-003",
+            "Name": "Virtual Community Event Access",
+            "Description": "The system shall provide a simple interface for users to join virtual community events, offering step-by-step guidance to facilitate access and participation.",
+            "UseCases": [
+                "UC-004"
+            ],
+            "Tags": [
+                "Event_Management",
+                "Communication",
+                "Usability"
+            ]
+        }
+    ],
+    "NonFunctionalRequirements": [
+        {
+            "ID": "P-003-NFR-001",
+            "Name": "Privacy Control Mechanism",
+            "Description": "The system shall implement privacy controls that allow users to manage their personal data preferences, ensuring they feel in control of their information and interactions.",
+            "UseCases": [
+                "UC-002",
+                "UC-003",
+                "UC-004"
+            ],
+            "Tags": [
+                "Privacy_Controls",
+                "Data_Privacy",
+                "Security"
+            ]
+        },
+        {
+            "ID": "P-003-NFR-002",
+            "Name": "User-Friendly Interface",
+            "Description": "The system shall provide a user-friendly interface that is easy to navigate, catering to older adults with varying technical abilities to enhance usability and engagement.",
+            "UseCases": [
+                "UC-002",
+                "UC-003",
+                "UC-004"
+            ],
+            "Tags": [
+                "Usability",
+                "Accessibility",
+                "Adaptability"
+            ]
+        }
+    ]
+}

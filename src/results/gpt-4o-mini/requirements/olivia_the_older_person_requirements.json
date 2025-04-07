@@ -1,0 +1,109 @@
+{
+    "FunctionalRequirements": [
+        {
+            "ID": "P-005-FR-001",
+            "Name": "Voice-Activated Health Reminders",
+            "Description": "The system shall allow users to set and receive daily health reminders via simple voice commands, ensuring users understand the instructions without feeling overwhelmed.",
+            "UseCases": [
+                "UC-001",
+                "UC-003"
+            ],
+            "Tags": [
+                "Health_Support",
+                "User_Interaction",
+                "Accessibility"
+            ]
+        },
+        {
+            "ID": "P-005-FR-002",
+            "Name": "Virtual Gathering Scheduling",
+            "Description": "The system shall enable users to schedule virtual gatherings with friends or family using voice commands, simplifying the process for users who may struggle with technology.",
+            "UseCases": [
+                "UC-004"
+            ],
+            "Tags": [
+                "Communication",
+                "Event_Management",
+                "Usability"
+            ]
+        },
+        {
+            "ID": "P-005-FR-003",
+            "Name": "Cognitive Support Reminders",
+            "Description": "The system shall provide users with gentle reminders for engaging brain exercises and memory games tailored to their preferences, promoting cognitive activity.",
+            "UseCases": [
+                "UC-005"
+            ],
+            "Tags": [
+                "Cognitive_Support",
+                "Personalization",
+                "User_Interaction"
+            ]
+        },
+        {
+            "ID": "P-005-FR-004",
+            "Name": "Local Event Discovery",
+            "Description": "The system shall allow users to discover local events such as book clubs and exercise classes, encouraging social participation tailored for older adults.",
+            "UseCases": [
+                "UC-006"
+            ],
+            "Tags": [
+                "Local_Engagement",
+                "Event_Management",
+                "Personalization"
+            ]
+        },
+        {
+            "ID": "P-005-FR-005",
+            "Name": "Daily Activity Goal Setting",
+            "Description": "The system shall allow users to set personalized daily walking goals and provide motivational reminders tailored to their recovery needs.",
+            "UseCases": [
+                "UC-007"
+            ],
+            "Tags": [
+                "Health_Support",
+                "Personalization",
+                "User_Interaction"
+            ]
+        }
+    ],
+    "NonFunctionalRequirements": [
+        {
+            "ID": "P-005-NFR-001",
+            "Name": "User-Friendly Interface",
+            "Description": "The system shall provide an intuitive and user-friendly interface that accommodates older adults with varying technical abilities, ensuring ease of navigation and interaction.",
+            "UseCases": [
+                "UC-001",
+                "UC-003",
+                "UC-004",
+                "UC-005",
+                "UC-006",
+                "UC-007"
+            ],
+            "Tags": [
+                "Usability",
+                "Accessibility",
+                "Adaptability"
+            ]
+        },
+        {
+            "ID": "P-005-NFR-002",
+            "Name": "Data Privacy and Security",
+            "Description": "The system shall ensure that all user data is securely stored and processed in compliance with privacy regulations, providing users with control over their personal information.",
+            "UseCases": [
+                "UC-001",
+                "UC-002",
+                "UC-003",
+                "UC-004",
+                "UC-005",
+                "UC-006",
+                "UC-007"
+            ],
+            "Tags": [
+                "Data_Privacy",
+                "Security",
+                "Reliability"
+            ]
+        }
+    ]
+}

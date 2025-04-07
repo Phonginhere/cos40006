@@ -1,0 +1,68 @@
+{
+  "Id": "P-004",
+  "Name": "Mike Johnson",
+  "Role": "Home-care nurse providing rural healthcare services",
+  "Tagline": "I want to efficiently monitor my patients' health and maintain connection with those who are socially isolated.",
+  "Demographic data": {
+    "Age": 43,
+    "Marital Status": "Not specified",
+    "Living Situation": "Lives in rural area",
+    "Education": "Nursing degree",
+    "Occupation": "Home-care nurse",
+    "Children": "Not specified"
+  },
+  "Core characteristics": [
+    "Caring",
+    "Patient-focused",
+    "Dedicated",
+    "Empathetic",
+    "Reliable",
+    "Enjoys helping others"
+  ],
+  "Core goals": [
+    "Monitor patients' health status efficiently",
+    "Support socially isolated patients",
+    "Maintain regular communication with patients",
+    "Provide preventative care and early intervention",
+    "Coordinate care across rural communities"
+  ],
+  "Typical challenges": [
+    "Long travel times between patient visits",
+    "Limited resources in rural healthcare settings",
+    "Managing patient care remotely between visits",
+    "Maintaining connection with socially isolated patients",
+    "Coordinating with other healthcare providers in remote areas"
+  ],
+  "Singularities": [
+    "Specializes in care for elderly patients living alone",
+    "Particularly attentive to patients' emotional wellbeing and social needs",
+    "Integrates technology into traditional home care practices"
+  ],
+  "Working situation": "Full-time home-care nurse for 10 years, nursing for 20 years total",
+  "Place of work": "Patients' homes across rural areas",
+  "Expertise": "Geriatric home healthcare, remote patient monitoring, rural healthcare delivery",
+  "Main tasks with system support": [
+    "Health monitoring",
+    "Medication tracking",
+    "Appointment scheduling",
+    "Communication with families",
+    "Care plan documentation",
+    "Patient data analysis"
+  ],
+  "Most important tasks": [
+    "Regular monitoring of vital signs",
+    "Secure communication with healthcare team",
+    "Early detection of health status changes"
+  ],
+  "Least important tasks": [
+    "Administrative reporting",
+    "Complex data entry",
+    "Non-critical notifications"
+  ],
+  "Miscellaneous": [
+    "Uses smartphone for both work coordination and personal use",
+    "Comfortable with technology for patient care management",
+    "Uses laptop with internet connection almost daily",
+    "Values technology that enhances patient connection without replacing personal care"
+  ]
+}

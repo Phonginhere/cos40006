@@ -3,13 +3,14 @@ import json
 from collections import defaultdict
 from typing import List, Dict
 from requirement_generator import Requirement, RequirementLoader
-from llm_handler import get_gpt_4o_mini_response
+from llm_handler import get_llm_response, CURRENT_LLM
 from utils import load_requirement_tags
 
+
 class RequirementComparator:
-    def __init__(self, requirements: Dict[str, List[Requirement]], output_dir=r"results\merged_requirements"):
+    def __init__(self, requirements: Dict[str, List[Requirement]], output_dir=None):
         self.requirements = requirements  # Dict[persona_name] -> List[Requirement]
-        self.output_dir = output_dir
+        self.output_dir = output_dir or os.path.join("results", CURRENT_LLM, "merged_requirements")
         self.tag_map = defaultdict(list)  # tag -> list of Requirement instances
         self.tags = load_requirement_tags()
 
@@ -22,9 +23,6 @@ class RequirementComparator:
         print(f"📌 Grouped requirements into {len(self.tag_map)} tag categories.")
 
     def build_prompt_for_tag(self, tag: str, requirements: List[Requirement]) -> str:
-        """
-        Builds a comparison prompt for requirements under a tag.
-        """
         examples = "\n\n".join([
             f"Requirement {i+1}:\n"
             f"- ID: {r.id}\n"
@@ -35,27 +33,42 @@ class RequirementComparator:
             for i, r in enumerate(requirements)
         ])
 
-        prompt = f"""You are performing comparative analysis of software requirements from different user personas.
+        prompt = f"""
+You are performing a **comparative analysis of system requirements** created for different user personas.
 
 All the following requirements are categorized under the tag: "{tag}".
 
-Compare them and return the following:
-1. Group requirements that are **functionally similar** (can be merged or unified).
-2. Detect any **conflicting goals or assumptions**.
-3. Suggest **a unified version** of each matching group if possible.
+Your task:
+1. **Group similar requirements** and describe the key similarities and differences.
+2. **Identify all conflicts or inconsistencies**, including even small mismatches in:
+    - Functionality overlap or divergence
+    - Interaction modality differences (voice, touch, wearable, etc.)
+    - Assumptions about user capability (e.g. physical, cognitive, digital literacy)
+    - Device or environmental context constraints
+    - Frequency and scheduling of actions
+    - Data privacy, access, and user control
+    - Personalization vs. consistency conflicts
+    - Security level or compliance differences (e.g. GDPR, HIPAA)
+    - UX trade-offs: simplicity vs. control, automation vs. transparency
+3. **Explain the root cause of each conflict** based on the personas’ perspectives.
+4. Suggest a **unified requirement** when feasible that harmonizes differences.
+5. Ensure traceability of merged/conflicting requirements by ID.
 
-Format:
+Your output must follow this structure (strict JSON only, no markdown):
+
 {{
-  "Tag": "Health_Support",
-  "MatchingGroups": [
+  "Tag": "{tag}",
+  "SimilarGroups": [
     {{
       "GroupID": "G1",
       "OriginalRequirements": [<IDs>],
-      "MergedSuggestion": {{
+      "SimilarityNote": "...explain what is shared or equivalent...",
+      "DifferenceNote": "...explain how they differ...",
+      "UnifiedRequirement": {{
         "ID": "FR-M01",
         "Name": "...",
         "Description": "...",
-        "SourcePersonas": [list of persona names]
+        "SourcePersonas": [<persona IDs>]
       }}
     }}
   ],
@@ -63,8 +76,9 @@ Format:
     {{
       "Req1": "<ID>",
       "Req2": "<ID>",
-      "ConflictType": "...",
-      "Note": "..."
+      "ConflictType": "...e.g., Security vs. Simplicity...",
+      "PersonaConflict": "...e.g., Developer vs Compliance Officer...",
+      "Note": "...explanation of the conflict..."
     }}
   ]
 }}
@@ -74,15 +88,14 @@ Here are the requirements:
 
 {examples}
 """
+
         return prompt
 
     def analyze_tag(self, tag: str, requirements: List[Requirement]) -> Dict:
-        """Analyzes one tag group using the LLM and returns parsed JSON."""
         prompt = self.build_prompt_for_tag(tag, requirements)
-        response = get_gpt_4o_mini_response(prompt)
-        
-        # 👇 Output full raw LLM response for inspection
-        print(f"\n📤 Raw LLM response for tag '{tag}':\n{'-'*60}")
+        response = get_llm_response(prompt)
+
+        print(f"\n📤 Raw LLM response for tag '{tag}':\n{'-' * 60}")
         print(response)
         print('-' * 60)
 
@@ -98,11 +111,6 @@ Here are the requirements:
             return {}
 
     def run(self, tags_to_compare: List[str] = None):
-        """
-        Perform comparative analysis:
-        - If no tags are provided, analyze all tags.
-        - If a list of tag strings is provided, analyze only those tags.
-        """
         self.group_by_tag()
         os.makedirs(self.output_dir, exist_ok=True)
 
@@ -122,4 +130,3 @@ Here are the requirements:
                 with open(filename, "w", encoding="utf-8") as f:
                     json.dump(result, f, indent=4, ensure_ascii=False)
                 print(f"✅ Saved analysis to: {filename}")
-

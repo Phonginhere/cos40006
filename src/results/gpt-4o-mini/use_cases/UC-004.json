@@ -1,0 +1,11 @@
+{
+    "ID": "UC-004",
+    "Name": "Facilitating Virtual Gatherings",
+    "Personas": [
+        "P-002",
+        "P-004",
+        "P-005",
+        "P-006"
+    ],
+    "Description": "Elena Rivera wishes to connect with her friends for a virtual coffee chat but feels overwhelmed by the technology required to set it up. The ALFRED platform simplifies this process by allowing her to schedule a virtual gathering with just a few voice commands. Mike Johnson uses the platform to invite socially isolated patients to join the gathering, enhancing their social connection and well-being. Olivia the Older Person, who is tech-savvy, takes the lead in guiding others through the process, fostering a supportive community while providing companionship during their recovery."
+}

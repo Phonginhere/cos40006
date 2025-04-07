@@ -1,61 +1,41 @@
 {
-    "Id" : "P-002", 
-    "Name": "Olivia the Older Person",
-    "Role": "Retired social worker and community volunteer",
-    "Tagline": "Active, positive, and connected – even in times of recovery",
-    "Demographic data": {
-      "Age": 64,
-      "Marital Status": "Married",
-      "Living Situation": "Lives with her husband in a suburban home",
-      "Education": "University degree in Social Work",
-      "Occupation": "Former social worker",
-      "Children": "Two adult children"
-    },
-    "Core characteristics": [
-      "Happy",
-      "Positive",
-      "Active",
-      "Curious",
-      "Open-minded",
-      "Satisfied"
-    ],
-    "Core goals": [
-      "Stay socially connected despite limited mobility",
-      "Remain physically and mentally active",
-      "Continue volunteering and engaging in community"
-    ],
-    "Typical challenges": [
-      "Temporary reduced mobility after skiing accident",
-      "Managing pain from arthritis and rheumatism",
-      "Keeping track of a busy schedule"
-    ],
-    "Singularities": [
-      "Idealist ex-hippie",
-      "Former social worker with strong community values",
-      "Skiing enthusiast despite arthritis"
-    ],
-    "Working situation": "Retired but actively engaged in volunteer work and community life; temporarily using crutches due to a skiing injury and currently home-bound",
-    "Place of work": "Primarily home-based; occasionally participates in local community programs",
-    "Expertise": "Community outreach, social advocacy, intergenerational dialogue",
-    "Main tasks with system support": [
-      "Maintaining communication with friends and family",
-      "Staying updated on political and social issues",
-      "Keeping track of social and volunteering schedules"
-    ],
-    "Most important tasks": [
-      "Social connection during rehabilitation",
-      "Accessing alternative news sources",
-      "Digital calendar management"
-    ],
-    "Least important tasks": [
-      "Complex technical configuration",
-      "Gaming unrelated to mental stimulation"
-    ],
-    "Miscellaneous": [
-      "Takes care of her grandson weekly",
-      "Enjoys walking dogs and going swimming when physically able",
-      "Temporarily uses crutches due to skiing accident",
-      "Prefers real conversations and avoids mainstream media"
-    ]
+  "Id": "P-005",
+  "Name": "Olivia the Older Person",
+  "Role": "Retired social worker and community volunteer",
+  "Tagline": "Active, positive, and connected – even in times of recovery",
+  "Demographic data": {
+    "Age": 64,
+    "Marital Status": "Married",
+    "Living Situation": "Lives with her husband in a suburban home",
+    "Education": "University degree in Social Work",
+    "Occupation": "Former social worker",
+    "Children": "Two adult children"
+  },
+  "Core characteristics": [
+    "Happy", "Positive", "Active", "Curious", "Open-minded", "Satisfied"
+  ],
+  "Core goals": [
+    "Stay socially connected despite limited mobility", "Remain physically and mentally active", "Continue volunteering"
+  ],
+  "Typical challenges": [
+    "Reduced mobility", "Managing arthritis pain", "Busy schedule"
+  ],
+  "Singularities": [
+    "Idealist ex-hippie", "Former social worker with strong community values", "Skiing enthusiast despite arthritis"
+  ],
+  "Working situation": "Retired but still volunteers",
+  "Place of work": "Home-based and local programs",
+  "Expertise": "Community outreach, social advocacy",
+  "Main tasks with system support": [
+    "Maintaining communication", "Staying updated on issues", "Scheduling volunteering activities"
+  ],
+  "Most important tasks": [
+    "Social connection", "Accessing news sources", "Calendar management"
+  ],
+  "Least important tasks": [
+    "Complex tech configurations", "Entertainment gaming"
+  ],
+  "Miscellaneous": [
+    "Takes care of her grandson", "Enjoys walking dogs", "Uses crutches temporarily"
+  ]
 }
-  

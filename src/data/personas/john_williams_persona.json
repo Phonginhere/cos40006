@@ -1,0 +1,67 @@
+{
+  "Id": "P-003",
+  "Name": "John Williams",
+  "Role": "Health IT Compliance Officer",
+  "Tagline": "I ensure every digital health product we deploy follows the rules and protects patient trust.",
+  "Demographic data": {
+    "Age": 49,
+    "Marital Status": "Married",
+    "Living Situation": "Lives with spouse in suburban area",
+    "Education": "JD with specialization in Health Informatics Law",
+    "Occupation": "Healthcare Compliance Officer",
+    "Children": "One teenage daughter"
+  },
+  "Core characteristics": [
+    "Cautious",
+    "Detail-oriented",
+    "Regulation-driven",
+    "Risk-averse",
+    "Process-focused",
+    "Ethical"
+  ],
+  "Core goals": [
+    "Ensure ALFRED meets legal and compliance standards (HIPAA, GDPR, ISO)",
+    "Minimize legal and data breach risks",
+    "Provide transparency in data practices to users and authorities",
+    "Audit system behavior for compliance violations",
+    "Document all user and system actions for liability protection"
+  ],
+  "Typical challenges": [
+    "Navigating conflicts between usability and compliance",
+    "Ensuring developers understand and implement evolving legal requirements",
+    "Avoiding privacy violations while still enabling useful features",
+    "Managing risk without halting innovation",
+    "Enforcing detailed documentation across product lifecycle"
+  ],
+  "Singularities": [
+    "Former prosecutor for digital fraud cases",
+    "Published author on AI ethics in eldercare",
+    "Leads monthly workshops on healthcare technology compliance"
+  ],
+  "Working situation": "In-house compliance officer at a mid-size healthcare provider",
+  "Place of work": "Primarily office-based, with frequent review meetings with developers and vendors",
+  "Expertise": "HIPAA, GDPR, data governance, risk analysis, audit trails, healthcare procurement",
+  "Main tasks with system support": [
+    "Monitoring audit logs",
+    "Reviewing data access patterns",
+    "Generating compliance reports",
+    "Approving system architecture changes",
+    "Flagging regulatory risks"
+  ],
+  "Most important tasks": [
+    "Ensuring traceability of user/system interactions",
+    "Maintaining compliance documentation and history",
+    "Preventing unauthorized data access or usage"
+  ],
+  "Least important tasks": [
+    "Frontend customization",
+    "Performance tuning not related to legal standards",
+    "User satisfaction metrics unless related to consent"
+  ],
+  "Miscellaneous": [
+    "Prefers strict access control over convenience features",
+    "Opposes auto-deletion of logs or anonymized datasets",
+    "Concerned about use of AI features without full explainability",
+    "Wants compliance settings to override user or developer preferences if needed"
+  ]
+}

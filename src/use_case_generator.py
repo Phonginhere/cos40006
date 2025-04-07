@@ -3,13 +3,12 @@ import json
 from collections import defaultdict
 from typing import List
 from user_persona_loader import UserPersona
-from llm_handler import get_gpt_4o_mini_response
+from llm_handler import get_llm_response, CURRENT_LLM
 from utils import load_alfred_summary, load_use_case_tags
 
 # Load external content
 ALFRED_SUMMARY = load_alfred_summary()
 USE_CASE_TAGS = load_use_case_tags()
-
 
 class UseCaseGenerator:
     def __init__(self, personas: List[UserPersona]):
@@ -41,7 +40,7 @@ Choose from this tag list: [{tag_list}]
 Return ONLY the tags in valid Python list format (e.g. ["Social_Connection", "Voice_Pref"]).
 """
 
-            response = get_gpt_4o_mini_response(prompt)
+            response = get_llm_response(prompt)
 
             try:
                 tags = eval(response) if response.startswith("[") else []
@@ -52,23 +51,24 @@ Return ONLY the tags in valid Python list format (e.g. ["Social_Connection", "Vo
             for tag in tags:
                 self.tag_map[tag].append(persona)
 
-        # Save persona → tag mapping
         tag_summary = {
             persona.name: [tag for tag, ppl in self.tag_map.items() if persona in ppl]
             for persona in self.personas
         }
-        os.makedirs("results", exist_ok=True)
-        with open("results/generated_tags.json", "w", encoding="utf-8") as f:
+
+        result_dir = os.path.join("results", CURRENT_LLM)
+        os.makedirs(result_dir, exist_ok=True)
+
+        with open(os.path.join(result_dir, "generated_tags.json"), "w", encoding="utf-8") as f:
             json.dump(tag_summary, f, indent=4)
-        print("✅ Finished tagging personas.")
-        print("🗂 Generated tag summary saved to results/generated_tags.json")
+        print(f"✅ Tag summary saved to: {os.path.join(result_dir, 'generated_tags.json')}")
 
     def generate_use_case_prompt(self, tag: str, personas: List[UserPersona]) -> str:
         summary = "\n".join([
-            f"- {p.name}: {p.tagline}" for p in personas[:3]  # limit to 3 for LLM token efficiency
+            f"- {p.name}: {p.tagline}" for p in personas[:3]  # limit to 3
         ])
 
-        prompt = f"""{ALFRED_SUMMARY}
+        return f"""{ALFRED_SUMMARY}
 
 Generate one realistic use case shared by older adults under the tag "{tag}".
 Here are some relevant personas:
@@ -82,9 +82,10 @@ Use case name: [Short and action-oriented]
 Personas: [IDs of the personas involved]
 Use case description: [Concise narrative of the use case in 4–6 sentences]
 """
-        return prompt
 
-    def generate_use_cases(self, output_dir=r"results\use_cases") -> List[dict]:
+    def generate_use_cases(self, output_dir=None) -> List['UseCase']:
+        if output_dir is None:
+            output_dir = os.path.join("results", CURRENT_LLM, "use_cases")
         self.generate_tags_with_llm()
         os.makedirs(output_dir, exist_ok=True)
 
@@ -96,14 +97,14 @@ Use case description: [Concise narrative of the use case in 4–6 sentences]
                 continue
 
             prompt = self.generate_use_case_prompt(tag, personas)
-            response = get_gpt_4o_mini_response(prompt)
+            response = get_llm_response(prompt)
 
             if response:
                 uc_id = f"UC-{uc_counter:03d}"
                 file_data = {
                     "ID": uc_id,
                     "Name": self.extract_title(response),
-                    "Personas": [p.id for p in personas],  # ✅ Use ID instead of Name
+                    "Personas": [p.id for p in personas],
                     "Description": self.extract_description(response)
                 }
 
@@ -148,7 +149,7 @@ class UseCase:
     def __init__(self, data: dict):
         self.id = data.get("ID", "UC-XXX")
         self.name = data.get("Name", "Untitled Use Case")
-        self.personas = data.get("Personas", [])  # IDs now
+        self.personas = data.get("Personas", [])
         self.description = data.get("Description", "")
 
     def __repr__(self):
@@ -162,7 +163,9 @@ class UseCase:
 
 
 class UseCaseLoader:
-    def __init__(self, use_case_dir: str = r"results\use_cases"):
+    def __init__(self, use_case_dir=None):
+        if use_case_dir is None:
+            use_case_dir = os.path.join("results", CURRENT_LLM, "use_cases")
         self.use_case_dir = use_case_dir
         self.use_cases: List[UseCase] = []
 

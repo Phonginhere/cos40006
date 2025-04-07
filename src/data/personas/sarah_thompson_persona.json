@@ -1,0 +1,68 @@
+{
+  "Id": "P-006",
+  "Name": "Sarah Thompson",
+  "Role": "Professional caregiver managing multiple elderly clients",
+  "Tagline": "I need efficient tools to monitor multiple clients and coordinate care across different locations.",
+  "Demographic data": {
+    "Age": 45,
+    "Marital Status": "Married",
+    "Living Situation": "Lives in rural area with family",
+    "Education": "Certified in Geriatric Care",
+    "Occupation": "Professional caregiver",
+    "Children": "Two school-age children"
+  },
+  "Core characteristics": [
+    "Organized",
+    "Efficient",
+    "Compassionate",
+    "Practical",
+    "Resourceful",
+    "Technologically adaptable"
+  ],
+  "Core goals": [
+    "Track multiple clients' health status in real-time",
+    "Efficiently manage appointments and care schedules",
+    "Maintain clear communication with clients' family members",
+    "Coordinate care with healthcare professionals",
+    "Document care activities accurately"
+  ],
+  "Typical challenges": [
+    "Clients with varying levels of technology comfort",
+    "Juggling multiple care schedules simultaneously",
+    "Limited internet connectivity in remote areas",
+    "Time constraints during busy work days",
+    "Accessing and updating information while on the move"
+  ],
+  "Singularities": [
+    "Specializes in dementia care",
+    "Developed her own paper-based tracking system before adopting digital tools",
+    "Advocates for technology adoption among elderly clients"
+  ],
+  "Working situation": "Full-time caregiver managing 8-10 clients",
+  "Place of work": "Various client homes and care facilities across rural region",
+  "Expertise": "Geriatric care, dementia management, care coordination",
+  "Main tasks with system support": [
+    "Health monitoring",
+    "Medication tracking",
+    "Appointment scheduling",
+    "Communication with families",
+    "Care plan documentation",
+    "Emergency alerts"
+  ],
+  "Most important tasks": [
+    "Real-time health monitoring with critical alerts",
+    "Simplified client management dashboard",
+    "Secure communication with families and healthcare providers"
+  ],
+  "Least important tasks": [
+    "Social features",
+    "Complex analytics",
+    "Entertainment options"
+  ],
+  "Miscellaneous": [
+    "Prefers tablet for client management activities",
+    "Needs offline functionality for areas with poor connectivity",
+    "Values simple, intuitive interfaces that work quickly",
+    "Concerned about elderly clients' data privacy"
+  ]
+}

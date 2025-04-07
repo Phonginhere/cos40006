@@ -3,12 +3,13 @@ import json
 from typing import List, Dict
 from user_persona_loader import UserPersona
 from use_case_generator import UseCase
-from llm_handler import get_gpt_4o_mini_response
+from llm_handler import get_llm_response, CURRENT_LLM
 from utils import load_requirement_tags, load_alfred_summary
 
 # Load ALFRED content
 ALFRED_SUMMARY = load_alfred_summary()
 ALFRED_TAGS = load_requirement_tags()
+
 
 class RequirementGenerator:
     def __init__(self, personas: List[UserPersona], use_cases: List[UseCase]):
@@ -38,7 +39,7 @@ Misc: {', '.join(persona.miscellaneous) if isinstance(persona.miscellaneous, lis
 
         tags_str = ", ".join(ALFRED_TAGS)
 
-        prompt = f"""{ALFRED_SUMMARY}
+        return f"""{ALFRED_SUMMARY}
 
 Based on the following user persona and the use cases they are involved in, generate a list of system requirements.
 
@@ -86,16 +87,18 @@ Respond in valid JSON format like this:
 
 Strictly, please do NOT use any markdown, bold, italic, or special formatting in your response.
 """
-        return prompt
 
-    def generate_requirements(self, output_dir=r"results/requirements"):
+    def generate_requirements(self, output_dir=None):
+        if output_dir is None:
+            output_dir = os.path.join("results", CURRENT_LLM, "requirements")
+
         os.makedirs(output_dir, exist_ok=True)
 
         for persona in self.personas:
             print(f"🧠 Generating requirements for persona: {persona.name}")
             associated_use_cases = self.find_use_cases_for_persona(persona.id)
             prompt = self.generate_prompt(persona, associated_use_cases)
-            response = get_gpt_4o_mini_response(prompt)
+            response = get_llm_response(prompt)
 
             if response:
                 try:
@@ -129,7 +132,9 @@ class Requirement:
 
 
 class RequirementLoader:
-    def __init__(self, folder=r"results\requirements"):
+    def __init__(self, folder=None):
+        if folder is None:
+            folder = os.path.join("results", CURRENT_LLM, "requirements")
         self.folder = folder
         self.requirements: Dict[str, List[Requirement]] = {}  # persona name → list of Requirement
 

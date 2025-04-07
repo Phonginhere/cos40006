@@ -1,0 +1,98 @@
+{
+    "FunctionalRequirements": [
+        {
+            "ID": "P-001-FR-001",
+            "Name": "Voice-Activated Health Reminders",
+            "Description": "The system shall provide voice-activated reminders for users to take their medications and check their health metrics, ensuring clarity and simplicity in communication.",
+            "UseCases": [
+                "UC-001",
+                "UC-003"
+            ],
+            "Tags": [
+                "Health_Support",
+                "User_Interaction",
+                "Cognitive_Support"
+            ]
+        },
+        {
+            "ID": "P-001-FR-002",
+            "Name": "Caregiver Dashboard",
+            "Description": "The system shall include a caregiver dashboard that allows caregivers to monitor user adherence to health regimens, highlighting any missed medications or abnormal health readings.",
+            "UseCases": [
+                "UC-001"
+            ],
+            "Tags": [
+                "Health_Support",
+                "Communication",
+                "User_Interaction"
+            ]
+        },
+        {
+            "ID": "P-001-FR-003",
+            "Name": "Customizable Privacy Settings",
+            "Description": "The system shall provide users with customizable privacy settings that enable them to control what personal information and health data are shared with caregivers and how it is used.",
+            "UseCases": [
+                "UC-002"
+            ],
+            "Tags": [
+                "Privacy_Controls",
+                "Data_Privacy",
+                "Usability"
+            ]
+        },
+        {
+            "ID": "P-001-FR-004",
+            "Name": "Scheduling Health Check Reminders",
+            "Description": "The system shall allow users to schedule health check reminders through voice commands, ensuring that the process is straightforward and accessible.",
+            "UseCases": [
+                "UC-003"
+            ],
+            "Tags": [
+                "Event_Management",
+                "User_Interaction",
+                "Accessibility"
+            ]
+        }
+    ],
+    "NonFunctionalRequirements": [
+        {
+            "ID": "P-001-NFR-001",
+            "Name": "User-Friendly Interface",
+            "Description": "The system shall provide a user-friendly interface that accommodates varying levels of technical literacy among older adults, ensuring ease of navigation and interaction.",
+            "UseCases": [
+                "UC-001",
+                "UC-002",
+                "UC-003"
+            ],
+            "Tags": [
+                "Usability",
+                "Accessibility"
+            ]
+        },
+        {
+            "ID": "P-001-NFR-002",
+            "Name": "Compliance with Health Regulations",
+            "Description": "The system shall comply with healthcare regulations such as HIPAA and GDPR to ensure the security and privacy of user data.",
+            "UseCases": [
+                "UC-002"
+            ],
+            "Tags": [
+                "Security",
+                "Data_Privacy",
+                "Reliability"
+            ]
+        },
+        {
+            "ID": "P-001-NFR-003",
+            "Name": "Scalable Architecture",
+            "Description": "The system shall be built on a scalable architecture that allows for the integration of additional health monitoring devices and features as they become available.",
+            "UseCases": [
+                "UC-001"
+            ],
+            "Tags": [
+                "Scalability",
+                "Maintainability"
+            ]
+        }
+    ]
+}

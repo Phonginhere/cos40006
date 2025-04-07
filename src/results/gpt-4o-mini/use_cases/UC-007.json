@@ -1,0 +1,9 @@
+{
+    "ID": "UC-007",
+    "Name": "Encourage Daily Walks",
+    "Personas": [
+        "P-005",
+        "P-007"
+    ],
+    "Description": "Olivia utilizes the ALFRED platform to set a daily walking goal tailored to her current recovery needs. Each morning, ALFRED sends her a gentle reminder and provides a motivational message to inspire her to stay active. Meanwhile, Thomas prefers a more subtle approach; he asks ALFRED to provide him with a weekly summary of his physical activity without daily prompts, ensuring he remains aware of his progress without feeling monitored. Both users can share their walking achievements with friends and family through the platform, fostering a sense of community and accountability."
+}

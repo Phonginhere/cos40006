@@ -1,0 +1,70 @@
+{
+    "FunctionalRequirements": [
+        {
+            "ID": "P-004-FR-001",
+            "Name": "Health Monitoring Dashboard",
+            "Description": "The system shall provide a caregiver dashboard that allows healthcare providers like Mike Johnson to monitor patients' health data, including medication adherence and vital signs, with visual indicators for missed medications or abnormal readings.",
+            "UseCases": [
+                "UC-001"
+            ],
+            "Tags": [
+                "Health_Support",
+                "User_Interaction"
+            ]
+        },
+        {
+            "ID": "P-004-FR-002",
+            "Name": "Voice Command Scheduling",
+            "Description": "The system shall enable users to schedule virtual gatherings using simple voice commands, ensuring ease of use for older adults who may struggle with complex technology.",
+            "UseCases": [
+                "UC-004"
+            ],
+            "Tags": [
+                "Event_Management",
+                "Usability"
+            ]
+        },
+        {
+            "ID": "P-004-FR-003",
+            "Name": "Social Activity Recommendations",
+            "Description": "The system shall recommend local events and activities tailored for older adults based on user preferences and health status, facilitating community engagement and reducing feelings of isolation.",
+            "UseCases": [
+                "UC-006"
+            ],
+            "Tags": [
+                "Local_Engagement",
+                "Personalization"
+            ]
+        }
+    ],
+    "NonFunctionalRequirements": [
+        {
+            "ID": "P-004-NFR-001",
+            "Name": "Data Privacy Compliance",
+            "Description": "The system shall comply with data privacy regulations to ensure that all user data is handled securely, providing users with control over their information and how it is shared.",
+            "UseCases": [
+                "UC-001",
+                "UC-004",
+                "UC-006"
+            ],
+            "Tags": [
+                "Privacy_Controls",
+                "Security"
+            ]
+        },
+        {
+            "ID": "P-004-NFR-002",
+            "Name": "User Accessibility",
+            "Description": "The system shall be designed to accommodate varying levels of technical ability among older adults, ensuring that all features are accessible to users with physical and cognitive impairments.",
+            "UseCases": [
+                "UC-001",
+                "UC-004",
+                "UC-006"
+            ],
+            "Tags": [
+                "Accessibility",
+                "Usability"
+            ]
+        }
+    ]
+}

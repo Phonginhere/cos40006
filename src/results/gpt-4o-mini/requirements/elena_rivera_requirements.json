@@ -1,0 +1,87 @@
+{
+    "FunctionalRequirements": [
+        {
+            "ID": "P-002-FR-001",
+            "Name": "Voice-Activated Medication Reminders",
+            "Description": "The system shall provide voice-activated reminders for medication times tailored to Elena's schedule, ensuring simplicity and clarity in instructions.",
+            "UseCases": [
+                "UC-001",
+                "UC-005"
+            ],
+            "Tags": [
+                "Health_Support",
+                "User_Interaction",
+                "Cognitive_Support"
+            ]
+        },
+        {
+            "ID": "P-002-FR-002",
+            "Name": "Virtual Gathering Scheduling",
+            "Description": "The system shall allow users to schedule virtual gatherings using simple voice commands, streamlining the process for users like Elena who may feel overwhelmed by technology.",
+            "UseCases": [
+                "UC-004"
+            ],
+            "Tags": [
+                "Communication",
+                "Event_Management",
+                "Usability"
+            ]
+        },
+        {
+            "ID": "P-002-FR-003",
+            "Name": "Caregiver Dashboard Access",
+            "Description": "The system shall provide a caregiver dashboard that allows caregivers to monitor medication adherence and health readings, ensuring they can offer appropriate support.",
+            "UseCases": [
+                "UC-001",
+                "UC-003"
+            ],
+            "Tags": [
+                "Health_Support",
+                "System_Automation",
+                "User_Interaction"
+            ]
+        },
+        {
+            "ID": "P-002-FR-004",
+            "Name": "Personalized Health Check Reminders",
+            "Description": "The system shall enable users to set personalized health check reminders, with notifications sent to both the user and designated caregivers to enhance support and adherence.",
+            "UseCases": [
+                "UC-003"
+            ],
+            "Tags": [
+                "Health_Support",
+                "Personalization",
+                "User_Interaction"
+            ]
+        }
+    ],
+    "NonFunctionalRequirements": [
+        {
+            "ID": "P-002-NFR-001",
+            "Name": "User-Friendly Interface",
+            "Description": "The system shall have a user-friendly interface that is easy to navigate for older adults with varying technical abilities, ensuring high usability.",
+            "UseCases": [
+                "UC-001",
+                "UC-003",
+                "UC-004"
+            ],
+            "Tags": [
+                "Usability",
+                "Accessibility"
+            ]
+        },
+        {
+            "ID": "P-002-NFR-002",
+            "Name": "Data Privacy and Security",
+            "Description": "The system shall ensure that all user data, including health information and personal interactions, are stored securely and comply with relevant privacy regulations.",
+            "UseCases": [
+                "UC-001",
+                "UC-005"
+            ],
+            "Tags": [
+                "Data_Privacy",
+                "Security"
+            ]
+        }
+    ]
+}

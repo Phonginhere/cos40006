@@ -1,0 +1,10 @@
+{
+    "ID": "UC-005",
+    "Name": "Cognitive Support Through Memory Reminders",
+    "Personas": [
+        "P-002",
+        "P-005",
+        "P-007"
+    ],
+    "Description": "Elena Rivera often struggles to remember daily tasks and appointments, which can lead to feelings of frustration. ALFRED provides her with gentle reminders for medication times, scheduled activities, and social engagements, tailored to her preferences. Olivia, while recovering from a recent health concern, uses ALFRED to receive prompts for engaging brain exercises and memory games, helping her stay active and connected. Thomas Schmidt appreciates ALFRED's subtle reminders, which allow him to maintain his independence while still receiving the cognitive support he needs without feeling like he is under constant surveillance. This use case highlights how ALFRED can enhance cognitive functioning and independence for older adults in a supportive manner."
+}

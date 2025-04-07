@@ -1,0 +1,11 @@
+{
+    "ID": "UC-003",
+    "Name": "Schedule Health Check Reminders",
+    "Personas": [
+        "P-001",
+        "P-002",
+        "P-005",
+        "P-006"
+    ],
+    "Description": "Elena Rivera, who is eager to maintain her independence but finds technology daunting, interacts with ALFRED to schedule reminders for her upcoming health check appointments. Using the voice-activated feature, she asks ALFRED to remind her of her doctor's visits and medication times. Daniel Chen, as her caregiver, can also access these reminders to ensure Elena receives the necessary support. Olivia, who is active and tech-savvy, shares her positive experience with ALFRED's reminders, encouraging Elena to embrace the technology, thus reinforcing social connections among their peer group."
+}

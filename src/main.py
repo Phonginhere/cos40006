@@ -79,8 +79,8 @@ def main():
     print()     
     print("====================================================== REQUIREMENTS COMPARATIVE ANALYSIS ============================================================")
     merged_output_folder = os.path.join("results", CURRENT_LLM, "merged_requirements")
-    # comparator = RequirementComparator(requirements, output_dir=merged_output_folder)
-    # comparator.run()
+    comparator = RequirementComparator(requirements, output_dir=merged_output_folder)
+    comparator.run()
     
     # Conflict Extraction
     print("\n========================================================== EXTRACT CONFLICTS TO CSV =================================================================")

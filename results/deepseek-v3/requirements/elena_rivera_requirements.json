@@ -1,0 +1,71 @@
+{
+    "FunctionalRequirements": [
+        {
+            "ID": "P-002-FR-001",
+            "Name": "Voice-Guided Event Participation",
+            "Description": "ALFRED should provide step-by-step voice instructions to guide users through joining and participating in virtual social events, ensuring ease of use for those intimidated by technology.",
+            "UseCases": [
+                "UC-001"
+            ],
+            "Tags": [
+                "Event_Management",
+                "User_Interaction",
+                "Usability"
+            ]
+        },
+        {
+            "ID": "P-002-FR-002",
+            "Name": "Personalized Medication Reminders",
+            "Description": "ALFRED must allow users to set up personalized medication reminders via voice or text, confirm when medication is taken, and notify caregivers if a dose is missed, ensuring privacy and user control.",
+            "UseCases": [
+                "UC-002"
+            ],
+            "Tags": [
+                "Health_Support",
+                "System_Automation",
+                "Privacy_Controls"
+            ]
+        },
+        {
+            "ID": "P-002-FR-003",
+            "Name": "Adaptive Cognitive Exercises",
+            "Description": "ALFRED should provide daily cognitive exercises tailored to the user's preferences and abilities, adjusting difficulty based on performance and offering encouragement to maintain motivation.",
+            "UseCases": [
+                "UC-003"
+            ],
+            "Tags": [
+                "Cognitive_Support",
+                "Personalization",
+                "Learning_Assistance"
+            ]
+        }
+    ],
+    "NonFunctionalRequirements": [
+        {
+            "ID": "P-002-NFR-001",
+            "Name": "Accessible Voice Interaction",
+            "Description": "ALFRED must ensure that all voice interactions are clear, simple, and accessible to users with varying technical abilities, including those with cognitive or physical limitations.",
+            "UseCases": [
+                "UC-001",
+                "UC-002",
+                "UC-003"
+            ],
+            "Tags": [
+                "Accessibility",
+                "Usability"
+            ]
+        },
+        {
+            "ID": "P-002-NFR-002",
+            "Name": "Data Privacy and Security",
+            "Description": "ALFRED must ensure that all user data, especially health-related information, is stored securely and shared only with explicit user consent, adhering to privacy regulations.",
+            "UseCases": [
+                "UC-002"
+            ],
+            "Tags": [
+                "Data_Privacy",
+                "Security"
+            ]
+        }
+    ]
+}

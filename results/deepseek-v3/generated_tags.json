@@ -1,0 +1,39 @@
+{
+    "Elena Rivera": [
+        "Social_Connection",
+        "Health_Maintenance",
+        "Cognitive_Support",
+        "Voice_Pref"
+    ],
+    "Thomas Schmidt": [
+        "Health_Maintenance",
+        "Cognitive_Support",
+        "Physical_Activity",
+        "Privacy_Concerned",
+        "Tech_Willing"
+    ],
+    "John Williams": [
+        "Privacy_Concerned"
+    ],
+    "Sarah Thompson": [
+        "Health_Maintenance",
+        "Cognitive_Support",
+        "Privacy_Concerned",
+        "Tech_Willing"
+    ],
+    "Daniel Chen": [],
+    "Mike Johnson": [
+        "Social_Connection",
+        "Health_Maintenance",
+        "Tech_Willing",
+        "Community_Engagement"
+    ],
+    "Olivia the Older Person": [
+        "Social_Connection",
+        "Health_Maintenance",
+        "Cognitive_Support",
+        "Physical_Activity",
+        "Tech_Willing",
+        "Community_Engagement"
+    ]
+}

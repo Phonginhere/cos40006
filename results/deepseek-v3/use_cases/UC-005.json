@@ -1,0 +1,10 @@
+{
+    "ID": "UC-005",
+    "Name": "Manage Privacy Settings for Health Monitoring",
+    "Personas": [
+        "P-007",
+        "P-003",
+        "P-006"
+    ],
+    "Description": "Thomas wants to use ALFRED to monitor his health metrics but is concerned about being constantly monitored. He accesses the privacy settings to customize what data is collected and how it is shared. John ensures the system complies with privacy regulations by providing clear options for data control. Thomas selects to share only essential health data with his care provider and opts out of continuous monitoring. ALFRED confirms his choices and provides a summary of his privacy settings. Thomas feels reassured knowing he has control over his data."
+}

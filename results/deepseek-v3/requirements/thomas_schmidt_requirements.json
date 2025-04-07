@@ -1,0 +1,88 @@
+{
+    "FunctionalRequirements": [
+        {
+            "ID": "P-007-FR-001",
+            "Name": "Personalized Medication Reminders",
+            "Description": "The system shall provide personalized medication reminders via voice or text, allowing users to set timing and dosage. It shall confirm when medication is taken and alert designated caregivers if a dose is missed, while respecting privacy settings.",
+            "UseCases": [
+                "UC-002"
+            ],
+            "Tags": [
+                "Health_Support",
+                "Privacy_Controls",
+                "System_Automation"
+            ]
+        },
+        {
+            "ID": "P-007-FR-002",
+            "Name": "Adaptive Cognitive Exercise Prompts",
+            "Description": "The system shall deliver daily cognitive exercises tailored to user preferences and abilities, adjusting difficulty based on performance. It shall provide encouragement and progress updates to maintain motivation.",
+            "UseCases": [
+                "UC-003"
+            ],
+            "Tags": [
+                "Cognitive_Support",
+                "Personalization",
+                "Learning_Assistance"
+            ]
+        },
+        {
+            "ID": "P-007-FR-003",
+            "Name": "Customizable Health Reminders",
+            "Description": "The system shall allow users to set up and customize daily health reminders (e.g., medication, hydration, exercise) based on their preferences. It shall aggregate and anonymize data for healthcare providers while maintaining user privacy.",
+            "UseCases": [
+                "UC-006"
+            ],
+            "Tags": [
+                "Health_Support",
+                "Privacy_Controls",
+                "User_Interaction"
+            ]
+        },
+        {
+            "ID": "P-007-FR-004",
+            "Name": "Privacy Settings Management",
+            "Description": "The system shall provide a clear and intuitive interface for users to customize privacy settings, including what data is collected and shared. It shall comply with privacy regulations and confirm user preferences.",
+            "UseCases": [
+                "UC-005"
+            ],
+            "Tags": [
+                "Privacy_Controls",
+                "Usability",
+                "Data_Privacy"
+            ]
+        }
+    ],
+    "NonFunctionalRequirements": [
+        {
+            "ID": "P-007-NFR-001",
+            "Name": "Privacy-Compliant Data Handling",
+            "Description": "The system shall ensure all data collection and sharing comply with privacy regulations, providing users with clear options to control their data and maintaining transparency in data usage.",
+            "UseCases": [
+                "UC-002",
+                "UC-005",
+                "UC-006"
+            ],
+            "Tags": [
+                "Data_Privacy",
+                "Security",
+                "Reliability"
+            ]
+        },
+        {
+            "ID": "P-007-NFR-002",
+            "Name": "Accessible and User-Friendly Interface",
+            "Description": "The system shall feature an accessible and intuitive interface designed for older adults with varying technical abilities, ensuring ease of use and minimal learning curve.",
+            "UseCases": [
+                "UC-002",
+                "UC-003",
+                "UC-005"
+            ],
+            "Tags": [
+                "Usability",
+                "Accessibility",
+                "User_Interaction"
+            ]
+        }
+    ]
+}

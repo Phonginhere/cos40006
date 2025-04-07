@@ -1,0 +1,102 @@
+{
+    "FunctionalRequirements": [
+        {
+            "ID": "P-004-FR-001",
+            "Name": "Remote Patient Health Monitoring",
+            "Description": "ALFRED must enable Mike to remotely monitor vital signs and health status of his patients, providing alerts for any significant changes to facilitate early intervention.",
+            "UseCases": [
+                "UC-006"
+            ],
+            "Tags": [
+                "Health_Support",
+                "System_Automation"
+            ]
+        },
+        {
+            "ID": "P-004-FR-002",
+            "Name": "Secure Communication Channel",
+            "Description": "ALFRED should provide a secure and encrypted communication channel for Mike to coordinate with patients and other healthcare providers, ensuring privacy and confidentiality.",
+            "UseCases": [
+                "UC-006",
+                "UC-007"
+            ],
+            "Tags": [
+                "Communication",
+                "Security",
+                "Data_Privacy"
+            ]
+        },
+        {
+            "ID": "P-004-FR-003",
+            "Name": "Event Participation Support",
+            "Description": "ALFRED must offer guidance and one-click join functionality for patients to participate in virtual social events, ensuring ease of use and technical support during the event.",
+            "UseCases": [
+                "UC-001",
+                "UC-007"
+            ],
+            "Tags": [
+                "Event_Management",
+                "Usability",
+                "Accessibility"
+            ]
+        },
+        {
+            "ID": "P-004-FR-004",
+            "Name": "Personalized Health Reminders",
+            "Description": "ALFRED should allow patients like Thomas to set up and customize daily health reminders, while providing Mike with anonymized adherence data for oversight.",
+            "UseCases": [
+                "UC-002",
+                "UC-006"
+            ],
+            "Tags": [
+                "Health_Support",
+                "Personalization",
+                "Privacy_Controls"
+            ]
+        }
+    ],
+    "NonFunctionalRequirements": [
+        {
+            "ID": "P-004-NFR-001",
+            "Name": "High System Reliability",
+            "Description": "ALFRED must ensure high reliability in health monitoring and communication features, minimizing downtime to maintain continuous patient care.",
+            "UseCases": [
+                "UC-006",
+                "UC-007"
+            ],
+            "Tags": [
+                "Reliability",
+                "Maintainability"
+            ]
+        },
+        {
+            "ID": "P-004-NFR-002",
+            "Name": "Scalable Event Management",
+            "Description": "ALFRED should be capable of scaling to accommodate varying numbers of participants in virtual social events without performance degradation.",
+            "UseCases": [
+                "UC-001",
+                "UC-007"
+            ],
+            "Tags": [
+                "Scalability",
+                "Event_Management"
+            ]
+        },
+        {
+            "ID": "P-004-NFR-003",
+            "Name": "Adaptive User Interface",
+            "Description": "ALFRED must adapt its interface based on the user's technical ability and preferences, ensuring accessibility for older adults with varying levels of tech proficiency.",
+            "UseCases": [
+                "UC-001",
+                "UC-002",
+                "UC-006",
+                "UC-007"
+            ],
+            "Tags": [
+                "Adaptability",
+                "Usability",
+                "Accessibility"
+            ]
+        }
+    ]
+}

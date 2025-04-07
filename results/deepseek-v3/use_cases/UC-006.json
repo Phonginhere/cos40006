@@ -1,0 +1,11 @@
+{
+    "ID": "UC-006",
+    "Name": "Schedule and Track Daily Health Reminders",
+    "Personas": [
+        "P-007",
+        "P-006",
+        "P-004",
+        "P-005"
+    ],
+    "Description": "Thomas wants to stay sharp and maintain his health without feeling monitored. He uses ALFRED to set up personalized daily health reminders, such as taking medication, drinking water, and doing light exercises. ALFRED allows him to customize the frequency and type of reminders based on his preferences. Mike, his healthcare provider, can view aggregated and anonymized data to ensure Thomas is adhering to his health routine without accessing specific details. This helps Thomas stay independent while giving Mike peace of mind about his patient’s well-being."
+}

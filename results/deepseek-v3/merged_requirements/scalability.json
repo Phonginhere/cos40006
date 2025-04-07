@@ -1,0 +1,13 @@
+{
+    "Tag": "Scalability",
+    "SimilarGroups": [],
+    "Conflicts": [
+        {
+            "Req1": "P-004-NFR-002",
+            "Req2": "P-001-FR-001",
+            "ConflictType": "Functionality Overlap vs. Divergence",
+            "PersonaConflict": "UC-001, UC-007 vs. No specified personas",
+            "Note": "Requirement P-004-NFR-002 focuses on scaling for virtual social events, while P-001-FR-001 emphasizes API integration for health devices. These requirements address different aspects of scalability—event management vs. health device integration—resulting in a divergence in functionality. The personas for P-004-NFR-002 are specified, but P-001-FR-001 lacks persona details, making it difficult to reconcile user needs."
+        }
+    ]
+}

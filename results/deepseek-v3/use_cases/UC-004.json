@@ -1,0 +1,9 @@
+{
+    "ID": "UC-004",
+    "Name": "Daily Step Goal Reminder and Progress Tracking",
+    "Personas": [
+        "P-007",
+        "P-005"
+    ],
+    "Description": "ALFRED prompts Thomas and Olivia to set a daily step goal based on their activity levels and health conditions. It sends gentle reminders throughout the day to encourage movement and tracks their progress using a connected wearable or smartphone. If they are close to reaching their goal, ALFRED congratulates them and suggests a short walk to achieve it. For Olivia, recovering from an injury, ALFRED adjusts the goal to ensure it is safe and achievable, providing encouragement to stay active without overexertion. Thomas appreciates the support without feeling overly monitored, as ALFRED respects his privacy preferences."
+}

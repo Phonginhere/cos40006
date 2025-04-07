@@ -1,0 +1,23 @@
+{
+    "Tag": "Cognitive_Support",
+    "SimilarGroups": [
+        {
+            "GroupID": "G1",
+            "OriginalRequirements": [
+                "P-007-FR-002",
+                "P-002-FR-003"
+            ],
+            "SimilarityNote": "Both requirements focus on delivering daily cognitive exercises tailored to user preferences and abilities, adjusting difficulty based on performance, and providing encouragement to maintain motivation.",
+            "DifferenceNote": "Requirement P-007-FR-002 explicitly mentions progress updates, while P-002-FR-003 does not.",
+            "UnifiedRequirement": {
+                "ID": "FR-M01",
+                "Name": "Adaptive Cognitive Exercise Prompts",
+                "Description": "The system shall deliver daily cognitive exercises tailored to user preferences and abilities, adjusting difficulty based on performance. It shall provide encouragement and progress updates to maintain motivation.",
+                "SourcePersonas": [
+                    "UC-003"
+                ]
+            }
+        }
+    ],
+    "Conflicts": []
+}

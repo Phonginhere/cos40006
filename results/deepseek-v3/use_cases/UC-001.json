@@ -1,0 +1,10 @@
+{
+    "ID": "UC-001",
+    "Name": "Schedule and Join Virtual Social Events",
+    "Personas": [
+        "P-002",
+        "P-004",
+        "P-005"
+    ],
+    "Description": "Elena wants to stay socially connected but finds it challenging to navigate technology. ALFRED suggests a virtual book club event and guides her through the process of joining. Olivia, who is recovering from surgery, also receives the event suggestion and easily joins using ALFRED’s voice commands. During the event, ALFRED provides reminders and technical support to ensure both users can participate without stress. After the event, ALFRED encourages them to share feedback and suggests future events based on their interests."
+}

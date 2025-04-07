@@ -47,8 +47,9 @@ class UserPersona:
 class UserPersonaLoader:
     """Loads new-format user personas from a directory of JSON files."""
 
-    def __init__(self, directory=r"data\personas"):
-        self.directory = directory
+    def __init__(self, directory="data/personas"):
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        self.directory = os.path.join(script_dir, directory)
         self.personas = []
 
     def load(self):

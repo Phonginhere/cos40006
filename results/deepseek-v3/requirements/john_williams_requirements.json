@@ -1,0 +1,66 @@
+{
+    "FunctionalRequirements": [
+        {
+            "ID": "P-003-FR-001",
+            "Name": "Customizable Privacy Settings",
+            "Description": "The system must allow users to customize their privacy settings, specifying which health data is collected and how it is shared, with clear options and summaries provided.",
+            "UseCases": [
+                "UC-005"
+            ],
+            "Tags": [
+                "Privacy_Controls",
+                "User_Interaction"
+            ]
+        },
+        {
+            "ID": "P-003-FR-002",
+            "Name": "Compliance with Privacy Regulations",
+            "Description": "The system must ensure all privacy settings and data handling practices comply with HIPAA, GDPR, and other relevant regulations, providing transparency and legal adherence.",
+            "UseCases": [
+                "UC-005"
+            ],
+            "Tags": [
+                "Data_Privacy",
+                "Security"
+            ]
+        },
+        {
+            "ID": "P-003-FR-003",
+            "Name": "Audit Trail for Data Access",
+            "Description": "The system must maintain a detailed audit trail of all user and system interactions, including data access and changes to privacy settings, for compliance and liability purposes.",
+            "UseCases": [
+                "UC-005"
+            ],
+            "Tags": [
+                "Security",
+                "Data_Privacy"
+            ]
+        }
+    ],
+    "NonFunctionalRequirements": [
+        {
+            "ID": "P-003-NFR-001",
+            "Name": "Traceability of User Actions",
+            "Description": "The system must ensure traceability of all user actions and system responses, with no auto-deletion of logs, to support compliance audits and regulatory requirements.",
+            "UseCases": [
+                "UC-005"
+            ],
+            "Tags": [
+                "Security",
+                "Reliability"
+            ]
+        },
+        {
+            "ID": "P-003-NFR-002",
+            "Name": "Strict Access Control",
+            "Description": "The system must enforce strict access control mechanisms, prioritizing compliance settings over user or developer preferences to prevent unauthorized data access.",
+            "UseCases": [
+                "UC-005"
+            ],
+            "Tags": [
+                "Security",
+                "Data_Privacy"
+            ]
+        }
+    ]
+}

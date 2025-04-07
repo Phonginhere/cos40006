@@ -1,0 +1,11 @@
+{
+    "ID": "UC-003",
+    "Name": "Daily Cognitive Exercise Reminder",
+    "Personas": [
+        "P-002",
+        "P-007",
+        "P-006",
+        "P-005"
+    ],
+    "Description": "ALFRED prompts Thomas and Elena with a daily cognitive exercise tailored to their preferences and abilities. For Thomas, it suggests a memory game that challenges him without feeling intrusive. For Elena, it offers a simple word puzzle she can complete at her own pace. The system adjusts the difficulty based on their performance over time. Both receive encouragement and progress updates to stay motivated. The exercises are designed to be engaging and supportive, helping them maintain cognitive sharpness independently."
+}

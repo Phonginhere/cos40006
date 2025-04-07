@@ -1,0 +1,89 @@
+{
+    "FunctionalRequirements": [
+        {
+            "ID": "P-006-FR-001",
+            "Name": "Real-Time Health Monitoring with Critical Alerts",
+            "Description": "The system must provide real-time health monitoring for multiple clients, with the ability to send critical alerts to the caregiver in case of anomalies or emergencies.",
+            "UseCases": [
+                "UC-002",
+                "UC-006"
+            ],
+            "Tags": [
+                "Health_Support",
+                "System_Automation",
+                "Responsiveness"
+            ]
+        },
+        {
+            "ID": "P-006-FR-002",
+            "Name": "Simplified Client Management Dashboard",
+            "Description": "The system must offer a simplified and intuitive dashboard for caregivers to manage multiple clients' care schedules, health data, and communication logs efficiently.",
+            "UseCases": [
+                "UC-002",
+                "UC-005",
+                "UC-006"
+            ],
+            "Tags": [
+                "User_Interaction",
+                "Usability",
+                "Event_Management"
+            ]
+        },
+        {
+            "ID": "P-006-FR-003",
+            "Name": "Secure Communication Channels",
+            "Description": "The system must provide secure communication channels for caregivers to interact with clients' family members and healthcare providers, ensuring data privacy and confidentiality.",
+            "UseCases": [
+                "UC-002",
+                "UC-005"
+            ],
+            "Tags": [
+                "Communication",
+                "Security",
+                "Data_Privacy"
+            ]
+        },
+        {
+            "ID": "P-006-FR-004",
+            "Name": "Offline Functionality for Remote Areas",
+            "Description": "The system must support offline functionality, allowing caregivers to access and update client information even in areas with limited internet connectivity.",
+            "UseCases": [
+                "UC-002",
+                "UC-006"
+            ],
+            "Tags": [
+                "Accessibility",
+                "Reliability",
+                "Adaptability"
+            ]
+        }
+    ],
+    "NonFunctionalRequirements": [
+        {
+            "ID": "P-006-NFR-001",
+            "Name": "High Usability for Caregivers",
+            "Description": "The system must be highly usable for caregivers, with an intuitive interface and quick access to critical functions, even during busy workdays.",
+            "UseCases": [
+                "UC-002",
+                "UC-005",
+                "UC-006"
+            ],
+            "Tags": [
+                "Usability",
+                "Accessibility"
+            ]
+        },
+        {
+            "ID": "P-006-NFR-002",
+            "Name": "Robust Data Privacy Controls",
+            "Description": "The system must ensure robust data privacy controls, allowing clients and caregivers to customize data sharing settings and comply with privacy regulations.",
+            "UseCases": [
+                "UC-005"
+            ],
+            "Tags": [
+                "Data_Privacy",
+                "Security"
+            ]
+        }
+    ]
+}

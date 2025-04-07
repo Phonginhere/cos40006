@@ -1,0 +1,9 @@
+{
+    "ID": "UC-007",
+    "Name": "Schedule and Join Virtual Community Events",
+    "Personas": [
+        "P-004",
+        "P-005"
+    ],
+    "Description": "Olivia wants to stay socially engaged and participate in virtual community events but finds it challenging to keep track of schedules and join sessions. ALFRED suggests upcoming events based on her interests and sends reminders. Mike, her caregiver, reviews the suggested events to ensure they align with her health and social needs. When the event time arrives, ALFRED provides a simple one-click join option, making it easy for Olivia to connect. This helps Olivia maintain her social connections and reduces her feelings of isolation."
+}

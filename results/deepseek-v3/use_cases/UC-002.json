@@ -1,0 +1,12 @@
+{
+    "ID": "UC-002",
+    "Name": "Remind and Track Medication Schedule",
+    "Personas": [
+        "P-002",
+        "P-007",
+        "P-006",
+        "P-004",
+        "P-005"
+    ],
+    "Description": "Elena and Thomas both take multiple medications daily but often forget the correct timing or dosage. ALFRED provides a simple voice or text interface to set up personalized medication reminders. When it’s time to take medication, ALFRED sends a gentle reminder and confirms when the medication is taken. If a dose is missed, ALFRED alerts a designated caregiver or family member. The system ensures privacy by only sharing necessary information and allows users to adjust settings based on their comfort level."
+}

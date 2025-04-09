@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Event Recommendation System for Caregiver Insights",
+    "summary": "As a caregiver, I want ALFRED to provide personalized event recommendations for older adults so that I can encourage their social engagement and monitor their interests effectively.",
+    "priority": 1,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-009",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-007",
+    "id": "US-068"
+  },
+  {
+    "title": "Social Connection Monitoring",
+    "summary": "As a Health IT Compliance Officer, I want to ensure that ALFRED provides reminders for older adults' social engagements and facilitates their communication with friends and family, so that I can support caregivers in enhancing the social interaction of older adults while maintaining compliance with data privacy regulations.",
+    "priority": 2,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-009",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-008",
+    "id": "US-069"
+  },
+  {
+    "title": "Group Communication Features for Care Coordination",
+    "summary": "As a caregiver, I want to use group messaging and video calls with older adults and family members so that I can promote community engagement and facilitate care coordination.",
+    "priority": 2,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-009",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-009",
+    "id": "US-070"
+  },
+  {
+    "title": "Activity Tracking and Feedback",
+    "summary": "As a caregiver, I want to track older adults' participation in social activities and gather their feedback so that I can ensure they are engaged and receive better future recommendations.",
+    "priority": 3,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-009",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-010",
+    "id": "US-071"
+  },
+  {
+    "title": "Social Media Integration for Communication",
+    "summary": "As a caregiver, I want ALFRED to enable older adults to link their social media accounts so that they can easily share health updates and stay connected with family and friends.",
+    "priority": 3,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-009",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-011",
+    "id": "US-072"
+  }
+]

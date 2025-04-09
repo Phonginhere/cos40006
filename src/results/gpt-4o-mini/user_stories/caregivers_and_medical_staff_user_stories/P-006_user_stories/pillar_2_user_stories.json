@@ -1,0 +1,87 @@
+[
+  {
+    "title": "Event Recommendation System",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want ALFRED to provide personalized recommendations for social events and activities based on my clients' interests so that I can encourage social engagement and help prevent isolation.",
+    "priority": 1,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-009",
+      "UC-011",
+      "UC-012",
+      "UC-013",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-007",
+    "id": "US-156"
+  },
+  {
+    "title": "Social Connection Reminders",
+    "summary": "As a professional caregiver, I want ALFRED to remind my clients of upcoming social engagements and facilitate communication with their friends and family so that they can maintain their social connections and reduce feelings of isolation.",
+    "priority": 2,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-002",
+      "UC-005",
+      "UC-006",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-008",
+    "id": "US-157"
+  },
+  {
+    "title": "Group Communication Features",
+    "summary": "As a professional caregiver, I want to facilitate group messaging and video calls among my clients, their families, and other caregivers so that we can enhance community connection and ensure everyone is informed about health and care updates.",
+    "priority": 2,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-002",
+      "UC-005",
+      "UC-006"
+    ],
+    "rawRequirementId": "RREQ-009",
+    "id": "US-158"
+  },
+  {
+    "title": "Activity Tracking and Feedback",
+    "summary": "As a professional caregiver, I want to track my clients' participation in social activities and gather their feedback so that I can refine future recommendations and ensure they remain engaged.",
+    "priority": 3,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-002",
+      "UC-005",
+      "UC-006",
+      "UC-011",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-010",
+    "id": "US-159"
+  },
+  {
+    "title": "Integration with Social Media",
+    "summary": "As a professional caregiver, I want to link social media accounts to ALFRED so that I can easily share updates and communicate with my clients' families, fostering a more connected experience.",
+    "priority": 3,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-002",
+      "UC-005",
+      "UC-006"
+    ],
+    "rawRequirementId": "RREQ-011",
+    "id": "US-160"
+  }
+]

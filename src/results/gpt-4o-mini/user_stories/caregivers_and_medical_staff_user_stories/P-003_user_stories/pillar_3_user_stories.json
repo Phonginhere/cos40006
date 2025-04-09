@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Health Data Visualization",
+    "summary": "As a caregiver, I want to view graphical representations of health metrics so that I can make informed decisions based on trends in vital signs over time.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-009",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-012",
+    "id": "US-073"
+  },
+  {
+    "title": "Care Task Management",
+    "summary": "As a caregiver, I want to create, assign, and track care tasks for older adults so that I can ensure all necessary care activities are completed on time and maintain compliance with care protocols.",
+    "priority": 2,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-009",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-013",
+    "id": "US-074"
+  },
+  {
+    "title": "Emergency Contact Notifications",
+    "summary": "As a caregiver, I want to set up emergency contact notifications so that I can alert designated individuals promptly in case of critical health incidents.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-009",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-014",
+    "id": "US-075"
+  },
+  {
+    "title": "Health Insights and Recommendations",
+    "summary": "As a Health IT Compliance Officer, I want ALFRED to analyze health data and provide caregivers with actionable insights and personalized recommendations so that caregivers can improve the care and wellness of older adults while ensuring compliance with data privacy regulations.",
+    "priority": 2,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-009",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-015",
+    "id": "US-076"
+  },
+  {
+    "title": "Secure Data Sharing with Medical Staff",
+    "summary": "As a Health IT Compliance Officer, I want ALFRED to facilitate secure sharing of health data between caregivers and authorized medical staff so that I can ensure compliance with privacy regulations and protect patient trust.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-009",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-016",
+    "id": "US-077"
+  },
+  {
+    "title": "User Feedback Mechanism",
+    "summary": "As a caregiver, I want to provide feedback on ALFRED's functionalities so that my suggestions can help improve the system's effectiveness in supporting older adults.",
+    "priority": 3,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-009",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-017",
+    "id": "US-078"
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "title": "Remote Health Monitoring Dashboard",
+    "summary": "As a professional caregiver, I want access to a comprehensive dashboard that displays real-time health metrics for my clients so that I can effectively monitor their well-being and respond promptly to any anomalies.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-024",
+    "id": "US-173"
+  },
+  {
+    "title": "Health Data Alert Customization",
+    "summary": "As a professional caregiver, I want to customize alert settings for health metrics so that I receive notifications tailored to specific health concerns of my clients.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-025",
+    "id": "US-174"
+  },
+  {
+    "title": "Care Task Progress Tracking",
+    "summary": "As a professional caregiver, I want to track the progress of care tasks assigned to my clients so that I can ensure timely completion and maintain accountability.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-009",
+      "UC-012",
+      "UC-013"
+    ],
+    "rawRequirementId": "RREQ-026",
+    "id": "US-175"
+  },
+  {
+    "title": "Secure User Consent Management",
+    "summary": "As a professional caregiver, I want older adults to easily manage and revoke their consent for data sharing so that their privacy preferences are respected and I can access necessary health data securely.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-006"
+    ],
+    "rawRequirementId": "RREQ-027",
+    "id": "US-176"
+  },
+  {
+    "title": "Quick Access to Emergency Information",
+    "summary": "As a professional caregiver, I want quick access to emergency contact information and critical health data so that I can respond effectively in urgent situations.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-006"
+    ],
+    "rawRequirementId": "RREQ-028",
+    "id": "US-177"
+  },
+  {
+    "title": "Integrated Communication Tools",
+    "summary": "As a professional caregiver, I want integrated communication tools in ALFRED so that I can effectively interact with my elderly clients through messaging and video calls, ensuring clear communication and better coordination of care.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-002",
+      "UC-005",
+      "UC-006"
+    ],
+    "rawRequirementId": "RREQ-029",
+    "id": "US-178"
+  }
+]

@@ -1,0 +1,21 @@
+{
+    "summary": "Older adults, generally aged 60+, face age-related physical and cognitive impairments which affect their daily lives. The focus here is on improving the quality of life, enhancing independence, and ensuring safety. They are often reluctant to use technology due to physical limitations, cognitive barriers, and a fear of digital exclusion. ALFRED aims to empower older adults by providing personalized care, social inclusion, and cognitive support through an interactive virtual assistant.",
+    "needs": [
+        {
+            "title": "Independence",
+            "description": "ALFRED provides a voice-activated virtual assistant to help older adults manage their daily tasks, such as setting reminders, making calls, and accessing information."
+        },
+        {
+            "title": "Physical Impairments Support",
+            "description": "The system helps monitor health conditions, send medication reminders, and send alerts in case of emergencies."
+        },
+        {
+            "title": "Social Inclusion",
+            "description": "ALFRED assists in maintaining social connections through features like event suggestions, messaging, and easy video calls with family and caregivers."
+        },
+        {
+            "title": "User-Friendly Interface",
+            "description": "The system should be simple and intuitive, catering to older adults with various cognitive and physical impairments, ensuring ease of navigation and interaction through voice and simple touch controls."
+        }
+    ]
+}

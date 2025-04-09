@@ -1,0 +1,99 @@
+[
+  {
+    "title": "Event Recommendation API",
+    "summary": "As a developer, I want to access user preferences through the Event Recommendation API so that I can create applications that recommend social events tailored to individual interests, enhancing social inclusion for elderly users.",
+    "priority": 1,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-007",
+    "id": "US-007"
+  },
+  {
+    "title": "Social Interaction Tracking",
+    "summary": "As a developer, I want to access user interaction data with family and friends through the API so that I can create applications that encourage regular communication and foster social engagement.",
+    "priority": 2,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-009",
+      "UC-012",
+      "UC-013",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-008",
+    "id": "US-008"
+  },
+  {
+    "title": "Social Media Integration",
+    "summary": "As a developer, I want to integrate third-party social media APIs into ALFRED so that users can share updates and engage with their community directly from the platform.",
+    "priority": 2,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-006",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-009",
+    "id": "US-009"
+  },
+  {
+    "title": "Feedback Loop for Social Engagement",
+    "summary": "As a developer, I want to access user engagement metrics related to social activities so that I can improve the applications I create for the elderly and their caregivers.",
+    "priority": 3,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-010",
+    "id": "US-010"
+  },
+  {
+    "title": "User-Generated Content Sharing",
+    "summary": "As a developer, I want to enable users to create and share content related to events or social activities so that they can engage with their community and express their creativity.",
+    "priority": 3,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-009",
+      "UC-012",
+      "UC-013",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-011",
+    "id": "US-011"
+  },
+  {
+    "title": "Social Engagement Notifications",
+    "summary": "As a developer, I want to enable notifications for users about upcoming social events that match their interests so that they can stay engaged and connected with their community.",
+    "priority": 2,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-012",
+      "UC-013",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-012",
+    "id": "US-012"
+  }
+]

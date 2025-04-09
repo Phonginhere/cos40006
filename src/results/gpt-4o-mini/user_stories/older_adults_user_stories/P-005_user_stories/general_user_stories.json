@@ -1,0 +1,120 @@
+[
+  {
+    "title": "Emergency Response Activation",
+    "summary": "As an older adult, I want to quickly activate emergency alerts using a simple voice command so that I can receive prompt assistance in crisis situations.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-002",
+      "UC-003",
+      "UC-007"
+    ],
+    "rawRequirementId": "RREQ-024",
+    "id": "US-143"
+  },
+  {
+    "title": "Medication Management",
+    "summary": "As an older adult, I want to set and receive reminders for my medication intake and refills so that I can manage my health effectively and maintain my independence.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-002",
+      "UC-003",
+      "UC-004",
+      "UC-007",
+      "UC-008",
+      "UC-010",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-025",
+    "id": "US-144"
+  },
+  {
+    "title": "Intuitive User Interface Design",
+    "summary": "As an older adult, I want an easy-to-navigate interface so that I can interact with ALFRED without frustration or confusion.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-002",
+      "UC-003",
+      "UC-007",
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-026",
+    "id": "US-145"
+  },
+  {
+    "title": "Personalized Interaction History",
+    "summary": "As an older adult, I want to easily access a history of my interactions with ALFRED so that I can review past commands and responses to better understand the system and improve my engagement.",
+    "priority": 3,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-002",
+      "UC-003",
+      "UC-007",
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-027",
+    "id": "US-146"
+  },
+  {
+    "title": "Social Engagement Tracking",
+    "summary": "As an older adult, I want ALFRED to track my participation in social activities so that I can receive feedback and encouragement to stay socially engaged.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-002",
+      "UC-003",
+      "UC-004",
+      "UC-007",
+      "UC-008",
+      "UC-010",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-028",
+    "id": "US-147"
+  },
+  {
+    "title": "Assisted Setup for Non-Tech Savvy Users",
+    "summary": "As an older adult, I want an assisted setup option for ALFRED so that I can easily complete the installation and configuration without needing external help.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-010",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-029",
+    "id": "US-148"
+  },
+  {
+    "title": "Flexible Activity Scheduling",
+    "summary": "As an older adult, I want to customize my schedules for physical and cognitive activities using voice commands so that I can easily align them with my daily routines and preferences.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-002",
+      "UC-003",
+      "UC-004",
+      "UC-007",
+      "UC-008",
+      "UC-010",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-030",
+    "id": "US-149"
+  }
+]

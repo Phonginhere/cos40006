@@ -1,0 +1,26 @@
+[
+    {
+      "id": "REQ-001",
+      "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+      "userGroup": "Older Adults",
+      "title": "Voice-Activated Commands",
+      "description": "Older adults should be able to use voice commands to interact with ALFRED for basic tasks such as setting reminders, checking the weather, or calling family members.",
+      "acceptanceCriteria": [
+        "ALFRED should accurately interpret and respond to voice commands.",
+        "Voice commands should be simple and easy to remember."
+      ],
+      "priority": "2"
+    },
+    {
+        "id": "REQ-002",
+        "pillar": "Pillar 3 - Effective & Personalized Care",
+        "userGroup": "Older Adults",
+        "title": "Patient Privacy Control",
+        "description": "Patients must have full control over what health data is shared with caregivers and medical staff.",
+        "acceptanceCriteria": [
+          "The system allows patients to set privacy preferences for each caregiver.",
+          "Only authorized caregivers have access to sensitive health data."
+        ],
+        "priority": "Medium"
+    },
+]

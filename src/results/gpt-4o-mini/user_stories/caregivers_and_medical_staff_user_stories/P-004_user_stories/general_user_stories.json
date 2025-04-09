@@ -1,0 +1,91 @@
+[
+  {
+    "title": "Remote Health Monitoring Dashboard",
+    "summary": "As a home-care nurse, I want access to a comprehensive dashboard that displays real-time health metrics for my patients so that I can efficiently monitor their well-being and respond quickly to any changes.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-024",
+    "id": "US-114"
+  },
+  {
+    "title": "Health Data Alert Customization",
+    "summary": "As a home-care nurse, I want to customize alert settings for health metrics so that I receive notifications tailored to specific health concerns for my patients.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-004",
+      "UC-005"
+    ],
+    "rawRequirementId": "RREQ-025",
+    "id": "US-115"
+  },
+  {
+    "title": "Care Task Progress Tracking",
+    "summary": "As a home-care nurse, I want to track the progress of care tasks assigned to my patients so that I can ensure timely completion and accountability.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-026",
+    "id": "US-116"
+  },
+  {
+    "title": "Secure User Consent Management",
+    "summary": "As a home-care nurse, I want older adults to easily manage and revoke consent for data sharing so that I can ensure their privacy preferences are respected while providing care.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-027",
+    "id": "US-117"
+  },
+  {
+    "title": "Quick Access to Emergency Information",
+    "summary": "As a home-care nurse, I want quick access to emergency contact information and critical health data so that I can respond effectively in urgent situations.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-028",
+    "id": "US-118"
+  },
+  {
+    "title": "Integrated Communication Tools",
+    "summary": "As a home-care nurse, I want integrated communication tools in ALFRED so that I can effectively interact with my patients through messaging and video calls, ensuring their social connection and timely support.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-002",
+      "UC-003",
+      "UC-005"
+    ],
+    "rawRequirementId": "RREQ-029",
+    "id": "US-119"
+  }
+]

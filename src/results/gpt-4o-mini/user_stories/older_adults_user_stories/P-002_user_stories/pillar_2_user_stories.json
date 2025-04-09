@@ -1,0 +1,83 @@
+[
+  {
+    "title": "Personalized Event Recommendations",
+    "summary": "As a tech-curious older adult, I want ALFRED to suggest social events based on my interests so that I can stay connected and engaged with my community.",
+    "priority": 1,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-003",
+      "UC-004"
+    ],
+    "rawRequirementId": "RREQ-007",
+    "id": "US-038"
+  },
+  {
+    "title": "Family Communication Support",
+    "summary": "As a tech-curious older adult with mild mobility issues, I want to easily communicate with my family through voice calls and video chats, so that I can stay connected and reduce feelings of isolation.",
+    "priority": 1,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-004",
+      "UC-007",
+      "UC-008"
+    ],
+    "rawRequirementId": "RREQ-008",
+    "id": "US-039"
+  },
+  {
+    "title": "Social Engagement Reminders",
+    "summary": "As a tech-curious older adult with mild mobility issues, I want to set reminders for upcoming social events or activities so that I can stay connected and not miss opportunities for engagement.",
+    "priority": 2,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-003",
+      "UC-004",
+      "UC-007",
+      "UC-008",
+      "UC-010",
+      "UC-011",
+      "UC-012",
+      "UC-013"
+    ],
+    "rawRequirementId": "RREQ-009",
+    "id": "US-040"
+  },
+  {
+    "title": "Community Connection Features",
+    "summary": "As a tech-curious older adult, I want ALFRED to suggest local community resources so that I can stay socially connected and engaged with activities that interest me.",
+    "priority": 3,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-003",
+      "UC-004",
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-010",
+    "id": "US-041"
+  },
+  {
+    "title": "User Feedback Mechanism",
+    "summary": "As an older adult, I want to easily give feedback about social features so that I can share my thoughts and contribute to improvements.",
+    "priority": 3,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-003",
+      "UC-004",
+      "UC-007"
+    ],
+    "rawRequirementId": "RREQ-011",
+    "id": "US-042"
+  }
+]

@@ -1,0 +1,108 @@
+[
+  {
+    "title": "Natural Language Interaction",
+    "summary": "As an older adult, I want ALFRED to understand my natural speech so that I can interact comfortably without needing to learn specific commands.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-003"
+    ],
+    "rawRequirementId": "RREQ-001",
+    "id": "US-179"
+  },
+  {
+    "title": "Voice Feedback for User Interactions",
+    "summary": "As an older adult, I want to receive clear and friendly audio feedback for my interactions with ALFRED so that I can understand the system's responses and feel reassured about the actions taken.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-003",
+      "UC-007",
+      "UC-008",
+      "UC-010",
+      "UC-013"
+    ],
+    "rawRequirementId": "RREQ-002",
+    "id": "US-180"
+  },
+  {
+    "title": "Personalized Reminders",
+    "summary": "As an older adult, I want to set personalized reminders for my tasks through voice commands so that I can manage my daily activities and appointments without forgetting them.",
+    "priority": 2,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-001",
+      "UC-003",
+      "UC-007"
+    ],
+    "rawRequirementId": "RREQ-003",
+    "id": "US-181"
+  },
+  {
+    "title": "Multimodal Interaction for Independence",
+    "summary": "As an older adult, I want to interact with ALFRED using both voice and touch controls so that I can manage my daily tasks easily and feel empowered.",
+    "priority": 2,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-003",
+      "UC-007",
+      "UC-008",
+      "UC-010",
+      "UC-013"
+    ],
+    "rawRequirementId": "RREQ-004",
+    "id": "US-182"
+  },
+  {
+    "title": "User-Friendly Onboarding Process",
+    "summary": "As an older adult, I want a straightforward onboarding process that guides me through the initial setup and familiarizes me with the system functionalities so that I can use ALFRED independently and confidently.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-003",
+      "UC-007",
+      "UC-008",
+      "UC-010",
+      "UC-013"
+    ],
+    "rawRequirementId": "RREQ-005",
+    "id": "US-183"
+  },
+  {
+    "title": "Contextual Help and Support",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to provide contextual help and support during my interactions so that I can receive assistance when I struggle without feeling overwhelmed or monitored.",
+    "priority": 3,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-003",
+      "UC-007",
+      "UC-008",
+      "UC-010",
+      "UC-013"
+    ],
+    "rawRequirementId": "RREQ-006",
+    "id": "US-184"
+  }
+]

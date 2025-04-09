@@ -1,0 +1,95 @@
+[
+  {
+    "title": "Real-Time Health Monitoring Access",
+    "summary": "As a home-care nurse, I want to access real-time health metrics from my patients so that I can efficiently monitor their health status and ensure timely intervention when needed.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-001",
+    "id": "US-091"
+  },
+  {
+    "title": "Video Communication for Remote Health Monitoring",
+    "summary": "As a home-care nurse, I want to initiate and receive video calls with my patients through ALFRED so that I can enhance communication regarding their health and well-being.",
+    "priority": 2,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-004",
+      "UC-005"
+    ],
+    "rawRequirementId": "RREQ-002",
+    "id": "US-092"
+  },
+  {
+    "title": "Medication Reminder System",
+    "summary": "As a home-care nurse, I want to set and adjust medication reminders for my patients so that they receive timely notifications for their medications, ensuring adherence to their care plans.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-003",
+    "id": "US-093"
+  },
+  {
+    "title": "User-Friendly Interface for Caregivers",
+    "summary": "As a home-care nurse, I want an intuitive interface to quickly access critical health information and perform necessary actions so that I can efficiently monitor my patients' health and maintain communication with them.",
+    "priority": 2,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-011",
+      "UC-012",
+      "UC-013"
+    ],
+    "rawRequirementId": "RREQ-004",
+    "id": "US-094"
+  },
+  {
+    "title": "Privacy Settings Management",
+    "summary": "As a home-care nurse, I want older adults to easily manage their privacy settings so that I can access only the health data they consent to share, ensuring their privacy and trust.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-005",
+    "id": "US-095"
+  },
+  {
+    "title": "Incident Alert System",
+    "summary": "As a home-care nurse, I want ALFRED to notify me of significant health incidents or anomalies detected in my patients' health data so that I can ensure timely intervention and provide effective care.",
+    "priority": 2,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-004",
+      "UC-005"
+    ],
+    "rawRequirementId": "RREQ-006",
+    "id": "US-096"
+  }
+]

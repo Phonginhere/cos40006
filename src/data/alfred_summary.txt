@@ -1,10 +1,29 @@
 System Context:
-You are designing requirements for ALFRED — a virtual assistant platform to support older adults in living independently, staying socially connected, managing health, and preventing cognitive or physical decline.
+ALFRED is a virtual assistant platform designed to support older adults in living independently, maintaining their physical and cognitive health, staying socially connected, and receiving effective and personalized care.
 
-The ALFRED system has 4 core functional pillars:
-1. User-Driven Interaction Assistant
-2. Personalized Social Inclusion
-3. Effective and Personalized Care
-4. Physical & Cognitive Impairments Prevention
+The ALFRED system is structured around four core functional pillars:
 
-All requirements should support older adults with varying technical ability, privacy needs, physical and cognitive capabilities.
+1. **User-Driven Interaction Assistant**  
+   ALFRED enables older adults to interact with the system using natural, voice-based commands to accomplish everyday tasks and access helpful information.
+
+2. **Personalized Social Inclusion**  
+   ALFRED helps prevent social isolation by fostering engagement in social activities, recommending events based on user interests, and supporting communication with friends and family.
+
+3. **Effective & Personalized Care**  
+   ALFRED integrates with health-monitoring devices to track users’ well-being and provide access to vital data for caregivers and medical staff. It facilitates timely intervention and long-term health tracking.
+
+4. **Physical & Cognitive Impairments Prevention**  
+   ALFRED promotes physical activity and cognitive stimulation through interactive games, challenges, and guided activities tailored to the user’s abilities.
+
+In addition to these pillars, the ALFRED system includes a set of **General Requirements**. These refer to cross-cutting or system-wide capabilities that are not bound to a single pillar but are essential for platform usability, safety, and extensibility. These include:
+
+- Accessibility for users with visual, auditory, or cognitive limitations
+- Data privacy, consent, and secure storage of personal and health information
+- Installation and configuration processes tailored to users with low technical literacy
+- Personalization and adaptivity of the interface and functionalities
+- Integration with various devices such as smartphones, tablets, and wearable sensors
+- Developer-friendly architecture for extending or integrating ALFRED into third-party systems
+
+ALFRED serves multiple stakeholders, including older adult end users, caregivers and medical professionals, and software developers or IT staff responsible for building and maintaining system components.
+
+All requirements, designs, and system interactions must consider the diverse needs, contexts, and abilities of the users. ALFRED must remain intuitive, respectful of user autonomy and privacy, and supportive of flexible care models.

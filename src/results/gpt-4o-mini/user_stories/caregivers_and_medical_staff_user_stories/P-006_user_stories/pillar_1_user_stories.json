@@ -1,0 +1,99 @@
+[
+  {
+    "title": "Real-Time Health Monitoring Access",
+    "summary": "As a professional caregiver, I want to access real-time health metrics from my clients so that I can monitor their health status and respond to any emergencies promptly.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-009"
+    ],
+    "rawRequirementId": "RREQ-001",
+    "id": "US-150"
+  },
+  {
+    "title": "Video Communication Integration",
+    "summary": "As a professional caregiver, I want to facilitate video calls with my clients so that I can enhance communication regarding their health and well-being.",
+    "priority": 2,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-004",
+      "UC-005"
+    ],
+    "rawRequirementId": "RREQ-002",
+    "id": "US-151"
+  },
+  {
+    "title": "Medication Reminder System",
+    "summary": "As a professional caregiver, I want to set and adjust medication reminders for my clients so that they can receive timely notifications for their medications.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-009"
+    ],
+    "rawRequirementId": "RREQ-003",
+    "id": "US-152"
+  },
+  {
+    "title": "User-Friendly Interface for Caregivers",
+    "summary": "As a professional caregiver, I want an intuitive interface to quickly access critical health information and perform necessary actions so that I can efficiently manage my clients' care without unnecessary complexity.",
+    "priority": 2,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-009",
+      "UC-011",
+      "UC-012",
+      "UC-013",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-004",
+    "id": "US-153"
+  },
+  {
+    "title": "Privacy Settings Management",
+    "summary": "As a professional caregiver, I want to ensure that I can only access the health data of my clients that they have permitted, so that I respect their privacy and maintain trust in our relationship.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-006",
+      "UC-005"
+    ],
+    "rawRequirementId": "RREQ-005",
+    "id": "US-154"
+  },
+  {
+    "title": "Incident Alert System",
+    "summary": "As a professional caregiver, I want to be notified of significant health incidents or anomalies in my clients' health data so that I can respond quickly and ensure their safety and well-being.",
+    "priority": 2,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-006"
+    ],
+    "rawRequirementId": "RREQ-006",
+    "id": "US-155"
+  }
+]

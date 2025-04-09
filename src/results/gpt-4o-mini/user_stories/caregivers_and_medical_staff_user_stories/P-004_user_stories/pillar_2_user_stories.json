@@ -1,0 +1,76 @@
+[
+  {
+    "title": "Event Recommendation for Social Engagement",
+    "summary": "As a home-care nurse, I want ALFRED to provide personalized recommendations for social events based on my patients' interests so that I can encourage them to engage socially and prevent isolation.",
+    "priority": 1,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-002",
+      "UC-005",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-007",
+    "id": "US-097"
+  },
+  {
+    "title": "Social Connection Reminders",
+    "summary": "As a home-care nurse, I want ALFRED to remind my patients of their upcoming social engagements so that they can maintain regular communication with friends and family, which helps prevent social isolation.",
+    "priority": 2,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-002",
+      "UC-005"
+    ],
+    "rawRequirementId": "RREQ-008",
+    "id": "US-098"
+  },
+  {
+    "title": "Group Communication Features",
+    "summary": "As a home-care nurse, I want to facilitate group messaging and video calls among my patients, their families, and myself so that we can promote community and connection, reducing social isolation.",
+    "priority": 2,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-005",
+      "UC-002",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-009",
+    "id": "US-099"
+  },
+  {
+    "title": "Activity Tracking and Feedback",
+    "summary": "As a home-care nurse, I want to track my patients' participation in social activities and gather feedback on their experiences so that I can provide better support and recommendations for their social engagement.",
+    "priority": 3,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-010",
+    "id": "US-100"
+  },
+  {
+    "title": "Social Media Integration",
+    "summary": "As a home-care nurse, I want to link my patients' social media accounts to ALFRED so that I can facilitate easier communication and sharing of events, helping to reduce their social isolation.",
+    "priority": 3,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-011",
+    "id": "US-101"
+  }
+]

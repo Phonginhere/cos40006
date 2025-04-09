@@ -1,0 +1,131 @@
+[
+  {
+    "title": "Emergency Response Activation",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to quickly initiate emergency alerts through a simple voice command so that I can receive prompt assistance in crisis situations without feeling monitored.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-003",
+      "UC-007",
+      "UC-008",
+      "UC-010",
+      "UC-013"
+    ],
+    "rawRequirementId": "RREQ-024",
+    "id": "US-202"
+  },
+  {
+    "title": "Medication Reminder System",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to set and receive reminders for my medication intake and refills using voice commands so that I can maintain my health independently without feeling monitored.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-007"
+    ],
+    "rawRequirementId": "RREQ-025",
+    "id": "US-203"
+  },
+  {
+    "title": "Intuitive User Interface Design",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to have an easy-to-navigate interface so that I can manage my daily tasks independently without feeling overwhelmed.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-003",
+      "UC-007",
+      "UC-008",
+      "UC-010",
+      "UC-013"
+    ],
+    "rawRequirementId": "RREQ-026",
+    "id": "US-204"
+  },
+  {
+    "title": "Personalized Interaction History",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to easily access a history of my interactions with ALFRED so that I can review previous commands and responses without feeling overwhelmed.",
+    "priority": 3,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-003",
+      "UC-007",
+      "UC-008",
+      "UC-010",
+      "UC-013"
+    ],
+    "rawRequirementId": "RREQ-027",
+    "id": "US-205"
+  },
+  {
+    "title": "Social Engagement Tracking",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to track my participation in social activities and provide motivational feedback so that I can stay engaged and maintain my social connections without feeling monitored.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-003",
+      "UC-007",
+      "UC-008",
+      "UC-010",
+      "UC-013"
+    ],
+    "rawRequirementId": "RREQ-028",
+    "id": "US-206"
+  },
+  {
+    "title": "Assisted Setup for Non-Tech Savvy Users",
+    "summary": "As an older adult, I want an assisted setup option that guides me through installation and configuration so that I can easily start using ALFRED without needing external help.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-003",
+      "UC-007",
+      "UC-008",
+      "UC-010",
+      "UC-013"
+    ],
+    "rawRequirementId": "RREQ-029",
+    "id": "US-207"
+  },
+  {
+    "title": "Flexible Activity Scheduling",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to customize my schedule for physical and cognitive activities so that I can align them with my daily routines and preferences without feeling overwhelmed.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-003",
+      "UC-007",
+      "UC-008",
+      "UC-010",
+      "UC-013"
+    ],
+    "rawRequirementId": "RREQ-030",
+    "id": "US-208"
+  }
+]

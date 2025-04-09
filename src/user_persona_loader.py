@@ -1,27 +1,32 @@
 import json
 import os
+from typing import List, Optional
+
 
 class UserPersona:
     """Represents a new-format user persona (e.g., Olivia, Elena, Thomas)."""
 
-    def __init__(self, data):
+    def __init__(self, data: dict):
         self.raw_data = data
-        self.id = data.get("Id", "Unknown")
-        self.name = data.get("Name", "Unknown")
-        self.role = data.get("Role", "Unknown")
-        self.tagline = data.get("Tagline", "")
-        self.demographic_data = data.get("Demographic data", {})
-        self.core_characteristics = data.get("Core characteristics", [])
-        self.core_goals = data.get("Core goals", [])
-        self.typical_challenges = data.get("Typical challenges", [])
-        self.singularities = data.get("Singularities", [])
-        self.working_situation = data.get("Working situation", "")
-        self.place_of_work = data.get("Place of work", "")
-        self.expertise = data.get("Expertise", "")
-        self.main_tasks = data.get("Main tasks with system support", [])
-        self.most_important_tasks = data.get("Most important tasks", [])
-        self.least_important_tasks = data.get("Least important tasks", [])
-        self.miscellaneous = data.get("Miscellaneous", [])
+        self.id: str = data.get("Id", "Unknown")
+        self.name: str = data.get("Name", "Unknown")
+        self.role: str = data.get("Role", "Unknown")
+        self.tagline: str = data.get("Tagline", "")
+
+        self.demographic_data: dict = data.get("Demographic data", {})
+        self.core_characteristics: List[str] = data.get("Core characteristics", [])
+        self.core_goals: List[str] = data.get("Core goals", [])
+        self.typical_challenges: List[str] = data.get("Typical challenges", [])
+        self.singularities: List[str] = data.get("Singularities", [])
+
+        self.working_situation: str = data.get("Working situation", "")
+        self.place_of_work: str = data.get("Place of work", "")
+        self.expertise: str = data.get("Expertise", "")
+
+        self.main_tasks: List[str] = data.get("Main tasks with system support", [])
+        self.most_important_tasks: List[str] = data.get("Most important tasks", [])
+        self.least_important_tasks: List[str] = data.get("Least important tasks", [])
+        self.miscellaneous: List[str] = data.get("Miscellaneous", [])
 
     def __repr__(self):
         return f"UserPersona(Name={self.name})"
@@ -47,28 +52,33 @@ class UserPersona:
 class UserPersonaLoader:
     """Loads new-format user personas from a directory of JSON files."""
 
-    def __init__(self, directory=r"data\personas"):
-        self.directory = directory
-        self.personas = []
+    def __init__(self, directory: Optional[str] = None):
+        self.directory: str = directory or os.path.join("data", "personas")
+        self.personas: List[UserPersona] = []
 
-    def load(self):
-        """Loads all JSON files in the directory into UserPersona instances."""
+    def load(self) -> None:
+        """Loads all valid JSON files in the directory into UserPersona instances."""
         try:
             for filename in os.listdir(self.directory):
                 if filename.endswith(".json"):
                     filepath = os.path.join(self.directory, filename)
                     with open(filepath, "r", encoding="utf-8") as file:
                         data = json.load(file)
-                        self.personas.append(UserPersona(data))
-            print(f"✅ Loaded {len(self.personas)} personas successfully.")
+
+                        # Validate minimum required fields
+                        if "Id" in data and "Name" in data:
+                            self.personas.append(UserPersona(data))
+                        else:
+                            print(f"⚠️ Skipping '{filename}': missing 'Id' or 'Name'.")
+            print(f"✅ Loaded {len(self.personas)} persona(s) successfully.")
         except Exception as e:
             print(f"❌ Error loading personas: {e}")
 
-    def get_personas(self):
+    def get_personas(self) -> List[UserPersona]:
         """Returns all loaded personas."""
         return self.personas
 
-    def print_persona(self, name):
+    def print_persona(self, name: str) -> None:
         """Prints details of a persona by name."""
         for persona in self.personas:
             if persona.name.lower() == name.lower():
@@ -76,7 +86,7 @@ class UserPersonaLoader:
                 return
         print(f"❌ Persona with name '{name}' not found.")
 
-    def print_all_personas(self):
+    def print_all_personas(self) -> None:
         """Prints all loaded personas."""
         if not self.personas:
             print("❌ No personas loaded.")
@@ -84,3 +94,7 @@ class UserPersonaLoader:
         for persona in self.personas:
             persona.display()
         print()
+
+    def find_by_role(self, role: str) -> List[UserPersona]:
+        """Returns personas matching a given role."""
+        return [p for p in self.personas if p.role.lower() == role.lower()]

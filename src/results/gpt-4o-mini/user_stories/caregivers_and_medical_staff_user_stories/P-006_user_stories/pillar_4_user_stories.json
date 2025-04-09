@@ -1,0 +1,97 @@
+[
+  {
+    "title": "Cognitive Engagement Activities",
+    "summary": "As a professional caregiver, I want to recommend interactive cognitive games and challenges to my clients based on their preferences so that I can help stimulate their cognitive functions and keep them engaged.",
+    "priority": 1,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-004",
+      "UC-006",
+      "UC-009"
+    ],
+    "rawRequirementId": "RREQ-018",
+    "id": "US-167"
+  },
+  {
+    "title": "Physical Activity Tracking",
+    "summary": "As a professional caregiver, I want to track my clients' physical activity levels so that I can encourage increased mobility and exercise, ultimately improving their health and well-being.",
+    "priority": 1,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-019",
+    "id": "US-168"
+  },
+  {
+    "title": "Personalized Activity Suggestions",
+    "summary": "As a professional caregiver, I want ALFRED to recommend physical activities based on my clients' abilities and preferences so that I can promote suitable options for engagement and improve their well-being.",
+    "priority": 2,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-009",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-020",
+    "id": "US-169"
+  },
+  {
+    "title": "Activity Progress Monitoring",
+    "summary": "As a professional caregiver, I want to monitor the progress and participation of my clients in cognitive and physical activities so that I can provide tailored support and ensure their engagement.",
+    "priority": 2,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-021",
+    "id": "US-170"
+  },
+  {
+    "title": "Feedback Mechanism for Activity Effectiveness",
+    "summary": "As a caregiver, I want to receive feedback on the effectiveness and enjoyment of activities so that I can adjust future recommendations and provide personalized care.",
+    "priority": 3,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-011",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-022",
+    "id": "US-171"
+  },
+  {
+    "title": "Guided Exercise Routines",
+    "summary": "As a professional caregiver, I want to initiate guided exercise routines for my clients so that they can engage in safe and appropriate physical activities that promote their health.",
+    "priority": 1,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-004",
+      "UC-006",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-023",
+    "id": "US-172"
+  }
+]

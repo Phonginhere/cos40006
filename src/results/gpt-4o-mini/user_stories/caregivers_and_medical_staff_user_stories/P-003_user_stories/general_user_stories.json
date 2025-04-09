@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Remote Health Monitoring Dashboard",
+    "summary": "As a caregiver, I want to access a comprehensive dashboard that displays real-time health metrics for older adults so that I can effectively monitor their well-being.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-009",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-024",
+    "id": "US-085"
+  },
+  {
+    "title": "Health Data Alert Customization",
+    "summary": "As a Health IT Compliance Officer, I want caregivers to customize alert settings for health metrics so that they receive notifications tailored to specific health concerns while ensuring compliance with data privacy regulations.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-009",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-025",
+    "id": "US-086"
+  },
+  {
+    "title": "Care Task Progress Tracking",
+    "summary": "As a caregiver, I want to track the progress of care tasks assigned to older adults so that I can ensure timely completion and accountability.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-009",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-026",
+    "id": "US-087"
+  },
+  {
+    "title": "Secure User Consent Management",
+    "summary": "As a health IT compliance officer, I want ALFRED to provide a mechanism for older adults to manage and revoke consent for data sharing so that I can ensure compliance with privacy regulations and protect patient trust.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-009",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-027",
+    "id": "US-088"
+  },
+  {
+    "title": "Quick Access to Emergency Information",
+    "summary": "As a caregiver, I want quick access to emergency contact information and critical health data so that I can respond effectively in urgent situations.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-009",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-028",
+    "id": "US-089"
+  },
+  {
+    "title": "Integrated Communication Tools for Caregivers",
+    "summary": "As a Health IT Compliance Officer, I want integrated communication tools for caregivers within ALFRED so that they can effectively interact with older adults while ensuring compliance with data privacy regulations.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-009",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-029",
+    "id": "US-090"
+  }
+]

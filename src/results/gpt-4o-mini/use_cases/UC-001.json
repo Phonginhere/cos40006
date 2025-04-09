@@ -1,13 +1,13 @@
 {
-    "ID": "UC-001",
-    "Name": "Health Monitoring and Reminders",
-    "Personas": [
-        "P-001",
-        "P-002",
-        "P-004",
-        "P-005",
-        "P-006",
-        "P-007"
-    ],
-    "Description": "Elena Rivera receives daily health reminders from the ALFRED platform to take her medications and check her blood pressure. The system uses simple voice commands to interact with her, ensuring that she understands the instructions without feeling overwhelmed. Meanwhile, Daniel Chen monitors Elena's adherence to her health regimen through a caregiver dashboard, which highlights any missed medications or abnormal health readings. Mike Johnson, as her healthcare provider, receives weekly summaries of Elena's health data, enabling him to provide personalized advice and support while keeping her socially connected through regular check-ins. This collaborative approach ensures that Elena maintains her independence while effectively managing her health."
+  "id": "UC-001",
+  "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+  "name": "Voice Command for Daily Tasks",
+  "description": "Allow users to issue voice commands to ALFRED to perform daily tasks such as setting reminders, checking the weather, or making phone calls.",
+  "scenario": "Elena Rivera, an active 75-year-old, starts her day in her cozy apartment filled with family photos and plants. She enjoys the independence of living alone but sometimes finds herself struggling with everyday tasks. This morning, she wakes up to the soft voice of ALFRED gently reminding her, \"Good morning, Elena! It's 8 AM. Would you like me to remind you of your appointments today?\" \n\nElena smiles, feeling grateful for the gentle nudge. \"Yes, please remind me about my yoga class at 10 AM,\" she replies. ALFRED confirms, \"Got it! I’ll remind you again at 9:30 AM.\" \n\nAfter getting dressed, Elena steps into her kitchen, where she decides to prepare a healthy breakfast. As she starts making scrambled eggs, she remembers she needs to buy groceries later. She turns to ALFRED and says, \"Add eggs and bread to my shopping list.\" ALFRED responds, \"Eggs and bread have been added to your shopping list.\" Elena feels a sense of relief knowing she won’t forget.\n\nOnce breakfast is done, Elena wants to check the weather before heading out. \"ALFRED, what's the weather like today?\" she asks. \"Today’s forecast is sunny with a high of 75 degrees,\" ALFRED replies. Elena nods, pleased with the information. With her lightweight jacket in hand, she heads to the door.\n\nMeanwhile, Mike Johnson, her son, is at work but wants to stay connected with his mother. He uses the ALFRED app on his smartphone to check in on her. He sees that she’s active and decides to give her a quick call. “ALFRED, call Mom,” he instructs the app. The call connects, and Elena's face lights up when she sees Mike on the screen. \n\n“Hi, Mom! How’s your day going?” Mike asks. “I’m just about to head to yoga. ALFRED helped me get ready,” she replies, feeling proud of her independence. They chat about their plans for the weekend, and Mike reminds her to take her medication later. Elena appreciates that Mike checks in regularly, knowing it helps him feel connected despite their busy lives.\n\nLater in the day, Sarah Thompson, Elena's neighbor and friend, invites her to join a book club meeting. Sarah knocks on the door and, noticing Elena is busy, suggests, \"Why don’t you ask ALFRED to send me a message if you’d like to join us later?\" Elena thinks for a moment, then turns to ALFRED, “Send a message to Sarah. I’d love to join the book club at 3 PM!” \n\nALFRED confirms, “Sending your message now.” Soon after, Sarah receives the notification on her device, and she smiles, knowing Elena will be there. \n\nAs the day progresses, Elena enjoys her yoga class, participates in the book club, and returns home feeling fulfilled and socially engaged. Before bed, she decides to make a phone call to her friend Thomas Schmidt to catch up. “ALFRED, call Thomas,” she says. The call connects seamlessly, and they spend the next half hour reminiscing about old times, solidifying their friendship.\n\nWith ALFRED's support throughout her day, Elena feels empowered, organized, and connected, reaffirming her desire to live independently while having a reliable assistant by her side.",
+  "personas": [
+    "P-002",
+    "P-004",
+    "P-006",
+    "P-007"
+  ]
 }

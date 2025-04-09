@@ -1,92 +1,61 @@
 import os
+from use_case_generator import generate_raw_use_cases, enrich_use_cases_with_scenarios
 from user_persona_loader import UserPersonaLoader
-from use_case_generator import UseCaseGenerator, UseCaseLoader
-from requirement_generator import RequirementGenerator, RequirementLoader
-from requirement_comparator import RequirementComparator
-from conflict_extractor import ConflictExtractor
-from llm_handler import CURRENT_LLM
+from use_case_loader import UseCaseLoader
+from raw_requirement_generator import generate_all_raw_requirements
+from raw_requirement_loader import RawRequirementLoader
+from user_story_generator import generate_user_stories_by_persona
+from utils import CURRENT_LLM
+
+USE_CASE_FOLDER = os.path.join("results", CURRENT_LLM, "use_cases")
+
+
+def is_use_case_folder_empty(folder: str) -> bool:
+    return not any(fname.endswith(".json") and fname.startswith("UC-") for fname in os.listdir(folder)) if os.path.exists(folder) else True
 
 def main():
-    print()
-    print("======================================================================================================================================================") 
-    print(f"======================================= SYSTEM REQUIREMENT GENERATOR — Using LLM: {CURRENT_LLM.upper()} ==========================================")
-    print("======================================================================================================================================================") 
-
+    # Step 1: Load user personas
     print("\n============================================================= LOAD USER PERSONAS =====================================================================")
+    print("\n📁 Loading user personas...")
     persona_loader = UserPersonaLoader()
     persona_loader.load()
-    personas = persona_loader.get_personas()
+    persona_loader.print_all_personas()
 
-    if not personas:
-        print("❌ No user personas found. Please add persona JSON files.")
-        return
-
-    print(f"\n📌 Loaded {len(personas)} personas:\n")
-    for persona in personas:
-        print("------------------------------------------------------------------------------------------------------------------------------------------------------")
-        persona.display()
-
-    print()
-    print("============================================================== LOAD / GENERATE USE CASES =============================================================")
-
-    use_case_folder = os.path.join("results", CURRENT_LLM, "use_cases")
-    use_cases = []
-
-    if os.path.exists(use_case_folder) and os.listdir(use_case_folder):
-        print("📁 Existing use cases found — loading them...")
-        use_case_loader = UseCaseLoader(use_case_dir=use_case_folder) 
+    # Step 2: Load/Generate use cases
+    print("\n============================================================== LOAD / GENERATE USE CASES =============================================================")
+    #   Step 2a: Check for use cases
+    print("\n📁 Checking for existing use cases...")
+    if is_use_case_folder_empty(USE_CASE_FOLDER):
+        print("📂 No use cases found. Starting generation process...")
+        generate_raw_use_cases()
+    else:
+        print("📂 Existing use cases found. Loading from files...")
+        use_case_loader = UseCaseLoader()
         use_case_loader.load()
-        use_cases = use_case_loader.get_use_cases()
-    else:
-        print("⚙️ No existing use cases found — generating new ones...")
-        generator = UseCaseGenerator(personas)
-        use_cases = generator.generate_use_cases(output_dir=use_case_folder)
-
-    print(f"\n✅ {len(use_cases)} use case(s) ready.\n")
-    for use_case in use_cases:
-        print("------------------------------------------------------------------------------------------------------------------------------------------------------")
-        use_case.display()
-
-    print()
-    print("============================================================= LOAD / GENERATE REQUIREMENTS ===========================================================")
-
-    requirements_folder = os.path.join("results", CURRENT_LLM, "requirements")  
-    requirements = {}
-
-    if os.path.exists(requirements_folder) and os.listdir(requirements_folder):
-        print("📁 Existing requirements found — loading them...")
-        req_loader = RequirementLoader(folder=requirements_folder)
-        requirements = req_loader.load()
-    else:
-        print("⚙️ No existing requirements found — generating new ones...")
-        req_generator = RequirementGenerator(personas, use_cases)
-        req_generator.generate_requirements(output_dir=requirements_folder)
-        print("\n✅ Requirement generation complete.")
-        req_loader = RequirementLoader(folder=requirements_folder)
-        requirements = req_loader.load()
-
-    print(f"\n✅ Loaded requirements for {len(requirements)} personas.\n")
-    all_requirements = []
-    for persona, reqs in requirements.items():
-        print(f"------------------------------------------------------------------------------------------------------------------------------------------------------")
-        print(f"👤 Requirements for {persona}:")
-        all_requirements.extend(reqs)
-        for r in reqs:
-            print(f"   - [{r.id}] {r.name} ({r.type}) — Tags: {', '.join(r.tags)}")
-            print(f"     ↳ Use Cases: {', '.join(r.use_cases)}")
-            print(f"     ↳ {r.description}\n")
-
-    print()     
-    print("====================================================== REQUIREMENTS COMPARATIVE ANALYSIS ============================================================")
-    merged_output_folder = os.path.join("results", CURRENT_LLM, "merged_requirements")
-    # comparator = RequirementComparator(requirements, output_dir=merged_output_folder)
-    # comparator.run()
+        for uc in use_case_loader.get_all():
+            print(f"✅ {uc.id} - {uc.name} ({uc.pillar})")
     
-    # Conflict Extraction
-    print("\n========================================================== EXTRACT CONFLICTS TO CSV =================================================================")
-    output_csv_path = os.path.join("results", CURRENT_LLM, "conflicts.csv")
-    extractor = ConflictExtractor(requirements=all_requirements, personas=personas, merged_dir=merged_output_folder)
-    extractor.extract_conflicts_to_csv(output_csv_path)
+    #   Step 2b: Enrich with scenarios and personas (Phase 2)
+    print("\n🔍 Beginning scenario enrichment...")
+    enrich_use_cases_with_scenarios()
+    
+    print("\n📋 Final Use Cases Summary:")
+    use_case_loader = UseCaseLoader()
+    use_case_loader.load()
+    use_case_loader.print_all_use_cases()
+    
+    # Step 3: Load/Generate Raw Requirements
+    print("\n================================================================ RAW REQUIREMENTS ====================================================================")
+    print("🚀 Starting ALFRED raw requirement generation pipeline...")
+    generate_all_raw_requirements()
+
+    # Step 4: Generate Persona-Based User Stories
+    print("\n============================================================ GENERATE USER STORIES ==================================================================")
+    print("🛠️ Generating user stories for each persona based on raw requirements, use cases, and ALFRED context...")
+    requirement_loader = RawRequirementLoader()
+    generate_user_stories_by_persona(persona_loader, requirement_loader, use_case_loader)
+    
+    print("\n✅ Pipeline completed successfully. Check your results in the output folder.")
 
 if __name__ == "__main__":
     main()

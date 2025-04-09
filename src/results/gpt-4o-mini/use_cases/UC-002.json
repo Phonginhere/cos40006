@@ -1,10 +1,14 @@
 {
-    "ID": "UC-002",
-    "Name": "Manage Privacy Settings",
-    "Personas": [
-        "P-001",
-        "P-003",
-        "P-007"
-    ],
-    "Description": "Thomas Schmidt wants to customize his privacy settings within the ALFRED virtual assistant platform to ensure that his personal information and health data are secure. He navigates to the privacy management section of the application, where he can easily understand and adjust what data is shared with caregivers and how it is used. Daniel Chen collaborates with the development team to ensure that the privacy options are clearly explained in accessible language. John Williams reviews the privacy settings to ensure they comply with regulations and maintain user trust. Thomas feels empowered by the control he has over his data, allowing him to utilize the platform without feeling monitored."
+  "id": "UC-002",
+  "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+  "name": "Ask Basic Queries",
+  "description": "Enable users to ask ALFRED simple questions about various topics, such as news updates, definitions, or general knowledge, using natural language.",
+  "scenario": "Elena Rivera, a devoted granddaughter, visits her grandmother, Olivia, at her apartment in a vibrant senior community. Olivia, an independent 78-year-old, enjoys staying informed about the world around her but finds it challenging to navigate the internet and keep up with the news. Today, she feels particularly curious about the latest developments regarding a local art exhibit she had heard about. \n\nAs they settle into the cozy living room, Elena notices Olivia looking a bit puzzled. \"Would you like to ask ALFRED about that art exhibit, Grandma?\" Elena suggests, pointing to the small device on the coffee table. Olivia’s eyes light up at the idea, and she nods enthusiastically.\n\n“ALFRED, can you tell me about the new art exhibit at the downtown gallery?” Olivia speaks clearly, her voice warm with curiosity. The ALFRED system responds promptly, “Sure, Olivia! The new exhibit features local artists and opens this Friday. It includes a variety of paintings and sculptures.” Olivia smiles, pleased with the information.\n\n“Wow, that sounds wonderful! What are the gallery hours?” Olivia continues, feeling more engaged. ALFRED replies, “The gallery is open from 10 AM to 6 PM, Tuesday through Sunday.” \n\nElena watches her grandmother’s face light up with excitement. “Maybe we can go together, Grandma! I can help you with the transportation.” \n\nFeeling encouraged, Olivia leans in closer to ALFRED. “ALFRED, what’s the weather like this weekend?” she asks. “This Saturday is expected to be sunny with a high of 75 degrees,” ALFRED responds. Olivia beams, “Perfect day for an outing!”\n\nJust then, Mike Johnson, Olivia’s caregiver, arrives for his scheduled visit. He greets Elena and Olivia with a smile. “How’s everything going?” he asks, noticing the lively conversation. \n\n“Great! We were just asking ALFRED about the art exhibit and the weather,” Elena shares. Mike nods approvingly, understanding the importance of keeping Olivia engaged and informed. \n\n“ALFRED can also help you with any health-related questions, Olivia. If you're unsure about your medications or need to know how to manage your blood pressure, just ask,” Mike encourages. Olivia looks thoughtful, appreciating the reminder.\n\n“ALFRED, how do I take my blood pressure medication?” Olivia asks. The system responds with clear, simple instructions tailored to her needs. Mike listens attentively, ready to provide additional support if needed.\n\nAs they wrap up their session, Olivia expresses her gratitude, “I love how easy it is to get information now. It makes me feel connected.” \n\nElena gives her a reassuring hug, “I’m so glad, Grandma! ALFRED is here to help you whenever you need.” \n\nWith the support of ALFRED, Olivia feels empowered to explore her interests and stay informed, reinforcing her independence and enhancing her quality of life. As Elena leaves, she feels reassured knowing that Olivia can continue to interact with ALFRED, bridging the gap between her curiosity and the digital world.",
+  "personas": [
+    "P-002",
+    "P-004",
+    "P-005",
+    "P-006",
+    "P-007"
+  ]
 }

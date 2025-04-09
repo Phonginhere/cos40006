@@ -1,0 +1,99 @@
+[
+  {
+    "title": "Health Monitoring Integration",
+    "summary": "As an older adult, I want ALFRED to integrate with wearable health-monitoring devices so that I can track my vital signs and share real-time health data with my caregivers.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-003",
+      "UC-007",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-012",
+    "id": "US-131"
+  },
+  {
+    "title": "Emergency Alert Activation",
+    "summary": "As an older adult, I want to activate an emergency alert using a simple voice command so that I can quickly notify caregivers or emergency services in case of a health crisis or fall.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-002",
+      "UC-003",
+      "UC-007"
+    ],
+    "rawRequirementId": "RREQ-013",
+    "id": "US-132"
+  },
+  {
+    "title": "Medication Management",
+    "summary": "As an older adult, I want to track my medications and receive reminders for intake and refills so that I can manage my health effectively and maintain my independence.",
+    "priority": 2,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-002",
+      "UC-003",
+      "UC-008",
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-014",
+    "id": "US-133"
+  },
+  {
+    "title": "Caregiver Communication",
+    "summary": "As an older adult, I want my caregiver to have access to my health data and medication schedules so that they can provide better support and care for me.",
+    "priority": 2,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-002",
+      "UC-003",
+      "UC-008",
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-015",
+    "id": "US-134"
+  },
+  {
+    "title": "Personalized Health Recommendations",
+    "summary": "As an older adult, I want ALFRED to analyze my health data and provide personalized health and wellness recommendations so that I can manage my physical activity and dietary needs effectively.",
+    "priority": 3,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-002",
+      "UC-004",
+      "UC-007",
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-016",
+    "id": "US-135"
+  },
+  {
+    "title": "Health Progress Tracking",
+    "summary": "As an older adult, I want to track my health progress over time so that I can visualize changes in my health metrics and receive motivational feedback.",
+    "priority": 3,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-002",
+      "UC-003",
+      "UC-004",
+      "UC-007",
+      "UC-008",
+      "UC-010",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-017",
+    "id": "US-136"
+  }
+]

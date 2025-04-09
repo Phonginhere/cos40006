@@ -1,11 +1,12 @@
 {
-    "ID": "UC-003",
-    "Name": "Schedule Health Check Reminders",
-    "Personas": [
-        "P-001",
-        "P-002",
-        "P-005",
-        "P-006"
-    ],
-    "Description": "Elena Rivera, who is eager to maintain her independence but finds technology daunting, interacts with ALFRED to schedule reminders for her upcoming health check appointments. Using the voice-activated feature, she asks ALFRED to remind her of her doctor's visits and medication times. Daniel Chen, as her caregiver, can also access these reminders to ensure Elena receives the necessary support. Olivia, who is active and tech-savvy, shares her positive experience with ALFRED's reminders, encouraging Elena to embrace the technology, thus reinforcing social connections among their peer group."
+  "id": "UC-003",
+  "pillar": "Pillar 2 - Personalized Social Inclusion",
+  "name": "Suggest Social Activities",
+  "description": "Provide tailored recommendations for local social events or activities based on users' interests and preferences to encourage social engagement.",
+  "scenario": "Elena Rivera, a dedicated granddaughter, is concerned about her grandmother Olivia, who has been feeling increasingly isolated since her friends moved away. Elena remembers how much Olivia used to enjoy participating in community events and classes, but now she rarely leaves her home. Determined to help her grandmother reconnect with the world, Elena decides to leverage the ALFRED system to find suitable social activities for Olivia.\n\nOne afternoon, while visiting Olivia, Elena sits down with her and says, “Let’s see what ALFRED can suggest for you today!” She activates ALFRED by speaking its name. The virtual assistant responds with a warm, friendly voice, “Hello, Olivia! What type of activity would you like to explore today? You can ask for events like art classes, book clubs, or even local concerts.”\n\nOlivia, who loves painting, smiles and replies, “I’d love to find an art class.” ALFRED quickly processes her request, taking into account Olivia’s interests and previous activities logged in the system. It scans local listings and presents options in an easy-to-read format on the connected tablet.\n\n“Here are some art classes happening this week,” ALFRED announces. “There’s a watercolor painting workshop at the community center on Tuesday at 2 PM, and a mixed media class on Thursday at 1 PM.” \n\nElena watches as Olivia’s eyes light up with excitement. “The watercolor class sounds perfect! I used to love that,” Olivia exclaims. \n\n“Would you like to sign up for that class?” ALFRED prompts. After receiving a nod from Olivia, Elena helps her confirm the registration through ALFRED’s interface. “You’re all set! I’ll add a reminder for you on Tuesday morning,” ALFRED confirms.\n\nFeeling motivated, Olivia mentions, “I hope I can make some new friends there.” Elena reassures her, “I’m sure you will, Grandma. And if you ever want to go to something else, just ask ALFRED.”\n\nLater that week, after Olivia attends the watercolor class, Elena calls her to check in. “How was it, Grandma?” she asks. Olivia’s voice beams with joy as she replies, “I met some lovely people, and it felt wonderful to create again! ALFRED really helped me get there.”\n\nEncouraged by the positive experience, Olivia shares her newfound enthusiasm with Elena. “Can we ask ALFRED for more activities? I’d love to try a book club next!” Together, they explore more options, with ALFRED suggesting a nearby book club that meets every Thursday.\n\nThrough ALFRED’s tailored recommendations, Olivia not only rekindles her passion for art but also steps outside her comfort zone, forming new friendships and enhancing her social life. With each event, her confidence grows, and Elena feels a sense of relief knowing that ALFRED is helping her grandmother stay engaged and connected.",
+  "personas": [
+    "P-002",
+    "P-005",
+    "P-007"
+  ]
 }

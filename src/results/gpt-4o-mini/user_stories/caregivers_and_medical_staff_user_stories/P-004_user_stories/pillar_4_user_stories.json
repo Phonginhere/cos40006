@@ -1,0 +1,95 @@
+[
+  {
+    "title": "Cognitive Engagement Activities",
+    "summary": "As a home-care nurse, I want ALFRED to provide interactive cognitive games tailored to my patients' interests so that I can recommend activities that stimulate their cognitive functions and enhance their overall well-being.",
+    "priority": 1,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-004",
+      "UC-006",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-018",
+    "id": "US-108"
+  },
+  {
+    "title": "Physical Activity Tracking",
+    "summary": "As a home-care nurse, I want to track my patients' physical activity levels so that I can encourage increased mobility and exercise.",
+    "priority": 1,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-019",
+    "id": "US-109"
+  },
+  {
+    "title": "Personalized Activity Suggestions",
+    "summary": "As a home-care nurse, I want ALFRED to recommend physical activities tailored to my patients' abilities and preferences so that I can promote suitable options for their engagement and well-being.",
+    "priority": 2,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-020",
+    "id": "US-110"
+  },
+  {
+    "title": "Progress Monitoring for Activities",
+    "summary": "As a home-care nurse, I want to monitor the progress and participation of my patients in cognitive and physical activities so that I can provide tailored support and ensure their engagement.",
+    "priority": 2,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-011",
+      "UC-012",
+      "UC-013"
+    ],
+    "rawRequirementId": "RREQ-021",
+    "id": "US-111"
+  },
+  {
+    "title": "Feedback Mechanism for Activity Effectiveness",
+    "summary": "As a caregiver, I want to receive feedback on the activities my patients engage in so that I can adjust future recommendations to better meet their needs and preferences.",
+    "priority": 3,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-022",
+    "id": "US-112"
+  },
+  {
+    "title": "Guided Exercise Routines",
+    "summary": "As a home-care nurse, I want to initiate guided exercise routines for my patients so that they can safely engage in physical activities appropriate for their condition.",
+    "priority": 1,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-011",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-023",
+    "id": "US-113"
+  }
+]

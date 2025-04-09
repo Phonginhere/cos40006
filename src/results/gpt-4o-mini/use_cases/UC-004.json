@@ -1,11 +1,13 @@
 {
-    "ID": "UC-004",
-    "Name": "Facilitating Virtual Gatherings",
-    "Personas": [
-        "P-002",
-        "P-004",
-        "P-005",
-        "P-006"
-    ],
-    "Description": "Elena Rivera wishes to connect with her friends for a virtual coffee chat but feels overwhelmed by the technology required to set it up. The ALFRED platform simplifies this process by allowing her to schedule a virtual gathering with just a few voice commands. Mike Johnson uses the platform to invite socially isolated patients to join the gathering, enhancing their social connection and well-being. Olivia the Older Person, who is tech-savvy, takes the lead in guiding others through the process, fostering a supportive community while providing companionship during their recovery."
+  "id": "UC-004",
+  "pillar": "Pillar 2 - Personalized Social Inclusion",
+  "name": "Facilitate Communication with Family",
+  "description": "Allow users to easily connect with friends and family through voice calls, video chats, or messaging features initiated via voice commands.",
+  "scenario": "Elena Rivera, a social worker, visits Olivia Thompson, an older adult living independently in her cozy apartment. Olivia has expressed feelings of loneliness since her family lives far away, and Elena suggests using the ALFRED system to help her stay connected. Olivia is excited but also a bit hesitant about using technology.\n\nElena sits down with Olivia, demonstrating how to interact with ALFRED using simple voice commands. \"Just say 'Hey ALFRED, call my daughter Sarah,'\" Elena explains. Olivia, still unsure, decides to give it a try. \"Hey ALFRED, call Sarah,\" she says, her voice slightly shaky. Within moments, the screen lights up, and Sarah appears on the video call, her face beaming with joy.\n\n\"Hi, Mom! I miss you!\" Sarah exclaims, and Olivia’s face lights up. They chat about everyday life, sharing laughs and stories, while ALFRED discreetly manages the call, ensuring the connection remains stable. Olivia feels a wave of relief wash over her; the barrier of distance is momentarily erased.\n\nAfter the call, Olivia expresses her gratitude to Elena. \"This is wonderful! I didn’t think I could do this so easily.\" Elena encourages her to explore more features, highlighting that she can also send messages or initiate group calls with her grandchildren. \"Just say 'Hey ALFRED, send a message to Olivia's grandchildren' whenever you want to reach out,\" she says.\n\nThe next day, Olivia decides to try sending a message. She gathers her courage and says, \"Hey ALFRED, send a message to my grandchildren.\" ALFRED prompts her for the message, and Olivia types out a sweet note about her recent knitting project. She feels proud as she sends it off.\n\nLater in the week, Olivia receives a video call from her grandchildren, who are excited to see her. \"Grandma, did you really knit those slippers? They look amazing!\" one of them says, and Olivia beams with pride. The interaction not only brings joy to Olivia but also fosters a deeper connection with her family, alleviating her feelings of isolation.\n\nAs the weeks go by, Olivia becomes more confident in her ability to use ALFRED. She often initiates calls with Sarah, who regularly checks in on her. Elena visits again and notices a significant change in Olivia's mood. \"You seem so much happier, Olivia!\" she remarks. Olivia nods enthusiastically, \"I feel more connected now. ALFRED helps me talk to my family whenever I want!\"\n\nThrough these interactions, ALFRED empowers Olivia to maintain meaningful relationships with her family, reinforcing her sense of independence while addressing her need for social inclusion. With each call, message, and shared laughter, Olivia's confidence grows, and the distance between her and her loved ones feels a little shorter.",
+  "personas": [
+    "P-002",
+    "P-004",
+    "P-005",
+    "P-006"
+  ]
 }

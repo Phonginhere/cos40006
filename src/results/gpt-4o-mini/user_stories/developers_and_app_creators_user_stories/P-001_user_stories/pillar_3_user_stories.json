@@ -1,0 +1,107 @@
+[
+  {
+    "title": "Health Device Integration",
+    "summary": "As a developer, I want to integrate third-party health-monitoring devices with ALFRED so that I can provide personalized care based on real-time health data for elderly users.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-009",
+      "UC-012",
+      "UC-013",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-013",
+    "id": "US-013"
+  },
+  {
+    "title": "Personalized Care Plan API Access",
+    "summary": "As a developer, I want to access and modify users' personalized care plans through an API so that I can implement tailored health interventions effectively.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-009",
+      "UC-012",
+      "UC-013",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-014",
+    "id": "US-014"
+  },
+  {
+    "title": "Health Alerts Configuration",
+    "summary": "As a developer, I want to implement a system for configuring alerts based on health data trends so that users can receive timely notifications and caregivers can intervene when necessary.",
+    "priority": 2,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-009",
+      "UC-012",
+      "UC-013",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-015",
+    "id": "US-015"
+  },
+  {
+    "title": "User Health Data Visualization",
+    "summary": "As a developer, I want access to a dashboard API that presents user health data visually so that I can help users and caregivers understand health trends over time.",
+    "priority": 2,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-009",
+      "UC-012",
+      "UC-013",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-016",
+    "id": "US-016"
+  },
+  {
+    "title": "Caregiver Access Control Implementation",
+    "summary": "As a developer, I want to implement caregiver access control features so that users can easily manage permissions for their health information.",
+    "priority": 3,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-006",
+      "UC-009",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-017",
+    "id": "US-017"
+  },
+  {
+    "title": "Data Privacy Compliance",
+    "summary": "As a developer, I want to access an API that ensures my applications comply with data privacy regulations while handling user health information so that I can build secure and compliant healthcare applications for elderly users.",
+    "priority": 3,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-009",
+      "UC-012",
+      "UC-013",
+      "UC-014"
+    ],
+    "rawRequirementId": "RREQ-018",
+    "id": "US-018"
+  }
+]

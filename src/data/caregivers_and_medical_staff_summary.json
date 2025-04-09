@@ -1,0 +1,21 @@
+{
+    "summary": "Caregivers (formal and informal) and medical staff are secondary users of the ALFRED system. They support the older adults by using the ALFRED platform to monitor health data, track vitals, and provide personalized care remotely. Caregivers benefit from ALFRED by receiving real-time information, managing care tasks, and ensuring the safety and well-being of their patients.",
+    "needs": [
+        {
+            "title": "Remote Monitoring",
+            "description": "Caregivers need a platform to track health metrics such as heart rate, blood pressure, and temperature, and receive alerts if there are any anomalies."
+        },
+        {
+            "title": "Effective Communication",
+            "description": "ALFRED facilitates easy communication between caregivers and older adults, including video calls, medication reminders, and health status updates."
+        },
+        {
+            "title": "Ease of Use",
+            "description": "Caregivers need a simple interface to quickly access critical information without complicated setup or training."
+        },
+        {
+            "title": "Data Privacy",
+            "description": "It is important to ensure that caregivers can access necessary health data while respecting the privacy preferences of the older adults."
+        }
+    ]
+}

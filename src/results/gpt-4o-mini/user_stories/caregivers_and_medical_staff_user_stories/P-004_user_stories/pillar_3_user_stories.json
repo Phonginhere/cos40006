@@ -1,0 +1,95 @@
+[
+  {
+    "title": "Health Data Visualization",
+    "summary": "As a home-care nurse, I want to view visual representations of my patients' health data so that I can make informed decisions regarding their care.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-012",
+    "id": "US-102"
+  },
+  {
+    "title": "Care Task Management",
+    "summary": "As a home-care nurse, I want to create, assign, and track care tasks for my patients so that I can ensure all necessary care activities are completed on time.",
+    "priority": 2,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-013",
+    "id": "US-103"
+  },
+  {
+    "title": "Emergency Contact Notifications",
+    "summary": "As a home-care nurse, I want to set up emergency contact notifications so that I can ensure timely intervention in case of critical health incidents for my patients.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-004",
+      "UC-005"
+    ],
+    "rawRequirementId": "RREQ-014",
+    "id": "US-104"
+  },
+  {
+    "title": "Health Insights and Recommendations",
+    "summary": "As a home-care nurse, I want ALFRED to analyze health data and provide me with insights and recommendations so that I can improve the care and wellness of my patients effectively.",
+    "priority": 2,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-015",
+    "id": "US-105"
+  },
+  {
+    "title": "Secure Data Sharing with Medical Staff",
+    "summary": "As a home-care nurse, I want to securely share health data with medical professionals so that I can ensure timely intervention and maintain my patients' well-being.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-004",
+      "UC-005"
+    ],
+    "rawRequirementId": "RREQ-016",
+    "id": "US-106"
+  },
+  {
+    "title": "User Feedback Mechanism",
+    "summary": "As a caregiver, I want to provide feedback about ALFRED's functionalities so that I can suggest improvements that enhance my monitoring and care process.",
+    "priority": 3,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-011",
+      "UC-012",
+      "UC-013"
+    ],
+    "rawRequirementId": "RREQ-017",
+    "id": "US-107"
+  }
+]

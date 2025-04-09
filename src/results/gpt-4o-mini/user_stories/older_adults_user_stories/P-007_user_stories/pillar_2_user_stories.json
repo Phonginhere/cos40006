@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Event Recommendations for Social Engagement",
+    "summary": "As an older adult, I want ALFRED to suggest social activities based on my interests so that I can stay socially connected and prevent isolation.",
+    "priority": 1,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-003",
+      "UC-007"
+    ],
+    "rawRequirementId": "RREQ-007",
+    "id": "US-185"
+  },
+  {
+    "title": "Family Communication Support",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to easily communicate with my family through voice calls, video calls, and messaging so that I can maintain strong connections and feel less isolated.",
+    "priority": 1,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-003",
+      "UC-007",
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-008",
+    "id": "US-186"
+  },
+  {
+    "title": "Social Engagement Reminders",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to set reminders for upcoming social activities so that I do not miss opportunities to engage with my family and community.",
+    "priority": 2,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-003",
+      "UC-006",
+      "UC-008"
+    ],
+    "rawRequirementId": "RREQ-009",
+    "id": "US-187"
+  },
+  {
+    "title": "Community Connection Features",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to suggest local community resources and clubs so that I can maintain my social connections and engage in activities that interest me.",
+    "priority": 3,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-003",
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-010",
+    "id": "US-188"
+  },
+  {
+    "title": "User Feedback Mechanism",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to easily submit feedback about ALFRED's social features so that I can express my satisfaction and suggest improvements without feeling overwhelmed.",
+    "priority": 3,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-003",
+      "UC-008"
+    ],
+    "rawRequirementId": "RREQ-011",
+    "id": "US-189"
+  }
+]

@@ -21,16 +21,17 @@ def classify_user_group(persona) -> str:
         "Typical challenges": persona.typical_challenges,
         "Working situation": persona.working_situation,
         "Expertise": persona.expertise,
+        "Main tasks with system support": persona.main_tasks,
     }
     prompt = f"""
-You are a classifier for the ALFRED system.
+You are a classifier for the ALFRED system: {load_alfred_summary()}.
 
 Given the following persona information, classify this persona into ONE of these user groups:
-- "Older Adults"
-- "Caregivers and Medical Staff"
-- "Developers and App Creators"
+- Older Adults: {load_user_group_summary("older_adults")}
+- Caregivers and Medical Staff: {load_user_group_summary("caregivers_and_medical_staff")}
+- Developers and App Creators: {load_user_group_summary("developers_and_app_creators")}
 
-Only return the exact group name, nothing else. In other words, strictly, do not include any additional text or commentary. Do NOT use any markdown, bold, italic, or special formatting in your response.
+Only return the exact group name (either "Older Adults", "Caregivers and Medical Staff", or "Developers and App Creators" (no Quotation mark in real response)), nothing else. In other words, strictly, do not include any additional text or commentary. Do NOT use any markdown, bold, italic, or special formatting in your response.
 
 Persona:
 {json.dumps(minimal_data, indent=2)}
@@ -59,6 +60,7 @@ You are generating a user story for the ALFRED system. Here is the context:
 ### User Group: {user_group}
 {group_summary}
 
+⚠️ IMPORTANT: The persona information provided below is the **primary and dominant source** for generating this story. Your response should reflect the specific needs, goals, context, and challenges of this persona. The raw requirement should serve only as a **general seed or inspiration**, not the core of the user story.
 ### Persona:
 {json.dumps({
     "Id": persona.id,
@@ -83,9 +85,7 @@ You are generating a user story for the ALFRED system. Here is the context:
 
 ### Raw Requirement:
 Title: {req['title']}
-Description: {req['description']}
-Acceptance Criteria:
-{chr(10).join('- ' + c for c in req.get('acceptanceCriteria', []))}
+Nominated Priority (This might be changed in your response based on the inputted persona): {req['priority']}
 
 ### Task:
 If the requirement is clearly relevant and beneficial to this persona, generate one user story using this format:

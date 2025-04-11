@@ -1,7 +1,7 @@
 [
   {
-    "title": "Remote Health Monitoring Dashboard",
-    "summary": "As a professional caregiver, I want access to a comprehensive dashboard that displays real-time health metrics for my clients so that I can effectively monitor their well-being and respond promptly to any anomalies.",
+    "title": "Real-Time Health Data Access",
+    "summary": "As a professional caregiver, I want to access real-time health data for my clients so that I can monitor their well-being and respond promptly to any health issues.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Caregivers and Medical Staff",
@@ -9,32 +9,32 @@
     "useCases": [
       "UC-004",
       "UC-005",
-      "UC-006",
-      "UC-011"
+      "UC-010"
     ],
-    "rawRequirementId": "RREQ-024",
-    "id": "US-173"
+    "rawRequirementId": "RREQ-040",
+    "id": "US-272"
   },
   {
-    "title": "Health Data Alert Customization",
-    "summary": "As a professional caregiver, I want to customize alert settings for health metrics so that I receive notifications tailored to specific health concerns of my clients.",
-    "priority": 1,
-    "pillar": "General Requirements",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-004",
-      "UC-005",
-      "UC-006",
-      "UC-011"
-    ],
-    "rawRequirementId": "RREQ-025",
-    "id": "US-174"
-  },
-  {
-    "title": "Care Task Progress Tracking",
-    "summary": "As a professional caregiver, I want to track the progress of care tasks assigned to my clients so that I can ensure timely completion and maintain accountability.",
+    "title": "Customizable User Profiles for Caregiver Access",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want customizable user profiles for each client so that I can efficiently track their individual health metrics and care plans in one accessible dashboard.",
     "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-009",
+      "UC-010",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-041",
+    "id": "US-273"
+  },
+  {
+    "title": "Secure Data Sharing Options with User Consent",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want secure data sharing options with user consent so that I can access necessary health information while respecting my clients' privacy preferences.",
+    "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-006",
@@ -43,15 +43,34 @@
       "UC-005",
       "UC-006",
       "UC-009",
-      "UC-012",
-      "UC-013"
+      "UC-010",
+      "UC-011",
+      "UC-012"
     ],
-    "rawRequirementId": "RREQ-026",
-    "id": "US-175"
+    "rawRequirementId": "RREQ-042",
+    "id": "US-274"
   },
   {
-    "title": "Secure User Consent Management",
-    "summary": "As a professional caregiver, I want older adults to easily manage and revoke their consent for data sharing so that their privacy preferences are respected and I can access necessary health data securely.",
+    "title": "Streamlined Communication for Care Coordination",
+    "summary": "As a professional caregiver, I want simplified communication channels with my clients so that I can efficiently manage their care and stay informed about their health status.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-043",
+    "id": "US-275"
+  },
+  {
+    "title": "Integrated Alerts for Health Anomalies",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want to receive real-time alerts for any health anomalies so that I can take timely action and ensure the safety and well-being of my clients.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Caregivers and Medical Staff",
@@ -59,14 +78,15 @@
     "useCases": [
       "UC-004",
       "UC-005",
-      "UC-006"
+      "UC-009",
+      "UC-010"
     ],
-    "rawRequirementId": "RREQ-027",
-    "id": "US-176"
+    "rawRequirementId": "RREQ-044",
+    "id": "US-276"
   },
   {
-    "title": "Quick Access to Emergency Information",
-    "summary": "As a professional caregiver, I want quick access to emergency contact information and critical health data so that I can respond effectively in urgent situations.",
+    "title": "User-Friendly Interface for Health Monitoring",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want a user-friendly interface for health monitoring so that I can quickly track my clients' health metrics and respond to any alerts without navigating through complicated menus.",
     "priority": 2,
     "pillar": "General Requirements",
     "userGroup": "Caregivers and Medical Staff",
@@ -74,24 +94,79 @@
     "useCases": [
       "UC-004",
       "UC-005",
-      "UC-006"
+      "UC-009",
+      "UC-010"
     ],
-    "rawRequirementId": "RREQ-028",
-    "id": "US-177"
+    "rawRequirementId": "RREQ-045",
+    "id": "US-277"
   },
   {
-    "title": "Integrated Communication Tools",
-    "summary": "As a professional caregiver, I want integrated communication tools in ALFRED so that I can effectively interact with my elderly clients through messaging and video calls, ensuring clear communication and better coordination of care.",
+    "title": "Training and Support Resources for Caregivers",
+    "summary": "As a professional caregiver, I want access to training and support resources for using the ALFRED system so that I can efficiently monitor my clients' health and coordinate care without unnecessary delays or confusion.",
+    "priority": 3,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-009",
+      "UC-010",
+      "UC-011",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-046",
+    "id": "US-278"
+  },
+  {
+    "title": "Privacy Controls for User Health Data Access",
+    "summary": "As a professional caregiver, I want to manage the privacy settings for my clients' health data so that I can ensure their information is shared only with authorized family members and healthcare providers, respecting their preferences.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-009",
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-047",
+    "id": "US-279"
+  },
+  {
+    "title": "Health Metric Visualization for Quick Insights",
+    "summary": "As a professional caregiver, I want to quickly visualize the health metrics of my multiple clients in one dashboard so that I can efficiently monitor their well-being and respond to any critical changes promptly.",
     "priority": 2,
     "pillar": "General Requirements",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-006",
     "useCases": [
-      "UC-002",
+      "UC-004",
       "UC-005",
-      "UC-006"
+      "UC-012"
     ],
-    "rawRequirementId": "RREQ-029",
-    "id": "US-178"
+    "rawRequirementId": "RREQ-048",
+    "id": "US-280"
+  },
+  {
+    "title": "Personalized Care Task Notifications for Caregivers",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want to receive personalized notifications about critical health metrics and care tasks so that I can promptly respond to my clients' needs and ensure their well-being.",
+    "priority": 3,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-010",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-049",
+    "id": "US-281"
   }
 ]

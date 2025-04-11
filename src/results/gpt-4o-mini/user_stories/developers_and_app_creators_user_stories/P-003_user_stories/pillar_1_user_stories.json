@@ -1,0 +1,132 @@
+[
+  {
+    "title": "Natural Language Processing for Compliance Insights",
+    "summary": "As a Compliance and Risk Lead, I want the ALFRED system to utilize natural language processing capabilities to analyze user interactions and flag potential compliance issues in real-time, so that I can ensure adherence to regulations without hindering the development process.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-001",
+    "id": "US-093"
+  },
+  {
+    "title": "Customizable Voice Interaction Settings",
+    "summary": "As a Compliance and Risk Lead, I want to ensure that developers can customize voice interaction settings to align with legal compliance and risk management standards, so that we can maintain user privacy and security while enhancing the user experience.",
+    "priority": 2,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-002",
+    "id": "US-094"
+  },
+  {
+    "title": "Feedback Mechanism for User Commands",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want the ALFRED system to provide a feedback mechanism for user commands so that I can ensure that all interactions comply with data privacy regulations and maintain a secure environment for users.",
+    "priority": 2,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-003",
+    "id": "US-095"
+  },
+  {
+    "title": "Integration with Third-Party Voice Services",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to ensure that integrations with third-party voice services are compliant with legal standards so that developers can create secure and reliable applications that respect user privacy and data protection regulations.",
+    "priority": 3,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-004",
+    "id": "US-096"
+  },
+  {
+    "title": "User Command Personalization Features",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to ensure that user command personalization features are designed with compliance-by-design principles so that developers can create applications that respect user privacy and maintain data security while providing tailored interactions.",
+    "priority": 3,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-005",
+    "id": "US-097"
+  },
+  {
+    "title": "Support for Multi-User Voice Profiles",
+    "summary": "As a Compliance and Risk Lead, I want the ALFRED system to support multi-user voice profiles so that developers can create applications that manage user-specific data securely and maintain compliance with data privacy regulations.",
+    "priority": 4,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-006",
+    "id": "US-098"
+  },
+  {
+    "title": "Accessibility Features for Voice Interaction",
+    "summary": "As a Compliance and Risk Lead, I want to ensure that the voice interaction features are accessible to all users, so that we can comply with legal standards and enhance user engagement without creating barriers.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-007",
+    "id": "US-099"
+  },
+  {
+    "title": "Error Handling and Recovery for Voice Commands",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to ensure that the ALFRED system has robust error handling for voice commands so that compliance and security measures are upheld even when user interactions fail, maintaining user trust and data integrity.",
+    "priority": 2,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-008",
+    "id": "US-100"
+  },
+  {
+    "title": "Real-Time Speech Recognition Accuracy",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want the ALFRED system to have high accuracy in real-time speech recognition so that the applications developed for older adults can effectively understand and respond to user commands, ensuring compliance with accessibility and data privacy standards.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-009",
+    "id": "US-101"
+  },
+  {
+    "title": "Documentation for Voice Command Development",
+    "summary": "As a Compliance and Risk Lead, I want comprehensive documentation for voice command development so that I can ensure compliance with legal standards while enabling developers to integrate voice interactions seamlessly.",
+    "priority": 3,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-010",
+    "id": "US-102"
+  }
+]

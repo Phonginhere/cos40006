@@ -3,1080 +3,987 @@
     "id": "RREQ-001",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
-    "title": "Natural Language Processing",
-    "description": "ALFRED should utilize natural language processing to understand and respond to user queries in a conversational manner, making interactions feel intuitive for older adults.",
-    "acceptanceCriteria": [
-      "ALFRED should accurately interpret user phrases and respond appropriately.",
-      "Users should feel comfortable speaking naturally without needing to use specific commands."
-    ],
+    "title": "Natural Language Understanding",
     "priority": "1"
   },
   {
     "id": "RREQ-002",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
-    "title": "Voice Feedback System",
-    "description": "The system must provide clear and friendly audio feedback for every user interaction to ensure older adults understand the system's responses and actions.",
-    "acceptanceCriteria": [
-      "ALFRED should provide audio confirmation of completed actions.",
-      "Feedback should be delivered in a tone that is warm and reassuring."
-    ],
-    "priority": "1"
+    "title": "Voice Feedback and Confirmation",
+    "priority": "2"
   },
   {
     "id": "RREQ-003",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
-    "title": "Reminders and Notifications",
-    "description": "ALFRED should allow users to set personalized reminders for tasks such as medication intake, appointments, and daily activities through voice commands.",
-    "acceptanceCriteria": [
-      "Users can successfully create, modify, and delete reminders using voice commands.",
-      "ALFRED should alert users at the scheduled time with audible notifications."
-    ],
-    "priority": "2"
+    "title": "Contextual Task Management",
+    "priority": "1"
   },
   {
     "id": "RREQ-004",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
-    "title": "Multimodal Interaction Options",
-    "description": "The platform must support multiple interaction modalities, including voice commands and simple touch controls, to accommodate the diverse needs of older adults.",
-    "acceptanceCriteria": [
-      "Users can interact with ALFRED using voice or touch without issues.",
-      "The interface should be responsive and easy to navigate for both interaction methods."
-    ],
-    "priority": "2"
+    "title": "Adaptive Interaction Learning",
+    "priority": "3"
   },
   {
     "id": "RREQ-005",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
-    "title": "User-Friendly Onboarding Process",
-    "description": "ALFRED should provide a straightforward onboarding process that guides older adults through the initial setup and familiarizes them with the system functionalities.",
-    "acceptanceCriteria": [
-      "Users can complete the onboarding process without assistance.",
-      "The onboarding tutorial should cover essential features and be easy to follow."
-    ],
-    "priority": "1"
+    "title": "Error Recovery and Help Guidance",
+    "priority": "2"
   },
   {
     "id": "RREQ-006",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
-    "title": "Contextual Help and Support",
-    "description": "ALFRED should include a context-sensitive help feature that offers assistance or tips based on user interactions, ensuring support is available when needed.",
-    "acceptanceCriteria": [
-      "Help suggestions should appear when users seem to struggle with a task.",
-      "Users can access help easily through voice or touch commands."
-    ],
+    "title": "Multimodal Interaction Support",
     "priority": "3"
   },
   {
     "id": "RREQ-007",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
-    "title": "Event Recommendation System",
-    "description": "ALFRED should provide personalized recommendations for social events and activities based on the user's interests and preferences, helping to encourage engagement and prevent isolation.",
-    "acceptanceCriteria": [
-      "Users receive event suggestions that align with their stated interests.",
-      "Users can easily access details about recommended events through voice commands."
-    ],
-    "priority": "1"
+    "title": "User Personalization Settings",
+    "priority": "4"
   },
   {
     "id": "RREQ-008",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
-    "title": "Family Communication Support",
-    "description": "ALFRED must facilitate easy communication between older adults and their family members through voice calls, video calls, and messaging, ensuring that users feel connected.",
-    "acceptanceCriteria": [
-      "Users can initiate calls and messages to family members using simple voice commands.",
-      "Video calling features should be intuitive and require minimal setup."
-    ],
-    "priority": "1"
+    "title": "Integration with External Voice Services",
+    "priority": "3"
   },
   {
     "id": "RREQ-009",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
-    "title": "Social Engagement Reminders",
-    "description": "The system should allow users to set reminders for upcoming social events or activities, ensuring that they do not miss opportunities for engagement.",
-    "acceptanceCriteria": [
-      "Users can create and customize reminders for social activities through voice commands.",
-      "ALFRED sends timely notifications reminding users of upcoming engagements."
-    ],
-    "priority": "2"
+    "title": "Event Recommendation System",
+    "priority": "1"
   },
   {
     "id": "RREQ-010",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
-    "title": "Community Connection Features",
-    "description": "ALFRED should provide features that allow users to connect with local community resources, such as support groups or clubs, to foster social inclusion.",
-    "acceptanceCriteria": [
-      "Users can easily find and access information about local community resources.",
-      "ALFRED should suggest community connections based on user preferences."
-    ],
-    "priority": "3"
+    "title": "Social Engagement Notifications",
+    "priority": "2"
   },
   {
     "id": "RREQ-011",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
-    "title": "User Feedback Mechanism",
-    "description": "The platform must include a simple feedback mechanism that allows older adults to express their satisfaction with social features and suggest improvements.",
-    "acceptanceCriteria": [
-      "Users can easily submit feedback through voice or touch interactions.",
-      "Feedback submissions should be acknowledged with an audio confirmation."
-    ],
-    "priority": "3"
+    "title": "Family and Caregiver Communication Support",
+    "priority": "1"
   },
   {
     "id": "RREQ-012",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "title": "User-Friendly Event Scheduling",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-013",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "title": "Virtual Social Activity Integration",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-014",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "title": "Personalized Content Delivery",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-015",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "title": "Feedback Mechanism for Social Activities",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-016",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "title": "Support for Group Communication",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-017",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "title": "Interest-Based Community Recommendations",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-018",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
     "title": "Health Monitoring Integration",
-    "description": "ALFRED should integrate with wearable health-monitoring devices to track vital signs such as heart rate, blood pressure, and activity levels, providing users and caregivers with real-time health data.",
-    "acceptanceCriteria": [
-      "ALFRED can successfully receive and display health data from connected devices.",
-      "Users can query their health status using voice commands."
-    ],
-    "priority": "1"
-  },
-  {
-    "id": "RREQ-013",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "title": "Emergency Alert System",
-    "description": "ALFRED must feature an emergency alert system that allows users to quickly notify caregivers or emergency services in case of a health crisis or fall.",
-    "acceptanceCriteria": [
-      "Users can activate emergency alerts using a simple voice command.",
-      "The system successfully contacts designated emergency contacts and provides location information."
-    ],
-    "priority": "1"
-  },
-  {
-    "id": "RREQ-014",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "title": "Medication Management System",
-    "description": "The platform should provide a medication management feature that allows users to track their medications, set reminders for intake, and receive alerts for refills.",
-    "acceptanceCriteria": [
-      "Users can easily input their medication schedules through voice commands.",
-      "ALFRED sends timely notifications for medication intake and refill reminders."
-    ],
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-015",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "title": "Caregiver Communication Portal",
-    "description": "ALFRED should provide a dedicated communication portal for caregivers to access user health data, medication schedules, and alerts, facilitating better care coordination.",
-    "acceptanceCriteria": [
-      "Caregivers can securely log in and view health and medication information.",
-      "ALFRED allows caregivers to send messages to users through the platform."
-    ],
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-016",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "title": "Personalized Health Recommendations",
-    "description": "The system should analyze user health data and provide personalized health and wellness recommendations, including exercise routines and dietary suggestions.",
-    "acceptanceCriteria": [
-      "Users receive tailored health recommendations based on their health data.",
-      "The recommendations can be accessed and understood easily through voice commands."
-    ],
-    "priority": "3"
-  },
-  {
-    "id": "RREQ-017",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "title": "Health Progress Tracking",
-    "description": "ALFRED must allow users to track their health progress over time, enabling them to visualize changes in their health metrics and receive motivational feedback.",
-    "acceptanceCriteria": [
-      "Users can request summaries of their health progress through voice commands.",
-      "ALFRED provides positive reinforcement based on user improvements."
-    ],
-    "priority": "3"
-  },
-  {
-    "id": "RREQ-018",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Older Adults",
-    "title": "Interactive Cognitive Games",
-    "description": "ALFRED should offer a variety of interactive games designed to stimulate cognitive function, tailored to the user's individual cognitive abilities and preferences.",
-    "acceptanceCriteria": [
-      "Users can easily access and engage with cognitive games through voice commands.",
-      "Games should adapt in difficulty based on user performance to provide appropriate challenges."
-    ],
     "priority": "1"
   },
   {
     "id": "RREQ-019",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
-    "title": "Physical Activity Challenges",
-    "description": "The system must provide guided physical activity challenges that encourage users to engage in regular exercise, ensuring activities are suitable for their physical condition.",
-    "acceptanceCriteria": [
-      "Users receive personalized activity suggestions based on their health data and preferences.",
-      "ALFRED should track user participation and provide motivational feedback."
-    ],
-    "priority": "1"
-  },
-  {
-    "id": "RREQ-020",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Older Adults",
-    "title": "Progress Tracking for Activities",
-    "description": "ALFRED should include a feature that allows users to track their progress in physical and cognitive activities over time, helping them visualize improvements.",
-    "acceptanceCriteria": [
-      "Users can request summaries of their activity progress through voice commands.",
-      "The system should provide positive reinforcement and insights based on user achievements."
-    ],
+    "title": "Medication Management Assistance",
     "priority": "2"
   },
   {
-    "id": "RREQ-021",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "id": "RREQ-020",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
-    "title": "Customizable Activity Schedules",
-    "description": "The platform must enable users to schedule and customize their physical and cognitive activities according to their daily routines and preferences.",
-    "acceptanceCriteria": [
-      "Users can easily modify their activity schedules using voice commands.",
-      "ALFRED should send reminders for scheduled activities to encourage participation."
-    ],
+    "title": "Emergency Alert System",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-021",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "title": "Personalized Health Insights",
     "priority": "2"
   },
   {
     "id": "RREQ-022",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
-    "title": "Social Interaction Through Activities",
-    "description": "ALFRED should facilitate social interaction by allowing users to participate in group activities or challenges with peers, promoting engagement and connection.",
-    "acceptanceCriteria": [
-      "Users can join group activities or challenges through simple voice commands.",
-      "The system should notify users about upcoming group events and activities."
-    ],
-    "priority": "3"
-  },
-  {
-    "id": "RREQ-023",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Older Adults",
-    "title": "Adaptive Activity Recommendations",
-    "description": "The system should analyze user preferences and health data to provide adaptive recommendations for physical and cognitive activities, ensuring safety and engagement.",
-    "acceptanceCriteria": [
-      "Users receive tailored activity suggestions that consider their health status and preferences.",
-      "The recommendation engine should adjust suggestions based on user feedback and changes in health."
-    ],
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-024",
-    "pillar": "General Requirements",
-    "userGroup": "Older Adults",
-    "title": "Emergency Response Activation",
-    "description": "ALFRED must allow users to initiate emergency alerts quickly through a simple voice command, ensuring prompt assistance in crisis situations.",
-    "acceptanceCriteria": [
-      "Users can easily activate the emergency alert system using a designated voice command.",
-      "The system successfully contacts designated emergency contacts and provides location information."
-    ],
+    "title": "Caregiver Access to Health Data",
     "priority": "1"
   },
   {
-    "id": "RREQ-025",
-    "pillar": "General Requirements",
+    "id": "RREQ-023",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
-    "title": "Medication Reminder System",
-    "description": "The platform should provide an intuitive medication management feature that allows users to set and receive reminders for medication intake and refills.",
-    "acceptanceCriteria": [
-      "Users can create and modify their medication schedules using voice commands.",
-      "ALFRED sends timely notifications for medication intake and refill reminders."
-    ],
+    "title": "Daily Health Reminders",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-024",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "title": "User Health History Tracking",
     "priority": "2"
   },
   {
-    "id": "RREQ-026",
-    "pillar": "General Requirements",
+    "id": "RREQ-025",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
-    "title": "Intuitive User Interface Design",
-    "description": "ALFRED must feature a user-friendly interface that is easy to navigate, accommodating the physical and cognitive limitations of older adults.",
-    "acceptanceCriteria": [
-      "Users can successfully navigate the interface with minimal assistance.",
-      "The interface layout should be clear, with large buttons and readable text."
-    ],
+    "title": "Health Goal Setting and Tracking",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-026",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "title": "Interactive Cognitive Games",
     "priority": "1"
   },
   {
     "id": "RREQ-027",
-    "pillar": "General Requirements",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
-    "title": "Personalized Interaction History",
-    "description": "The system should maintain a simple and accessible history of user interactions, allowing older adults to review previous commands and responses.",
-    "acceptanceCriteria": [
-      "Users can easily access their interaction history through voice queries.",
-      "The history should provide clear summaries of past interactions."
-    ],
-    "priority": "3"
+    "title": "Guided Physical Activity Programs",
+    "priority": "2"
   },
   {
     "id": "RREQ-028",
-    "pillar": "General Requirements",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
-    "title": "Social Engagement Tracking",
-    "description": "ALFRED should track user participation in social activities and provide feedback on their social engagement levels to encourage continued interaction.",
-    "acceptanceCriteria": [
-      "Users can request summaries of their social activity participation through voice commands.",
-      "The system provides motivational feedback based on user engagement."
-    ],
-    "priority": "2"
+    "title": "Progress Tracking for Cognitive Activities",
+    "priority": "3"
   },
   {
     "id": "RREQ-029",
-    "pillar": "General Requirements",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
-    "title": "Assisted Setup for Non-Tech Savvy Users",
-    "description": "ALFRED should offer an assisted setup option tailored for older adults with low technical literacy, guiding them through installation and configuration.",
-    "acceptanceCriteria": [
-      "Users can complete the setup process with step-by-step voice prompts.",
-      "The onboarding process should be completed without requiring external assistance."
-    ],
-    "priority": "1"
+    "title": "Customization of Activity Difficulty Levels",
+    "priority": "2"
   },
   {
     "id": "RREQ-030",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "title": "Reminders for Physical Exercises",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-031",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "title": "Motivational Feedback for Activity Participation",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-032",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "title": "Social Interaction Through Group Activities",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-033",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "title": "Assessment Tools for Cognitive Health",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-034",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "title": "Daily Activity Suggestions Based on User Preferences",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-035",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "title": "Safety Monitoring During Physical Activities",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-036",
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
-    "title": "Flexible Activity Scheduling",
-    "description": "The platform must allow users to customize their schedules for physical and cognitive activities, ensuring they align with their daily routines and preferences.",
-    "acceptanceCriteria": [
-      "Users can easily modify their activity schedules using voice commands.",
-      "ALFRED sends reminders for scheduled activities to encourage participation."
-    ],
+    "title": "Accessibility Features for Diverse Abilities",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-037",
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "title": "Data Privacy and Security Compliance",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-038",
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "title": "Simple Installation and Setup Process",
     "priority": "2"
+  },
+  {
+    "id": "RREQ-039",
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "title": "User Interface Adaptability",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-040",
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "title": "Integration with Health Monitoring Devices",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-041",
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "title": "Support for Multiple Device Platforms",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-042",
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "title": "User Consent Management for Data Sharing",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-043",
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "title": "Extensibility for Third-Party Integrations",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-044",
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "title": "Feedback Mechanism for User Experience Improvement",
+    "priority": "4"
+  },
+  {
+    "id": "RREQ-045",
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "title": "User Support and Help Resources",
+    "priority": "3"
   },
   {
     "id": "RREQ-001",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Real-Time Health Monitoring Access",
-    "description": "Caregivers should be able to access real-time health metrics from older adults, including heart rate, blood pressure, and temperature through the ALFRED platform.",
-    "acceptanceCriteria": [
-      "Caregivers can view up-to-date health metrics in a dashboard format.",
-      "System alerts caregivers of any deviations from normal health ranges."
-    ],
+    "title": "Natural Language Processing for Commands",
     "priority": "1"
   },
   {
     "id": "RREQ-002",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Video Communication Integration",
-    "description": "ALFRED should facilitate video calls between caregivers and older adults to enhance communication regarding health and well-being.",
-    "acceptanceCriteria": [
-      "Caregivers can initiate and receive video calls through the platform.",
-      "Video calls should maintain a stable connection with minimal latency."
-    ],
+    "title": "Voice Feedback for User Confirmation",
     "priority": "2"
   },
   {
     "id": "RREQ-003",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Medication Reminder System",
-    "description": "ALFRED should provide medication reminders to older adults which caregivers can set and adjust based on individual needs.",
-    "acceptanceCriteria": [
-      "Reminders can be scheduled and modified by caregivers.",
-      "Older adults receive clear notifications for medication times."
-    ],
-    "priority": "1"
+    "title": "Simple Command Structure for Task Execution",
+    "priority": "2"
   },
   {
     "id": "RREQ-004",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "User-Friendly Interface for Caregivers",
-    "description": "The platform should feature an intuitive interface for caregivers to quickly access critical health information and perform necessary actions.",
-    "acceptanceCriteria": [
-      "Caregivers can navigate to key features within three clicks.",
-      "User feedback indicates ease of use for caregivers."
-    ],
-    "priority": "2"
+    "title": "Contextual Assistance Based on User Behavior",
+    "priority": "3"
   },
   {
     "id": "RREQ-005",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Privacy Settings Management",
-    "description": "ALFRED must allow older adults to set privacy preferences for data access, ensuring caregivers can only view information as permitted by the user.",
-    "acceptanceCriteria": [
-      "Older adults can easily modify privacy settings.",
-      "Caregivers only have access to the data that older adults have consented to share."
-    ],
-    "priority": "1"
+    "title": "Voice Recognition Adapted for Varied Speech Patterns",
+    "priority": "2"
   },
   {
     "id": "RREQ-006",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Incident Alert System",
-    "description": "ALFRED should notify caregivers of significant health incidents or anomalies detected in the older adult's health data.",
-    "acceptanceCriteria": [
-      "Caregivers receive instant alerts for predefined health anomalies.",
-      "Alerts can be customized based on caregiver preferences."
-    ],
-    "priority": "2"
+    "title": "Multi-User Interaction Support",
+    "priority": "3"
   },
   {
     "id": "RREQ-007",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Event Recommendation System",
-    "description": "ALFRED should provide personalized recommendations for social events and activities based on the interests and preferences of older adults, encouraging social engagement.",
-    "acceptanceCriteria": [
-      "Users can view recommended events tailored to their interests.",
-      "ALFRED learns and adapts recommendations based on user feedback."
-    ],
-    "priority": "1"
+    "title": "Personalized Voice Profiles for Users",
+    "priority": "4"
   },
   {
     "id": "RREQ-008",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Social Connection Reminders",
-    "description": "ALFRED should remind older adults of upcoming social engagements and facilitate communication with friends and family to enhance social interaction.",
-    "acceptanceCriteria": [
-      "Older adults receive notifications for scheduled social activities.",
-      "Users can easily initiate contact with friends and family through ALFRED."
-    ],
-    "priority": "2"
+    "title": "Error Recovery Guidance for User Commands",
+    "priority": "3"
   },
   {
     "id": "RREQ-009",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Group Communication Features",
-    "description": "The platform should support group messaging and video calls among older adults, caregivers, and family members to promote community and connection.",
-    "acceptanceCriteria": [
-      "Users can create and join group chats or video calls.",
-      "Notifications for group interactions are sent to all participants."
-    ],
+    "title": "Integration with Existing Communication Tools",
     "priority": "2"
   },
   {
     "id": "RREQ-010",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Activity Tracking and Feedback",
-    "description": "ALFRED should allow users to track their participation in social activities and provide feedback on their experiences to improve future recommendations.",
-    "acceptanceCriteria": [
-      "Users can log participation in events and activities.",
-      "ALFRED gathers user feedback to refine future event suggestions."
-    ],
+    "title": "User Feedback Mechanism for Interaction Improvement",
     "priority": "3"
   },
   {
     "id": "RREQ-011",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Integration with Social Media",
-    "description": "ALFRED should enable users to link their social media accounts for easier sharing of events and communication, fostering a more connected experience.",
-    "acceptanceCriteria": [
-      "Users can connect and disconnect social media accounts through ALFRED.",
-      "Permissions for sharing information on social media can be managed easily."
-    ],
-    "priority": "3"
-  },
-  {
-    "id": "RREQ-012",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Health Data Visualization",
-    "description": "ALFRED should provide caregivers with a visual representation of the health data being monitored, such as trends in vital signs over time, to aid in decision-making.",
-    "acceptanceCriteria": [
-      "Caregivers can view graphical representations of health metrics.",
-      "Data visualizations update in real-time as new metrics are collected."
-    ],
+    "title": "Social Activity Recommendations Based on User Interests",
     "priority": "1"
   },
   {
-    "id": "RREQ-013",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "id": "RREQ-012",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Care Task Management",
-    "description": "ALFRED should allow caregivers to create, assign, and track care tasks for older adults, ensuring all necessary care activities are completed on time.",
-    "acceptanceCriteria": [
-      "Caregivers can assign tasks and set deadlines.",
-      "System notifies caregivers and users when tasks are due or overdue."
-    ],
+    "title": "Facilitated Communication Channels Between Caregivers and Users",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-013",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Event Notifications for Social Engagement Opportunities",
     "priority": "2"
   },
   {
     "id": "RREQ-014",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Emergency Contact Notifications",
-    "description": "ALFRED must enable caregivers to set up emergency contact notifications that alert designated individuals in case of critical health incidents.",
-    "acceptanceCriteria": [
-      "Caregivers can configure emergency contacts within the platform.",
-      "Notifications are sent promptly upon detection of critical incidents."
-    ],
-    "priority": "1"
-  },
-  {
-    "id": "RREQ-015",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Health Insights and Recommendations",
-    "description": "ALFRED should analyze health data and provide caregivers with insights and recommendations for improving the care and wellness of older adults.",
-    "acceptanceCriteria": [
-      "Caregivers receive actionable insights based on health trends.",
-      "Recommendations are personalized according to individual health data."
-    ],
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-016",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Secure Data Sharing with Medical Staff",
-    "description": "ALFRED must facilitate secure sharing of health data between caregivers and authorized medical staff while ensuring compliance with privacy regulations.",
-    "acceptanceCriteria": [
-      "Caregivers can securely share health data with medical professionals.",
-      "Data sharing adheres to privacy standards and user consent."
-    ],
-    "priority": "1"
-  },
-  {
-    "id": "RREQ-017",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "User Feedback Mechanism",
-    "description": "ALFRED should include a mechanism for caregivers to provide feedback about the system's functionalities and suggest improvements.",
-    "acceptanceCriteria": [
-      "Caregivers can easily submit feedback through the platform.",
-      "Feedback is reviewed and considered for future updates."
-    ],
+    "title": "User-Defined Preferences for Social Interactions",
     "priority": "3"
   },
   {
-    "id": "RREQ-018",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "id": "RREQ-015",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Cognitive Engagement Activities",
-    "description": "ALFRED should provide a range of interactive games and challenges designed to stimulate cognitive functions for older adults, which caregivers can recommend based on user preferences.",
-    "acceptanceCriteria": [
-      "Users can access a variety of cognitive games tailored to their interests.",
-      "Caregivers receive suggestions for activities based on user performance and interests."
-    ],
-    "priority": "1"
+    "title": "Integration with Community Resources for Social Activities",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-016",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Feedback Mechanism for User Satisfaction with Social Features",
+    "priority": "4"
+  },
+  {
+    "id": "RREQ-017",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Personalized Reminders for Social Engagements",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-018",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Support for Group Communication Features",
+    "priority": "3"
   },
   {
     "id": "RREQ-019",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Physical Activity Tracking",
-    "description": "ALFRED should enable tracking of physical activity levels for older adults, offering insights that caregivers can use to encourage increased mobility and exercise.",
-    "acceptanceCriteria": [
-      "Caregivers can view activity logs and trends over time.",
-      "Users receive motivational feedback based on their activity levels."
-    ],
+    "title": "User Privacy Settings for Social Interactions",
     "priority": "1"
   },
   {
     "id": "RREQ-020",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Personalized Activity Suggestions",
-    "description": "The platform should recommend physical activities based on the user’s abilities and preferences, allowing caregivers to promote suitable options for engagement.",
-    "acceptanceCriteria": [
-      "Users receive tailored activity suggestions that adapt over time.",
-      "Caregivers can view and approve suggested activities for their patients."
-    ],
-    "priority": "2"
+    "title": "Real-Time Health Monitoring Dashboard",
+    "priority": "1"
   },
   {
     "id": "RREQ-021",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Progress Monitoring for Activities",
-    "description": "ALFRED should allow caregivers to monitor the progress and participation of older adults in cognitive and physical activities, facilitating tailored support.",
-    "acceptanceCriteria": [
-      "Caregivers can view detailed reports on user participation in activities.",
-      "System provides alerts for inactivity or lack of engagement over time."
-    ],
+    "title": "Customizable Alert System for Anomalies",
     "priority": "2"
   },
   {
     "id": "RREQ-022",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Feedback Mechanism for Activity Effectiveness",
-    "description": "ALFRED should include a feedback system for users to report on the effectiveness and enjoyment of activities, which caregivers can use to adjust future recommendations.",
-    "acceptanceCriteria": [
-      "Users can easily provide feedback on completed activities.",
-      "Caregivers receive aggregated feedback to inform their care strategies."
-    ],
-    "priority": "3"
+    "title": "Secure Data Access Control for Caregivers",
+    "priority": "1"
   },
   {
     "id": "RREQ-023",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Guided Exercise Routines",
-    "description": "ALFRED should offer guided exercise routines that caregivers can initiate for older adults, ensuring activities are safe and appropriate for their physical condition.",
-    "acceptanceCriteria": [
-      "Caregivers can select and initiate guided routines tailored to user capabilities.",
-      "Users receive clear instructions and encouragement during exercises."
-    ],
-    "priority": "1"
+    "title": "Integrated Communication Tools for Health Updates",
+    "priority": "2"
   },
   {
     "id": "RREQ-024",
-    "pillar": "General Requirements",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Remote Health Monitoring Dashboard",
-    "description": "Caregivers should have access to a comprehensive dashboard that displays real-time health metrics for older adults, enabling effective monitoring of their well-being.",
-    "acceptanceCriteria": [
-      "Caregivers can view a consolidated health metrics dashboard.",
-      "Dashboard updates health information in real-time."
-    ],
-    "priority": "1"
+    "title": "Personalized Care Task Management Interface",
+    "priority": "3"
   },
   {
     "id": "RREQ-025",
-    "pillar": "General Requirements",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Health Data Alert Customization",
-    "description": "ALFRED must allow caregivers to customize alert settings for health metrics, ensuring they receive notifications tailored to specific health concerns.",
-    "acceptanceCriteria": [
-      "Caregivers can select which health metrics trigger alerts.",
-      "Alerts are sent to caregivers immediately upon detection of anomalies."
-    ],
-    "priority": "1"
+    "title": "User Consent Management for Data Sharing",
+    "priority": "2"
   },
   {
     "id": "RREQ-026",
-    "pillar": "General Requirements",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Care Task Progress Tracking",
-    "description": "The platform should enable caregivers to track the progress of care tasks assigned to older adults, ensuring timely completion and accountability.",
-    "acceptanceCriteria": [
-      "Caregivers can view real-time status updates on assigned tasks.",
-      "System notifies caregivers of overdue tasks."
-    ],
-    "priority": "2"
+    "title": "Simplified Setup Process for Caregiver Access",
+    "priority": "3"
   },
   {
     "id": "RREQ-027",
-    "pillar": "General Requirements",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Secure User Consent Management",
-    "description": "ALFRED must provide a mechanism for older adults to manage and revoke consent for data sharing, ensuring their privacy preferences are respected.",
-    "acceptanceCriteria": [
-      "Older adults can easily access and modify consent settings.",
-      "Changes in consent are immediately reflected in caregiver access."
-    ],
-    "priority": "1"
+    "title": "Health Data Visualization for Easy Interpretation",
+    "priority": "3"
   },
   {
     "id": "RREQ-028",
-    "pillar": "General Requirements",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Quick Access to Emergency Information",
-    "description": "Caregivers should have quick access to emergency contact information and critical health data in case of urgent situations.",
-    "acceptanceCriteria": [
-      "Emergency information is accessible within two clicks.",
-      "System retains accuracy of emergency contact details."
-    ],
-    "priority": "2"
+    "title": "Medication Management and Reminder System",
+    "priority": "1"
   },
   {
     "id": "RREQ-029",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Training Resources for Caregivers on ALFRED Usage",
+    "priority": "4"
+  },
+  {
+    "id": "RREQ-030",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Interactive Physical Activity Programs",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-031",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Cognitive Stimulation Games for Users",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-032",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Progress Tracking for Physical Activities",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-033",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Personalized Cognitive Challenges Based on User Ability",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-034",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Feedback Loop for User Engagement in Activities",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-035",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Activity Recommendations Based on User Preferences",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-036",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Guided Tutorials for New Activities",
+    "priority": "4"
+  },
+  {
+    "id": "RREQ-037",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Social Sharing Features for Activity Achievements",
+    "priority": "4"
+  },
+  {
+    "id": "RREQ-038",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Adaptive Learning for Activity Adjustments",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-039",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "User Progress Reports for Caregivers",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-040",
     "pillar": "General Requirements",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Integrated Communication Tools",
-    "description": "ALFRED should include integrated communication tools for caregivers to effectively interact with older adults through messaging and video calls.",
-    "acceptanceCriteria": [
-      "Caregivers can initiate messages and video calls directly through the platform.",
-      "Communication tools maintain a user-friendly interface."
-    ],
+    "title": "Real-Time Health Data Access for Caregivers",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-041",
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Customizable User Profiles for Caregiver Access",
     "priority": "2"
+  },
+  {
+    "id": "RREQ-042",
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Secure Data Sharing Options with User Consent",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-043",
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Simplified Communication Channels Between Caregivers and Users",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-044",
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Integrated Alerts for Health Anomalies",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-045",
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "User-Friendly Interface for Health Monitoring",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-046",
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Training and Support Resources for Caregivers",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-047",
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Privacy Controls for User Health Data Access",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-048",
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Health Metric Visualization for Quick Insights",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-049",
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Personalized Care Task Notifications for Caregivers",
+    "priority": "3"
   },
   {
     "id": "RREQ-001",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Developers and App Creators",
-    "title": "Open API Access",
-    "description": "ALFRED must provide a comprehensive set of APIs that allow developers to integrate third-party applications seamlessly into the platform.",
-    "acceptanceCriteria": [
-      "APIs should be well-documented and accessible to developers.",
-      "Developers should be able to successfully authenticate and interact with the APIs without issues."
-    ],
+    "title": "Natural Language Processing Capabilities",
     "priority": "1"
   },
   {
     "id": "RREQ-002",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Developers and App Creators",
-    "title": "User Command Customization",
-    "description": "Developers should have the ability to create custom voice commands that can be recognized by ALFRED, allowing for personalized interactions.",
-    "acceptanceCriteria": [
-      "Custom commands should be successfully added and recognized by the system.",
-      "Users should be able to test and validate custom commands easily."
-    ],
+    "title": "Customizable Voice Interaction Settings",
     "priority": "2"
   },
   {
     "id": "RREQ-003",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Developers and App Creators",
-    "title": "Interactive Response System",
-    "description": "ALFRED should be capable of providing interactive responses to user commands, including follow-up questions or confirmations.",
-    "acceptanceCriteria": [
-      "ALFRED must demonstrate the ability to engage users with contextually relevant follow-up questions.",
-      "Responses should be delivered in a clear and understandable manner."
-    ],
+    "title": "Feedback Mechanism for User Commands",
     "priority": "2"
   },
   {
     "id": "RREQ-004",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Developers and App Creators",
-    "title": "Voice Command Error Handling",
-    "description": "The system should include robust error handling for misunderstood voice commands, providing helpful suggestions to users.",
-    "acceptanceCriteria": [
-      "ALFRED must acknowledge misinterpreted commands and suggest alternatives.",
-      "Users should receive prompts to retry or reformulate their requests."
-    ],
+    "title": "Integration with Third-Party Voice Services",
     "priority": "3"
   },
   {
     "id": "RREQ-005",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Developers and App Creators",
-    "title": "Multilingual Support",
-    "description": "ALFRED should support multiple languages for voice interaction to cater to a diverse user base.",
-    "acceptanceCriteria": [
-      "Users should be able to select their preferred language for interaction.",
-      "Voice recognition and responses must be accurate in all supported languages."
-    ],
+    "title": "User Command Personalization Features",
     "priority": "3"
   },
   {
     "id": "RREQ-006",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Developers and App Creators",
-    "title": "Feedback Mechanism for Developers",
-    "description": "Provide a mechanism for developers to receive feedback on their applications’ performance and user interactions within ALFRED.",
-    "acceptanceCriteria": [
-      "Developers should be able to access usage statistics and error reports for their applications.",
-      "Feedback should be actionable and help developers improve their applications."
-    ],
+    "title": "Support for Multi-User Voice Profiles",
     "priority": "4"
   },
   {
     "id": "RREQ-007",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Developers and App Creators",
-    "title": "Event Recommendation API",
-    "description": "ALFRED must provide an API that allows developers to access user preferences and recommend social events tailored to individual interests, enhancing social inclusion.",
-    "acceptanceCriteria": [
-      "Developers can successfully retrieve user preferences through the API.",
-      "The system generates event recommendations based on these preferences."
-    ],
+    "title": "Accessibility Features for Voice Interaction",
     "priority": "1"
   },
   {
     "id": "RREQ-008",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Developers and App Creators",
-    "title": "Social Interaction Tracking",
-    "description": "ALFRED should offer functionality to track user interactions with family and friends, allowing developers to create applications that encourage regular communication.",
-    "acceptanceCriteria": [
-      "Developers can access interaction data through the API.",
-      "Users can receive reminders to connect with their social circle based on this data."
-    ],
+    "title": "Error Handling and Recovery for Voice Commands",
     "priority": "2"
   },
   {
     "id": "RREQ-009",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Developers and App Creators",
-    "title": "Integration with Social Media Platforms",
-    "description": "ALFRED must support integration with popular social media platforms to facilitate users' engagement with their community and family.",
-    "acceptanceCriteria": [
-      "Developers can integrate third-party social media APIs into ALFRED.",
-      "Users can share updates or events directly from ALFRED to their social media accounts."
-    ],
-    "priority": "2"
+    "title": "Real-Time Speech Recognition Accuracy",
+    "priority": "1"
   },
   {
     "id": "RREQ-010",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Developers and App Creators",
-    "title": "Feedback Loop for Social Engagement",
-    "description": "Provide a mechanism for developers to receive feedback on how users are engaging with social activities recommended by ALFRED.",
-    "acceptanceCriteria": [
-      "Developers can access user engagement metrics related to social activities.",
-      "Feedback includes user satisfaction ratings for events attended."
-    ],
+    "title": "Documentation for Voice Command Development",
     "priority": "3"
   },
   {
     "id": "RREQ-011",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Developers and App Creators",
-    "title": "User-Generated Content Sharing",
-    "description": "ALFRED must enable users to create and share content related to events or social activities, allowing developers to build applications that promote user engagement and creativity.",
-    "acceptanceCriteria": [
-      "Users can easily create and share content through the system.",
-      "Developers have access to user-generated content via the API."
-    ],
-    "priority": "3"
+    "title": "Event Recommendation Engine",
+    "priority": "1"
   },
   {
     "id": "RREQ-012",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Developers and App Creators",
-    "title": "Social Engagement Notifications",
-    "description": "ALFRED should provide developers with the ability to send notifications to users about upcoming social events or activities that match their interests.",
-    "acceptanceCriteria": [
-      "Notifications can be customized based on user preferences.",
-      "Users receive timely alerts about relevant social opportunities."
-    ],
+    "title": "Integration with Social Media Platforms",
     "priority": "2"
   },
   {
     "id": "RREQ-013",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Developers and App Creators",
-    "title": "Health Device Integration API",
-    "description": "ALFRED must provide an API that allows developers to integrate third-party health-monitoring devices, enabling personalized care based on real-time health data.",
-    "acceptanceCriteria": [
-      "Developers can successfully connect and retrieve data from supported health-monitoring devices.",
-      "Data from devices is accurately reflected in the user’s health profile within ALFRED."
-    ],
-    "priority": "1"
+    "title": "User Interest Profiling for Social Activities",
+    "priority": "2"
   },
   {
     "id": "RREQ-014",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Developers and App Creators",
-    "title": "Personalized Care Plan API",
-    "description": "Developers should be able to access and modify users' personalized care plans through an API, allowing for tailored health interventions.",
-    "acceptanceCriteria": [
-      "Developers can retrieve and update personalized care plans via the API.",
-      "Changes to care plans are accurately reflected in the user interface."
-    ],
-    "priority": "1"
+    "title": "Support for Group Communication Features",
+    "priority": "3"
   },
   {
     "id": "RREQ-015",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Developers and App Creators",
-    "title": "Alerts and Notifications System",
-    "description": "ALFRED should provide a mechanism for developers to create alerts and notifications based on health data trends, ensuring timely intervention for users.",
-    "acceptanceCriteria": [
-      "Developers can configure alerts for specific health data thresholds.",
-      "Users receive notifications promptly when alerts are triggered."
-    ],
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-016",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Developers and App Creators",
-    "title": "User Health Data Dashboard",
-    "description": "Developers must have access to a dashboard API that allows them to present user health data visually, aiding in understanding health trends over time.",
-    "acceptanceCriteria": [
-      "Developers can retrieve and display health data in a user-friendly format.",
-      "The dashboard updates in real-time as new data is received."
-    ],
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-017",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Developers and App Creators",
-    "title": "Caregiver Access Control",
-    "description": "ALFRED should enable developers to implement access control features that allow users to grant or restrict caregiver access to their health information.",
-    "acceptanceCriteria": [
-      "Users can easily manage caregiver access permissions through the ALFRED interface.",
-      "Changes to access permissions are immediately reflected in the system."
-    ],
-    "priority": "3"
-  },
-  {
-    "id": "RREQ-018",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Developers and App Creators",
-    "title": "Data Privacy Compliance API",
-    "description": "Developers must have access to an API that ensures their applications comply with data privacy regulations while handling user health information.",
-    "acceptanceCriteria": [
-      "The API provides clear guidelines on data handling and privacy compliance.",
-      "Developers can validate their applications against privacy standards using the API."
-    ],
-    "priority": "3"
-  },
-  {
-    "id": "RREQ-019",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Developers and App Creators",
-    "title": "Cognitive Activity Integration API",
-    "description": "ALFRED must provide an API that allows developers to integrate cognitive activity applications, promoting mental exercises tailored to users' abilities and preferences.",
-    "acceptanceCriteria": [
-      "Developers can successfully integrate cognitive activity apps using the API.",
-      "Users can access a variety of cognitive exercises based on their preferences."
-    ],
+    "title": "Personalized Activity Suggestions",
     "priority": "1"
   },
   {
-    "id": "RREQ-020",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "id": "RREQ-016",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Developers and App Creators",
-    "title": "Physical Activity Challenge API",
-    "description": "Developers should have access to an API that allows them to create and manage physical activity challenges, encouraging users to engage in regular exercise tailored to their capabilities.",
-    "acceptanceCriteria": [
-      "Developers can create and customize physical challenges through the API.",
-      "Users can track their progress and receive feedback on their physical activity."
-    ],
+    "title": "Community Engagement Tracking",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-017",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Developers and App Creators",
+    "title": "Notification System for Social Activities",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-018",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Developers and App Creators",
+    "title": "Privacy Controls for Social Interactions",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-019",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Developers and App Creators",
+    "title": "Developer API for Social Event Management",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-020",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "title": "Health Data Access API",
     "priority": "1"
   },
   {
     "id": "RREQ-021",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
-    "title": "Adaptive Difficulty Settings",
-    "description": "ALFRED should allow developers to implement adaptive difficulty settings in cognitive and physical activities, ensuring that challenges are suitable for users' varying abilities.",
-    "acceptanceCriteria": [
-      "Developers can configure adaptive difficulty parameters for activities.",
-      "Users experience activities that adjust in difficulty based on their performance."
-    ],
-    "priority": "2"
+    "title": "Integration with Health Monitoring Devices",
+    "priority": "1"
   },
   {
     "id": "RREQ-022",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
-    "title": "Gamification Features API",
-    "description": "The platform must offer an API that enables developers to add gamification elements, such as rewards and badges, to physical and cognitive activities, enhancing user engagement.",
-    "acceptanceCriteria": [
-      "Developers can implement rewards systems for user achievements.",
-      "Users can view and track their earned rewards and badges within ALFRED."
-    ],
+    "title": "Real-Time Health Status Updates",
     "priority": "2"
   },
   {
     "id": "RREQ-023",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
-    "title": "Progress Tracking API",
-    "description": "ALFRED should provide an API that allows developers to track and visualize users' progress in cognitive and physical activities, helping users stay motivated.",
-    "acceptanceCriteria": [
-      "Developers can retrieve and display user progress data through the API.",
-      "Users receive regular updates on their activity performance and improvements."
-    ],
+    "title": "Personalized Care Plan Development Tools",
     "priority": "2"
   },
   {
     "id": "RREQ-024",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
-    "title": "User Feedback Mechanism for Activities",
-    "description": "ALFRED must include a mechanism that allows users to provide feedback on cognitive and physical activities, facilitating continuous improvement of the applications.",
-    "acceptanceCriteria": [
-      "Users can easily submit feedback on activities they've completed.",
-      "Developers have access to feedback for enhancing their applications."
-    ],
-    "priority": "3"
+    "title": "Security Protocols for Health Data",
+    "priority": "1"
   },
   {
     "id": "RREQ-025",
-    "pillar": "General Requirements",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
-    "title": "Developer Documentation Portal",
-    "description": "ALFRED must provide a comprehensive online documentation portal for developers, detailing API usage, integration guidelines, and best practices for application development.",
-    "acceptanceCriteria": [
-      "Developers can access up-to-date documentation that covers all APIs and integration points.",
-      "Documentation includes examples and clear instructions for common use cases."
-    ],
-    "priority": "1"
+    "title": "Documentation for Health Integration APIs",
+    "priority": "3"
   },
   {
     "id": "RREQ-026",
-    "pillar": "General Requirements",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
-    "title": "Sandbox Environment for Testing",
-    "description": "ALFRED should offer a sandbox environment where developers can test their applications without affecting live user data or system performance.",
-    "acceptanceCriteria": [
-      "Developers can create and manage test applications in the sandbox environment.",
-      "The sandbox environment simulates real-world interactions with ALFRED."
-    ],
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-027",
-    "pillar": "General Requirements",
-    "userGroup": "Developers and App Creators",
-    "title": "Data Privacy and Security Guidelines",
-    "description": "ALFRED must provide clear guidelines and tools for developers to ensure that their applications comply with data privacy and security standards.",
-    "acceptanceCriteria": [
-      "Developers can access specific guidelines for handling personal and health information.",
-      "Applications developed must pass compliance checks before deployment."
-    ],
+    "title": "User Consent Management for Health Data Sharing",
     "priority": "1"
   },
   {
-    "id": "RREQ-028",
-    "pillar": "General Requirements",
+    "id": "RREQ-027",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
-    "title": "Integration with Third-Party Services",
-    "description": "ALFRED should support the integration of third-party services, enabling developers to enhance functionalities and provide additional features to users.",
-    "acceptanceCriteria": [
-      "Developers can successfully integrate at least three third-party services through provided APIs.",
-      "Users can access new functionalities seamlessly within ALFRED."
-    ],
+    "title": "Support for Remote Caregiver Interaction",
     "priority": "2"
   },
   {
-    "id": "RREQ-029",
-    "pillar": "General Requirements",
+    "id": "RREQ-028",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
-    "title": "Developer Community Forum",
-    "description": "ALFRED must establish a community forum for developers to share experiences, ask questions, and collaborate on application development.",
-    "acceptanceCriteria": [
-      "The forum is actively used by developers and has resources for troubleshooting.",
-      "Developers can post questions and receive timely responses from peers or ALFRED support."
-    ],
+    "title": "Longitudinal Health Tracking Features",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-029",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "title": "Error Handling for Health Data Inputs",
     "priority": "3"
   },
   {
     "id": "RREQ-030",
-    "pillar": "General Requirements",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Developers and App Creators",
-    "title": "API Rate Limiting and Quotas",
-    "description": "ALFRED should implement rate limiting and quotas for API usage to ensure fair access and maintain system performance for all developers.",
-    "acceptanceCriteria": [
-      "Developers are informed of their usage limits through the API documentation.",
-      "The system enforces limits and provides feedback when quotas are exceeded."
-    ],
-    "priority": "2"
+    "title": "Integration with Cognitive Stimulation Activities",
+    "priority": "1"
   },
   {
     "id": "RREQ-031",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "title": "API for Physical Activity Tracking Applications",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-032",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "title": "Support for Customizable Cognitive Games",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-033",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "title": "Developer Tools for Activity Challenge Creation",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-034",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "title": "Feedback Mechanism for Cognitive Activities",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-035",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "title": "Documentation for Physical Activity API Integration",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-036",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "title": "Real-Time Progress Tracking for Users",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-037",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "title": "Security Measures for Activity Data Management",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-038",
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
-    "title": "User Consent Management API",
-    "description": "ALFRED must provide an API for developers to manage user consent for data sharing and privacy settings, ensuring compliance with regulations.",
-    "acceptanceCriteria": [
-      "Developers can access user consent statuses and modify them through the API.",
-      "Changes in consent are accurately reflected in the user interface."
-    ],
+    "title": "Open API for Third-Party App Integration",
     "priority": "1"
+  },
+  {
+    "id": "RREQ-039",
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "title": "Comprehensive Developer Documentation",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-040",
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "title": "Security Standards for Third-Party Applications",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-041",
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "title": "Sandbox Environment for App Testing",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-042",
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "title": "Support for Multiple Programming Languages",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-043",
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "title": "Versioning for APIs",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-044",
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "title": "User Data Access Permissions for Developers",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-045",
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "title": "Error Logging and Reporting Mechanism",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-046",
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "title": "Guidelines for User-Centric App Design",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-047",
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "title": "Integration with Developer Community Platforms",
+    "priority": "3"
   }
 ]

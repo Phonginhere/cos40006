@@ -1,0 +1,132 @@
+[
+  {
+    "title": "Health Data Access API",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want robust APIs that facilitate secure access to health data so that developers can integrate services while ensuring compliance with data privacy regulations.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-020",
+    "id": "US-112"
+  },
+  {
+    "title": "Integration with Health Monitoring Devices",
+    "summary": "As a Compliance and Risk Lead, I want to ensure that the integration of health monitoring devices complies with data privacy regulations so that developers can create secure applications without compromising user trust.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-021",
+    "id": "US-113"
+  },
+  {
+    "title": "Real-Time Health Status Updates",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to ensure that real-time health status updates from ALFRED are securely managed and comply with data privacy regulations, so that developers can create applications that maintain user trust and meet legal standards.",
+    "priority": 2,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-022",
+    "id": "US-114"
+  },
+  {
+    "title": "Compliance-Driven Care Plan Development Tools",
+    "summary": "As a Compliance and Risk Lead, I want tools that facilitate the development of personalized care plans while ensuring compliance with legal standards, so that developers can create applications that are both effective and adhere to data privacy regulations.",
+    "priority": 2,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-023",
+    "id": "US-115"
+  },
+  {
+    "title": "Security Protocols for Health Data",
+    "summary": "As a Compliance and Risk Lead, I want to ensure that all health data exchanged through ALFRED's APIs complies with legal standards, so that developers can build applications that are secure and maintain user trust.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-024",
+    "id": "US-116"
+  },
+  {
+    "title": "Documentation for Health Integration APIs",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want comprehensive documentation for health integration APIs so that I can ensure that developers adhere to compliance standards while creating applications that securely manage user health data.",
+    "priority": 3,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-025",
+    "id": "US-117"
+  },
+  {
+    "title": "User Consent Management for Health Data Sharing",
+    "summary": "As a Compliance and Risk Lead, I want to ensure that the ALFRED system has robust user consent management for health data sharing so that developers can create applications that comply with data privacy regulations and protect user autonomy.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-026",
+    "id": "US-118"
+  },
+  {
+    "title": "Support for Remote Caregiver Interaction",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to ensure that remote caregiver interactions through the ALFRED system are secure and compliant with data privacy regulations, so that developers can build applications that facilitate safe communications between older adults and their caregivers.",
+    "priority": 2,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-027",
+    "id": "US-119"
+  },
+  {
+    "title": "Longitudinal Health Tracking Compliance",
+    "summary": "As a Compliance and Risk Lead, I want the longitudinal health tracking features to integrate robust data privacy controls so that developers can ensure compliance with legal standards while building applications.",
+    "priority": 3,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-028",
+    "id": "US-120"
+  },
+  {
+    "title": "Error Handling for Health Data Inputs",
+    "summary": "As a Compliance and Risk Lead, I want to ensure that the ALFRED system has robust error handling for health data inputs so that developers can maintain compliance with data privacy regulations and ensure secure data management practices are followed.",
+    "priority": 3,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-029",
+    "id": "US-121"
+  }
+]

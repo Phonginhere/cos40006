@@ -1,7 +1,7 @@
 [
   {
-    "title": "Event Recommendation System",
-    "summary": "As a professional caregiver managing multiple elderly clients, I want ALFRED to provide personalized recommendations for social events and activities based on my clients' interests so that I can encourage social engagement and help prevent isolation.",
+    "title": "Social Activity Recommendations for Clients",
+    "summary": "As a professional caregiver, I want ALFRED to recommend social activities based on my clients' interests so that I can facilitate their engagement and help prevent social isolation.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Caregivers and Medical Staff",
@@ -13,75 +13,153 @@
       "UC-005",
       "UC-006",
       "UC-009",
+      "UC-010",
       "UC-011",
-      "UC-012",
-      "UC-013",
-      "UC-014"
+      "UC-012"
     ],
-    "rawRequirementId": "RREQ-007",
-    "id": "US-156"
+    "rawRequirementId": "RREQ-011",
+    "id": "US-244"
   },
   {
-    "title": "Social Connection Reminders",
-    "summary": "As a professional caregiver, I want ALFRED to remind my clients of upcoming social engagements and facilitate communication with their friends and family so that they can maintain their social connections and reduce feelings of isolation.",
+    "title": "Facilitated Communication Channels for Caregivers",
+    "summary": "As a professional caregiver, I want efficient communication tools within ALFRED so that I can easily stay in touch with my clients and their families, ensuring timely updates and coordination of care.",
     "priority": 2,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-006",
     "useCases": [
       "UC-002",
+      "UC-005",
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-012",
+    "id": "US-245"
+  },
+  {
+    "title": "Event Notifications for Social Engagement Opportunities",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want to receive notifications about social engagement opportunities tailored to my clients' interests so that I can encourage their participation and help prevent social isolation.",
+    "priority": 2,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-009",
+      "UC-010",
+      "UC-011",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-013",
+    "id": "US-246"
+  },
+  {
+    "title": "User-Defined Preferences for Social Interactions",
+    "summary": "As a professional caregiver, I want to customize social interaction preferences for my clients so that I can ensure they engage in activities that align with their interests and comfort levels, while maintaining clear communication with their families.",
+    "priority": 3,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-002",
+      "UC-004",
+      "UC-006",
+      "UC-009"
+    ],
+    "rawRequirementId": "RREQ-014",
+    "id": "US-247"
+  },
+  {
+    "title": "Integration with Community Resources for Social Activities",
+    "summary": "As a professional caregiver, I want ALFRED to integrate with community resources for social activities so that I can easily identify and recommend engaging events for my clients, helping to prevent their social isolation.",
+    "priority": 3,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-009",
+      "UC-010",
+      "UC-011",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-015",
+    "id": "US-248"
+  },
+  {
+    "title": "Feedback Mechanism for User Satisfaction with Social Features",
+    "summary": "As a professional caregiver, I want a feedback mechanism to assess the effectiveness of social features so that I can ensure my clients are engaged and connected with their families and friends.",
+    "priority": 4,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-009",
+      "UC-010",
+      "UC-011",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-016",
+    "id": "US-249"
+  },
+  {
+    "title": "Personalized Reminders for Social Engagements",
+    "summary": "As a professional caregiver, I want ALFRED to provide personalized reminders for social engagements for my clients so that I can ensure they remain socially active and connected with their families and friends, while managing their care routines efficiently.",
+    "priority": 2,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-002",
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-017",
+    "id": "US-250"
+  },
+  {
+    "title": "Support for Group Communication Features",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want to facilitate group communication between my clients and their family members so that I can ensure everyone is informed and involved in their care.",
+    "priority": 3,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
       "UC-005",
       "UC-006",
       "UC-011"
     ],
-    "rawRequirementId": "RREQ-008",
-    "id": "US-157"
+    "rawRequirementId": "RREQ-018",
+    "id": "US-251"
   },
   {
-    "title": "Group Communication Features",
-    "summary": "As a professional caregiver, I want to facilitate group messaging and video calls among my clients, their families, and other caregivers so that we can enhance community connection and ensure everyone is informed about health and care updates.",
-    "priority": 2,
+    "title": "User Privacy Settings for Social Interactions",
+    "summary": "As a professional caregiver, I want to manage the privacy settings of my clients' social interactions on ALFRED so that I can ensure their data is protected while facilitating communication with their families and healthcare providers.",
+    "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-006",
     "useCases": [
-      "UC-002",
-      "UC-005",
-      "UC-006"
-    ],
-    "rawRequirementId": "RREQ-009",
-    "id": "US-158"
-  },
-  {
-    "title": "Activity Tracking and Feedback",
-    "summary": "As a professional caregiver, I want to track my clients' participation in social activities and gather their feedback so that I can refine future recommendations and ensure they remain engaged.",
-    "priority": 3,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-002",
       "UC-005",
       "UC-006",
-      "UC-011",
+      "UC-009",
       "UC-012"
     ],
-    "rawRequirementId": "RREQ-010",
-    "id": "US-159"
-  },
-  {
-    "title": "Integration with Social Media",
-    "summary": "As a professional caregiver, I want to link social media accounts to ALFRED so that I can easily share updates and communicate with my clients' families, fostering a more connected experience.",
-    "priority": 3,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-002",
-      "UC-005",
-      "UC-006"
-    ],
-    "rawRequirementId": "RREQ-011",
-    "id": "US-160"
+    "rawRequirementId": "RREQ-019",
+    "id": "US-252"
   }
 ]

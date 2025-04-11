@@ -1,22 +1,7 @@
 [
   {
-    "title": "Cognitive Engagement Activities",
-    "summary": "As a professional caregiver, I want to recommend interactive cognitive games and challenges to my clients based on their preferences so that I can help stimulate their cognitive functions and keep them engaged.",
-    "priority": 1,
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-004",
-      "UC-006",
-      "UC-009"
-    ],
-    "rawRequirementId": "RREQ-018",
-    "id": "US-167"
-  },
-  {
-    "title": "Physical Activity Tracking",
-    "summary": "As a professional caregiver, I want to track my clients' physical activity levels so that I can encourage increased mobility and exercise, ultimately improving their health and well-being.",
+    "title": "Interactive Physical Activity Programs",
+    "summary": "As a professional caregiver, I want ALFRED to provide interactive physical activity programs tailored to each client's abilities so that I can engage them in safe and effective exercises that improve their physical health.",
     "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Caregivers and Medical Staff",
@@ -24,47 +9,67 @@
     "useCases": [
       "UC-004",
       "UC-005",
-      "UC-011"
+      "UC-006",
+      "UC-010"
     ],
-    "rawRequirementId": "RREQ-019",
-    "id": "US-168"
+    "rawRequirementId": "RREQ-030",
+    "id": "US-263"
   },
   {
-    "title": "Personalized Activity Suggestions",
-    "summary": "As a professional caregiver, I want ALFRED to recommend physical activities based on my clients' abilities and preferences so that I can promote suitable options for engagement and improve their well-being.",
+    "title": "Cognitive Stimulation Games for Clients",
+    "summary": "As a professional caregiver, I want ALFRED to provide cognitive stimulation games tailored to my clients' abilities so that I can help enhance their cognitive health and keep them engaged.",
+    "priority": 1,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-004",
+      "UC-006"
+    ],
+    "rawRequirementId": "RREQ-031",
+    "id": "US-264"
+  },
+  {
+    "title": "Progress Tracking for Physical Activities",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want to track my clients' physical activity progress so that I can monitor their engagement in health-promoting activities and adapt care plans accordingly.",
     "priority": 2,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-006",
     "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-032",
+    "id": "US-265"
+  },
+  {
+    "title": "Personalized Cognitive Engagement for Clients",
+    "summary": "As a professional caregiver, I want ALFRED to provide personalized cognitive challenges tailored to each client's abilities so that I can engage them in meaningful activities that promote their mental health and well-being.",
+    "priority": 2,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-001",
+      "UC-002",
       "UC-004",
       "UC-005",
       "UC-006",
       "UC-009",
+      "UC-010",
+      "UC-011",
       "UC-012"
     ],
-    "rawRequirementId": "RREQ-020",
-    "id": "US-169"
+    "rawRequirementId": "RREQ-033",
+    "id": "US-266"
   },
   {
-    "title": "Activity Progress Monitoring",
-    "summary": "As a professional caregiver, I want to monitor the progress and participation of my clients in cognitive and physical activities so that I can provide tailored support and ensure their engagement.",
-    "priority": 2,
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-004",
-      "UC-005",
-      "UC-006",
-      "UC-012"
-    ],
-    "rawRequirementId": "RREQ-021",
-    "id": "US-170"
-  },
-  {
-    "title": "Feedback Mechanism for Activity Effectiveness",
-    "summary": "As a caregiver, I want to receive feedback on the effectiveness and enjoyment of activities so that I can adjust future recommendations and provide personalized care.",
+    "title": "Feedback Mechanism for Health Engagement",
+    "summary": "As a professional caregiver, I want ALFRED to provide feedback on my clients' engagement in physical and cognitive activities so that I can encourage them to participate more actively and monitor their progress.",
     "priority": 3,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Caregivers and Medical Staff",
@@ -72,26 +77,70 @@
     "useCases": [
       "UC-004",
       "UC-005",
-      "UC-006",
-      "UC-011",
-      "UC-012"
+      "UC-009"
     ],
-    "rawRequirementId": "RREQ-022",
-    "id": "US-171"
+    "rawRequirementId": "RREQ-034",
+    "id": "US-267"
   },
   {
-    "title": "Guided Exercise Routines",
-    "summary": "As a professional caregiver, I want to initiate guided exercise routines for my clients so that they can engage in safe and appropriate physical activities that promote their health.",
-    "priority": 1,
+    "title": "Activity Recommendations for Client Engagement",
+    "summary": "As a professional caregiver, I want ALFRED to recommend personalized activities for my clients based on their interests and cognitive abilities, so that I can help keep them engaged and prevent cognitive decline.",
+    "priority": 3,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-006",
     "useCases": [
       "UC-004",
-      "UC-006",
-      "UC-011"
+      "UC-009",
+      "UC-010"
     ],
-    "rawRequirementId": "RREQ-023",
-    "id": "US-172"
+    "rawRequirementId": "RREQ-035",
+    "id": "US-268"
+  },
+  {
+    "title": "Guided Tutorials for New Activities",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want guided tutorials for new activities so that I can efficiently introduce and facilitate engaging physical and cognitive exercises for my clients, ensuring they remain active and stimulated.",
+    "priority": 4,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-001",
+      "UC-004",
+      "UC-006"
+    ],
+    "rawRequirementId": "RREQ-036",
+    "id": "US-269"
+  },
+  {
+    "title": "Adaptive Learning for Activity Adjustments",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want ALFRED to adapt activities based on each client's capabilities so that I can ensure they engage in appropriate exercises that promote their physical and cognitive health effectively.",
+    "priority": 3,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-004",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-038",
+    "id": "US-270"
+  },
+  {
+    "title": "User Progress Reports for Caregivers",
+    "summary": "As a professional caregiver, I want to receive user progress reports for my clients so that I can efficiently track their health status, document care activities, and ensure timely interventions as needed.",
+    "priority": 2,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-004",
+      "UC-005",
+      "UC-010",
+      "UC-011",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-039",
+    "id": "US-271"
   }
 ]

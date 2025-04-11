@@ -1,120 +1,167 @@
 [
   {
-    "title": "Developer Documentation Portal",
-    "summary": "As a full-stack developer creating healthcare applications, I want a comprehensive online documentation portal so that I can easily access up-to-date information on API usage, integration guidelines, and best practices for application development.",
+    "title": "Open API for Third-Party App Integration",
+    "summary": "As a full-stack developer, I want to access open APIs for seamless integration of third-party applications so that I can create user-friendly healthcare solutions that enhance the functionality of ALFRED for elderly users and their caregivers.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
+      "UC-002",
       "UC-005",
       "UC-006",
-      "UC-009",
-      "UC-012",
-      "UC-013",
-      "UC-014"
-    ],
-    "rawRequirementId": "RREQ-025",
-    "id": "US-025"
-  },
-  {
-    "title": "Sandbox Environment for Testing",
-    "summary": "As a developer, I want a sandbox environment where I can test my applications without affecting live user data or system performance so that I can ensure my applications work correctly and securely before deployment.",
-    "priority": 2,
-    "pillar": "General Requirements",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-006",
-      "UC-009",
-      "UC-013",
-      "UC-014"
-    ],
-    "rawRequirementId": "RREQ-026",
-    "id": "US-026"
-  },
-  {
-    "title": "Data Privacy Compliance Support",
-    "summary": "As a full-stack developer, I want clear guidelines and tools for data privacy and security so that I can ensure my applications comply with regulations and protect users' personal information.",
-    "priority": 1,
-    "pillar": "General Requirements",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-006",
-      "UC-009",
+      "UC-010",
       "UC-012"
     ],
-    "rawRequirementId": "RREQ-027",
-    "id": "US-027"
+    "rawRequirementId": "RREQ-038",
+    "id": "US-038"
   },
   {
-    "title": "Integration with Third-Party Services",
-    "summary": "As a developer, I want to integrate third-party services into the ALFRED system so that I can enhance functionalities and provide users with additional features.",
+    "title": "Comprehensive Developer Documentation",
+    "summary": "As a full-stack developer, I want clear and comprehensive documentation for the ALFRED system so that I can effectively build secure and accessible healthcare applications that integrate seamlessly with the platform.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-002",
+      "UC-005",
+      "UC-006",
+      "UC-010",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-039",
+    "id": "US-039"
+  },
+  {
+    "title": "Security Standards for Third-Party Applications",
+    "summary": "As a developer, I want to implement robust security standards for third-party applications so that I can ensure compliance with healthcare regulations and protect user data from breaches.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-002",
+      "UC-005",
+      "UC-006",
+      "UC-010",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-040",
+    "id": "US-040"
+  },
+  {
+    "title": "Sandbox Environment for App Testing",
+    "summary": "As a full-stack developer, I want a sandbox environment to test my applications so that I can ensure they function correctly and securely before deployment.",
     "priority": 2,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
+      "UC-002",
       "UC-005",
-      "UC-006",
-      "UC-009",
-      "UC-012",
-      "UC-013",
-      "UC-014"
+      "UC-010"
     ],
-    "rawRequirementId": "RREQ-028",
-    "id": "US-028"
+    "rawRequirementId": "RREQ-041",
+    "id": "US-041"
   },
   {
-    "title": "Community Collaboration",
-    "summary": "As a full-stack developer creating healthcare applications, I want a community forum to share experiences and collaborate on application development so that I can enhance my projects with insights from peers and receive timely support.",
+    "title": "Support for Multiple Programming Languages",
+    "summary": "As a full-stack developer, I want ALFRED to support multiple programming languages so that I can build applications using my preferred languages and tools, enhancing my ability to create accessible and secure healthcare solutions for elderly users.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-002",
+      "UC-005",
+      "UC-006",
+      "UC-010",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-042",
+    "id": "US-042"
+  },
+  {
+    "title": "Versioning for APIs",
+    "summary": "As a full-stack developer, I want versioning for APIs so that I can ensure compatibility and ease of integration for new applications while maintaining secure and compliant interactions with the ALFRED system.",
     "priority": 3,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
+      "UC-002",
       "UC-005",
       "UC-006",
-      "UC-009",
-      "UC-012",
-      "UC-013",
-      "UC-014"
+      "UC-010",
+      "UC-012"
     ],
-    "rawRequirementId": "RREQ-029",
-    "id": "US-029"
+    "rawRequirementId": "RREQ-043",
+    "id": "US-043"
   },
   {
-    "title": "API Rate Limiting and Quotas",
-    "summary": "As a developer, I want to have clear information about API usage limits so that I can manage my application's performance and ensure fair access to the system.",
+    "title": "User Data Access Permissions for Developers",
+    "summary": "As a developer, I want clear guidelines and mechanisms for managing user data access permissions so that I can ensure my applications comply with privacy regulations and provide secure interactions within the ALFRED platform.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-002",
+      "UC-005",
+      "UC-006",
+      "UC-010",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-044",
+    "id": "US-044"
+  },
+  {
+    "title": "Error Logging and Reporting Mechanism",
+    "summary": "As a developer, I want an effective error logging and reporting mechanism so that I can quickly identify and address issues in my applications, ensuring they run smoothly and securely for elderly users and caregivers.",
+    "priority": 3,
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-002",
+      "UC-005",
+      "UC-006",
+      "UC-010",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-045",
+    "id": "US-045"
+  },
+  {
+    "title": "Guidelines for User-Centric App Design",
+    "summary": "As a developer, I want clear guidelines for designing user-centric applications so that I can create accessible and intuitive solutions for elderly users and their caregivers.",
     "priority": 2,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
       "UC-005",
-      "UC-006",
-      "UC-009",
-      "UC-012",
-      "UC-013",
-      "UC-014"
+      "UC-010"
     ],
-    "rawRequirementId": "RREQ-030",
-    "id": "US-030"
+    "rawRequirementId": "RREQ-046",
+    "id": "US-046"
   },
   {
-    "title": "User Consent Management",
-    "summary": "As a full-stack developer, I want an API to manage user consent for data sharing and privacy settings so that I can ensure compliance with healthcare regulations and maintain user trust.",
-    "priority": 1,
+    "title": "Integration with Developer Community Platforms",
+    "summary": "As a developer, I want to seamlessly connect with community platforms to share insights and resources, so that I can enhance my applications and foster collaboration with other developers working on elderly care solutions.",
+    "priority": 3,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
-      "UC-009",
-      "UC-012",
-      "UC-013"
+      "UC-002",
+      "UC-005",
+      "UC-006",
+      "UC-010",
+      "UC-012"
     ],
-    "rawRequirementId": "RREQ-031",
-    "id": "US-031"
+    "rawRequirementId": "RREQ-047",
+    "id": "US-047"
   }
 ]

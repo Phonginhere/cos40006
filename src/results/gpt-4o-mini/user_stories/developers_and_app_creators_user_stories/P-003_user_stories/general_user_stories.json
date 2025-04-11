@@ -1,0 +1,132 @@
+[
+  {
+    "title": "Open API for Third-Party App Integration",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want robust APIs for integrating third-party applications so that I can ensure compliance-by-design principles are maintained while enabling developers to create innovative solutions without compromising security and privacy.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-038",
+    "id": "US-130"
+  },
+  {
+    "title": "Comprehensive Developer Documentation",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want clear and thorough documentation for developers so that they can create applications that comply with legal standards without introducing friction into the development process.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-039",
+    "id": "US-131"
+  },
+  {
+    "title": "Security Standards for Third-Party Applications",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want robust security standards for third-party applications so that I can ensure compliance with data privacy regulations and mitigate risks associated with external integrations.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-040",
+    "id": "US-132"
+  },
+  {
+    "title": "Sandbox Environment for App Testing",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want a sandbox environment for testing third-party applications so that I can ensure compliance with legal standards without risking production data.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-041",
+    "id": "US-133"
+  },
+  {
+    "title": "Support for Multiple Programming Languages",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want the ALFRED system to support multiple programming languages so that developers can choose the most suitable tools for integrating compliance features and ensuring secure interactions without hindering agile development.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-042",
+    "id": "US-134"
+  },
+  {
+    "title": "API Versioning for Compliance Management",
+    "summary": "As a Compliance and Risk Lead, I want robust versioning for APIs so that I can ensure that all changes to data access comply with legal requirements and maintain auditability across updates.",
+    "priority": 3,
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-043",
+    "id": "US-135"
+  },
+  {
+    "title": "User Data Access Permissions for Developers",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to ensure that developers have clear mechanisms to manage user data access permissions so that we can maintain compliance with data privacy regulations while enabling innovation within the ALFRED platform.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-044",
+    "id": "US-136"
+  },
+  {
+    "title": "Error Logging and Reporting Mechanism",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want a robust error logging and reporting mechanism so that I can ensure compliance checks are effectively monitored and any security or policy violations are quickly identified and addressed.",
+    "priority": 3,
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-045",
+    "id": "US-137"
+  },
+  {
+    "title": "Guidelines for User-Centric App Design",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want clear guidelines for user-centric app design to ensure that all applications adhere to compliance standards and provide a seamless experience for users without compromising on security.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-046",
+    "id": "US-138"
+  },
+  {
+    "title": "Integration with Developer Community Platforms",
+    "summary": "As a Compliance and Risk Lead, I want to ensure that the ALFRED system supports integration with developer community platforms so that compliance standards can be easily shared and adhered to during the app development process.",
+    "priority": 3,
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "rawRequirementId": "RREQ-047",
+    "id": "US-139"
+  }
+]

@@ -1,95 +1,166 @@
 [
   {
-    "title": "Cognitive Engagement Activities",
-    "summary": "As a home-care nurse, I want ALFRED to provide interactive cognitive games tailored to my patients' interests so that I can recommend activities that stimulate their cognitive functions and enhance their overall well-being.",
+    "title": "Interactive Physical Activity Programs",
+    "summary": "As a home-care nurse, I want ALFRED to provide interactive physical activity programs tailored to my elderly patients so that I can encourage their physical engagement and monitor their participation remotely.",
     "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
+      "UC-002",
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-011",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-030",
+    "id": "US-169"
+  },
+  {
+    "title": "Cognitive Stimulation for Patients",
+    "summary": "As a home-care nurse, I want ALFRED to provide cognitive stimulation games tailored to my patients' abilities so that I can help maintain their mental health and prevent cognitive decline while fostering engagement during my visits.",
+    "priority": 1,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-002",
+      "UC-004",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-031",
+    "id": "US-170"
+  },
+  {
+    "title": "Progress Tracking for Physical Activities",
+    "summary": "As a home-care nurse, I want to monitor my patients' physical activities so that I can encourage them to stay active and detect any changes in their health status early.",
+    "priority": 2,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-002",
+      "UC-004",
+      "UC-011",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-032",
+    "id": "US-171"
+  },
+  {
+    "title": "Personalized Cognitive Engagement for Patients",
+    "summary": "As a home-care nurse, I want ALFRED to provide personalized cognitive challenges tailored to my patients' abilities so that I can effectively engage them, promote their cognitive health, and reduce feelings of isolation.",
+    "priority": 2,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-002",
       "UC-004",
       "UC-006",
       "UC-011"
     ],
-    "rawRequirementId": "RREQ-018",
-    "id": "US-108"
+    "rawRequirementId": "RREQ-033",
+    "id": "US-172"
   },
   {
-    "title": "Physical Activity Tracking",
-    "summary": "As a home-care nurse, I want to track my patients' physical activity levels so that I can encourage increased mobility and exercise.",
-    "priority": 1,
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-004",
-      "UC-005",
-      "UC-011"
-    ],
-    "rawRequirementId": "RREQ-019",
-    "id": "US-109"
-  },
-  {
-    "title": "Personalized Activity Suggestions",
-    "summary": "As a home-care nurse, I want ALFRED to recommend physical activities tailored to my patients' abilities and preferences so that I can promote suitable options for their engagement and well-being.",
-    "priority": 2,
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-004",
-      "UC-005",
-      "UC-011"
-    ],
-    "rawRequirementId": "RREQ-020",
-    "id": "US-110"
-  },
-  {
-    "title": "Progress Monitoring for Activities",
-    "summary": "As a home-care nurse, I want to monitor the progress and participation of my patients in cognitive and physical activities so that I can provide tailored support and ensure their engagement.",
-    "priority": 2,
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-004",
-      "UC-005",
-      "UC-011",
-      "UC-012",
-      "UC-013"
-    ],
-    "rawRequirementId": "RREQ-021",
-    "id": "US-111"
-  },
-  {
-    "title": "Feedback Mechanism for Activity Effectiveness",
-    "summary": "As a caregiver, I want to receive feedback on the activities my patients engage in so that I can adjust future recommendations to better meet their needs and preferences.",
+    "title": "Feedback Loop for Patient Engagement in Activities",
+    "summary": "As a home-care nurse, I want to receive feedback on the engagement levels of my patients in various activities so that I can better support their emotional well-being and encourage participation in social and cognitive stimulation.",
     "priority": 3,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
+      "UC-002",
       "UC-004",
       "UC-005",
-      "UC-011"
+      "UC-006",
+      "UC-011",
+      "UC-012"
     ],
-    "rawRequirementId": "RREQ-022",
-    "id": "US-112"
+    "rawRequirementId": "RREQ-034",
+    "id": "US-173"
   },
   {
-    "title": "Guided Exercise Routines",
-    "summary": "As a home-care nurse, I want to initiate guided exercise routines for my patients so that they can safely engage in physical activities appropriate for their condition.",
-    "priority": 1,
+    "title": "Activity Recommendations for Patient Engagement",
+    "summary": "As a home-care nurse, I want ALFRED to recommend activities based on my patients' interests so that I can encourage their participation in social and cognitive stimulation, ultimately enhancing their emotional well-being and preventing isolation.",
+    "priority": 3,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
+      "UC-002",
+      "UC-004",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-035",
+    "id": "US-174"
+  },
+  {
+    "title": "Guided Tutorials for Engaging Activities",
+    "summary": "As a home-care nurse, I want guided tutorials for new activities so that I can help my patients engage in physical and cognitive exercises, promoting their health and reducing feelings of isolation.",
+    "priority": 4,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-002",
       "UC-004",
       "UC-005",
+      "UC-006",
       "UC-011",
       "UC-012"
     ],
-    "rawRequirementId": "RREQ-023",
-    "id": "US-113"
+    "rawRequirementId": "RREQ-036",
+    "id": "US-175"
+  },
+  {
+    "title": "Social Engagement Tracking",
+    "summary": "As a home-care nurse, I want to see my patients' activity achievements shared within ALFRED so that I can encourage their participation in social and physical activities, helping to prevent isolation and promote their wellbeing.",
+    "priority": 4,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-002",
+      "UC-004",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-037",
+    "id": "US-176"
+  },
+  {
+    "title": "Adaptive Activity Adjustment",
+    "summary": "As a home-care nurse, I want ALFRED to adapt activity suggestions based on each patient's health status and engagement level so that I can provide personalized care that encourages physical and cognitive stimulation while considering their unique needs.",
+    "priority": 3,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-002",
+      "UC-004",
+      "UC-006"
+    ],
+    "rawRequirementId": "RREQ-038",
+    "id": "US-177"
+  },
+  {
+    "title": "User Progress Reports for Caregivers",
+    "summary": "As a home-care nurse, I want to receive user progress reports so that I can efficiently monitor my patients' health status and provide timely interventions.",
+    "priority": 2,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-002",
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-011",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-039",
+    "id": "US-178"
   }
 ]

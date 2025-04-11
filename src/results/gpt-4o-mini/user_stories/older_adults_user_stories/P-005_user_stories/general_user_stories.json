@@ -1,120 +1,168 @@
 [
   {
-    "title": "Emergency Response Activation",
-    "summary": "As an older adult, I want to quickly activate emergency alerts using a simple voice command so that I can receive prompt assistance in crisis situations.",
+    "title": "Enhanced Accessibility Features",
+    "summary": "As an older adult, I want ALFRED to have accessibility features like voice-to-text and text-to-speech, so that I can easily interact with the system despite my reduced mobility and temporary use of crutches.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
     "personaId": "P-005",
     "useCases": [
-      "UC-002",
+      "UC-001",
+      "UC-003",
+      "UC-007",
+      "UC-008",
+      "UC-009",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-036",
+    "id": "US-224"
+  },
+  {
+    "title": "Data Privacy and Security Compliance",
+    "summary": "As an older adult, I want to ensure that my personal and health information is kept safe and private so that I can use ALFRED confidently without worrying about data breaches.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-001",
       "UC-003",
       "UC-007"
     ],
-    "rawRequirementId": "RREQ-024",
-    "id": "US-143"
+    "rawRequirementId": "RREQ-037",
+    "id": "US-225"
   },
   {
-    "title": "Medication Management",
-    "summary": "As an older adult, I want to set and receive reminders for my medication intake and refills so that I can manage my health effectively and maintain my independence.",
+    "title": "Simple Installation and Setup Process",
+    "summary": "As an older adult, I want a straightforward installation and configuration process for ALFRED so that I can easily set it up without feeling overwhelmed by technology.",
     "priority": 2,
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
     "personaId": "P-005",
     "useCases": [
-      "UC-002",
+      "UC-001",
       "UC-003",
-      "UC-004",
-      "UC-007",
       "UC-008",
-      "UC-010",
-      "UC-011"
+      "UC-009"
     ],
-    "rawRequirementId": "RREQ-025",
-    "id": "US-144"
+    "rawRequirementId": "RREQ-038",
+    "id": "US-226"
   },
   {
-    "title": "Intuitive User Interface Design",
-    "summary": "As an older adult, I want an easy-to-navigate interface so that I can interact with ALFRED without frustration or confusion.",
+    "title": "User Interface Adaptability",
+    "summary": "As an older adult, I want the interface and functionalities of ALFRED to adapt to my needs, so that I can easily navigate and interact with the system without feeling overwhelmed or frustrated due to my physical and cognitive limitations.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-001",
+      "UC-003",
+      "UC-007",
+      "UC-008",
+      "UC-009",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-039",
+    "id": "US-227"
+  },
+  {
+    "title": "Health Monitoring Integration",
+    "summary": "As an older adult, I want ALFRED to integrate with my health monitoring devices so that I can easily track my health metrics and receive timely reminders and alerts related to my well-being.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
     "personaId": "P-005",
     "useCases": [
-      "UC-002",
+      "UC-001",
       "UC-003",
-      "UC-007",
-      "UC-010"
+      "UC-007"
     ],
-    "rawRequirementId": "RREQ-026",
-    "id": "US-145"
+    "rawRequirementId": "RREQ-040",
+    "id": "US-228"
   },
   {
-    "title": "Personalized Interaction History",
-    "summary": "As an older adult, I want to easily access a history of my interactions with ALFRED so that I can review past commands and responses to better understand the system and improve my engagement.",
+    "title": "Support for Multiple Device Platforms",
+    "summary": "As an older adult, I want to access ALFRED on different devices like my tablet and smartphone so that I can manage my tasks and stay connected with family and friends regardless of which device I have at hand.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-001",
+      "UC-003",
+      "UC-007",
+      "UC-008"
+    ],
+    "rawRequirementId": "RREQ-041",
+    "id": "US-229"
+  },
+  {
+    "title": "User Consent Management for Data Sharing",
+    "summary": "As an older adult, I want to easily manage my data sharing preferences with ALFRED so that I feel secure and in control of my personal and health information.",
+    "priority": 3,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-001",
+      "UC-003",
+      "UC-007",
+      "UC-008"
+    ],
+    "rawRequirementId": "RREQ-042",
+    "id": "US-230"
+  },
+  {
+    "title": "Integration with Health Monitoring Devices",
+    "summary": "As an older adult, I want ALFRED to connect with my health monitoring devices so that I can easily track my health status and receive timely alerts and reminders for my medication and physical activities.",
     "priority": 3,
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
     "personaId": "P-005",
     "useCases": [
       "UC-002",
-      "UC-003",
-      "UC-007",
-      "UC-010"
+      "UC-005",
+      "UC-007"
     ],
-    "rawRequirementId": "RREQ-027",
-    "id": "US-146"
+    "rawRequirementId": "RREQ-043",
+    "id": "US-231"
   },
   {
-    "title": "Social Engagement Tracking",
-    "summary": "As an older adult, I want ALFRED to track my participation in social activities so that I can receive feedback and encouragement to stay socially engaged.",
-    "priority": 2,
+    "title": "Feedback Mechanism for User Experience Improvement",
+    "summary": "As an older adult, I want to provide feedback on my interactions with ALFRED so that the system can improve and better support my needs for social connection, health management, and daily task execution.",
+    "priority": 4,
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
     "personaId": "P-005",
     "useCases": [
-      "UC-002",
-      "UC-003",
-      "UC-004",
-      "UC-007",
-      "UC-008",
-      "UC-010",
-      "UC-011"
-    ],
-    "rawRequirementId": "RREQ-028",
-    "id": "US-147"
-  },
-  {
-    "title": "Assisted Setup for Non-Tech Savvy Users",
-    "summary": "As an older adult, I want an assisted setup option for ALFRED so that I can easily complete the installation and configuration without needing external help.",
-    "priority": 1,
-    "pillar": "General Requirements",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-010",
-      "UC-011"
-    ],
-    "rawRequirementId": "RREQ-029",
-    "id": "US-148"
-  },
-  {
-    "title": "Flexible Activity Scheduling",
-    "summary": "As an older adult, I want to customize my schedules for physical and cognitive activities using voice commands so that I can easily align them with my daily routines and preferences.",
-    "priority": 2,
-    "pillar": "General Requirements",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-002",
+      "UC-001",
       "UC-003",
       "UC-004",
       "UC-007",
       "UC-008",
-      "UC-010",
+      "UC-009",
       "UC-011"
     ],
-    "rawRequirementId": "RREQ-030",
-    "id": "US-149"
+    "rawRequirementId": "RREQ-044",
+    "id": "US-232"
+  },
+  {
+    "title": "User Support and Help Resources",
+    "summary": "As an older adult, I want easy access to user support and help resources so that I can confidently use ALFRED without feeling overwhelmed by technology.",
+    "priority": 3,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-001",
+      "UC-003",
+      "UC-007",
+      "UC-008",
+      "UC-009",
+      "UC-011"
+    ],
+    "rawRequirementId": "RREQ-045",
+    "id": "US-233"
   }
 ]

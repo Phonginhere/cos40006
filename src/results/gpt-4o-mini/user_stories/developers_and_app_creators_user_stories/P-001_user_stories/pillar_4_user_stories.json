@@ -1,106 +1,130 @@
 [
   {
-    "title": "Cognitive Activity Integration",
-    "summary": "As a developer, I want to integrate cognitive activity applications using the provided API so that I can offer elderly users personalized mental exercises that enhance their cognitive health.",
+    "title": "Integration with Cognitive Stimulation Activities",
+    "summary": "As a developer, I want to seamlessly integrate cognitive stimulation activities into the ALFRED system so that elderly users can engage in tailored mental exercises that enhance their cognitive health.",
     "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
+      "UC-002",
       "UC-005",
-      "UC-006",
-      "UC-009",
-      "UC-012",
-      "UC-013",
-      "UC-014"
+      "UC-010"
     ],
-    "rawRequirementId": "RREQ-019",
-    "id": "US-019"
+    "rawRequirementId": "RREQ-030",
+    "id": "US-030"
   },
   {
-    "title": "Physical Activity Challenge Management",
-    "summary": "As a developer, I want access to an API that allows me to create and manage physical activity challenges so that I can encourage elderly users to engage in regular exercise tailored to their capabilities.",
+    "title": "API for Physical Activity Tracking Applications",
+    "summary": "As a developer, I want to access a robust API for physical activity tracking so that I can create applications that help older adults engage in tailored physical activities and monitor their progress effectively.",
     "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
+      "UC-002",
       "UC-005",
       "UC-006",
-      "UC-009",
-      "UC-012",
-      "UC-013",
-      "UC-014"
-    ],
-    "rawRequirementId": "RREQ-020",
-    "id": "US-020"
-  },
-  {
-    "title": "Adaptive Difficulty Settings",
-    "summary": "As a developer, I want to implement adaptive difficulty settings in cognitive and physical activities so that users can engage in challenges that are suitable for their varying abilities.",
-    "priority": 2,
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-005",
-      "UC-006",
-      "UC-012",
-      "UC-013",
-      "UC-014"
-    ],
-    "rawRequirementId": "RREQ-021",
-    "id": "US-021"
-  },
-  {
-    "title": "Gamification Integration",
-    "summary": "As a developer, I want to integrate gamification features into ALFRED so that I can enhance user engagement through rewards and badges for physical and cognitive activities.",
-    "priority": 2,
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-005",
-      "UC-006",
+      "UC-010",
       "UC-012"
     ],
-    "rawRequirementId": "RREQ-022",
-    "id": "US-022"
+    "rawRequirementId": "RREQ-031",
+    "id": "US-031"
   },
   {
-    "title": "Progress Tracking API",
-    "summary": "As a developer, I want to access an API that allows me to track and visualize users' progress in cognitive and physical activities so that I can help users stay motivated and engaged in their health improvement journey.",
+    "title": "Support for Customizable Cognitive Games",
+    "summary": "As a developer, I want to create customizable cognitive games that can adapt to the abilities and preferences of elderly users so that I can enhance their cognitive stimulation while ensuring accessibility and engagement.",
     "priority": 2,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
-      "UC-005",
+      "UC-002",
       "UC-006",
-      "UC-009",
-      "UC-012",
-      "UC-013",
-      "UC-014"
+      "UC-010"
     ],
-    "rawRequirementId": "RREQ-023",
-    "id": "US-023"
+    "rawRequirementId": "RREQ-032",
+    "id": "US-032"
   },
   {
-    "title": "User Feedback Mechanism for Activities",
-    "summary": "As a developer, I want to implement a user feedback mechanism for cognitive and physical activities so that I can continuously improve the applications based on user experiences.",
+    "title": "Activity Challenge Creation Tools",
+    "summary": "As a developer, I want to access tools for creating activity challenges so that I can design engaging and tailored experiences for older users that promote physical and cognitive health.",
+    "priority": 2,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-002",
+      "UC-010",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-033",
+    "id": "US-033"
+  },
+  {
+    "title": "Feedback Mechanism for Cognitive Activities",
+    "summary": "As a developer, I want to implement a feedback mechanism for cognitive activities so that elderly users can receive performance insights and encouragement, enhancing their engagement and motivation.",
     "priority": 3,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
+      "UC-002",
       "UC-005",
       "UC-006",
-      "UC-009",
-      "UC-012",
-      "UC-013",
-      "UC-014"
+      "UC-010",
+      "UC-012"
     ],
-    "rawRequirementId": "RREQ-024",
-    "id": "US-024"
+    "rawRequirementId": "RREQ-034",
+    "id": "US-034"
+  },
+  {
+    "title": "Documentation for Physical Activity API Integration",
+    "summary": "As a developer, I want comprehensive documentation for integrating physical activity APIs so that I can create scalable applications that enhance the physical well-being of elderly users.",
+    "priority": 3,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-002",
+      "UC-005",
+      "UC-006",
+      "UC-010",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-035",
+    "id": "US-035"
+  },
+  {
+    "title": "Real-Time Health Monitoring Integration",
+    "summary": "As a developer, I want to implement real-time progress tracking for users so that caregivers can receive immediate updates on users\u2019 health metrics and intervene promptly if needed.",
+    "priority": 2,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-002",
+      "UC-005",
+      "UC-006",
+      "UC-010",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-036",
+    "id": "US-036"
+  },
+  {
+    "title": "Security Measures for Activity Data Management",
+    "summary": "As a developer, I want to implement robust security measures for managing activity data so that I can ensure compliance with healthcare regulations and protect user privacy.",
+    "priority": 1,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-006",
+      "UC-010",
+      "UC-012"
+    ],
+    "rawRequirementId": "RREQ-037",
+    "id": "US-037"
   }
 ]

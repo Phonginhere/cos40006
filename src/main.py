@@ -3,15 +3,20 @@ from use_case_generator import generate_raw_use_cases, enrich_use_cases_with_sce
 from user_persona_loader import UserPersonaLoader
 from use_case_loader import UseCaseLoader
 from raw_requirement_generator import generate_all_raw_requirements
-from raw_requirement_loader import RawRequirementLoader
+from raw_requirement_analyzer import analyze_requirements
 from user_story_generator import generate_user_stories_by_persona
 from utils import CURRENT_LLM
 
 USE_CASE_FOLDER = os.path.join("results", CURRENT_LLM, "use_cases")
+FILTERED_REQUIREMENTS_FOLDER = os.path.join("results", CURRENT_LLM, "filtered_raw_requirements")
 
 
 def is_use_case_folder_empty(folder: str) -> bool:
     return not any(fname.endswith(".json") and fname.startswith("UC-") for fname in os.listdir(folder)) if os.path.exists(folder) else True
+
+def is_filtered_requirements_ready(folder: str) -> bool:
+    return any(fname.endswith(".json") for fname in os.listdir(folder)) if os.path.exists(folder) else False
+
 
 def main():
     # Step 1: Load user personas
@@ -38,24 +43,32 @@ def main():
     #   Step 2b: Enrich with scenarios and personas (Phase 2)
     print("\n🔍 Beginning scenario enrichment...")
     enrich_use_cases_with_scenarios()
-    
+
     print("\n📋 Final Use Cases Summary:")
     use_case_loader = UseCaseLoader()
     use_case_loader.load()
     use_case_loader.print_all_use_cases()
-    
+
     # Step 3: Load/Generate Raw Requirements
     print("\n================================================================ RAW REQUIREMENTS ====================================================================")
     print("🚀 Starting ALFRED raw requirement generation pipeline...")
     generate_all_raw_requirements()
 
-    # Step 4: Generate Persona-Based User Stories
+    # Step 4: Filter Raw Requirements by Persona
+    print("\n============================================================= RAW REQUIREMENT ANALYSIS ===============================================================")
+    if is_filtered_requirements_ready(FILTERED_REQUIREMENTS_FOLDER):
+        print("✅ Filtered raw requirements already exist. Skipping analysis.")
+    else:
+        print("📊 Filtering raw requirements based on persona relevance...")
+        analyze_requirements()
+
+    # Step 5: Generate Persona-Based User Stories
     print("\n============================================================ GENERATE USER STORIES ==================================================================")
-    print("🛠️ Generating user stories for each persona based on raw requirements, use cases, and ALFRED context...")
-    requirement_loader = RawRequirementLoader()
-    generate_user_stories_by_persona(persona_loader, requirement_loader, use_case_loader)
-    
+    print("🛠️ Generating user stories for each persona based on filtered raw requirements, use cases, and ALFRED context...")
+    generate_user_stories_by_persona(persona_loader, use_case_loader)
+
     print("\n✅ Pipeline completed successfully. Check your results in the output folder.")
+
 
 if __name__ == "__main__":
     main()

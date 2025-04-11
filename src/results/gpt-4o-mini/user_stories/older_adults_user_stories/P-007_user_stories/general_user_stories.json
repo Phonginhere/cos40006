@@ -1,8 +1,8 @@
 [
   {
-    "title": "Accessibility Features for Diverse Abilities",
-    "summary": "As an older adult, I want accessibility features such as voice-to-text and text-to-speech so that I can easily interact with ALFRED without feeling overwhelmed or monitored.",
-    "priority": 1,
+    "title": "Simple and Intuitive Setup for Easy Use",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want a simple installation and configuration process for ALFRED so that I can easily set it up without feeling overwhelmed or confused.",
+    "priority": "1",
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
     "personaId": "P-007",
@@ -15,13 +15,13 @@
       "UC-009",
       "UC-011"
     ],
-    "rawRequirementId": "RREQ-036",
-    "id": "US-317"
+    "id": "US-258",
+    "rawRequirementId": "RREQ-041"
   },
   {
-    "title": "Data Privacy and Security Compliance",
-    "summary": "As an older adult, I want to be assured that my personal and health information is kept private and secure, so that I can use the ALFRED system without worrying about unauthorized access or breaches.",
-    "priority": 1,
+    "title": "Privacy and Security Measures for Personal Data",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to ensure that my personal and health information is securely stored and only accessible to me and my caregivers, so that I can maintain my privacy while using ALFRED.",
+    "priority": "1",
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
     "personaId": "P-007",
@@ -34,13 +34,13 @@
       "UC-009",
       "UC-011"
     ],
-    "rawRequirementId": "RREQ-037",
-    "id": "US-318"
+    "id": "US-259",
+    "rawRequirementId": "RREQ-042"
   },
   {
-    "title": "Simple Installation and Setup Process",
-    "summary": "As an older adult, I want a simple installation and setup process for ALFRED so that I can start using it without feeling overwhelmed or confused by complex technology.",
-    "priority": 2,
+    "title": "User-Friendly Accessibility Features for Enhanced Independence",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to have user-friendly accessibility features so that I can navigate the system easily and maintain my independence without feeling overwhelmed.",
+    "priority": "1",
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
     "personaId": "P-007",
@@ -53,13 +53,13 @@
       "UC-009",
       "UC-011"
     ],
-    "rawRequirementId": "RREQ-038",
-    "id": "US-319"
+    "id": "US-260",
+    "rawRequirementId": "RREQ-043"
   },
   {
-    "title": "User Interface Adaptability",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want the ALFRED interface to adapt to my preferences and needs so that I can easily navigate and interact with the system without feeling overwhelmed or monitored.",
-    "priority": 2,
+    "title": "Dynamic User Interface Tailored to Cognitive Abilities",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want the interface of ALFRED to adapt to my cognitive abilities so that I can navigate it easily and feel empowered without feeling monitored.",
+    "priority": "2",
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
     "personaId": "P-007",
@@ -72,28 +72,13 @@
       "UC-009",
       "UC-011"
     ],
-    "rawRequirementId": "RREQ-039",
-    "id": "US-320"
+    "id": "US-261",
+    "rawRequirementId": "RREQ-044"
   },
   {
-    "title": "Health Monitoring Integration",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to integrate with my health monitoring devices so that I can easily track my health metrics and receive reminders without feeling monitored.",
-    "priority": 1,
-    "pillar": "General Requirements",
-    "userGroup": "Older Adults",
-    "personaId": "P-007",
-    "useCases": [
-      "UC-008",
-      "UC-009",
-      "UC-011"
-    ],
-    "rawRequirementId": "RREQ-040",
-    "id": "US-321"
-  },
-  {
-    "title": "Support for Multiple Device Platforms",
-    "summary": "As an older adult, I want to access ALFRED on various devices like my smartphone and tablet so that I can use the assistant wherever I am and feel comfortable with the technology.",
-    "priority": 2,
+    "title": "Seamless Device Integration for Enhanced Support",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to easily connect with my personal devices so that I can manage my health, appointments, and activities without feeling overwhelmed or monitored.",
+    "priority": "1",
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
     "personaId": "P-007",
@@ -106,13 +91,13 @@
       "UC-009",
       "UC-011"
     ],
-    "rawRequirementId": "RREQ-041",
-    "id": "US-322"
+    "id": "US-262",
+    "rawRequirementId": "RREQ-045"
   },
   {
-    "title": "User Consent Management for Data Sharing",
-    "summary": "As an older adult, I want to easily manage my consent for data sharing so that I can feel in control of my personal information and maintain my privacy while using ALFRED.",
-    "priority": 3,
+    "title": "Cognitive Stimulation Games",
+    "summary": "As an active retiree, I want to engage in cognitive stimulation games so that I can maintain my mental sharpness while enjoying a fun and easy-to-use interface.",
+    "priority": "2",
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
     "personaId": "P-007",
@@ -125,28 +110,13 @@
       "UC-009",
       "UC-011"
     ],
-    "rawRequirementId": "RREQ-042",
-    "id": "US-323"
+    "id": "US-263",
+    "rawRequirementId": "RREQ-047"
   },
   {
-    "title": "Integration with Health Monitoring Apps",
-    "summary": "As an older adult, I want ALFRED to integrate with my health monitoring apps so that I can receive personalized health insights and reminders without feeling overwhelmed or monitored.",
-    "priority": 3,
-    "pillar": "General Requirements",
-    "userGroup": "Older Adults",
-    "personaId": "P-007",
-    "useCases": [
-      "UC-003",
-      "UC-004",
-      "UC-005"
-    ],
-    "rawRequirementId": "RREQ-043",
-    "id": "US-324"
-  },
-  {
-    "title": "User Feedback for Experience Enhancement",
-    "summary": "As an older adult, I want to provide feedback on my experience with ALFRED so that the system can improve and better meet my needs without making me feel monitored.",
-    "priority": 4,
+    "title": "User-Friendly Onboarding for Empowering Technology Use",
+    "summary": "As an active retiree, I want a simple onboarding process so that I can easily set up and start using ALFRED without feeling overwhelmed or monitored.",
+    "priority": "2",
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
     "personaId": "P-007",
@@ -159,26 +129,7 @@
       "UC-009",
       "UC-011"
     ],
-    "rawRequirementId": "RREQ-044",
-    "id": "US-325"
-  },
-  {
-    "title": "User Support and Help Resources",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want access to simple and clear help resources so that I can feel confident using ALFRED without feeling monitored or overwhelmed.",
-    "priority": 3,
-    "pillar": "General Requirements",
-    "userGroup": "Older Adults",
-    "personaId": "P-007",
-    "useCases": [
-      "UC-001",
-      "UC-002",
-      "UC-003",
-      "UC-007",
-      "UC-008",
-      "UC-009",
-      "UC-011"
-    ],
-    "rawRequirementId": "RREQ-045",
-    "id": "US-326"
+    "id": "US-264",
+    "rawRequirementId": "RREQ-048"
   }
 ]

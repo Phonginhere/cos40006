@@ -1,6 +1,7 @@
 import json
 import os
 from typing import List, Optional
+from utils import get_llm_response, load_alfred_summary, load_user_group_summary
 
 
 class UserPersona:
@@ -27,9 +28,56 @@ class UserPersona:
         self.most_important_tasks: List[str] = data.get("Most important tasks", [])
         self.least_important_tasks: List[str] = data.get("Least important tasks", [])
         self.miscellaneous: List[str] = data.get("Miscellaneous", [])
+        
+    def classify_user_group(self) -> str:
+        """Use LLM to classify this persona into one of the 3 user groups."""
+        minimal_data = {
+            "Role": self.role,
+            "Core goals": self.core_goals,
+            "Typical challenges": self.typical_challenges,
+            "Working situation": self.working_situation,
+            "Expertise": self.expertise,
+            "Main tasks with system support": self.main_tasks,
+        }
+
+        prompt = f"""
+You are a classifier for the ALFRED system: {load_alfred_summary()}.
+
+Given the following persona information, classify this persona into ONE of these user groups:
+- Older Adults: {load_user_group_summary("older_adults")}
+- Caregivers and Medical Staff: {load_user_group_summary("caregivers_and_medical_staff")}
+- Developers and App Creators: {load_user_group_summary("developers_and_app_creators")}
+
+Only return the exact group name (either "Older Adults", "Caregivers and Medical Staff", or "Developers and App Creators"), nothing else.
+Strictly do NOT include any additional text, commentary, or formatting.
+
+Persona:
+{json.dumps(minimal_data, indent=2)}
+"""
+        result = get_llm_response(prompt)
+        return result.strip() if result else "Unknown"
 
     def __repr__(self):
         return f"UserPersona(Name={self.name})"
+    
+    def to_dict(self) -> dict:
+        return {
+            "Id": self.id,
+            "Name": self.name,
+            "Role": self.role,
+            "Tagline": self.tagline,
+            "Demographic data": self.demographic_data,
+            "Core goals": self.core_goals,
+            "Typical challenges": self.typical_challenges,
+            "Singularities": self.singularities,
+            "Working situation": self.working_situation,
+            "Place of work": self.place_of_work,
+            "Expertise": self.expertise,
+            "Main tasks with system support": self.main_tasks,
+            "Most important tasks": self.most_important_tasks,
+            "Least important tasks": self.least_important_tasks,
+            "Miscellaneous": self.miscellaneous
+        }
 
     def display(self):
         print(f"\n👤 Persona: {self.name} (ID: {self.id})")

@@ -1,137 +1,121 @@
 [
   {
-    "title": "Event Recommendation Engine",
-    "summary": "As a developer, I want to create an event recommendation engine that suggests social activities for elderly users based on their interests, so that they can engage more with their community and reduce feelings of isolation.",
-    "priority": 1,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-002",
-      "UC-006",
-      "UC-010"
-    ],
-    "rawRequirementId": "RREQ-011",
-    "id": "US-011"
-  },
-  {
-    "title": "Social Media Integration",
-    "summary": "As a developer, I want to integrate social media platforms with ALFRED so that elderly users can easily connect with friends and family, enhancing their social engagement and reducing isolation.",
-    "priority": 2,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-002",
-      "UC-006",
-      "UC-010"
-    ],
-    "rawRequirementId": "RREQ-012",
-    "id": "US-012"
-  },
-  {
-    "title": "User Interest Profiling for Social Activities",
-    "summary": "As a developer, I want to create an API that allows ALFRED to gather and analyze user interests for social activities, so that I can help recommend events that enhance social engagement and reduce isolation among elderly users.",
-    "priority": 2,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-002",
-      "UC-006",
-      "UC-010"
-    ],
-    "rawRequirementId": "RREQ-013",
-    "id": "US-013"
-  },
-  {
-    "title": "Support for Group Communication Features",
-    "summary": "As a developer, I want to implement group communication features within ALFRED so that elderly users can easily connect with family and friends, enhancing their social engagement and reducing isolation.",
-    "priority": 3,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-002",
-      "UC-006",
-      "UC-010"
-    ],
-    "rawRequirementId": "RREQ-014",
-    "id": "US-014"
-  },
-  {
-    "title": "Personalized Activity Suggestions",
-    "summary": "As a developer, I want to create a feature that suggests personalized activities for elderly users based on their interests and health status, so that they can remain socially engaged and physically active.",
-    "priority": 1,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-002",
-      "UC-006",
-      "UC-010"
-    ],
-    "rawRequirementId": "RREQ-015",
-    "id": "US-015"
-  },
-  {
-    "title": "Community Engagement Tracking",
-    "summary": "As a developer, I want to implement a community engagement tracking feature in ALFRED so that elderly users can easily participate in social activities and caregivers can monitor their involvement, ensuring a supportive social environment.",
-    "priority": 3,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-002",
-      "UC-006",
-      "UC-010"
-    ],
-    "rawRequirementId": "RREQ-016",
-    "id": "US-016"
-  },
-  {
-    "title": "Notification System for Social Activities",
-    "summary": "As a developer, I want to create an API that allows third-party applications to send notifications about social activities to users, so that elderly users can stay informed and engaged with events that match their interests.",
-    "priority": 2,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-002",
-      "UC-006",
-      "UC-010"
-    ],
-    "rawRequirementId": "RREQ-017",
-    "id": "US-017"
-  },
-  {
-    "title": "Privacy Controls for Social Interactions",
-    "summary": "As a developer, I want to implement privacy controls for social interactions within the ALFRED system so that users can manage their data sharing preferences and ensure their personal information is protected while engaging with friends and family.",
-    "priority": 1,
+    "title": "API for Enhancing Social Engagement for Elderly Users",
+    "summary": "As a developer, I want to access an API that allows me to integrate social engagement features into my applications so that elderly users can easily connect with their peers and caregivers, promoting social inclusion.",
+    "priority": "2",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
       "UC-002",
       "UC-005",
-      "UC-010"
+      "UC-006",
+      "UC-010",
+      "UC-012"
     ],
-    "rawRequirementId": "RREQ-018",
-    "id": "US-018"
+    "id": "US-008",
+    "rawRequirementId": "RREQ-112"
   },
   {
-    "title": "Social Event Management API",
-    "summary": "As a developer, I want an API that allows me to integrate social event management features into my applications so that elderly users can easily discover and participate in events that match their interests, enhancing their social engagement.",
-    "priority": 2,
+    "title": "User Interest Insights for Application Development",
+    "summary": "As a developer, I want access to user interest insights so that I can create tailored applications that engage elderly users and their caregivers effectively.",
+    "priority": "2",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
       "UC-002",
       "UC-005",
-      "UC-006"
+      "UC-006",
+      "UC-010",
+      "UC-012"
     ],
-    "rawRequirementId": "RREQ-019",
-    "id": "US-019"
+    "id": "US-009",
+    "rawRequirementId": "RREQ-113"
+  },
+  {
+    "title": "Integration for Scheduling Social Activities",
+    "summary": "As a developer, I want to integrate scheduling features for social activities into the ALFRED platform so that elderly users can easily find and participate in events that match their interests, thereby improving their social engagement.",
+    "priority": "2",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-002",
+      "UC-005",
+      "UC-006",
+      "UC-010",
+      "UC-012"
+    ],
+    "id": "US-010",
+    "rawRequirementId": "RREQ-114"
+  },
+  {
+    "title": "Open API for Health Device Integration",
+    "summary": "As a full-stack developer, I want access to robust APIs that facilitate the integration of various health monitoring devices, so that I can create applications that improve elderly users' health tracking and care management.",
+    "priority": "1",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-002",
+      "UC-005",
+      "UC-006",
+      "UC-010",
+      "UC-012"
+    ],
+    "id": "US-011",
+    "rawRequirementId": "RREQ-116"
+  },
+  {
+    "title": "Cross-Platform Compatibility for Elderly Social Engagement Apps",
+    "summary": "As a developer, I want to ensure that applications I build for ALFRED are compatible across various devices so that elderly users can easily access social engagement tools regardless of the technology they use.",
+    "priority": "2",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-002",
+      "UC-005",
+      "UC-006",
+      "UC-010",
+      "UC-012"
+    ],
+    "id": "US-012",
+    "rawRequirementId": "RREQ-117"
+  },
+  {
+    "title": "Integration of Messaging Services for Enhanced Communication",
+    "summary": "As a developer, I want to integrate messaging services into the ALFRED system so that elderly users can easily communicate with their caregivers and family members, enhancing social connectivity and support.",
+    "priority": "2",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-002",
+      "UC-005",
+      "UC-006",
+      "UC-010",
+      "UC-012"
+    ],
+    "id": "US-013",
+    "rawRequirementId": "RREQ-119"
+  },
+  {
+    "title": "API Integration for Health Devices",
+    "summary": "As a full-stack developer, I want to create open APIs that facilitate the integration of various health-monitoring devices so that I can build applications that provide real-time health updates for elderly users and their caregivers.",
+    "priority": "2",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-002",
+      "UC-005",
+      "UC-006",
+      "UC-010",
+      "UC-012"
+    ],
+    "id": "US-014",
+    "rawRequirementId": "RREQ-120"
   }
 ]

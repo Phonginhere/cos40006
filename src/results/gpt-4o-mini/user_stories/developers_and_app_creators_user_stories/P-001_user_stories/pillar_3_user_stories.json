@@ -1,8 +1,8 @@
 [
   {
-    "title": "Health Data Access API",
-    "summary": "As a full-stack developer, I want to access health monitoring data through a robust API so that I can integrate various wearable health devices and provide real-time updates to caregivers, ensuring compliance with healthcare regulations.",
-    "priority": 1,
+    "title": "API for Integrating Health Monitoring Devices",
+    "summary": "As a full-stack developer, I want a robust API to integrate health monitoring devices so that I can create applications that provide real-time health updates to caregivers and ensure compliance with healthcare regulations.",
+    "priority": "1",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
@@ -13,28 +13,13 @@
       "UC-010",
       "UC-012"
     ],
-    "rawRequirementId": "RREQ-020",
-    "id": "US-020"
+    "id": "US-015",
+    "rawRequirementId": "RREQ-121"
   },
   {
-    "title": "Integration with Health Monitoring Devices",
-    "summary": "As a developer, I want to easily integrate health-monitoring devices with ALFRED so that I can create applications that provide real-time health updates and alerts for caregivers, ensuring timely interventions for elderly users.",
-    "priority": 1,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-002",
-      "UC-006",
-      "UC-010"
-    ],
-    "rawRequirementId": "RREQ-021",
-    "id": "US-021"
-  },
-  {
-    "title": "Real-Time Health Status Updates",
-    "summary": "As a developer, I want to integrate real-time health monitoring updates into ALFRED so that caregivers can receive timely notifications about significant changes in users' health status.",
-    "priority": 2,
+    "title": "Access to Real-Time Health Monitoring Data",
+    "summary": "As a full-stack developer, I want access to real-time health monitoring data through ALFRED's APIs so that I can create applications that provide timely insights and alerts to caregivers, enhancing the quality of care for elderly users.",
+    "priority": "2",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
@@ -45,13 +30,13 @@
       "UC-010",
       "UC-012"
     ],
-    "rawRequirementId": "RREQ-022",
-    "id": "US-022"
+    "id": "US-016",
+    "rawRequirementId": "RREQ-122"
   },
   {
-    "title": "Personalized Care Plan Development Tools",
-    "summary": "As a developer, I want to create tools that facilitate the development of personalized care plans for elderly users so that caregivers can effectively monitor and adjust care based on individual health metrics and preferences.",
-    "priority": 2,
+    "title": "Open API for Health Device Integration",
+    "summary": "As a developer, I want access to open APIs for seamless integration of third-party health monitoring devices so that I can create user-friendly applications that enhance the well-being of elderly users and facilitate caregiver communication.",
+    "priority": "1",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
@@ -62,27 +47,13 @@
       "UC-010",
       "UC-012"
     ],
-    "rawRequirementId": "RREQ-023",
-    "id": "US-023"
+    "id": "US-017",
+    "rawRequirementId": "RREQ-123"
   },
   {
-    "title": "Security Protocols for Health Data",
-    "summary": "As a developer, I want to implement robust security protocols for handling health data so that I can ensure compliance with healthcare regulations and protect user privacy.",
-    "priority": 1,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-005",
-      "UC-010"
-    ],
-    "rawRequirementId": "RREQ-024",
-    "id": "US-024"
-  },
-  {
-    "title": "Documentation for Health Integration APIs",
-    "summary": "As a full-stack developer, I want comprehensive documentation for health integration APIs so that I can effectively create secure applications that integrate with health-monitoring devices and comply with healthcare regulations.",
-    "priority": 3,
+    "title": "Caregiver Notification System",
+    "summary": "As a developer, I want to integrate a notification system for caregivers so that they receive timely alerts about significant changes in the user's health status, enabling quick interventions.",
+    "priority": "2",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
@@ -93,28 +64,13 @@
       "UC-010",
       "UC-012"
     ],
-    "rawRequirementId": "RREQ-025",
-    "id": "US-025"
+    "id": "US-018",
+    "rawRequirementId": "RREQ-124"
   },
   {
-    "title": "User Consent Management for Health Data Sharing",
-    "summary": "As a developer, I want to implement a user consent management system for health data sharing so that I can ensure compliance with data privacy regulations and build trust with users while integrating health monitoring applications.",
-    "priority": 1,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-002",
-      "UC-006",
-      "UC-010"
-    ],
-    "rawRequirementId": "RREQ-026",
-    "id": "US-026"
-  },
-  {
-    "title": "Support for Remote Caregiver Interaction",
-    "summary": "As a developer, I want to create applications that facilitate seamless communication between elderly users and their caregivers so that timely interventions and support can be provided based on real-time health metrics.",
-    "priority": 2,
+    "title": "Health Insights Generation for Elderly Care Applications",
+    "summary": "As a full-stack developer, I want to access health insights generated from user data so that I can create applications that provide caregivers with actionable information to improve elderly care.",
+    "priority": "2",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
@@ -125,13 +81,13 @@
       "UC-010",
       "UC-012"
     ],
-    "rawRequirementId": "RREQ-027",
-    "id": "US-027"
+    "id": "US-019",
+    "rawRequirementId": "RREQ-125"
   },
   {
-    "title": "Longitudinal Health Tracking Integration",
-    "summary": "As a developer, I want to implement longitudinal health tracking features that integrate with health-monitoring devices so that caregivers can receive real-time updates and insights into users' health metrics over time, ensuring timely interventions and improved quality of care.",
-    "priority": 3,
+    "title": "Remote Setup for Health Device Integration",
+    "summary": "As a full-stack developer creating healthcare applications, I want to implement a streamlined process for remotely setting up health monitoring devices so that elderly users can easily connect their devices to ALFRED without requiring extensive technical knowledge.",
+    "priority": "2",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
@@ -142,13 +98,13 @@
       "UC-010",
       "UC-012"
     ],
-    "rawRequirementId": "RREQ-028",
-    "id": "US-028"
+    "id": "US-020",
+    "rawRequirementId": "RREQ-126"
   },
   {
-    "title": "Error Handling for Health Data Inputs",
-    "summary": "As a developer, I want the ALFRED system to provide clear error handling mechanisms for health data inputs so that I can ensure accurate data collection and prevent incorrect information from being processed, enhancing the reliability of health monitoring applications.",
-    "priority": 3,
+    "title": "Developer Dashboard for Health Data Analytics Integration",
+    "summary": "As a developer, I want a comprehensive dashboard for health data analytics so that I can easily visualize and manage health metrics from various devices, ensuring timely interventions for elderly users.",
+    "priority": "2",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
@@ -159,7 +115,58 @@
       "UC-010",
       "UC-012"
     ],
-    "rawRequirementId": "RREQ-029",
-    "id": "US-029"
+    "id": "US-021",
+    "rawRequirementId": "RREQ-127"
+  },
+  {
+    "title": "Integration of Emergency Alert System for User Safety",
+    "summary": "As a developer, I want to integrate an emergency alert system within the ALFRED platform so that I can ensure timely notifications are sent to caregivers in critical situations, enhancing user safety and providing peace of mind to families.",
+    "priority": "1",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-002",
+      "UC-005",
+      "UC-006",
+      "UC-010",
+      "UC-012"
+    ],
+    "id": "US-022",
+    "rawRequirementId": "RREQ-128"
+  },
+  {
+    "title": "Healthcare Standards Integration",
+    "summary": "As a full-stack developer, I want to integrate healthcare standards into the ALFRED platform so that I can ensure compliance with regulations like HIPAA and GDPR while developing applications for elderly users and their caregivers.",
+    "priority": "2",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-002",
+      "UC-005",
+      "UC-006",
+      "UC-010",
+      "UC-012"
+    ],
+    "id": "US-023",
+    "rawRequirementId": "RREQ-129"
+  },
+  {
+    "title": "Comprehensive Documentation for Developing Health Applications on ALFRED",
+    "summary": "As a full-stack developer, I want clear and comprehensive documentation for building healthcare applications on ALFRED so that I can create secure, user-friendly apps that meet the needs of elderly users and caregivers efficiently.",
+    "priority": "2",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-002",
+      "UC-005",
+      "UC-006",
+      "UC-010",
+      "UC-012"
+    ],
+    "id": "US-024",
+    "rawRequirementId": "RREQ-130"
   }
 ]

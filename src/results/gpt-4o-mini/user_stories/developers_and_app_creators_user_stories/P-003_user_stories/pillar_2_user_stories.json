@@ -1,119 +1,15 @@
 [
   {
-    "title": "Event Recommendation Engine Compliance",
-    "summary": "As a Compliance and Risk Lead, I want to ensure that the event recommendation engine includes mechanisms for data privacy and user consent management so that developers can create compliant applications that respect user preferences and legal requirements.",
-    "priority": 1,
+    "title": "Data Privacy and Compliance Controls for Social Sharing",
+    "summary": "As a Compliance and Risk Lead, I want to implement robust data privacy controls for social sharing features so that developers can ensure compliance with HIPAA and GDPR while allowing users to share information securely.",
+    "priority": "1",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Developers and App Creators",
     "personaId": "P-003",
     "useCases": [
       "UC-010"
     ],
-    "rawRequirementId": "RREQ-011",
-    "id": "US-103"
-  },
-  {
-    "title": "Social Media Integration for Enhanced Engagement",
-    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want the ALFRED system to integrate seamlessly with social media platforms, so that developers can create applications that enhance social engagement while ensuring compliance with data privacy regulations.",
-    "priority": 2,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-003",
-    "useCases": [
-      "UC-010"
-    ],
-    "rawRequirementId": "RREQ-012",
-    "id": "US-104"
-  },
-  {
-    "title": "User Interest Profiling for Social Activities",
-    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to ensure that the user interest profiling for social activities complies with data privacy regulations so that developers can create personalized engagement features without compromising user trust or security.",
-    "priority": 2,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-003",
-    "useCases": [
-      "UC-010"
-    ],
-    "rawRequirementId": "RREQ-013",
-    "id": "US-105"
-  },
-  {
-    "title": "Group Communication Support for Compliance Monitoring",
-    "summary": "As a Compliance and Risk Lead, I want to ensure that the group communication features in ALFRED support secure interactions and comply with privacy regulations so that developers can integrate these features without risking compliance violations.",
-    "priority": 3,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-003",
-    "useCases": [
-      "UC-010"
-    ],
-    "rawRequirementId": "RREQ-014",
-    "id": "US-106"
-  },
-  {
-    "title": "Data Privacy Management for Activity Suggestions",
-    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to ensure that personalized activity suggestions respect user data privacy and consent mechanisms, so that we maintain compliance with data protection regulations while enhancing user engagement.",
-    "priority": 1,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-003",
-    "useCases": [
-      "UC-010"
-    ],
-    "rawRequirementId": "RREQ-015",
-    "id": "US-107"
-  },
-  {
-    "title": "Community Engagement Tracking",
-    "summary": "As a Compliance and Risk Lead, I want to ensure that community engagement tracking applications adhere to data privacy regulations so that we can promote user participation while safeguarding their personal information.",
-    "priority": 3,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-003",
-    "useCases": [
-      "UC-010"
-    ],
-    "rawRequirementId": "RREQ-016",
-    "id": "US-108"
-  },
-  {
-    "title": "Notification System for Social Activities",
-    "summary": "As a Compliance and Risk Lead, I want to ensure that the notification system for social activities adheres to data privacy regulations so that developers can confidently integrate this feature without risking non-compliance.",
-    "priority": 2,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-003",
-    "useCases": [
-      "UC-010"
-    ],
-    "rawRequirementId": "RREQ-017",
-    "id": "US-109"
-  },
-  {
-    "title": "Privacy Controls for Social Interactions",
-    "summary": "As a Compliance and Risk Lead, I want to ensure that developers can easily implement privacy controls for social interactions so that user data is securely managed and compliance with legal standards is maintained.",
-    "priority": 1,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-003",
-    "useCases": [
-      "UC-010"
-    ],
-    "rawRequirementId": "RREQ-018",
-    "id": "US-110"
-  },
-  {
-    "title": "Developer API for Social Event Management",
-    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want a robust API for social event management so that I can ensure that third-party applications adhere to compliance standards while integrating social features for users.",
-    "priority": 2,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-003",
-    "useCases": [
-      "UC-010"
-    ],
-    "rawRequirementId": "RREQ-019",
-    "id": "US-111"
+    "id": "US-086",
+    "rawRequirementId": "RREQ-116"
   }
 ]

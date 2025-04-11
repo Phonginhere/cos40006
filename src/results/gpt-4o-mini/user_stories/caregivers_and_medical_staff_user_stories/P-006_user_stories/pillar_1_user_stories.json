@@ -1,42 +1,8 @@
 [
   {
-    "title": "Natural Language Processing for Commands",
-    "summary": "As a professional caregiver managing multiple elderly clients, I want to use natural language commands to efficiently monitor health metrics and communicate with my clients, so that I can provide timely and personalized care without navigating complex interfaces.",
-    "priority": 1,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-001",
-      "UC-002",
-      "UC-004",
-      "UC-005",
-      "UC-006",
-      "UC-009"
-    ],
-    "rawRequirementId": "RREQ-001",
-    "id": "US-234"
-  },
-  {
-    "title": "Voice Feedback for User Confirmation",
-    "summary": "As a professional caregiver, I want ALFRED to provide voice feedback for confirmation of tasks so that I can efficiently manage care activities and ensure I am executing the correct commands while monitoring multiple clients.",
-    "priority": 2,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-001",
-      "UC-004",
-      "UC-005",
-      "UC-006"
-    ],
-    "rawRequirementId": "RREQ-002",
-    "id": "US-235"
-  },
-  {
-    "title": "Simple Command Structure for Task Execution",
-    "summary": "As a professional caregiver managing multiple elderly clients, I want to use simple voice commands to execute tasks quickly so that I can efficiently monitor health metrics, manage schedules, and communicate with family members without complicated setups.",
-    "priority": 2,
+    "title": "Voice Confirmation and Guidance for Caregiver Tasks",
+    "summary": "As a professional caregiver, I want ALFRED to provide voice confirmations and guidance for tasks related to client health monitoring so that I can efficiently manage multiple clients without needing to navigate complex interfaces.",
+    "priority": "2",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-006",
@@ -51,29 +17,13 @@
       "UC-011",
       "UC-012"
     ],
-    "rawRequirementId": "RREQ-003",
-    "id": "US-236"
+    "id": "US-192",
+    "rawRequirementId": "RREQ-052"
   },
   {
-    "title": "Contextual Health Monitoring Alerts",
-    "summary": "As a professional caregiver, I want ALFRED to provide contextual assistance based on the health behavior of my clients so that I can receive timely alerts about any significant changes and intervene quickly.",
-    "priority": 3,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-004",
-      "UC-005",
-      "UC-006",
-      "UC-012"
-    ],
-    "rawRequirementId": "RREQ-004",
-    "id": "US-237"
-  },
-  {
-    "title": "Voice Recognition Adapted for Varied Speech Patterns",
-    "summary": "As a professional caregiver managing multiple elderly clients, I want ALFRED to recognize and respond to varied speech patterns so that I can efficiently communicate with clients who may have different levels of vocal clarity and comfort with technology.",
-    "priority": 2,
+    "title": "Streamlined Access to Client Health Monitoring Data",
+    "summary": "As a professional caregiver, I want to quickly access real-time health metrics for all my clients so that I can efficiently monitor their well-being and respond promptly to any anomalies.",
+    "priority": "1",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-006",
@@ -88,46 +38,13 @@
       "UC-011",
       "UC-012"
     ],
-    "rawRequirementId": "RREQ-005",
-    "id": "US-238"
+    "id": "US-193",
+    "rawRequirementId": "RREQ-053"
   },
   {
-    "title": "Multi-Client Health Monitoring",
-    "summary": "As a professional caregiver, I want to monitor the health metrics of multiple clients in real-time through a single interface so that I can efficiently manage their care and respond quickly to any health concerns.",
-    "priority": 3,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-004",
-      "UC-005",
-      "UC-011"
-    ],
-    "rawRequirementId": "RREQ-006",
-    "id": "US-239"
-  },
-  {
-    "title": "Personalized Voice Profiles for Clients",
-    "summary": "As a professional caregiver, I want to create personalized voice profiles for each of my clients so that I can efficiently interact with ALFRED and receive tailored health updates and alerts for each individual, enhancing my ability to provide care across multiple locations.",
-    "priority": 4,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-004",
-      "UC-005",
-      "UC-006",
-      "UC-009",
-      "UC-010",
-      "UC-011"
-    ],
-    "rawRequirementId": "RREQ-007",
-    "id": "US-240"
-  },
-  {
-    "title": "Error Recovery Guidance for User Commands",
-    "summary": "As a professional caregiver managing multiple elderly clients, I want the ALFRED system to provide clear error recovery guidance when voice commands are not recognized, so that I can quickly resolve issues and continue providing care without disruption.",
-    "priority": 3,
+    "title": "Tailored Voice Interaction for Caregiver Efficiency",
+    "summary": "As a professional caregiver, I want to use voice commands to quickly access client health data and perform care tasks so that I can efficiently manage multiple clients without being distracted from my responsibilities.",
+    "priority": "2",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-006",
@@ -142,30 +59,13 @@
       "UC-011",
       "UC-012"
     ],
-    "rawRequirementId": "RREQ-008",
-    "id": "US-241"
+    "id": "US-194",
+    "rawRequirementId": "RREQ-054"
   },
   {
-    "title": "Integration with Existing Communication Tools",
-    "summary": "As a professional caregiver managing multiple elderly clients, I want ALFRED to integrate with existing communication tools so that I can efficiently communicate with my clients' families and healthcare providers without switching between different platforms.",
-    "priority": 2,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-001",
-      "UC-002",
-      "UC-004",
-      "UC-005",
-      "UC-006"
-    ],
-    "rawRequirementId": "RREQ-009",
-    "id": "US-242"
-  },
-  {
-    "title": "User Feedback Mechanism for Interaction Improvement",
-    "summary": "As a professional caregiver managing multiple elderly clients, I want the ability to provide feedback on ALFRED's interactions and functionalities so that the system can improve its usability and better meet my needs for real-time health monitoring and communication.",
-    "priority": 3,
+    "title": "Integration with Communication Tools for Efficient Care Coordination",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want ALFRED to integrate with communication tools so that I can efficiently coordinate care and maintain clear communication with my clients' families and healthcare professionals.",
+    "priority": "2",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-006",
@@ -180,7 +80,112 @@
       "UC-011",
       "UC-012"
     ],
-    "rawRequirementId": "RREQ-010",
-    "id": "US-243"
+    "id": "US-195",
+    "rawRequirementId": "RREQ-055"
+  },
+  {
+    "title": "Intuitive Interface for Efficient Client Management",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want an intuitive interface that allows me to quickly access and manage health data, appointments, and communication so that I can efficiently monitor my clients and provide personalized care across different locations.",
+    "priority": "1",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-009",
+      "UC-010",
+      "UC-011",
+      "UC-012"
+    ],
+    "id": "US-196",
+    "rawRequirementId": "RREQ-056"
+  },
+  {
+    "title": "Guided Support and Help Features for Caregivers",
+    "summary": "As a professional caregiver, I want guided support and help features within ALFRED so that I can efficiently navigate the system, access critical information quickly, and provide better care to my clients.",
+    "priority": "2",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-009",
+      "UC-010",
+      "UC-011",
+      "UC-012"
+    ],
+    "id": "US-197",
+    "rawRequirementId": "RREQ-057"
+  },
+  {
+    "title": "Personalized Health Check and Appointment Reminders for Caregivers",
+    "summary": "As a professional caregiver, I want to receive personalized health check reminders and appointment alerts for my clients so that I can efficiently manage their care schedules and ensure timely interventions.",
+    "priority": "2",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-009",
+      "UC-010",
+      "UC-011",
+      "UC-012"
+    ],
+    "id": "US-198",
+    "rawRequirementId": "RREQ-058"
+  },
+  {
+    "title": "Voice and Touch Interaction for Caregiver Efficiency",
+    "summary": "As a professional caregiver, I want to use voice and touch commands to manage multiple clients' health data efficiently, so that I can quickly respond to their needs and streamline my care coordination tasks.",
+    "priority": "2",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-009",
+      "UC-010",
+      "UC-011",
+      "UC-012"
+    ],
+    "id": "US-199",
+    "rawRequirementId": "RREQ-059"
+  },
+  {
+    "title": "Real-Time Health Monitoring Alerts",
+    "summary": "As a professional caregiver, I want to receive real-time alerts for any critical changes in my clients' health metrics so that I can promptly intervene and ensure their well-being.",
+    "priority": "1",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-004",
+      "UC-005",
+      "UC-006",
+      "UC-009",
+      "UC-010",
+      "UC-011",
+      "UC-012"
+    ],
+    "id": "US-200",
+    "rawRequirementId": "RREQ-060"
   }
 ]

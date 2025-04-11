@@ -1,118 +1,8 @@
 [
   {
-    "title": "Health Monitoring Integration",
-    "summary": "As an older adult, I want ALFRED to monitor my health conditions and send medication reminders so that I can manage my well-being and stay independent.",
-    "priority": 1,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-001",
-      "UC-003",
-      "UC-007",
-      "UC-009"
-    ],
-    "rawRequirementId": "RREQ-018",
-    "id": "US-206"
-  },
-  {
-    "title": "Medication Management Assistance",
-    "summary": "As an older adult, I want ALFRED to remind me to take my medications and alert me of any missed doses so that I can manage my health effectively and maintain my independence.",
-    "priority": 2,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-001",
-      "UC-007",
-      "UC-008"
-    ],
-    "rawRequirementId": "RREQ-019",
-    "id": "US-207"
-  },
-  {
-    "title": "Emergency Alert System",
-    "summary": "As an older adult, I want to receive immediate alerts in case of an emergency, so that I can ensure my safety and get help when needed.",
-    "priority": 1,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-001",
-      "UC-002",
-      "UC-003",
-      "UC-004",
-      "UC-008"
-    ],
-    "rawRequirementId": "RREQ-020",
-    "id": "US-208"
-  },
-  {
-    "title": "Personalized Health Insights",
-    "summary": "As an older adult, I want to receive personalized health insights and reminders so that I can manage my health conditions effectively and stay on track with my wellness goals.",
-    "priority": 2,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-001",
-      "UC-003",
-      "UC-007",
-      "UC-008"
-    ],
-    "rawRequirementId": "RREQ-021",
-    "id": "US-209"
-  },
-  {
-    "title": "Caregiver Access to Health Data",
-    "summary": "As an older adult, I want my caregivers to have access to my health data so that they can monitor my well-being and provide timely assistance when needed.",
-    "priority": 1,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-001",
-      "UC-003",
-      "UC-009"
-    ],
-    "rawRequirementId": "RREQ-022",
-    "id": "US-210"
-  },
-  {
-    "title": "Daily Health Reminders",
-    "summary": "As an older adult, I want ALFRED to remind me to take my medication and monitor my health so that I can manage my arthritis pain and stay healthy.",
-    "priority": 3,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-001",
-      "UC-002",
-      "UC-005",
-      "UC-009"
-    ],
-    "rawRequirementId": "RREQ-023",
-    "id": "US-211"
-  },
-  {
-    "title": "User Health History Tracking",
-    "summary": "As an older adult, I want to easily track my health history through voice commands so that I can monitor my well-being and share relevant information with my caregivers and family.",
-    "priority": 2,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-001",
-      "UC-003",
-      "UC-007"
-    ],
-    "rawRequirementId": "RREQ-024",
-    "id": "US-212"
-  },
-  {
-    "title": "Health Goal Setting and Tracking",
-    "summary": "As an older adult, I want to set and track my health goals with ALFRED so that I can manage my physical well-being and stay motivated to maintain an active lifestyle.",
-    "priority": 3,
+    "title": "Health Monitoring and Daily Well-Being Support",
+    "summary": "As an older adult, I want ALFRED to monitor my health conditions and send me medication reminders, so that I can manage my arthritis pain and maintain my daily well-being independently.",
+    "priority": "1",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
     "personaId": "P-005",
@@ -125,7 +15,159 @@
       "UC-009",
       "UC-011"
     ],
-    "rawRequirementId": "RREQ-025",
-    "id": "US-213"
+    "id": "US-166",
+    "rawRequirementId": "RREQ-021"
+  },
+  {
+    "title": "Personalized Health Monitoring for Active Living",
+    "summary": "As an older adult, I want ALFRED to monitor my health and send me reminders for medications and physical activities so that I can stay healthy and active despite my arthritis and reduced mobility.",
+    "priority": "1",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-001",
+      "UC-003",
+      "UC-004",
+      "UC-007",
+      "UC-008",
+      "UC-009",
+      "UC-011"
+    ],
+    "id": "US-167",
+    "rawRequirementId": "RREQ-022"
+  },
+  {
+    "title": "Timely Medication Reminders for Health Management",
+    "summary": "As an older adult, I want ALFRED to remind me to take my medication on time so that I can manage my health effectively and maintain my independence.",
+    "priority": "2",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-001",
+      "UC-003",
+      "UC-004",
+      "UC-007",
+      "UC-008",
+      "UC-009",
+      "UC-011"
+    ],
+    "id": "US-168",
+    "rawRequirementId": "RREQ-023"
+  },
+  {
+    "title": "Emergency Alert for Safety and Independence",
+    "summary": "As an older adult, I want ALFRED to alert my family or caregivers in case of an emergency, so that I can feel safe and supported while maintaining my independence.",
+    "priority": "1",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-001",
+      "UC-003",
+      "UC-004",
+      "UC-007",
+      "UC-008",
+      "UC-009",
+      "UC-011"
+    ],
+    "id": "US-169",
+    "rawRequirementId": "RREQ-024"
+  },
+  {
+    "title": "Accessible Health Dashboard for Older Adults",
+    "summary": "As an older adult, I want an easy-to-navigate health dashboard that displays my health data and reminders so that I can manage my well-being and stay informed about my health conditions without feeling overwhelmed by technology.",
+    "priority": "2",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-001",
+      "UC-003",
+      "UC-004",
+      "UC-007",
+      "UC-008",
+      "UC-009",
+      "UC-011"
+    ],
+    "id": "US-170",
+    "rawRequirementId": "RREQ-025"
+  },
+  {
+    "title": "Tailored Health Tips for Active Living",
+    "summary": "As an older adult, I want ALFRED to provide personalized health tips based on my physical activity and health conditions so that I can stay active and manage my arthritis pain effectively.",
+    "priority": "2",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-001",
+      "UC-003",
+      "UC-004",
+      "UC-007",
+      "UC-008",
+      "UC-009",
+      "UC-011"
+    ],
+    "id": "US-171",
+    "rawRequirementId": "RREQ-027"
+  },
+  {
+    "title": "Personalized Care Plans Tailored to User Feedback",
+    "summary": "As an older adult, I want ALFRED to create personalized care plans based on my feedback and health data so that I can receive the most effective support for my physical and cognitive needs.",
+    "priority": "2",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-001",
+      "UC-003",
+      "UC-004",
+      "UC-007",
+      "UC-008",
+      "UC-009",
+      "UC-011"
+    ],
+    "id": "US-172",
+    "rawRequirementId": "RREQ-028"
+  },
+  {
+    "title": "Timely Health Check-Ins for Staying Active",
+    "summary": "As an older adult, I want ALFRED to provide timely health check-ins and reminders so that I can stay active and manage my arthritis pain effectively.",
+    "priority": "2",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-001",
+      "UC-003",
+      "UC-004",
+      "UC-007",
+      "UC-008",
+      "UC-009",
+      "UC-011"
+    ],
+    "id": "US-173",
+    "rawRequirementId": "RREQ-029"
+  },
+  {
+    "title": "Health Monitoring Integration for Personalized Care and Alerts",
+    "summary": "As an older adult, I want ALFRED to monitor my health conditions and send alerts when necessary so that I can manage my health effectively and ensure my safety.",
+    "priority": "1",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-001",
+      "UC-003",
+      "UC-004",
+      "UC-007",
+      "UC-008",
+      "UC-009",
+      "UC-011"
+    ],
+    "id": "US-174",
+    "rawRequirementId": "RREQ-030"
   }
 ]

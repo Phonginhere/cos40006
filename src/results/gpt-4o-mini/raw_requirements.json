@@ -3,987 +3,1043 @@
     "id": "RREQ-001",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
-    "title": "Natural Language Understanding",
+    "title": "Natural Language Processing for Voice Commands",
     "priority": "1"
   },
   {
     "id": "RREQ-002",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
-    "title": "Voice Feedback and Confirmation",
+    "title": "Contextual Understanding of User Requests",
     "priority": "2"
   },
   {
     "id": "RREQ-003",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
-    "title": "Contextual Task Management",
+    "title": "Voice Feedback and Confirmation",
     "priority": "1"
   },
   {
     "id": "RREQ-004",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
-    "title": "Adaptive Interaction Learning",
-    "priority": "3"
+    "title": "Intuitive Voice Interaction Design",
+    "priority": "2"
   },
   {
     "id": "RREQ-005",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
-    "title": "Error Recovery and Help Guidance",
-    "priority": "2"
+    "title": "Support for Multi-Step Commands",
+    "priority": "3"
   },
   {
     "id": "RREQ-006",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
-    "title": "Multimodal Interaction Support",
-    "priority": "3"
+    "title": "Accessibility Features for Voice Interaction",
+    "priority": "1"
   },
   {
     "id": "RREQ-007",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
-    "title": "User Personalization Settings",
-    "priority": "4"
+    "title": "Error Recovery and User Guidance",
+    "priority": "3"
   },
   {
     "id": "RREQ-008",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
-    "title": "Integration with External Voice Services",
-    "priority": "3"
+    "title": "Personalized Voice Profiles",
+    "priority": "4"
   },
   {
     "id": "RREQ-009",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
-    "title": "Event Recommendation System",
-    "priority": "1"
+    "title": "Integration with Third-Party Voice Services",
+    "priority": "5"
   },
   {
     "id": "RREQ-010",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
-    "title": "Social Engagement Notifications",
-    "priority": "2"
+    "title": "Voice Command Customization Options",
+    "priority": "3"
   },
   {
     "id": "RREQ-011",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
-    "title": "Family and Caregiver Communication Support",
+    "title": "Personalized Event Recommendations",
     "priority": "1"
   },
   {
     "id": "RREQ-012",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
-    "title": "User-Friendly Event Scheduling",
-    "priority": "2"
+    "title": "Easy Communication with Family and Friends",
+    "priority": "1"
   },
   {
     "id": "RREQ-013",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
-    "title": "Virtual Social Activity Integration",
-    "priority": "3"
+    "title": "Social Activity Reminders",
+    "priority": "2"
   },
   {
     "id": "RREQ-014",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
-    "title": "Personalized Content Delivery",
+    "title": "Support for Group Activities and Video Calls",
     "priority": "2"
   },
   {
     "id": "RREQ-015",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
-    "title": "Feedback Mechanism for Social Activities",
+    "title": "User-Friendly Event Discovery Interface",
     "priority": "3"
   },
   {
     "id": "RREQ-016",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
-    "title": "Support for Group Communication",
-    "priority": "2"
+    "title": "Integration with Social Media Platforms",
+    "priority": "4"
   },
   {
     "id": "RREQ-017",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
-    "title": "Interest-Based Community Recommendations",
+    "title": "Feedback Mechanism for User Engagement",
     "priority": "3"
   },
   {
     "id": "RREQ-018",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "title": "Accessibility Options for Social Features",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-019",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "title": "Recommendations Based on User Preferences",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-020",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "title": "Community Building Features",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-021",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
     "title": "Health Monitoring Integration",
     "priority": "1"
   },
   {
-    "id": "RREQ-019",
+    "id": "RREQ-022",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
-    "title": "Medication Management Assistance",
+    "title": "Personalized Health Data Tracking",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-023",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "title": "Medication Reminders and Alerts",
     "priority": "2"
   },
   {
-    "id": "RREQ-020",
+    "id": "RREQ-024",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
     "title": "Emergency Alert System",
     "priority": "1"
   },
   {
-    "id": "RREQ-021",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "title": "Personalized Health Insights",
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-022",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "title": "Caregiver Access to Health Data",
-    "priority": "1"
-  },
-  {
-    "id": "RREQ-023",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "title": "Daily Health Reminders",
-    "priority": "3"
-  },
-  {
-    "id": "RREQ-024",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "title": "User Health History Tracking",
-    "priority": "2"
-  },
-  {
     "id": "RREQ-025",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
-    "title": "Health Goal Setting and Tracking",
-    "priority": "3"
+    "title": "User-Friendly Health Dashboard",
+    "priority": "2"
   },
   {
     "id": "RREQ-026",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
-    "title": "Interactive Cognitive Games",
-    "priority": "1"
+    "title": "Caregiver Communication Interface",
+    "priority": "3"
   },
   {
     "id": "RREQ-027",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
-    "title": "Guided Physical Activity Programs",
+    "title": "Personalized Health Recommendations",
     "priority": "2"
   },
   {
     "id": "RREQ-028",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
-    "title": "Progress Tracking for Cognitive Activities",
+    "title": "Adaptive Care Plans Based on User Feedback",
     "priority": "3"
   },
   {
     "id": "RREQ-029",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
-    "title": "Customization of Activity Difficulty Levels",
+    "title": "Regular Health Check-In Prompts",
     "priority": "2"
   },
   {
     "id": "RREQ-030",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
-    "title": "Reminders for Physical Exercises",
+    "title": "Integration with Health and Fitness Devices",
     "priority": "1"
   },
   {
     "id": "RREQ-031",
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
-    "title": "Motivational Feedback for Activity Participation",
-    "priority": "3"
+    "title": "Cognitive Stimulation Activities",
+    "priority": "1"
   },
   {
     "id": "RREQ-032",
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
-    "title": "Social Interaction Through Group Activities",
-    "priority": "2"
+    "title": "Physical Activity Challenges",
+    "priority": "1"
   },
   {
     "id": "RREQ-033",
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
-    "title": "Assessment Tools for Cognitive Health",
-    "priority": "3"
+    "title": "Guided Memory Exercises",
+    "priority": "2"
   },
   {
     "id": "RREQ-034",
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
-    "title": "Daily Activity Suggestions Based on User Preferences",
+    "title": "Personalized Daily Activity Suggestions",
     "priority": "2"
   },
   {
     "id": "RREQ-035",
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
-    "title": "Safety Monitoring During Physical Activities",
-    "priority": "1"
+    "title": "Progress Tracking for Cognitive and Physical Activities",
+    "priority": "3"
   },
   {
     "id": "RREQ-036",
-    "pillar": "General Requirements",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
-    "title": "Accessibility Features for Diverse Abilities",
-    "priority": "1"
+    "title": "User Feedback for Activity Personalization",
+    "priority": "3"
   },
   {
     "id": "RREQ-037",
-    "pillar": "General Requirements",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
-    "title": "Data Privacy and Security Compliance",
-    "priority": "1"
+    "title": "Flexible Activity Scheduling Options",
+    "priority": "2"
   },
   {
     "id": "RREQ-038",
-    "pillar": "General Requirements",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
-    "title": "Simple Installation and Setup Process",
-    "priority": "2"
+    "title": "Integration with Fitness Tracking Devices",
+    "priority": "1"
   },
   {
     "id": "RREQ-039",
-    "pillar": "General Requirements",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
-    "title": "User Interface Adaptability",
-    "priority": "2"
+    "title": "Alerts for Activity Reminders",
+    "priority": "1"
   },
   {
     "id": "RREQ-040",
-    "pillar": "General Requirements",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
-    "title": "Integration with Health Monitoring Devices",
-    "priority": "1"
+    "title": "Support for Family Involvement in Activities",
+    "priority": "3"
   },
   {
     "id": "RREQ-041",
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
-    "title": "Support for Multiple Device Platforms",
-    "priority": "2"
+    "title": "User-Friendly Installation Process",
+    "priority": "1"
   },
   {
     "id": "RREQ-042",
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
-    "title": "User Consent Management for Data Sharing",
-    "priority": "3"
+    "title": "Secure Data Storage and Privacy Controls",
+    "priority": "1"
   },
   {
     "id": "RREQ-043",
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
-    "title": "Extensibility for Third-Party Integrations",
-    "priority": "3"
+    "title": "Comprehensive Accessibility Options",
+    "priority": "1"
   },
   {
     "id": "RREQ-044",
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
-    "title": "Feedback Mechanism for User Experience Improvement",
-    "priority": "4"
+    "title": "Adaptive User Interface Based on User Abilities",
+    "priority": "2"
   },
   {
     "id": "RREQ-045",
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
-    "title": "User Support and Help Resources",
-    "priority": "3"
-  },
-  {
-    "id": "RREQ-001",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Natural Language Processing for Commands",
+    "title": "Integration with a Variety of Devices",
     "priority": "1"
   },
   {
-    "id": "RREQ-002",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Voice Feedback for User Confirmation",
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-003",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Simple Command Structure for Task Execution",
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-004",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Contextual Assistance Based on User Behavior",
+    "id": "RREQ-046",
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "title": "Regular System Updates and Maintenance Notifications",
     "priority": "3"
   },
   {
-    "id": "RREQ-005",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Voice Recognition Adapted for Varied Speech Patterns",
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-006",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Multi-User Interaction Support",
-    "priority": "3"
-  },
-  {
-    "id": "RREQ-007",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Personalized Voice Profiles for Users",
-    "priority": "4"
-  },
-  {
-    "id": "RREQ-008",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Error Recovery Guidance for User Commands",
-    "priority": "3"
-  },
-  {
-    "id": "RREQ-009",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Integration with Existing Communication Tools",
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-010",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "User Feedback Mechanism for Interaction Improvement",
-    "priority": "3"
-  },
-  {
-    "id": "RREQ-011",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Social Activity Recommendations Based on User Interests",
-    "priority": "1"
-  },
-  {
-    "id": "RREQ-012",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Facilitated Communication Channels Between Caregivers and Users",
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-013",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Event Notifications for Social Engagement Opportunities",
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-014",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "User-Defined Preferences for Social Interactions",
-    "priority": "3"
-  },
-  {
-    "id": "RREQ-015",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Integration with Community Resources for Social Activities",
-    "priority": "3"
-  },
-  {
-    "id": "RREQ-016",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Feedback Mechanism for User Satisfaction with Social Features",
-    "priority": "4"
-  },
-  {
-    "id": "RREQ-017",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Personalized Reminders for Social Engagements",
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-018",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Support for Group Communication Features",
-    "priority": "3"
-  },
-  {
-    "id": "RREQ-019",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "User Privacy Settings for Social Interactions",
-    "priority": "1"
-  },
-  {
-    "id": "RREQ-020",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Real-Time Health Monitoring Dashboard",
-    "priority": "1"
-  },
-  {
-    "id": "RREQ-021",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Customizable Alert System for Anomalies",
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-022",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Secure Data Access Control for Caregivers",
-    "priority": "1"
-  },
-  {
-    "id": "RREQ-023",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Integrated Communication Tools for Health Updates",
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-024",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Personalized Care Task Management Interface",
-    "priority": "3"
-  },
-  {
-    "id": "RREQ-025",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
+    "id": "RREQ-047",
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
     "title": "User Consent Management for Data Sharing",
     "priority": "2"
   },
   {
-    "id": "RREQ-026",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Simplified Setup Process for Caregiver Access",
+    "id": "RREQ-048",
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "title": "Guided Onboarding Experience for New Users",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-049",
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "title": "Feedback Collection Mechanism for Continuous Improvement",
     "priority": "3"
   },
   {
-    "id": "RREQ-027",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Health Data Visualization for Easy Interpretation",
-    "priority": "3"
-  },
-  {
-    "id": "RREQ-028",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Medication Management and Reminder System",
-    "priority": "1"
-  },
-  {
-    "id": "RREQ-029",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Training Resources for Caregivers on ALFRED Usage",
+    "id": "RREQ-050",
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "title": "Developer API for Third-Party Integrations",
     "priority": "4"
   },
   {
-    "id": "RREQ-030",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "id": "RREQ-051",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Interactive Physical Activity Programs",
+    "title": "Natural Language Understanding for Commands",
     "priority": "1"
   },
   {
-    "id": "RREQ-031",
+    "id": "RREQ-052",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Voice Feedback for Confirmation and Guidance",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-053",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Simplified Access to Health Monitoring Data",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-054",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Customizable Voice Interaction Settings",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-055",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Integration with Communication Tools for Caregivers",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-056",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "User-Friendly Interface for Quick Access to Information",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-057",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Contextual Help and Support Features",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-058",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Personalized Reminders for Health Checks and Appointments",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-059",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Multimodal Interaction Options (Voice and Touch)",
+    "priority": "4"
+  },
+  {
+    "id": "RREQ-060",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Privacy Controls for Caregiver Access to User Data",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-061",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Event Recommendation System Based on User Interests",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-062",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Facilitate Group Communication for Social Engagement",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-063",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Personalized Activity Suggestions to Combat Isolation",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-064",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Integration of Social Media Platforms for Connectivity",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-065",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "User Feedback Mechanism for Social Activity Preferences",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-066",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Notifications for Upcoming Social Events and Activities",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-067",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Accessibility Features for Social Interaction Tools",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-068",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Support for Virtual Community Groups and Activities",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-069",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Data Analytics for Understanding User Engagement",
+    "priority": "4"
+  },
+  {
+    "id": "RREQ-070",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Customization Options for Social Interaction Notifications",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-071",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Real-Time Health Monitoring Alerts",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-072",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Secure Messaging System for Caregiver Communication",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-073",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Intuitive Dashboard for Health Metrics Overview",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-074",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Customization of Health Notifications for Caregivers",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-075",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Integration with Health Data Sources for Comprehensive Tracking",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-076",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Scheduled Check-In Reminders for Caregivers",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-077",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Support for Video Consultations with Medical Staff",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-078",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "User Consent Management for Data Access by Caregivers",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-079",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Analytics for Caregiver Activity and Engagement Tracking",
+    "priority": "4"
+  },
+  {
+    "id": "RREQ-080",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Training Resources for Caregivers on ALFRED Use",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-081",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Interactive Physical Activity Challenges",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-082",
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Caregivers and Medical Staff",
     "title": "Cognitive Stimulation Games for Users",
     "priority": "1"
   },
   {
-    "id": "RREQ-032",
+    "id": "RREQ-083",
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Progress Tracking for Physical Activities",
+    "title": "Personalized Activity Tracking for Improvement",
     "priority": "2"
   },
   {
-    "id": "RREQ-033",
+    "id": "RREQ-084",
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Personalized Cognitive Challenges Based on User Ability",
+    "title": "Guided Reminders for Physical Exercises",
     "priority": "2"
   },
   {
-    "id": "RREQ-034",
+    "id": "RREQ-085",
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Feedback Loop for User Engagement in Activities",
+    "title": "Adaptive Difficulty Levels for Cognitive Games",
     "priority": "3"
   },
   {
-    "id": "RREQ-035",
+    "id": "RREQ-086",
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Activity Recommendations Based on User Preferences",
+    "title": "User Feedback Collection on Activity Preferences",
     "priority": "3"
   },
   {
-    "id": "RREQ-036",
+    "id": "RREQ-087",
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Guided Tutorials for New Activities",
-    "priority": "4"
+    "title": "Integration with Fitness Devices for Activity Monitoring",
+    "priority": "2"
   },
   {
-    "id": "RREQ-037",
+    "id": "RREQ-088",
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Social Sharing Features for Activity Achievements",
-    "priority": "4"
-  },
-  {
-    "id": "RREQ-038",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Adaptive Learning for Activity Adjustments",
+    "title": "Social Challenges to Encourage Group Activities",
     "priority": "3"
   },
   {
-    "id": "RREQ-039",
+    "id": "RREQ-089",
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "User Progress Reports for Caregivers",
+    "title": "Progress Visualization for Health Improvement",
     "priority": "2"
   },
   {
-    "id": "RREQ-040",
+    "id": "RREQ-090",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Virtual Coaching for Physical and Cognitive Activities",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-091",
     "pillar": "General Requirements",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Real-Time Health Data Access for Caregivers",
+    "title": "Real-Time Data Access for Caregivers",
     "priority": "1"
   },
   {
-    "id": "RREQ-041",
+    "id": "RREQ-092",
     "pillar": "General Requirements",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Customizable User Profiles for Caregiver Access",
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-042",
-    "pillar": "General Requirements",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Secure Data Sharing Options with User Consent",
+    "title": "Alerts for Health Metric Anomalies",
     "priority": "1"
   },
   {
-    "id": "RREQ-043",
+    "id": "RREQ-093",
     "pillar": "General Requirements",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Simplified Communication Channels Between Caregivers and Users",
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-044",
-    "pillar": "General Requirements",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Integrated Alerts for Health Anomalies",
+    "title": "Secure Access Management for User Data",
     "priority": "1"
   },
   {
-    "id": "RREQ-045",
+    "id": "RREQ-094",
     "pillar": "General Requirements",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "User-Friendly Interface for Health Monitoring",
+    "title": "User-Friendly Dashboard for Health Insights",
     "priority": "2"
   },
   {
-    "id": "RREQ-046",
+    "id": "RREQ-095",
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Simplified Communication Tools for Caregivers",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-096",
     "pillar": "General Requirements",
     "userGroup": "Caregivers and Medical Staff",
     "title": "Training and Support Resources for Caregivers",
     "priority": "3"
   },
   {
-    "id": "RREQ-047",
+    "id": "RREQ-097",
     "pillar": "General Requirements",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Privacy Controls for User Health Data Access",
-    "priority": "1"
-  },
-  {
-    "id": "RREQ-048",
-    "pillar": "General Requirements",
-    "userGroup": "Caregivers and Medical Staff",
-    "title": "Health Metric Visualization for Quick Insights",
+    "title": "Integration with Emergency Response Services",
     "priority": "2"
   },
   {
-    "id": "RREQ-049",
+    "id": "RREQ-098",
     "pillar": "General Requirements",
     "userGroup": "Caregivers and Medical Staff",
-    "title": "Personalized Care Task Notifications for Caregivers",
+    "title": "Customizable Notifications for Caregiver Alerts",
     "priority": "3"
   },
   {
-    "id": "RREQ-001",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Developers and App Creators",
-    "title": "Natural Language Processing Capabilities",
-    "priority": "1"
-  },
-  {
-    "id": "RREQ-002",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Developers and App Creators",
-    "title": "Customizable Voice Interaction Settings",
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-003",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Developers and App Creators",
-    "title": "Feedback Mechanism for User Commands",
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-004",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Developers and App Creators",
-    "title": "Integration with Third-Party Voice Services",
-    "priority": "3"
-  },
-  {
-    "id": "RREQ-005",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Developers and App Creators",
-    "title": "User Command Personalization Features",
-    "priority": "3"
-  },
-  {
-    "id": "RREQ-006",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Developers and App Creators",
-    "title": "Support for Multi-User Voice Profiles",
+    "id": "RREQ-099",
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Data Logging for Caregiving Activities",
     "priority": "4"
   },
   {
-    "id": "RREQ-007",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Developers and App Creators",
-    "title": "Accessibility Features for Voice Interaction",
-    "priority": "1"
-  },
-  {
-    "id": "RREQ-008",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Developers and App Creators",
-    "title": "Error Handling and Recovery for Voice Commands",
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-009",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Developers and App Creators",
-    "title": "Real-Time Speech Recognition Accuracy",
-    "priority": "1"
-  },
-  {
-    "id": "RREQ-010",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Developers and App Creators",
-    "title": "Documentation for Voice Command Development",
+    "id": "RREQ-100",
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Feedback Mechanism for Caregiver Experience",
     "priority": "3"
   },
   {
-    "id": "RREQ-011",
+    "id": "RREQ-101",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "title": "Natural Language Processing",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-102",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "title": "Voice Recognition Accuracy",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-103",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "title": "Custom Command Creation",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-104",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "title": "Contextual Understanding",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-105",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "title": "Multimodal Interaction Support",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-106",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "title": "Feedback Mechanism for User Input",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-107",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "title": "Error Handling and Recovery",
+    "priority": "4"
+  },
+  {
+    "id": "RREQ-108",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "title": "User Preference Learning",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-109",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "title": "Integration with Third-Party Voice Services",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-110",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "title": "Voice Activity Logging for Developers",
+    "priority": "4"
+  },
+  {
+    "id": "RREQ-111",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Developers and App Creators",
     "title": "Event Recommendation Engine",
     "priority": "1"
   },
   {
-    "id": "RREQ-012",
+    "id": "RREQ-112",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Developers and App Creators",
-    "title": "Integration with Social Media Platforms",
+    "title": "Social Interaction API",
     "priority": "2"
   },
   {
-    "id": "RREQ-013",
+    "id": "RREQ-113",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Developers and App Creators",
-    "title": "User Interest Profiling for Social Activities",
+    "title": "User Interest Profiling",
     "priority": "2"
   },
   {
-    "id": "RREQ-014",
+    "id": "RREQ-114",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Developers and App Creators",
-    "title": "Support for Group Communication Features",
+    "title": "Activity Scheduling Integration",
     "priority": "3"
   },
   {
-    "id": "RREQ-015",
+    "id": "RREQ-115",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Developers and App Creators",
-    "title": "Personalized Activity Suggestions",
-    "priority": "1"
+    "title": "Notification System for Social Events",
+    "priority": "3"
   },
   {
-    "id": "RREQ-016",
+    "id": "RREQ-116",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Developers and App Creators",
-    "title": "Community Engagement Tracking",
-    "priority": "3"
+    "title": "Privacy Controls for Social Sharing",
+    "priority": "1"
   },
   {
-    "id": "RREQ-017",
+    "id": "RREQ-117",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Developers and App Creators",
-    "title": "Notification System for Social Activities",
-    "priority": "2"
+    "title": "Cross-Platform Compatibility for Social Apps",
+    "priority": "4"
   },
   {
-    "id": "RREQ-018",
+    "id": "RREQ-118",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Developers and App Creators",
-    "title": "Privacy Controls for Social Interactions",
-    "priority": "1"
+    "title": "User Feedback on Social Activities",
+    "priority": "3"
   },
   {
-    "id": "RREQ-019",
+    "id": "RREQ-119",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Developers and App Creators",
-    "title": "Developer API for Social Event Management",
+    "title": "Integration with Messaging Platforms",
     "priority": "2"
   },
   {
-    "id": "RREQ-020",
+    "id": "RREQ-120",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Developers and App Creators",
+    "title": "Developer SDK for Social Features",
+    "priority": "4"
+  },
+  {
+    "id": "RREQ-121",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
-    "title": "Health Data Access API",
+    "title": "Health Data Integration API",
     "priority": "1"
   },
   {
-    "id": "RREQ-021",
+    "id": "RREQ-122",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
-    "title": "Integration with Health Monitoring Devices",
-    "priority": "1"
-  },
-  {
-    "id": "RREQ-022",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Developers and App Creators",
-    "title": "Real-Time Health Status Updates",
+    "title": "Real-Time Health Monitoring Access",
     "priority": "2"
   },
   {
-    "id": "RREQ-023",
+    "id": "RREQ-123",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
-    "title": "Personalized Care Plan Development Tools",
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-024",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Developers and App Creators",
-    "title": "Security Protocols for Health Data",
+    "title": "User Data Privacy Compliance Tools",
     "priority": "1"
   },
   {
-    "id": "RREQ-025",
+    "id": "RREQ-124",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
-    "title": "Documentation for Health Integration APIs",
+    "title": "Caregiver Notification System",
     "priority": "3"
   },
   {
-    "id": "RREQ-026",
+    "id": "RREQ-125",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
-    "title": "User Consent Management for Health Data Sharing",
-    "priority": "1"
-  },
-  {
-    "id": "RREQ-027",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Developers and App Creators",
-    "title": "Support for Remote Caregiver Interaction",
+    "title": "Personalized Health Insights Generation",
     "priority": "2"
   },
   {
-    "id": "RREQ-028",
+    "id": "RREQ-126",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
-    "title": "Longitudinal Health Tracking Features",
+    "title": "Remote Configuration for Care Devices",
     "priority": "3"
   },
   {
-    "id": "RREQ-029",
+    "id": "RREQ-127",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
-    "title": "Error Handling for Health Data Inputs",
-    "priority": "3"
+    "title": "Health Data Analytics Dashboard for Developers",
+    "priority": "4"
   },
   {
-    "id": "RREQ-030",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "id": "RREQ-128",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
-    "title": "Integration with Cognitive Stimulation Activities",
+    "title": "Emergency Alert System Integration",
     "priority": "1"
   },
   {
-    "id": "RREQ-031",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "id": "RREQ-129",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
-    "title": "API for Physical Activity Tracking Applications",
-    "priority": "1"
-  },
-  {
-    "id": "RREQ-032",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Developers and App Creators",
-    "title": "Support for Customizable Cognitive Games",
+    "title": "Interoperability with Health Standards",
     "priority": "2"
   },
   {
-    "id": "RREQ-033",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "id": "RREQ-130",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
-    "title": "Developer Tools for Activity Challenge Creation",
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-034",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Developers and App Creators",
-    "title": "Feedback Mechanism for Cognitive Activities",
+    "title": "Documentation for Health Application Development",
     "priority": "3"
   },
   {
-    "id": "RREQ-035",
+    "id": "RREQ-131",
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Developers and App Creators",
-    "title": "Documentation for Physical Activity API Integration",
-    "priority": "3"
-  },
-  {
-    "id": "RREQ-036",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Developers and App Creators",
-    "title": "Real-Time Progress Tracking for Users",
+    "title": "Gamified Activity Development Tools",
     "priority": "2"
   },
   {
-    "id": "RREQ-037",
+    "id": "RREQ-132",
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Developers and App Creators",
-    "title": "Security Measures for Activity Data Management",
+    "title": "Cognitive Challenge API",
     "priority": "1"
   },
   {
-    "id": "RREQ-038",
+    "id": "RREQ-133",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "title": "Physical Activity Tracking Integration",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-134",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "title": "Adaptive Difficulty Adjustment for Activities",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-135",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "title": "User Engagement Analytics Tools",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-136",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "title": "Feedback Mechanism for Activity Effectiveness",
+    "priority": "3"
+  },
+  {
+    "id": "RREQ-137",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "title": "Integration with Health and Fitness Wearables",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-138",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "title": "Documentation for Cognitive and Physical Activity Apps",
+    "priority": "4"
+  },
+  {
+    "id": "RREQ-139",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "title": "Social Motivational Challenges for Users",
+    "priority": "2"
+  },
+  {
+    "id": "RREQ-140",
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
-    "title": "Open API for Third-Party App Integration",
+    "title": "Open API Access for Third-Party Integration",
     "priority": "1"
   },
   {
-    "id": "RREQ-039",
+    "id": "RREQ-141",
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
     "title": "Comprehensive Developer Documentation",
     "priority": "1"
   },
   {
-    "id": "RREQ-040",
+    "id": "RREQ-142",
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
-    "title": "Security Standards for Third-Party Applications",
-    "priority": "1"
-  },
-  {
-    "id": "RREQ-041",
-    "pillar": "General Requirements",
-    "userGroup": "Developers and App Creators",
-    "title": "Sandbox Environment for App Testing",
+    "title": "Data Privacy Compliance Guidelines for Developers",
     "priority": "2"
   },
   {
-    "id": "RREQ-042",
+    "id": "RREQ-143",
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
     "title": "Support for Multiple Programming Languages",
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-043",
-    "pillar": "General Requirements",
-    "userGroup": "Developers and App Creators",
-    "title": "Versioning for APIs",
     "priority": "3"
   },
   {
-    "id": "RREQ-044",
+    "id": "RREQ-144",
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
-    "title": "User Data Access Permissions for Developers",
-    "priority": "2"
-  },
-  {
-    "id": "RREQ-045",
-    "pillar": "General Requirements",
-    "userGroup": "Developers and App Creators",
-    "title": "Error Logging and Reporting Mechanism",
+    "title": "Developer Support Community and Forums",
     "priority": "3"
   },
   {
-    "id": "RREQ-046",
+    "id": "RREQ-145",
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
-    "title": "Guidelines for User-Centric App Design",
+    "title": "Sandbox Environment for Application Testing",
     "priority": "2"
   },
   {
-    "id": "RREQ-047",
+    "id": "RREQ-146",
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
-    "title": "Integration with Developer Community Platforms",
+    "title": "Security Protocols for API Interactions",
+    "priority": "1"
+  },
+  {
+    "id": "RREQ-147",
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "title": "Version Control for API Changes",
+    "priority": "4"
+  },
+  {
+    "id": "RREQ-148",
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "title": "Integration Metrics and Analytics Tools for Developers",
     "priority": "3"
+  },
+  {
+    "id": "RREQ-149",
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "title": "Extensible Plugin Architecture",
+    "priority": "2"
   }
 ]

@@ -1,0 +1,254 @@
+[
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-052",
+    "title": "Voice Confirmation and Guidance for Caregiver Tasks",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": "2",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "The voice feedback for confirmation and guidance will assist Sarah in managing multiple clients by providing audible confirmations of actions and guidance for using the system, which aligns with her need for a simple and efficient interface while working in various client settings."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-053",
+    "title": "Streamlined Access to Client Health Monitoring Data",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": "1",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "The requirement for simplified access to health monitoring data is relevant to Sarah as she manages multiple clients' health statuses and needs quick access to vital information. This aligns with her goal of real-time health monitoring and addresses her challenge of juggling care schedules, ensuring she can efficiently track health metrics and respond to any anomalies."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-054",
+    "title": "Tailored Voice Interaction for Caregiver Efficiency",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": "3",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "The customizable voice interaction settings would enable Sarah to tailor how ALFRED responds to her commands, enhancing her ability to monitor multiple clients efficiently and interact with the system hands-free. This aligns with her goal of accessing critical information quickly and effectively, especially given her busy schedule."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-055",
+    "title": "Integration with Communication Tools for Efficient Care Coordination",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": "2",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "The integration with communication tools is essential for Sarah as it allows her to maintain clear communication with clients' family members and coordinate care with healthcare professionals. This aligns directly with her core goals of effective communication and managing multiple clients' health efficiently."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-056",
+    "title": "Intuitive Interface for Efficient Client Management",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": "1",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "The requirement for a user-friendly interface is relevant to Sarah because she needs quick access to critical information for multiple clients while managing her busy schedule. An intuitive interface aligns with her goal of efficient client management and addresses her challenge of limited time during care activities."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-057",
+    "title": "Guided Support and Help Features for Caregivers",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": "3",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "The contextual help and support features would assist Sarah in navigating the ALFRED system more effectively, especially given her need for an easy-to-use interface for managing multiple clients and tasks. Such support would help her overcome challenges related to varying levels of technology comfort among her clients."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-058",
+    "title": "Personalized Health Check and Appointment Reminders for Caregivers",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": "2",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "This requirement is relevant because Sarah needs to manage multiple clients' health check schedules and appointments efficiently. Personalized reminders will help her ensure that health checks and appointments are not missed, addressing her goal of tracking health status in real-time and managing care schedules effectively."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-059",
+    "title": "Voice and Touch Interaction for Caregiver Efficiency",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": "4",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "The requirement for multimodal interaction options allows Sarah to interact with the ALFRED system using both voice and touch, which aligns with her need for a simple interface to manage multiple clients efficiently, especially when juggling care tasks. This flexibility is crucial for caregivers like Sarah who may need hands-free access while on the move."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-060",
+    "title": "",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": "1",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "The requirement for privacy controls aligns with Sarah's concern about data privacy for her elderly clients. As a caregiver, she needs to ensure that she can access necessary health data while respecting the privacy preferences of the older adults she supports."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-071",
+    "title": "Real-Time Alerts for Client Health Monitoring",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": "1",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "The requirement for 'Real-Time Health Monitoring Alerts' is crucial for Sarah as a professional caregiver, enabling her to track multiple clients' health metrics and respond to anomalies promptly, which aligns directly with her core goals of real-time health monitoring and ensuring client safety."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-072",
+    "title": "Secure Communication Platform for Caregiver Coordination",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": "2",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "The secure messaging system is essential for Sarah to maintain clear communication with her clients' family members and healthcare professionals, which aligns directly with her core goal of coordinating care. This functionality would help her overcome challenges related to accessing and sharing critical information efficiently."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-073",
+    "title": "User-Friendly Health Metrics Dashboard for Caregivers",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": "1",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "The requirement for an 'Intuitive Dashboard for Health Metrics Overview' is relevant to Sarah as it directly supports her core goal of tracking multiple clients' health status in real-time. An intuitive dashboard would provide her with quick access to critical health data, addressing her challenges of managing care schedules and accessing information efficiently."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-074",
+    "title": "Personalized Health Alert Customization for Caregivers",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": "3",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "The requirement for customization of health notifications directly supports Sarah's need for real-time health monitoring and critical alerts. By allowing her to tailor these notifications, she can efficiently manage the health status of her multiple clients and respond promptly to any anomalies, which aligns with her core goals and challenges."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-075",
+    "title": "Seamless Integration with Client Health Data for Real-Time Monitoring",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": "2",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "The requirement for integration with health data sources is relevant to Sarah as it directly supports her need for real-time health monitoring of multiple clients. Access to comprehensive health metrics is essential for her to ensure timely interventions and coordinate care efficiently."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-076",
+    "title": "Timely Check-In Reminders for Care Coordination",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": "1",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "The requirement for scheduled check-in reminders directly supports Sarah's goal of maintaining clear communication with her clients and their families, as well as managing care schedules efficiently. This feature will help her ensure timely interactions with clients, which is crucial given her busy workdays and the need to coordinate care across multiple clients."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-077",
+    "title": "Video Consultation Support for Caregivers and Healthcare Collaboration",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": "2",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "The requirement for video consultations with medical staff is relevant to Sarah because it facilitates effective communication between her and healthcare professionals, which is essential for coordinating care for her multiple clients. This aligns with her core goals of maintaining clear communication and coordinating care, especially for clients with complex health needs."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-078",
+    "title": "Caregiver Access Control for Client Health Data",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": "1",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "This requirement is relevant because Sarah, as a professional caregiver, needs to manage and access health data while ensuring that the privacy preferences of her elderly clients are respected. The ability to manage user consent is crucial for her to fulfill her responsibilities effectively and ethically."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-080",
+    "title": "Training Resources for Caregivers to Effectively Use ALFRED",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": "3",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "This requirement is relevant because Sarah, as a professional caregiver, will likely need training resources to effectively use ALFRED for monitoring her clients’ health and coordinating care. Access to training can help her overcome challenges related to varying technology comfort levels among her clients."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-091",
+    "title": "",
+    "pillar": "General Requirements",
+    "priority": "1",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "This requirement is relevant to Sarah because she needs real-time access to her clients' health data to effectively monitor their health status and respond to any anomalies. Having immediate access to this data aligns with her core goal of tracking multiple clients' health and ensures timely interventions when necessary."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-092",
+    "title": "Real-Time Alerts for Client Health Anomalies",
+    "pillar": "General Requirements",
+    "priority": "1",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "The requirement for alerts regarding health metric anomalies directly supports Sarah's core goal of real-time health monitoring for her clients, enabling her to respond promptly to any critical health issues. This aligns with her need to ensure the safety and well-being of the elderly clients she manages."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-093",
+    "title": "Secure Access to Client Health Data",
+    "pillar": "General Requirements",
+    "priority": "1",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "The requirement for secure access management directly supports Sarah's need to access sensitive health data for multiple clients while ensuring that their privacy is respected. Given her responsibility for monitoring health metrics and coordinating care, secure access is essential for her to fulfill her role effectively."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-094",
+    "title": "Simplified Client Health Management Dashboard",
+    "pillar": "General Requirements",
+    "priority": "2",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "The requirement for a user-friendly dashboard aligns with Sarah's need for a simplified client management interface, allowing her to efficiently track multiple clients' health statuses and access critical information quickly, which is essential given her busy workdays and time constraints."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-095",
+    "title": "Streamlined Communication Features for Caregiver Coordination",
+    "pillar": "General Requirements",
+    "priority": "2",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "The requirement for simplified communication tools directly supports Sarah's goals of maintaining clear communication with clients' families and coordinating care with healthcare professionals. Effective communication tools are essential for her to efficiently manage multiple clients and ensure their well-being."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-096",
+    "title": "Training and Support Resources for Professional Caregivers",
+    "pillar": "General Requirements",
+    "priority": "3",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "The requirement for training and support resources is relevant to Sarah as she manages multiple clients and may encounter technical challenges, especially with clients who have varying levels of technology comfort. Access to training and support would help her overcome these challenges and ensure efficient use of the ALFRED system."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-097",
+    "title": "Integration with Emergency Services for Client Safety",
+    "pillar": "General Requirements",
+    "priority": "2",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "This requirement is relevant as it supports Sarah's need to ensure the safety and well-being of her clients. Integration with emergency response services would provide her with timely assistance in critical situations, aligning with her goals of real-time health monitoring and emergency alerts."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-098",
+    "title": "Customizable Alerts for Real-Time Health Monitoring",
+    "pillar": "General Requirements",
+    "priority": "3",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "The requirement for customizable notifications aligns with Sarah's need for real-time health monitoring and critical alerts for her multiple clients. Customizable alerts will help her efficiently manage client health data and respond promptly to any anomalies, thereby supporting her core goal of maintaining client well-being."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-099",
+    "title": "Logging of Caregiving Activities and Client Health Metrics",
+    "pillar": "General Requirements",
+    "priority": "4",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "The requirement for data logging directly supports Sarah's need to document care activities and track health metrics for multiple clients. Accurate logging of caregiving activities is essential for effective coordination and communication with families and healthcare professionals, making this requirement integral to her role."
+  },
+  {
+    "personaId": "P-006",
+    "reqId": "RREQ-100",
+    "title": "Feedback System for Caregiver Usability and Experience",
+    "pillar": "General Requirements",
+    "priority": "3",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "The feedback mechanism for caregiver experience is relevant as it allows Sarah to provide input on the system's usability and functionalities, which can help improve her efficiency in managing multiple clients' care. This aligns with her core goal of maintaining a streamlined communication and care coordination process."
+  }
+]

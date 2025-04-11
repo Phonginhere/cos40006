@@ -1,91 +1,8 @@
 [
   {
-    "title": "Natural Language Understanding for Seamless Interaction",
-    "summary": "As an older adult, I want ALFRED to understand my voice commands accurately so that I can easily manage my daily tasks, stay connected with loved ones, and access information without frustration.",
-    "priority": 1,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-001",
-      "UC-003",
-      "UC-007",
-      "UC-008"
-    ],
-    "rawRequirementId": "RREQ-001",
-    "id": "US-189"
-  },
-  {
-    "title": "Voice Feedback and Confirmation",
-    "summary": "As an older adult, I want ALFRED to provide voice feedback and confirmation for my commands, so that I feel assured that my tasks are being executed correctly and can interact with the system confidently.",
-    "priority": 2,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-001",
-      "UC-003",
-      "UC-007"
-    ],
-    "rawRequirementId": "RREQ-002",
-    "id": "US-190"
-  },
-  {
-    "title": "Contextual Task Management",
-    "summary": "As an older adult, I want to use voice commands to manage my daily tasks and reminders easily so that I can stay organized and maintain my independence despite my reduced mobility.",
-    "priority": 1,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-001",
-      "UC-003",
-      "UC-007",
-      "UC-009",
-      "UC-011"
-    ],
-    "rawRequirementId": "RREQ-003",
-    "id": "US-191"
-  },
-  {
-    "title": "Adaptive Voice Interaction",
-    "summary": "As an older adult, I want ALFRED to learn and adapt to my voice commands over time so that I can manage my daily tasks more easily and efficiently despite my mobility limitations.",
-    "priority": 3,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-001",
-      "UC-003",
-      "UC-007",
-      "UC-008",
-      "UC-009"
-    ],
-    "rawRequirementId": "RREQ-004",
-    "id": "US-192"
-  },
-  {
-    "title": "Error Recovery and Help Guidance",
-    "summary": "As an older adult, I want clear and simple guidance when I encounter errors or need assistance with ALFRED, so that I can continue using the system without frustration.",
-    "priority": 2,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-001",
-      "UC-003",
-      "UC-007",
-      "UC-008",
-      "UC-009",
-      "UC-011"
-    ],
-    "rawRequirementId": "RREQ-005",
-    "id": "US-193"
-  },
-  {
-    "title": "Multimodal Interaction Support",
-    "summary": "As an older adult, I want to interact with ALFRED using both voice commands and simple touch controls so that I can manage my tasks and stay connected without feeling overwhelmed by technology.",
-    "priority": 3,
+    "title": "Voice Commands for Daily Task Management",
+    "summary": "As an older adult, I want to use voice commands to manage my daily tasks so that I can maintain my independence and stay organized without struggling with physical limitations.",
+    "priority": "1",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
     "personaId": "P-005",
@@ -98,13 +15,13 @@
       "UC-009",
       "UC-011"
     ],
-    "rawRequirementId": "RREQ-006",
-    "id": "US-194"
+    "id": "US-146",
+    "rawRequirementId": "RREQ-001"
   },
   {
-    "title": "User Personalization Settings",
-    "summary": "As an older adult, I want to easily customize my interaction preferences with ALFRED so that I can tailor the system to my specific needs and ensure it supports my lifestyle and activities effectively.",
-    "priority": 4,
+    "title": "Natural Language Understanding for Daily Task Management",
+    "summary": "As an older adult, I want to use simple voice commands to manage my daily tasks, so that I can stay organized and connected without struggling with technology.",
+    "priority": "2",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
     "personaId": "P-005",
@@ -117,22 +34,159 @@
       "UC-009",
       "UC-011"
     ],
-    "rawRequirementId": "RREQ-007",
-    "id": "US-195"
+    "id": "US-147",
+    "rawRequirementId": "RREQ-002"
   },
   {
-    "title": "Integration with External Voice Services",
-    "summary": "As an older adult, I want to use voice commands to interact with ALFRED through external voice services so that I can easily manage my daily tasks and stay connected with family and friends without needing to learn complex technology.",
-    "priority": 3,
+    "title": "Voice Confirmation for Task Management",
+    "summary": "As an older adult, I want to receive voice confirmations after I issue commands to ALFRED so that I feel assured that my tasks, such as setting reminders or making calls, have been executed correctly.",
+    "priority": "1",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
     "personaId": "P-005",
     "useCases": [
       "UC-001",
       "UC-003",
-      "UC-008"
+      "UC-004",
+      "UC-007",
+      "UC-008",
+      "UC-009",
+      "UC-011"
     ],
-    "rawRequirementId": "RREQ-008",
-    "id": "US-196"
+    "id": "US-148",
+    "rawRequirementId": "RREQ-003"
+  },
+  {
+    "title": "Simplified Voice Commands for Daily Task Management",
+    "summary": "As an older adult, I want to use simple voice commands to manage my daily tasks so that I can stay organized and maintain my independence without struggling with technology.",
+    "priority": "2",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-001",
+      "UC-003",
+      "UC-004",
+      "UC-007",
+      "UC-008",
+      "UC-009",
+      "UC-011"
+    ],
+    "id": "US-149",
+    "rawRequirementId": "RREQ-004"
+  },
+  {
+    "title": "Enhanced Voice Command Support for Daily Task Management",
+    "summary": "As an older adult, I want to use voice commands to manage my daily tasks so that I can stay organized and connected without needing to navigate complex technology.",
+    "priority": "2",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-001",
+      "UC-003",
+      "UC-004",
+      "UC-007",
+      "UC-008",
+      "UC-009",
+      "UC-011"
+    ],
+    "id": "US-150",
+    "rawRequirementId": "RREQ-005"
+  },
+  {
+    "title": "Voice Interaction Accessibility Features for Enhanced Independence",
+    "summary": "As an older adult, I want to use voice commands to perform daily tasks easily so that I can stay independent and connected despite my mobility challenges.",
+    "priority": "1",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-001",
+      "UC-003",
+      "UC-004",
+      "UC-007",
+      "UC-008",
+      "UC-009",
+      "UC-011"
+    ],
+    "id": "US-151",
+    "rawRequirementId": "RREQ-006"
+  },
+  {
+    "title": "Guided Assistance for Error Recovery",
+    "summary": "As an older adult, I want ALFRED to guide me through error recovery when I encounter issues using the system, so that I can maintain my independence and continue to use the assistant without frustration.",
+    "priority": "2",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-001",
+      "UC-003",
+      "UC-004",
+      "UC-007",
+      "UC-008",
+      "UC-009",
+      "UC-011"
+    ],
+    "id": "US-152",
+    "rawRequirementId": "RREQ-007"
+  },
+  {
+    "title": "Customizable Voice Interactions for Enhanced Communication",
+    "summary": "As an older adult, I want to customize my voice interactions with ALFRED so that I can communicate easily and effectively with my family and friends.",
+    "priority": "2",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-001",
+      "UC-003",
+      "UC-004",
+      "UC-007",
+      "UC-008",
+      "UC-009",
+      "UC-011"
+    ],
+    "id": "US-153",
+    "rawRequirementId": "RREQ-008"
+  },
+  {
+    "title": "Voice Command Task Execution",
+    "summary": "As an older adult, I want to use voice commands to manage my daily tasks so that I can maintain my independence and stay connected with my family and community without struggling with technology.",
+    "priority": "2",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-001",
+      "UC-003",
+      "UC-004",
+      "UC-007",
+      "UC-008",
+      "UC-009",
+      "UC-011"
+    ],
+    "id": "US-154",
+    "rawRequirementId": "RREQ-009"
+  },
+  {
+    "title": "Customizable Voice Commands for Easier Daily Task Management",
+    "summary": "As an older adult, I want to customize voice commands so that I can easily manage my daily tasks without having to remember complex commands.",
+    "priority": "2",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-001",
+      "UC-003",
+      "UC-004",
+      "UC-007",
+      "UC-008",
+      "UC-009",
+      "UC-011"
+    ],
+    "id": "US-155",
+    "rawRequirementId": "RREQ-010"
   }
 ]

@@ -1,121 +1,85 @@
 [
   {
-    "title": "API for Integrating Cognitive Stimulation Activities",
-    "summary": "As a developer, I want an API that allows me to integrate cognitive stimulation activities into the ALFRED system so that I can create engaging applications that promote mental health for elderly users.",
-    "priority": "1",
+    "title": "Gamified Challenges for Physical Activities",
+    "summary": "As a developer, I want to integrate gamified challenges for physical activities into my applications so that elderly users can engage in enjoyable and motivating ways to stay active, improving their physical health and overall quality of life.",
+    "priority": 2,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
-      "UC-002",
+      "UC-007",
+      "UC-008",
+      "UC-012",
+      "UC-013"
+    ],
+    "id": "US-024",
+    "rawRequirementId": "RREQ-105"
+  },
+  {
+    "title": "Adaptive Activity Recommendations",
+    "summary": "As a developer, I want to create applications that provide adaptive activity recommendations based on the user's current health status so that elderly users can receive personalized and safe engagement suggestions that enhance their physical and cognitive well-being.",
+    "priority": 2,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
       "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
+      "UC-007",
+      "UC-008",
+      "UC-011",
+      "UC-012",
+      "UC-013"
     ],
     "id": "US-025",
-    "rawRequirementId": "RREQ-132"
+    "rawRequirementId": "RREQ-106"
   },
   {
-    "title": "Integration of Physical Activity Tracking",
-    "summary": "As a full-stack developer, I want to integrate physical activity tracking from health-monitoring devices into the ALFRED system so that elderly users can receive personalized feedback on their activity levels and caregivers can monitor their health more effectively.",
-    "priority": "1",
+    "title": "Progress Tracking and Reporting Tools \u2013 Integration with Third-Party Health Tracking Apps",
+    "summary": "As a developer, I want to integrate third-party health tracking apps with ALFRED so that I can create scalable applications that provide comprehensive health monitoring for elderly users and facilitate real-time data sharing with caregivers.",
+    "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
-      "UC-002",
       "UC-005",
       "UC-006",
-      "UC-010",
-      "UC-012"
+      "UC-009",
+      "UC-012",
+      "UC-013"
     ],
     "id": "US-026",
-    "rawRequirementId": "RREQ-133"
+    "rawRequirementId": "RREQ-107"
   },
   {
-    "title": "Open API Integration",
-    "summary": "As a developer, I want access to robust APIs that allow me to integrate third-party health monitoring devices seamlessly so that I can create applications that enhance the functionality of ALFRED and improve the quality of life for elderly users.",
-    "priority": "2",
+    "title": "User-Centric Activity Customization \u2013 Choice of Activity Types Based on User Interests",
+    "summary": "As a developer, I want to enable customization of activities based on user interests so that elderly users can engage in meaningful physical and cognitive activities that improve their quality of life.",
+    "priority": 2,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
-      "UC-002",
-      "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
+      "UC-007",
+      "UC-008",
+      "UC-011",
+      "UC-013"
     ],
     "id": "US-027",
-    "rawRequirementId": "RREQ-134"
+    "rawRequirementId": "RREQ-108"
   },
   {
-    "title": "Activity Effectiveness Feedback Integration for Healthcare Applications",
-    "summary": "As a developer, I want to integrate activity effectiveness feedback into my applications so that users and caregivers can assess the impact of activities on the user's health and well-being.",
-    "priority": "2",
+    "title": "Health Monitoring Integration for Activities",
+    "summary": "As a developer, I want to seamlessly integrate data from wearable health devices into the ALFRED system so that I can validate user activities and provide real-time health insights to elderly users and their caregivers.",
+    "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
-      "UC-002",
       "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
+      "UC-009",
+      "UC-012",
+      "UC-013"
     ],
     "id": "US-028",
-    "rawRequirementId": "RREQ-136"
-  },
-  {
-    "title": "Integration with Wearable Health Devices",
-    "summary": "As a full-stack developer, I want to easily integrate ALFRED with wearable health devices so that I can build applications that provide real-time health monitoring for elderly users and timely alerts for caregivers.",
-    "priority": "1",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-002",
-      "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
-    ],
-    "id": "US-029",
-    "rawRequirementId": "RREQ-137"
-  },
-  {
-    "title": "Guidelines for Developing Cognitive and Physical Activity Applications",
-    "summary": "As a developer, I want clear guidelines for creating cognitive and physical activity applications so that I can ensure they are accessible, engaging, and beneficial for elderly users while maintaining compliance with healthcare regulations.",
-    "priority": "2",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-002",
-      "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
-    ],
-    "id": "US-030",
-    "rawRequirementId": "RREQ-138"
-  },
-  {
-    "title": "Enhancing Social Engagement through Motivational Challenges",
-    "summary": "As a developer, I want to create motivational challenges within ALFRED that encourage social interaction among elderly users so that they can stay engaged and connected with their peers and caregivers.",
-    "priority": "2",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-002",
-      "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
-    ],
-    "id": "US-031",
-    "rawRequirementId": "RREQ-139"
+    "rawRequirementId": "RREQ-112"
   }
 ]

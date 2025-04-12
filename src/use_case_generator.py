@@ -114,17 +114,6 @@ def generate_raw_use_cases():
 # Phase 2: Enrich Use Cases with Scenarios and Personas
 # =========================================================
 
-def summarize_persona_for_matching(persona: UserPersona) -> str:
-    """Short summary of a persona used for relevance filtering."""
-    return f"""
-Id: {persona.id}
-Name: {persona.name}
-Role: {persona.role}
-Core Goals: {', '.join(persona.core_goals[:2])}
-Typical Challenges: {', '.join(persona.typical_challenges[:2])}
-Context: {persona.working_situation}
-""".strip()
-
 def summarize_persona_for_scenario(persona: UserPersona) -> str:
     """Returns just the name of the persona for scenario generation."""
     return persona.name
@@ -132,7 +121,7 @@ def summarize_persona_for_scenario(persona: UserPersona) -> str:
 
 def build_persona_matching_prompt(use_case: UseCase, persona_summaries: List[str]) -> str:
     return f"""
-You are designing user stories for the ALFRED system.
+You are designing use cases for the ALFRED system.
 
 Below is a use case:
 ID: {use_case.id}
@@ -184,17 +173,13 @@ Write a grounded, practical, human-centered scenario showing how these individua
 Return only the scenario narrative. Do not include any additional text or commentary. Do NOT use any markdown, bold, italic, or special formatting in your response.
 """
 
-def enrich_use_cases_with_scenarios():
+def enrich_use_cases_with_scenarios(persona_loader: UserPersonaLoader):
     print("\n🔄 Phase 2: Enriching use cases with personas and scenarios...")
 
-    # Load use cases
     use_case_loader = UseCaseLoader()
     use_case_loader.load()
     use_cases = use_case_loader.get_all()
 
-    # Load personas
-    persona_loader = UserPersonaLoader()
-    persona_loader.load()
     all_personas = persona_loader.get_personas()
     persona_by_id = {p.id: p for p in all_personas}
 
@@ -206,8 +191,8 @@ def enrich_use_cases_with_scenarios():
         print(f"✏️ Enriching {use_case.id}...")
 
         # Phase 2A: Find matching persona IDs via LLM
-        persona_matching_summaries = [summarize_persona_for_matching(p) for p in all_personas]
-        matching_prompt = build_persona_matching_prompt(use_case, persona_matching_summaries)
+        persona_full_prompts = [p.to_prompt_string() for p in all_personas]
+        matching_prompt = build_persona_matching_prompt(use_case, persona_full_prompts)
         persona_id_list = get_llm_response(matching_prompt)
 
         try:

@@ -1,121 +1,123 @@
 [
   {
-    "title": "High Accuracy in Voice Recognition for Elderly Applications",
-    "summary": "As a developer, I want ALFRED to have high accuracy in voice recognition so that elderly users can interact with applications effortlessly and without frustration.",
-    "priority": "1",
+    "title": "Natural Language Processing Capabilities - Context-Aware Understanding of Commands",
+    "summary": "As a developer, I want the ALFRED system to have natural language processing capabilities that understand context-aware commands so that I can create applications that allow elderly users to interact seamlessly with the system while ensuring that caregivers can easily access relevant information.",
+    "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
       "UC-002",
-      "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
+      "UC-011",
+      "UC-012",
+      "UC-013"
     ],
     "id": "US-001",
-    "rawRequirementId": "RREQ-102"
+    "rawRequirementId": "RREQ-081"
   },
   {
-    "title": "Enhanced Contextual Understanding for User Interaction",
-    "summary": "As a developer, I want ALFRED to have enhanced contextual understanding so that I can create more intuitive applications that respond appropriately to user queries and commands.",
-    "priority": "2",
+    "title": "Voice Command Customization \u2013 User-Defined Command Phrases",
+    "summary": "As a developer, I want to enable users to customize voice command phrases so that elderly users can better interact with the system in a way that feels natural and familiar to them.",
+    "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
-      "UC-002",
-      "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
+      "UC-011",
+      "UC-013"
     ],
     "id": "US-002",
-    "rawRequirementId": "RREQ-104"
+    "rawRequirementId": "RREQ-082"
   },
   {
-    "title": "API Access for Third-Party Integration",
-    "summary": "As a full-stack developer, I want robust APIs that enable easy integration of third-party health devices and applications so that I can create seamless, user-friendly healthcare solutions for elderly users and their caregivers.",
-    "priority": "1",
+    "title": "User-Controlled Notification Settings",
+    "summary": "As a developer, I want to implement user-controlled notification settings so that elderly users can customize alerts related to their health and social activities, ensuring they receive only the most relevant information while maintaining a user-friendly experience.",
+    "priority": 2,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
-      "UC-002",
-      "UC-005",
       "UC-006",
-      "UC-010",
-      "UC-012"
+      "UC-009",
+      "UC-011",
+      "UC-012",
+      "UC-013"
     ],
     "id": "US-003",
-    "rawRequirementId": "RREQ-105"
+    "rawRequirementId": "RREQ-083"
   },
   {
-    "title": "User Feedback Integration for Healthcare Applications",
-    "summary": "As a developer, I want to integrate user feedback mechanisms in healthcare applications so that I can enhance the usability and effectiveness of the solutions I build for elderly users and their caregivers.",
-    "priority": "2",
+    "title": "Multi-Device Interaction Support \u2013 Seamless Transition Between Devices",
+    "summary": "As a developer, I want to ensure that applications I create for ALFRED can seamlessly transition between devices, allowing users to access their health monitoring and social features regardless of the device they are using, so that elderly users and their caregivers can maintain continuity in their interactions and care.",
+    "priority": 2,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
-      "UC-002",
-      "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
+      "UC-012",
+      "UC-013"
     ],
     "id": "US-004",
-    "rawRequirementId": "RREQ-106"
+    "rawRequirementId": "RREQ-084"
   },
   {
-    "title": "User-Friendly Error Handling and Recovery",
-    "summary": "As a developer, I want the ALFRED system to provide intuitive error messages and recovery options so that I can create applications that help elderly users navigate issues without frustration.",
-    "priority": "2",
+    "title": "Contextual Assistance and Recommendations",
+    "summary": "As a developer, I want the ALFRED system to provide contextual assistance and recommendations based on user behavior patterns so that I can create applications that enhance user engagement and effectively address the needs of elderly users and their caregivers.",
+    "priority": 2,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
-      "UC-002",
       "UC-005",
       "UC-006",
-      "UC-010",
-      "UC-012"
+      "UC-011",
+      "UC-012",
+      "UC-013"
     ],
     "id": "US-005",
-    "rawRequirementId": "RREQ-107"
+    "rawRequirementId": "RREQ-085"
   },
   {
-    "title": "Personalized User Experience Learning for Elderly Applications",
-    "summary": "As a developer, I want ALFRED to learn from user interactions and adapt its responses so that I can create applications that offer a more tailored experience for elderly users.",
-    "priority": "2",
+    "title": "Guided Recovery Steps for Misunderstood Commands",
+    "summary": "As a developer, I want to implement guided recovery steps for when the ALFRED system misunderstands user commands, so that elderly users can easily recover from errors and continue using the application without frustration.",
+    "priority": 2,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
-      "UC-002",
-      "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
+      "UC-011",
+      "UC-013"
     ],
     "id": "US-006",
-    "rawRequirementId": "RREQ-108"
+    "rawRequirementId": "RREQ-086"
   },
   {
-    "title": "Integration with Third-Party Voice Services",
-    "summary": "As a full-stack developer, I want to integrate third-party voice services into the ALFRED platform so that I can enhance the functionality and accessibility of healthcare applications for elderly users and their caregivers.",
-    "priority": "2",
+    "title": "Interaction Personalization Settings \u2013 User-Defined Preferences for Interaction Style",
+    "summary": "As a developer, I want to enable users to customize their interaction styles with ALFRED, so that elderly users can have a more tailored and comfortable experience while using the system.",
+    "priority": 2,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
-      "UC-002",
-      "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
+      "UC-011",
+      "UC-013"
     ],
     "id": "US-007",
-    "rawRequirementId": "RREQ-109"
+    "rawRequirementId": "RREQ-087"
+  },
+  {
+    "title": "Accessibility Features for Voice Interaction \u2013 Speech Recognition for Users with Speech Impairments",
+    "summary": "As a developer, I want to implement speech recognition features that accommodate users with speech impairments, so that I can create applications that are accessible and user-friendly for elderly users and caregivers.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-009",
+      "UC-011",
+      "UC-013"
+    ],
+    "id": "US-008",
+    "rawRequirementId": "RREQ-088"
   }
 ]

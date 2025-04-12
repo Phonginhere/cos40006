@@ -1,172 +1,132 @@
 [
   {
-    "title": "Robust API Access for Seamless Third-Party Healthcare Integration",
-    "summary": "As a full-stack developer creating healthcare applications, I want robust APIs that facilitate seamless integration with third-party health devices so that I can create user-friendly applications that enhance the care and monitoring of elderly users.",
-    "priority": "1",
+    "title": "Open API Access for Health Device Integration",
+    "summary": "As a full-stack developer, I want robust RESTful APIs for seamless integration of third-party health devices so that I can create secure and user-friendly healthcare applications that enhance the quality of life for elderly users and facilitate effective communication with their caregivers.",
+    "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
-      "UC-002",
       "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
+      "UC-009",
+      "UC-012",
+      "UC-013"
+    ],
+    "id": "US-029",
+    "rawRequirementId": "RREQ-113"
+  },
+  {
+    "title": "Comprehensive Developer Documentation - Step-by-Step Guides for Common Tasks",
+    "summary": "As a developer, I want comprehensive step-by-step guides for common tasks so that I can efficiently create accessible and secure healthcare applications that meet the needs of elderly users and their caregivers.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-009",
+      "UC-013"
+    ],
+    "id": "US-030",
+    "rawRequirementId": "RREQ-114"
+  },
+  {
+    "title": "Sandbox Environment for Testing",
+    "summary": "As a full-stack developer, I want a sandbox environment for testing my applications so that I can ensure they function correctly and securely before deployment to the ALFRED platform.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-009",
+      "UC-013"
+    ],
+    "id": "US-031",
+    "rawRequirementId": "RREQ-115"
+  },
+  {
+    "title": "Security Protocols for Third-Party Applications",
+    "summary": "As a full-stack developer, I want to implement robust security protocols for third-party applications so that I can ensure compliance with healthcare data regulations and protect user privacy.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-009",
+      "UC-013"
     ],
     "id": "US-032",
-    "rawRequirementId": "RREQ-140"
+    "rawRequirementId": "RREQ-116"
   },
   {
-    "title": "Detailed API Documentation and Development Guidelines",
-    "summary": "As a full-stack developer, I want comprehensive API documentation and development guidelines so that I can integrate health monitoring devices and build secure applications that comply with healthcare standards.",
-    "priority": "1",
+    "title": "Extensible Platform Architecture",
+    "summary": "As a full-stack developer, I want the ALFRED system to have a modular architecture so that I can easily add new features and integrate third-party applications that enhance healthcare for elderly users.",
+    "priority": 2,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
-      "UC-002",
-      "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
+      "UC-012",
+      "UC-013"
     ],
     "id": "US-033",
-    "rawRequirementId": "RREQ-141"
+    "rawRequirementId": "RREQ-117"
   },
   {
-    "title": "Data Privacy Compliance Framework",
-    "summary": "As a full-stack developer, I want clear guidelines for ensuring data privacy in healthcare application development so that I can create applications that comply with regulations and protect user information.",
-    "priority": "2",
+    "title": "Device Discovery and Management",
+    "summary": "As a full-stack developer, I want robust APIs for device discovery and management so that I can easily integrate various health monitoring devices into my applications, ensuring seamless data flow and improving elderly users' healthcare experiences.",
+    "priority": 2,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
-      "UC-002",
       "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
+      "UC-009",
+      "UC-012",
+      "UC-013"
     ],
     "id": "US-034",
-    "rawRequirementId": "RREQ-142"
+    "rawRequirementId": "RREQ-118"
   },
   {
-    "title": "Support for Diverse Programming Languages in Application Development",
-    "summary": "As a full-stack developer, I want ALFRED to support multiple programming languages for application development so that I can leverage the best tools and frameworks for creating accessible healthcare applications that meet the diverse needs of elderly users and their caregivers.",
-    "priority": "2",
+    "title": "Monitoring and Analytics Tools for Developers \u2013 Performance Metrics for API Interactions",
+    "summary": "As a full-stack developer, I want access to monitoring and analytics tools that provide performance metrics for API interactions so that I can ensure my applications are efficient, secure, and compliant with healthcare regulations while integrating various data sources seamlessly.",
+    "priority": 2,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
-      "UC-002",
-      "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
+      "UC-009",
+      "UC-012",
+      "UC-013"
     ],
     "id": "US-035",
-    "rawRequirementId": "RREQ-143"
+    "rawRequirementId": "RREQ-119"
   },
   {
-    "title": "Developer Community and Resources for ALFRED Integration",
-    "summary": "As a full-stack developer, I want access to comprehensive documentation and support resources for ALFRED so that I can effectively create secure and user-friendly applications that integrate seamlessly with the system.",
-    "priority": "2",
+    "title": "Granular Permission Settings for Data Sharing",
+    "summary": "As a developer, I want to implement a user consent management framework with granular permission settings for data sharing so that I can ensure compliance with healthcare regulations while providing users control over their personal health information.",
+    "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
-      "UC-002",
-      "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
+      "UC-009",
+      "UC-013"
     ],
     "id": "US-036",
-    "rawRequirementId": "RREQ-144"
+    "rawRequirementId": "RREQ-120"
   },
   {
-    "title": "Application Testing Sandbox for Secure Development",
-    "summary": "As a full-stack developer, I want a secure application testing sandbox within the ALFRED system so that I can develop and test healthcare applications that comply with data privacy standards without compromising user information.",
-    "priority": "2",
+    "title": "Community Support and Collaboration Features - Forums for Developer Discussions",
+    "summary": "As a full-stack developer, I want access to forums for discussions with other developers so that I can share knowledge, troubleshoot integration issues, and collaborate on solutions that enhance the ALFRED platform for elderly users.",
+    "priority": 2,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
-      "UC-002",
-      "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
+      "UC-013"
     ],
     "id": "US-037",
-    "rawRequirementId": "RREQ-145"
-  },
-  {
-    "title": "Secure API Interaction Protocols for Healthcare Applications",
-    "summary": "As a full-stack developer, I want to implement secure API interaction protocols so that my applications can safely integrate with health-monitoring devices while ensuring compliance with healthcare regulations.",
-    "priority": "1",
-    "pillar": "General Requirements",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-002",
-      "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
-    ],
-    "id": "US-038",
-    "rawRequirementId": "RREQ-146"
-  },
-  {
-    "title": "API Change Management and Version Control",
-    "summary": "As a developer, I want a robust API change management and version control system so that I can ensure compatibility of my applications with ALFRED while maintaining compliance and minimizing disruptions.",
-    "priority": "2",
-    "pillar": "General Requirements",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-002",
-      "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
-    ],
-    "id": "US-039",
-    "rawRequirementId": "RREQ-147"
-  },
-  {
-    "title": "Integration Metrics and Analytics Tools for Healthcare Application Development",
-    "summary": "As a full-stack developer, I want robust integration metrics and analytics tools so that I can effectively monitor and optimize the performance of applications connecting to ALFRED, ensuring they meet the needs of elderly users and caregivers.",
-    "priority": "2",
-    "pillar": "General Requirements",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-002",
-      "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
-    ],
-    "id": "US-040",
-    "rawRequirementId": "RREQ-148"
-  },
-  {
-    "title": "Open Plugin Architecture for Application Development",
-    "summary": "As a full-stack developer, I want an open plugin architecture that allows easy integration of third-party applications so that I can enhance ALFRED's functionalities while ensuring a seamless experience for elderly users and their caregivers.",
-    "priority": "2",
-    "pillar": "General Requirements",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-002",
-      "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
-    ],
-    "id": "US-041",
-    "rawRequirementId": "RREQ-149"
+    "rawRequirementId": "RREQ-121"
   }
 ]

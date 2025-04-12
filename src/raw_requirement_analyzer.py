@@ -6,7 +6,14 @@ from user_persona_loader import UserPersonaLoader
 
 # Constants
 OUTPUT_DIR = os.path.join("results", CURRENT_LLM, "filtered_raw_requirements")
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+PILLARS = [
+    "Pillar 1 - User-Driven Interaction Assistant",
+    "Pillar 2 - Personalized Social Inclusion",
+    "Pillar 3 - Effective & Personalized Care",
+    "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "General Requirements"
+]
 
 
 def build_requirement_analysis_prompt(persona, req, alfred_summary, group_summary) -> str:
@@ -20,11 +27,13 @@ You are a system analyst helping to align system capabilities with user needs in
 {group_summary}
 
 --- PERSONA OVERVIEW ---
-{json.dumps(persona.to_dict(), indent=2)}
+{persona.to_prompt_string()}
 
 --- RAW REQUIREMENT TO ANALYZE ---
 Title: "{req['title']}"
 Pillar: "{req['pillar']}"
+SubOptions:
+{json.dumps(req.get("subOptions", []), indent=2)}
 
 Your task:
 Determine whether the above requirement is relevant to this specific persona. Use the definitions and examples below.
@@ -41,24 +50,46 @@ A raw requirement is considered "relevant" to a persona **only if** the persona 
 It is **not relevant** if:
 - The persona is not responsible for it
 - The functionality belongs to another user group
-- It doesn't align with their goals, responsibilities, or needs
+- It doesn't align with the persona information, (e.g., their goals, responsibilities, needs, main tasks, etc.)
+- The title of the raw requirement is relevant to the persona, but no sub-options is suitable for it.
 
 ---
 
 📌 OUTPUT:
 
-- "relevant": Boolean value. Should be true if the requirement is applicable to this persona’s goals, challenges, or work responsibilities. Otherwise, false.
-- "justification": A concise explanation (1–3 sentences) of why the requirement is or isn't relevant — using evidence from the persona. This must include why it aligns or conflicts.
-- "suggestedTitle" Optional string. If the original requirement is broadly applicable, but not phrased in a way that suits this persona, suggest a modified version of the title that better fits the persona’s perspective. Leave it empty if not needed (e.g., the raw requirement is not relevant to persona). Remain it the same if you don't want to change the title.
+If relevant:
+- Choose the most appropriate **subOption** (the one that aligns best with this persona's needs, goals, and context).
+- Justify why this requirement (and subOption) matters to this persona — in 1–3 sentences — using evidence from their traits, goals, or challenges.
+- Suggest a revised title, by **combining the main title + chosen subOption**. If the original requirement is broadly applicable, but not phrased in a way that suits this persona, suggest a modified version of the title that better fits the persona’s perspective. Leave it empty if not needed (e.g., the raw requirement is not relevant to persona). Remain it the same if you don't want to change the title.
+- Assign a priority from 1–5 based **only** on the persona’s context (see below for rules).
+
+If not relevant:
+- Explain briefly (1–3 sentences) why not, based on the persona's role or lack of connection to the feature.
+- Leave suggestedTitle empty.
+- Leave subOption empty.
+- Set priority to 5 (irrelevant/out of scope).
 
 ---
 
-📌 OUTPUT FORMAT:
+---
+
+📊 PRIORITY SCALE: (Use the number only (1-5). For example: `"priority": "3"` — do not use words like "High", "Low", or "Medium". Do not include any additional text or commentary. Do NOT use any markdown, bold, italic, or special formatting in your response.), where:
+  1 = Very high priority. Will be implemented.
+  2 = High priority. Important for the ALFRED system; an implementation is planned.
+  3 = Normal priority. Will be implemented if resources are available.
+  4 = Low priority. Only considered if synergies with other stories exist.
+  5 = Out of scope. Will not be implemented.
+  
+---
+
+📤 JSON OUTPUT FORMAT:
 
 {{
   "relevant": true or false,
+  "chosenSubOption": "...",         // leave empty if irrelevant
   "justification": "...",
-  "suggestedTitle": "..."
+  "suggestedTitle": "...",
+  "priority": "..."
 }}
 
 ---
@@ -69,60 +100,75 @@ EXAMPLE 1:
 Persona: Volunteer Event Organizer:
 {{
   "Id": "P-000",
-  "Name": "Peter Green",
-  "Role": "Volunteer Event Organizer",
-  "Tagline": "I help organize community events for seniors using digital tools.",
-  "Core goals": ["Promote social events for older adults", "Streamline event planning"],
-  "Typical challenges": ["Limited technical experience", "Scheduling conflicts"]
+  "Name": "Linda Green",
+  "Role": "Independent Retiree",
+  "Tagline": "I enjoy living alone but rely on digital tools for small daily tasks.",
+  "Core goals": ["Maintain independence", "Stay socially active"],
+  "Typical challenges": ["Mild forgetfulness", "Discomfort using complex interfaces"]
 }}
 Requirement: 
-- Title: "Health Monitoring Dashboard for Real-Time Alerts"  
-- Pillar: "Pillar 3 - Effective & Personalized Care"
+- Title: "Natural Interaction for Daily Living Support"
+- Pillar: "Pillar 1 - User-Driven Interaction Assistant"
+- SubOptions:
+  + "Voice-controlled reminders and calendar",
+  + "Simple language interface for task management",
+  + "Touch-free device interaction",
+  + "Daily summary reports via voice"
 Result:
 {{
-  "relevant": false,
-  "justification": "This persona is focused on social event planning and has no medical monitoring responsibilities.",
-  "suggestedTitle": ""
+  "relevant": true,
+  "chosenSubOption": "Voice-controlled reminders and calendar",
+  "justification": "Linda values independence but has occasional forgetfulness. Voice-controlled reminders directly help her manage daily routines without needing complex navigation.",
+  "suggestedTitle": "Natural Interaction for Daily Living – Voice-Controlled Reminders and Calendar",
+  "priority": "1"
 }}
-Explanation: In the above example, the raw requirement title describes a medical monitoring feature. The persona, Daniel, works in event coordination, with no medical tasks or goals. Therefore, it is marked not relevant.
-We do not suggest an alternative title, because the entire feature area is outside his responsibility.
+Explanation: Linda's persona emphasizes independence, routine support, and simplicity. Voice-based reminders address both her mild memory challenges and tech discomfort. Hence, the requirement is highly relevant, with a customized title to reflect the exact subOption most helpful to her.
 
 EXAMPLE 2:
 Persona:
 {{
   "Id": "P-999",
   "Name": "James Brown",
-  "Role": "Professional Caregiver",
-  "Tagline": "I manage health and well-being of elderly clients across care facilities.",
-  "Core goals": ["Monitor client health", "Coordinate care with families"],
-  "Typical challenges": ["Limited time", "Need for quick access to vital data"]
+  "Role": "Healthcare Application Developer",
+  "Tagline": "I build secure, scalable backend systems for health platforms.",
+  "Core goals": ["Ensure platform extensibility", "Maintain compliance with data standards"],
+  "Typical challenges": ["Keeping up with integration requirements", "Supporting multi-device APIs"]
 }}
 Requirement:
-- Title: "Natural Language Command for Health Monitoring"
-- Pillar: "Pillar 1 - User-Driven Interaction Assistant"
+- Title: "Personalized Cognitive Stimulation Activities"
+- Pillar: "Pillar 4 - Physical & Cognitive Impairments Prevention"
+- SubOptions:
+  + "Audio-based memory games for elderly users",
+  + "Interactive puzzles to support mental agility",
+  + "Daily trivia with adaptive difficulty",
+  + "Multi-user collaborative brain exercises"
 Result:
 {{
-  "relevant": true,
-  "justification": "This requirement allows Sarah to access client health information via voice, aligning with her need for fast, hands-free interaction during busy care schedules.",
-  "suggestedTitle": "Voice Commands for Client Health Checks"
+  "relevant": false,
+  "chosenSubOption": "",
+  "justification": "James focuses on backend development and integration tasks. This requirement targets end-user stimulation features with no direct relation to his role.",
+  "suggestedTitle": "",
+  "priority": "5"
 }}
-Explanation: In this case, the persona is a professional caregiver with time constraints and a goal to monitor health data. Using natural language commands helps her efficiently access critical information. This makes the requirement relevant. The suggested title reframes the functionality in terms that directly reflect her workflow.
+Explanation: James is a developer persona focused on infrastructure and integration, not on gameplay or end-user cognitive features. He does not interact with or depend on such content directly — thus, this requirement is not relevant to him.
 
 ---
 
 ⚠️ NOTE: These are just demonstrations for guidance. The examples above are to **help you understand the format** and level of reasoning expected.  Do not copy them 100% directly, as your analysis must be based on the specific persona and requirement given.
+
+Last, but not least, strictly, do not include any additional text or commentary. Do NOT use any markdown, bold, italic, or special formatting in your response.
 """
 
 
-def analyze_requirements():
+def analyze_requirements(persona_loader: UserPersonaLoader):
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    
     alfred_summary = load_alfred_summary()
-    persona_loader = UserPersonaLoader()
-    persona_loader.load()
     requirement_loader = RawRequirementLoader()
 
     for persona in persona_loader.personas:
         persona_id = persona.id
-        user_group = persona.classify_user_group()
+        user_group = persona.user_group
         group_key = user_group.lower().replace(" ", "_")
 
         try:
@@ -131,32 +177,42 @@ def analyze_requirements():
             print(f"❌ Failed to load group summary for {user_group}: {e}")
             continue
 
-        raw_requirements = requirement_loader.get_by_user_group(user_group)
         analyzed_results = []
 
-        for req in raw_requirements:
-            prompt = build_requirement_analysis_prompt(persona, req, alfred_summary, group_summary)
-            
-            result = get_llm_response(prompt)
-            if not result or result.strip().lower() == "null":
-                print(f"❌ Skipped {req['reqId']} for {persona_id} — response is null or empty")
+        for pillar in PILLARS:
+            raw_requirements = requirement_loader.get_by_user_group_and_pillar(user_group, pillar)
+            if not raw_requirements:
                 continue
 
-            try:
-                analysis = json.loads(result)
-                if analysis.get("relevant") is True:
-                    analyzed_results.append({
-                        "personaId": persona_id,
-                        "reqId": req["id"],
-                        "title": analysis.get("suggestedTitle", req["title"]),
-                        "pillar": req["pillar"],
-                        "priority": req["priority"],
-                        "userGroup": req["userGroup"],
-                        "justification": analysis.get("justification", "")
-                    })
-            except Exception as e:
-                print(f"⚠️ Error parsing response for {persona_id} - {req['reqId']}: {e}")
+            for req in raw_requirements:
+                prompt = build_requirement_analysis_prompt(persona, req, alfred_summary, group_summary)
+                result = get_llm_response(prompt)
 
+                if not result or result.strip().lower() == "null":
+                    print(f"⚠️ Skipped {req['id']} for {persona_id} — response is null or empty")
+                    continue
+
+                try:
+                    analysis = json.loads(result)
+
+                    if analysis.get("relevant") is True:
+                        enriched_result = {
+                            "personaId": persona_id,
+                            "reqId": req["id"],
+                            "title": analysis.get("suggestedTitle", req["title"]),
+                            "pillar": req["pillar"],
+                            "priority": int(analysis.get("priority", 3)),
+                            "userGroup": req["userGroup"],
+                            "justification": analysis.get("justification", ""),
+                            "subOption": analysis.get("chosenSubOption", "")
+                        }
+                        analyzed_results.append(enriched_result)
+
+                except Exception as e:
+                    print(f"⚠️ Error parsing response for {persona_id} - {req.get('id', 'UNKNOWN')}: {e}")
+                    continue
+
+        # Save results for this persona
         output_path = os.path.join(OUTPUT_DIR, f"{persona_id}_raw_requirements.json")
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(analyzed_results, f, indent=2, ensure_ascii=False)

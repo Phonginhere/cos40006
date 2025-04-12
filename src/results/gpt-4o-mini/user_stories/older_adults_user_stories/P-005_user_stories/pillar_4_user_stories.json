@@ -1,192 +1,97 @@
 [
   {
-    "title": "Engaging Cognitive Activities for Active Aging",
-    "summary": "As an older adult, I want to access interactive games and cognitive activities through voice commands so that I can stay mentally active and engaged despite my physical limitations.",
-    "priority": "1",
+    "title": "Cognitive Stimulation Activities \u2013 Daily Puzzles and Quizzes Tailored to User Preferences",
+    "summary": "As a retired social worker, I want to engage in daily puzzles and quizzes that are tailored to my interests and abilities so that I can remain mentally active and continue to enjoy stimulating activities despite my reduced mobility.",
+    "priority": 2,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
     "personaId": "P-005",
     "useCases": [
-      "UC-001",
-      "UC-003",
-      "UC-004",
-      "UC-007",
-      "UC-008",
-      "UC-009",
-      "UC-011"
+      "UC-002"
     ],
-    "id": "US-175",
+    "id": "US-147",
+    "rawRequirementId": "RREQ-025"
+  },
+  {
+    "title": "Scheduled Reminders for Physical Activity Sessions",
+    "summary": "As a retired social worker, I want ALFRED to remind me to engage in physical activity sessions so that I can stay physically active and manage my arthritis pain while maintaining my independence.",
+    "priority": 1,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [],
+    "id": "US-148",
+    "rawRequirementId": "RREQ-026"
+  },
+  {
+    "title": "Progress Tracking and Feedback for Cognitive and Physical Activities",
+    "summary": "As an older adult, I want to receive visual progress reports on my cognitive and physical activities so that I can stay motivated and engaged in maintaining my health and independence.",
+    "priority": 2,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [],
+    "id": "US-149",
+    "rawRequirementId": "RREQ-027"
+  },
+  {
+    "title": "Personalized Challenge Creation",
+    "summary": "As an older adult, I want adaptive challenges that evolve based on my performance so that I can stay physically and mentally active while accommodating my mobility limitations and managing arthritis pain.",
+    "priority": 2,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [],
+    "id": "US-150",
+    "rawRequirementId": "RREQ-028"
+  },
+  {
+    "title": "Motivational Support - Goal-Setting Features with Celebratory Notifications",
+    "summary": "As a retired social worker, I want to set personal activity goals and receive celebratory notifications when I achieve them so that I can stay motivated and maintain my physical and mental activity levels while volunteering and connecting with my community.",
+    "priority": 2,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-003"
+    ],
+    "id": "US-151",
+    "rawRequirementId": "RREQ-029"
+  },
+  {
+    "title": "Emergency Preparedness Training \u2013 Regular Reminders for Safety Drills and Procedures",
+    "summary": "As a retired social worker, I want ALFRED to send me regular reminders for safety drills and emergency procedures so that I can ensure my family's safety and feel more secure at home, despite my reduced mobility and managing arthritis pain.",
+    "priority": 2,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [],
+    "id": "US-152",
+    "rawRequirementId": "RREQ-030"
+  },
+  {
+    "title": "Daily Prompts for Social Engagement Activities",
+    "summary": "As an older adult, I want daily prompts for social engagement activities so that I can stay connected with my family and community despite my limited mobility.",
+    "priority": 1,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-003",
+      "UC-004"
+    ],
+    "id": "US-153",
     "rawRequirementId": "RREQ-031"
   },
   {
-    "title": "Motivational Physical Activity Engagement",
-    "summary": "As an older adult, I want ALFRED to provide me with guided exercises and challenges that respect my mobility limitations so that I can stay physically active and motivated without exacerbating my arthritis pain.",
-    "priority": "1",
+    "title": "Daily Mindfulness Reminders",
+    "summary": "As a retired social worker, I want to receive daily mindfulness reminders with personalized content so that I can manage my stress and remain mentally active despite my reduced mobility and busy schedule.",
+    "priority": 2,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
     "personaId": "P-005",
-    "useCases": [
-      "UC-001",
-      "UC-003",
-      "UC-004",
-      "UC-007",
-      "UC-008",
-      "UC-009",
-      "UC-011"
-    ],
-    "id": "US-176",
+    "useCases": [],
+    "id": "US-154",
     "rawRequirementId": "RREQ-032"
-  },
-  {
-    "title": "Cognitive Stimulation Activities",
-    "summary": "As an older adult, I want to engage in interactive cognitive stimulation activities so that I can remain mentally active and enhance my cognitive function while being supported by ALFRED.",
-    "priority": "2",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-001",
-      "UC-003",
-      "UC-004",
-      "UC-007",
-      "UC-008",
-      "UC-009",
-      "UC-011"
-    ],
-    "id": "US-177",
-    "rawRequirementId": "RREQ-033"
-  },
-  {
-    "title": "Personalized Activity Recommendations",
-    "summary": "As an older adult, I want ALFRED to suggest local events and social activities based on my interests and preferences so that I can stay socially connected and engaged with my community.",
-    "priority": "2",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-001",
-      "UC-003",
-      "UC-004",
-      "UC-007",
-      "UC-008",
-      "UC-009",
-      "UC-011"
-    ],
-    "id": "US-178",
-    "rawRequirementId": "RREQ-034"
-  },
-  {
-    "title": "Tracking Engagement Progress",
-    "summary": "As an older adult, I want to track my progress in physical and cognitive activities so that I can stay motivated and see how I am improving over time.",
-    "priority": "2",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-001",
-      "UC-003",
-      "UC-004",
-      "UC-007",
-      "UC-008",
-      "UC-009",
-      "UC-011"
-    ],
-    "id": "US-179",
-    "rawRequirementId": "RREQ-035"
-  },
-  {
-    "title": "Personalized Event Recommendations",
-    "summary": "As an older adult, I want ALFRED to suggest local events and activities based on my interests and past feedback so that I can stay socially connected and engaged in my community.",
-    "priority": "2",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-001",
-      "UC-003",
-      "UC-004",
-      "UC-007",
-      "UC-008",
-      "UC-009",
-      "UC-011"
-    ],
-    "id": "US-180",
-    "rawRequirementId": "RREQ-036"
-  },
-  {
-    "title": "Customizable Scheduling for Activities and Events",
-    "summary": "As an older adult, I want to easily schedule and customize my volunteering and social activities so that I can stay connected and engaged with my community despite my mobility challenges.",
-    "priority": "2",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-001",
-      "UC-003",
-      "UC-004",
-      "UC-007",
-      "UC-008",
-      "UC-009",
-      "UC-011"
-    ],
-    "id": "US-181",
-    "rawRequirementId": "RREQ-037"
-  },
-  {
-    "title": "Health and Fitness Tracking Integration",
-    "summary": "As an older adult, I want ALFRED to integrate with my health and fitness tracking devices so that I can easily monitor my physical activity and manage my health conditions without stress.",
-    "priority": "1",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-001",
-      "UC-003",
-      "UC-004",
-      "UC-007",
-      "UC-008",
-      "UC-009",
-      "UC-011"
-    ],
-    "id": "US-182",
-    "rawRequirementId": "RREQ-038"
-  },
-  {
-    "title": "Activity Reminders for Staying Active and Engaged",
-    "summary": "As an older adult, I want ALFRED to remind me of my scheduled physical activities and social events so that I can stay active and connected with my community despite my limited mobility.",
-    "priority": "1",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-001",
-      "UC-003",
-      "UC-004",
-      "UC-007",
-      "UC-008",
-      "UC-009",
-      "UC-011"
-    ],
-    "id": "US-183",
-    "rawRequirementId": "RREQ-039"
-  },
-  {
-    "title": "Encouraging Family Participation in Activities",
-    "summary": "As an older adult, I want ALFRED to suggest activities I can do with my family so that I can stay socially connected and continue to enjoy shared experiences despite my mobility challenges.",
-    "priority": "2",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-001",
-      "UC-003",
-      "UC-004",
-      "UC-007",
-      "UC-008",
-      "UC-009",
-      "UC-011"
-    ],
-    "id": "US-184",
-    "rawRequirementId": "RREQ-040"
   }
 ]

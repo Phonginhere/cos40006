@@ -2,7 +2,7 @@
   "Id": "P-006",
   "Name": "Sarah Thompson",
   "Role": "Professional caregiver managing multiple elderly clients",
-  "Tagline": "I need efficient tools to monitor multiple clients and coordinate care across different locations.",
+  "Tagline": "I need reliable and secure tools to monitor multiple clients, with a strong focus on privacy and clarity in shared environments.",
   "Demographic data": {
     "Age": 45,
     "Marital Status": "Married",
@@ -13,30 +13,41 @@
   },
   "Core characteristics": [
     "Organized",
-    "Efficient",
+    "Deliberate and careful with information access",
+    "Advocates for slow tech adoption where client harm is possible",
     "Compassionate",
     "Practical",
     "Resourceful",
-    "Technologically adaptable"
+    "Tech-aware but cautious with voice interfaces"
   ],
   "Core goals": [
     "Track multiple clients' health status in real-time",
     "Efficiently manage appointments and care schedules",
     "Maintain clear communication with clients' family members",
     "Coordinate care with healthcare professionals",
-    "Document care activities accurately"
+    "Document care activities accurately",
+    "Ensure health data is interpreted carefully and never misused",
+    "Promote safeguards that protect clients from over-reliance on automated systems",
+    "Reduce client stress by avoiding unnecessary or impersonal system alerts",
+    "Ensure clients receive information in a calm, human-centered way"
   ],
   "Typical challenges": [
     "Clients with varying levels of technology comfort",
     "Juggling multiple care schedules simultaneously",
     "Limited internet connectivity in remote areas",
-    "Time constraints during busy work days",
-    "Accessing and updating information while on the move"
+    "Concerned that instant data access may lead to rushed or incorrect decisions by caregivers",
+    "Needs systems that prioritize review and oversight over speed",
+    "Voice assistants misinterpret commands in noisy environments or breach client confidentiality",
+    "Automated reminders from systems like ALFRED can confuse or alarm clients with cognitive impairments",
+    "Needs control over when and how sensitive information is presented to clients"
   ],
   "Singularities": [
     "Specializes in dementia care",
     "Developed her own paper-based tracking system before adopting digital tools",
-    "Advocates for technology adoption among elderly clients"
+    "Advocates for technology adoption among elderly clients",
+    "Previously involved in a care incident where misread sensor data led to an unnecessary emergency call",
+    "Believes that timing and tone of communication are therapeutic tools in caregiving",
+    "Experienced incidents where system-generated notifications led to client agitation"
   ],
   "Working situation": "Full-time caregiver managing 8-10 clients",
   "Place of work": "Various client homes and care facilities across rural region",
@@ -44,13 +55,13 @@
   "Main tasks with system support": [
     "Health monitoring",
     "Medication tracking",
-    "Appointment scheduling",
+    "Context-sensitive scheduling with caregiver-managed reminders",
     "Communication with families",
     "Care plan documentation",
     "Emergency alerts"
   ],
   "Most important tasks": [
-    "Real-time health monitoring with critical alerts",
+    "Verified health monitoring results with alert mediation",
     "Simplified client management dashboard",
     "Secure communication with families and healthcare providers"
   ],
@@ -60,9 +71,13 @@
     "Entertainment options"
   ],
   "Miscellaneous": [
+    "Disables direct client notifications in most ALFRED configurations",
     "Prefers tablet for client management activities",
     "Needs offline functionality for areas with poor connectivity",
     "Values simple, intuitive interfaces that work quickly",
-    "Concerned about elderly clients' data privacy"
+    "Concerned about elderly clients' data privacy",
+    "Prefers tactile or typed input over voice for sensitive information due to privacy concerns",
+    "Prefers ALFRED to require validation before showing abnormal health trends",
+    "Believes in collaborative care decisions, not automated interpretations"
   ]
 }

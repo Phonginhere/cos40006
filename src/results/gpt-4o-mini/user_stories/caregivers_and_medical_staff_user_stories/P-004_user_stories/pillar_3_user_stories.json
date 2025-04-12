@@ -1,182 +1,117 @@
 [
   {
-    "title": "Real-Time Alerts for Patient Health Monitoring",
-    "summary": "As a home-care nurse, I want to receive real-time alerts about my patients' health metrics so that I can quickly respond to any anomalies and ensure their well-being.",
-    "priority": "1",
+    "title": "Comprehensive Health Metrics Integration",
+    "summary": "As a home-care nurse, I want to efficiently monitor my patients' health metrics in real-time so that I can provide timely interventions and maintain effective communication with those who are socially isolated.",
+    "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
-      "UC-002",
-      "UC-004",
       "UC-005",
-      "UC-006",
-      "UC-011",
-      "UC-012"
+      "UC-006"
     ],
-    "id": "US-123",
-    "rawRequirementId": "RREQ-071"
+    "id": "US-105",
+    "rawRequirementId": "RREQ-057"
   },
   {
-    "title": "Secure Communication Platform for Caregivers",
-    "summary": "As a home-care nurse, I want a secure communication platform within ALFRED so that I can easily and safely connect with my patients and their families, ensuring timely updates and support.",
-    "priority": "2",
+    "title": "Proactive Health Intervention Alerts",
+    "summary": "As a home-care nurse, I want to receive alerts for critical health metrics when they exceed predefined thresholds so that I can proactively intervene and ensure my patients' safety and well-being.",
+    "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
-      "UC-002",
-      "UC-004",
       "UC-005",
-      "UC-006",
-      "UC-011",
-      "UC-012"
+      "UC-006"
     ],
-    "id": "US-124",
-    "rawRequirementId": "RREQ-072"
+    "id": "US-106",
+    "rawRequirementId": "RREQ-058"
   },
   {
-    "title": "User-Friendly Health Metrics Dashboard for Caregivers",
-    "summary": "As a home-care nurse, I want a user-friendly dashboard to monitor my patients' health metrics so that I can efficiently track their vital signs and intervene promptly when necessary.",
-    "priority": "1",
+    "title": "Collaborative Care Plan Sharing",
+    "summary": "As a home-care nurse, I want to customize and share care plans with other caregivers so that we can coordinate patient care effectively and ensure continuity of care across rural communities.",
+    "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
-      "UC-002",
-      "UC-004",
       "UC-005",
       "UC-006",
-      "UC-011",
       "UC-012"
     ],
-    "id": "US-125",
-    "rawRequirementId": "RREQ-073"
+    "id": "US-107",
+    "rawRequirementId": "RREQ-059"
   },
   {
-    "title": "Tailored Health Alerts for Home-Care Nurses",
-    "summary": "As a home-care nurse, I want to receive tailored health alerts for my patients so that I can monitor their health status more efficiently and intervene promptly when necessary.",
-    "priority": "2",
+    "title": "Holistic Wellness Tracking",
+    "summary": "As a home-care nurse, I want to seamlessly monitor both the physical and mental health metrics of my patients so that I can provide timely interventions and support their overall well-being.",
+    "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
-      "UC-002",
-      "UC-004",
       "UC-005",
-      "UC-006",
-      "UC-011",
-      "UC-012"
+      "UC-006"
     ],
-    "id": "US-126",
-    "rawRequirementId": "RREQ-074"
+    "id": "US-108",
+    "rawRequirementId": "RREQ-060"
   },
   {
-    "title": "Integration with Health Data Sources for Enhanced Patient Monitoring",
-    "summary": "As a home-care nurse, I want to access real-time health metrics from my patients' monitoring devices so that I can efficiently track their health status and provide timely interventions.",
-    "priority": "2",
+    "title": "Caregiver Collaboration Features \u2013 Team Chat Functionality for Real-Time Communication",
+    "summary": "As a home-care nurse, I want to use a team chat functionality within the ALFRED system so that I can communicate in real-time with other healthcare providers, ensuring coordinated and effective care for my socially isolated patients.",
+    "priority": 2,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
-      "UC-002",
       "UC-004",
       "UC-005",
-      "UC-006",
-      "UC-011",
-      "UC-012"
+      "UC-006"
     ],
-    "id": "US-127",
-    "rawRequirementId": "RREQ-075"
+    "id": "US-109",
+    "rawRequirementId": "RREQ-061"
   },
   {
-    "title": "Automated Check-In Reminders for Patient Monitoring",
-    "summary": "As a home-care nurse, I want automated check-in reminders for my patients so that I can efficiently monitor their health status and ensure timely intervention when necessary.",
-    "priority": "1",
+    "title": "User-Centric Data Visualization \u2013 Periodic Summary Reports for Caregivers",
+    "summary": "As a home-care nurse, I want to receive periodic summary reports on my patients' health metrics so that I can efficiently monitor their health status and provide timely interventions.",
+    "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
-      "UC-002",
-      "UC-004",
       "UC-005",
-      "UC-006",
-      "UC-011",
-      "UC-012"
+      "UC-006"
     ],
-    "id": "US-128",
-    "rawRequirementId": "RREQ-076"
+    "id": "US-110",
+    "rawRequirementId": "RREQ-062"
   },
   {
-    "title": "Video Consultation Support for Home-Care Nurses",
-    "summary": "As a home-care nurse, I want to conduct video consultations with my patients through ALFRED so that I can remotely monitor their health and maintain a personal connection, especially for those who are socially isolated.",
-    "priority": "2",
+    "title": "Secure Data Sharing for Patient Monitoring",
+    "summary": "As a home-care nurse, I want granular access controls for health data so that I can securely monitor my patients' health while respecting their privacy preferences.",
+    "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
-      "UC-002",
-      "UC-004",
       "UC-005",
       "UC-006",
-      "UC-011",
       "UC-012"
     ],
-    "id": "US-129",
-    "rawRequirementId": "RREQ-077"
+    "id": "US-111",
+    "rawRequirementId": "RREQ-063"
   },
   {
-    "title": "Remote Health Monitoring",
-    "summary": "As a home-care nurse, I want to efficiently monitor my patients' health metrics through ALFRED so that I can detect any changes early and provide timely interventions.",
-    "priority": "1",
+    "title": "Automated Medication Reminders",
+    "summary": "As a home-care nurse, I want ALFRED to send automated medication reminders to my patients so that I can ensure they adhere to their medication schedules and maintain their health effectively.",
+    "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
-      "UC-002",
-      "UC-004",
       "UC-005",
-      "UC-006",
-      "UC-011",
-      "UC-012"
+      "UC-006"
     ],
-    "id": "US-130",
-    "rawRequirementId": "RREQ-078"
-  },
-  {
-    "title": "Caregiver Engagement Analytics for Enhanced Patient Support",
-    "summary": "As a home-care nurse, I want access to analytics on my engagement with patients so that I can better understand their needs and ensure timely interventions.",
-    "priority": "2",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-002",
-      "UC-004",
-      "UC-005",
-      "UC-006",
-      "UC-011",
-      "UC-012"
-    ],
-    "id": "US-131",
-    "rawRequirementId": "RREQ-079"
-  },
-  {
-    "title": "User Training for Caregivers on Effective ALFRED Utilization",
-    "summary": "As a home-care nurse, I want to receive training on how to effectively utilize ALFRED so that I can efficiently monitor my patients' health and maintain connection with those who are socially isolated.",
-    "priority": "2",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-002",
-      "UC-004",
-      "UC-005",
-      "UC-006",
-      "UC-011",
-      "UC-012"
-    ],
-    "id": "US-132",
-    "rawRequirementId": "RREQ-080"
+    "id": "US-112",
+    "rawRequirementId": "RREQ-064"
   }
 ]

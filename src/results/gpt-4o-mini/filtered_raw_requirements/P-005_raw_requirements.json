@@ -2,415 +2,391 @@
   {
     "personaId": "P-005",
     "reqId": "RREQ-001",
-    "title": "Voice Commands for Daily Task Management",
+    "title": "Natural Language Understanding – Support for Varied Speech Patterns and Accents",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "priority": "1",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "Olivia, as an older adult, would directly interact with ALFRED using voice commands for tasks such as scheduling volunteering activities and maintaining communication, which aligns with her goals of social connection and independence."
+    "justification": "Olivia has reduced mobility and may experience challenges in articulating her needs clearly. Supporting varied speech patterns and accents will enable her to interact with ALFRED more effectively, enhancing her independence and ensuring she can manage her daily tasks without frustration.",
+    "subOption": "Support for varied speech patterns and accents"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-002",
-    "title": "Natural Language Understanding for Daily Task Management",
+    "title": "Voice-Activated Task Management – Setting Reminders and Alerts through Voice Commands",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "priority": "2",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "The requirement for 'Contextual Understanding of User Requests' is relevant because Olivia, as an older adult using the ALFRED system, needs to interact with it using natural voice commands to manage her daily tasks and maintain social connections. This feature directly supports her goal of staying connected and accessing information effortlessly, addressing her challenges with mobility and technology."
+    "justification": "Olivia's goals include maintaining social connections and scheduling volunteering activities, which require effective task management. Voice-activated reminders will help her manage her busy schedule and ensure she stays on top of important tasks without needing complex interactions.",
+    "subOption": "Setting reminders and alerts through voice commands"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-003",
-    "title": "Voice Confirmation for Task Management",
+    "title": "Contextual Information Retrieval – Offering Step-by-Step Guidance for Requested Tasks",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "priority": "1",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "This requirement is relevant because Olivia will directly use voice feedback to interact with ALFRED for managing her daily tasks, such as scheduling and maintaining communication. The confirmation feature will help her feel assured that her commands have been understood, which is essential given her limited mobility and potential cognitive barriers."
+    "justification": "Olivia experiences reduced mobility and managing arthritis pain, which may make it challenging for her to navigate complex tasks. Step-by-step guidance would empower her to use ALFRED effectively, enhancing her independence and ability to maintain daily routines.",
+    "subOption": "Offering step-by-step guidance for requested tasks"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-004",
-    "title": "Simplified Voice Commands for Daily Task Management",
+    "title": "Voice Feedback and Confirmation – Auditory Feedback for Successful Task Completion",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "priority": "2",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "The intuitive voice interaction design is crucial for Olivia, as it enables her to manage tasks like communication and scheduling without needing complex technical skills, which aligns with her goal of staying connected despite mobility limitations."
+    "justification": "Olivia values staying connected and managing her activities efficiently, and auditory feedback will help her confirm that tasks are completed successfully, enhancing her confidence in using ALFRED despite her reduced mobility and technical apprehensions.",
+    "subOption": "Auditory feedback for successful task completion"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-005",
-    "title": "Enhanced Voice Command Support for Daily Task Management",
+    "title": "Error Handling and User Assistance – Recognizing and Addressing User Frustration",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "priority": "3",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "Olivia, as an older adult, would benefit from the ability to issue multi-step commands to ALFRED to manage her daily tasks more efficiently, such as scheduling volunteering activities or maintaining communication with family. This aligns with her goals of staying socially connected and managing her calendar despite potential mobility and cognitive challenges."
+    "justification": "Olivia may encounter challenges with technology due to her reduced mobility and managing arthritis pain, which could lead to frustration during interaction. Addressing this frustration is vital for her to maintain social connections and effectively use ALFRED for her needs.",
+    "subOption": "Recognizing and addressing user frustration"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-006",
-    "title": "Voice Interaction Accessibility Features for Enhanced Independence",
+    "title": "Personalized Interaction History – Tracking User Interactions for Tailored Suggestions",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "priority": "1",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "The accessibility features for voice interaction are essential for Olivia, who may face cognitive and physical impairments that make traditional interfaces challenging. This requirement directly supports her goal of maintaining independence and managing tasks like scheduling and communication using a voice-activated system."
+    "justification": "Olivia seeks to stay socially connected and manage her tasks effectively. By tracking her interactions, ALFRED can offer personalized suggestions and reminders that align with her goals of maintaining communication and calendar management, thus enhancing her independence.",
+    "subOption": "Tracking user interactions for tailored suggestions"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-007",
-    "title": "Guided Assistance for Error Recovery",
+    "title": "Multimodal Interaction Support – Combining Voice Commands with Visual Cues",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "priority": "3",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "The 'Error Recovery and User Guidance' requirement is relevant to Olivia as it addresses her potential challenges with technology, ensuring she can navigate the system effectively even if she encounters issues. This aligns with her need for a user-friendly interface that supports her independence and social connections."
+    "justification": "Olivia faces reduced mobility and potential cognitive barriers, making a multimodal interaction approach essential for her to engage effectively with ALFRED. The combination of voice commands and visual cues can aid her in completing tasks without the need for complex navigation.",
+    "subOption": "Combining voice commands with visual cues"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-008",
-    "title": "Customizable Voice Interactions for Enhanced Communication",
+    "title": "Adaptive Learning and Improvement - Learning User Preferences Over Time",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "priority": "4",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "The 'Personalized Voice Profiles' requirement is relevant to Olivia because it enhances her interaction with ALFRED, enabling her to use voice commands in a way that is tailored to her preferences and needs. This aligns with her goal of maintaining communication and staying connected despite physical limitations."
+    "justification": "Olivia values social connection and managing her schedule, and by learning her preferences, ALFRED can provide tailored recommendations and reminders that align with her activities and interests, ultimately enhancing her independence and engagement.",
+    "subOption": "Learning user preferences over time"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-009",
-    "title": "Enhanced Voice Interaction for Daily Task Management",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "priority": "5",
+    "title": "Social Event Discovery – Personalized Recommendations Based on User Interests",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "The integration with third-party voice services enhances Olivia's ability to interact with ALFRED, allowing her to manage daily tasks and maintain social connections effortlessly. As she relies on voice commands due to physical limitations, this feature directly supports her goals of staying socially connected and accessing information."
+    "justification": "Olivia aims to stay socially connected despite reduced mobility, and personalized event recommendations can help her find suitable activities that match her interests, facilitating social engagement without overwhelming her.",
+    "subOption": "Personalized recommendations based on user interests"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-010",
-    "title": "Customizable Voice Commands for Easier Daily Task Management",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "priority": "3",
+    "title": "Communication Facilitation – Easy Video Call Initiation with Pre-set Favorites",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "Olivia would benefit from voice command customization options as they can enhance her interaction with ALFRED, making it easier for her to manage tasks like scheduling volunteering activities and maintaining communication, especially given her reduced mobility and temporary reliance on crutches."
+    "justification": "Olivia values social connection and needs an easy way to communicate with family and friends despite her limited mobility. The ability to initiate video calls with pre-set favorites will help her stay engaged and connected without the stress of complex technology.",
+    "subOption": "Easy video call initiation with pre-set favorites"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-011",
-    "title": "Tailored Social Activity Suggestions for Enhanced Engagement",
+    "title": "Personalized Engagement Activities – Physical Activities Tailored to User Mobility Levels",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "priority": "1",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "The requirement for personalized event recommendations aligns with Olivia's core goal of staying socially connected despite limited mobility. By receiving tailored suggestions for social activities, she can engage more effectively with her community and continue her volunteering efforts."
+    "justification": "Olivia faces reduced mobility due to arthritis, making personalized physical activities essential for maintaining her physical health and independence. Tailored activities can help her stay active while considering her limitations, aligning with her core goals of remaining physically and mentally active.",
+    "subOption": "Physical activities tailored to user mobility levels"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-012",
-    "title": "Simple Communication Tools for Staying Connected with Family and Friends",
+    "title": "Family and Caregiver Connection – Real-time Health Updates Shared with Caregivers",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "priority": "1",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "This requirement is relevant as Olivia, the persona, aims to stay socially connected with her family and friends despite her limited mobility. Easy communication tools directly support her goal of maintaining these connections and overcoming her challenges related to reduced mobility."
+    "justification": "Olivia's reduced mobility and managing arthritis pain make her dependent on caregivers for support. Real-time health updates will ensure her caregivers are informed and can provide timely assistance, thus enhancing her independence and well-being.",
+    "subOption": "Real-time health updates shared with caregivers"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-013",
-    "title": "Reminders for Staying Socially Active",
+    "title": "Support for Social Networks – Encouragement of Participation in Community Services",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "priority": "2",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "The requirement for 'Social Activity Reminders' directly supports Olivia's goal of staying socially connected and managing her busy schedule as a volunteer. By receiving reminders about social activities, she can better engage with her community and maintain important connections despite her mobility challenges."
+    "justification": "Olivia's goal of remaining socially connected and continuing her volunteering aligns well with the encouragement of participation in community services. This feature will support her desire to engage with her community despite her reduced mobility and busy schedule.",
+    "subOption": "Encouragement of participation in community services"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-014",
-    "title": "Video Calling and Group Engagement Tools for Social Connection",
+    "title": "User Feedback Loop for Social Features - Collection of User Preferences for Social Activities",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "priority": "2",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "Olivia's core goals include staying socially connected and maintaining communication with others. The support for group activities and video calls directly aligns with her need to engage with family and friends, particularly given her limited mobility and desire to remain active in social settings."
+    "justification": "Olivia aims to stay socially connected and engaged, and by collecting her preferences for social activities, ALFRED can tailor suggestions that align with her interests, helping her overcome her challenge of reduced mobility and maintaining her social connections.",
+    "subOption": "Collection of user preferences for social activities"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-015",
-    "title": "Easy Event Discovery for Social Engagement",
+    "title": "Cognitive Engagement Reminders – Timely Reminders for Scheduled Activities",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "priority": "3",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "The 'User-Friendly Event Discovery Interface' requirement is relevant to Olivia as it directly supports her core goal of staying socially connected and engaging in volunteering activities. Given her reduced mobility, an intuitive interface for discovering social events would help her maintain connections and participate in community activities without the added stress of complex technology."
+    "justification": "Olivia aims to remain socially connected and manage her volunteer activities despite her reduced mobility and busy schedule. Timely reminders for scheduled activities will support her in staying organized and engaged with her community.",
+    "subOption": "Timely reminders for scheduled activities"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-016",
-    "title": "Integration with Social Media for Enhanced Social Connectivity",
+    "title": "Crisis Response Mechanism - Immediate Alert System for Emergency Situations",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "priority": "4",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "Olivia, as a retired social worker, values maintaining social connections and staying engaged with her community. Integrating with social media platforms would support her goal of staying socially connected and allow her to communicate easily with friends and family, which aligns with her core goals and challenges."
+    "justification": "Olivia faces reduced mobility and arthritis, which can lead to emergency situations. An immediate alert system enhances her safety and allows her to maintain her independence by ensuring timely assistance when needed.",
+    "subOption": "Immediate alert system for emergency situations"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-017",
-    "title": "Engagement Feedback System for Social Activities",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "priority": "3",
+    "title": "Personalized Health Monitoring – Alerts for Abnormal Health Conditions",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "This requirement is relevant because Olivia, as an older adult, would benefit from a feedback mechanism that encourages her engagement in social activities, aligns with her goal of staying socially connected, and addresses her challenge of reduced mobility by suggesting suitable events."
+    "justification": "Olivia's reduced mobility and arthritis pain indicate a need for health monitoring. Receiving alerts for abnormal health conditions would help ensure her safety and enable timely intervention, aligning with her goal of maintaining her physical health and independence.",
+    "subOption": "Alerts for abnormal health conditions"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-018",
-    "title": "Enhanced Accessibility for Social Engagement",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "priority": "1",
+    "title": "Medication Management Support – Automated Medication Reminders",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "The requirement for accessibility options for social features is relevant to Olivia, as it supports her goal of staying socially connected despite her reduced mobility. By ensuring that social features are accessible, ALFRED can help her engage with friends and family effectively, overcoming potential barriers she might face due to her physical limitations."
+    "justification": "Olivia faces challenges managing her arthritis pain and maintaining her busy schedule, making automated medication reminders essential to ensure she takes her medications on time and effectively supports her independence in daily life.",
+    "subOption": "Automated medication reminders"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-019",
-    "title": "Personalized Activity Recommendations for Social Engagement",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "priority": "2",
+    "title": "Emergency Alert Systems – Voice-Activated Emergency Calls",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "This requirement is relevant to Olivia because it directly supports her goal of staying socially connected by offering personalized recommendations for social activities based on her interests, which aligns with her desire to maintain engagement despite her limited mobility."
+    "justification": "Olivia's reduced mobility and temporary use of crutches make her vulnerable to emergencies, and the ability to initiate emergency calls through voice commands directly supports her independence and safety. This feature provides her peace of mind, knowing she can quickly reach assistance if needed.",
+    "subOption": "Voice-activated emergency calls"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-020",
-    "title": "Social Engagement and Community Connection Tools",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "priority": "3",
+    "title": "Wellness Activity Suggestions – Personalized Exercise Recommendations",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "The 'Community Building Features' requirement aligns with Olivia's goal of staying socially connected despite limited mobility. These features would enable her to engage in social activities and maintain communication with friends and family, addressing her challenges with reduced mobility and busy schedule."
+    "justification": "Olivia faces reduced mobility and arthritis pain, making personalized exercise recommendations crucial for her to stay physically active and manage her health effectively. This aligns with her goal of remaining active and connected despite her limitations.",
+    "subOption": "Personalized exercise recommendations"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-021",
-    "title": "Health Monitoring and Support for Daily Well-Being",
+    "title": "Caregiver Access and Insights – Shared Health Data with Authorized Caregivers",
     "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "1",
+    "priority": 2,
     "userGroup": "Older Adults",
-    "justification": "The health monitoring integration is relevant to Olivia because it supports her goal of remaining physically active and managing her health conditions, such as arthritis. By having health monitoring features, she can receive medication reminders and alerts, which are essential for her independence and well-being."
+    "justification": "Olivia's need for maintaining her health and receiving support from caregivers is crucial given her reduced mobility and arthritis pain. Sharing health data with authorized caregivers will enable timely interventions and enhance her overall well-being, aligning with her goal of remaining active and connected.",
+    "subOption": "Shared health data with authorized caregivers"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-022",
-    "title": "Personalized Health Monitoring for Active Living",
+    "title": "User-Centric Data Privacy Controls – User-Defined Data Sharing Preferences",
     "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "1",
+    "priority": 2,
     "userGroup": "Older Adults",
-    "justification": "The requirement for personalized health data tracking aligns with Olivia's need to manage her health conditions, as she faces physical challenges like arthritis. By tracking her health data, she can receive timely reminders and alerts, which supports her goal of remaining active and independent, while also ensuring her well-being."
+    "justification": "Olivia values her independence and social connections, which are supported by ALFRED's personalized care features. Having control over her data sharing preferences allows her to maintain her privacy while ensuring that her caregivers have access to vital health information when needed.",
+    "subOption": "User-defined data sharing preferences"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-023",
-    "title": "Timely Medication Reminders for Health Management",
+    "title": "Patient-Centric Care Plans - Customizable Care Plans Based on Health Needs",
     "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "2",
+    "priority": 2,
     "userGroup": "Older Adults",
-    "justification": "Olivia, as an older adult managing health conditions like arthritis, would benefit from medication reminders and alerts to ensure she takes her medication on time and maintains her health. This aligns with her goal of staying physically active and managing her health effectively despite mobility challenges."
+    "justification": "Olivia, as a retired social worker, has a strong understanding of the importance of personalized care and health management, particularly given her own challenges with reduced mobility and arthritis. Customizable care plans would empower her to manage her health effectively and maintain her independence while receiving support tailored to her specific needs.",
+    "subOption": "Customizable care plans based on health needs"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-024",
-    "title": "Emergency Alert for Safety and Independence",
+    "title": "Family Communication Support – Facilitation of Family Group Messages",
     "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "1",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "The Emergency Alert System is relevant to Olivia as it directly supports her goal of remaining independent and safe despite her reduced mobility and arthritis challenges. This feature can provide peace of mind by alerting caregivers or family members in case of an emergency, which aligns with her desire to stay connected and manage her daily life effectively."
+    "justification": "Olivia aims to stay socially connected despite her limited mobility, and facilitating family group messages would help her maintain communication with her loved ones, fulfilling her need for social interaction and support.",
+    "subOption": "Facilitation of family group messages"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-025",
-    "title": "Accessible Health Dashboard for Older Adults",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "2",
+    "title": "Cognitive Stimulation Activities – Daily Puzzles and Quizzes Tailored to User Preferences",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "priority": 2,
     "userGroup": "Older Adults",
-    "justification": "Olivia, as an older adult managing her health and well-being, would directly interact with a user-friendly health dashboard to monitor her health conditions, receive medication reminders, and ensure timely alerts in case of emergencies. This aligns with her core goal of remaining physically active and managing her arthritis pain."
+    "justification": "Olivia aims to remain mentally active and engaged, which aligns with her core goal of staying socially connected and involved in her community. Daily puzzles and quizzes can provide her with cognitive stimulation while catering to her preferences, enhancing her overall quality of life.",
+    "subOption": "Daily puzzles and quizzes tailored to user preferences"
+  },
+  {
+    "personaId": "P-005",
+    "reqId": "RREQ-026",
+    "title": "Physical Activity Engagement – Scheduled Reminders for Physical Activity Sessions",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "priority": 1,
+    "userGroup": "Older Adults",
+    "justification": "Olivia has reduced mobility and arthritis pain, making it essential for her to stay active while managing her physical limitations. Scheduled reminders for physical activity sessions would help her maintain her physical health and independence, aligning with her goal of remaining active despite challenges.",
+    "subOption": "Scheduled reminders for physical activity sessions"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-027",
-    "title": "Tailored Health Tips for Active Living",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "2",
+    "title": "Progress Tracking and Feedback – Visual Progress Reports on Cognitive and Physical Activities",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "priority": 2,
     "userGroup": "Older Adults",
-    "justification": "Olivia, as an older adult who faces reduced mobility and manages arthritis pain, would benefit from personalized health recommendations that support her physical well-being and help her maintain independence. This aligns with her goals of staying active and managing her health effectively."
+    "justification": "Olivia aims to remain physically and mentally active, and visual progress reports will help her track her activities and adjust her routines accordingly. This supports her goal of staying engaged in her social and community activities despite mobility challenges.",
+    "subOption": "Visual progress reports on cognitive and physical activities"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-028",
-    "title": "Personalized Care Plans Tailored to User Feedback",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "3",
+    "title": "Personalized Challenge Creation – Adaptive Challenges that Evolve Based on User Performance",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "priority": 2,
     "userGroup": "Older Adults",
-    "justification": "Olivia, as an older adult managing her health and social connections, would benefit from adaptive care plans that respond to her feedback, allowing her to maintain her independence and ensure her health needs are met effectively. This aligns with her goals of staying socially connected and remaining physically and mentally active while managing her arthritis pain."
+    "justification": "Olivia values remaining physically and mentally active despite her mobility challenges. Adaptive challenges tailored to her performance would provide her with appropriate activities that can help her stay engaged and motivated without overwhelming her.",
+    "subOption": "Adaptive challenges that evolve based on user performance"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-029",
-    "title": "Timely Health Check-Ins for Staying Active",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "2",
+    "title": "Motivational Support - Goal-Setting Features with Celebratory Notifications",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "priority": 2,
     "userGroup": "Older Adults",
-    "justification": "The requirement for 'Regular Health Check-In Prompts' is relevant to Olivia as it supports her core goal of maintaining her physical health, particularly in managing her arthritis pain. By receiving timely health check-ins, Olivia can monitor her well-being and ensure she stays informed about her health status, which is crucial for her independence and active lifestyle."
+    "justification": "Olivia aims to remain physically and mentally active while managing her challenges, such as reduced mobility and arthritis. Goal-setting features with celebratory notifications can provide her with motivation and a sense of achievement, helping her stay engaged in activities she values, like volunteering and social connections.",
+    "subOption": "Goal-setting features with celebratory notifications"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-030",
-    "title": "Health Monitoring Integration for Personalized Care and Alerts",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "1",
+    "title": "Emergency Preparedness Training – Regular Reminders for Safety Drills and Procedures",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "priority": 2,
     "userGroup": "Older Adults",
-    "justification": "Olivia, as an older adult with reduced mobility and potential health concerns, would benefit from the integration with health and fitness devices to monitor her well-being, receive medication reminders, and alert caregivers in emergencies. This aligns with her need for physical support and maintaining independence."
+    "justification": "Olivia's reduced mobility and arthritis pain highlight the importance of preparedness in case of emergencies, making regular reminders for safety drills crucial for her independence and peace of mind.",
+    "subOption": "Regular reminders for safety drills and procedures"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-031",
-    "title": "Engaging Cognitive Activities for Active Aging",
+    "title": "Social Interaction Enhancements – Daily Prompts for Social Engagement Activities",
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "priority": "1",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "Cognitive stimulation activities directly support Olivia in remaining mentally active, which aligns with her core goals of staying engaged and active despite her mobility challenges. This requirement is relevant as it can help her overcome the cognitive barriers associated with aging and contribute positively to her quality of life."
+    "justification": "Olivia aims to stay socially connected and active despite her reduced mobility. Daily prompts for social engagement activities will help her overcome her challenges of social isolation and maintain her connections with family and friends.",
+    "subOption": "Daily prompts for social engagement activities"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-032",
-    "title": "Motivational Physical Activity Engagement for Seniors",
+    "title": "Mindfulness and Relaxation Techniques – Daily Mindfulness Reminders with Personalized Content",
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "priority": "1",
+    "priority": 2,
     "userGroup": "Older Adults",
-    "justification": "The 'Physical Activity Challenges' requirement aligns with Olivia's goal of remaining physically active despite her reduced mobility and arthritis pain. Engaging in physical activity challenges through ALFRED can motivate her to maintain her health and independence, supporting her overall well-being."
+    "justification": "Olivia's focus on staying active both physically and mentally aligns well with daily mindfulness reminders, which can help her manage stress and maintain a positive outlook during her recovery. This feature directly supports her goal of remaining mentally engaged while accommodating her challenges with reduced mobility.",
+    "subOption": "Daily mindfulness reminders with personalized content"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-033",
-    "title": "Cognitive Stimulation Activities",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "priority": "2",
+    "title": "User-Friendly Installation and Setup – Guided Setup Through Voice Prompts",
+    "pillar": "General Requirements",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "Guided memory exercises align with Olivia's goals of remaining mentally active and overcoming her cognitive challenges, particularly as she is focused on staying engaged despite reduced mobility and managing arthritis pain. This feature could help her maintain cognitive health and support her social connections by providing stimulating activities."
+    "justification": "Olivia may face challenges with technology due to her age and reduced mobility, making a voice-guided setup essential for her to independently configure ALFRED without frustration. This aligns with her need for a user-friendly interface that supports her daily tasks and enhances her independence.",
+    "subOption": "Guided setup through voice prompts"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-034",
-    "title": "Personalized Activity and Engagement Suggestions",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "priority": "2",
+    "title": "Intuitive Navigation and Interaction – Visual Cues for Navigation Assistance",
+    "pillar": "General Requirements",
+    "priority": 2,
     "userGroup": "Older Adults",
-    "justification": "This requirement is aligned with Olivia's core goals of remaining physically and mentally active, as personalized daily activity suggestions would help her manage her schedule and encourage her engagement in activities that promote her well-being. Additionally, it supports her need for social connection by suggesting activities that may involve others."
+    "justification": "Olivia faces challenges related to reduced mobility and managing arthritis pain, which may affect her ability to interact with technology. Visual cues will help her navigate the system more easily, ensuring she can access social connections and manage her schedule without frustration.",
+    "subOption": "Visual cues for navigation assistance"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-035",
-    "title": "Tracking Progress in Physical and Cognitive Engagement Activities",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "priority": "3",
+    "title": "Robust Data Privacy and Security Measures – User-Controlled Consent for Data Sharing",
+    "pillar": "General Requirements",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "The requirement for progress tracking in cognitive and physical activities is relevant to Olivia as it directly supports her goals of remaining physically and mentally active. By tracking her progress in these activities, she can better manage her arthritis pain and maintain her independence while staying engaged in her volunteering efforts."
+    "justification": "Olivia, as an older adult using ALFRED, values her privacy and autonomy, making user-controlled consent essential for her comfort and trust in the system. This feature ensures she can manage her personal and health information according to her preferences, which is crucial given her potential concerns about digital privacy.",
+    "subOption": "User-controlled consent for data sharing"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-036",
-    "title": "Personalized Activity Suggestions Based on User Feedback",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "priority": "3",
+    "title": "Comprehensive Device Integration - Compatibility with a Wide Range of Health Devices",
+    "pillar": "General Requirements",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "The requirement for user feedback on activity personalization directly supports Olivia's goal of remaining physically and mentally active by tailoring activities to her abilities and preferences. Since she faces mobility challenges and is looking to stay engaged, this feedback mechanism can help ensure that the suggested activities are suitable for her needs."
+    "justification": "Olivia's reduced mobility and arthritis pain require effective monitoring of her health conditions, which can be facilitated by integrating health devices. This compatibility ensures she can manage her health proactively, aligning with her goal of maintaining independence.",
+    "subOption": "Compatibility with a wide range of health devices"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-037",
-    "title": "Customizable Scheduling for Activities and Events",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "priority": "2",
+    "title": "Personalization of User Experience – Tailored Content and Recommendations",
+    "pillar": "General Requirements",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "The requirement for flexible activity scheduling options aligns well with Olivia's goals of remaining physically and mentally active, as it would allow her to easily manage her volunteering activities and social commitments despite her reduced mobility and busy schedule."
+    "justification": "Olivia aims to stay socially connected and active, and personalized content can help her discover relevant volunteering opportunities and social activities that align with her interests, enhancing her engagement and quality of life.",
+    "subOption": "Tailored content and recommendations"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-038",
-    "title": "Integration with Health and Fitness Tracking for Active Living",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "priority": "1",
+    "title": "Support for Accessibility Features - Cognitive Support Tools for Memory Aids",
+    "pillar": "General Requirements",
+    "priority": 1,
     "userGroup": "Older Adults",
-    "justification": "Olivia, as an older adult concerned about maintaining her physical activity and health, would benefit from integration with fitness tracking devices to help her monitor her exercise levels and stay active despite her mobility challenges from arthritis. This aligns with her core goal of remaining physically active."
+    "justification": "Olivia faces challenges with reduced mobility and managing arthritis pain, which may affect her cognitive functions. Cognitive support tools can help her maintain her mental activity and stay organized, crucial for her goals of social connection and calendar management.",
+    "subOption": "Cognitive support tools for memory aids"
   },
   {
     "personaId": "P-005",
     "reqId": "RREQ-039",
-    "title": "Activity Reminders for Staying Active and Engaged",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "priority": "1",
-    "userGroup": "Older Adults",
-    "justification": "The 'Alerts for Activity Reminders' requirement is relevant to Olivia as it can help her manage her daily tasks and stay physically active, addressing her reduced mobility and arthritis pain. By receiving reminders for activities, she can maintain her independence and continue to volunteer, which aligns with her core goals."
-  },
-  {
-    "personaId": "P-005",
-    "reqId": "RREQ-040",
-    "title": "Encouraging Family Participation in Activities",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "priority": "3",
-    "userGroup": "Older Adults",
-    "justification": "This requirement is relevant as Olivia aims to remain socially connected and engage in volunteering activities, which may involve family members actively participating in these activities. Family involvement can enhance her social interactions and provide support in overcoming her reduced mobility."
-  },
-  {
-    "personaId": "P-005",
-    "reqId": "RREQ-041",
-    "title": "Simple Setup Process for Easy Use",
+    "title": "Ongoing User Support and Training - Access to a Help Desk Through Voice Commands",
     "pillar": "General Requirements",
-    "priority": "1",
+    "priority": 2,
     "userGroup": "Older Adults",
-    "justification": "The user-friendly installation process is relevant for Olivia as she may have limited technical experience and could find complex setups challenging due to her age and physical limitations. A straightforward installation would facilitate her ability to use ALFRED effectively, supporting her goals of maintaining social connections and managing her daily activities."
-  },
-  {
-    "personaId": "P-005",
-    "reqId": "RREQ-042",
-    "title": "Protecting Privacy and Personal Information",
-    "pillar": "General Requirements",
-    "priority": "1",
-    "userGroup": "Older Adults",
-    "justification": "Secure data storage and privacy controls are vital for Olivia, as she will be using ALFRED to manage her social connections and health information. Ensuring her personal data is protected aligns with her need for safety and trust in technology, especially given her concerns about digital inclusion and autonomy."
-  },
-  {
-    "personaId": "P-005",
-    "reqId": "RREQ-043",
-    "title": "User-Friendly and Accessible Features for Older Adults",
-    "pillar": "General Requirements",
-    "priority": "1",
-    "userGroup": "Older Adults",
-    "justification": "The requirement for comprehensive accessibility options is relevant to Olivia as it aligns with her need for a user-friendly interface that accommodates her reduced mobility and potential cognitive barriers. Ensuring that ALFRED is accessible can significantly enhance her ability to interact with the system and maintain her social connections and independence."
-  },
-  {
-    "personaId": "P-005",
-    "reqId": "RREQ-044",
-    "title": "User-Friendly Interface Adapted to Individual Abilities",
-    "pillar": "General Requirements",
-    "priority": "2",
-    "userGroup": "Older Adults",
-    "justification": "The adaptive user interface aligns with Olivia's need for a user-friendly experience, especially given her reduced mobility and temporary use of crutches. By tailoring the interface to her abilities, it ensures she can navigate the system effectively while managing her social connections and calendar."
-  },
-  {
-    "personaId": "P-005",
-    "reqId": "RREQ-045",
-    "title": "Device Compatibility for Enhanced Connectivity",
-    "pillar": "General Requirements",
-    "priority": "1",
-    "userGroup": "Older Adults",
-    "justification": "The requirement for integration with a variety of devices is relevant for Olivia as it directly supports her goal of maintaining social connections and staying updated on issues. By ensuring compatibility with devices she uses, such as smartphones and tablets, ALFRED can facilitate communication and access to information, helping her overcome challenges related to reduced mobility and managing her busy schedule."
-  },
-  {
-    "personaId": "P-005",
-    "reqId": "RREQ-047",
-    "title": "User Privacy and Consent for Data Sharing",
-    "pillar": "General Requirements",
-    "priority": "2",
-    "userGroup": "Older Adults",
-    "justification": "User consent management for data sharing is crucial for Olivia, as she values her privacy and autonomy while using technology. Ensuring that she has control over what personal and health information is shared aligns with her goals of maintaining independence and staying socially connected without compromising her privacy."
-  },
-  {
-    "personaId": "P-005",
-    "reqId": "RREQ-048",
-    "title": "Easy Onboarding for New Users to Enhance System Navigation",
-    "pillar": "General Requirements",
-    "priority": "2",
-    "userGroup": "Older Adults",
-    "justification": "The guided onboarding experience is relevant for Olivia as it would help her navigate the ALFRED system easily, considering her reduced mobility and potential reluctance towards technology. A smooth onboarding process can empower her to utilize the system more effectively to maintain social connections and manage her daily activities."
+    "justification": "Olivia, as an older adult with reduced mobility and some cognitive barriers, would greatly benefit from having easy access to assistance. The ability to use voice commands to access a help desk aligns with her need for a user-friendly interface that supports her independence and addresses her challenges in managing technology.",
+    "subOption": "Access to a help desk through voice commands"
   }
 ]

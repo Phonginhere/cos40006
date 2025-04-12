@@ -1,191 +1,162 @@
 [
   {
     "personaId": "P-003",
-    "reqId": "RREQ-116",
-    "title": "Data Privacy and Compliance Controls for Social Sharing",
+    "reqId": "RREQ-094",
+    "title": "Event Notification and Reminder Systems - API Access for Third-Party Apps to Send Alerts",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "priority": "1",
+    "priority": 2,
     "userGroup": "Developers and App Creators",
-    "justification": "The requirement for 'Privacy Controls for Social Sharing' aligns with John's goals of ensuring compliance with data privacy standards, such as HIPAA and GDPR, especially since social sharing features could potentially expose personal information. By embedding privacy controls, John can help mitigate compliance risks associated with the sharing of sensitive user data."
+    "justification": "John is focused on ensuring compliance in digital health applications, and API access for third-party apps is essential for allowing compliant integrations with external services. This aligns with his goal of embedding compliance into the development process.",
+    "subOption": "API access for third-party apps to send alerts"
+  },
+  {
+    "personaId": "P-003",
+    "reqId": "RREQ-097",
+    "title": "Health Data Integration APIs - Support for Third-Party Health Monitoring Devices",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": 2,
+    "userGroup": "Developers and App Creators",
+    "justification": "John's role as a Compliance and Risk Lead necessitates that he ensures all health applications comply with legal standards, which includes verifying that third-party health devices integrate securely and in compliance with regulations like HIPAA and GDPR. This requirement directly supports his goal of embedding compliance-by-design principles into the applications.",
+    "subOption": "Support for third-party health monitoring devices"
+  },
+  {
+    "personaId": "P-003",
+    "reqId": "RREQ-098",
+    "title": "User Health Profile Management - User-Defined Privacy Settings for Health Data",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": 1,
+    "userGroup": "Developers and App Creators",
+    "justification": "John's role as a Compliance and Risk Lead requires him to ensure that health applications adhere to privacy regulations. User-defined privacy settings are crucial for maintaining compliance with legal standards, thus helping him fulfill his goal of embedding compliance into healthcare software systems.",
+    "subOption": "User-defined privacy settings for health data"
+  },
+  {
+    "personaId": "P-003",
+    "reqId": "RREQ-099",
+    "title": "Caregiver Communication Interface – Secure Messaging Between Caregivers and Users",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": 2,
+    "userGroup": "Developers and App Creators",
+    "justification": "John's role as a Compliance and Risk Lead focuses on embedding compliance within healthcare software systems, which includes secure communication channels. The secure messaging feature is critical for ensuring compliance with data privacy regulations while facilitating efficient communication between caregivers and users.",
+    "subOption": "Secure messaging between caregivers and users"
+  },
+  {
+    "personaId": "P-003",
+    "reqId": "RREQ-101",
+    "title": "Emergency Response Integration - Alert Systems for Caregivers on Emergencies",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": 2,
+    "userGroup": "Developers and App Creators",
+    "justification": "John's role as a Compliance and Risk Lead necessitates ensuring that digital health applications maintain safety and compliance standards. The alert systems for caregivers on emergencies directly contribute to the safety and risk mitigation goals he aims to achieve, enhancing the overall compliance posture of the applications being developed.",
+    "subOption": "Alert systems for caregivers on emergencies"
+  },
+  {
+    "personaId": "P-003",
+    "reqId": "RREQ-103",
+    "title": "Data Privacy Compliance Framework - Audit Trails for Data Access and Modifications",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": 1,
+    "userGroup": "Developers and App Creators",
+    "justification": "John's role as Compliance and Risk Lead necessitates that he ensures the digital health applications maintain legal compliance, which includes having complete audit trails for data access and modifications to uphold data protection standards. This aligns directly with his goals of ensuring legal audit-readiness and maintaining traceability.",
+    "subOption": "Audit trails for data access and modifications"
+  },
+  {
+    "personaId": "P-003",
+    "reqId": "RREQ-104",
+    "title": "User-Centric Feedback Systems – Integration of User Insights into System Improvements",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": 2,
+    "userGroup": "Developers and App Creators",
+    "justification": "John's role necessitates ensuring compliance and risk mitigation in healthcare applications, making it crucial for him to understand user feedback as it may influence compliance measures and system improvements. Integrating user insights helps him in translating legal requirements into actionable features that enhance overall system safety and effectiveness.",
+    "subOption": "Integration of user insights into system improvements"
+  },
+  {
+    "personaId": "P-003",
+    "reqId": "RREQ-113",
+    "title": "Open API Access – RESTful API for Data Sharing",
+    "pillar": "General Requirements",
+    "priority": 2,
+    "userGroup": "Developers and App Creators",
+    "justification": "John's role as a Compliance and Risk Lead requires him to ensure that digital health applications are compliant with legal standards. A RESTful API for data sharing is essential for him to verify that health data is handled securely and in accordance with regulations, enabling him to guide developers effectively.",
+    "subOption": "RESTful API for data sharing"
+  },
+  {
+    "personaId": "P-003",
+    "reqId": "RREQ-114",
+    "title": "Comprehensive Developer Documentation - Step-by-Step Guides for Common Tasks",
+    "pillar": "General Requirements",
+    "priority": 2,
+    "userGroup": "Developers and App Creators",
+    "justification": "John's role as a Compliance and Risk Lead involves working closely with developers to ensure compliance within the development process. Step-by-step guides will help developers understand how to implement compliance measures effectively, thus aligning with his goal of creating seamless developer workflows that do not hinder agile delivery.",
+    "subOption": "Step-by-step guides for common tasks"
+  },
+  {
+    "personaId": "P-003",
+    "reqId": "RREQ-115",
+    "title": "Sandbox Environment for Testing – Isolated Testing Environment for App Development",
+    "pillar": "General Requirements",
+    "priority": 2,
+    "userGroup": "Developers and App Creators",
+    "justification": "John's role as a Compliance and Risk Lead implies he needs to ensure that applications are compliant and secure before deployment. An isolated testing environment allows developers to test compliance and security features without jeopardizing live systems, aligning with his goals of embedding compliance-by-design principles.",
+    "subOption": "Isolated testing environment for app development"
+  },
+  {
+    "personaId": "P-003",
+    "reqId": "RREQ-116",
+    "title": "Security Protocols for Third-Party Applications - Compliance with Healthcare Data Regulations",
+    "pillar": "General Requirements",
+    "priority": 1,
+    "userGroup": "Developers and App Creators",
+    "justification": "John's role as a Compliance and Risk Lead involves ensuring that applications meet legal standards such as HIPAA and GDPR. The requirement for compliance with healthcare data regulations directly supports his goal of integrating compliance-by-design principles into the development process.",
+    "subOption": "Compliance with healthcare data regulations"
+  },
+  {
+    "personaId": "P-003",
+    "reqId": "RREQ-117",
+    "title": "Extensible Platform Architecture – Clear Guidelines for Extension Development",
+    "pillar": "General Requirements",
+    "priority": 2,
+    "userGroup": "Developers and App Creators",
+    "justification": "John's role as a Compliance and Risk Lead necessitates that he ensures compliance-by-design principles are followed in application development. Clear guidelines for extension development will help developers understand how to embed legal compliance within their applications, aligning with his goal of reducing risks and facilitating seamless workflows.",
+    "subOption": "Clear guidelines for extension development"
+  },
+  {
+    "personaId": "P-003",
+    "reqId": "RREQ-118",
+    "title": "Support for Multiple Device Integration – Device Discovery and Management APIs",
+    "pillar": "General Requirements",
+    "priority": 2,
+    "userGroup": "Developers and App Creators",
+    "justification": "John's role as a Compliance and Risk Lead requires him to ensure secure and compliant interactions with various devices integrated into the ALFRED platform. The device discovery and management APIs are essential for him to monitor these integrations for compliance with data privacy standards.",
+    "subOption": "Device discovery and management APIs"
+  },
+  {
+    "personaId": "P-003",
+    "reqId": "RREQ-119",
+    "title": "Monitoring and Analytics Tools for Developers - Error Tracking and Reporting Tools",
+    "pillar": "General Requirements",
+    "priority": 2,
+    "userGroup": "Developers and App Creators",
+    "justification": "John's role as a Compliance and Risk Lead requires him to ensure secure API design and detect compliance violations in development pipelines. Error tracking and reporting tools will help him monitor and address potential issues that could lead to compliance breaches, thus aligning with his goal of 'compliance without friction'.",
+    "subOption": "Error tracking and reporting tools"
+  },
+  {
+    "personaId": "P-003",
+    "reqId": "RREQ-120",
+    "title": "User Consent Management Framework - Audit Trails for Consent Management",
+    "pillar": "General Requirements",
+    "priority": 1,
+    "userGroup": "Developers and App Creators",
+    "justification": "John's role as a Compliance and Risk Lead involves ensuring that applications adhere to legal requirements, which includes maintaining audit trails for consent management to support compliance with regulations like HIPAA and GDPR. This aligns with his goals of building automated auditability and ensuring legal audit-readiness at every release.",
+    "subOption": "Audit trails for consent management"
   },
   {
     "personaId": "P-003",
     "reqId": "RREQ-121",
-    "title": "API for Secure Health Data Integration and Compliance",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "1",
-    "userGroup": "Developers and App Creators",
-    "justification": "The Health Data Integration API is crucial for ensuring compliance with data privacy standards in healthcare applications, which aligns with John’s goal of embedding compliance-by-design principles in software. It also supports his responsibilities by enabling him to monitor and verify secure API interactions and compliance within the development process."
-  },
-  {
-    "personaId": "P-003",
-    "reqId": "RREQ-122",
-    "title": "Compliance-Ready Real-Time Health Monitoring Access",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "2",
-    "userGroup": "Developers and App Creators",
-    "justification": "The 'Real-Time Health Monitoring Access' requirement is relevant to John Williams as it directly relates to his role in ensuring compliance and risk management in health applications. By enabling real-time access to health monitoring data, he can ensure that developers integrate necessary compliance checks and maintain secure interactions, which aligns with his goal of embedding compliance-by-design principles."
-  },
-  {
-    "personaId": "P-003",
-    "reqId": "RREQ-123",
-    "title": "Compliance Tools for User Data Privacy in Healthcare Applications",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "1",
-    "userGroup": "Developers and App Creators",
-    "justification": "The requirement for 'User Data Privacy Compliance Tools' is directly relevant to John Williams as he is focused on embedding compliance and risk management into healthcare software systems. This requirement aligns with his goal of ensuring that digital health applications are designed with compliance-by-design principles, specifically addressing the need for security and privacy in the development process."
-  },
-  {
-    "personaId": "P-003",
-    "reqId": "RREQ-124",
-    "title": "Caregiver Notification and Compliance Monitoring System",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "3",
-    "userGroup": "Developers and App Creators",
-    "justification": "The caregiver notification system is relevant to John Williams as it supports the overarching goal of ensuring compliance and risk mitigation in healthcare applications. By facilitating timely notifications to caregivers, the system aligns with his responsibility to monitor and ensure the secure handling of health information, thereby helping him maintain compliance with legal standards."
-  },
-  {
-    "personaId": "P-003",
-    "reqId": "RREQ-125",
-    "title": "Compliance-Focused Generation of Personalized Health Insights",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "2",
-    "userGroup": "Developers and App Creators",
-    "justification": "The requirement for 'Personalized Health Insights Generation' aligns with John's goal of ensuring that digital health applications are built with compliance-by-design principles, as it necessitates a focus on secure data handling and compliance with regulations like HIPAA and GDPR. Additionally, personalized health insights may require John's oversight to ensure that developers implement compliant practices when integrating these insights into applications."
-  },
-  {
-    "personaId": "P-003",
-    "reqId": "RREQ-126",
-    "title": "Remote Compliance Configuration for Healthcare Devices",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "3",
-    "userGroup": "Developers and App Creators",
-    "justification": "The requirement for 'Remote Configuration for Care Devices' is relevant to John as it directly supports his goal of ensuring that digital health applications are built with compliance-by-design principles. By allowing remote configuration, developers can ensure that care devices are properly set up and compliant with regulatory standards, which aligns with John's responsibilities in monitoring access and traceability."
-  },
-  {
-    "personaId": "P-003",
-    "reqId": "RREQ-127",
-    "title": "Health Data Analytics Dashboard for Compliance Monitoring",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "4",
-    "userGroup": "Developers and App Creators",
-    "justification": "The health data analytics dashboard is critical for John Williams as it enables him to monitor compliance and risk related to health applications. It aligns with his goal of ensuring compliance-by-design principles and helps him to detect and mitigate compliance violations in development pipelines."
-  },
-  {
-    "personaId": "P-003",
-    "reqId": "RREQ-128",
-    "title": "Compliance-Driven Emergency Alert System Integration",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "1",
-    "userGroup": "Developers and App Creators",
-    "justification": "The 'Emergency Alert System Integration' requirement is relevant to John as he needs to ensure that digital health applications comply with legal requirements like HIPAA, which includes the secure handling of emergency alerts. This aligns with his goals of embedding compliance and risk mitigation within healthcare software systems."
-  },
-  {
-    "personaId": "P-003",
-    "reqId": "RREQ-129",
-    "title": "Compliance with Health Standards for Application Development",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "2",
-    "userGroup": "Developers and App Creators",
-    "justification": "The requirement for interoperability with health standards is crucial for John, as it ensures that the applications developed under ALFRED comply with regulations like HIPAA and GDPR, aligning with his goal of embedding compliance-by-design principles. This interoperability will aid in maintaining secure and compliant interactions across health devices, which is a key part of his role in mitigating risks."
-  },
-  {
-    "personaId": "P-003",
-    "reqId": "RREQ-130",
-    "title": "Compliance Documentation for Health Application Development",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "3",
-    "userGroup": "Developers and App Creators",
-    "justification": "John, as the Compliance and Risk Lead, needs to ensure that health applications are developed with compliance-by-design principles. Documentation for health application development is essential for him to guide developers on legal compliance and risk mitigation, aligning with his goal of embedding compliance into the development process."
-  },
-  {
-    "personaId": "P-003",
-    "reqId": "RREQ-140",
-    "title": "Open API Framework for Compliance-Driven Third-Party Integrations",
+    "title": "Community Support and Collaboration Features - Forums for Developer Discussions",
     "pillar": "General Requirements",
-    "priority": "1",
+    "priority": 2,
     "userGroup": "Developers and App Creators",
-    "justification": "The requirement for 'Open API Access for Third-Party Integration' is relevant to John as it supports his goal of ensuring that digital health applications comply with legal standards by allowing developers to integrate necessary compliance tools and services. Furthermore, robust API access helps him monitor and guide the developers in embedding compliance checks into their applications, thereby addressing his challenges with maintaining traceability and auditability."
-  },
-  {
-    "personaId": "P-003",
-    "reqId": "RREQ-141",
-    "title": "Detailed Compliance-Focused Developer Documentation",
-    "pillar": "General Requirements",
-    "priority": "1",
-    "userGroup": "Developers and App Creators",
-    "justification": "Comprehensive developer documentation is essential for John Williams as it supports his goal of enabling developers to build compliant applications efficiently. Clear documentation can help translate legal requirements into actionable practices and ensure that security and compliance measures are integrated seamlessly into the development process."
-  },
-  {
-    "personaId": "P-003",
-    "reqId": "RREQ-142",
-    "title": "Compliance Guidelines for Developers on Data Privacy",
-    "pillar": "General Requirements",
-    "priority": "2",
-    "userGroup": "Developers and App Creators",
-    "justification": "The requirement 'Data Privacy Compliance Guidelines for Developers' is relevant to John Williams as it directly aligns with his core goal of ensuring that digital health applications adhere to compliance standards. His responsibilities include translating legal requirements into actionable practices for developers, making this guideline essential for embedding compliance-by-design principles in the ALFRED ecosystem."
-  },
-  {
-    "personaId": "P-003",
-    "reqId": "RREQ-143",
-    "title": "Support for Compliance-Friendly Development Environments",
-    "pillar": "General Requirements",
-    "priority": "3",
-    "userGroup": "Developers and App Creators",
-    "justification": "The requirement for support for multiple programming languages is relevant to John Williams because it enables developers to create compliant applications more easily, helping him meet his goals of ensuring compliance and risk mitigation in digital health applications. By facilitating a diverse development environment, he can better guide engineers in creating solutions aligned with legal standards."
-  },
-  {
-    "personaId": "P-003",
-    "reqId": "RREQ-144",
-    "title": "Developer Support Community for Compliance and Risk Best Practices",
-    "pillar": "General Requirements",
-    "priority": "3",
-    "userGroup": "Developers and App Creators",
-    "justification": "The requirement for a Developer Support Community and Forums is relevant to John Williams as it can provide him and the developers he works with a platform to discuss compliance issues, share best practices, and seek guidance on integrating legal compliance within their applications. This aligns with his core goal of ensuring compliance is embedded early in the development process."
-  },
-  {
-    "personaId": "P-003",
-    "reqId": "RREQ-145",
-    "title": "Secure Testing Sandbox for Compliance-Driven Application Development",
-    "pillar": "General Requirements",
-    "priority": "2",
-    "userGroup": "Developers and App Creators",
-    "justification": "The sandbox environment for application testing is relevant to John Williams as it directly supports his role in ensuring compliance and security in the development of digital health applications. By providing a safe space for developers to test their applications, it helps him achieve his goal of embedding compliance-by-design principles and allows for early detection of compliance violations during the development process."
-  },
-  {
-    "personaId": "P-003",
-    "reqId": "RREQ-146",
-    "title": "Compliance-Focused Security Protocols for API Development",
-    "pillar": "General Requirements",
-    "priority": "1",
-    "userGroup": "Developers and App Creators",
-    "justification": "The requirement for 'Security Protocols for API Interactions' directly supports John Williams' responsibilities in ensuring that developers maintain compliance with data privacy standards and secure interactions within the ALFRED platform. As a Compliance and Risk Lead, he would depend on robust security protocols to guide developers in creating safe applications that align with legal requirements."
-  },
-  {
-    "personaId": "P-003",
-    "reqId": "RREQ-147",
-    "title": "API Change Management for Compliance and Security",
-    "pillar": "General Requirements",
-    "priority": "4",
-    "userGroup": "Developers and App Creators",
-    "justification": "Version control for API changes is crucial for maintaining compliance and security within the ALFRED system, which aligns with John's goals of ensuring compliance-by-design and embedding risk mitigation in the development process. Having version control helps him monitor changes and ensure that any modifications comply with regulatory requirements."
-  },
-  {
-    "personaId": "P-003",
-    "reqId": "RREQ-148",
-    "title": "Analytics Tools for Compliance Metrics in Developer Integrations",
-    "pillar": "General Requirements",
-    "priority": "3",
-    "userGroup": "Developers and App Creators",
-    "justification": "The requirement for 'Integration Metrics and Analytics Tools for Developers' directly supports John’s goal of embedding compliance and risk management into the development process by providing insights into the usage and performance of integrated applications. These tools will assist him in ensuring that compliance metrics are tracked effectively, which aligns well with his responsibilities of maintaining traceability and audit logs."
-  },
-  {
-    "personaId": "P-003",
-    "reqId": "RREQ-149",
-    "title": "Robust Plugin Architecture for Compliance Integration",
-    "pillar": "General Requirements",
-    "priority": "2",
-    "userGroup": "Developers and App Creators",
-    "justification": "The 'Extensible Plugin Architecture' requirement is relevant to John Williams as it supports the integration of third-party applications, which is crucial for ensuring compliance and risk management in digital health systems. By facilitating a flexible and robust architecture, it allows John to work with developers to embed compliance features seamlessly into the applications they create, aligning with his goal of 'compliance-by-design'."
+    "justification": "John's role as a Compliance and Risk Lead involves working closely with developers to ensure that the applications built are compliant and secure. Access to forums for developer discussions would enable him to facilitate dialogues around compliance issues and share insights, thereby enhancing the overall compliance culture within the development teams.",
+    "subOption": "Forums for developer discussions"
   }
 ]

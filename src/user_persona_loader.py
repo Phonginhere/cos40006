@@ -3,7 +3,6 @@ import os
 from typing import List, Optional
 from utils import get_llm_response, load_alfred_summary, load_user_group_summary
 
-
 class UserPersona:
     """Represents a new-format user persona (e.g., Olivia, Elena, Thomas)."""
 
@@ -28,6 +27,9 @@ class UserPersona:
         self.most_important_tasks: List[str] = data.get("Most important tasks", [])
         self.least_important_tasks: List[str] = data.get("Least important tasks", [])
         self.miscellaneous: List[str] = data.get("Miscellaneous", [])
+        
+        # Set user group once
+        self.user_group = self.classify_user_group()
         
     def classify_user_group(self) -> str:
         """Use LLM to classify this persona into one of the 3 user groups."""
@@ -59,6 +61,25 @@ Persona:
 
     def __repr__(self):
         return f"UserPersona(Name={self.name})"
+    
+    def to_prompt_string(self) -> str:
+        return json.dumps({
+            "Id": self.id,
+            "Name": self.name,
+            "Role": self.role,
+            "Tagline": self.tagline,
+            "Demographic data": self.demographic_data,
+            "Core goals": self.core_goals,
+            "Typical challenges": self.typical_challenges,
+            "Singularities": self.singularities,
+            "Working situation": self.working_situation,
+            "Place of work": self.place_of_work,
+            "Expertise": self.expertise,
+            "Main tasks with system support": self.main_tasks,
+            "Most important tasks": self.most_important_tasks,
+            "Least important tasks": self.least_important_tasks,
+            "Miscellaneous": self.miscellaneous
+        }, indent=2)
     
     def to_dict(self) -> dict:
         return {
@@ -95,6 +116,7 @@ Persona:
         print(f"   - Most Important Tasks: {', '.join(self.most_important_tasks)}")
         print(f"   - Least Important Tasks: {', '.join(self.least_important_tasks)}")
         print(f"   - Miscellaneous: {', '.join(self.miscellaneous)}")
+        print(f"   - User group: {self.user_group}")
 
 
 class UserPersonaLoader:

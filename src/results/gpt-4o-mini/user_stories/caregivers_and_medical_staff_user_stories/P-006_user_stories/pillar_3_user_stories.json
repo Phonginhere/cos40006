@@ -1,191 +1,126 @@
 [
   {
-    "title": "Real-Time Alerts for Client Health Monitoring",
-    "summary": "As a professional caregiver, I want to receive real-time alerts for significant changes in my clients' health metrics so that I can respond quickly and provide timely interventions when necessary.",
-    "priority": "1",
+    "title": "Comprehensive Health Metrics Integration",
+    "summary": "As a professional caregiver, I want to access real-time health metrics from various monitoring devices for my clients so that I can track their health status accurately and respond promptly to any anomalies, while ensuring data privacy and clarity in communication.",
+    "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-006",
     "useCases": [
-      "UC-001",
-      "UC-002",
-      "UC-004",
       "UC-005",
       "UC-006",
-      "UC-009",
-      "UC-010",
-      "UC-011",
-      "UC-012"
+      "UC-009"
     ],
-    "id": "US-201",
-    "rawRequirementId": "RREQ-071"
+    "id": "US-170",
+    "rawRequirementId": "RREQ-057"
   },
   {
-    "title": "Secure Communication Platform for Caregiver Coordination",
-    "summary": "As a professional caregiver, I want a secure communication platform within ALFRED so that I can coordinate care effectively and maintain clear communication with my clients' families while ensuring their data privacy.",
-    "priority": "2",
+    "title": "Customizable Alert Settings for Proactive Health Monitoring",
+    "summary": "As a professional caregiver, I want to customize alert settings for health anomalies so that I can ensure timely and appropriate responses without alarming my clients unnecessarily.",
+    "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-006",
     "useCases": [
-      "UC-001",
-      "UC-002",
-      "UC-004",
       "UC-005",
       "UC-006",
       "UC-009",
-      "UC-010",
-      "UC-011",
-      "UC-012"
+      "UC-011"
     ],
-    "id": "US-202",
-    "rawRequirementId": "RREQ-072"
+    "id": "US-171",
+    "rawRequirementId": "RREQ-058"
   },
   {
-    "title": "User-Friendly Health Metrics Dashboard for Caregivers",
-    "summary": "As a professional caregiver managing multiple elderly clients, I want a simple and intuitive health metrics dashboard so that I can efficiently monitor my clients' health status in real-time without navigating complex interfaces.",
-    "priority": "1",
+    "title": "Care Plan Customization Tools",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want to customize care plans for each client based on their unique needs and preferences so that I can provide personalized and effective care while ensuring clarity and respect for their privacy.",
+    "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-006",
     "useCases": [
-      "UC-001",
-      "UC-002",
-      "UC-004",
       "UC-005",
       "UC-006",
       "UC-009",
-      "UC-010",
-      "UC-011",
-      "UC-012"
+      "UC-011"
     ],
-    "id": "US-203",
-    "rawRequirementId": "RREQ-073"
+    "id": "US-172",
+    "rawRequirementId": "RREQ-059"
   },
   {
-    "title": "Personalized Health Alert Customization for Caregivers",
-    "summary": "As a professional caregiver, I want to customize health alerts for each of my clients so that I can receive timely notifications about critical changes in their health status and provide appropriate interventions.",
-    "priority": "2",
+    "title": "Holistic Wellness Tracking",
+    "summary": "As a professional caregiver, I want to track both physical and mental health metrics of my clients in real-time so that I can ensure their overall well-being and respond appropriately to any concerns.",
+    "priority": 2,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-006",
     "useCases": [
-      "UC-001",
-      "UC-002",
-      "UC-004",
       "UC-005",
       "UC-006",
-      "UC-009",
-      "UC-010",
-      "UC-011",
-      "UC-012"
+      "UC-009"
     ],
-    "id": "US-204",
-    "rawRequirementId": "RREQ-074"
+    "id": "US-173",
+    "rawRequirementId": "RREQ-060"
   },
   {
-    "title": "Real-Time Health Monitoring Integration",
-    "summary": "As a professional caregiver, I want to seamlessly integrate client health data for real-time monitoring so that I can track multiple clients' health metrics and respond swiftly to any anomalies.",
-    "priority": "2",
+    "title": "Caregiver Collaboration Features \u2013 Team Chat Functionality for Real-Time Communication",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want a team chat functionality within ALFRED so that I can communicate in real-time with other caregivers and healthcare professionals, ensuring coordinated care and timely updates without compromising client privacy.",
+    "priority": 2,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-006",
     "useCases": [
-      "UC-001",
-      "UC-002",
       "UC-004",
-      "UC-005",
       "UC-006",
-      "UC-009",
-      "UC-010",
-      "UC-011",
-      "UC-012"
+      "UC-009"
     ],
-    "id": "US-205",
-    "rawRequirementId": "RREQ-075"
+    "id": "US-174",
+    "rawRequirementId": "RREQ-061"
   },
   {
-    "title": "Timely Check-In Reminders for Care Coordination",
-    "summary": "As a professional caregiver managing multiple elderly clients, I want ALFRED to send me timely reminders for check-ins so that I can effectively coordinate care and ensure the well-being of my clients.",
-    "priority": "1",
+    "title": "User-Centric Data Visualization \u2013 Simplified Dashboards for Quick Insights",
+    "summary": "As a professional caregiver, I want a simplified dashboard that allows me to quickly track and verify the health status of multiple clients so that I can efficiently manage care tasks without overwhelming my clients or myself.",
+    "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-006",
     "useCases": [
-      "UC-001",
-      "UC-002",
-      "UC-004",
       "UC-005",
       "UC-006",
       "UC-009",
-      "UC-010",
-      "UC-011",
-      "UC-012"
+      "UC-011"
     ],
-    "id": "US-206",
-    "rawRequirementId": "RREQ-076"
+    "id": "US-175",
+    "rawRequirementId": "RREQ-062"
   },
   {
-    "title": "Video Consultation Support for Caregivers and Healthcare Collaboration",
-    "summary": "As a professional caregiver, I want to initiate video consultations with healthcare providers through ALFRED so that I can coordinate care effectively and keep family members informed about clients' health statuses.",
-    "priority": "2",
+    "title": "Secure Data Sharing Protocols \u2013 Granular Access Controls for Caregivers",
+    "summary": "As a professional caregiver, I want granular access controls for health data so that I can monitor multiple clients' health information securely and ensure their privacy is respected.",
+    "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-006",
     "useCases": [
-      "UC-001",
-      "UC-002",
-      "UC-004",
       "UC-005",
       "UC-006",
-      "UC-009",
-      "UC-010",
-      "UC-011",
-      "UC-012"
+      "UC-009"
     ],
-    "id": "US-207",
-    "rawRequirementId": "RREQ-077"
+    "id": "US-176",
+    "rawRequirementId": "RREQ-063"
   },
   {
-    "title": "Caregiver Access Control for Client Health Data",
-    "summary": "As a professional caregiver, I want secure access to my clients' health data so that I can monitor their well-being and respond promptly to any health concerns while respecting their privacy.",
-    "priority": "1",
+    "title": "Integrated Medication Management \u2013 Automated Medication Reminders",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want an automated medication reminder system that allows me to customize notification settings so that I can ensure my clients receive timely reminders without causing confusion or distress.",
+    "priority": 2,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-006",
     "useCases": [
-      "UC-001",
-      "UC-002",
-      "UC-004",
       "UC-005",
       "UC-006",
       "UC-009",
-      "UC-010",
-      "UC-011",
       "UC-012"
     ],
-    "id": "US-208",
-    "rawRequirementId": "RREQ-078"
-  },
-  {
-    "title": "Training Resources for Caregivers",
-    "summary": "As a professional caregiver, I want access to comprehensive training resources for using ALFRED effectively, so that I can efficiently monitor my clients' health and coordinate their care.",
-    "priority": "2",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-001",
-      "UC-002",
-      "UC-004",
-      "UC-005",
-      "UC-006",
-      "UC-009",
-      "UC-010",
-      "UC-011",
-      "UC-012"
-    ],
-    "id": "US-209",
-    "rawRequirementId": "RREQ-080"
+    "id": "US-177",
+    "rawRequirementId": "RREQ-064"
   }
 ]

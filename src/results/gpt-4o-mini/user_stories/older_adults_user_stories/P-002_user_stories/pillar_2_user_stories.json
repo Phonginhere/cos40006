@@ -1,182 +1,116 @@
 [
   {
-    "title": "Tailored Social Activity Suggestions for Connection",
-    "summary": "As an older adult, I want ALFRED to suggest social activities and events based on my interests so that I can stay connected with friends and reduce feelings of isolation.",
-    "priority": "1",
+    "title": "Social Event Discovery",
+    "summary": "As a tech-curious older adult, I want personalized recommendations for social events based on my interests, so that I can stay connected with family and friends and feel less isolated.",
+    "priority": 2,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
     "personaId": "P-002",
     "useCases": [
-      "UC-001",
-      "UC-002",
+      "UC-003",
+      "UC-004"
+    ],
+    "id": "US-046",
+    "rawRequirementId": "RREQ-009"
+  },
+  {
+    "title": "Easy Video Call Initiation with Pre-Set Favorites",
+    "summary": "As a tech-curious older adult, I want to make video calls to my family and friends easily by selecting from pre-set favorites, so that I can stay connected without feeling overwhelmed by technology.",
+    "priority": 1,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-004"
+    ],
+    "id": "US-047",
+    "rawRequirementId": "RREQ-010"
+  },
+  {
+    "title": "Personalized Engagement Activities",
+    "summary": "As a tech-curious older adult, I want ALFRED to suggest hobbies and activities based on my interests, so that I can stay engaged and connected without feeling overwhelmed by technology.",
+    "priority": 2,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
       "UC-003",
       "UC-004",
-      "UC-007",
-      "UC-008",
-      "UC-009",
       "UC-011"
     ],
-    "id": "US-052",
+    "id": "US-048",
     "rawRequirementId": "RREQ-011"
   },
   {
-    "title": "Simple Voice Communication with Family and Friends",
-    "summary": "As an older adult, I want to easily initiate voice calls and video chats with my family and friends using simple voice commands so that I can stay connected without feeling overwhelmed by technology.",
-    "priority": "1",
+    "title": "Family and Caregiver Connection \u2013 Emergency Alerts",
+    "summary": "As an older adult, I want ALFRED to send emergency alerts to my designated contacts so that I can feel safe and ensure that my family is informed in case of any urgent situation.",
+    "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
     "personaId": "P-002",
     "useCases": [
-      "UC-001",
-      "UC-002",
-      "UC-003",
       "UC-004",
-      "UC-007",
-      "UC-008",
-      "UC-009",
-      "UC-011"
+      "UC-006"
     ],
-    "id": "US-053",
+    "id": "US-049",
     "rawRequirementId": "RREQ-012"
   },
   {
-    "title": "Reminders for Social Activities to Stay Connected",
-    "summary": "As an older adult, I want ALFRED to remind me of social activities and events so that I can stay connected with my family and friends and reduce my feelings of isolation.",
-    "priority": "2",
+    "title": "Facilitation of New Friendships through Common Interests",
+    "summary": "As a tech-curious older adult, I want ALFRED to suggest social activities and events based on my interests, like classical music and volunteering, so that I can connect with others and reduce my feelings of isolation.",
+    "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
     "personaId": "P-002",
     "useCases": [
-      "UC-001",
-      "UC-002",
       "UC-003",
-      "UC-004",
-      "UC-007",
-      "UC-008",
-      "UC-009",
-      "UC-011"
+      "UC-004"
     ],
-    "id": "US-054",
+    "id": "US-050",
     "rawRequirementId": "RREQ-013"
   },
   {
-    "title": "Video Call Support for Staying Connected with Family and Friends",
-    "summary": "As an older adult, I want to easily initiate video calls with my family and friends using voice commands so that I can stay connected and combat feelings of isolation without feeling overwhelmed by technology.",
-    "priority": "2",
+    "title": "User Feedback Loop for Social Features - Collection of User Preferences for Social Activities",
+    "summary": "As a tech-curious older adult, I want to provide feedback on my social activity preferences so that ALFRED can suggest events and activities that align with my interests and help me stay connected with my family and friends.",
+    "priority": 2,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
     "personaId": "P-002",
     "useCases": [
-      "UC-001",
-      "UC-002",
       "UC-003",
       "UC-004",
-      "UC-007",
-      "UC-008",
-      "UC-009",
       "UC-011"
     ],
-    "id": "US-055",
+    "id": "US-051",
     "rawRequirementId": "RREQ-014"
   },
   {
-    "title": "Personalized Event Recommendations",
-    "summary": "As an older adult, I want ALFRED to suggest local events based on my interests, so that I can stay socially connected and engage with my community.",
-    "priority": "2",
+    "title": "Cognitive Engagement Reminders \u2013 Daily Prompts for Social Interactions",
+    "summary": "As a tech-curious older adult, I want daily reminders for social interactions so that I can stay connected with my family and friends and avoid feeling isolated.",
+    "priority": 2,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
     "personaId": "P-002",
     "useCases": [
-      "UC-001",
-      "UC-002",
       "UC-003",
-      "UC-004",
-      "UC-007",
-      "UC-008",
-      "UC-009",
-      "UC-011"
+      "UC-004"
     ],
-    "id": "US-056",
+    "id": "US-052",
     "rawRequirementId": "RREQ-015"
   },
   {
-    "title": "User Feedback for Enhanced Social Engagement",
-    "summary": "As an older adult, I want to provide feedback on social event recommendations so that ALFRED can better suggest activities that I find interesting and enjoyable.",
-    "priority": "2",
+    "title": "Emergency Alert System",
+    "summary": "As a tech-curious older adult, I want an immediate alert system for emergencies so that I can feel safe and secure at home, knowing help is just a command away.",
+    "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
     "personaId": "P-002",
     "useCases": [
       "UC-001",
-      "UC-002",
-      "UC-003",
       "UC-004",
-      "UC-007",
-      "UC-008",
-      "UC-009",
-      "UC-011"
+      "UC-006"
     ],
-    "id": "US-057",
-    "rawRequirementId": "RREQ-017"
-  },
-  {
-    "title": "Inclusive Accessibility Options for Social Engagement",
-    "summary": "As an older adult, I want accessibility features that support voice interaction and simplify navigation so that I can easily engage with social activities and feel connected to my family and friends.",
-    "priority": "1",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Older Adults",
-    "personaId": "P-002",
-    "useCases": [
-      "UC-001",
-      "UC-002",
-      "UC-003",
-      "UC-004",
-      "UC-007",
-      "UC-008",
-      "UC-009",
-      "UC-011"
-    ],
-    "id": "US-058",
-    "rawRequirementId": "RREQ-018"
-  },
-  {
-    "title": "Personalized Event Recommendations",
-    "summary": "As an older adult, I want ALFRED to suggest local events and social activities based on my interests so that I can stay connected with friends and family and reduce feelings of isolation.",
-    "priority": "2",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Older Adults",
-    "personaId": "P-002",
-    "useCases": [
-      "UC-001",
-      "UC-002",
-      "UC-003",
-      "UC-004",
-      "UC-007",
-      "UC-008",
-      "UC-009",
-      "UC-011"
-    ],
-    "id": "US-059",
-    "rawRequirementId": "RREQ-019"
-  },
-  {
-    "title": "Social Engagement and Community Connection Features",
-    "summary": "As an older adult, I want ALFRED to suggest local events and activities based on my interests so that I can stay connected with my community and combat feelings of isolation.",
-    "priority": "2",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Older Adults",
-    "personaId": "P-002",
-    "useCases": [
-      "UC-001",
-      "UC-002",
-      "UC-003",
-      "UC-004",
-      "UC-007",
-      "UC-008",
-      "UC-009",
-      "UC-011"
-    ],
-    "id": "US-060",
-    "rawRequirementId": "RREQ-020"
+    "id": "US-053",
+    "rawRequirementId": "RREQ-016"
   }
 ]

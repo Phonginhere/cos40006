@@ -1,192 +1,120 @@
 [
   {
-    "title": "Voice-Activated Task Management",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to use voice commands to manage my daily tasks so that I can maintain my independence and stay organized without feeling monitored.",
-    "priority": "1",
+    "title": "Natural Language Understanding for User-Friendly Interaction",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to understand my varied speech patterns and accents so that I can interact easily without feeling frustrated or monitored.",
+    "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
       "UC-001",
       "UC-002",
-      "UC-003",
-      "UC-007",
       "UC-008",
-      "UC-009",
       "UC-011"
     ],
-    "id": "US-220",
+    "id": "US-186",
     "rawRequirementId": "RREQ-001"
   },
   {
-    "title": "Cognitive Stimulation Games",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to engage in cognitive stimulation games so that I can maintain my mental sharpness without feeling monitored.",
-    "priority": "2",
+    "title": "Voice-Activated Task Management \u2013 Setting Reminders and Alerts through Voice Commands",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to set reminders and alerts using voice commands so that I can manage my appointments and tasks without feeling monitored.",
+    "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
-      "UC-001",
-      "UC-002",
-      "UC-003",
-      "UC-007",
-      "UC-008",
-      "UC-009",
-      "UC-011"
+      "UC-001"
     ],
-    "id": "US-221",
+    "id": "US-187",
     "rawRequirementId": "RREQ-002"
   },
   {
-    "title": "Voice Feedback for Task Confirmation",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to receive voice feedback confirming that my commands have been understood and executed, so that I feel assured and supported in managing my daily tasks without feeling monitored.",
-    "priority": "1",
+    "title": "Contextual Information Retrieval for Daily Tasks",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to provide step-by-step guidance for managing my daily tasks so that I can maintain my independence without feeling monitored.",
+    "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
       "UC-001",
-      "UC-002",
-      "UC-003",
-      "UC-007",
       "UC-008",
-      "UC-009",
       "UC-011"
     ],
-    "id": "US-222",
+    "id": "US-188",
     "rawRequirementId": "RREQ-003"
   },
   {
-    "title": "Voice Interaction for Daily Task Management",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to use voice commands to manage my daily tasks so that I can maintain my independence and reduce the stress of remembering appointments.",
-    "priority": "2",
+    "title": "Voice Feedback for Task Completion",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to receive clear auditory feedback when I complete tasks using ALFRED, so that I can feel confident that I am managing my daily activities without feeling monitored.",
+    "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
       "UC-001",
-      "UC-002",
-      "UC-003",
-      "UC-007",
-      "UC-008",
-      "UC-009",
-      "UC-011"
+      "UC-008"
     ],
-    "id": "US-223",
+    "id": "US-189",
     "rawRequirementId": "RREQ-004"
   },
   {
-    "title": "Cognitive Stimulation Games",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to engage in interactive games tailored to my abilities so that I can maintain my cognitive functions without feeling monitored.",
-    "priority": "2",
+    "title": "Error Handling and User Assistance \u2013 Recognizing and Addressing User Frustration",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to recognize when I am frustrated with commands and provide simple, helpful guidance so that I can continue to use the system confidently without feeling monitored or overwhelmed.",
+    "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
       "UC-001",
-      "UC-002",
-      "UC-003",
-      "UC-007",
       "UC-008",
-      "UC-009",
       "UC-011"
     ],
-    "id": "US-224",
+    "id": "US-190",
     "rawRequirementId": "RREQ-005"
   },
   {
-    "title": "Cognitive Stimulation Games",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to engage in interactive games tailored to my cognitive abilities so that I can maintain my mental sharpness without feeling monitored.",
-    "priority": "1",
+    "title": "Personalized Interaction History \u2013 Tracking User Interactions for Tailored Suggestions",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to track my interactions so that it can provide me with personalized suggestions and reminders that help me maintain my cognitive abilities and manage my appointments without feeling monitored.",
+    "priority": 2,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
       "UC-001",
-      "UC-002",
-      "UC-003",
-      "UC-007",
       "UC-008",
-      "UC-009",
       "UC-011"
     ],
-    "id": "US-225",
+    "id": "US-191",
     "rawRequirementId": "RREQ-006"
   },
   {
-    "title": "User-Friendly Guidance and Error Recovery",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want clear and simple guidance for using ALFRED, so that I can confidently manage my daily tasks without feeling overwhelmed or monitored.",
-    "priority": "2",
+    "title": "Multimodal Interaction Support for Cognitive Engagement",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to interact with ALFRED using both voice commands and visual cues so that I can effectively engage with the system while feeling supported and independent.",
+    "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
       "UC-001",
-      "UC-002",
-      "UC-003",
-      "UC-007",
       "UC-008",
-      "UC-009",
       "UC-011"
     ],
-    "id": "US-226",
+    "id": "US-192",
     "rawRequirementId": "RREQ-007"
   },
   {
-    "title": "Voice Recognition for Personalized Interaction",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to accurately recognize my voice commands so that I can manage my daily tasks effortlessly without feeling monitored.",
-    "priority": "2",
+    "title": "Adaptive Learning and Improvement \u2013 Learning User Preferences Over Time",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to learn my preferences over time so that it can provide personalized support without making me feel monitored.",
+    "priority": 2,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
       "UC-001",
-      "UC-002",
-      "UC-003",
-      "UC-007",
       "UC-008",
-      "UC-009",
       "UC-011"
     ],
-    "id": "US-227",
+    "id": "US-193",
     "rawRequirementId": "RREQ-008"
-  },
-  {
-    "title": "Voice Command Task Execution",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to issue voice commands to ALFRED for managing my daily tasks so that I can maintain my independence and stay organized without feeling monitored.",
-    "priority": "2",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Older Adults",
-    "personaId": "P-007",
-    "useCases": [
-      "UC-001",
-      "UC-002",
-      "UC-003",
-      "UC-007",
-      "UC-008",
-      "UC-009",
-      "UC-011"
-    ],
-    "id": "US-228",
-    "rawRequirementId": "RREQ-009"
-  },
-  {
-    "title": "Personalized Voice Command Settings for Independent Interaction",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to customize my voice command settings so that I can interact with ALFRED in a way that feels empowering and comfortable for me, without feeling monitored.",
-    "priority": "2",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Older Adults",
-    "personaId": "P-007",
-    "useCases": [
-      "UC-001",
-      "UC-002",
-      "UC-003",
-      "UC-007",
-      "UC-008",
-      "UC-009",
-      "UC-011"
-    ],
-    "id": "US-229",
-    "rawRequirementId": "RREQ-010"
   }
 ]

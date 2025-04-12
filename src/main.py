@@ -24,7 +24,7 @@ def main():
     print("\n📁 Loading user personas...")
     persona_loader = UserPersonaLoader()
     persona_loader.load()
-    persona_loader.print_all_personas()
+    # persona_loader.print_all_personas()
 
     # Step 2: Load/Generate use cases
     print("\n============================================================== LOAD / GENERATE USE CASES =============================================================")
@@ -42,7 +42,7 @@ def main():
     
     #   Step 2b: Enrich with scenarios and personas (Phase 2)
     print("\n🔍 Beginning scenario enrichment...")
-    enrich_use_cases_with_scenarios()
+    enrich_use_cases_with_scenarios(persona_loader)
 
     print("\n📋 Final Use Cases Summary:")
     use_case_loader = UseCaseLoader()
@@ -60,7 +60,7 @@ def main():
         print("✅ Filtered raw requirements already exist. Skipping analysis.")
     else:
         print("📊 Filtering raw requirements based on persona relevance...")
-        analyze_requirements()
+        analyze_requirements(persona_loader)
 
     # Step 5: Generate Persona-Based User Stories
     print("\n============================================================ GENERATE USER STORIES ==================================================================")

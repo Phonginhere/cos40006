@@ -1,110 +1,59 @@
 [
   {
-    "title": "Enhance Group Communication for Social Engagement Among Patients",
-    "summary": "As a home-care nurse, I want to facilitate group communication among my patients so that they can engage with each other, reducing feelings of isolation and promoting social interaction.",
-    "priority": "2",
+    "title": "Facilitate Group Communication for Social Engagement",
+    "summary": "As a home-care nurse, I want ALFRED to support group communications among my patients so that I can help socially isolated individuals connect with each other and maintain their emotional well-being.",
+    "priority": 2,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
-      "UC-002",
-      "UC-004",
-      "UC-005",
-      "UC-006",
-      "UC-011",
-      "UC-012"
+      "UC-004"
     ],
-    "id": "US-117",
-    "rawRequirementId": "RREQ-062"
+    "id": "US-101",
+    "rawRequirementId": "RREQ-050"
   },
   {
-    "title": "Activity Recommendations to Enhance Patient Engagement",
-    "summary": "As a home-care nurse, I want ALFRED to suggest personalized activities for my patients so that I can help prevent their social isolation and encourage their physical and cognitive engagement.",
-    "priority": "1",
+    "title": "Adaptive Social Engagement Strategies",
+    "summary": "As a home-care nurse, I want ALFRED to customize social engagement strategies based on my patients' health status and mobility so that I can effectively support socially isolated patients and enhance their emotional well-being.",
+    "priority": 2,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
-      "UC-002",
       "UC-004",
       "UC-005",
       "UC-006",
-      "UC-011",
-      "UC-012"
+      "UC-007"
     ],
-    "id": "US-118",
-    "rawRequirementId": "RREQ-063"
+    "id": "US-102",
+    "rawRequirementId": "RREQ-052"
   },
   {
-    "title": "Feedback System for Tailoring Social Activity Recommendations",
-    "summary": "As a home-care nurse, I want to receive feedback on the social activities recommended for my patients so that I can better support their emotional well-being and ensure they engage in activities that truly interest them.",
-    "priority": "2",
+    "title": "Community Support Network Integration \u2013 Connection to Local Support Groups and Clubs",
+    "summary": "As a home-care nurse, I want to connect my socially isolated patients with local support groups and clubs so that they can engage in community activities and enhance their emotional wellbeing.",
+    "priority": 2,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
-      "UC-002",
-      "UC-004",
-      "UC-005",
-      "UC-006",
-      "UC-011",
-      "UC-012"
+      "UC-004"
     ],
-    "id": "US-119",
-    "rawRequirementId": "RREQ-065"
+    "id": "US-103",
+    "rawRequirementId": "RREQ-053"
   },
   {
-    "title": "Health Monitoring Integration",
-    "summary": "As a home-care nurse, I want to continuously track my patients' vital signs and receive real-time updates so that I can monitor their health status efficiently and intervene early when necessary.",
-    "priority": "2",
+    "title": "Safety and Well-Being Check-Ins",
+    "summary": "As a home-care nurse, I want ALFRED to prompt my patients to report their well-being regularly so that I can monitor their emotional and physical health effectively, especially for those who are socially isolated.",
+    "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
-      "UC-002",
-      "UC-004",
       "UC-005",
       "UC-006",
-      "UC-011",
-      "UC-012"
+      "UC-004"
     ],
-    "id": "US-120",
-    "rawRequirementId": "RREQ-067"
-  },
-  {
-    "title": "Support for Social Engagement Activities for Isolated Patients",
-    "summary": "As a home-care nurse, I want ALFRED to recommend and facilitate social engagement activities for my isolated patients so that I can help them stay connected and improve their emotional well-being.",
-    "priority": "2",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-002",
-      "UC-004",
-      "UC-005",
-      "UC-006",
-      "UC-011",
-      "UC-012"
-    ],
-    "id": "US-121",
-    "rawRequirementId": "RREQ-068"
-  },
-  {
-    "title": "Tailored Social Interaction Alerts for Caregivers",
-    "summary": "As a home-care nurse, I want to receive alerts about my patients' social interactions so that I can ensure they are engaged and not feeling isolated.",
-    "priority": "2",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-002",
-      "UC-004",
-      "UC-005",
-      "UC-006",
-      "UC-011",
-      "UC-012"
-    ],
-    "id": "US-122",
-    "rawRequirementId": "RREQ-070"
+    "id": "US-104",
+    "rawRequirementId": "RREQ-056"
   }
 ]

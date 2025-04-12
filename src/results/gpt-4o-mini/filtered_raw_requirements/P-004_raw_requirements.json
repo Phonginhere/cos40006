@@ -1,353 +1,302 @@
 [
   {
     "personaId": "P-004",
-    "reqId": "RREQ-051",
-    "title": "Voice Commands for Efficient Patient Monitoring",
+    "reqId": "RREQ-041",
+    "title": "Natural Language Interaction - Voice Recognition for Task Execution",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "priority": "1",
+    "priority": 1,
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike, as a home-care nurse, will benefit from the natural language understanding feature to efficiently interact with the ALFRED system while monitoring his patients. Using voice commands aligns with his goal of maintaining communication and managing health information quickly, especially given his busy schedule and the need for hands-free operation during patient care."
+    "justification": "Mike needs to efficiently monitor his patients' health and maintain communication with them, which can be facilitated through voice commands for quick access to vital information. This aligns with his goal of providing effective remote care while managing time constraints due to travel.",
+    "subOption": "Voice recognition for task execution"
+  },
+  {
+    "personaId": "P-004",
+    "reqId": "RREQ-042",
+    "title": "Real-Time Health Monitoring Alerts – Notifications for Caregivers on Abnormal Readings",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": 1,
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "Mike needs to efficiently monitor his patients' health status and receive real-time alerts regarding any anomalies in their vital signs, which directly supports his goal of providing preventative care and early intervention.",
+    "subOption": "Notifications for caregivers on abnormal readings"
+  },
+  {
+    "personaId": "P-004",
+    "reqId": "RREQ-043",
+    "title": "Seamless Communication Channels – Video Calling Capabilities",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": 1,
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "Mike Johnson's role as a home-care nurse involves maintaining regular communication with his patients, especially those who are socially isolated. Video calling capabilities would enhance his ability to connect with these patients, providing a more personal touch to remote monitoring and care.",
+    "subOption": "Video calling capabilities"
+  },
+  {
+    "personaId": "P-004",
+    "reqId": "RREQ-044",
+    "title": "Simplified User Interface - Intuitive Navigation for Quick Access",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": 1,
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "Mike needs to efficiently monitor patients' health and maintain communication with them, requiring quick access to critical information. An intuitive navigation system aligns with his goal of managing care remotely, especially given his challenges with long travel times and limited resources.",
+    "subOption": "Intuitive navigation for quick access"
+  },
+  {
+    "personaId": "P-004",
+    "reqId": "RREQ-045",
+    "title": "Contextual Assistance Features - Context-Aware Prompts for Health Management",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": 2,
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "Mike needs to monitor his patients' health effectively and support their emotional well-being. Context-aware prompts can facilitate timely interventions and ensure he remains connected with socially isolated patients, addressing both his core goals and challenges.",
+    "subOption": "Context-aware prompts for health management"
+  },
+  {
+    "personaId": "P-004",
+    "reqId": "RREQ-046",
+    "title": "Privacy-Respecting Data Access – User-Controlled Consent for Data Sharing",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": 1,
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "Mike, as a home-care nurse, needs to access his patients' health data to monitor their well-being effectively. User-controlled consent empowers older adults to maintain their privacy while allowing Mike to obtain necessary information for care, aligning with his goal of providing personalized and respectful support.",
+    "subOption": "User-controlled consent for data sharing"
+  },
+  {
+    "personaId": "P-004",
+    "reqId": "RREQ-047",
+    "title": "Task Management Support - Reminders for Caregiving Tasks",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": 2,
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "Mike needs to efficiently monitor his patients' health and maintain communication, and reminders for caregiving tasks would help him stay organized and ensure that critical care activities are not overlooked, especially given the long travel times between patient visits.",
+    "subOption": "Reminders for caregiving tasks"
+  },
+  {
+    "personaId": "P-004",
+    "reqId": "RREQ-048",
+    "title": "Feedback Mechanisms for Improvement – Reporting Tools for Caregiver Experiences",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": 2,
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "As a home-care nurse, Mike needs to monitor his patients' health effectively and coordinate care, which can be enhanced through feedback mechanisms that allow him to report on his experiences and challenges with the system. This aligns with his goal of providing preventative care and maintaining communication with his patients.",
+    "subOption": "Reporting tools for caregiver experiences"
+  },
+  {
+    "personaId": "P-004",
+    "reqId": "RREQ-050",
+    "title": "Social Interaction Facilitation – Support for Group Communications Among Users",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "priority": 2,
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "Mike emphasizes maintaining connections with socially isolated patients, and facilitating group communications can enhance social interaction for these individuals, directly supporting his goal of fostering engagement and connection.",
+    "subOption": "Support for group communications among users"
   },
   {
     "personaId": "P-004",
     "reqId": "RREQ-052",
-    "title": "Voice Feedback for Patient Health Monitoring",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "priority": "2",
+    "title": "Adaptive Social Engagement Strategies - Customization Based on Health Status and Mobility",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "priority": 2,
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "The requirement for voice feedback aligns with Mike's goal of efficiently monitoring patients' health, as it allows for hands-free interaction when he is busy with other tasks. Voice feedback can enhance communication with older patients, ensuring they feel supported and understood, which is crucial for maintaining their connection and addressing their emotional wellbeing."
+    "justification": "Mike's role as a home-care nurse involves supporting elderly patients, particularly those who are socially isolated. Customization based on health status and mobility can help him create tailored engagement strategies that enhance the well-being of his patients, enabling him to monitor their health while fostering social connections.",
+    "subOption": "Customization based on health status and mobility"
   },
   {
     "personaId": "P-004",
     "reqId": "RREQ-053",
-    "title": "Streamlined Access to Patient Health Monitoring Data",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "priority": "1",
+    "title": "Community Support Network Integration – Connection to Local Support Groups and Clubs",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "priority": 2,
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "The requirement for simplified access to health monitoring data is relevant to Mike Johnson, as it directly supports his goal of efficiently monitoring patients' health status and managing care remotely. Quick access to vital health metrics will help him address challenges related to long travel times and managing care between visits."
-  },
-  {
-    "personaId": "P-004",
-    "reqId": "RREQ-054",
-    "title": "Tailored Voice Interaction Features for Caregivers",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "priority": "3",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "Customizable voice interaction settings would enable Mike to tailor ALFRED's voice commands to better suit his communication style, improving his efficiency in monitoring patients and maintaining contact with socially isolated individuals. This aligns directly with his core goal of efficiently monitoring health and supporting patients."
-  },
-  {
-    "personaId": "P-004",
-    "reqId": "RREQ-055",
-    "title": "Integration of Communication Tools for Effective Patient Engagement",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "priority": "2",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "This requirement is relevant because Mike, as a home-care nurse, needs effective communication tools to maintain regular contact with his patients, especially those who are socially isolated. Integrating communication tools would support his goal of providing preventative care and early intervention by facilitating timely updates and communication."
+    "justification": "Mike works as a home-care nurse and provides care to elderly patients who may be socially isolated. Facilitating connections to local support groups can help him address their social needs and improve their emotional well-being, supporting his goal of maintaining a connection with socially isolated patients.",
+    "subOption": "Connection to local support groups and clubs"
   },
   {
     "personaId": "P-004",
     "reqId": "RREQ-056",
-    "title": "Intuitive Interface for Efficient Health Monitoring",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "priority": "1",
+    "title": "Safety and Well-Being Check-Ins – Regular Prompts for Users to Report Well-Being",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "priority": 1,
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "The requirement for a user-friendly interface aligns with Mike's need for ease of use when accessing critical patient information quickly, especially given the time constraints he faces as a rural home-care nurse."
+    "justification": "Mike is focused on monitoring his patients' health status and maintaining communication with them. Regular prompts for users to report their well-being would facilitate timely updates on their health, which is crucial for his role as a home-care nurse in rural settings.",
+    "subOption": "Regular prompts for users to report well-being"
   },
   {
     "personaId": "P-004",
     "reqId": "RREQ-057",
-    "title": "Contextual Assistance for Caregiver Task Management",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "priority": "3",
+    "title": "Comprehensive Health Metrics Integration - Real-Time Data Synchronization",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": 1,
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike Johnson, as a home-care nurse, interacts with the ALFRED system to monitor patients' health and communicate effectively with them. Contextual help and support features would assist him in navigating the system quickly and efficiently, which aligns with his goal of maintaining regular communication and supporting isolated patients."
+    "justification": "Mike needs to monitor his patients' health metrics effectively and receive timely alerts for any anomalies. Real-time data synchronization allows him to keep track of vital signs and respond promptly, which is essential given his remote working context and the urgency of early intervention.",
+    "subOption": "Real-time data synchronization"
   },
   {
     "personaId": "P-004",
     "reqId": "RREQ-058",
-    "title": "Personalized Health Check and Appointment Reminders for Caregivers",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "priority": "2",
+    "title": "Proactive Health Intervention Alerts – Threshold-Based Alerts for Critical Health Metrics",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": 1,
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "The requirement for personalized reminders for health checks and appointments aligns with Mike's core goals of monitoring his patients' health status efficiently and maintaining regular communication. Such reminders would assist him in ensuring timely health assessments and follow-ups, which are critical for the elderly patients he cares for."
+    "justification": "Mike needs to monitor his patients' health status efficiently and ensure early intervention when vital signs change. Threshold-based alerts will help him respond promptly to any critical health issues, addressing both his goals of providing preventative care and maintaining connection with patients.",
+    "subOption": "Threshold-based alerts for critical health metrics"
   },
   {
     "personaId": "P-004",
     "reqId": "RREQ-059",
-    "title": "Voice and Touch Interaction for Efficient Patient Monitoring",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "priority": "4",
+    "title": "Care Plan Customization Tools – Collaborative Care Plan Sharing with Multiple Caregivers",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": 1,
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike Johnson, as a home-care nurse, will benefit from multimodal interaction options since they allow him to efficiently communicate with the ALFRED system while monitoring patients' health. The ability to use both voice and touch interfaces aligns with his need for ease of use and quick access to information during patient visits, especially in rural settings where he may be managing multiple tasks."
+    "justification": "Mike's role as a home-care nurse involves coordinating care across multiple patients, often in rural settings. The ability to share care plans collaboratively allows him to efficiently monitor and manage his patients' health, ensuring that all caregivers are informed and aligned on patient needs, which addresses his challenges with remote patient management.",
+    "subOption": "Collaborative care plan sharing with multiple caregivers"
   },
   {
     "personaId": "P-004",
     "reqId": "RREQ-060",
-    "title": "Privacy Controls for Remote Caregiver Access to Patient Data",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "priority": "1",
+    "title": "Holistic Wellness Tracking – Integration of Physical and Mental Health Metrics",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": 1,
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike Johnson, as a home-care nurse, needs to access sensitive health data for his patients. Privacy controls are crucial to ensure that he can monitor his patients' health while respecting their privacy preferences, which aligns with his goal of maintaining effective communication and providing personalized care."
+    "justification": "Mike, as a home-care nurse, needs to monitor both the physical and mental health of his elderly patients to provide comprehensive care. Integrating these metrics allows him to efficiently track overall wellness and respond proactively to any changes.",
+    "subOption": "Integration of physical and mental health metrics"
+  },
+  {
+    "personaId": "P-004",
+    "reqId": "RREQ-061",
+    "title": "Caregiver Collaboration Features – Team Chat Functionality for Real-Time Communication",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": 2,
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "Mike needs to maintain regular communication with his patients and coordinate care across rural communities. Real-time communication via team chat would facilitate quick updates and support his goal of providing timely interventions and maintaining connections with socially isolated patients.",
+    "subOption": "Team chat functionality for real-time communication"
   },
   {
     "personaId": "P-004",
     "reqId": "RREQ-062",
-    "title": "Enhance Group Communication for Social Engagement Among Patients",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "priority": "2",
+    "title": "User-Centric Data Visualization – Periodic Summary Reports for Caregivers",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": 1,
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "The requirement for facilitating group communication aligns with Mike's goal of maintaining regular communication with patients, especially those who are socially isolated. By enabling group communication, Mike can enhance social engagement for his patients, which is critical in overcoming their isolation challenges."
+    "justification": "Mike needs to monitor his patients' health efficiently and provide early intervention, which can be greatly supported by periodic summary reports that highlight health trends and anomalies. This feature aligns with his core goals of maintaining communication and monitoring patient health remotely.",
+    "subOption": "Periodic summary reports for caregivers"
   },
   {
     "personaId": "P-004",
     "reqId": "RREQ-063",
-    "title": "Activity Recommendations to Enhance Patient Engagement",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "priority": "1",
+    "title": "Secure Data Sharing Protocols - Granular Access Controls for Caregivers",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": 1,
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike Johnson, as a home-care nurse, focuses on supporting socially isolated elderly patients and maintaining regular communication with them. Personalized activity suggestions can help him recommend engaging activities to his patients, thus addressing their emotional wellbeing and combating isolation, which aligns with his core goals."
+    "justification": "Mike needs to securely monitor his patients' health and communicate with them while respecting their privacy. Granular access controls ensure that he can access the necessary health data without compromising the older adults' privacy preferences, which is essential for effective care management.",
+    "subOption": "Granular access controls for caregivers"
   },
   {
     "personaId": "P-004",
-    "reqId": "RREQ-065",
-    "title": "Feedback System for Tailoring Social Activity Recommendations",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "priority": "2",
+    "reqId": "RREQ-064",
+    "title": "Integrated Medication Management – Automated Medication Reminders",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": 1,
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "The requirement for a user feedback mechanism for social activity preferences is relevant to Mike Johnson because it directly supports his goal of maintaining connections with socially isolated patients. By using this feedback mechanism, he can better understand and recommend social activities that align with his patients' interests, ultimately enhancing their social inclusion."
-  },
-  {
-    "personaId": "P-004",
-    "reqId": "RREQ-067",
-    "title": "",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "priority": "2",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike Johnson, as a home-care nurse, needs to maintain communication with socially isolated patients, which benefits from accessibility features in social interaction tools. These features enable him to engage patients effectively and support their emotional well-being, aligning with his core goals and challenges."
+    "justification": "Mike, as a home-care nurse, is responsible for monitoring his patients' health and ensuring they adhere to their medication schedules. Automated medication reminders will help him support his patients, particularly those who are elderly and may struggle with remembering to take their medications, thus facilitating preventative care and early intervention.",
+    "subOption": "Automated medication reminders"
   },
   {
     "personaId": "P-004",
     "reqId": "RREQ-068",
-    "title": "Support for Social Engagement Activities for Isolated Patients",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "priority": "3",
+    "title": "Social Engagement Activities – Family-Involved Activities to Boost Connection",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "priority": 2,
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "The requirement for supporting virtual community groups and activities aligns with Mike's goal of maintaining regular communication with socially isolated patients. By enabling social engagement, it helps him fulfill his responsibility to support the emotional well-being of his patients."
-  },
-  {
-    "personaId": "P-004",
-    "reqId": "RREQ-070",
-    "title": "Tailored Social Interaction Alerts for Caregivers",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "priority": "3",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "The customization options for social interaction notifications are relevant to Mike as they would help him maintain regular communication with socially isolated patients, aligning with his core goals of supporting their social needs. Given his focus on integrating technology into home care, having tailored notifications can enhance his ability to engage with patients effectively."
+    "justification": "Mike aims to maintain regular communication with his patients and support those who are socially isolated. Family-involved activities can enhance the connection between older adults and their families, which aligns with his goal of ensuring the well-being of his patients.",
+    "subOption": "Family-involved activities to boost connection"
   },
   {
     "personaId": "P-004",
     "reqId": "RREQ-071",
-    "title": "Real-Time Alerts for Patient Health Monitoring",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "1",
+    "title": "Holistic Wellness Integration – Alerts for Caregivers on Holistic Health Trends",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "priority": 2,
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike, as a home-care nurse, needs to efficiently monitor his patients' health status and respond to any anomalies. Real-time health monitoring alerts directly support his goal of early detection of health status changes, making this requirement essential for his responsibilities."
+    "justification": "Mike's core goals include monitoring patients' health and providing preventative care. Alerts on holistic health trends would enable him to quickly detect any concerning changes in his patients' overall well-being, supporting his proactive care approach.",
+    "subOption": "Alerts for caregivers on holistic health trends"
   },
   {
     "personaId": "P-004",
     "reqId": "RREQ-072",
-    "title": "Secure Communication Platform for Caregivers",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "2",
+    "title": "User-Centric Learning Resources – Guidelines for Caregivers on Promoting Engagement",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "priority": 2,
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "The secure messaging system directly supports Mike's goal of maintaining regular communication with his patients and coordinating care across rural communities. This feature allows him to communicate effectively with older adults, ensuring he can provide timely updates and support, which aligns with his responsibilities as a home-care nurse."
+    "justification": "Mike focuses on supporting socially isolated patients and maintaining regular communication with them. Guidelines for caregivers on promoting engagement will help him implement effective strategies to encourage participation in physical and cognitive activities, directly aligning with his goals of providing preventative care and early intervention.",
+    "subOption": "Guidelines for caregivers on promoting engagement"
   },
   {
     "personaId": "P-004",
     "reqId": "RREQ-073",
-    "title": "User-Friendly Health Metrics Dashboard for Caregivers",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "1",
+    "title": "Remote Care Coordination Tools - Real-time Updates on Patient Status",
+    "pillar": "General Requirements",
+    "priority": 1,
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "The intuitive dashboard for health metrics overview directly supports Mike's core goal of efficiently monitoring patients' health status, as it would allow him quick access to vital signs and health data. This aligns with his responsibilities as a home-care nurse who needs to manage patient care remotely and provide timely interventions."
+    "justification": "Mike needs to monitor his patients' health efficiently and respond quickly to any changes. Real-time updates on patient status directly support his goal of early detection of health status changes and maintaining communication with socially isolated patients.",
+    "subOption": "Real-time updates on patient status"
   },
   {
     "personaId": "P-004",
     "reqId": "RREQ-074",
-    "title": "Tailored Health Alerts for Home-Care Nurses",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "3",
+    "title": "Personalized Data Privacy Controls – Granular Access Settings for Caregivers",
+    "pillar": "General Requirements",
+    "priority": 2,
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "The requirement for customization of health notifications directly supports Mike's goal of efficiently monitoring his patients' health and provides him with essential alerts for early detection of health status changes. Customizable notifications would help him manage care tasks effectively, especially in a rural setting where he may be remote from his patients."
+    "justification": "Mike, as a home-care nurse, needs to access critical health data while ensuring that the privacy of his patients is respected. Granular access settings allow him to tailor what information he can see and share, which aligns with his goal of providing personalized care and maintaining communication with patients.",
+    "subOption": "Granular access settings for caregivers"
   },
   {
     "personaId": "P-004",
     "reqId": "RREQ-075",
-    "title": "Integration with Health Data Sources for Enhanced Patient Monitoring",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "2",
+    "title": "Intuitive Data Interpretation Tools – Alerts for Significant Changes in Health Metrics",
+    "pillar": "General Requirements",
+    "priority": 1,
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "This requirement is relevant because Mike, as a home-care nurse, is responsible for monitoring his patients' health and needs comprehensive tracking of health metrics to ensure timely interventions. The integration with health data sources directly supports his goal of efficient health monitoring and aligns with his challenges of managing care remotely."
+    "justification": "Mike needs to monitor his patients' health status efficiently, and alerts for significant changes in health metrics would enable him to respond quickly to any issues, supporting his goal of providing preventative care and early intervention.",
+    "subOption": "Alerts for significant changes in health metrics"
   },
   {
     "personaId": "P-004",
     "reqId": "RREQ-076",
-    "title": "Automated Check-In Reminders for Patient Monitoring",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "1",
+    "title": "Flexible Communication Options – Video Conferencing Capabilities for Virtual Check-Ins",
+    "pillar": "General Requirements",
+    "priority": 1,
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "Scheduled check-in reminders are crucial for Mike as they enable him to maintain regular communication with his patients, ensuring continuity of care, especially given his focus on supporting socially isolated patients. These reminders help him efficiently monitor their health status and coordinate care across rural communities."
+    "justification": "Mike's role as a home-care nurse requires maintaining regular communication with his patients, especially those who are socially isolated. Video conferencing capabilities would enable him to conduct virtual check-ins, ensuring he can monitor their health and emotional well-being effectively.",
+    "subOption": "Video conferencing capabilities for virtual check-ins"
   },
   {
     "personaId": "P-004",
     "reqId": "RREQ-077",
-    "title": "Video Consultation Support for Home-Care Nurses",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "2",
+    "title": "Adaptive User Training Resources – Support Resources Tailored to Caregiver Experience Levels",
+    "pillar": "General Requirements",
+    "priority": 2,
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "The requirement for video consultations with medical staff is relevant to Mike Johnson because it supports his goal of maintaining regular communication with patients and facilitates effective remote monitoring. Given his role as a home-care nurse, this feature would enable him to connect with both patients and other healthcare professionals, enhancing his ability to provide timely care and support."
+    "justification": "Mike, as a home-care nurse, needs to efficiently monitor his patients and communicate with them. Having adaptive training resources tailored to his experience level will help him utilize the ALFRED system effectively without getting bogged down by unnecessary complexity, thus enhancing his ability to provide timely care and support.",
+    "subOption": "Support resources tailored to caregiver experience levels"
   },
   {
     "personaId": "P-004",
     "reqId": "RREQ-078",
-    "title": "",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "1",
+    "title": "Emergency Response Features - Instant Alerts for Caregivers During Emergencies",
+    "pillar": "General Requirements",
+    "priority": 1,
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "The requirement for user consent management is relevant to Mike as he needs to access health data of his patients while respecting their privacy preferences. This aligns with his goals of providing effective and personalized care, ensuring that he can monitor health metrics without compromising patient autonomy."
+    "justification": "Mike, as a home-care nurse, needs to efficiently monitor his patients and respond quickly to health changes. Instant alerts during emergencies would enable him to provide timely interventions, thereby supporting his goal of early detection of health status changes.",
+    "subOption": "Instant alerts for caregivers during emergencies"
   },
   {
     "personaId": "P-004",
     "reqId": "RREQ-079",
-    "title": "Caregiver Engagement Analytics for Enhanced Patient Support",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "4",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "The requirement for analytics on caregiver activity and engagement tracking aligns with Mike's goal of maintaining regular communication with patients and supporting socially isolated individuals. By providing insights into caregiver interactions and engagement levels, this feature can help him optimize his efforts and ensure effective monitoring of his patients' health."
-  },
-  {
-    "personaId": "P-004",
-    "reqId": "RREQ-080",
-    "title": "User Training for Caregivers on Effective ALFRED Utilization",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "3",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "The training resources for caregivers on ALFRED use are relevant to Mike because they would enable him to efficiently monitor his patients' health and effectively utilize the platform's features for remote patient monitoring and communication. Given his role as a home-care nurse, having access to such resources would help him overcome challenges related to managing patient care remotely and coordinating with other healthcare providers."
-  },
-  {
-    "personaId": "P-004",
-    "reqId": "RREQ-083",
-    "title": "Personalized Activity Monitoring for Enhanced Patient Care",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "priority": "2",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "The requirement for personalized activity tracking is relevant to Mike Johnson as it aligns with his goal of providing preventative care and early intervention for his elderly patients, particularly those who may be socially isolated. By tracking physical and cognitive activities, Mike can better understand his patients' well-being and adjust care plans accordingly."
-  },
-  {
-    "personaId": "P-004",
-    "reqId": "RREQ-084",
-    "title": "Guided Exercise Reminders for Elderly Patients",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "priority": "2",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "The requirement for 'Guided Reminders for Physical Exercises' is relevant as Mike Johnson, as a home-care nurse specializing in elderly patients, aims to support the physical health of his patients, and such reminders can help him achieve his goal of providing preventative care and early intervention."
-  },
-  {
-    "personaId": "P-004",
-    "reqId": "RREQ-090",
-    "title": "Virtual Coaching for Patient Engagement in Physical and Cognitive Activities",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "priority": "3",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike Johnson, as a home-care nurse, is focused on supporting his elderly patients, including preventing physical and cognitive decline. Virtual coaching for activities aligns with his goal of providing preventative care and cognitive stimulation, which are crucial for maintaining the health and well-being of his patients."
-  },
-  {
-    "personaId": "P-004",
-    "reqId": "RREQ-091",
-    "title": "",
+    "title": "Holistic Wellness Insights – Integration of Physical and Emotional Health Data",
     "pillar": "General Requirements",
-    "priority": "1",
+    "priority": 1,
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "The requirement for real-time data access directly supports Mike's goal of efficiently monitoring his patients' health status and enables him to detect any health status changes early. Timely access to health metrics is essential for him to provide effective care remotely."
-  },
-  {
-    "personaId": "P-004",
-    "reqId": "RREQ-092",
-    "title": "Real-Time Alerts for Patient Health Anomalies",
-    "pillar": "General Requirements",
-    "priority": "1",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "The requirement for alerts on health metric anomalies is highly relevant to Mike as it directly supports his need for regular monitoring of his patients' health status and facilitates early detection of any health issues, which is crucial for providing effective care in a rural setting."
-  },
-  {
-    "personaId": "P-004",
-    "reqId": "RREQ-093",
-    "title": "Secure Patient Data Access for Caregivers",
-    "pillar": "General Requirements",
-    "priority": "1",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "The requirement for secure access management is relevant to Mike as it ensures that he can access sensitive health data of his patients while respecting their privacy preferences. Given his role as a home-care nurse, maintaining the confidentiality and security of patient information is essential for effective and ethical care."
-  },
-  {
-    "personaId": "P-004",
-    "reqId": "RREQ-094",
-    "title": "Intuitive Health Insights Dashboard for Caregivers",
-    "pillar": "General Requirements",
-    "priority": "2",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "The user-friendly dashboard for health insights aligns with Mike's core goals of efficiently monitoring patients' health status and maintaining regular communication with them. As a home-care nurse, having a simple and accessible interface to view critical health data can help him manage care tasks more effectively, particularly given his challenges with long travel times and remote patient monitoring."
-  },
-  {
-    "personaId": "P-004",
-    "reqId": "RREQ-095",
-    "title": "User-Friendly Communication Features for Caregivers",
-    "pillar": "General Requirements",
-    "priority": "2",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "The requirement for simplified communication tools directly supports Mike's goal of maintaining regular communication with his patients, especially those who are socially isolated. Easy-to-use communication features would help him effectively connect with patients and their families, aligning with his focus on emotional wellbeing."
-  },
-  {
-    "personaId": "P-004",
-    "reqId": "RREQ-096",
-    "title": "Training and Support Resources for Healthcare Providers",
-    "pillar": "General Requirements",
-    "priority": "3",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike Johnson, as a home-care nurse, would benefit from training and support resources to effectively utilize the ALFRED system for remote monitoring and care coordination. Given his need to manage patient care remotely and maintain communication with socially isolated patients, effective training resources would enhance his ability to meet these goals."
-  },
-  {
-    "personaId": "P-004",
-    "reqId": "RREQ-097",
-    "title": "Integration with Emergency Response for Patient Safety",
-    "pillar": "General Requirements",
-    "priority": "2",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "The integration with emergency response services is crucial for Mike as a home-care nurse, enabling him to ensure the safety and well-being of his patients, particularly those who may experience health emergencies. This aligns with his core goal of providing preventative care and early intervention."
-  },
-  {
-    "personaId": "P-004",
-    "reqId": "RREQ-098",
-    "title": "Tailored Alerts for Remote Patient Monitoring",
-    "pillar": "General Requirements",
-    "priority": "3",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "The customizable notifications for caregiver alerts are essential for Mike, as they would enable him to receive timely updates and alerts regarding his patients' health metrics, aligning with his goal of efficiently monitoring patients' health and supporting socially isolated individuals."
-  },
-  {
-    "personaId": "P-004",
-    "reqId": "RREQ-099",
-    "title": "Comprehensive Logging of Patient Care Activities",
-    "pillar": "General Requirements",
-    "priority": "4",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "The requirement for 'Data Logging for Caregiving Activities' is relevant to Mike Johnson as it supports his role in monitoring patients' health status, coordinating care, and documenting care plans, all of which are critical tasks he performs as a home-care nurse."
-  },
-  {
-    "personaId": "P-004",
-    "reqId": "RREQ-100",
-    "title": "Feedback Mechanism for Enhancing Caregiver Interaction",
-    "pillar": "General Requirements",
-    "priority": "3",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "The feedback mechanism for caregiver experience is relevant as Mike Johnson, a home-care nurse, will likely benefit from insights on how effectively he can monitor patients and engage with them through the ALFRED system. This aligns with his core goal of maintaining regular communication and providing early intervention, ultimately enhancing his ability to support socially isolated patients."
+    "justification": "Mike's role as a home-care nurse involves monitoring the health status of elderly patients, which requires a comprehensive view of both physical and emotional health metrics to provide effective care and support, especially for socially isolated patients.",
+    "subOption": "Integration of physical and emotional health data"
   }
 ]

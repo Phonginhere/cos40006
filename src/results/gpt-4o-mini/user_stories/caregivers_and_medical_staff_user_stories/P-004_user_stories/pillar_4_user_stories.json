@@ -1,56 +1,45 @@
 [
   {
-    "title": "Personalized Activity Monitoring for Enhanced Patient Care",
-    "summary": "As a home-care nurse, I want to monitor my patients' health metrics and receive alerts for any anomalies so that I can provide timely interventions and support their well-being.",
-    "priority": "2",
+    "title": "Social Engagement Activities \u2013 Family-Involved Activities to Boost Connection",
+    "summary": "As a home-care nurse, I want to facilitate family-involved activities for my socially isolated patients so that they can maintain connections with loved ones and improve their emotional well-being.",
+    "priority": 2,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
-      "UC-002",
-      "UC-004",
-      "UC-005",
-      "UC-006",
-      "UC-011",
-      "UC-012"
+      "UC-004"
     ],
-    "id": "US-133",
-    "rawRequirementId": "RREQ-083"
+    "id": "US-113",
+    "rawRequirementId": "RREQ-068"
   },
   {
-    "title": "Guided Exercise Reminders for Elderly Patients",
-    "summary": "As a home-care nurse, I want ALFRED to provide guided exercise reminders for my patients so that I can support their physical health and encourage regular activity even when I am not present.",
-    "priority": "2",
+    "title": "Holistic Health Alerts for Caregivers",
+    "summary": "As a home-care nurse, I want to receive alerts on holistic health trends of my patients so that I can monitor their well-being and provide timely interventions, especially for those who are socially isolated.",
+    "priority": 2,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
-      "UC-002",
-      "UC-004",
       "UC-005",
-      "UC-006",
-      "UC-011",
-      "UC-012"
+      "UC-006"
     ],
-    "id": "US-134",
-    "rawRequirementId": "RREQ-084"
+    "id": "US-114",
+    "rawRequirementId": "RREQ-071"
   },
   {
-    "title": "Virtual Coaching for Patient Engagement in Physical and Cognitive Activities",
-    "summary": "As a home-care nurse, I want ALFRED to provide virtual coaching for my patients to engage them in physical and cognitive activities so that I can promote their health and well-being, even when I am not physically present.",
-    "priority": "2",
+    "title": "User-Centric Learning Resources \u2013 Guidelines for Caregivers on Promoting Engagement",
+    "summary": "As a home-care nurse, I want access to guidelines on promoting engagement for my patients so that I can effectively support their emotional wellbeing and social needs, particularly for those who are socially isolated.",
+    "priority": 2,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
-      "UC-002",
       "UC-004",
       "UC-005",
       "UC-006",
-      "UC-011",
-      "UC-012"
+      "UC-007"
     ],
-    "id": "US-135",
-    "rawRequirementId": "RREQ-090"
+    "id": "US-115",
+    "rawRequirementId": "RREQ-072"
   }
 ]

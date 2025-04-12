@@ -3,6 +3,8 @@ import re
 import json
 from typing import Dict
 from utils import get_llm_response, load_alfred_summary, load_user_group_summary, CURRENT_LLM
+from user_persona_loader import UserPersonaLoader
+from use_case_loader import UseCaseLoader
 
 # Constants
 PILLAR_KEYS = [
@@ -13,81 +15,7 @@ PILLAR_KEYS = [
     ("General Requirements", "general_user_stories.json"),
 ]
 
-def build_user_story_prompt(persona, usecase_descriptions, req, pillar_name, user_group, usecase_ids, alfred_summary):
-    group_key_map = {
-        "Older Adults": "older_adults",
-        "Caregivers and Medical Staff": "caregivers_and_medical_staff",
-        "Developers and App Creators": "developers_and_app_creators"
-    }
-
-    group_key = group_key_map.get(user_group)
-    group_summary = load_user_group_summary(group_key) if group_key else "No summary available."
-
-    return f"""
-You are generating a user story for the ALFRED system. Here is the context:
-
-### ALFRED System Summary:
-{alfred_summary}
-
-### User Group: {user_group}
-{group_summary}
-
-⚠️ IMPORTANT: The persona information provided below is the **primary and dominant source** for generating this story. Your response should reflect the specific needs, goals, context, and challenges of this persona. The raw requirement should serve only as a **general seed or inspiration**, not the core of the user story.
-### Persona:
-{json.dumps({
-    "Id": persona.id,
-    "Name": persona.name,
-    "Role": persona.role,
-    "Tagline": persona.tagline,
-    "Demographic data": persona.demographic_data,
-    "Core goals": persona.core_goals,
-    "Typical challenges": persona.typical_challenges,
-    "Singularities": persona.singularities,
-    "Working situation": persona.working_situation,
-    "Place of work": persona.place_of_work,
-    "Expertise": persona.expertise,
-    "Main tasks with system support": persona.main_tasks,
-    "Most important tasks": persona.most_important_tasks,
-    "Least important tasks": persona.least_important_tasks,
-    "Miscellaneous": persona.miscellaneous
-}, indent=2)}
-
-### Use Cases Associated with this Persona:
-{chr(10).join(usecase_descriptions)}
-
-### Raw Requirement:
-Title: {req['title']}
-Nominated Priority (This might be changed in your response based on the inputted persona): {req['priority']}
-
-### Task:
-If the requirement is clearly relevant and beneficial to this persona, generate one user story using this format:
-
-{{
-  "title": "...",
-  "summary": "As a [role], I want ... so that ...",
-  "priority": "2",
-  "pillar": "...",
-  "userGroup": "...",
-  "personaId": "P-...",
-  "useCases": ["UC...", "UC...", ...],
-}}
-
-### Example User Story, created from the user persona from group "Developers and App Creators", with the role "developer". DO NOT rely 100% on this example. This is just to help you understand the format and level of detail expected in the output. The user stories should be based on the user group summary (as specified above), ALFRED system summary, the persona information, the use cases associated, e.t.c, you’ve been provided, and they should reflect the specific needs of the given Persona in relation to the ALFRED system.)::
-{{
-  "title": "Usability",
-  "summary": "As a developer, I need an easy way to define questions (or actions) the user can ask and perform.",
-  "priority": "1",
-  "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-  "userGroup": "Developers and App Creators",
-  "personaId": "P-001",
-  "useCases": ["UC4.1"],
-}}
-
-If the requirement does not apply or is inconsistent with the persona, return only:
-null
-
-Strictly, do not include any additional text or commentary. Do NOT use any markdown, bold, italic, or special formatting in your response.
-"""
+FINAL_USER_STORY_DIR = os.path.join("results", CURRENT_LLM, "user_stories")
 
 
 def safe_clean_response(response: str) -> str:
@@ -112,89 +40,158 @@ def safe_clean_response(response: str) -> str:
 
     return response
 
-
-def generate_user_stories_by_persona(persona_loader, usecase_loader):
-    alfred_summary = load_alfred_summary()
-    output_root = os.path.join("results", CURRENT_LLM, "user_stories")
-    os.makedirs(output_root, exist_ok=True)
-
+def build_user_story_prompt(persona, req, pillar_name, user_group, alfred_summary):
     group_key_map = {
+        "Older Adults": "older_adults",
+        "Caregivers and Medical Staff": "caregivers_and_medical_staff",
+        "Developers and App Creators": "developers_and_app_creators"
+    }
+
+    group_key = group_key_map.get(user_group)
+    group_summary = load_user_group_summary(group_key) if group_key else "No summary available."
+
+    return f"""
+You are generating a user story for the ALFRED system. Here is the context:
+
+### ALFRED System Summary:
+{alfred_summary}
+
+### User Group: {user_group}
+{group_summary}
+
+⚠️ IMPORTANT: The persona information provided below is the **primary and dominant source** for generating this user story. Your response should reflect all information (e.g., the specific needs, goals, context, challenges, etc.) of this persona. The raw requirement, or even alfred system context, userGroup, should serve only as a **general seed or inspiration**, not the core of the user story. Sometimes, the information given in raw requirement in the context of ALFRED system summary may not be compatible with the information of the persona, in this case, the persona must be prioritized and the ALFRED system need to be flexible for this. This is the core funcationality of user stories.
+### Persona:
+{persona.to_prompt_string()}
+
+### Raw Requirement:
+Title: {req['title']}
+Pillar: {pillar_name} (This should be remained the same in your response)
+Nominated Priority: {req['priority']} (This should also be remained the same in your response)
+
+### Task: If the requirement is clearly relevant and beneficial to this persona, generate one user story using this format:
+
+{{
+  "title": "...",
+  "summary": "As a [role], I want ... so that ...",
+  "priority": 2,
+  "pillar": "...",
+  "userGroup": "...",
+  "personaId": "P-...",
+}}
+
+### Example User Story, created from the user persona from group "Developers and App Creators", with the role "developer". DO NOT rely 100% on this example. This is just to help you understand the format and level of detail expected in the output. The user stories should be based on the user group summary (as specified above), ALFRED system summary, the persona information, the use cases associated, e.t.c, you’ve been provided, and they should reflect the specific needs of the given Persona in relation to the ALFRED system.)::
+{{
+  "title": "Usability",
+  "summary": "As a developer, I need an easy way to define questions (or actions) the user can ask and perform.",
+  "priority": 1,
+  "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+  "userGroup": "Developers and App Creators",
+  "personaId": "P-001"
+}}
+
+If the requirement does not apply or is inconsistent with the persona, return only:
+null
+
+Strictly, do not include any additional text or commentary. Do NOT use any markdown, bold, italic, or special formatting in your response.
+"""
+
+def build_use_case_match_prompt(alfred_summary, persona, story, usecases: list) -> str:
+    return f"""
+You are analyzing which use cases are relevant to a specific user story in the ALFRED system.
+
+### ALFRED System Summary:
+{alfred_summary}
+
+--- Persona ---
+{persona.to_prompt_string()}
+
+--- User Story ---
+{json.dumps(story, indent=2)}
+
+--- Available Use Cases ---
+{chr(10).join(f"- {uc.id}: {uc.name} — {uc.description}" for uc in usecases)}
+
+TASK: Based on this persona and story, return a JSON array of **use case IDs** that clearly relate to the user story:
+
+Example:
+["UC-001", "UC-004"]
+
+If you can't find any appropriate use cases among the above list, feel free to return an empty list, e.g., []
+
+Strictly return a valid JSON array. No text, no formatting.
+"""
+
+
+def generate_user_stories_by_persona(persona_loader: UserPersonaLoader, usecase_loader: UseCaseLoader):
+    print("\n📘 Generating full user stories (persona → story → use case)...")
+    os.makedirs(FINAL_USER_STORY_DIR, exist_ok=True)
+    alfred_summary = load_alfred_summary()
+    story_counter = 1
+
+    group_map = {
         "Older Adults": "older_adults_user_stories",
         "Caregivers and Medical Staff": "caregivers_and_medical_staff_user_stories",
         "Developers and App Creators": "developers_and_app_creators_user_stories"
     }
 
-    story_counter = 1
-
     for persona in persona_loader.personas:
-        user_group = persona.classify_user_group()
-        print(f"📌 Persona {persona.id} ({persona.name}) → User Group: {user_group}")
-
-        group_folder = group_key_map.get(user_group)
+        group_folder = group_map.get(persona.user_group)
         if not group_folder:
             print(f"⚠️ Unknown user group for {persona.id}. Skipping.")
             continue
 
         # Load filtered raw requirements
-        requirement_path = os.path.join(
-            "results", CURRENT_LLM, "filtered_raw_requirements", f"{persona.id}_raw_requirements.json"
-        )
-
-        if not os.path.exists(requirement_path):
-            print(f"⚠️ Filtered requirements missing for {persona.id}. Skipping.")
+        req_path = os.path.join("results", CURRENT_LLM, "filtered_raw_requirements", f"{persona.id}_raw_requirements.json")
+        if not os.path.exists(req_path):
+            print(f"⚠️ Missing filtered requirements for {persona.id}. Skipping.")
             continue
 
-        with open(requirement_path, "r", encoding="utf-8") as f:
-            filtered_requirements = json.load(f)
+        with open(req_path, "r", encoding="utf-8") as f:
+            filtered_reqs = json.load(f)
+            
+        associated_usecases = [uc for uc in usecase_loader.use_cases if persona.id in (uc.personas or [])]
 
-        # Group requirements by pillar
-        requirements_by_pillar: Dict[str, list] = {key: [] for key, _ in PILLAR_KEYS}
-        for req in filtered_requirements:
-            if req["pillar"] in requirements_by_pillar:
-                requirements_by_pillar[req["pillar"]].append(req)
+        output_dir = os.path.join(FINAL_USER_STORY_DIR, group_folder, f"{persona.id}_user_stories")
+        os.makedirs(output_dir, exist_ok=True)
 
-        # Get use cases associated with the persona
-        associated_usecases = [
-            uc for uc in usecase_loader.use_cases if persona.id in (uc.personas or [])
-        ]
-        usecase_ids = [uc.id for uc in associated_usecases]
-        usecase_descriptions = [f"{uc.name}: {uc.description}" for uc in associated_usecases]
+        stories_by_pillar: Dict[str, list] = {pillar: [] for pillar, _ in PILLAR_KEYS}
 
-        # Persona output path
-        persona_output_dir = os.path.join(output_root, group_folder, f"{persona.id}_user_stories")
-        os.makedirs(persona_output_dir, exist_ok=True)
+        for req in filtered_reqs:
+            pillar_name = req["pillar"]
+            prompt = build_user_story_prompt(persona, req, pillar_name, persona.user_group, alfred_summary)
+            response = get_llm_response(prompt)
 
-        for pillar_name, file_name in PILLAR_KEYS:
-            user_stories = []
-            raw_reqs = requirements_by_pillar.get(pillar_name, [])
+            if response and response.strip().lower() != "null":
+                try:
+                    cleaned = safe_clean_response(response)
+                    story = json.loads(cleaned)
 
-            for req in raw_reqs:
-                prompt = build_user_story_prompt(
-                    persona, usecase_descriptions, req, pillar_name, user_group, usecase_ids, alfred_summary
-                )
-                response = get_llm_response(prompt)
-
-                if response and response.strip().lower().strip('"') != "null":
+                    # Phase 2: Match use cases for this story
+                    match_prompt = build_use_case_match_prompt(alfred_summary, persona, story, associated_usecases)
+                    usecase_response = get_llm_response(match_prompt)
                     try:
-                        response_cleaned = safe_clean_response(response)
-                        story = json.loads(response_cleaned)
+                        matched_usecases = json.loads(usecase_response)
+                        story["useCases"] = matched_usecases
+                    except:
+                        print(f"⚠️ Use case match parse failed for {persona.id}, using empty list.")
+                        story["useCases"] = []
+                            
+                    story["id"] = f"US-{story_counter:03d}"
+                    story["personaId"] = persona.id
+                    story["rawRequirementId"] = req["reqId"]
+                    story["useCases"] = matched_usecases
+                    story["pillar"] = pillar_name
+                    story["userGroup"] = persona.user_group
+                    story_counter += 1
 
-                        # Assign ID and fix fields
-                        story["id"] = f"US-{story_counter:03d}"
-                        story["personaId"] = persona.id
-                        story["rawRequirementId"] = req["reqId"]
-                        story["useCases"] = usecase_ids
-                        story["pillar"] = pillar_name
-                        story["userGroup"] = user_group
-                        story_counter += 1
+                    stories_by_pillar[pillar_name].append(story)
 
-                        user_stories.append(story)
+                except json.JSONDecodeError:
+                    print(f"⚠️ Story parse failed for {persona.id} - {req['reqId']}")
+                    print(response)
 
-                    except json.JSONDecodeError:
-                        print(f"⚠️ JSON parse error for {persona.id} / {req['reqId']}")
-                        print("Raw:", response)
-
-            if user_stories:
-                path = os.path.join(persona_output_dir, file_name)
-                with open(path, "w", encoding="utf-8") as f:
-                    json.dump(user_stories, f, indent=2, ensure_ascii=False)
+        for pillar, filename in PILLAR_KEYS:
+            if stories_by_pillar[pillar]:
+                with open(os.path.join(output_dir, filename), "w", encoding="utf-8") as f:
+                    json.dump(stories_by_pillar[pillar], f, indent=2)
+        print(f"✅ Saved stories for {persona.id} in {group_folder}")

@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Safety and Well-Being Check-Ins",
+    "summary": "As a professional caregiver managing multiple clients, I want ALFRED to prompt clients regularly to report their well-being so that I can monitor their health status effectively and ensure they feel supported without causing unnecessary alarm.",
+    "priority": 2,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-005",
+      "UC-006"
+    ],
+    "id": "US-169",
+    "rawRequirementId": "RREQ-056"
+  }
+]

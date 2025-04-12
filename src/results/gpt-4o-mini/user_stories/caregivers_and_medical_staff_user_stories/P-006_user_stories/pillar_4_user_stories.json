@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Holistic Wellness Integration \u2013 Alerts for Caregivers on Holistic Health Trends",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want to receive alerts on holistic health trends so that I can monitor my clients' well-being effectively and intervene in a timely manner while ensuring their privacy and reducing unnecessary stress.",
+    "priority": 2,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-009"
+    ],
+    "id": "US-178",
+    "rawRequirementId": "RREQ-071"
+  }
+]

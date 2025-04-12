@@ -1,15 +1,16 @@
 [
   {
-    "title": "Data Privacy and Compliance Controls for Social Sharing",
-    "summary": "As a Compliance and Risk Lead, I want to implement robust data privacy controls for social sharing features so that developers can ensure compliance with HIPAA and GDPR while allowing users to share information securely.",
-    "priority": "1",
+    "title": "Event Notification and Reminder Systems - API Access for Third-Party Apps to Send Alerts",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want robust API access for third-party applications to send alerts so that I can ensure compliance and security while enabling developers to create engaging social event reminders for older adults.",
+    "priority": 2,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Developers and App Creators",
     "personaId": "P-003",
     "useCases": [
-      "UC-010"
+      "UC-009",
+      "UC-013"
     ],
-    "id": "US-086",
-    "rawRequirementId": "RREQ-116"
+    "id": "US-077",
+    "rawRequirementId": "RREQ-094"
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "title": "User-Centric Privacy Controls - User-Friendly Privacy Settings Interface",
-    "summary": "As a retired social worker, I want a simple and intuitive privacy settings interface so that I can easily manage my personal and health information without feeling overwhelmed by technology.",
+    "summary": "As an older adult, I want a simple and intuitive way to manage my privacy settings so that I can feel secure and in control of my personal information while using ALFRED.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
@@ -11,8 +11,8 @@
     "cbId": "CB-030"
   },
   {
-    "title": "Guided Onboarding Process with Voice Assistance",
-    "summary": "As a retired social worker, I want a simple guided onboarding process with voice assistance so that I can easily configure and start using ALFRED without feeling overwhelmed by technology.",
+    "title": "Adaptive System Configuration \u2013 Guided Onboarding Process with Voice Assistance",
+    "summary": "As a retired social worker, I want a guided onboarding process with voice assistance so that I can easily configure and use the ALFRED system without feeling overwhelmed by technology.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
@@ -23,7 +23,7 @@
   },
   {
     "title": "Health Monitoring Integration",
-    "summary": "As a retired social worker, I want ALFRED to integrate with my wearable health devices so that I can easily monitor my health conditions and receive timely reminders for medication and alerts during emergencies.",
+    "summary": "As a retired social worker, I want ALFRED to integrate seamlessly with my wearable health monitor so that I can keep track of my health conditions and receive timely support for managing my arthritis pain.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
@@ -33,8 +33,8 @@
     "cbId": "CB-032"
   },
   {
-    "title": "Voice-Driven Social Connectivity",
-    "summary": "As a retired social worker, I want to easily use voice commands to send messages and make video calls to my family and friends, so that I can stay socially connected despite my limited mobility.",
+    "title": "Voice-Driven Social Connection",
+    "summary": "As a retired social worker, I want to use voice commands to easily communicate with my family and access news sources so that I can stay socially connected and informed despite my limited mobility.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
@@ -46,26 +46,25 @@
     "cbId": "CB-033"
   },
   {
-    "title": "User Feedback Mechanism for Improved Communication",
-    "summary": "As a retired social worker, I want to easily report issues and make suggestions regarding communication features so that I can enhance my ability to stay socially connected and manage my volunteering activities effectively.",
+    "title": "User Feedback Mechanism - In-App Reporting for Issues and Suggestions",
+    "summary": "As a retired social worker, I want to easily report any issues or suggestions I have within the ALFRED system so that I can ensure it meets my needs and helps me stay connected and engaged.",
     "priority": 2,
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
     "personaId": "P-005",
-    "useCases": [
-      "UC-004"
-    ],
+    "useCases": [],
     "id": "US-128",
     "cbId": "CB-035"
   },
   {
-    "title": "Customizable Accessibility Profiles for Individual Needs",
-    "summary": "As a retired social worker, I want to have a customizable accessibility profile so that I can tailor the ALFRED system to accommodate my reduced mobility and arthritis pain, ensuring I can easily manage my communication and scheduling tasks.",
+    "title": "Accessibility Compliance Assurance \u2013 Customizable Accessibility Profiles for Individual Needs",
+    "summary": "As an older adult, I want to have customizable accessibility profiles so that I can adjust the system's interface and functionalities according to my specific physical and cognitive needs, making it easier for me to stay connected and manage my daily tasks.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
     "personaId": "P-005",
     "useCases": [
+      "UC-003",
       "UC-004"
     ],
     "id": "US-129",

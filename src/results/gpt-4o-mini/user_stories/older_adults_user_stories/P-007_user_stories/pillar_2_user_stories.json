@@ -1,7 +1,7 @@
 [
   {
-    "title": "Social Engagement Recommendations",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want personalized event suggestions based on my interests and availability, so that I can stay socially engaged without feeling monitored or overwhelmed.",
+    "title": "Social Engagement Recommendations \u2013 Event Suggestions Based on Interests and Availability",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to suggest social events based on my interests and availability so that I can maintain my social connections without feeling monitored.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -10,12 +10,12 @@
       "UC-003",
       "UC-007"
     ],
-    "id": "US-157",
+    "id": "US-159",
     "cbId": "CB-009"
   },
   {
     "title": "Scheduled Video Calls with Family Members",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to easily schedule and initiate video calls with my family members so that I can maintain my social connections without feeling monitored or overwhelmed by technology.",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to have scheduled video calls with my family members so that I can stay connected and participate in family activities without feeling overwhelmed or monitored.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -24,12 +24,12 @@
       "UC-001",
       "UC-003"
     ],
-    "id": "US-158",
+    "id": "US-160",
     "cbId": "CB-010"
   },
   {
     "title": "Interest-Based Community Interaction \u2013 Connecting Users with Similar Hobbies",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to connect with others who share my interests in cycling and woodworking so that I can engage in meaningful activities without feeling monitored.",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to connect with others who share my interests in cycling, photography, and woodworking, so that I can participate in community activities and maintain my cognitive abilities without feeling monitored.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -39,12 +39,12 @@
       "UC-007",
       "UC-008"
     ],
-    "id": "US-159",
+    "id": "US-161",
     "cbId": "CB-011"
   },
   {
     "title": "Memory Lane Features \u2013 Storytelling Prompts for Shared Experiences",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want prompts for storytelling that encourage sharing experiences with my family, so that I can maintain connections and participate in family activities without feeling monitored.",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to receive storytelling prompts that encourage me to share my memories with family, so that I can maintain my cognitive abilities and strengthen my family connections without feeling monitored.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -53,22 +53,21 @@
       "UC-003",
       "UC-007"
     ],
-    "id": "US-160",
+    "id": "US-162",
     "cbId": "CB-012"
   },
   {
     "title": "Voice-to-Text Messaging for Social Inclusion",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to send and receive messages using voice-to-text functionality so that I can maintain social connections with my family and friends without the frustration of typing.",
+    "summary": "As an active retiree, I want to use voice-to-text messaging to easily communicate with my family and friends so that I can maintain social connections without feeling monitored or overwhelmed by technology.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
       "UC-001",
-      "UC-003",
-      "UC-009"
+      "UC-003"
     ],
-    "id": "US-161",
+    "id": "US-163",
     "cbId": "CB-013"
   }
 ]

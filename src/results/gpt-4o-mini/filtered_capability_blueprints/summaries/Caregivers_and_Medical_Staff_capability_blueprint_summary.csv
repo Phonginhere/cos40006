@@ -1,17 +1,17 @@
 ﻿CB ID,CB Title,Pillar,P-004_Chosen,P-004_SubOption,P-006_Chosen,P-006_SubOption
-CB-065,User-Centric Data Access Control,General Requirements,✅,Granular permission settings for caregivers,✅,Granular permission settings for caregivers
+CB-065,User-Centric Data Access Control,General Requirements,✅,Granular permission settings for caregivers,✅,User-initiated consent management interface
 CB-066,Intuitive User Interface Design,General Requirements,✅,Simplified navigation tailored for caregivers,✅,Simplified navigation tailored for caregivers
-CB-067,Real-Time Health Data Synchronization,General Requirements,✅,Instant updates from health monitoring devices,✅,Instant updates from health monitoring devices
+CB-067,Real-Time Health Data Synchronization,General Requirements,✅,Instant updates from health monitoring devices,✅,Manual refresh option for caregivers
 CB-068,Comprehensive User Training Resources,General Requirements,✅,Video tutorials for system navigation,✅,Step-by-step guides for common tasks
 CB-069,Multi-Channel Notification System,General Requirements,✅,Push notifications for health alerts,✅,Push notifications for health alerts
-CB-070,Cross-Platform Integration Capabilities,General Requirements,✅,API support for third-party health applications,✅,API support for third-party health applications
+CB-070,Cross-Platform Integration Capabilities,General Requirements,✅,API support for third-party health applications,✅,Compatibility with existing care management systems
 CB-071,Adaptive Learning and Support,General Requirements,✅,Feedback-driven interface adjustments,✅,Feedback-driven interface adjustments
 CB-037,Voice Command Health Data Retrieval,Pillar 1 - User-Driven Interaction Assistant,✅,Retrieve alerts and notifications regarding health anomalies,✅,Retrieve alerts and notifications regarding health anomalies
-CB-038,Contextual Caregiver Alerts,Pillar 1 - User-Driven Interaction Assistant,✅,Voice alerts for critical health changes,❌,
+CB-038,Contextual Caregiver Alerts,Pillar 1 - User-Driven Interaction Assistant,✅,Voice alerts for critical health changes,✅,Voice alerts for critical health changes
 CB-039,Interactive Care Task Management,Pillar 1 - User-Driven Interaction Assistant,✅,Real-time status updates on care tasks,✅,Real-time status updates on care tasks
 CB-040,Personalized Communication Settings,Pillar 1 - User-Driven Interaction Assistant,✅,Voice-activated communication preferences,✅,Scheduling communication windows for older adults
-CB-041,Health Insight Dialogue System,Pillar 1 - User-Driven Interaction Assistant,✅,Conversational updates on health trends,✅,Conversational updates on health trends
-CB-042,Remote Interaction Facilitation,Pillar 1 - User-Driven Interaction Assistant,✅,Direct voice messages for non-urgent inquiries,❌,
+CB-041,Health Insight Dialogue System,Pillar 1 - User-Driven Interaction Assistant,✅,Conversational updates on health trends,✅,Scenario-based health advice retrieval
+CB-042,Remote Interaction Facilitation,Pillar 1 - User-Driven Interaction Assistant,✅,Direct voice messages for non-urgent inquiries,✅,Voice-initiated video calls with older adults
 CB-043,User-Focused Information Delivery,Pillar 1 - User-Driven Interaction Assistant,✅,Voice summaries of recent health data,✅,Voice summaries of recent health data
 CB-044,Social Engagement Recommendation System,Pillar 2 - Personalized Social Inclusion,✅,Proactive reminders for upcoming social activities,❌,
 CB-045,Interactive Communication Facilitation,Pillar 2 - Personalized Social Inclusion,✅,Text-based messaging reminders for caregivers,❌,
@@ -24,8 +24,8 @@ CB-051,Health Data Visualization Tools,Pillar 3 - Effective & Personalized Care,
 CB-052,Personalized Care Plan Management,Pillar 3 - Effective & Personalized Care,✅,Goal tracking for patient health improvements,✅,Collaborative care planning with multiple caregivers
 CB-053,Anomaly Detection and Alerts,Pillar 3 - Effective & Personalized Care,✅,Historical anomaly reporting for trend analysis,✅,Customizable alert thresholds for caregivers
 CB-054,Medication Management System,Pillar 3 - Effective & Personalized Care,✅,Automated reminders based on health conditions,✅,Automated reminders based on health conditions
-CB-055,Remote Patient Check-in Interface,Pillar 3 - Effective & Personalized Care,✅,Progress tracking for ongoing health concerns,✅,Scheduled virtual check-ins via video
-CB-056,Emergency Response Coordination,Pillar 3 - Effective & Personalized Care,✅,Caregiver alerting for emergency situations,✅,Caregiver alerting for emergency situations
+CB-055,Remote Patient Check-in Interface,Pillar 3 - Effective & Personalized Care,✅,Progress tracking for ongoing health concerns,✅,Progress tracking for ongoing health concerns
+CB-056,Emergency Response Coordination,Pillar 3 - Effective & Personalized Care,✅,Caregiver alerting for emergency situations,✅,Real-time escalation protocols for emergencies
 CB-057,Holistic Health Tracking,Pillar 3 - Effective & Personalized Care,✅,Mental health check-ins and resources,✅,Integration with fitness and wellness apps
 CB-058,Cognitive Engagement Activities,Pillar 4 - Physical & Cognitive Impairments Prevention,❌,,❌,
 CB-059,Physical Activity Guidance,Pillar 4 - Physical & Cognitive Impairments Prevention,❌,,❌,

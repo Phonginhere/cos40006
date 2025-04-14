@@ -1,7 +1,7 @@
 [
   {
-    "title": "Health Data Integration Compliance",
-    "summary": "As a Compliance and Risk Lead, I want standardized APIs for health device data ingestion so that I can ensure that our applications maintain compliance-by-design principles while integrating health data securely and efficiently.",
+    "title": "Health Data Integration for Compliance",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want a standardized API for health device data ingestion so that I can ensure our applications are built with compliance-by-design principles and maintain traceability in user interactions.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
@@ -14,8 +14,8 @@
     "cbId": "CB-086"
   },
   {
-    "title": "Customizable Health Monitoring Alerts",
-    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to enable developers to design user-customizable alert preferences for health monitoring so that users can receive timely health notifications while maintaining compliance with privacy regulations.",
+    "title": "User-Customizable Alert Preferences",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to ensure that the health monitoring alerts system allows users to customize their alert preferences so that we can maintain compliance with privacy standards while providing a user-friendly experience that respects individual preferences.",
     "priority": 2,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
@@ -27,21 +27,22 @@
     "cbId": "CB-089"
   },
   {
-    "title": "Telehealth Integration for Compliance and Auditability",
-    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to ensure that telehealth services within the ALFRED system maintain regulatory compliance and provide clear audit trails, so that we can build trust with users and ensure data privacy while delivering effective care.",
+    "title": "Telehealth Integration for Compliance",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to ensure that the integration of telehealth services with electronic health records (EHR) maintains robust audit trails and compliance standards, so that we can provide secure and traceable user interactions while facilitating effective and personalized care.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
     "personaId": "P-003",
     "useCases": [
-      "UC-010"
+      "UC-010",
+      "UC-012"
     ],
     "id": "US-060",
     "cbId": "CB-090"
   },
   {
-    "title": "Medication Management Interface \u2013 Caregiver Notification for Missed Doses",
-    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to ensure that the medication management interface includes robust audit logs and secure API designs for caregiver notifications so that we can maintain compliance while facilitating timely interventions for users.",
+    "title": "Medication Management Interface \u2013 Compliance and Auditability",
+    "summary": "As a Compliance and Risk Lead, I want the medication management interface to provide complete audit logs and notification settings for missed doses so that I can ensure compliance with privacy regulations and maintain traceability of user interactions.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
@@ -53,8 +54,8 @@
     "cbId": "CB-091"
   },
   {
-    "title": "Secure Access Controls for Sensitive Information",
-    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to ensure that users have secure access to their health history with comprehensive audit logs so that we maintain compliance and privacy while enabling effective personalized care.",
+    "title": "Secure Access Controls for User Health History",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to ensure that secure access controls are in place for user health history so that I can maintain regulatory compliance and protect sensitive information while allowing developers to integrate health data seamlessly.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",

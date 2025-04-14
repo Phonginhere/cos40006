@@ -1,7 +1,7 @@
 [
   {
     "title": "Integration with Fitness Tracking Wearables",
-    "summary": "As a full-stack developer, I want to integrate real-time data from fitness tracking wearables into the ALFRED system so that I can create applications that provide timely health alerts and improve the quality of life for elderly users.",
+    "summary": "As a full-stack developer creating healthcare applications, I want to seamlessly integrate fitness tracking wearables with the ALFRED system so that elderly users can monitor their physical activity and receive timely alerts for their caregivers, enhancing their overall health management.",
     "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Developers and App Creators",

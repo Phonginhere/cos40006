@@ -13,21 +13,22 @@
   },
   "Core characteristics": [
     "Organized",
+    "Prioritizes intentional review over automated updates",
     "Prefers visual over menu-driven systems in multitasking scenarios",
     "Deliberate and careful with information access",
     "Advocates for slow tech adoption where client harm is possible",
     "Supports client autonomy in technology usage decisions",
     "Compassionate",
-    "Practical",
-    "Resourceful",
+    "Favors diagnostic support systems that explain implications based on situational prompts",
+    "Trusts formal emergency systems more than ad-hoc alerts",
     "Tech-aware but cautious with voice interfaces"
   ],
   "Core goals": [
-    "Track multiple clients' health status in real-time",
+    "Track client health status on demand with caregiver-controlled refresh",
     "Efficiently manage appointments and care schedules",
     "Enable clients to actively manage data access and sharing preferences",
     "Maintain clear communication with clients' family members",
-    "Coordinate care with healthcare professionals",
+    "Access scenario-specific care insights for collaborative decision-making",
     "Document care activities accurately",
     "Ensure clients are empowered to control who can access their data",
     "Promote safeguards that protect clients from over-reliance on automated systems",
@@ -35,10 +36,11 @@
     "Ensure clients receive information in a calm, human-centered way"
   ],
   "Typical challenges": [
+    "Often delays data retrieval to ensure a calm environment before review",
     "Clients with varying levels of technology comfort",
-    "Needs visual cues to reduce mental load when managing overlapping client schedules",
-    "Limited internet connectivity in remote areas",
-    "Clients sometimes feel disempowered by systems that make decisions on their behalf",
+    "Wants to manually control when health data is retrieved and shared",
+    "Emergency support is unreliable without proper local (remote) service integration",
+    "“Struggles with systems that generalize advice without individual context",
     "Wants clients to actively review and approve data sharing with caregivers or families",
     "Voice assistants misinterpret commands in noisy environments or breach client confidentiality",
     "Automated reminders from systems like ALFRED can confuse or alarm clients with cognitive impairments",
@@ -46,6 +48,8 @@
   ],
   "Singularities": [
     "Specializes in dementia care",
+    "Worked with local emergency departments to define response guidelines for dementia cases",
+    "Frequently reviews health data only in the context of a specific symptom or incident",
     "Customizes device home screens to highlight most-used ALFRED functions",
     "Runs mini digital literacy sessions for clients to help them manage ALFRED’s privacy tools",
     "Developed her own paper-based tracking system before adopting digital tools",
@@ -63,10 +67,9 @@
     "Context-sensitive scheduling with caregiver-managed reminders",
     "Communication with families",
     "Care plan documentation",
-    "Emergency alerts"
+    "Ensure emergency protocols are linked to verified local response systems"
   ],
   "Most important tasks": [
-    "Verified health monitoring results with alert mediation",
     "Visually guided dashboard for high-frequency caregiving tasks",
     "Secure communication with families and healthcare providers"
   ],
@@ -76,13 +79,16 @@
     "Entertainment options"
   ],
   "Miscellaneous": [
+    "Disables real-time syncing when working with high-anxiety clients",
     "Prefers tablet for client management activities",
     "Uses visual icons or tags to quickly distinguish between client priorities",
-    "Needs offline functionality for areas with poor connectivity",
+    "Prefers systems that don’t require always-on syncing to function reliably",
     "Relies on visual cues to manage tasks efficiently under time pressure",
     "Believes privacy must be configured at the client level when possible",
     "Prefers tactile or typed input over voice for sensitive information due to privacy concerns",
-    "Prefers clients to validate sharing of health data anomalies with caregivers",
-    "Believes in collaborative care decisions, not automated interpretations"
+    "Prefers that health anomalies escalate directly to emergency services when critical",
+    "Believes in collaborative care decisions, not automated interpretations",
+    "Prefers actionable insights triggered by real-world caregiving situations",
+    "Finds continuous trend summaries overwhelming and often irrelevant to urgent client needs"
   ]
 }

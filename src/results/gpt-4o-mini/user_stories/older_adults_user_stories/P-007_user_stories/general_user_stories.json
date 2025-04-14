@@ -1,7 +1,18 @@
 [
   {
     "title": "User-Centric Privacy Controls \u2013 User-Friendly Privacy Settings Interface",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want a straightforward and intuitive interface for privacy settings so that I can feel secure and in control of my personal information without feeling monitored.",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want a simple and empowering way to manage my privacy settings so that I can feel secure while using ALFRED without feeling monitored.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [],
+    "id": "US-177",
+    "cbId": "CB-030"
+  },
+  {
+    "title": "Adaptive System Configuration \u2013 Guided Onboarding with Voice Assistance",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want a guided onboarding process with voice assistance so that I can easily configure ALFRED to meet my needs without feeling overwhelmed or monitored.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
@@ -11,27 +22,13 @@
       "UC-007",
       "UC-009"
     ],
-    "id": "US-175",
-    "cbId": "CB-030"
-  },
-  {
-    "title": "Adaptive System Configuration \u2013 Guided Onboarding with Voice Assistance",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want an intuitive onboarding process with voice assistance so that I can easily set up ALFRED without feeling overwhelmed or monitored.",
-    "priority": 1,
-    "pillar": "General Requirements",
-    "userGroup": "Older Adults",
-    "personaId": "P-007",
-    "useCases": [
-      "UC-001",
-      "UC-009"
-    ],
-    "id": "US-176",
+    "id": "US-178",
     "cbId": "CB-031"
   },
   {
     "title": "Health Monitoring Integration",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to seamlessly integrate with my wearable health monitors so that I can easily track my health data and receive timely reminders without feeling overwhelmed or monitored.",
-    "priority": 2,
+    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to seamlessly integrate with my wearable health monitor so that I can track my health metrics and receive timely reminders without feeling overly monitored.",
+    "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
     "personaId": "P-007",
@@ -39,12 +36,12 @@
       "UC-001",
       "UC-008"
     ],
-    "id": "US-177",
+    "id": "US-179",
     "cbId": "CB-032"
   },
   {
-    "title": "Voice-Driven Cognitive Support",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to use voice commands to access cognitive stimulation games and receive reminders about my appointments, so that I can maintain my cognitive abilities and stay organized without feeling monitored.",
+    "title": "Cognitive Support through Voice Commands",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to use voice commands to access cognitive stimulation games and set appointment reminders so that I can maintain my cognitive abilities and manage my daily tasks without feeling monitored.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
@@ -53,27 +50,26 @@
       "UC-001",
       "UC-007"
     ],
-    "id": "US-178",
+    "id": "US-180",
     "cbId": "CB-033"
   },
   {
-    "title": "User Feedback Mechanism \u2013 Simple Voice Feedback Collection Prompts",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to provide feedback on my experience using ALFRED through simple voice prompts so that I can help improve the system without feeling overwhelmed or monitored.",
+    "title": "Simple Voice Feedback Collection Prompts",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to provide simple voice feedback to ALFRED about my experiences so that I can ensure the system is helping me maintain my cognitive abilities without feeling monitored.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
       "UC-001",
-      "UC-007",
-      "UC-009"
+      "UC-007"
     ],
-    "id": "US-179",
+    "id": "US-181",
     "cbId": "CB-035"
   },
   {
     "title": "Accessibility Compliance Assurance through Diverse User Testing for Older Adults",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want the ALFRED system to be tested for accessibility by diverse users so that I can confidently use the technology without feeling overwhelmed or monitored.",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to be thoroughly tested for accessibility so that I can easily navigate and interact with the system without feeling overwhelmed or monitored.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
@@ -83,7 +79,7 @@
       "UC-007",
       "UC-009"
     ],
-    "id": "US-180",
+    "id": "US-182",
     "cbId": "CB-036"
   }
 ]

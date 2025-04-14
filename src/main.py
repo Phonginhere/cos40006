@@ -5,6 +5,7 @@ from use_case_loader import UseCaseLoader
 from capability_blueprint_generator import generate_all_capability_blueprints
 from capability_blueprint_analyzer import analyze_capability_blueprints
 from user_story_generator import generate_user_stories_by_persona
+from user_story_conflict_checker import check_user_story_conflicts, convert_conflict_jsons_to_csv
 from utils import CURRENT_LLM, USE_CASE_DIR, FILTERED_CAPABILITY_BLUEPRINTS_DIR
 
 
@@ -52,11 +53,17 @@ def main():
     analyze_capability_blueprints(persona_loader)
 
     # Step 5: Generate Persona-Based User Stories
-    print("\n============================================================ GENERATE USER STORIES ==================================================================")
-    print("🛠️ Generating user stories for each persona based on filtered Capability Blueprints, use cases, and ALFRED context...")
-    generate_user_stories_by_persona(persona_loader, use_case_loader)
+    # print("\n============================================================ GENERATE USER STORIES ==================================================================")
+    # print("🛠️ Generating user stories for each persona based on filtered Capability Blueprints, use cases, and ALFRED context...")
+    # generate_user_stories_by_persona(persona_loader, use_case_loader)
 
-    print("\n✅ Pipeline completed successfully. Check your results in the output folder.")
+    # print("\n✅ Pipeline completed successfully. Check your results in the output folder.")
+    
+    # Step 6: Analyze User Story Conflicts
+    print("\n============================================================ USER STORY CONFLICT CHECK ===============================================================")
+    print("🧠 Comparing user stories across personas for possible conflicts...")
+    # check_user_story_conflicts()
+    convert_conflict_jsons_to_csv("results/conflict_analysis")
 
 
 if __name__ == "__main__":

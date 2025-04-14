@@ -1,48 +1,7 @@
 [
   {
-    "title": "Automated Alerts for Health Monitoring",
+    "title": "Automated Health Alerts",
     "summary": "As an active retiree with early-stage cognitive concerns, I want to receive automated alerts for abnormal health readings so that I can stay informed about my health without feeling monitored.",
-    "priority": 1,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "personaId": "P-007",
-    "useCases": [
-      "UC-008"
-    ],
-    "id": "US-162",
-    "cbId": "CB-016"
-  },
-  {
-    "title": "Medication Adherence Support",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to remind me of my medication schedule so that I can maintain my health without feeling overwhelmed or monitored.",
-    "priority": 1,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "personaId": "P-007",
-    "useCases": [
-      "UC-001",
-      "UC-007"
-    ],
-    "id": "US-163",
-    "cbId": "CB-017"
-  },
-  {
-    "title": "Emergency Health Monitoring",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to monitor my health status in real-time and share it with my family, so that I can feel secure and maintain my independence without feeling overly monitored.",
-    "priority": 1,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "personaId": "P-007",
-    "useCases": [
-      "UC-007",
-      "UC-008"
-    ],
-    "id": "US-164",
-    "cbId": "CB-019"
-  },
-  {
-    "title": "Long-term Health Tracking for Cognitive Maintenance",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to visualize my health trends over time so that I can maintain my cognitive abilities and feel empowered about my well-being without feeling monitored.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
@@ -51,26 +10,40 @@
       "UC-008",
       "UC-007"
     ],
-    "id": "US-165",
-    "cbId": "CB-020"
+    "id": "US-164",
+    "cbId": "CB-016"
   },
   {
-    "title": "Voice-Guided Medication Reminders",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want voice-guided medication reminders so that I can manage my health independently without feeling monitored.",
+    "title": "Medication Adherence Support",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to send me timely medication reminders so that I can maintain my health and independence without feeling monitored.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
       "UC-001",
-      "UC-009"
+      "UC-007"
     ],
-    "id": "US-166",
-    "cbId": "CB-021"
+    "id": "US-165",
+    "cbId": "CB-017"
   },
   {
-    "title": "Health Improvement Goal-Setting",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to set and track my health improvement goals so that I can maintain my cognitive abilities and stay engaged in my active lifestyle without feeling monitored.",
+    "title": "Emergency Health Monitoring",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to monitor my health status and share it with my spouse in real-time, so that I can maintain my independence while ensuring that help is available if needed without feeling overly monitored.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-008",
+      "UC-007"
+    ],
+    "id": "US-166",
+    "cbId": "CB-019"
+  },
+  {
+    "title": "Long-term Health Tracking \u2013 Visualizing Health Trends for Empowerment",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to visualize my health trends over time so that I can maintain my cognitive abilities and stay informed about my well-being without feeling monitored.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
@@ -80,6 +53,34 @@
       "UC-008"
     ],
     "id": "US-167",
+    "cbId": "CB-020"
+  },
+  {
+    "title": "Voice-Guided Medication Instructions",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want voice-guided medication instructions so that I can manage my health independently without feeling monitored.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-001",
+      "UC-009"
+    ],
+    "id": "US-168",
+    "cbId": "CB-021"
+  },
+  {
+    "title": "Health Monitoring and Cognitive Support",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to receive personalized reminders for my appointments and have access to engaging cognitive stimulation games so that I can maintain my cognitive abilities and continue my active lifestyle without feeling monitored.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-001",
+      "UC-007"
+    ],
+    "id": "US-169",
     "cbId": "CB-022"
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "title": "Personalized Event Suggestions for Connection",
-    "summary": "As a tech-curious older adult, I want ALFRED to recommend local social events based on my interests so that I can stay connected with family and friends while combating feelings of isolation.",
+    "summary": "As a tech-curious older adult, I want personalized event suggestions based on my interests so that I can stay socially connected and engage with my community more easily.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -14,8 +14,8 @@
     "cbId": "CB-009"
   },
   {
-    "title": "Scheduled Video Calls with Family",
-    "summary": "As a tech-curious older adult with mild mobility issues, I want to schedule video calls with my family members so that I can maintain social connections and feel less isolated.",
+    "title": "Scheduled Video Calls with Family Members",
+    "summary": "As a tech-curious older adult with mild mobility issues, I want to schedule video calls with my family members easily so that I can stay connected with them without feeling overwhelmed by technology.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -28,7 +28,7 @@
   },
   {
     "title": "Interest-Based Community Interaction - Facilitating Local Meetups for Social Inclusion",
-    "summary": "As a tech-curious older adult, I want ALFRED to suggest local community events based on my interests so that I can stay socially connected and feel less isolated.",
+    "summary": "As a tech-curious older adult, I want to receive suggestions for local events based on my interests so that I can stay socially connected and combat feelings of isolation.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -42,7 +42,7 @@
   },
   {
     "title": "Memory Lane \u2013 Voice Playback of Memorable Messages from Family",
-    "summary": "As a tech-curious older adult with mild mobility issues, I want to listen to voice messages from my family so that I can feel more connected and less isolated, especially when I cannot travel to see them.",
+    "summary": "As a tech-curious older adult with mild mobility issues, I want to listen to memorable messages from my family so that I can feel more connected and less isolated when I am unable to travel.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -54,8 +54,8 @@
     "cbId": "CB-012"
   },
   {
-    "title": "Flexible Communication Modes \u2013 Voice-to-Text Messaging for Easy Connectivity",
-    "summary": "As a tech-curious older adult, I want to send and receive messages using voice-to-text functionality so that I can easily communicate with my family and friends without feeling overwhelmed by complex technology.",
+    "title": "Voice-to-Text Messaging for Easy Connectivity",
+    "summary": "As a tech-curious older adult, I want to send messages using voice-to-text so that I can easily communicate with my family and friends without feeling overwhelmed by technology.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -67,8 +67,8 @@
     "cbId": "CB-013"
   },
   {
-    "title": "Social Skill Building Activities \u2013 Conversation Starters for Enhanced Engagement",
-    "summary": "As a tech-curious older adult, I want conversation starters to be suggested by ALFRED so that I can engage more easily with my family and friends during video calls and feel less isolated.",
+    "title": "Conversation Starters for Enhanced Engagement",
+    "summary": "As a tech-curious older adult, I want conversation starters suggested by ALFRED so that I can stay socially connected and engage in meaningful interactions with my family and friends.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -81,8 +81,8 @@
     "cbId": "CB-014"
   },
   {
-    "title": "Proactive Check-Ins for Emotional Support",
-    "summary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to proactively check in on me during high-risk times so that I can feel more connected and less isolated, especially when my children are not around.",
+    "title": "Crisis Support and Intervention \u2013 Proactive Check-Ins for High-Risk Times",
+    "summary": "As a tech-curious older adult, I want ALFRED to proactively check in with me during high-risk times so that I feel supported and less isolated, especially when I cannot travel or my mobility is limited.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",

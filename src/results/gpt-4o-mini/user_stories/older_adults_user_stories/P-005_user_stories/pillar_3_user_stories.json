@@ -1,7 +1,7 @@
 [
   {
-    "title": "Automated Alerts for Health Monitoring",
-    "summary": "As a retired social worker, I want ALFRED to automatically alert me and my family if my health readings indicate any abnormalities, so that I can receive timely assistance and maintain my independence.",
+    "title": "Health Monitoring Alerts",
+    "summary": "As a retired social worker, I want to receive automated alerts for abnormal health readings so that I can ensure timely intervention for myself or my family members, maintaining my well-being and enabling me to support my community volunteering.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
@@ -11,8 +11,8 @@
     "cbId": "CB-016"
   },
   {
-    "title": "Medication Adherence Support",
-    "summary": "As a retired social worker, I want ALFRED to remind me about my medication schedule and provide tips for managing my arthritis pain, so that I can remain physically active and volunteer without worrying about my health.",
+    "title": "Medication Management Support",
+    "summary": "As a retired social worker, I want ALFRED to remind me about my medication schedule and provide tips for managing my arthritis pain so that I can stay healthy and maintain my independence while volunteering and caring for my family.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
@@ -24,21 +24,19 @@
     "cbId": "CB-017"
   },
   {
-    "title": "Caregiver Communication Hub \u2013 Shared Health Updates and Alerts",
-    "summary": "As a retired social worker, I want to receive shared health updates and alerts from my caregivers so that I can stay informed about my health status and effectively manage my well-being while continuing to volunteer and stay socially connected.",
+    "title": "Shared Health Updates and Alerts",
+    "summary": "As a retired social worker, I want to receive shared health updates and alerts from my caregivers so that I can stay informed about my health and manage my well-being effectively, even with my limited mobility.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
     "personaId": "P-005",
-    "useCases": [
-      "UC-004"
-    ],
+    "useCases": [],
     "id": "US-112",
     "cbId": "CB-018"
   },
   {
     "title": "Emergency Contact Notifications",
-    "summary": "As a retired social worker, I want ALFRED to automatically notify my emergency contacts if I don't respond to health alerts, so that I can ensure my family's peace of mind and receive timely help in case of an emergency.",
+    "summary": "As a retired social worker, I want ALFRED to automatically notify my emergency contacts if I need help, so that I can feel secure and supported while living independently despite my limited mobility and arthritis pain.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
@@ -49,18 +47,20 @@
   },
   {
     "title": "Long-term Health Tracking \u2013 Data Visualization for Health Trends",
-    "summary": "As a retired social worker, I want to visualize my long-term health data and trends so that I can monitor my well-being and manage my arthritis pain effectively.",
+    "summary": "As a retired social worker, I want to visualize my health data trends over time so that I can better manage my arthritis pain and stay proactive about my physical health.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
     "personaId": "P-005",
-    "useCases": [],
+    "useCases": [
+      "UC-008"
+    ],
     "id": "US-114",
     "cbId": "CB-020"
   },
   {
-    "title": "Voice-Guided Medication Instructions",
-    "summary": "As a retired social worker, I want to receive voice-guided medication reminders and instructions so that I can manage my arthritis pain effectively and ensure I stay healthy while maintaining my busy schedule.",
+    "title": "Voice-Guided Medication Reminders",
+    "summary": "As a retired social worker, I want ALFRED to provide voice-guided medication reminders so that I can manage my arthritis pain effectively and maintain my independence while keeping my busy schedule.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
@@ -70,8 +70,8 @@
     "cbId": "CB-021"
   },
   {
-    "title": "Health Monitoring and Reminders",
-    "summary": "As a retired social worker, I want ALFRED to monitor my health conditions and send medication reminders so that I can manage my arthritis pain effectively and maintain my well-being without feeling overwhelmed.",
+    "title": "Health Monitoring and Alerts",
+    "summary": "As a retired social worker, I want ALFRED to monitor my health conditions and send me medication reminders so that I can manage my arthritis pain effectively and maintain my independence.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",

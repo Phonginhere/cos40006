@@ -1,7 +1,7 @@
 [
   {
     "title": "Social Engagement Recommendations",
-    "summary": "As a retired social worker, I want ALFRED to suggest local events based on my interests and availability, so that I can stay socially connected despite my limited mobility.",
+    "summary": "As a retired social worker, I want ALFRED to suggest social events based on my interests and availability so that I can stay socially connected and engaged despite my limited mobility.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -14,8 +14,8 @@
     "cbId": "CB-009"
   },
   {
-    "title": "Scheduled Video Calls for Social Engagement",
-    "summary": "As a retired social worker, I want to schedule regular video calls with my family and friends so that I can maintain social connections despite my limited mobility.",
+    "title": "Family Connection Tools - Scheduled Video Calls for Social Engagement",
+    "summary": "As a retired social worker, I want to schedule video calls with my family and friends easily, so that I can maintain my social connections despite my limited mobility.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -42,7 +42,7 @@
   },
   {
     "title": "Memory Lane Features \u2013 Storytelling Prompts for Social Connection",
-    "summary": "As a retired social worker, I want to have access to storytelling prompts that help me share memories and experiences with family and friends so that I can foster deeper connections and maintain my social ties despite my limited mobility.",
+    "summary": "As a retired social worker, I want ALFRED to provide me with storytelling prompts that encourage sharing my experiences and memories, so that I can maintain social connections and engage meaningfully with my family and friends despite my limited mobility.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -56,7 +56,7 @@
   },
   {
     "title": "Flexible Communication Modes \u2013 Voice-to-Text Messaging for Social Engagement",
-    "summary": "As a retired social worker, I want to use voice-to-text messaging to easily communicate with my family and friends so that I can stay socially connected despite my reduced mobility and busy schedule.",
+    "summary": "As a retired social worker, I want to use voice-to-text messaging to easily communicate with my family and friends, so that I can stay socially connected despite my limited mobility.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -68,8 +68,8 @@
     "cbId": "CB-013"
   },
   {
-    "title": "Enhanced Social Engagement",
-    "summary": "As a retired social worker, I want ALFRED to provide me with conversation starters so that I can engage meaningfully with my friends and family, helping to maintain my social connections despite my limited mobility.",
+    "title": "Social Skill Building Activities \u2013 Conversation Starters for Enhanced Engagement",
+    "summary": "As a retired social worker, I want ALFRED to provide conversation starters and social skill-building activities so that I can maintain social connections and engage meaningfully with others despite my limited mobility.",
     "priority": 2,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -82,8 +82,8 @@
     "cbId": "CB-014"
   },
   {
-    "title": "Proactive Social Check-Ins",
-    "summary": "As a retired social worker, I want ALFRED to proactively check in with me and suggest social activities based on my interests and schedule so that I can stay socially connected and engaged despite my limited mobility.",
+    "title": "Proactive Check-Ins for Social Inclusion",
+    "summary": "As a retired social worker, I want ALFRED to perform proactive check-ins and suggest social activities based on my interests so that I can stay socially connected and engaged despite my limited mobility.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",

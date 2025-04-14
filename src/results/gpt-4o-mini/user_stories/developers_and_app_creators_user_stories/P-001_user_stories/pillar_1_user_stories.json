@@ -1,20 +1,22 @@
 [
   {
-    "title": "Voice Feedback Mechanisms for Elderly User Engagement",
-    "summary": "As a full-stack developer, I want ALFRED to provide adaptive voice feedback mechanisms so that I can create applications that effectively engage elderly users by responding to their commands in a way that is easy for them to understand.",
+    "title": "Voice Feedback Customization",
+    "summary": "As a full-stack developer creating healthcare applications, I want to have the ability to customize voice feedback mechanisms so that I can create engaging and accessible interactions for elderly users that resonate with their needs and preferences.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
-      "UC-009"
+      "UC-009",
+      "UC-010",
+      "UC-011"
     ],
     "id": "US-001",
     "cbId": "CB-073"
   },
   {
-    "title": "Customizable User Profiles for Enhanced User Interaction",
-    "summary": "As a developer, I want to create customizable user profiles that remember user preferences and past interactions so that I can design applications that provide personalized experiences for elderly users and their caregivers.",
+    "title": "Customizable User Profiles for Enhanced Interaction",
+    "summary": "As a developer, I want to create customizable user profiles that remember user preferences and past interactions so that I can design more engaging and user-friendly applications for elderly users and caregivers.",
     "priority": 2,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Developers and App Creators",
@@ -29,8 +31,8 @@
     "cbId": "CB-074"
   },
   {
-    "title": "Contextual Reminders for Health Monitoring",
-    "summary": "As a developer, I want to implement contextual reminders that notify the elderly users and caregivers of health-related tasks in real-time, so that they can manage their health more effectively and ensure timely interventions.",
+    "title": "Contextual Reminders for Elderly Users",
+    "summary": "As a developer, I want to implement contextual reminders that can be triggered by real-time health data so that elderly users receive timely notifications and support from caregivers.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Developers and App Creators",
@@ -43,8 +45,8 @@
     "cbId": "CB-075"
   },
   {
-    "title": "Real-time Health Monitoring Integration",
-    "summary": "As a developer, I want to integrate real-time health data from wearable sensors into the ALFRED system so that I can create timely notifications for urgent care events and enhance the quality of life for elderly users.",
+    "title": "Real-Time Health Monitoring Integration",
+    "summary": "As a developer, I want to seamlessly integrate real-time health data from wearable sensors into ALFRED so that I can create timely notifications for caregivers and enhance the quality of life for elderly users.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Developers and App Creators",
@@ -52,15 +54,14 @@
     "useCases": [
       "UC-005",
       "UC-006",
-      "UC-010",
-      "UC-012"
+      "UC-010"
     ],
     "id": "US-004",
     "cbId": "CB-076"
   },
   {
-    "title": "Adaptive Learning for Health Monitoring",
-    "summary": "As a full-stack developer, I want to implement adaptive learning algorithms that personalize user interactions based on real-time health data, so that I can create applications that effectively support elderly users and their caregivers in managing health conditions.",
+    "title": "Adaptive Learning for User Engagement",
+    "summary": "As a full-stack developer, I want to implement adaptive learning algorithms that personalize user interactions for elderly users, so that they can engage more effectively with the ALFRED system and receive tailored support in real time.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Developers and App Creators",
@@ -68,7 +69,10 @@
     "useCases": [
       "UC-005",
       "UC-006",
+      "UC-008",
+      "UC-009",
       "UC-010",
+      "UC-011",
       "UC-012"
     ],
     "id": "US-005",

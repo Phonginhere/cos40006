@@ -1,7 +1,7 @@
 [
   {
-    "title": "Health Data Visualization Tools",
-    "summary": "As a home-care nurse, I want to visualize patient health trends over time so that I can identify early warning signs and plan care strategies effectively.",
+    "title": "Health Data Visualization Tools \u2013 Graphical Trends for Vital Signs",
+    "summary": "As a home-care nurse, I want to visualize patient health metrics over time so that I can identify trends and anticipate health deterioration more effectively.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
@@ -14,8 +14,8 @@
     "cbId": "CB-051"
   },
   {
-    "title": "Personalized Care Plan Management",
-    "summary": "As a home-care nurse, I want to track patient health progression over time and receive insights from their health data so that I can provide effective personalized care and anticipate any deterioration.",
+    "title": "Personalized Care Plan Management \u2013 Goal Tracking for Patient Health Improvements",
+    "summary": "As a home-care nurse, I want to track patient health progression over time using personalized care plans, so that I can identify early warning signs and provide timely interventions based on historical health data.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
@@ -28,8 +28,8 @@
     "cbId": "CB-052"
   },
   {
-    "title": "Historical Anomaly Reporting for Trend Analysis",
-    "summary": "As a home-care nurse, I want to analyze historical health data for my patients so that I can identify early warning signs and improve care strategies.",
+    "title": "Anomaly Detection and Alerts for Patient Monitoring",
+    "summary": "As a home-care nurse, I want to receive alerts for any anomalies in my patients' health metrics so that I can identify early signs of deterioration and intervene promptly.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
@@ -42,22 +42,23 @@
     "cbId": "CB-053"
   },
   {
-    "title": "Medication Management System \u2013 Automated Health Condition Reminders",
-    "summary": "As a home-care nurse, I want to receive automated reminders for my patients' medications and health conditions so that I can efficiently monitor their health status and ensure timely interventions without disrupting my patient care routines.",
+    "title": "Automated Medication Reminders",
+    "summary": "As a home-care nurse, I want automated reminders for patients' medication schedules so that I can efficiently monitor their adherence and prevent critical health events.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
       "UC-005",
-      "UC-006"
+      "UC-006",
+      "UC-011"
     ],
     "id": "US-084",
     "cbId": "CB-054"
   },
   {
     "title": "Remote Patient Check-in Interface - Progress Tracking for Ongoing Health Concerns",
-    "summary": "As a home-care nurse, I want to efficiently monitor my patients' health metrics and track their progression over time so that I can anticipate deterioration and provide timely interventions.",
+    "summary": "As a home-care nurse, I want to track patient health progression over time through an intuitive interface so that I can identify early warning signs and improve care strategies effectively.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
@@ -71,7 +72,7 @@
   },
   {
     "title": "Emergency Response Coordination \u2013 Caregiver Alerting for Emergency Situations",
-    "summary": "As a home-care nurse, I want to receive immediate alerts for emergency situations regarding my patients so that I can respond quickly and ensure their safety and well-being.",
+    "summary": "As a home-care nurse, I want to receive immediate alerts in case of emergency situations so that I can respond promptly to my patients' needs and ensure their safety.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
@@ -85,7 +86,7 @@
   },
   {
     "title": "Holistic Health Tracking \u2013 Mental Health Check-Ins and Resources",
-    "summary": "As a home-care nurse, I want to access mental health check-in tools and resources for my patients so that I can monitor their emotional well-being and provide timely interventions.",
+    "summary": "As a home-care nurse, I want to utilize mental health check-ins and resources through ALFRED so that I can better understand my patients' emotional states and provide tailored support during remote care.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",

@@ -1,7 +1,7 @@
 [
   {
-    "title": "Real-Time Health Alerts Integration",
-    "summary": "As a full-stack developer creating healthcare applications, I want to implement a webhook system for real-time health alerts so that I can ensure timely notifications for urgent care events and improve response times for elderly users and their caregivers.",
+    "title": "Real-Time Health Alert Notifications",
+    "summary": "As a full-stack developer, I want to implement a webhook system for real-time health alert notifications so that caregivers can receive timely updates about elderly users' well-being and respond quickly to urgent care events.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
@@ -17,22 +17,24 @@
   },
   {
     "title": "Comprehensive Developer Documentation \u2013 Step-by-Step Integration Guides",
-    "summary": "As a full-stack developer creating healthcare applications, I want comprehensive developer documentation with step-by-step integration guides so that I can easily build secure and accessible applications that meet healthcare compliance standards and improve the quality of life for elderly users.",
+    "summary": "As a full-stack developer, I want clear and comprehensive documentation with step-by-step integration guides so that I can easily build secure and user-friendly healthcare applications that cater to elderly users and their caregivers.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
-      "UC-009",
+      "UC-005",
+      "UC-006",
       "UC-010",
+      "UC-011",
       "UC-012"
     ],
     "id": "US-018",
     "cbId": "CB-102"
   },
   {
-    "title": "OAuth-Based Authentication for Third-Party Apps",
-    "summary": "As a full-stack developer creating healthcare applications, I want an OAuth-based authentication system so that I can ensure secure and compliant access to user data for my applications while maintaining the privacy of elderly users.",
+    "title": "Security and Privacy Controls \u2013 OAuth-Based Authentication for Third-Party Apps",
+    "summary": "As a full-stack developer, I want to implement OAuth-based authentication for third-party applications so that I can ensure secure interactions and compliance with healthcare regulations while integrating new services for elderly users and caregivers.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
@@ -46,7 +48,7 @@
   },
   {
     "title": "API Feedback Mechanism",
-    "summary": "As a full-stack developer creating healthcare applications, I want a feedback mechanism for the ALFRED APIs so that I can efficiently identify and resolve issues while ensuring my applications remain compliant with healthcare regulations.",
+    "summary": "As a full-stack developer, I want a feedback mechanism for the ALFRED APIs so that I can quickly address integration challenges and ensure compliance with healthcare regulations.",
     "priority": 2,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
@@ -59,8 +61,8 @@
     "cbId": "CB-104"
   },
   {
-    "title": "Modular Extension Architecture for Healthcare Applications",
-    "summary": "As a full-stack developer, I want a modular extension architecture that allows me to easily integrate new features into the ALFRED system so that I can create user-friendly, secure healthcare applications that effectively bridge gaps between elderly users and their caregivers.",
+    "title": "Modular Extension Architecture",
+    "summary": "As a full-stack developer, I want a plugin-based system for adding new features to ALFRED so that I can create modular, customizable healthcare applications that effectively bridge the gap between elderly users and their caregivers.",
     "priority": 2,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
@@ -73,8 +75,8 @@
     "cbId": "CB-105"
   },
   {
-    "title": "Error Tracking and Reporting",
-    "summary": "As a full-stack developer, I want to have robust error tracking and reporting tools integrated into the ALFRED system so that I can quickly identify and resolve issues in healthcare applications, ensuring compliance and enhancing user experience.",
+    "title": "Error Tracking and Reporting Interfaces",
+    "summary": "As a full-stack developer, I want robust error tracking and reporting interfaces within the ALFRED system so that I can quickly identify and resolve issues in my healthcare applications, ensuring they remain secure and compliant with regulations.",
     "priority": 2,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
@@ -88,7 +90,7 @@
   },
   {
     "title": "Interoperability with Health Devices",
-    "summary": "As a full-stack developer, I want pre-built connectors for various health devices so that I can easily integrate real-time health monitoring into my applications for elderly users and caregivers.",
+    "summary": "As a full-stack developer creating healthcare applications, I want to seamlessly integrate third-party health monitoring devices with ALFRED through pre-built connectors, so that I can ensure timely notifications for urgent care events and improve the quality of life for elderly users.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",

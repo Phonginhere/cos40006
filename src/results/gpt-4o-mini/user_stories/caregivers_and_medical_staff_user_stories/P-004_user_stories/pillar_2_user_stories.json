@@ -1,7 +1,7 @@
 [
   {
     "title": "Proactive Social Engagement Reminders",
-    "summary": "As a home-care nurse, I want ALFRED to proactively remind my socially isolated patients about upcoming social activities based on their interests so that I can help them stay connected and engaged without needing to monitor their schedules constantly.",
+    "summary": "As a home-care nurse, I want ALFRED to provide proactive reminders for upcoming social activities tailored for my elderly patients so that I can help them stay socially connected and prevent isolation, while efficiently managing my time between patient visits.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Caregivers and Medical Staff",
@@ -13,21 +13,22 @@
     "cbId": "CB-044"
   },
   {
-    "title": "Asynchronous Communication Support",
-    "summary": "As a home-care nurse, I want to send and receive text-based messaging reminders through ALFRED so that I can efficiently communicate with my patients and their families without interrupting my care routines.",
+    "title": "Text-Based Messaging Reminders for Caregivers",
+    "summary": "As a home-care nurse, I want to send and receive text-based messaging reminders for medication and health updates so that I can efficiently communicate with my patients and their families without interrupting my caregiving routines.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
-      "UC-004"
+      "UC-004",
+      "UC-005"
     ],
     "id": "US-078",
     "cbId": "CB-045"
   },
   {
     "title": "Access to Local Community Resources",
-    "summary": "As a home-care nurse, I want to recommend local community events and resources to my socially isolated patients so that they can engage in activities that improve their emotional and social well-being.",
+    "summary": "As a home-care nurse, I want to easily find and recommend local community resources for my socially isolated patients so that I can help them engage in social activities and improve their well-being.",
     "priority": 2,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Caregivers and Medical Staff",
@@ -40,15 +41,16 @@
   },
   {
     "title": "Shared Activity Planning Tools",
-    "summary": "As a home-care nurse, I want seamless calendar integration for care coordination so that I can efficiently manage medication schedules and patient visits without overlaps, while also supporting socially isolated patients through planned engagement activities.",
+    "summary": "As a home-care nurse, I want to seamlessly integrate my patients' medication schedules and social activities into a shared calendar so that I can coordinate care and maintain consistent communication with my patients and their families.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
-      "UC-001",
       "UC-004",
-      "UC-006"
+      "UC-005",
+      "UC-006",
+      "UC-011"
     ],
     "id": "US-080",
     "cbId": "CB-050"

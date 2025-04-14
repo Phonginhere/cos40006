@@ -1,7 +1,7 @@
 [
   {
     "title": "Cognitive Engagement Activities - Memory Games for Mental Stimulation",
-    "summary": "As a retired social worker, I want engaging memory games that adapt to my cognitive abilities so that I can stay mentally active and connected while managing my arthritis pain.",
+    "summary": "As a retired social worker, I want to engage in memory games tailored for my cognitive abilities so that I can remain mentally active and connected while managing my arthritis pain.",
     "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
@@ -13,8 +13,8 @@
     "cbId": "CB-023"
   },
   {
-    "title": "Physical Activity Guidance \u2013 Gentle Stretching and Mobility Exercises",
-    "summary": "As a retired social worker, I want guidance on gentle stretching and mobility exercises so that I can stay physically active and manage my arthritis pain effectively.",
+    "title": "Gentle Stretching and Mobility Exercises Guidance",
+    "summary": "As a retired social worker, I want ALFRED to provide gentle stretching and mobility exercises so that I can stay physically active and manage my arthritis pain while being mindful of my limited mobility.",
     "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
@@ -26,8 +26,8 @@
     "cbId": "CB-024"
   },
   {
-    "title": "Adaptive Learning for Physical Activities",
-    "summary": "As a retired social worker, I want customizable difficulty levels for activities so that I can engage in physical and cognitive tasks that suit my current abilities and help me stay active despite my arthritis.",
+    "title": "Customizable Activity Difficulty",
+    "summary": "As a retired social worker, I want to have adjustable difficulty levels for cognitive and physical activities so that I can engage in challenges that suit my current abilities without feeling overwhelmed or discouraged.",
     "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
@@ -41,18 +41,20 @@
   },
   {
     "title": "Reminders for Daily Activities \u2013 Check-Ins for Hydration and Nutrition",
-    "summary": "As a retired social worker, I want ALFRED to remind me to stay hydrated and check my nutrition so that I can maintain my physical health while managing my arthritis and busy schedule.",
+    "summary": "As a retired social worker, I want ALFRED to remind me to hydrate and eat regularly so that I can maintain my physical health while managing my arthritis pain and busy schedule.",
     "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
     "personaId": "P-005",
-    "useCases": [],
+    "useCases": [
+      "UC-008"
+    ],
     "id": "US-120",
     "cbId": "CB-026"
   },
   {
     "title": "Community Engagement Initiatives - Volunteer Opportunities Based on Interests",
-    "summary": "As a retired social worker, I want ALFRED to suggest volunteer opportunities based on my interests so that I can stay socially connected and remain active in my community despite my limited mobility.",
+    "summary": "As a retired social worker, I want ALFRED to suggest volunteer opportunities based on my interests so that I can stay socially connected and continue to contribute to my community despite my limited mobility.",
     "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
@@ -65,19 +67,21 @@
     "cbId": "CB-027"
   },
   {
-    "title": "Mindfulness and Relaxation Tools - Guided Meditation for Active Living",
-    "summary": "As a retired social worker, I want guided meditation sessions integrated into ALFRED so that I can manage my arthritis pain and stay mentally active while maintaining my busy schedule.",
+    "title": "Guided Meditation for Active Living",
+    "summary": "As a retired social worker, I want access to guided meditation tools so that I can manage my arthritis pain and maintain my mental well-being while staying physically active.",
     "priority": 2,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
     "personaId": "P-005",
-    "useCases": [],
+    "useCases": [
+      "UC-008"
+    ],
     "id": "US-122",
     "cbId": "CB-028"
   },
   {
     "title": "Personalized Progress Tracking \u2013 Goal-Setting for Achievements",
-    "summary": "As a retired social worker, I want to set and track personal goals for physical and cognitive activities so that I can stay active and engaged while managing my arthritis.",
+    "summary": "As a retired social worker, I want to set personal goals for physical and cognitive activities so that I can track my progress and maintain my independence while staying active and engaged.",
     "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",

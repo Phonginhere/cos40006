@@ -1,14 +1,13 @@
 [
   {
-    "title": "Health Data Integration Framework",
-    "summary": "As a full-stack developer creating healthcare applications, I want an easy-to-use API for integrating real-time health data from wearable devices so that I can build applications that deliver timely notifications for urgent care events and improve the quality of life for elderly users.",
+    "title": "Health Data Integration Framework \u2013 Standardized API for Health Device Data Ingestion",
+    "summary": "As a full-stack developer creating healthcare applications, I want a standardized API for health device data ingestion so that I can seamlessly integrate health monitoring devices into my applications while ensuring secure data handling and compliance with healthcare regulations.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
       "UC-005",
-      "UC-006",
       "UC-010",
       "UC-012"
     ],
@@ -16,8 +15,8 @@
     "cbId": "CB-086"
   },
   {
-    "title": "Integration of Caregiver Input for Personalized Care Plans",
-    "summary": "As a developer, I want to integrate caregiver input into personalized care plans so that applications can refine and adapt health monitoring based on real-time feedback and ensure compliance with healthcare regulations.",
+    "title": "Caregiver Input Integration for Personalized Care Plans",
+    "summary": "As a developer, I want to integrate caregiver input into personalized care plans so that I can build applications that enhance real-time health monitoring and ensure timely interventions for elderly users.",
     "priority": 2,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
@@ -32,7 +31,7 @@
   },
   {
     "title": "Automated Escalation to Emergency Contacts",
-    "summary": "As a full-stack developer creating healthcare applications, I want to implement an automated escalation feature that alerts designated emergency contacts when urgent care events are detected, so that elderly users receive timely assistance and caregivers are informed without delay.",
+    "summary": "As a full-stack developer creating healthcare applications, I want to implement automated escalation to emergency contacts so that caregivers and family members can be notified promptly in urgent care situations.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
@@ -47,7 +46,7 @@
   },
   {
     "title": "Health Monitoring Alerts System - Immediate Notifications for Caregivers",
-    "summary": "As a full-stack developer, I want to design a health monitoring alerts system that provides immediate notifications to caregivers so that they can respond promptly to urgent care events and improve the quality of life for elderly users.",
+    "summary": "As a full-stack developer, I want to design a health monitoring alerts system that provides immediate notifications for caregivers based on real-time data from wearables so that I can ensure timely intervention for elderly users and improve their quality of life.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
@@ -61,8 +60,8 @@
     "cbId": "CB-089"
   },
   {
-    "title": "Real-time Health Data Integration",
-    "summary": "As a full-stack developer, I want to build webhook systems for live health alerts so that I can ensure timely notifications for urgent care events and bridge the gap between elderly users and their caregivers.",
+    "title": "Real-Time Health Data Integration",
+    "summary": "As a full-stack developer, I want to implement secure APIs that facilitate real-time health data streaming from wearables to the ALFRED system so that I can create timely notifications for caregivers about urgent care events.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
@@ -77,7 +76,7 @@
   },
   {
     "title": "Medication Management Interface \u2013 Caregiver Notifications for Missed Doses",
-    "summary": "As a developer, I want to create a medication management interface that notifies caregivers when a user misses a dose, so that I can ensure timely interventions and improve health outcomes for elderly users.",
+    "summary": "As a developer, I want to implement a system that automatically notifies caregivers of missed medication doses so that they can ensure timely interventions and better health outcomes for elderly users.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
@@ -92,7 +91,7 @@
   },
   {
     "title": "Secure Access Controls for Sensitive Information",
-    "summary": "As a full-stack developer creating healthcare applications, I want to implement secure access controls for user health history so that I can ensure compliance with data privacy standards and protect sensitive information for elderly users and their caregivers.",
+    "summary": "As a full-stack developer creating healthcare applications, I want to ensure that my applications have secure access controls for sensitive user health information so that I can comply with healthcare regulations and protect user privacy.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
@@ -105,7 +104,7 @@
   },
   {
     "title": "Shared Access to User Health Data",
-    "summary": "As a full-stack developer, I want to implement shared access to user health data for caregivers so that they can receive timely notifications and provide better care to elderly users.",
+    "summary": "As a developer, I want to create applications that enable caregivers to access real-time health data of elderly users so that they can provide timely support and interventions.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",

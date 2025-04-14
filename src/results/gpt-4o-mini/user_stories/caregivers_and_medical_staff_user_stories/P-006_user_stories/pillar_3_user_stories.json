@@ -1,37 +1,7 @@
 [
   {
-    "title": "Health Monitoring Dashboard Customization",
-    "summary": "As a professional caregiver managing multiple elderly clients, I want a customizable health metrics dashboard that allows me to track real-time health data for my clients so that I can efficiently monitor their well-being while ensuring their privacy and clarity in communication.",
-    "priority": 1,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-005",
-      "UC-006",
-      "UC-010"
-    ],
-    "id": "US-135",
-    "cbId": "CB-051"
-  },
-  {
-    "title": "Health Monitoring and Alert Management",
-    "summary": "As a professional caregiver managing multiple elderly clients, I want to verify health monitoring results and mediate alerts so that I can ensure accurate interpretation of health data and make informed decisions without causing unnecessary stress for my clients.",
-    "priority": 1,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-005",
-      "UC-006",
-      "UC-010"
-    ],
-    "id": "US-136",
-    "cbId": "CB-052"
-  },
-  {
-    "title": "Customizable Caregiver Alert Thresholds",
-    "summary": "As a professional caregiver managing multiple elderly clients, I want to customize alert thresholds for health monitoring so that I can receive timely notifications without alarming my clients or making rushed decisions based on misinterpreted data.",
+    "title": "Customizable Health Metrics Dashboards",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want customizable health metrics dashboards so that I can efficiently track client health status on demand and ensure clarity in communication with clients and their families.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
@@ -42,26 +12,25 @@
       "UC-010"
     ],
     "id": "US-137",
-    "cbId": "CB-053"
+    "cbId": "CB-051"
   },
   {
-    "title": "Tailored Medication Reminders",
-    "summary": "As a professional caregiver, I want ALFRED to provide tailored medication reminders that are context-sensitive and can be validated before notifying clients, so that I can ensure my clients receive timely and appropriate reminders without causing unnecessary stress or confusion.",
-    "priority": 1,
+    "title": "Health Monitoring and Communication Control",
+    "summary": "As a professional caregiver, I want to manually control when health data is retrieved and shared with clients so that I can ensure a calm environment and respect their privacy preferences.",
+    "priority": 2,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-006",
     "useCases": [
       "UC-005",
-      "UC-006",
       "UC-010"
     ],
     "id": "US-138",
-    "cbId": "CB-054"
+    "cbId": "CB-052"
   },
   {
-    "title": "Remote Patient Check-in Interface \u2013 Scheduled Virtual Check-ins via Video",
-    "summary": "As a professional caregiver managing multiple elderly clients, I want to conduct scheduled virtual check-ins via video so that I can monitor my clients' health in real-time, maintain clear communication with their families, and provide personalized care without overwhelming my clients with impersonal alerts.",
+    "title": "Customizable Alert Thresholds for Health Monitoring",
+    "summary": "As a professional caregiver, I want to customize alert thresholds for health metrics so that I can monitor my clients' health in a way that respects their privacy and avoids unnecessary alarms.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
@@ -72,11 +41,11 @@
       "UC-010"
     ],
     "id": "US-139",
-    "cbId": "CB-055"
+    "cbId": "CB-053"
   },
   {
-    "title": "Emergency Response Coordination \u2013 Caregiver Alerts for Client Emergencies",
-    "summary": "As a professional caregiver managing multiple elderly clients, I want to receive timely alerts for client emergencies so that I can intervene swiftly and ensure their safety while minimizing unnecessary stress on my clients.",
+    "title": "Medication Management System \u2013 Customizable Reminders",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want to customize medication reminders for each client so that I can ensure they receive timely notifications without causing confusion or agitation.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
@@ -87,11 +56,11 @@
       "UC-010"
     ],
     "id": "US-140",
-    "cbId": "CB-056"
+    "cbId": "CB-054"
   },
   {
-    "title": "Holistic Health Monitoring",
-    "summary": "As a professional caregiver, I want to track multiple clients' health metrics in real-time and receive alerts for any anomalies, so that I can ensure their safety and well-being without compromising their privacy.",
+    "title": "Remote Patient Check-in Interface \u2013 Progress Tracking for Ongoing Health Concerns",
+    "summary": "As a professional caregiver, I want a remote patient check-in interface that allows me to track health metrics on demand and receive alerts for anomalies so that I can efficiently manage my clients' care and ensure their well-being.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
@@ -102,6 +71,36 @@
       "UC-010"
     ],
     "id": "US-141",
+    "cbId": "CB-055"
+  },
+  {
+    "title": "Emergency Response Coordination \u2013 Real-Time Escalation Protocols for Client Safety",
+    "summary": "As a professional caregiver, I want real-time escalation protocols integrated into the system so that I can ensure timely emergency responses for my clients while respecting their privacy and preferences.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-010"
+    ],
+    "id": "US-142",
+    "cbId": "CB-056"
+  },
+  {
+    "title": "Holistic Health Tracking",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want to access integrated health metrics from fitness and wellness apps on ALFRED so that I can track my clients' health status on demand and ensure personalized care while respecting their privacy preferences.",
+    "priority": 2,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-005",
+      "UC-010",
+      "UC-006"
+    ],
+    "id": "US-143",
     "cbId": "CB-057"
   }
 ]

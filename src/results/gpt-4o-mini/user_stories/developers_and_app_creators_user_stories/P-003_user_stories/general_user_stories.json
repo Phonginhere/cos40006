@@ -1,7 +1,7 @@
 [
   {
     "title": "Open API Ecosystem - Backward Compatible API Versioning for Compliance",
-    "summary": "As a Compliance and Risk Lead, I want to ensure that the ALFRED APIs are backward compatible so that my team can integrate new applications without compromising existing audit trails and compliance standards.",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to ensure that the API design is backward compatible and meets compliance standards so that I can facilitate seamless integration of third-party applications while maintaining regulatory adherence.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
@@ -14,8 +14,8 @@
     "cbId": "CB-101"
   },
   {
-    "title": "Comprehensive Developer Documentation - Step-by-Step Integration Guides for Compliance",
-    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want comprehensive documentation and step-by-step integration guides to ensure that our applications are built with compliance-by-design principles so that we can maintain auditability and traceability while promoting user privacy and security.",
+    "title": "Comprehensive Developer Documentation for Compliance Integration",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want clear and detailed documentation with step-by-step integration guides for compliance, so that I can ensure our applications are built with compliance-by-design principles and maintain audit readiness.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
@@ -29,7 +29,7 @@
   },
   {
     "title": "User Consent Management Interfaces",
-    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to ensure that user consent management interfaces are intuitive and compliant so that developers can create applications that respect user privacy while maintaining regulatory standards.",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want the ALFRED system to provide clear user consent management interfaces so that I can ensure compliance with data privacy standards while facilitating secure interactions across our applications.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
@@ -41,8 +41,8 @@
     "cbId": "CB-103"
   },
   {
-    "title": "Regular Compliance Webinars",
-    "summary": "As a Compliance and Risk Lead, I want to participate in regular webinars focused on compliance best practices so that I can stay aligned with industry trends and ensure that digital health applications are built with compliance-by-design principles.",
+    "title": "Compliance-Focused Developer Support",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want access to regular webinars and Q&A sessions focused on compliance best practices so that I can ensure that our applications are built with compliance-by-design principles and to stay aligned with industry trends.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
@@ -54,8 +54,8 @@
     "cbId": "CB-104"
   },
   {
-    "title": "Modular Extension for Compliance-Driven Development",
-    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want a plugin-based system that allows for modular extensions to ensure compliance-by-design principles are maintained while integrating new applications, so that I can oversee and verify compliance across various functionalities without slowing down development.",
+    "title": "Compliance-Driven Plugin Architecture",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want an open platform that supports modular extensions through robust APIs so that developers can create applications that ensure compliance-by-design and maintain traceability in user interactions.",
     "priority": 2,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
@@ -69,21 +69,20 @@
   },
   {
     "title": "API Usage Analytics Dashboard",
-    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to access an API usage analytics dashboard so that I can monitor access and traceability pipelines in real time, ensuring compliance and security in our integrations.",
+    "summary": "As a Compliance and Risk Lead, I want to monitor API usage analytics in real-time so that I can ensure compliance and traceability of interactions within the ALFRED system.",
     "priority": 2,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
     "personaId": "P-003",
     "useCases": [
-      "UC-010",
-      "UC-012"
+      "UC-010"
     ],
     "id": "US-068",
     "cbId": "CB-106"
   },
   {
-    "title": "Integration Templates for Compliance-Aware Development",
-    "summary": "As a Compliance and Risk Lead, I want to have access to integration templates that guide developers in building compliant third-party services so that we can ensure our digital health applications meet regulatory standards without compromising agile delivery.",
+    "title": "Interoperability with Third-Party Services - Integration Templates for Compliance-Aware Development",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to have access to integration templates that facilitate compliance-aware development so that I can ensure our applications maintain legal and regulatory standards while integrating with third-party services.",
     "priority": 2,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",

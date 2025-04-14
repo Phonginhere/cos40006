@@ -1,9 +1,7 @@
 import json
 import os
 from typing import List, Optional
-from utils import CURRENT_LLM
-
-USE_CASE_PATH = os.path.join("results", CURRENT_LLM, "use_cases")
+from utils import CURRENT_LLM, USE_CASE_DIR
 
 
 class UseCase:
@@ -35,7 +33,7 @@ class UseCase:
 class UseCaseLoader:
     """Loads all ALFRED use cases from a directory of JSON files."""
 
-    def __init__(self, directory: str = USE_CASE_PATH):
+    def __init__(self, directory: str = USE_CASE_DIR):
         self.directory = directory
         self.use_cases: List[UseCase] = []
 

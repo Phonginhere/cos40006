@@ -1,0 +1,38 @@
+﻿CB ID,CB Title,Pillar,P-004_Chosen,P-004_SubOption,P-006_Chosen,P-006_SubOption
+CB-069,Secure Health Data Access Management,General Requirements,✅,Role-based access controls for caregiver permissions,✅,Role-based access controls for caregiver permissions
+CB-070,Intuitive Onboarding and Setup Process,General Requirements,✅,Interactive tutorials for feature familiarization,✅,Step-by-step guided setup for caregivers
+CB-071,Adaptive User Interface for Caregivers,General Requirements,✅,Customizable dashboard layouts based on caregiver preferences,✅,Customizable dashboard layouts based on caregiver preferences
+CB-072,Comprehensive Data Privacy Controls,General Requirements,✅,User-defined privacy settings for data sharing,✅,User-defined privacy settings for data sharing
+CB-073,Interoperability with Third-Party Systems,General Requirements,✅,Data import/export functionalities for health records,✅,API support for integration with external health software
+CB-074,Feedback and Support Mechanisms,General Requirements,✅,Access to a knowledge base with FAQs and troubleshooting guides,✅,Access to a knowledge base with FAQs and troubleshooting guides
+CB-075,Data Analytics and Reporting Tools,General Requirements,✅,Custom report generation for health trends over time,✅,Alerts for significant changes in health metrics
+CB-076,Collaborative Care Coordination Features,General Requirements,✅,Real-time updates on patient status for all involved caregivers,✅,Shared access to care plans among multiple caregivers
+CB-040,Voice-Activated Task Management,Pillar 1 - User-Driven Interaction Assistant,✅,Voice reminders for medication and appointments,✅,Voice reminders for medication and appointments
+CB-041,Real-Time Health Monitoring Alerts,Pillar 1 - User-Driven Interaction Assistant,✅,Historical data trends for health metrics,✅,Emergency alert system for caregivers
+CB-042,Simplified Communication Tools,Pillar 1 - User-Driven Interaction Assistant,✅,Voice messages for asynchronous communication,✅,One-touch video calling feature
+CB-043,User-Friendly Interface Customization,Pillar 1 - User-Driven Interaction Assistant,✅,Voice command shortcuts for common functions,✅,Simplified navigation options for quick access
+CB-044,Integrated Feedback Mechanism,Pillar 1 - User-Driven Interaction Assistant,❌,,✅,Real-time suggestions based on interaction history
+CB-045,Support for Multimodal Interaction,Pillar 1 - User-Driven Interaction Assistant,✅,"Voice, touch, and gesture recognition capabilities",✅,"Voice, touch, and gesture recognition capabilities"
+CB-046,Context-Aware Assistance,Pillar 1 - User-Driven Interaction Assistant,✅,Adaptive responses based on user mood or state,✅,Time-sensitive alerts based on user routines
+CB-047,Facilitated Social Engagement Recommendations,Pillar 2 - Personalized Social Inclusion,❌,,❌,
+CB-048,Enhanced Communication Channels,Pillar 2 - Personalized Social Inclusion,✅,Voice messages for asynchronous communication,❌,
+CB-049,Social Interaction Tracking,Pillar 2 - Personalized Social Inclusion,✅,Customizable reports for caregivers on social activity trends,❌,
+CB-050,User-Centric Social Profiles,Pillar 2 - Personalized Social Inclusion,✅,Status updates for caregivers on user interactions,❌,
+CB-051,Activity Participation Monitoring,Pillar 2 - Personalized Social Inclusion,✅,Alerting caregivers about missed activities,❌,
+CB-052,Interactive Group Activities,Pillar 2 - Personalized Social Inclusion,❌,,❌,
+CB-053,Cognitive Stimulation through Social Interaction,Pillar 2 - Personalized Social Inclusion,✅,Discussion prompts for family conversations,❌,
+CB-054,Health Data Visualization and Reporting,Pillar 3 - Effective & Personalized Care,✅,Graphical trends of vital signs over time,✅,Customizable health dashboards for caregivers
+CB-055,Remote Care Coordination Tools,Pillar 3 - Effective & Personalized Care,✅,Integrated calendar for medication and appointment reminders,✅,Integrated calendar for medication and appointment reminders
+CB-056,Personalized Health Insights,Pillar 3 - Effective & Personalized Care,✅,Alerts for potential health risks based on patterns,✅,Alerts for potential health risks based on patterns
+CB-057,Emergency Response Features,Pillar 3 - Effective & Personalized Care,✅,Immediate alerts to caregivers during critical events,✅,Immediate alerts to caregivers during critical events
+CB-058,Medication Management System,Pillar 3 - Effective & Personalized Care,✅,Automated reminders for medication schedules,✅,Tracking of medication adherence with alerts
+CB-059,Caregiver Training and Support Resources,Pillar 3 - Effective & Personalized Care,✅,Access to a library of training videos and guides,✅,Access to a library of training videos and guides
+CB-060,Multi-User Access Management,Pillar 3 - Effective & Personalized Care,❌,,✅,Customizable permissions for data access
+CB-061,Personalized Care Alerts,Pillar 3 - Effective & Personalized Care,✅,Event-triggered alerts based on user-defined criteria,✅,Customizable alert settings for specific health conditions
+CB-062,Gamified Physical Activity Engagement,Pillar 4 - Physical & Cognitive Impairments Prevention,❌,,❌,
+CB-063,Cognitive Skill Development Activities,Pillar 4 - Physical & Cognitive Impairments Prevention,❌,,❌,
+CB-064,Activity Scheduling and Reminders,Pillar 4 - Physical & Cognitive Impairments Prevention,✅,Customizable reminders for physical and cognitive activities,❌,
+CB-065,Progress Tracking and Feedback,Pillar 4 - Physical & Cognitive Impairments Prevention,✅,Visual progress reports for physical and cognitive activities,❌,
+CB-066,Socially Engaging Cognitive Games,Pillar 4 - Physical & Cognitive Impairments Prevention,❌,,❌,
+CB-067,Personalized Activity Recommendations,Pillar 4 - Physical & Cognitive Impairments Prevention,✅,Tailored activity suggestions based on health data,❌,
+CB-068,Health-Integrated Physical Challenges,Pillar 4 - Physical & Cognitive Impairments Prevention,❌,,❌,

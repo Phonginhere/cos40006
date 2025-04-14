@@ -1,7 +1,66 @@
 [
   {
-    "title": "Natural Language Understanding for Voice Commands",
-    "summary": "As a tech-curious older adult, I want ALFRED to understand my varied speech patterns and accent so that I can interact with it easily without feeling overwhelmed by technology.",
+    "title": "Natural Language Voice Commands - Simplified Command Structures for Ease of Use",
+    "summary": "As a tech-curious older adult with mild mobility issues, I want to use simple voice commands to manage my daily tasks so that I can maintain my independence without feeling overwhelmed by technology.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-001",
+      "UC-004",
+      "UC-002",
+      "UC-011"
+    ],
+    "id": "US-028",
+    "cbId": "CB-001"
+  },
+  {
+    "title": "Social Connection Reminders",
+    "summary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to remind me of social interactions and events based on my preferences so that I can stay connected with family and friends and reduce feelings of isolation.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-003",
+      "UC-004"
+    ],
+    "id": "US-029",
+    "cbId": "CB-002"
+  },
+  {
+    "title": "Medication Management Support",
+    "summary": "As a tech-curious older adult with mild mobility issues, I want to receive voice-activated medication reminders so that I can manage my health efficiently and maintain my independence at home.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-001",
+      "UC-004"
+    ],
+    "id": "US-030",
+    "cbId": "CB-003"
+  },
+  {
+    "title": "Information Retrieval Assistance",
+    "summary": "As a tech-curious older adult, I want to easily ask ALFRED for local services and resources using voice commands so that I can manage my daily tasks and stay connected with my community without feeling overwhelmed by technology.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-004"
+    ],
+    "id": "US-031",
+    "cbId": "CB-004"
+  },
+  {
+    "title": "Error Recovery and Clarification \u2013 Follow-up Questions for Ambiguous Commands",
+    "summary": "As a tech-curious older adult, I want ALFRED to ask follow-up questions when I give ambiguous commands so that I can clarify my intentions without feeling overwhelmed or frustrated.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
@@ -10,29 +69,15 @@
       "UC-001",
       "UC-002",
       "UC-004",
-      "UC-010",
+      "UC-009",
       "UC-011"
     ],
-    "id": "US-038",
-    "rawRequirementId": "RREQ-001"
+    "id": "US-032",
+    "cbId": "CB-005"
   },
   {
-    "title": "Medication Reminders Through Voice Commands",
-    "summary": "As a tech-curious older adult, I want to set medication reminders using voice commands so that I can manage my health efficiently without feeling overwhelmed by technology.",
-    "priority": 1,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Older Adults",
-    "personaId": "P-002",
-    "useCases": [
-      "UC-001",
-      "UC-010"
-    ],
-    "id": "US-039",
-    "rawRequirementId": "RREQ-002"
-  },
-  {
-    "title": "Contextual Assistance for Daily Tasks",
-    "summary": "As a tech-curious older adult, I want ALFRED to provide step-by-step guidance for tasks like setting medication reminders or making video calls, so that I can manage my health and stay connected without feeling overwhelmed by technology.",
+    "title": "Voice Interaction with Touch Controls",
+    "summary": "As a tech-curious older adult, I want to use voice commands and touch controls to manage my daily tasks so that I can maintain my independence without feeling overwhelmed by technology.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
@@ -40,61 +85,15 @@
     "useCases": [
       "UC-001",
       "UC-004",
-      "UC-010"
-    ],
-    "id": "US-040",
-    "rawRequirementId": "RREQ-003"
-  },
-  {
-    "title": "Voice Feedback and Confirmation",
-    "summary": "As an older adult, I want ALFRED to provide clear voice feedback and confirmation after completing my tasks so that I feel confident that my commands were understood and executed correctly.",
-    "priority": 1,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Older Adults",
-    "personaId": "P-002",
-    "useCases": [
-      "UC-001",
-      "UC-004",
-      "UC-010"
-    ],
-    "id": "US-041",
-    "rawRequirementId": "RREQ-004"
-  },
-  {
-    "title": "Rephrasing Assistance for Clarity",
-    "summary": "As a tech-curious older adult, I want ALFRED to provide options for rephrasing my commands when they are unclear so that I can feel more confident using the system without frustration.",
-    "priority": 1,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Older Adults",
-    "personaId": "P-002",
-    "useCases": [
-      "UC-001",
-      "UC-004",
-      "UC-010",
+      "UC-009",
       "UC-011"
     ],
-    "id": "US-042",
-    "rawRequirementId": "RREQ-005"
+    "id": "US-033",
+    "cbId": "CB-006"
   },
   {
-    "title": "Personalized Interaction History",
-    "summary": "As a tech-curious older adult, I want ALFRED to remember my past interactions and preferences so that I can receive tailored suggestions that help me manage my health and stay connected with my family more easily.",
-    "priority": 2,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Older Adults",
-    "personaId": "P-002",
-    "useCases": [
-      "UC-001",
-      "UC-003",
-      "UC-004",
-      "UC-011"
-    ],
-    "id": "US-043",
-    "rawRequirementId": "RREQ-006"
-  },
-  {
-    "title": "Multimodal Interaction Support for Enhanced Usability",
-    "summary": "As a tech-curious older adult, I want to use voice commands along with visual cues so that I can feel more confident and supported while interacting with the system, making it easier to manage my tasks and stay connected with my family.",
+    "title": "Adaptive Learning and Personalization \u2013 Customizable Interaction Styles for Enhanced User Experience",
+    "summary": "As a tech-curious older adult, I want ALFRED to adapt to my voice and preferences so that I can interact with it more easily and feel more confident in using technology.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
@@ -102,26 +101,24 @@
     "useCases": [
       "UC-001",
       "UC-004",
-      "UC-010",
+      "UC-009",
       "UC-011"
     ],
-    "id": "US-044",
-    "rawRequirementId": "RREQ-007"
+    "id": "US-034",
+    "cbId": "CB-007"
   },
   {
-    "title": "Adaptive Learning and Improvement \u2013 Learning User Preferences Over Time",
-    "summary": "As a tech-curious older adult, I want ALFRED to learn my preferences over time so that it can provide personalized reminders and recommendations for my health and social activities, making it easier for me to manage my daily tasks and stay connected with my family.",
+    "title": "Emergency Response Activation \u2013 Voice-Triggered Alerts for Emergency Contacts",
+    "summary": "As a tech-curious older adult with mild mobility issues, I want to activate emergency alerts using my voice so that I can quickly get help when I need it without having to navigate complex technology.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
     "personaId": "P-002",
     "useCases": [
       "UC-001",
-      "UC-003",
-      "UC-004",
-      "UC-011"
+      "UC-004"
     ],
-    "id": "US-045",
-    "rawRequirementId": "RREQ-008"
+    "id": "US-035",
+    "cbId": "CB-008"
   }
 ]

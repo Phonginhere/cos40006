@@ -1,78 +1,8 @@
 [
   {
-    "title": "Cognitive Stimulation Activities \u2013 Daily Puzzles and Quizzes Tailored to User Preferences",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want engaging cognitive stimulation games that are tailored to my preferences so that I can maintain my cognitive abilities while feeling empowered and not monitored.",
+    "title": "Guided Home Exercise Tutorials",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want guided video tutorials for safe home exercises so that I can maintain my physical fitness and cognitive abilities without feeling monitored.",
     "priority": 1,
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Older Adults",
-    "personaId": "P-007",
-    "useCases": [
-      "UC-008",
-      "UC-011"
-    ],
-    "id": "US-209",
-    "rawRequirementId": "RREQ-025"
-  },
-  {
-    "title": "Physical Activity Engagement \u2013 Integration with Wearable Devices to Track Physical Activity",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to integrate with my wearable device so that I can track my cycling activities and maintain my physical health without feeling monitored.",
-    "priority": 1,
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Older Adults",
-    "personaId": "P-007",
-    "useCases": [
-      "UC-007",
-      "UC-011"
-    ],
-    "id": "US-210",
-    "rawRequirementId": "RREQ-026"
-  },
-  {
-    "title": "Progress Tracking and Feedback",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to receive visual progress reports on my cognitive and physical activities so that I can maintain my cognitive abilities and stay motivated without feeling monitored.",
-    "priority": 2,
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Older Adults",
-    "personaId": "P-007",
-    "useCases": [
-      "UC-007",
-      "UC-008"
-    ],
-    "id": "US-211",
-    "rawRequirementId": "RREQ-027"
-  },
-  {
-    "title": "Adaptive Cognitive Challenges",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want personalized cognitive stimulation challenges that adapt based on my performance so that I can maintain my cognitive abilities without feeling overwhelmed or monitored.",
-    "priority": 2,
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Older Adults",
-    "personaId": "P-007",
-    "useCases": [
-      "UC-008",
-      "UC-011"
-    ],
-    "id": "US-212",
-    "rawRequirementId": "RREQ-028"
-  },
-  {
-    "title": "Motivational Support - Goal-Setting Features with Celebratory Notifications",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to set personal cognitive goals and receive celebratory notifications when I achieve them so that I feel motivated and supported in maintaining my cognitive abilities without feeling monitored.",
-    "priority": 2,
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Older Adults",
-    "personaId": "P-007",
-    "useCases": [
-      "UC-008",
-      "UC-011"
-    ],
-    "id": "US-213",
-    "rawRequirementId": "RREQ-029"
-  },
-  {
-    "title": "Emergency Preparedness Training \u2013 Guided Scenarios for Emergency Response",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want guided scenarios for emergency response so that I can feel confident and prepared without feeling monitored.",
-    "priority": 2,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
     "personaId": "P-007",
@@ -80,35 +10,74 @@
       "UC-008",
       "UC-007"
     ],
-    "id": "US-214",
-    "rawRequirementId": "RREQ-030"
+    "id": "US-192",
+    "cbId": "CB-025"
   },
   {
-    "title": "Daily Prompts for Social Engagement Activities",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to provide daily prompts for social engagement activities so that I can participate in family activities and maintain my cognitive abilities without feeling monitored.",
+    "title": "Cognitive Stimulation Activities \u2013 Memory Recall Challenges Based on Personal History",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to engage in memory recall challenges that are based on my personal history so that I can maintain my cognitive abilities while feeling empowered and not monitored.",
+    "priority": 1,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-007"
+    ],
+    "id": "US-193",
+    "cbId": "CB-026"
+  },
+  {
+    "title": "Wellness Check-In Reminders",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want interactive voice check-ins to assess my mental state so that I can maintain my cognitive abilities without feeling monitored.",
+    "priority": 1,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-007"
+    ],
+    "id": "US-194",
+    "cbId": "CB-027"
+  },
+  {
+    "title": "Guided Mindfulness and Relaxation Exercises",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want daily relaxation reminders with calming sounds so that I can maintain my cognitive abilities and feel less disoriented without feeling monitored.",
     "priority": 2,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-007",
+      "UC-001"
+    ],
+    "id": "US-195",
+    "cbId": "CB-028"
+  },
+  {
+    "title": "Community Activity Engagement \u2013 Local Event Notifications Based on User Interests",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to receive notifications about local events based on my interests so that I can participate in activities that keep me socially engaged and mentally sharp without feeling overwhelmed or monitored.",
+    "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
       "UC-003",
-      "UC-008"
+      "UC-007"
     ],
-    "id": "US-215",
-    "rawRequirementId": "RREQ-031"
+    "id": "US-196",
+    "cbId": "CB-029"
   },
   {
-    "title": "Mindfulness and Relaxation Techniques",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want guided meditation sessions tailored to my preferences so that I can maintain my cognitive abilities and relax without feeling monitored.",
-    "priority": 2,
+    "title": "Cognitive Stimulation Sessions",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want personalized learning modules that include cognitive stimulation games tailored to my interests, so that I can maintain my cognitive abilities while feeling empowered and not monitored.",
+    "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
-      "UC-008",
-      "UC-011"
+      "UC-007"
     ],
-    "id": "US-216",
-    "rawRequirementId": "RREQ-032"
+    "id": "US-197",
+    "cbId": "CB-030"
   }
 ]

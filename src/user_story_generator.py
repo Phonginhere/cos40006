@@ -2,20 +2,9 @@ import os
 import re
 import json
 from typing import Dict
-from utils import get_llm_response, load_alfred_summary, load_user_group_summary, CURRENT_LLM
+from utils import get_llm_response, load_alfred_summary, load_user_group_summary, CURRENT_LLM, PILLAR_KEYS, FINAL_USER_STORY_DIR
 from user_persona_loader import UserPersonaLoader
 from use_case_loader import UseCaseLoader
-
-# Constants
-PILLAR_KEYS = [
-    ("Pillar 1 - User-Driven Interaction Assistant", "pillar_1_user_stories.json"),
-    ("Pillar 2 - Personalized Social Inclusion", "pillar_2_user_stories.json"),
-    ("Pillar 3 - Effective & Personalized Care", "pillar_3_user_stories.json"),
-    ("Pillar 4 - Physical & Cognitive Impairments Prevention", "pillar_4_user_stories.json"),
-    ("General Requirements", "general_user_stories.json"),
-]
-
-FINAL_USER_STORY_DIR = os.path.join("results", CURRENT_LLM, "user_stories")
 
 
 def safe_clean_response(response: str) -> str:
@@ -40,7 +29,7 @@ def safe_clean_response(response: str) -> str:
 
     return response
 
-def build_user_story_prompt(persona, req, pillar_name, user_group, alfred_summary):
+def build_user_story_prompt(persona, cb, pillar_name, user_group, alfred_summary):
     group_key_map = {
         "Older Adults": "older_adults",
         "Caregivers and Medical Staff": "caregivers_and_medical_staff",
@@ -59,16 +48,16 @@ You are generating a user story for the ALFRED system. Here is the context:
 ### User Group: {user_group}
 {group_summary}
 
-⚠️ IMPORTANT: The persona information provided below is the **primary and dominant source** for generating this user story. Your response should reflect all information (e.g., the specific needs, goals, context, challenges, etc.) of this persona. The raw requirement, or even alfred system context, userGroup, should serve only as a **general seed or inspiration**, not the core of the user story. Sometimes, the information given in raw requirement in the context of ALFRED system summary may not be compatible with the information of the persona, in this case, the persona must be prioritized and the ALFRED system need to be flexible for this. This is the core funcationality of user stories.
+⚠️ IMPORTANT: The persona information provided below is the **primary and dominant source** for generating this user story. Your response should reflect all information (e.g., the specific needs, goals, context, challenges, etc.) of this persona. The Capability Blueprint, or even ALFRED system context, userGroup, should serve only as a **general seed or inspiration**, not the core of the user story. Sometimes, the information given in Capability Blueprint in the context of ALFRED system summary may not be compatible with the information of the persona, in this case, the persona must be prioritized and the ALFRED system need to be flexible for this. This is the core funcationality of user stories.
 ### Persona:
 {persona.to_prompt_string()}
 
-### Raw Requirement:
-Title: {req['title']}
+### Capability Blueprint:
+Title: {cb['title']}
 Pillar: {pillar_name} (This should be remained the same in your response)
-Nominated Priority: {req['priority']} (This should also be remained the same in your response)
+Nominated Priority: {cb['priority']} (This should also be remained the same in your response)
 
-### Task: If the requirement is clearly relevant and beneficial to this persona, generate one user story using this format:
+### Task: If the Capability Blueprint is clearly relevant and beneficial to this persona, generate one user story using this format:
 
 {{
   "title": "...",
@@ -89,7 +78,7 @@ Nominated Priority: {req['priority']} (This should also be remained the same in 
   "personaId": "P-001"
 }}
 
-If the requirement does not apply or is inconsistent with the persona, return only:
+If the Capability Blueprint does not apply or is inconsistent with the persona, return only:
 null
 
 Strictly, do not include any additional text or commentary. Do NOT use any markdown, bold, italic, or special formatting in your response.
@@ -140,14 +129,14 @@ def generate_user_stories_by_persona(persona_loader: UserPersonaLoader, usecase_
             print(f"⚠️ Unknown user group for {persona.id}. Skipping.")
             continue
 
-        # Load filtered raw requirements
-        req_path = os.path.join("results", CURRENT_LLM, "filtered_raw_requirements", f"{persona.id}_raw_requirements.json")
-        if not os.path.exists(req_path):
-            print(f"⚠️ Missing filtered requirements for {persona.id}. Skipping.")
+        # Load filtered Capability Blueprints
+        cb_path = os.path.join("results", CURRENT_LLM, "filtered_capability_blueprints", f"{persona.id}_capability_blueprints.json")
+        if not os.path.exists(cb_path):
+            print(f"⚠️ Missing filtered capability blueprints for {persona.id}. Skipping.")
             continue
 
-        with open(req_path, "r", encoding="utf-8") as f:
-            filtered_reqs = json.load(f)
+        with open(cb_path, "r", encoding="utf-8") as f:
+            filtered_cbs = json.load(f)
             
         associated_usecases = [uc for uc in usecase_loader.use_cases if persona.id in (uc.personas or [])]
 
@@ -156,9 +145,9 @@ def generate_user_stories_by_persona(persona_loader: UserPersonaLoader, usecase_
 
         stories_by_pillar: Dict[str, list] = {pillar: [] for pillar, _ in PILLAR_KEYS}
 
-        for req in filtered_reqs:
-            pillar_name = req["pillar"]
-            prompt = build_user_story_prompt(persona, req, pillar_name, persona.user_group, alfred_summary)
+        for cb in filtered_cbs:
+            pillar_name = cb["pillar"]
+            prompt = build_user_story_prompt(persona, cb, pillar_name, persona.user_group, alfred_summary)
             response = get_llm_response(prompt)
 
             if response and response.strip().lower() != "null":
@@ -178,7 +167,7 @@ def generate_user_stories_by_persona(persona_loader: UserPersonaLoader, usecase_
                             
                     story["id"] = f"US-{story_counter:03d}"
                     story["personaId"] = persona.id
-                    story["rawRequirementId"] = req["reqId"]
+                    story["cbId"] = cb["cbId"]
                     story["useCases"] = matched_usecases
                     story["pillar"] = pillar_name
                     story["userGroup"] = persona.user_group
@@ -187,7 +176,7 @@ def generate_user_stories_by_persona(persona_loader: UserPersonaLoader, usecase_
                     stories_by_pillar[pillar_name].append(story)
 
                 except json.JSONDecodeError:
-                    print(f"⚠️ Story parse failed for {persona.id} - {req['reqId']}")
+                    print(f"⚠️ Story parse failed for {persona.id} - {cb['cbId']}")
                     print(response)
 
         for pillar, filename in PILLAR_KEYS:

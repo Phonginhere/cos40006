@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Robust API for Compliance and Risk Integration",
+    "summary": "As a Compliance and Risk Lead, I want a comprehensive API that provides detailed audit logs and real-time access monitoring so that I can ensure compliance and maintain traceability while supporting seamless integration of third-party applications.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010",
+      "UC-012"
+    ],
+    "id": "US-064",
+    "cbId": "CB-080"
+  },
+  {
+    "title": "Audit Logs for Voice Interactions",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to ensure that all voice interactions are recorded in secure audit logs so that I can maintain traceability, monitor compliance, and uphold user privacy standards effectively.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "id": "US-065",
+    "cbId": "CB-083"
+  }
+]

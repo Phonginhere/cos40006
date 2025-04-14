@@ -1,81 +1,82 @@
 [
   {
-    "title": "Health Data Integration APIs - Support for Third-Party Health Monitoring Devices",
-    "summary": "As a Compliance and Risk Lead, I want robust APIs for integrating third-party health monitoring devices so that I can ensure that all data exchanges comply with regulatory requirements and maintain system security.",
-    "priority": 2,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-003",
-    "useCases": [
-      "UC-009",
-      "UC-013"
-    ],
-    "id": "US-078",
-    "rawRequirementId": "RREQ-097"
-  },
-  {
-    "title": "User Health Profile Management - User-Defined Privacy Settings for Health Data",
-    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to ensure that developers can create user-defined privacy settings for health data so that we maintain compliance with regulations like HIPAA and GDPR while allowing users to control their personal health information.",
+    "title": "Health Device Integration Compliance",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want standardized APIs for health device compatibility so that I can ensure compliance-by-design principles are maintained while allowing developers to create integrated applications that respect user privacy and security.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
     "personaId": "P-003",
     "useCases": [
-      "UC-009"
+      "UC-010",
+      "UC-012"
     ],
-    "id": "US-079",
-    "rawRequirementId": "RREQ-098"
+    "id": "US-066",
+    "cbId": "CB-093"
   },
   {
-    "title": "Caregiver Communication Interface \u2013 Secure Messaging Between Caregivers and Users",
-    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want a secure messaging interface between caregivers and users so that I can ensure that all communications adhere to legal compliance standards while facilitating effective and personalized care.",
-    "priority": 2,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-003",
-    "useCases": [
-      "UC-009"
-    ],
-    "id": "US-080",
-    "rawRequirementId": "RREQ-099"
-  },
-  {
-    "title": "Emergency Response Integration - Alert Systems for Caregivers on Emergencies",
-    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to ensure that the emergency response integration within the ALFRED system complies with legal standards, so that caregivers receive timely alerts in emergencies while maintaining data privacy and security.",
-    "priority": 2,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-003",
-    "useCases": [
-      "UC-009"
-    ],
-    "id": "US-081",
-    "rawRequirementId": "RREQ-101"
-  },
-  {
-    "title": "Data Privacy Compliance Framework - Audit Trails for Data Access and Modifications",
-    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want comprehensive audit trails for data access and modifications so that I can ensure compliance with legal requirements and mitigate risks effectively in the development process.",
+    "title": "Timely Intervention Alerts for Compliance Assurance",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to ensure that timely intervention alerts are securely logged and comply with privacy regulations so that we can maintain auditability and protect user data while providing effective care.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
     "personaId": "P-003",
     "useCases": [
-      "UC-009"
+      "UC-010"
     ],
-    "id": "US-082",
-    "rawRequirementId": "RREQ-103"
+    "id": "US-067",
+    "cbId": "CB-095"
   },
   {
-    "title": "User-Centric Feedback Systems \u2013 Integration of User Insights into System Improvements",
-    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to ensure that user insights are systematically integrated into compliance checks so that developers can create applications that align with legal requirements and enhance user safety.",
-    "priority": 2,
+    "title": "Secure Data Sharing Mechanism - User Consent Management for Compliance",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want a secure data sharing mechanism that manages user consent effectively so that we can ensure compliance with legal standards while maintaining user trust and privacy.",
+    "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
     "personaId": "P-003",
     "useCases": [
-      "UC-009"
+      "UC-010"
     ],
-    "id": "US-083",
-    "rawRequirementId": "RREQ-104"
+    "id": "US-068",
+    "cbId": "CB-096"
+  },
+  {
+    "title": "Compliance-Driven Document Sharing",
+    "summary": "As a Compliance and Risk Lead, I want to ensure that caregivers can securely share health records and updates within ALFRED so that we maintain auditability and privacy while facilitating effective and personalized care.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "id": "US-069",
+    "cbId": "CB-097"
+  },
+  {
+    "title": "Integrate Cognitive Health Assessment Tools",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to ensure that cognitive health assessment tools are seamlessly integrated into personalized care plans so that they provide compliant and traceable user interactions that respect individual preferences and privacy boundaries.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010",
+      "UC-012"
+    ],
+    "id": "US-070",
+    "cbId": "CB-098"
+  },
+  {
+    "title": "User Interaction Analytics for Compliance",
+    "summary": "As a Compliance and Risk Lead in Digital Health Application Development, I want to collect and interpret user interaction analytics to detect compliance gaps, so that I can ensure our applications are built with compliance-by-design principles and maintain legal audit-readiness at every release.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-003",
+    "useCases": [
+      "UC-010"
+    ],
+    "id": "US-071",
+    "cbId": "CB-099"
   }
 ]

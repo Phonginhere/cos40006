@@ -1,45 +1,45 @@
 [
   {
-    "title": "Social Engagement Activities \u2013 Family-Involved Activities to Boost Connection",
-    "summary": "As a home-care nurse, I want to facilitate family-involved activities for my socially isolated patients so that they can maintain connections with loved ones and improve their emotional well-being.",
+    "title": "Customizable Activity Reminders",
+    "summary": "As a home-care nurse, I want to set customizable reminders for my patients' physical and cognitive activities, so that I can ensure they remain engaged and stimulated without disrupting their routines.",
+    "priority": 1,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-001",
+      "UC-008"
+    ],
+    "id": "US-098",
+    "cbId": "CB-064"
+  },
+  {
+    "title": "Visual Progress Reports for Health Tracking",
+    "summary": "As a home-care nurse, I want to access visual progress reports of my patients' physical and cognitive activities so that I can analyze health trends over time and provide better care strategies.",
+    "priority": 1,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-005",
+      "UC-008"
+    ],
+    "id": "US-099",
+    "cbId": "CB-065"
+  },
+  {
+    "title": "Personalized Activity Recommendations \u2013 Tailored Activity Suggestions Based on Health Data",
+    "summary": "As a home-care nurse, I want ALFRED to recommend personalized activities for my socially isolated patients based on their health data so that I can support their physical and cognitive health while enhancing their social engagement.",
     "priority": 2,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
+      "UC-005",
+      "UC-008",
       "UC-004"
     ],
-    "id": "US-113",
-    "rawRequirementId": "RREQ-068"
-  },
-  {
-    "title": "Holistic Health Alerts for Caregivers",
-    "summary": "As a home-care nurse, I want to receive alerts on holistic health trends of my patients so that I can monitor their well-being and provide timely interventions, especially for those who are socially isolated.",
-    "priority": 2,
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-005",
-      "UC-006"
-    ],
-    "id": "US-114",
-    "rawRequirementId": "RREQ-071"
-  },
-  {
-    "title": "User-Centric Learning Resources \u2013 Guidelines for Caregivers on Promoting Engagement",
-    "summary": "As a home-care nurse, I want access to guidelines on promoting engagement for my patients so that I can effectively support their emotional wellbeing and social needs, particularly for those who are socially isolated.",
-    "priority": 2,
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-004",
-      "UC-005",
-      "UC-006",
-      "UC-007"
-    ],
-    "id": "US-115",
-    "rawRequirementId": "RREQ-072"
+    "id": "US-100",
+    "cbId": "CB-067"
   }
 ]

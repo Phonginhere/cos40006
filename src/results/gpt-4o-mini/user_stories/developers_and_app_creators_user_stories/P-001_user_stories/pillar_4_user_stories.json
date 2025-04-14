@@ -1,41 +1,7 @@
 [
   {
-    "title": "Gamified Challenges for Physical Activities",
-    "summary": "As a developer, I want to integrate gamified challenges for physical activities into my applications so that elderly users can engage in enjoyable and motivating ways to stay active, improving their physical health and overall quality of life.",
-    "priority": 2,
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-007",
-      "UC-008",
-      "UC-012",
-      "UC-013"
-    ],
-    "id": "US-024",
-    "rawRequirementId": "RREQ-105"
-  },
-  {
-    "title": "Adaptive Activity Recommendations",
-    "summary": "As a developer, I want to create applications that provide adaptive activity recommendations based on the user's current health status so that elderly users can receive personalized and safe engagement suggestions that enhance their physical and cognitive well-being.",
-    "priority": 2,
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-005",
-      "UC-007",
-      "UC-008",
-      "UC-011",
-      "UC-012",
-      "UC-013"
-    ],
-    "id": "US-025",
-    "rawRequirementId": "RREQ-106"
-  },
-  {
-    "title": "Progress Tracking and Reporting Tools \u2013 Integration with Third-Party Health Tracking Apps",
-    "summary": "As a developer, I want to integrate third-party health tracking apps with ALFRED so that I can create scalable applications that provide comprehensive health monitoring for elderly users and facilitate real-time data sharing with caregivers.",
+    "title": "Real-Time Health Monitoring Integration",
+    "summary": "As a full-stack developer, I want to integrate real-time health monitoring data from wearables into the ALFRED system so that I can create timely notifications for caregivers and enhance the quality of life for elderly users.",
     "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Developers and App Creators",
@@ -43,43 +9,9 @@
     "useCases": [
       "UC-005",
       "UC-006",
-      "UC-009",
-      "UC-012",
-      "UC-013"
+      "UC-010"
     ],
-    "id": "US-026",
-    "rawRequirementId": "RREQ-107"
-  },
-  {
-    "title": "User-Centric Activity Customization \u2013 Choice of Activity Types Based on User Interests",
-    "summary": "As a developer, I want to enable customization of activities based on user interests so that elderly users can engage in meaningful physical and cognitive activities that improve their quality of life.",
-    "priority": 2,
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-007",
-      "UC-008",
-      "UC-011",
-      "UC-013"
-    ],
-    "id": "US-027",
-    "rawRequirementId": "RREQ-108"
-  },
-  {
-    "title": "Health Monitoring Integration for Activities",
-    "summary": "As a developer, I want to seamlessly integrate data from wearable health devices into the ALFRED system so that I can validate user activities and provide real-time health insights to elderly users and their caregivers.",
-    "priority": 1,
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-005",
-      "UC-009",
-      "UC-012",
-      "UC-013"
-    ],
-    "id": "US-028",
-    "rawRequirementId": "RREQ-112"
+    "id": "US-019",
+    "cbId": "CB-103"
   }
 ]

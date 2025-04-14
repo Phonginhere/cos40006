@@ -1,102 +1,59 @@
 [
   {
-    "title": "Social Event Integration APIs \u2013 Integration with Third-Party Social Platforms",
-    "summary": "As a developer, I want to access APIs that allow integration with third-party social platforms so that I can create applications that facilitate social engagement for elderly users and enhance their connection with caregivers and family.",
-    "priority": 2,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-012",
-      "UC-013"
-    ],
-    "id": "US-009",
-    "rawRequirementId": "RREQ-089"
-  },
-  {
-    "title": "Engagement Analytics Tools \u2013 Insights into User Preferences and Interests",
-    "summary": "As a developer, I want to access engagement analytics tools that provide insights into user preferences and interests, so that I can create tailored applications that enhance social inclusion for elderly users and caregivers.",
-    "priority": 2,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-011",
-      "UC-013"
-    ],
-    "id": "US-010",
-    "rawRequirementId": "RREQ-090"
-  },
-  {
-    "title": "Communication Facilitation Features \u2013 APIs for Messaging and Video Calls",
-    "summary": "As a developer, I want robust APIs for messaging and video calls so that I can create applications that enhance communication between elderly users and their caregivers, promoting social inclusion and engagement.",
-    "priority": 1,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-012",
-      "UC-013"
-    ],
-    "id": "US-011",
-    "rawRequirementId": "RREQ-091"
-  },
-  {
-    "title": "Customizable User Profiles for Enhanced Engagement",
-    "summary": "As a developer, I want to create customizable user profiles that allow elderly users to specify their interests and hobbies so that the ALFRED system can recommend relevant social activities and foster meaningful connections with their peers.",
-    "priority": 2,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-011",
-      "UC-013"
-    ],
-    "id": "US-012",
-    "rawRequirementId": "RREQ-092"
-  },
-  {
-    "title": "Event Notification and Reminder Systems - API Access",
-    "summary": "As a full-stack developer creating healthcare applications, I want to have API access for third-party apps to send alerts for social events and reminders, so that I can create user-friendly notifications that help elderly users stay connected and engaged with their caregivers and social circles.",
-    "priority": 2,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-012",
-      "UC-013"
-    ],
-    "id": "US-013",
-    "rawRequirementId": "RREQ-094"
-  },
-  {
-    "title": "User Feedback and Rating Mechanisms",
-    "summary": "As a developer, I want a mechanism to collect user feedback and ratings for the applications I create on the ALFRED platform so that I can improve the user experience and ensure that my applications meet the needs of elderly users and their caregivers.",
+    "title": "Event Recommendation Engine \u2013 Interest-Based Filtering for Personalized Suggestions",
+    "summary": "As a developer, I want to integrate an event recommendation engine that filters suggestions based on user interests so that elderly users can easily find and engage in social activities that enhance their quality of life.",
     "priority": 2,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
       "UC-009",
-      "UC-011",
-      "UC-013"
+      "UC-012"
     ],
-    "id": "US-014",
-    "rawRequirementId": "RREQ-095"
+    "id": "US-008",
+    "cbId": "CB-085"
   },
   {
-    "title": "Resource Sharing Capabilities",
-    "summary": "As a developer, I want to access APIs that facilitate sharing local resources and activities, so that I can create applications that enhance social engagement for elderly users and improve their connection with caregivers and communities.",
+    "title": "Shared Calendar Integration for Social Events",
+    "summary": "As a developer, I want to create a shared calendar feature that allows elderly users to manage social events and communicate with caregivers, so that they can enhance social inclusion and maintain connections with family and friends.",
+    "priority": 1,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-009",
+      "UC-010",
+      "UC-012"
+    ],
+    "id": "US-009",
+    "cbId": "CB-086"
+  },
+  {
+    "title": "Community Engagement Interface \u2013 Social Groups and Clubs Based on Shared Activities",
+    "summary": "As a developer, I want to create an interface that allows elderly users to easily find and join social groups and clubs based on their interests, so that they can enhance their social connections and engagement.",
     "priority": 2,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
-      "UC-011",
-      "UC-012",
-      "UC-013"
+      "UC-009",
+      "UC-012"
     ],
-    "id": "US-015",
-    "rawRequirementId": "RREQ-096"
+    "id": "US-010",
+    "cbId": "CB-087"
+  },
+  {
+    "title": "Dynamic User Profiles for Personalized Engagement",
+    "summary": "As a full-stack developer, I want to create dynamic user profiles that adapt to the preferences and needs of elderly users, so that I can enhance their engagement and provide a more tailored experience.",
+    "priority": 1,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-009",
+      "UC-012"
+    ],
+    "id": "US-011",
+    "cbId": "CB-088"
   }
 ]

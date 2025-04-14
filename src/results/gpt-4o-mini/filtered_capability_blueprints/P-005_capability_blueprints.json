@@ -1,0 +1,372 @@
+[
+  {
+    "personaId": "P-005",
+    "cbId": "CB-001",
+    "title": "Natural Language Voice Commands – Simplified Command Structures for Ease of Use",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "Olivia faces challenges with reduced mobility and managing arthritis pain, making complex interactions difficult. Simplified command structures will empower her to use ALFRED more effectively, enhancing her independence and social connection.",
+    "subOption": "Simplified command structures for ease of use"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-002",
+    "title": "Conversational Engagement – Reminders for Social Interactions",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "This subOption directly supports Olivia's goal of staying socially connected despite her limited mobility by reminding her to engage with family and friends, which is crucial for her well-being and independence.",
+    "subOption": "Reminders for social interactions based on user preferences"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-003",
+    "title": "Task Management Support – Voice-Activated Task Creation and Updates",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "Olivia's typical challenges include reduced mobility and managing a busy schedule, which makes a voice-activated system crucial for her to manage daily tasks without physical strain. This subOption directly supports her goal of maintaining independence by allowing her to create and update tasks easily.",
+    "subOption": "Voice-activated task creation and updates"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-004",
+    "title": "Information Retrieval Assistance – Personalized News and Information Feeds",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "Olivia is keen on staying updated on issues and maintaining social connections, which can be facilitated through personalized news feeds that align with her interests and activities. This capability helps her access relevant information easily, supporting her goals of staying socially connected and engaged.",
+    "subOption": "Personalized news and information feeds"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-005",
+    "title": "Error Recovery and Clarification – Contextual Hints for Task Guidance",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "Given Olivia's reduced mobility and reliance on voice commands, contextual hints would help her navigate the system more effectively, ensuring she remains socially connected and engaged in her tasks without the frustration of misunderstanding the system.",
+    "subOption": "Contextual hints to guide users back to intended tasks"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-006",
+    "title": "Multi-Modal Interaction Options – Voice Interaction with Touch Controls",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "Olivia's need for a user-friendly interface that accommodates her reduced mobility and potential cognitive barriers makes voice interaction, combined with touch controls, essential for her daily task management and social connectivity.",
+    "subOption": "Voice interaction complemented by touch controls"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-007",
+    "title": "Adaptive Learning and Personalization – Customizable Interaction Styles for Enhanced Communication",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "This capability is essential for Olivia, as it allows her to tailor the virtual assistant's communication style to her preferences, making it easier for her to stay socially connected and manage her tasks despite her reduced mobility and mild cognitive barriers.",
+    "subOption": "Customizable interaction styles based on user preferences"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-008",
+    "title": "Emergency Response Activation – Voice-Triggered Alerts for Emergency Contacts",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "Given Olivia's reduced mobility and the possibility of emergencies due to her arthritis, having voice-triggered alerts for emergency contacts would empower her to quickly reach out for help when needed, aligning with her goal of maintaining independence.",
+    "subOption": "Voice-triggered alerts for emergency contacts"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-009",
+    "title": "Social Engagement Recommendations – Personalized Reminders for Upcoming Social Activities",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "This capability is essential for Olivia as it aligns with her goal of staying socially connected despite her limited mobility. Personalized reminders will help her manage her busy schedule and ensure she participates in activities that keep her engaged with her community.",
+    "subOption": "Personalized reminders for upcoming social activities"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-010",
+    "title": "Facilitated Communication Channels – Simplified Video Calling for Social Connection",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "Olivia's core goals include staying socially connected despite limited mobility, and simplified video calling will enable her to easily connect with family and friends, which is crucial for her social inclusion. This aligns closely with her desire to maintain relationships and continue her active role in the community.",
+    "subOption": "Simplified video calling features for connecting with loved ones"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-011",
+    "title": "Interest-based Activity Group Connections – Matching Users with Local Activity Groups or Clubs",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "This subOption directly supports Olivia's goal of staying socially connected despite limited mobility. By matching her with local activity groups or clubs, ALFRED can help her engage in community activities, which aligns with her values as a former social worker and her desire to continue volunteering.",
+    "subOption": "Matching users with local activity groups or clubs"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-012",
+    "title": "Memory Aid for Social Interactions – Reminders of Names and Relationships",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "Olivia values staying socially connected and managing her busy schedule, which can be challenging due to her reduced mobility and arthritis. Reminders of names and relationships will help her maintain meaningful interactions with family and friends, aligning with her goal of staying engaged in her social network.",
+    "subOption": "Reminders of names and relationships of contacts"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-013",
+    "title": "Enhanced Remote Family Engagement – Coordinated Messaging Threads for Family Updates",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "This capability is crucial for Olivia as it addresses her need to maintain social connections with family, especially given her reduced mobility and busy schedule. Coordinated messaging allows her to stay updated on family matters easily and encourages ongoing communication.",
+    "subOption": "Coordinated messaging threads for family updates"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-014",
+    "title": "Social Skills Development Activities – Guided Discussions on Current Events",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "This subOption aligns well with Olivia's core goal of staying socially connected and accessing news sources, as it fosters engagement in meaningful conversations and keeps her informed, which is particularly valuable given her background in social work and community values.",
+    "subOption": "Guided discussions on current events or topics of interest"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-015",
+    "title": "Personalized Emotional Support – Mood Tracking with Suggestions for Uplifting Activities",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "Olivia aims to stay socially connected and remain active, and mood tracking can help her identify emotional states that may affect her social engagements. Suggestions for uplifting activities can encourage her to participate in social interactions and maintain her community involvement despite mobility challenges.",
+    "subOption": "Mood tracking with suggestions for uplifting activities"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-016",
+    "title": "Local Resource Awareness - Directory of Senior-Friendly Venues and Services",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "This subOption is crucial for Olivia as it directly supports her goal of staying socially connected and maintaining her active lifestyle despite limited mobility. Access to information about senior-friendly venues and services will empower her to engage in community activities and continue her volunteering efforts.",
+    "subOption": "Directory of nearby senior-friendly venues and services"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-017",
+    "title": "Personalized Health Monitoring – Automated Health Alerts for Safety",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "Olivia faces challenges related to managing arthritis pain and reduced mobility, making it crucial for her to receive timely health alerts to ensure her safety and well-being. This feature supports her independence by allowing her to stay informed about her health without needing complex configurations.",
+    "subOption": "Automated health alerts based on predefined thresholds"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-018",
+    "title": "Medication Management Support – Automated Reminders for Medication Schedules",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "Olivia's challenges with reduced mobility and arthritis pain make it essential for her to have reminders for medication schedules, ensuring she adheres to her health management without added stress. This support can help her maintain her independence and manage her health effectively.",
+    "subOption": "Automated reminders for medication schedules"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-019",
+    "title": "Health Data Sharing with Caregivers – Secure Sharing of Health Data with Authorized Family Members",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "This capability is significant for Olivia as it allows her to maintain her independence while ensuring that her family can stay informed about her health, which aligns with her goal of staying socially connected and receiving support despite her physical limitations.",
+    "subOption": "Secure sharing of health data with authorized family members"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-020",
+    "title": "Personalized Care Plan Development – Regular Updates and Adjustments Based on Health Changes",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "Olivia values staying physically and mentally active while managing her arthritis pain, making it essential for her to have a care plan that adapts to her changing health needs and supports her independence in daily activities.",
+    "subOption": "Regular updates and adjustments based on health changes"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-021",
+    "title": "Emergency Health Response Coordination – Voice Activation for Emergency Assistance Requests",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "This capability is crucial for Olivia as it allows her to quickly request help in emergencies despite her reduced mobility and temporary use of crutches. Voice activation aligns with her need for independence and ease of use, ensuring she can access assistance without complex technology interactions.",
+    "subOption": "Voice activation for emergency assistance requests"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-022",
+    "title": "Holistic Wellness Activities Suggestions – Reminders for Physical Exercises Tailored to User Capabilities",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "Olivia's challenges with reduced mobility and managing arthritis pain highlight her need for tailored physical activity reminders. This subOption aligns with her goal of remaining physically active while accommodating her capabilities.",
+    "subOption": "Reminders for physical exercises tailored to user capabilities"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-023",
+    "title": "Cognitive Health Enhancement Tools – Daily Cognitive Challenges with Adaptive Difficulty",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "This subOption aligns with Olivia's core goals of staying physically and mentally active, as well as her experience managing arthritis, which may limit her mobility. Adaptive cognitive challenges can provide her with engaging activities tailored to her abilities, enhancing her independence and promoting mental wellness.",
+    "subOption": "Daily cognitive challenges with adaptive difficulty"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-024",
+    "title": "User-Centric Feedback Mechanisms – Real-Time Feedback Collection for Personalized Care",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "For Olivia, who values social connection and staying informed, real-time feedback collection can help ensure that ALFRED is responsive to her needs and preferences, enhancing her overall experience. This feature aligns with her goal of maintaining communication and managing her busy schedule effectively.",
+    "subOption": "Real-time feedback collection during interactions"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-025",
+    "title": "Adaptive Physical Activity Programs – Guided Video Tutorials for Safe Home Exercises",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "Olivia's reduced mobility and arthritis pain make guided video tutorials beneficial for her to engage in physical activity safely, allowing her to stay active while considering her physical limitations. This aligns with her goals of remaining physically and mentally active.",
+    "subOption": "Guided video tutorials for safe home exercises"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-026",
+    "title": "Cognitive Stimulation Activities – Memory Recall Challenges Based on Personal History",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "This subOption aligns well with Olivia's goals of staying mentally active and socially connected, as it allows her to engage with her personal history, which is meaningful to her as a former social worker and community volunteer.",
+    "subOption": "Memory recall challenges based on personal history"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-027",
+    "title": "Wellness Check-In Reminders – Interactive Voice Check-Ins to Assess Mental State",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "This capability is particularly relevant for Olivia as it aligns with her goal of staying socially connected and remaining mentally active. The interactive voice check-ins can provide her with a means to reflect on her mental state and receive support, which is essential given her challenges with mobility and managing arthritis pain.",
+    "subOption": "Interactive voice check-ins to assess mental state"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-028",
+    "title": "Guided Mindfulness and Relaxation Exercises – Daily Relaxation Reminders with Calming Sounds",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "This subOption aligns well with Olivia's need to manage her busy schedule while promoting relaxation and mental well-being. Daily reminders would support her goal of remaining physically and mentally active, especially as she deals with challenges like reduced mobility and arthritis pain.",
+    "subOption": "Daily relaxation reminders with calming sounds"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-029",
+    "title": "Community Activity Engagement – Local Event Notifications Based on User Interests",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "This option is crucial for Olivia as it directly addresses her goal of staying socially connected and engaged in community activities despite her reduced mobility. By receiving notifications about local events that align with her interests, she can maintain her active lifestyle and continue her involvement in volunteering.",
+    "subOption": "Local event notifications based on user interests"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-030",
+    "title": "Personalized Learning Modules – Music or Art Appreciation Classes",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "priority": "2",
+    "userGroup": "Older Adults",
+    "justification": "This subOption aligns with Olivia's goal of remaining mentally active and her interest in community values, as she has a background in social work and enjoys engaging in various forms of expression. Music or art appreciation can provide cognitive stimulation and social engagement, helping her stay connected and active despite her physical challenges.",
+    "subOption": "Music or art appreciation classes through guided content"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-032",
+    "title": "Intuitive User Interface Adaptation – Voice-Guided Navigation for All User Levels",
+    "pillar": "General Requirements",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "Given Olivia's reduced mobility and desire for social connection, voice-guided navigation is crucial for her to interact with ALFRED easily and effectively without needing to rely heavily on physical actions. This feature aligns with her need for a user-friendly interface, allowing her to manage tasks such as scheduling volunteering activities and maintaining communication effortlessly.",
+    "subOption": "Voice-guided navigation for all user levels"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-033",
+    "title": "Secure Data Management Practices – User-Controlled Data Sharing Preferences",
+    "pillar": "General Requirements",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "Olivia values her independence and autonomy, which makes user-controlled data sharing preferences essential for her to feel secure and in control of her personal information. This aligns well with her goal of maintaining social connections while ensuring her privacy is respected.",
+    "subOption": "User-controlled data sharing preferences"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-034",
+    "title": "User-Centric Installation and Setup – Step-by-Step Voice-Assisted Process",
+    "pillar": "General Requirements",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "Given Olivia's challenges with reduced mobility and her desire for a user-friendly interface, a step-by-step voice-assisted setup process would greatly enhance her experience by allowing her to configure ALFRED without needing to physically interact with complex interfaces.",
+    "subOption": "Step-by-step voice-assisted setup process"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-035",
+    "title": "Cross-Device Compatibility – Seamless Integration with Smartphones and Tablets",
+    "pillar": "General Requirements",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "Olivia, who is 64 and lives with limited mobility, needs a straightforward way to access ALFRED across devices that she is familiar with, like her smartphone or tablet. This integration will allow her to manage her daily tasks and maintain social connections easily, aligning well with her goals of staying active and connected.",
+    "subOption": "Seamless integration with smartphones and tablets"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-036",
+    "title": "Comprehensive Accessibility Features – Cognitive Load-Reducing Interface Options",
+    "pillar": "General Requirements",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "Given Olivia's age and typical challenges like reduced mobility and managing arthritis pain, cognitive load-reducing interface options are crucial for her to navigate the system easily. This aligns with her need for a user-friendly interface that minimizes complexity, allowing her to stay socially connected and manage tasks without frustration.",
+    "subOption": "Cognitive load-reducing interface options"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-037",
+    "title": "Flexible User Experience Customization – Profile-Based Settings for Personalized Interactions",
+    "pillar": "General Requirements",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "Olivia values maintaining social connections and staying active, which can be supported by personalized interaction settings that cater to her specific needs and preferences. This customization will enhance her experience and make it easier for her to use ALFRED effectively, despite her physical limitations and busy schedule.",
+    "subOption": "Profile-based settings for personalized interactions"
+  },
+  {
+    "personaId": "P-005",
+    "cbId": "CB-039",
+    "title": "Ongoing User Support Mechanisms – 24/7 Voice-Based Support Assistance",
+    "pillar": "General Requirements",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "Olivia values social connection and independence, and having 24/7 voice-based support would empower her to manage her daily tasks and seek assistance whenever needed, especially given her reduced mobility and reliance on technology.",
+    "subOption": "24/7 voice-based support assistance"
+  }
+]

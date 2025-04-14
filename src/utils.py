@@ -2,6 +2,35 @@ import json
 import os
 from typing import List, Dict
 
+# ===============================================================================================
+# CONSTANTS
+
+# Global variable to specify which LLM is being used in the pipeline
+CURRENT_LLM = "gpt-4o-mini"
+
+PILLAR_KEYS = [
+    ("Pillar 1 - User-Driven Interaction Assistant", "pillar_1_user_stories.json"),
+    ("Pillar 2 - Personalized Social Inclusion", "pillar_2_user_stories.json"),
+    ("Pillar 3 - Effective & Personalized Care", "pillar_3_user_stories.json"),
+    ("Pillar 4 - Physical & Cognitive Impairments Prevention", "pillar_4_user_stories.json"),
+    ("General Requirements", "general_user_stories.json"),
+]
+PILLARS = [item[0] for item in PILLAR_KEYS]
+
+USER_GROUP_KEYS = {
+    "Older Adults": "older_adults",
+    "Caregivers and Medical Staff": "caregivers_and_medical_staff",
+    "Developers and App Creators": "developers_and_app_creators"
+}
+
+USER_GROUPS = list(USER_GROUP_KEYS.keys())
+
+USE_CASE_DIR = os.path.join("results", CURRENT_LLM, "use_cases")
+CAPABILITY_BLUEPRINTS_FILE = os.path.join("results", CURRENT_LLM, "capability_blueprints.json")
+FILTERED_CAPABILITY_BLUEPRINTS_DIR = os.path.join("results", CURRENT_LLM, "filtered_capability_blueprints")
+FILTERED_CAPABILITY_BLUEPRINT_SUMMARIES_DIR = os.path.join(FILTERED_CAPABILITY_BLUEPRINTS_DIR, "summaries")
+FINAL_USER_STORY_DIR = os.path.join("results", CURRENT_LLM, "user_stories")
+
 # ==================================================================================================
 # ALFRED SYSTEM SUMMARY LOADER
 
@@ -19,9 +48,8 @@ def load_alfred_summary(path: str = "data/alfred_summary.txt") -> str:
 def load_user_group_summary(group: str) -> str:
     """Loads the user group summary from a JSON file based on the user group (older adults, caregivers, developers)."""
     summary_files = {
-        "older_adults": "data/older_adults_summary.json",
-        "caregivers_and_medical_staff": "data/caregivers_and_medical_staff_summary.json",
-        "developers_and_app_creators": "data/developers_and_app_creators_summary.json"
+        value: f"data/{value}_summary.json"
+        for value in USER_GROUP_KEYS.values()
     }
 
     if group not in summary_files:
@@ -44,9 +72,6 @@ def load_user_group_summary(group: str) -> str:
 
 # ==================================================================================================
 # LLM HANDLER
-
-# Global variable to specify which LLM is being used in the pipeline
-CURRENT_LLM = "gpt-4o-mini"
 
 # Try to import OpenAI
 try:

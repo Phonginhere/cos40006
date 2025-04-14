@@ -1,0 +1,1394 @@
+[
+  {
+    "id": "CB-001",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "title": "Natural Language Voice Commands",
+    "subOptions": [
+      "Context-aware command recognition",
+      "Adaptive language model for user dialects",
+      "Simplified command structures for ease of use",
+      "Feedback mechanism for command validation"
+    ]
+  },
+  {
+    "id": "CB-002",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "title": "Conversational Engagement",
+    "subOptions": [
+      "Personalized dialogue management based on user history",
+      "Emotion recognition to tailor responses",
+      "Reminders for social interactions based on user preferences",
+      "Casual conversation prompts to encourage engagement"
+    ]
+  },
+  {
+    "id": "CB-003",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "title": "Task Management Support",
+    "subOptions": [
+      "Voice-activated task creation and updates",
+      "Integration with calendar systems for scheduling",
+      "Smart reminders based on user behavior patterns",
+      "Progress tracking for task completion"
+    ]
+  },
+  {
+    "id": "CB-004",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "title": "Information Retrieval Assistance",
+    "subOptions": [
+      "Voice queries for local services and resources",
+      "Personalized news and information feeds",
+      "Contextual help based on user requests",
+      "Simplified summaries of complex information"
+    ]
+  },
+  {
+    "id": "CB-005",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "title": "Error Recovery and Clarification",
+    "subOptions": [
+      "Follow-up questions for ambiguous commands",
+      "Simple rephrasing suggestions for misunderstood queries",
+      "Contextual hints to guide users back to intended tasks",
+      "Visual feedback for command recognition status"
+    ]
+  },
+  {
+    "id": "CB-006",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "title": "Multi-Modal Interaction Options",
+    "subOptions": [
+      "Voice interaction complemented by touch controls",
+      "Visual prompts for command confirmation",
+      "Integration with wearable devices for health monitoring",
+      "Gesture recognition for basic commands"
+    ]
+  },
+  {
+    "id": "CB-007",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "title": "Adaptive Learning and Personalization",
+    "subOptions": [
+      "User behavior analysis for tailored suggestions",
+      "Customizable interaction styles based on user preferences",
+      "Feedback loops for continuous improvement of responses",
+      "Profile settings for adjusting communication tone and complexity"
+    ]
+  },
+  {
+    "id": "CB-008",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "title": "Emergency Response Activation",
+    "subOptions": [
+      "Voice-triggered alerts for emergency contacts",
+      "Automated health status reporting in crisis situations",
+      "Context-sensitive emergency prompts based on user activity",
+      "Visual indication of emergency status to the user"
+    ]
+  },
+  {
+    "id": "CB-009",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "title": "Social Engagement Recommendations",
+    "subOptions": [
+      "Event suggestions based on user interests",
+      "Personalized reminders for upcoming social activities",
+      "Curated lists of local community events",
+      "Notifications for family gatherings or important dates"
+    ]
+  },
+  {
+    "id": "CB-010",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "title": "Facilitated Communication Channels",
+    "subOptions": [
+      "Voice-activated messaging with predefined templates",
+      "Simplified video calling features for connecting with loved ones",
+      "Scheduled check-in calls with family or caregivers",
+      "Integration with popular social media for easy sharing"
+    ]
+  },
+  {
+    "id": "CB-011",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "title": "Interest-based Activity Group Connections",
+    "subOptions": [
+      "Matching users with local activity groups or clubs",
+      "Facilitating virtual meetups with shared interests",
+      "Recommendations for community classes or workshops",
+      "Alerts for new groups forming in the area"
+    ]
+  },
+  {
+    "id": "CB-012",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "title": "Memory Aid for Social Interactions",
+    "subOptions": [
+      "Reminders of names and relationships of contacts",
+      "Contextual prompts for ongoing conversations",
+      "Visual aids for recalling shared interests or past events",
+      "Notes feature for reminders about personal anecdotes"
+    ]
+  },
+  {
+    "id": "CB-013",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "title": "Enhanced Remote Family Engagement",
+    "subOptions": [
+      "Shared calendars for family events and activities",
+      "Virtual family game nights or interaction suggestions",
+      "Coordinated messaging threads for family updates",
+      "Options for family members to send interactive content"
+    ]
+  },
+  {
+    "id": "CB-014",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "title": "Social Skills Development Activities",
+    "subOptions": [
+      "Interactive role-playing games to practice conversations",
+      "Guided discussions on current events or topics of interest",
+      "Challenge-based engagement to improve social confidence",
+      "Feedback and encouragement on social interactions"
+    ]
+  },
+  {
+    "id": "CB-015",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "title": "Personalized Emotional Support",
+    "subOptions": [
+      "Mood tracking with suggestions for uplifting activities",
+      "Daily affirmations or motivational messages",
+      "Connection to support groups based on emotional needs",
+      "Customizable check-ins for emotional well-being"
+    ]
+  },
+  {
+    "id": "CB-016",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "title": "Local Resource Awareness",
+    "subOptions": [
+      "Information on local transportation options for social events",
+      "Directory of nearby senior-friendly venues and services",
+      "Alerts for local volunteer opportunities",
+      "Access to community wellness programs and resources"
+    ]
+  },
+  {
+    "id": "CB-017",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "title": "Personalized Health Monitoring",
+    "subOptions": [
+      "Integration with wearable health devices for real-time tracking",
+      "Automated health alerts based on predefined thresholds",
+      "Daily health summary reports sent to caregivers",
+      "Mood and activity tracking for holistic health insights"
+    ]
+  },
+  {
+    "id": "CB-018",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "title": "Medication Management Support",
+    "subOptions": [
+      "Automated reminders for medication schedules",
+      "Interactive feedback on medication adherence",
+      "Integration with pharmacy systems for refill notifications",
+      "Visual and auditory alerts for missed doses"
+    ]
+  },
+  {
+    "id": "CB-019",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "title": "Health Data Sharing with Caregivers",
+    "subOptions": [
+      "Secure sharing of health data with authorized family members",
+      "Customizable access levels for different caregivers",
+      "Health progress reports generation for medical professionals",
+      "Emergency contact notifications based on health trends"
+    ]
+  },
+  {
+    "id": "CB-020",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "title": "Personalized Care Plan Development",
+    "subOptions": [
+      "Collaborative care plan creation with input from users and caregivers",
+      "Regular updates and adjustments based on health changes",
+      "Integration of health goals and achievements tracking",
+      "Visual progress indicators for motivation"
+    ]
+  },
+  {
+    "id": "CB-021",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "title": "Emergency Health Response Coordination",
+    "subOptions": [
+      "Auto-detection of health emergencies through monitoring devices",
+      "Rapid dispatch of emergency services with user location",
+      "Voice activation for emergency assistance requests",
+      "Post-emergency follow-up and care recommendations"
+    ]
+  },
+  {
+    "id": "CB-022",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "title": "Holistic Wellness Activities Suggestions",
+    "subOptions": [
+      "Personalized daily activity recommendations based on health data",
+      "Group activity suggestions for social interaction",
+      "Reminders for physical exercises tailored to user capabilities",
+      "Guided mindfulness and relaxation sessions"
+    ]
+  },
+  {
+    "id": "CB-023",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "title": "Cognitive Health Enhancement Tools",
+    "subOptions": [
+      "Engaging puzzles and games tailored to cognitive abilities",
+      "Progress tracking for cognitive skills improvement",
+      "Social gaming features to foster interaction",
+      "Daily cognitive challenges with adaptive difficulty"
+    ]
+  },
+  {
+    "id": "CB-024",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "title": "User-Centric Feedback Mechanisms",
+    "subOptions": [
+      "Regular user satisfaction surveys to improve care services",
+      "Real-time feedback collection during interactions",
+      "Adaptive interface adjustments based on user feedback",
+      "Community suggestions for feature enhancements"
+    ]
+  },
+  {
+    "id": "CB-025",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "title": "Adaptive Physical Activity Programs",
+    "subOptions": [
+      "Customizable exercise routines based on user health metrics",
+      "Daily reminders for physical activity with motivational prompts",
+      "Guided video tutorials for safe home exercises",
+      "Progress tracking and achievement notifications"
+    ]
+  },
+  {
+    "id": "CB-026",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "title": "Cognitive Stimulation Activities",
+    "subOptions": [
+      "Puzzles and brain games tailored to user preferences",
+      "Storytelling sessions with interactive questions",
+      "Memory recall challenges based on personal history",
+      "Daily trivia and knowledge quizzes"
+    ]
+  },
+  {
+    "id": "CB-027",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "title": "Wellness Check-In Reminders",
+    "subOptions": [
+      "Automated prompts for daily mood and health reflections",
+      "Weekly wellness reports shared with caregivers",
+      "Interactive voice check-ins to assess mental state",
+      "Personalized follow-up questions based on previous inputs"
+    ]
+  },
+  {
+    "id": "CB-028",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "title": "Guided Mindfulness and Relaxation Exercises",
+    "subOptions": [
+      "Audio-guided meditation sessions",
+      "Breathing exercises with visual cues",
+      "Daily relaxation reminders with calming sounds",
+      "Personalized relaxation plans based on stress levels"
+    ]
+  },
+  {
+    "id": "CB-029",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "title": "Community Activity Engagement",
+    "subOptions": [
+      "Local event notifications based on user interests",
+      "Virtual group activities and workshops",
+      "Facilitation of transportation options to events",
+      "Peer support group suggestions"
+    ]
+  },
+  {
+    "id": "CB-030",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "title": "Personalized Learning Modules",
+    "subOptions": [
+      "Skill-building sessions tailored to individual interests",
+      "Language learning with interactive dialogues",
+      "Music or art appreciation classes through guided content",
+      "Periodic assessments to adapt learning paths"
+    ]
+  },
+  {
+    "id": "CB-031",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "title": "Emergency Preparedness Training",
+    "subOptions": [
+      "Interactive scenarios for emergency response practice",
+      "Visual and auditory reminders for emergency contacts",
+      "Regular reviews of emergency plans with user input",
+      "Simulated drills for common emergencies"
+    ]
+  },
+  {
+    "id": "CB-032",
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "title": "Intuitive User Interface Adaptation",
+    "subOptions": [
+      "Voice-guided navigation for all user levels",
+      "Customizable display settings for visibility needs",
+      "Simplified touch controls for ease of use",
+      "Contextual help prompts during interactions"
+    ]
+  },
+  {
+    "id": "CB-033",
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "title": "Secure Data Management Practices",
+    "subOptions": [
+      "End-to-end encryption for personal data",
+      "User-controlled data sharing preferences",
+      "Regular security updates and notifications",
+      "Anonymized data usage for improvement purposes"
+    ]
+  },
+  {
+    "id": "CB-034",
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "title": "User-Centric Installation and Setup",
+    "subOptions": [
+      "Step-by-step voice-assisted setup process",
+      "Remote assistance options for initial configuration",
+      "Pre-configured settings for common user needs",
+      "Visual aids and simplified instructions for setup"
+    ]
+  },
+  {
+    "id": "CB-035",
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "title": "Cross-Device Compatibility",
+    "subOptions": [
+      "Seamless integration with smartphones and tablets",
+      "Support for various wearable health devices",
+      "Browser-based access for wider device usability",
+      "Cloud synchronization of user preferences across devices"
+    ]
+  },
+  {
+    "id": "CB-036",
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "title": "Comprehensive Accessibility Features",
+    "subOptions": [
+      "Screen reader support for visually impaired users",
+      "Adjustable audio output for hearing-impaired users",
+      "Cognitive load-reducing interface options",
+      "Keyboard shortcuts for users with mobility impairments"
+    ]
+  },
+  {
+    "id": "CB-037",
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "title": "Flexible User Experience Customization",
+    "subOptions": [
+      "Profile-based settings for personalized interactions",
+      "Theme adjustments for user comfort",
+      "User feedback mechanisms for continuous improvement",
+      "Scheduled adjustments based on user routines"
+    ]
+  },
+  {
+    "id": "CB-038",
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "title": "Robust Third-Party Integration Framework",
+    "subOptions": [
+      "API access for external developers",
+      "Pre-built connectors for popular health devices",
+      "Support for integration with social media platforms",
+      "Collaboration tools for caregivers and families"
+    ]
+  },
+  {
+    "id": "CB-039",
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "title": "Ongoing User Support Mechanisms",
+    "subOptions": [
+      "24/7 voice-based support assistance",
+      "FAQs and troubleshooting guides integrated into the system",
+      "Community forums for peer support and advice",
+      "Scheduled check-ins to assess user satisfaction"
+    ]
+  },
+  {
+    "id": "CB-040",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Voice-Activated Task Management",
+    "subOptions": [
+      "Natural language processing for task recognition",
+      "Context-aware voice commands for personalized responses",
+      "Interactive voice feedback for task completion",
+      "Voice reminders for medication and appointments"
+    ]
+  },
+  {
+    "id": "CB-041",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Real-Time Health Monitoring Alerts",
+    "subOptions": [
+      "Customizable alert thresholds for vital signs",
+      "Emergency alert system for caregivers",
+      "Daily health summary notifications",
+      "Historical data trends for health metrics"
+    ]
+  },
+  {
+    "id": "CB-042",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Simplified Communication Tools",
+    "subOptions": [
+      "One-touch video calling feature",
+      "Voice messages for asynchronous communication",
+      "Text-to-speech functionality for reading messages",
+      "Scheduled reminders for check-ins"
+    ]
+  },
+  {
+    "id": "CB-043",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "User-Friendly Interface Customization",
+    "subOptions": [
+      "Adjustable font sizes and colors for visibility",
+      "Simplified navigation options for quick access",
+      "Voice command shortcuts for common functions",
+      "Configurable dashboard widgets for personalized views"
+    ]
+  },
+  {
+    "id": "CB-044",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Integrated Feedback Mechanism",
+    "subOptions": [
+      "Voice feedback for user interactions",
+      "User satisfaction surveys post-interaction",
+      "Real-time suggestions based on interaction history",
+      "Adaptive learning from user preferences"
+    ]
+  },
+  {
+    "id": "CB-045",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Support for Multimodal Interaction",
+    "subOptions": [
+      "Voice, touch, and gesture recognition capabilities",
+      "Hybrid interaction models for different user needs",
+      "Integration with smart home devices for seamless control",
+      "Accessibility features for users with disabilities"
+    ]
+  },
+  {
+    "id": "CB-046",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Context-Aware Assistance",
+    "subOptions": [
+      "Location-based service recommendations",
+      "Time-sensitive alerts based on user routines",
+      "Personalized suggestions based on user behavior",
+      "Adaptive responses based on user mood or state"
+    ]
+  },
+  {
+    "id": "CB-047",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Facilitated Social Engagement Recommendations",
+    "subOptions": [
+      "Personalized event suggestions based on user interests",
+      "Notifications for local community activities",
+      "Integration with social media platforms for event sharing",
+      "Options for virtual participation in events"
+    ]
+  },
+  {
+    "id": "CB-048",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Enhanced Communication Channels",
+    "subOptions": [
+      "Video call scheduling with reminders",
+      "Text messaging integration for quick updates",
+      "Voice messages for asynchronous communication",
+      "Group chat functionalities for family coordination"
+    ]
+  },
+  {
+    "id": "CB-049",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Social Interaction Tracking",
+    "subOptions": [
+      "Logs of user interactions with family and friends",
+      "Feedback on engagement levels over time",
+      "Alerts for inactivity or reduced social interactions",
+      "Customizable reports for caregivers on social activity trends"
+    ]
+  },
+  {
+    "id": "CB-050",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "User-Centric Social Profiles",
+    "subOptions": [
+      "Profiles for family and friends with preferred contact methods",
+      "Interest tagging for better engagement suggestions",
+      "Privacy settings for sharing user information",
+      "Status updates for caregivers on user interactions"
+    ]
+  },
+  {
+    "id": "CB-051",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Activity Participation Monitoring",
+    "subOptions": [
+      "Tracking involvement in suggested activities",
+      "Feedback collection on activity enjoyment",
+      "Alerting caregivers about missed activities",
+      "Comparison against past engagement levels"
+    ]
+  },
+  {
+    "id": "CB-052",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Interactive Group Activities",
+    "subOptions": [
+      "Facilitated virtual games for family participation",
+      "Scheduled group challenges with social incentives",
+      "Collaborative projects for shared interests",
+      "Online forums for discussion and interaction"
+    ]
+  },
+  {
+    "id": "CB-053",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Cognitive Stimulation through Social Interaction",
+    "subOptions": [
+      "Social games designed for cognitive engagement",
+      "Discussion prompts for family conversations",
+      "Memory-sharing activities with family members",
+      "Trivia and quizzes related to user interests"
+    ]
+  },
+  {
+    "id": "CB-054",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Health Data Visualization and Reporting",
+    "subOptions": [
+      "Customizable health dashboards for caregivers",
+      "Automated health reports delivered via email",
+      "Graphical trends of vital signs over time",
+      "Alerts for significant changes in health metrics"
+    ]
+  },
+  {
+    "id": "CB-055",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Remote Care Coordination Tools",
+    "subOptions": [
+      "Shared care plans accessible to all stakeholders",
+      "Sync capability with other care management software",
+      "Task assignment and tracking for caregivers",
+      "Integrated calendar for medication and appointment reminders"
+    ]
+  },
+  {
+    "id": "CB-056",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Personalized Health Insights",
+    "subOptions": [
+      "AI-driven health recommendations based on user data",
+      "Alerts for potential health risks based on patterns",
+      "Wellness tips tailored to individual health profiles",
+      "Educational resources linked to observed health trends"
+    ]
+  },
+  {
+    "id": "CB-057",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Emergency Response Features",
+    "subOptions": [
+      "Immediate alerts to caregivers during critical events",
+      "Automated check-in requests during irregular health readings",
+      "Integration with emergency services for quick response",
+      "Geolocation tracking for outdoor safety monitoring"
+    ]
+  },
+  {
+    "id": "CB-058",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Medication Management System",
+    "subOptions": [
+      "Automated reminders for medication schedules",
+      "Tracking of medication adherence with alerts",
+      "Integration with pharmacy systems for refills",
+      "Reporting on medication side effects for caregivers"
+    ]
+  },
+  {
+    "id": "CB-059",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Caregiver Training and Support Resources",
+    "subOptions": [
+      "Access to a library of training videos and guides",
+      "Interactive modules for skill-building in elderly care",
+      "Community forums for sharing experiences and advice",
+      "Real-time chat support with care experts"
+    ]
+  },
+  {
+    "id": "CB-060",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Multi-User Access Management",
+    "subOptions": [
+      "Role-based access controls for different caregiver types",
+      "Audit trails of user activities for accountability",
+      "Customizable permissions for data access",
+      "Temporary access codes for guest caregivers"
+    ]
+  },
+  {
+    "id": "CB-061",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Personalized Care Alerts",
+    "subOptions": [
+      "Customizable alert settings for specific health conditions",
+      "Regular updates on user health status via notifications",
+      "Event-triggered alerts based on user-defined criteria",
+      "Integration with wearable devices for real-time alerts"
+    ]
+  },
+  {
+    "id": "CB-062",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Gamified Physical Activity Engagement",
+    "subOptions": [
+      "Challenge-based activities with rewards",
+      "Virtual fitness classes tailored to user abilities",
+      "Individualized fitness goals tracking",
+      "Group exercise challenges for social motivation"
+    ]
+  },
+  {
+    "id": "CB-063",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Cognitive Skill Development Activities",
+    "subOptions": [
+      "Daily brain exercises with varying difficulty",
+      "Memory games that adapt to user performance",
+      "Puzzles and quizzes focused on user interests",
+      "Storytelling and creative writing prompts"
+    ]
+  },
+  {
+    "id": "CB-064",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Activity Scheduling and Reminders",
+    "subOptions": [
+      "Customizable reminders for physical and cognitive activities",
+      "Integration with personal calendars for activity planning",
+      "Alerts for missed activities with rescheduling options",
+      "Flexible time slots for user-preferred activity times"
+    ]
+  },
+  {
+    "id": "CB-065",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Progress Tracking and Feedback",
+    "subOptions": [
+      "Visual progress reports for physical and cognitive activities",
+      "Regular feedback sessions via caregiver insights",
+      "Motivational messages based on user achievements",
+      "Comparison of progress with baseline metrics"
+    ]
+  },
+  {
+    "id": "CB-066",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Socially Engaging Cognitive Games",
+    "subOptions": [
+      "Multiplayer games to encourage interaction",
+      "Collaborative puzzles that require teamwork",
+      "Competitive trivia games with friends and family",
+      "Cognitive challenges with shared leaderboards"
+    ]
+  },
+  {
+    "id": "CB-067",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Personalized Activity Recommendations",
+    "subOptions": [
+      "AI-driven suggestions based on user preferences",
+      "Event recommendations based on local community offerings",
+      "Tailored activity suggestions based on health data",
+      "User input-driven activity selection"
+    ]
+  },
+  {
+    "id": "CB-068",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Health-Integrated Physical Challenges",
+    "subOptions": [
+      "Physical activities linked to health monitoring data",
+      "Adaptive challenges based on real-time health status",
+      "Goal-oriented activities to improve specific health metrics",
+      "Collaboration with healthcare professionals for activity design"
+    ]
+  },
+  {
+    "id": "CB-069",
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Secure Health Data Access Management",
+    "subOptions": [
+      "Role-based access controls for caregiver permissions",
+      "Two-factor authentication for secure logins",
+      "Audit trails for data access and modifications"
+    ]
+  },
+  {
+    "id": "CB-070",
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Intuitive Onboarding and Setup Process",
+    "subOptions": [
+      "Step-by-step guided setup for caregivers",
+      "Pre-configured profiles for common user scenarios",
+      "Interactive tutorials for feature familiarization"
+    ]
+  },
+  {
+    "id": "CB-071",
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Adaptive User Interface for Caregivers",
+    "subOptions": [
+      "Customizable dashboard layouts based on caregiver preferences",
+      "Dynamic content adjustment based on user behavior",
+      "Theme options for visual comfort and accessibility"
+    ]
+  },
+  {
+    "id": "CB-072",
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Comprehensive Data Privacy Controls",
+    "subOptions": [
+      "User-defined privacy settings for data sharing",
+      "Regular notifications about data usage policies",
+      "Options to anonymize sensitive health information"
+    ]
+  },
+  {
+    "id": "CB-073",
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Interoperability with Third-Party Systems",
+    "subOptions": [
+      "API support for integration with external health software",
+      "Data import/export functionalities for health records",
+      "Standardized protocols for device communication"
+    ]
+  },
+  {
+    "id": "CB-074",
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Feedback and Support Mechanisms",
+    "subOptions": [
+      "In-app feedback forms for caregiver suggestions",
+      "Access to a knowledge base with FAQs and troubleshooting guides",
+      "Live support chat for immediate assistance"
+    ]
+  },
+  {
+    "id": "CB-075",
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Data Analytics and Reporting Tools",
+    "subOptions": [
+      "Custom report generation for health trends over time",
+      "Alerts for significant changes in health metrics",
+      "Data visualization options for easier interpretation"
+    ]
+  },
+  {
+    "id": "CB-076",
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "title": "Collaborative Care Coordination Features",
+    "subOptions": [
+      "Shared access to care plans among multiple caregivers",
+      "Task assignment and tracking for care responsibilities",
+      "Real-time updates on patient status for all involved caregivers"
+    ]
+  },
+  {
+    "id": "CB-077",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "title": "Voice Command Integration Framework",
+    "subOptions": [
+      "Natural language processing for diverse command structures",
+      "Context-aware command execution based on user history",
+      "Multi-language support for inclusive interactions",
+      "Feedback mechanisms for command confirmation"
+    ]
+  },
+  {
+    "id": "CB-078",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "title": "Adaptive Learning for User Preferences",
+    "subOptions": [
+      "Machine learning algorithms to personalize interactions",
+      "User feedback loops for refining command recognition",
+      "Behavioral trend analysis to anticipate user needs",
+      "Adjustable sensitivity settings for voice detection"
+    ]
+  },
+  {
+    "id": "CB-079",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "title": "Multi-Modal Interaction Support",
+    "subOptions": [
+      "Integration of visual feedback through screens or avatars",
+      "Support for gesture-based commands for accessibility",
+      "Text-based command options for alternative engagement",
+      "Compatibility with assistive devices for enhanced usability"
+    ]
+  },
+  {
+    "id": "CB-080",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "title": "Robust API for Third-Party Voice Applications",
+    "subOptions": [
+      "Standardized API endpoints for consistent integration",
+      "Sandbox environment for testing third-party applications",
+      "Version control to manage API updates and backward compatibility",
+      "Detailed API documentation and use-case examples"
+    ]
+  },
+  {
+    "id": "CB-081",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "title": "User-Centric Customization Options",
+    "subOptions": [
+      "Personalized command shortcuts for frequently used tasks",
+      "Theme and layout settings for user comfort",
+      "Configurable alert and notification preferences",
+      "User-defined profiles for different interaction styles"
+    ]
+  },
+  {
+    "id": "CB-082",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "title": "Contextual Awareness for Interaction Enhancement",
+    "subOptions": [
+      "Location-based services for relevant command execution",
+      "Time-sensitive commands for routine tasks",
+      "Integration with calendar for event-based reminders",
+      "Use of sensor data for proactive engagement"
+    ]
+  },
+  {
+    "id": "CB-083",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "title": "Security Measures for Voice Interactions",
+    "subOptions": [
+      "User authentication through voice recognition",
+      "Access controls for sensitive commands",
+      "Audit logs of command history for transparency",
+      "Privacy settings to limit data retention"
+    ]
+  },
+  {
+    "id": "CB-084",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Developers and App Creators",
+    "title": "Feedback and Improvement Mechanisms",
+    "subOptions": [
+      "User satisfaction surveys to assess interaction quality",
+      "Error reporting tools for command failures",
+      "Analytics on command success rates for system improvement",
+      "Regular updates based on user feedback trends"
+    ]
+  },
+  {
+    "id": "CB-085",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Developers and App Creators",
+    "title": "Event Recommendation Engine",
+    "subOptions": [
+      "Interest-based filtering for personalized suggestions",
+      "Integration with local community calendars",
+      "Real-time updates on event availability",
+      "User feedback loop for improving recommendations"
+    ]
+  },
+  {
+    "id": "CB-086",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Developers and App Creators",
+    "title": "Social Connectivity Tools",
+    "subOptions": [
+      "Group messaging features for event coordination",
+      "Video calling integration for remote interactions",
+      "Shared calendars for managing social events",
+      "Notification system for upcoming social engagements"
+    ]
+  },
+  {
+    "id": "CB-087",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Developers and App Creators",
+    "title": "Community Engagement Interface",
+    "subOptions": [
+      "Local volunteer opportunities tailored to user interests",
+      "Social groups and clubs based on shared activities",
+      "Event hosting capabilities for users to initiate gatherings",
+      "Gamification elements to encourage social participation"
+    ]
+  },
+  {
+    "id": "CB-088",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Developers and App Creators",
+    "title": "User Interest Profiling",
+    "subOptions": [
+      "Dynamic user profiles that adapt based on interactions",
+      "Surveys and polls to gather user preferences",
+      "Integration of social media interests for personalized content",
+      "Collaborative filtering based on similar user behaviors"
+    ]
+  },
+  {
+    "id": "CB-089",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Developers and App Creators",
+    "title": "Accessibility Features for Social Tools",
+    "subOptions": [
+      "Text-to-speech for reading event details",
+      "Visual aids for users with hearing impairments",
+      "Simplified navigation for users with cognitive challenges",
+      "Customization options for interface scaling and color contrast"
+    ]
+  },
+  {
+    "id": "CB-090",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Developers and App Creators",
+    "title": "Feedback Mechanisms for Social Features",
+    "subOptions": [
+      "Post-event surveys to gather user experiences",
+      "Rating systems for events and social interactions",
+      "Suggestion forms for enhancing social features",
+      "Analytics dashboard for developers on user engagement"
+    ]
+  },
+  {
+    "id": "CB-091",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Developers and App Creators",
+    "title": "Personalized Communication Aids",
+    "subOptions": [
+      "Pre-defined message templates for easy communication",
+      "Voice command shortcuts for frequent contacts",
+      "Integration with contact management systems",
+      "Language translation features for diverse interactions"
+    ]
+  },
+  {
+    "id": "CB-092",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Developers and App Creators",
+    "title": "Social Engagement Analytics",
+    "subOptions": [
+      "Tracking user engagement levels over time",
+      "Identifying patterns in social interactions and preferences",
+      "Reports for developers on feature usage",
+      "Data insights for improving social functionalities"
+    ]
+  },
+  {
+    "id": "CB-093",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "title": "Health Monitoring Integration Framework",
+    "subOptions": [
+      "Standardized APIs for health device compatibility",
+      "Support for multiple health data formats",
+      "Real-time data streaming capabilities",
+      "Batch data import for historical records"
+    ]
+  },
+  {
+    "id": "CB-094",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "title": "Personalized Care Plan Development",
+    "subOptions": [
+      "Dynamic care plan adjustments based on user feedback",
+      "Integration with healthcare provider recommendations",
+      "Goal-setting features for health objectives",
+      "Progress tracking with visual analytics"
+    ]
+  },
+  {
+    "id": "CB-095",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "title": "Timely Intervention Alerts",
+    "subOptions": [
+      "Customizable alert thresholds for health metrics",
+      "Emergency notification system for caregivers",
+      "Context-aware alerts based on user activity",
+      "Integration with external emergency services"
+    ]
+  },
+  {
+    "id": "CB-096",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "title": "Secure Data Sharing Mechanism",
+    "subOptions": [
+      "Role-based access controls for health data",
+      "Encrypted data exchange protocols",
+      "User consent management for data sharing",
+      "Audit trails for data access and modifications"
+    ]
+  },
+  {
+    "id": "CB-097",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "title": "Caregiver Collaboration Tools",
+    "subOptions": [
+      "Shared care plan features for team coordination",
+      "Real-time messaging capabilities between caregivers",
+      "Task assignment and tracking for personalized care",
+      "Document sharing for health records and updates"
+    ]
+  },
+  {
+    "id": "CB-098",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "title": "Cognitive Health Assessment Tools",
+    "subOptions": [
+      "Interactive cognitive exercises with feedback",
+      "Adaptive testing based on user performance",
+      "Integration of assessment results into care plans",
+      "Gamified cognitive training programs"
+    ]
+  },
+  {
+    "id": "CB-099",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "title": "User Insights and Analytics Dashboard",
+    "subOptions": [
+      "Customizable visualizations of health trends",
+      "Integration with external health analytics platforms",
+      "Feedback loops for user-driven health insights",
+      "Reporting features for caregivers and family members"
+    ]
+  },
+  {
+    "id": "CB-100",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "title": "Personalized Engagement Strategies",
+    "subOptions": [
+      "Data-driven content recommendations for health activities",
+      "Goal-oriented reminders for medication and exercise",
+      "Social interaction prompts based on user preferences",
+      "Incorporation of user feedback for continuous improvement"
+    ]
+  },
+  {
+    "id": "CB-101",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "title": "Gamified Physical Activity Engagement",
+    "subOptions": [
+      "Interactive fitness challenges with peer competition",
+      "Reward systems for achievement in physical tasks",
+      "Customizable fitness routines based on user ability",
+      "Real-time progress tracking and feedback",
+      "Integration with wearable fitness devices"
+    ]
+  },
+  {
+    "id": "CB-102",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "title": "Cognitive Stimulation Activities Library",
+    "subOptions": [
+      "Diverse selection of brain games and puzzles",
+      "User-generated content for personalized challenges",
+      "Adaptive difficulty levels to maintain engagement",
+      "Progress tracking for cognitive performance",
+      "Social features for sharing achievements"
+    ]
+  },
+  {
+    "id": "CB-103",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "title": "Health Monitoring Activity Suggestions",
+    "subOptions": [
+      "Personalized activity recommendations based on health data",
+      "Integration with health devices for real-time feedback",
+      "Adaptive reminders for physical and cognitive exercises",
+      "User preferences for activity types and durations",
+      "Weekly activity planning tools"
+    ]
+  },
+  {
+    "id": "CB-104",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "title": "Interactive Learning Modules",
+    "subOptions": [
+      "Educational content on health and wellness topics",
+      "Engagement through quizzes and interactive scenarios",
+      "Feedback mechanisms to assess understanding",
+      "Accessibility features for varied learning needs",
+      "Community-driven content contributions"
+    ]
+  },
+  {
+    "id": "CB-105",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "title": "Social Support and Motivation Systems",
+    "subOptions": [
+      "Peer accountability partnerships for physical activities",
+      "Virtual support groups for cognitive engagement",
+      "Motivational notifications and reminders",
+      "Gamification of social interaction to encourage participation",
+      "Integration with existing social media platforms"
+    ]
+  },
+  {
+    "id": "CB-106",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "title": "Personalized Activity Scheduling Assistant",
+    "subOptions": [
+      "Smart calendar integration for activity planning",
+      "Voice-based scheduling for ease of use",
+      "Adaptive suggestions based on user routines",
+      "Alerts for upcoming activities and reminders",
+      "Flexible rescheduling options"
+    ]
+  },
+  {
+    "id": "CB-107",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "title": "User Feedback Collection Tools",
+    "subOptions": [
+      "Simple interfaces for feedback submission post-activity",
+      "Anonymous surveys to gauge user satisfaction",
+      "Data analytics to identify patterns in user engagement",
+      "Real-time feedback on activity effectiveness",
+      "Incorporation of user suggestions for continuous improvement"
+    ]
+  },
+  {
+    "id": "CB-108",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Developers and App Creators",
+    "title": "Integrative Health and Activity Dashboard",
+    "subOptions": [
+      "Comprehensive view of health metrics and activity levels",
+      "Customizable interface for user preferences",
+      "Visual analytics for performance tracking",
+      "Integration with caregiver access for holistic monitoring",
+      "Alerts for deviations from health goals"
+    ]
+  },
+  {
+    "id": "CB-109",
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "title": "Open Integration Framework",
+    "subOptions": [
+      "Standardized APIs for service integration",
+      "Plugin support for third-party applications",
+      "Webhooks for event-driven interactions",
+      "SDKs for various programming languages"
+    ]
+  },
+  {
+    "id": "CB-110",
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "title": "Comprehensive Developer Documentation",
+    "subOptions": [
+      "Step-by-step guides for common integrations",
+      "Code samples for quick implementation",
+      "FAQs addressing common development concerns",
+      "Video tutorials for visual learners"
+    ]
+  },
+  {
+    "id": "CB-111",
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "title": "Enhanced Security Protocols",
+    "subOptions": [
+      "OAuth-based authentication for API access",
+      "Data encryption standards for secure communication",
+      "User consent management tools",
+      "Audit logs for tracking API usage"
+    ]
+  },
+  {
+    "id": "CB-112",
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "title": "User-Centric Development Support",
+    "subOptions": [
+      "Dedicated developer support channels",
+      "Community forums for peer assistance",
+      "Regular webinars on best practices",
+      "Feedback loops for continuous improvement"
+    ]
+  },
+  {
+    "id": "CB-113",
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "title": "Modular Application Architecture",
+    "subOptions": [
+      "Microservices-based backend for scalability",
+      "Containerization for easy deployment",
+      "Version control for application updates",
+      "Interoperability with legacy systems"
+    ]
+  },
+  {
+    "id": "CB-114",
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "title": "Data Compliance and Governance Tools",
+    "subOptions": [
+      "Templates for privacy policy creation",
+      "Automated compliance checks for applications",
+      "User data audit trails for transparency",
+      "Guidelines for ethical data usage"
+    ]
+  },
+  {
+    "id": "CB-115",
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "title": "Cross-Platform Compatibility",
+    "subOptions": [
+      "Support for various operating systems",
+      "Responsive design for different devices",
+      "Integration with popular development tools",
+      "Testing frameworks for different environments"
+    ]
+  },
+  {
+    "id": "CB-116",
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "title": "Performance Monitoring and Analytics",
+    "subOptions": [
+      "Real-time performance dashboards",
+      "Error tracking and reporting tools",
+      "Usage analytics for understanding user interactions",
+      "Feedback collection mechanisms for improvements"
+    ]
+  }
+]

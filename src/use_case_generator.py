@@ -1,12 +1,9 @@
 import json
 import os
 from typing import List
-from utils import load_alfred_summary, get_llm_response, CURRENT_LLM
+from utils import load_alfred_summary, get_llm_response, CURRENT_LLM, USE_CASE_DIR
 from use_case_loader import UseCaseLoader, UseCase
 from user_persona_loader import UserPersonaLoader, UserPersona
-
-# Define the output directory based on the CURRENT_LLM variable
-OUTPUT_DIR = os.path.join("results", CURRENT_LLM, "use_cases")
 
 
 # =========================================================
@@ -91,18 +88,18 @@ def generate_raw_use_cases():
             print(f"✅ Generated {len(use_cases)} raw use cases.")
             
             # Ensure the output directory exists
-            os.makedirs(OUTPUT_DIR, exist_ok=True)
+            os.makedirs(USE_CASE_DIR, exist_ok=True)
             
             # Save each use case as its own file
-            os.makedirs(OUTPUT_DIR, exist_ok=True)
+            os.makedirs(USE_CASE_DIR, exist_ok=True)
 
             for uc in use_cases:
-                file_path = os.path.join(OUTPUT_DIR, f"{uc['id']}.json")
+                file_path = os.path.join(USE_CASE_DIR, f"{uc['id']}.json")
                 with open(file_path, "w", encoding="utf-8") as f:
                     json.dump(uc, f, indent=2, ensure_ascii=False)
                 print(f"📝 Saved {uc['id']}")
 
-            print(f"💾 Saved {len(use_cases)} individual use case files to {OUTPUT_DIR}")
+            print(f"💾 Saved {len(use_cases)} individual use case files to {USE_CASE_DIR}")
         except json.JSONDecodeError as e:
             print("❌ Failed to parse LLM response as JSON.")
             print("LLM Response:")

@@ -1,94 +1,8 @@
 [
   {
-    "title": "Natural Language Interaction for Patient Monitoring",
-    "summary": "As a home-care nurse, I want to use voice commands to quickly access and monitor my patients' health data so that I can efficiently check vital signs and respond to any anomalies without navigating complex menus.",
+    "title": "Voice Reminders for Medication and Appointments",
+    "summary": "As a home-care nurse, I want to set up voice-activated reminders for my patients' medications and appointments so that I can efficiently monitor their care without interrupting my patient interactions.",
     "priority": 1,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-005",
-      "UC-006"
-    ],
-    "id": "US-093",
-    "rawRequirementId": "RREQ-041"
-  },
-  {
-    "title": "Real-Time Health Monitoring Alerts",
-    "summary": "As a home-care nurse, I want to receive real-time alerts for abnormal health readings so that I can quickly address any potential health issues and ensure the well-being of my patients.",
-    "priority": 1,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-005",
-      "UC-006"
-    ],
-    "id": "US-094",
-    "rawRequirementId": "RREQ-042"
-  },
-  {
-    "title": "Seamless Communication Channels \u2013 Video Calling Capabilities",
-    "summary": "As a home-care nurse, I want to have seamless video calling capabilities in the ALFRED system so that I can maintain regular communication with my patients, especially those who are socially isolated, without the need for complicated setups.",
-    "priority": 1,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-004"
-    ],
-    "id": "US-095",
-    "rawRequirementId": "RREQ-043"
-  },
-  {
-    "title": "Simplified User Interface for Health Monitoring",
-    "summary": "As a home-care nurse, I want an intuitive interface that allows me to quickly access patient health metrics and communicate with them, so that I can efficiently monitor their health and maintain connections with those who are socially isolated.",
-    "priority": 1,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-005",
-      "UC-006",
-      "UC-004"
-    ],
-    "id": "US-096",
-    "rawRequirementId": "RREQ-044"
-  },
-  {
-    "title": "Contextual Assistance for Health Management",
-    "summary": "As a home-care nurse, I want ALFRED to provide contextual prompts for health management so that I can efficiently monitor my patients' health and maintain regular communication with them, especially those who are socially isolated.",
-    "priority": 2,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-005",
-      "UC-006",
-      "UC-004"
-    ],
-    "id": "US-097",
-    "rawRequirementId": "RREQ-045"
-  },
-  {
-    "title": "Privacy-Respecting Data Access \u2013 User-Controlled Consent for Data Sharing",
-    "summary": "As a home-care nurse, I want to have secure access to my patients' health data while respecting their privacy preferences so that I can effectively monitor their health status and provide personalized care.",
-    "priority": 1,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-005",
-      "UC-006",
-      "UC-004"
-    ],
-    "id": "US-098",
-    "rawRequirementId": "RREQ-046"
-  },
-  {
-    "title": "Task Management Support - Reminders for Caregiving Tasks",
-    "summary": "As a home-care nurse, I want to set reminders for medication tracking and appointment scheduling so that I can efficiently manage my patients' health and maintain regular communication with them.",
-    "priority": 2,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
@@ -97,23 +11,77 @@
       "UC-005",
       "UC-006"
     ],
-    "id": "US-099",
-    "rawRequirementId": "RREQ-047"
+    "id": "US-080",
+    "cbId": "CB-040"
   },
   {
-    "title": "Feedback on Caregiver Experience",
-    "summary": "As a home-care nurse, I want to provide feedback on my experiences using the ALFRED system so that the platform can be improved to better support my needs and those of my patients.",
-    "priority": 2,
+    "title": "Real-Time Health Monitoring Alerts \u2013 Historical Data Trends for Health Metrics",
+    "summary": "As a home-care nurse, I want to analyze historical health data and receive real-time alerts on patient health metrics so that I can anticipate deterioration, plan interventions, and provide timely care to my rural patients.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-005",
+      "UC-006"
+    ],
+    "id": "US-081",
+    "cbId": "CB-041"
+  },
+  {
+    "title": "Asynchronous Communication for Patient Monitoring",
+    "summary": "As a home-care nurse, I want to send quick voice messages to my patients and their families so that I can communicate efficiently without interrupting my care routines.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-004"
+    ],
+    "id": "US-082",
+    "cbId": "CB-042"
+  },
+  {
+    "title": "Voice Command Shortcuts for Health Monitoring",
+    "summary": "As a home-care nurse, I want to use voice command shortcuts to quickly access patient health data so that I can efficiently monitor my patients' health and respond to their needs without interrupting my workflow.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-005",
+      "UC-006"
+    ],
+    "id": "US-083",
+    "cbId": "CB-043"
+  },
+  {
+    "title": "Multimodal Interaction for Caregivers",
+    "summary": "As a home-care nurse, I want to interact with the ALFRED system using voice commands and touch gestures so that I can efficiently monitor patient health and manage care tasks without interrupting my patient interactions.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-001",
+      "UC-005",
+      "UC-006"
+    ],
+    "id": "US-084",
+    "cbId": "CB-045"
+  },
+  {
+    "title": "Context-Aware Assistance for Emotional Support",
+    "summary": "As a home-care nurse, I want ALFRED to adapt its responses based on my patients' emotional states so that I can provide more empathetic and personalized care.",
+    "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
       "UC-004",
-      "UC-005",
-      "UC-006",
-      "UC-010"
+      "UC-005"
     ],
-    "id": "US-100",
-    "rawRequirementId": "RREQ-048"
+    "id": "US-085",
+    "cbId": "CB-046"
   }
 ]

@@ -1,35 +1,20 @@
 [
   {
-    "title": "Natural Language Understanding for Easy Communication",
-    "summary": "As an older adult, I want ALFRED to understand my varied speech patterns and accents so that I can easily communicate my needs and stay socially connected without frustration.",
+    "title": "Voice Command Simplification",
+    "summary": "As a retired social worker, I want to use simple voice commands to manage my daily tasks so that I can stay socially connected and maintain my independence despite my reduced mobility.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
     "personaId": "P-005",
     "useCases": [
-      "UC-002",
       "UC-004"
     ],
-    "id": "US-123",
-    "rawRequirementId": "RREQ-001"
+    "id": "US-109",
+    "cbId": "CB-001"
   },
   {
-    "title": "Voice-Activated Reminder Management",
-    "summary": "As a retired social worker, I want to set reminders for my volunteering activities and medication through voice commands so that I can manage my busy schedule and stay on top of my health without feeling overwhelmed by technology.",
-    "priority": 1,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-002",
-      "UC-004"
-    ],
-    "id": "US-124",
-    "rawRequirementId": "RREQ-002"
-  },
-  {
-    "title": "Contextual Information Retrieval for Task Management",
-    "summary": "As a retired social worker, I want ALFRED to provide step-by-step guidance for managing my daily tasks like scheduling volunteering activities and maintaining social connections, so that I can easily navigate my busy schedule despite my reduced mobility and arthritis pain.",
+    "title": "Conversational Engagement \u2013 Reminders for Social Interactions",
+    "summary": "As a retired social worker, I want ALFRED to remind me of important social interactions and volunteering activities so that I can stay connected with my community and manage my busy schedule effectively.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
@@ -38,41 +23,25 @@
       "UC-003",
       "UC-004"
     ],
-    "id": "US-125",
-    "rawRequirementId": "RREQ-003"
+    "id": "US-110",
+    "cbId": "CB-002"
   },
   {
-    "title": "Voice Feedback and Confirmation",
-    "summary": "As an older adult, I want to receive clear auditory feedback and confirmation when I complete tasks with ALFRED, so that I feel confident that my commands have been understood and executed correctly.",
+    "title": "Voice-Activated Task Management",
+    "summary": "As a retired social worker, I want to use voice commands to manage my calendar and stay connected with my family and volunteer activities, so that I can maintain my social connections and manage my busy schedule with ease despite my reduced mobility.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
     "personaId": "P-005",
     "useCases": [
-      "UC-002",
       "UC-004"
     ],
-    "id": "US-126",
-    "rawRequirementId": "RREQ-004"
+    "id": "US-111",
+    "cbId": "CB-003"
   },
   {
-    "title": "Error Handling and User Assistance \u2013 Recognizing and Addressing User Frustration",
-    "summary": "As an older adult, I want ALFRED to recognize when I am frustrated and provide helpful assistance so that I can continue using the system easily and without stress.",
-    "priority": 1,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-002",
-      "UC-003",
-      "UC-004"
-    ],
-    "id": "US-127",
-    "rawRequirementId": "RREQ-005"
-  },
-  {
-    "title": "Personalized Interaction History",
-    "summary": "As an older adult, I want ALFRED to track my interactions and preferences so that I receive tailored suggestions for social connections and volunteering activities that suit my interests and needs.",
+    "title": "Personalized News and Information Retrieval",
+    "summary": "As a retired social worker, I want ALFRED to provide me with personalized news and information feeds so that I can stay updated on community issues and events relevant to my volunteering and social interests.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
@@ -81,12 +50,12 @@
       "UC-003",
       "UC-004"
     ],
-    "id": "US-128",
-    "rawRequirementId": "RREQ-006"
+    "id": "US-112",
+    "cbId": "CB-004"
   },
   {
-    "title": "Multimodal Interaction Support for Enhanced Communication",
-    "summary": "As an older adult, I want to use both voice commands and visual cues to interact with ALFRED so that I can easily manage my communication and calendar without feeling overwhelmed by technology.",
+    "title": "Error Recovery and Clarification \u2013 Contextual Hints for Task Guidance",
+    "summary": "As a retired social worker, I want ALFRED to provide contextual hints and guidance when I encounter difficulties with voice commands so that I can maintain effective communication and manage my tasks without frustration.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
@@ -94,22 +63,46 @@
     "useCases": [
       "UC-004"
     ],
-    "id": "US-129",
-    "rawRequirementId": "RREQ-007"
+    "id": "US-113",
+    "cbId": "CB-005"
   },
   {
-    "title": "Adaptive Learning for Personalized Assistance",
-    "summary": "As an older adult, I want ALFRED to learn my preferences over time so that it can better assist me in managing my social connections, staying informed, and scheduling my volunteering activities.",
+    "title": "Voice Interaction with Touch Controls",
+    "summary": "As a retired social worker, I want to use voice commands and simple touch controls to manage my daily tasks and stay connected with my family and community, so that I can maintain my independence and continue my volunteer work despite my reduced mobility.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
     "personaId": "P-005",
     "useCases": [
-      "UC-002",
-      "UC-003",
       "UC-004"
     ],
-    "id": "US-130",
-    "rawRequirementId": "RREQ-008"
+    "id": "US-114",
+    "cbId": "CB-006"
+  },
+  {
+    "title": "Customizable Interaction Styles for Enhanced Communication",
+    "summary": "As a retired social worker, I want to customize how I interact with ALFRED so that I can easily manage my communication, stay connected with my family, and schedule my volunteering activities without frustration.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-004"
+    ],
+    "id": "US-115",
+    "cbId": "CB-007"
+  },
+  {
+    "title": "Emergency Response Activation \u2013 Voice-Triggered Alerts for Emergency Contacts",
+    "summary": "As a retired social worker, I want to be able to trigger emergency alerts with my voice so that I can quickly notify my family or caregivers in case of an emergency without needing to navigate complex technology.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-004"
+    ],
+    "id": "US-116",
+    "cbId": "CB-008"
   }
 ]

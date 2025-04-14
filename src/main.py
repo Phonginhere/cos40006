@@ -2,21 +2,14 @@ import os
 from use_case_generator import generate_raw_use_cases, enrich_use_cases_with_scenarios
 from user_persona_loader import UserPersonaLoader
 from use_case_loader import UseCaseLoader
-from raw_requirement_generator import generate_all_raw_requirements
-from raw_requirement_analyzer import analyze_requirements
+from capability_blueprint_generator import generate_all_capability_blueprints
+from capability_blueprint_analyzer import analyze_capability_blueprints
 from user_story_generator import generate_user_stories_by_persona
-from utils import CURRENT_LLM
-
-USE_CASE_FOLDER = os.path.join("results", CURRENT_LLM, "use_cases")
-FILTERED_REQUIREMENTS_FOLDER = os.path.join("results", CURRENT_LLM, "filtered_raw_requirements")
+from utils import CURRENT_LLM, USE_CASE_DIR, FILTERED_CAPABILITY_BLUEPRINTS_DIR
 
 
 def is_use_case_folder_empty(folder: str) -> bool:
     return not any(fname.endswith(".json") and fname.startswith("UC-") for fname in os.listdir(folder)) if os.path.exists(folder) else True
-
-def is_filtered_requirements_ready(folder: str) -> bool:
-    return any(fname.endswith(".json") for fname in os.listdir(folder)) if os.path.exists(folder) else False
-
 
 def main():
     # Step 1: Load user personas
@@ -30,7 +23,7 @@ def main():
     print("\n============================================================== LOAD / GENERATE USE CASES =============================================================")
     #   Step 2a: Check for use cases
     print("\n📁 Checking for existing use cases...")
-    if is_use_case_folder_empty(USE_CASE_FOLDER):
+    if is_use_case_folder_empty(USE_CASE_DIR):
         print("📂 No use cases found. Starting generation process...")
         generate_raw_use_cases()
     else:
@@ -49,22 +42,18 @@ def main():
     use_case_loader.load()
     use_case_loader.print_all_use_cases()
 
-    # Step 3: Load/Generate Raw Requirements
-    print("\n================================================================ RAW REQUIREMENTS ====================================================================")
-    print("🚀 Starting ALFRED raw requirement generation pipeline...")
-    generate_all_raw_requirements()
+    # Step 3: Load/Generate Capability Blueprints
+    print("\n============================================================= CAPABILITY BLUEPRINTS ==================================================================")
+    print("🚀 Starting ALFRED Capability Blueprints generation pipeline...")
+    generate_all_capability_blueprints()
 
-    # Step 4: Filter Raw Requirements by Persona
-    print("\n============================================================= RAW REQUIREMENT ANALYSIS ===============================================================")
-    if is_filtered_requirements_ready(FILTERED_REQUIREMENTS_FOLDER):
-        print("✅ Filtered raw requirements already exist. Skipping analysis.")
-    else:
-        print("📊 Filtering raw requirements based on persona relevance...")
-        analyze_requirements(persona_loader)
+    # Step 4: Filter Capability Blueprints by Persona
+    print("\n========================================================== CAPABILITY BLUEPRINT ANALYSIS =============================================================")
+    analyze_capability_blueprints(persona_loader)
 
     # Step 5: Generate Persona-Based User Stories
     print("\n============================================================ GENERATE USER STORIES ==================================================================")
-    print("🛠️ Generating user stories for each persona based on filtered raw requirements, use cases, and ALFRED context...")
+    print("🛠️ Generating user stories for each persona based on filtered Capability Blueprints, use cases, and ALFRED context...")
     generate_user_stories_by_persona(persona_loader, use_case_loader)
 
     print("\n✅ Pipeline completed successfully. Check your results in the output folder.")

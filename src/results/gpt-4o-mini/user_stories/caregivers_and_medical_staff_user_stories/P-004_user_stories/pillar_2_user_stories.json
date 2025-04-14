@@ -1,36 +1,63 @@
 [
   {
-    "title": "Facilitate Group Communication for Social Engagement",
-    "summary": "As a home-care nurse, I want ALFRED to support group communications among my patients so that I can help socially isolated individuals connect with each other and maintain their emotional well-being.",
-    "priority": 2,
+    "title": "Enhanced Communication Channels \u2013 Voice Messages for Asynchronous Communication",
+    "summary": "As a home-care nurse, I want to send and receive voice messages asynchronously so that I can efficiently communicate with my patients and their families without interrupting my care routines.",
+    "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
       "UC-004"
     ],
-    "id": "US-101",
-    "rawRequirementId": "RREQ-050"
+    "id": "US-086",
+    "cbId": "CB-048"
   },
   {
-    "title": "Adaptive Social Engagement Strategies",
-    "summary": "As a home-care nurse, I want ALFRED to customize social engagement strategies based on my patients' health status and mobility so that I can effectively support socially isolated patients and enhance their emotional well-being.",
-    "priority": 2,
+    "title": "Social Interaction Tracking \u2013 Customizable Reports for Caregivers",
+    "summary": "As a home-care nurse, I want to generate customizable reports on my patients' social activity trends so that I can spot patterns and better support socially isolated patients.",
+    "priority": 1,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-004",
+      "UC-005"
+    ],
+    "id": "US-087",
+    "cbId": "CB-049"
+  },
+  {
+    "title": "Caregiver Status Updates on User Interactions",
+    "summary": "As a home-care nurse, I want to receive updates on my patients' interactions with ALFRED so that I can better understand their emotional states and support their social needs remotely.",
+    "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
       "UC-004",
       "UC-005",
-      "UC-006",
-      "UC-007"
+      "UC-006"
     ],
-    "id": "US-102",
-    "rawRequirementId": "RREQ-052"
+    "id": "US-088",
+    "cbId": "CB-050"
   },
   {
-    "title": "Community Support Network Integration \u2013 Connection to Local Support Groups and Clubs",
-    "summary": "As a home-care nurse, I want to connect my socially isolated patients with local support groups and clubs so that they can engage in community activities and enhance their emotional wellbeing.",
+    "title": "Activity Participation Monitoring \u2013 Alerting Caregivers About Missed Activities",
+    "summary": "As a home-care nurse, I want to receive alerts when my patients miss scheduled social activities so that I can proactively reach out to them and provide support, helping to reduce their feelings of isolation.",
+    "priority": 1,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-004",
+      "UC-006"
+    ],
+    "id": "US-089",
+    "cbId": "CB-051"
+  },
+  {
+    "title": "Cognitive Stimulation through Social Interaction",
+    "summary": "As a home-care nurse, I want to utilize discussion prompts for family conversations so that I can foster emotional connections between my socially isolated patients and their families, enhancing their overall well-being.",
     "priority": 2,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Caregivers and Medical Staff",
@@ -38,22 +65,7 @@
     "useCases": [
       "UC-004"
     ],
-    "id": "US-103",
-    "rawRequirementId": "RREQ-053"
-  },
-  {
-    "title": "Safety and Well-Being Check-Ins",
-    "summary": "As a home-care nurse, I want ALFRED to prompt my patients to report their well-being regularly so that I can monitor their emotional and physical health effectively, especially for those who are socially isolated.",
-    "priority": 1,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-005",
-      "UC-006",
-      "UC-004"
-    ],
-    "id": "US-104",
-    "rawRequirementId": "RREQ-056"
+    "id": "US-090",
+    "cbId": "CB-053"
   }
 ]

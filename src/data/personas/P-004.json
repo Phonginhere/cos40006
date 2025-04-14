@@ -2,7 +2,7 @@
   "Id": "P-004",
   "Name": "Mike Johnson",
   "Role": "Home-care nurse providing rural healthcare services",
-  "Tagline": "I want to efficiently monitor my patients' health and maintain connection with those who are socially isolated.",
+  "Tagline": "I want to independently use digital tools to support my rural patients and explore system features at my own pace.",
   "Demographic data": {
     "Age": 43,
     "Marital Status": "Not specified",
@@ -16,27 +16,34 @@
     "Patient-focused",
     "Dedicated",
     "Empathetic",
-    "Reliable",
-    "Enjoys helping others"
+    "Enjoys helping others",
+    "Self-reliant with new technology",
+    "Learns best through interactive demonstration"
   ],
   "Core goals": [
+    "Track patient health progression over time for better planning",
+    "Use historical health data to identify early warning signs",
+    "Generate insights from patient data to inform care strategies",
     "Monitor patients' health status efficiently",
     "Support socially isolated patients",
-    "Maintain regular communication with patients",
-    "Provide preventative care and early intervention",
-    "Coordinate care across rural communities"
+    "Respond empathetically to patients’ emotional and behavioral cues",
+    "Provide preventative care and early intervention"
   ],
   "Typical challenges": [
+    "Understanding emotional states of patients beyond physical symptoms",
     "Long travel times between patient visits",
+    "Inconsistent cellular or video bandwidth in rural areas",
     "Limited resources in rural healthcare settings",
     "Managing patient care remotely between visits",
     "Maintaining connection with socially isolated patients",
     "Coordinating with other healthcare providers in remote areas"
   ],
   "Singularities": [
+    "Enjoys analyzing patient health trends to improve care outcomes",
+    "Values systems that adapt to emotional context in caregiving",
     "Specializes in care for elderly patients living alone",
     "Particularly attentive to patients' emotional wellbeing and social needs",
-    "Integrates technology into traditional home care practices"
+    "Uses calendar-based tools to organize medication and visit plans independently"
   ],
   "Working situation": "Full-time home-care nurse for 10 years, nursing for 20 years total",
   "Place of work": "Patients' homes across rural areas",
@@ -44,25 +51,30 @@
   "Main tasks with system support": [
     "Health monitoring",
     "Medication tracking",
-    "Appointment scheduling",
-    "Communication with families",
     "Care plan documentation",
     "Patient data analysis"
   ],
   "Most important tasks": [
+    "Spotting patterns in health metrics to anticipate deterioration",
     "Regular monitoring of vital signs",
-    "Secure communication with healthcare team",
-    "Early detection of health status changes"
+    "Efficient asynchronous communication with healthcare team and families"
   ],
   "Least important tasks": [
-    "Administrative reporting",
+    "Managing task workflows across teams",
     "Complex data entry",
     "Non-critical notifications"
   ],
   "Miscellaneous": [
-    "Uses smartphone for both work coordination and personal use",
-    "Comfortable with technology for patient care management",
+    "Prefers reviewing periodic reports over relying solely on real-time alerts",
+    "Uses trend data to make early interventions before critical events occur",
+    "Often sends quick voice notes during breaks in patient visits",
+    "Prefers async voice messages to avoid interrupting patient care routines",
+    "Relies on calendar-based coordination instead of formal task delegation systems",
+    "Prefers tools that sync reminders across patients to avoid overlaps",
+    "Regularly explores new health tech features through tutorials or trial-and-error",
     "Uses laptop with internet connection almost daily",
-    "Values technology that enhances patient connection without replacing personal care"
+    "Values technology that enhances patient connection without replacing personal care",
+    "Prefers discovering system capabilities on their own rather than being walked through each step",
+    "Finds structured walkthroughs limiting — values flexible, modular learning options"
   ]
 }

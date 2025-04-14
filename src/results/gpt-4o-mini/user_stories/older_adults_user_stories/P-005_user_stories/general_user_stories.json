@@ -1,92 +1,90 @@
 [
   {
-    "title": "User-Friendly Installation and Setup \u2013 Guided Setup Through Voice Prompts",
-    "summary": "As a retired social worker, I want a guided setup process through voice prompts so that I can easily configure the ALFRED system without needing technical expertise, allowing me to focus on staying connected and managing my activities.",
+    "title": "Intuitive User Interface Adaptation \u2013 Voice-Guided Navigation for All User Levels",
+    "summary": "As an older adult, I want to use voice commands to navigate the system easily so that I can manage my daily tasks without struggling with complex technology.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-004"
+    ],
+    "id": "US-139",
+    "cbId": "CB-032"
+  },
+  {
+    "title": "User-Controlled Data Sharing Preferences",
+    "summary": "As a retired social worker, I want to easily manage my data sharing preferences so that I can maintain control over my personal and health information while using the ALFRED system.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
     "personaId": "P-005",
     "useCases": [],
-    "id": "US-155",
-    "rawRequirementId": "RREQ-033"
+    "id": "US-140",
+    "cbId": "CB-033"
   },
   {
-    "title": "Intuitive Navigation and Interaction \u2013 Visual Cues for Navigation Assistance",
-    "summary": "As an older adult, I want visual cues for navigation assistance so that I can easily understand and use the system without feeling overwhelmed by technology.",
-    "priority": 2,
+    "title": "User-Centric Installation and Setup \u2013 Step-by-Step Voice-Assisted Process",
+    "summary": "As a retired social worker, I want an easy and guided voice-assisted setup process for the ALFRED system so that I can quickly install and start using it without feeling overwhelmed by technology.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [],
+    "id": "US-141",
+    "cbId": "CB-034"
+  },
+  {
+    "title": "Cross-Device Compatibility for Communication",
+    "summary": "As an older adult, I want to seamlessly connect ALFRED with my smartphone and tablet so that I can easily maintain communication with my family and stay updated on news and volunteering activities without complex configurations.",
+    "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
     "personaId": "P-005",
     "useCases": [
-      "UC-002",
+      "UC-004"
+    ],
+    "id": "US-142",
+    "cbId": "CB-035"
+  },
+  {
+    "title": "Comprehensive Accessibility Features \u2013 Cognitive Load-Reducing Interface Options",
+    "summary": "As a retired social worker, I want an intuitive interface with cognitive load-reducing options so that I can easily navigate the system and manage my tasks without feeling overwhelmed.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-004"
+    ],
+    "id": "US-143",
+    "cbId": "CB-036"
+  },
+  {
+    "title": "Flexible User Experience Customization",
+    "summary": "As a retired social worker, I want to customize my interactions with ALFRED based on my preferences and needs so that I can easily maintain social connections, manage my schedule, and stay updated on important issues without dealing with complex configurations.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
       "UC-003",
       "UC-004"
     ],
-    "id": "US-156",
-    "rawRequirementId": "RREQ-034"
+    "id": "US-144",
+    "cbId": "CB-037"
   },
   {
-    "title": "User-Controlled Consent for Data Sharing",
-    "summary": "As an older adult, I want to have control over my personal and health information so that I can feel secure and empowered in using the ALFRED system without fearing data misuse.",
-    "priority": 1,
-    "pillar": "General Requirements",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [],
-    "id": "US-157",
-    "rawRequirementId": "RREQ-035"
-  },
-  {
-    "title": "Comprehensive Health Device Integration",
-    "summary": "As an older adult, I want ALFRED to integrate with my health-monitoring devices so that I can easily track my arthritis pain and receive timely reminders for my medication, ensuring I stay healthy and active.",
-    "priority": 1,
-    "pillar": "General Requirements",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [],
-    "id": "US-158",
-    "rawRequirementId": "RREQ-036"
-  },
-  {
-    "title": "Personalized Content and Recommendations for Social Engagement",
-    "summary": "As a retired social worker, I want ALFRED to suggest local volunteering opportunities and social events based on my interests, so that I can stay socially connected and continue my community involvement despite my limited mobility.",
+    "title": "Ongoing User Support Mechanisms \u2013 24/7 Voice-Based Support Assistance",
+    "summary": "As an older adult, I want a 24/7 voice-based support system so that I can easily access assistance whenever I need help with managing my daily tasks and staying connected with family and friends, especially during times of reduced mobility or arthritis pain.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
     "personaId": "P-005",
     "useCases": [
-      "UC-003",
       "UC-004"
     ],
-    "id": "US-159",
-    "rawRequirementId": "RREQ-037"
-  },
-  {
-    "title": "Memory Aids for Daily Reminders",
-    "summary": "As a retired social worker, I want cognitive support tools that help me remember important tasks and events so that I can manage my busy schedule and stay connected without feeling overwhelmed.",
-    "priority": 1,
-    "pillar": "General Requirements",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-002",
-      "UC-004"
-    ],
-    "id": "US-160",
-    "rawRequirementId": "RREQ-038"
-  },
-  {
-    "title": "Ongoing User Support and Training - Access to a Help Desk Through Voice Commands",
-    "summary": "As a retired social worker, I want to be able to access help and support through voice commands so that I can easily resolve issues and continue using ALFRED without feeling frustrated or overwhelmed by technology.",
-    "priority": 2,
-    "pillar": "General Requirements",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-002",
-      "UC-004"
-    ],
-    "id": "US-161",
-    "rawRequirementId": "RREQ-039"
+    "id": "US-145",
+    "cbId": "CB-039"
   }
 ]

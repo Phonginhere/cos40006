@@ -1,37 +1,7 @@
 [
   {
-    "title": "Remote Health Monitoring",
-    "summary": "As a home-care nurse, I want to efficiently monitor my patients' health status in real-time so that I can provide timely interventions and maintain connection with socially isolated patients.",
-    "priority": 1,
-    "pillar": "General Requirements",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-005",
-      "UC-006",
-      "UC-004"
-    ],
-    "id": "US-116",
-    "rawRequirementId": "RREQ-073"
-  },
-  {
-    "title": "Personalized Data Privacy Controls \u2013 Granular Access Settings for Caregivers",
-    "summary": "As a home-care nurse, I want to have personalized data privacy controls that allow me to access my patients' health information while respecting their privacy preferences, so that I can efficiently monitor their health and maintain effective communication without compromising their autonomy.",
-    "priority": 2,
-    "pillar": "General Requirements",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-005",
-      "UC-006",
-      "UC-012"
-    ],
-    "id": "US-117",
-    "rawRequirementId": "RREQ-074"
-  },
-  {
-    "title": "Intuitive Data Interpretation Tools \u2013 Alerts for Significant Changes in Health Metrics",
-    "summary": "As a home-care nurse, I want to receive alerts for significant changes in my patients' health metrics so that I can monitor their health status efficiently and provide timely intervention.",
+    "title": "Secure Health Data Access Management",
+    "summary": "As a home-care nurse, I want role-based access controls for caregiver permissions so that I can securely access my patients' health data while respecting their privacy preferences.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Caregivers and Medical Staff",
@@ -40,55 +10,30 @@
       "UC-005",
       "UC-006"
     ],
-    "id": "US-118",
-    "rawRequirementId": "RREQ-075"
+    "id": "US-101",
+    "cbId": "CB-069"
   },
   {
-    "title": "Flexible Communication Options \u2013 Video Conferencing Capabilities for Virtual Check-Ins",
-    "summary": "As a home-care nurse, I want to use video conferencing capabilities to conduct virtual check-ins with my socially isolated patients so that I can maintain regular communication and provide emotional support between my visits.",
+    "title": "Flexible Learning Options for Feature Familiarization",
+    "summary": "As a home-care nurse, I want to explore new health tech features at my own pace so that I can independently use digital tools to support my rural patients without feeling constrained by structured walkthroughs.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
-      "UC-004"
-    ],
-    "id": "US-119",
-    "rawRequirementId": "RREQ-076"
-  },
-  {
-    "title": "Adaptive User Training Resources",
-    "summary": "As a home-care nurse, I want access to adaptive training resources tailored to my experience level so that I can efficiently monitor my patients' health and maintain effective communication without feeling overwhelmed by complex features.",
-    "priority": 2,
-    "pillar": "General Requirements",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
+      "UC-001",
+      "UC-002",
+      "UC-004",
       "UC-005",
       "UC-006",
-      "UC-010",
       "UC-011"
     ],
-    "id": "US-120",
-    "rawRequirementId": "RREQ-077"
+    "id": "US-102",
+    "cbId": "CB-070"
   },
   {
-    "title": "Emergency Response Features - Instant Alerts for Caregivers During Emergencies",
-    "summary": "As a home-care nurse, I want to receive instant alerts during emergencies so that I can quickly respond to changes in my patients' health status and provide timely care.",
-    "priority": 1,
-    "pillar": "General Requirements",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-006",
-      "UC-005"
-    ],
-    "id": "US-121",
-    "rawRequirementId": "RREQ-078"
-  },
-  {
-    "title": "Holistic Wellness Insights",
-    "summary": "As a home-care nurse, I want to access integrated physical and emotional health data for my patients so that I can provide more comprehensive care and support their overall well-being.",
+    "title": "Customizable Dashboard for Patient Monitoring",
+    "summary": "As a home-care nurse, I want to customize my dashboard layout to prioritize the health metrics of my patients so that I can efficiently track their progression and respond to their needs without unnecessary navigation.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Caregivers and Medical Staff",
@@ -97,7 +42,77 @@
       "UC-005",
       "UC-006"
     ],
-    "id": "US-122",
-    "rawRequirementId": "RREQ-079"
+    "id": "US-103",
+    "cbId": "CB-071"
+  },
+  {
+    "title": "Comprehensive Data Privacy Controls",
+    "summary": "As a home-care nurse, I want to have user-defined privacy settings for data sharing so that I can access necessary health data while respecting my patients' privacy preferences.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-005",
+      "UC-006"
+    ],
+    "id": "US-104",
+    "cbId": "CB-072"
+  },
+  {
+    "title": "Health Data Integration",
+    "summary": "As a home-care nurse, I want to easily import and export patient health records from third-party systems so that I can analyze trends and monitor my patients' health progression effectively.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-005",
+      "UC-006"
+    ],
+    "id": "US-105",
+    "cbId": "CB-073"
+  },
+  {
+    "title": "Knowledge Base Access for Independent Learning",
+    "summary": "As a home-care nurse, I want access to a comprehensive knowledge base so that I can explore system features at my own pace and improve my ability to support my rural patients.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-002",
+      "UC-005",
+      "UC-006"
+    ],
+    "id": "US-106",
+    "cbId": "CB-074"
+  },
+  {
+    "title": "Custom Health Trend Reporting",
+    "summary": "As a home-care nurse, I want to generate custom reports on patient health trends over time so that I can analyze patterns and identify early warning signs to improve care strategies.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-005"
+    ],
+    "id": "US-107",
+    "cbId": "CB-075"
+  },
+  {
+    "title": "Real-Time Patient Monitoring Updates",
+    "summary": "As a home-care nurse, I want to receive real-time updates on my patients' health status so that I can monitor their vital signs efficiently and respond proactively to any changes.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-005",
+      "UC-006"
+    ],
+    "id": "US-108",
+    "cbId": "CB-076"
   }
 ]

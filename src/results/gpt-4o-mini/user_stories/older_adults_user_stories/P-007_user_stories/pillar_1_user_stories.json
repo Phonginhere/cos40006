@@ -1,7 +1,49 @@
 [
   {
-    "title": "Natural Language Understanding for User-Friendly Interaction",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to understand my varied speech patterns and accents so that I can interact easily without feeling frustrated or monitored.",
+    "title": "Natural Language Voice Commands for Cognitive Support",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to use simple voice commands to set reminders and engage in cognitive games so that I can maintain my independence and cognitive abilities without feeling monitored.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-001",
+      "UC-007"
+    ],
+    "id": "US-169",
+    "cbId": "CB-001"
+  },
+  {
+    "title": "Appointment Reminders for Cognitive Support",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to remind me of my appointments and activities so that I can maintain my cognitive abilities without feeling monitored.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-001",
+      "UC-007"
+    ],
+    "id": "US-170",
+    "cbId": "CB-002"
+  },
+  {
+    "title": "Smart Reminders for Appointments",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to provide smart reminders for my appointments based on my behavior patterns, so that I can stay organized without feeling monitored.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-001",
+      "UC-007"
+    ],
+    "id": "US-171",
+    "cbId": "CB-003"
+  },
+  {
+    "title": "Cognitive Support through Simplified Information Retrieval",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to provide simplified summaries of information so that I can easily understand and retain important details without feeling overwhelmed or monitored.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
@@ -9,112 +51,66 @@
     "useCases": [
       "UC-001",
       "UC-002",
-      "UC-008",
-      "UC-011"
+      "UC-007"
     ],
-    "id": "US-186",
-    "rawRequirementId": "RREQ-001"
+    "id": "US-172",
+    "cbId": "CB-004"
   },
   {
-    "title": "Voice-Activated Task Management \u2013 Setting Reminders and Alerts through Voice Commands",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to set reminders and alerts using voice commands so that I can manage my appointments and tasks without feeling monitored.",
-    "priority": 1,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Older Adults",
-    "personaId": "P-007",
-    "useCases": [
-      "UC-001"
-    ],
-    "id": "US-187",
-    "rawRequirementId": "RREQ-002"
-  },
-  {
-    "title": "Contextual Information Retrieval for Daily Tasks",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to provide step-by-step guidance for managing my daily tasks so that I can maintain my independence without feeling monitored.",
+    "title": "Error Recovery and Clarification \u2013 Contextual Hints for Task Guidance",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want the system to provide contextual hints and guidance when I make mistakes or need clarification, so that I can navigate tasks independently without feeling monitored or overwhelmed.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
       "UC-001",
-      "UC-008",
-      "UC-011"
+      "UC-002",
+      "UC-007"
     ],
-    "id": "US-188",
-    "rawRequirementId": "RREQ-003"
+    "id": "US-173",
+    "cbId": "CB-005"
   },
   {
-    "title": "Voice Feedback for Task Completion",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to receive clear auditory feedback when I complete tasks using ALFRED, so that I can feel confident that I am managing my daily activities without feeling monitored.",
+    "title": "Cognitive Stimulation and Support",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to engage in cognitive stimulation games through voice commands so that I can maintain my cognitive abilities without feeling monitored.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-007"
+    ],
+    "id": "US-174",
+    "cbId": "CB-006"
+  },
+  {
+    "title": "Customizable Communication Styles",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to customize how ALFRED communicates with me so that I feel supported without being monitored, allowing me to maintain my independence and cognitive sharpness.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
       "UC-001",
-      "UC-008"
+      "UC-007",
+      "UC-009"
     ],
-    "id": "US-189",
-    "rawRequirementId": "RREQ-004"
+    "id": "US-175",
+    "cbId": "CB-007"
   },
   {
-    "title": "Error Handling and User Assistance \u2013 Recognizing and Addressing User Frustration",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to recognize when I am frustrated with commands and provide simple, helpful guidance so that I can continue to use the system confidently without feeling monitored or overwhelmed.",
+    "title": "Emergency Response Activation \u2013 Voice-Triggered Alerts for Emergency Contacts",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to trigger alerts to my emergency contacts using voice commands so that I can feel safe and supported without feeling monitored.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
       "UC-001",
-      "UC-008",
-      "UC-011"
+      "UC-009"
     ],
-    "id": "US-190",
-    "rawRequirementId": "RREQ-005"
-  },
-  {
-    "title": "Personalized Interaction History \u2013 Tracking User Interactions for Tailored Suggestions",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to track my interactions so that it can provide me with personalized suggestions and reminders that help me maintain my cognitive abilities and manage my appointments without feeling monitored.",
-    "priority": 2,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Older Adults",
-    "personaId": "P-007",
-    "useCases": [
-      "UC-001",
-      "UC-008",
-      "UC-011"
-    ],
-    "id": "US-191",
-    "rawRequirementId": "RREQ-006"
-  },
-  {
-    "title": "Multimodal Interaction Support for Cognitive Engagement",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to interact with ALFRED using both voice commands and visual cues so that I can effectively engage with the system while feeling supported and independent.",
-    "priority": 1,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Older Adults",
-    "personaId": "P-007",
-    "useCases": [
-      "UC-001",
-      "UC-008",
-      "UC-011"
-    ],
-    "id": "US-192",
-    "rawRequirementId": "RREQ-007"
-  },
-  {
-    "title": "Adaptive Learning and Improvement \u2013 Learning User Preferences Over Time",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to learn my preferences over time so that it can provide personalized support without making me feel monitored.",
-    "priority": 2,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Older Adults",
-    "personaId": "P-007",
-    "useCases": [
-      "UC-001",
-      "UC-008",
-      "UC-011"
-    ],
-    "id": "US-193",
-    "rawRequirementId": "RREQ-008"
+    "id": "US-176",
+    "cbId": "CB-008"
   }
 ]

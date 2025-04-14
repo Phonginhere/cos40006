@@ -1,7 +1,7 @@
 [
   {
-    "title": "Personalized Health Monitoring \u2013 Alerts for Abnormal Health Conditions",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to receive alerts for abnormal health conditions so that I can maintain my health and independence without feeling monitored.",
+    "title": "Daily Health Summary Reports for Caregivers",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to receive daily health summary reports so that my family can stay informed about my well-being without feeling monitored.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
@@ -11,93 +11,105 @@
       "UC-007",
       "UC-008"
     ],
-    "id": "US-202",
-    "rawRequirementId": "RREQ-017"
+    "id": "US-184",
+    "cbId": "CB-017"
   },
   {
-    "title": "Automated Medication Reminders",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to provide automated medication reminders so that I can stay on top of my health without feeling monitored or overwhelmed.",
+    "title": "Medication Management Support \u2013 Automated Reminders for Medication Schedules",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to receive automated reminders for my medication schedules so that I can maintain my health without feeling monitored.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
       "UC-001",
-      "UC-008",
-      "UC-011"
+      "UC-007",
+      "UC-008"
     ],
-    "id": "US-203",
-    "rawRequirementId": "RREQ-018"
+    "id": "US-185",
+    "cbId": "CB-018"
   },
   {
-    "title": "Voice-Activated Emergency Calls",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to easily make emergency calls using voice commands so that I can feel secure and maintain my independence without the fear of being monitored.",
-    "priority": 1,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "personaId": "P-007",
-    "useCases": [
-      "UC-001"
-    ],
-    "id": "US-204",
-    "rawRequirementId": "RREQ-019"
-  },
-  {
-    "title": "Wellness Activity Suggestions \u2013 Cognitive Games Tailored to User Abilities",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want personalized cognitive stimulation games that match my abilities so that I can maintain my cognitive sharpness without feeling overwhelmed or monitored.",
+    "title": "Health Data Sharing with Caregivers",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to securely share my health data with my family members so that they can help me monitor my health without feeling intrusive.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
       "UC-008",
-      "UC-011"
+      "UC-009"
     ],
-    "id": "US-205",
-    "rawRequirementId": "RREQ-020"
+    "id": "US-186",
+    "cbId": "CB-019"
   },
   {
-    "title": "User-Centric Data Privacy Controls - User-Defined Data Sharing Preferences",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to have control over what personal data is shared and with whom, so that I can maintain my privacy while still receiving support from ALFRED.",
-    "priority": 2,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "personaId": "P-007",
-    "useCases": [
-      "UC-001",
-      "UC-008",
-      "UC-011"
-    ],
-    "id": "US-206",
-    "rawRequirementId": "RREQ-022"
-  },
-  {
-    "title": "Customizable Care Plans",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want a customizable care plan that adapts to my health needs so that I can maintain my cognitive abilities and health without feeling monitored.",
-    "priority": 2,
+    "title": "Personalized Care Plan Development",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want a personalized care plan that tracks my health goals and achievements, so that I can maintain my cognitive abilities and stay active without feeling monitored.",
+    "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
       "UC-007",
-      "UC-008",
-      "UC-011"
+      "UC-008"
     ],
-    "id": "US-207",
-    "rawRequirementId": "RREQ-023"
+    "id": "US-187",
+    "cbId": "CB-020"
   },
   {
-    "title": "Family Communication Support \u2013 Scheduled Check-in Reminders for Family",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to receive scheduled check-in reminders for my family members so that I can maintain my social connections and feel supported without feeling monitored.",
-    "priority": 2,
+    "title": "Emergency Health Response Coordination \u2013 Voice Activation for Emergency Assistance Requests",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to be able to request emergency assistance through voice commands so that I can feel secure and maintain my independence without the feeling of being constantly monitored.",
+    "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
       "UC-001",
-      "UC-003"
+      "UC-007"
     ],
-    "id": "US-208",
-    "rawRequirementId": "RREQ-024"
+    "id": "US-188",
+    "cbId": "CB-021"
+  },
+  {
+    "title": "Tailored Exercise Reminders",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want personalized reminders for physical exercises tailored to my capabilities so that I can maintain my cognitive abilities and continue my active lifestyle without feeling monitored.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-008"
+    ],
+    "id": "US-189",
+    "cbId": "CB-022"
+  },
+  {
+    "title": "Cognitive Health Enhancement Tools \u2013 Daily Cognitive Challenges with Adaptive Difficulty",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want engaging cognitive stimulation games that adapt to my skill level, so that I can maintain my cognitive abilities while feeling empowered and not monitored.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-007"
+    ],
+    "id": "US-190",
+    "cbId": "CB-023"
+  },
+  {
+    "title": "Adaptive Interface Adjustments for Cognitive Support",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want the interface to adapt based on my usage patterns so that I can easily access cognitive stimulation games and reminders without feeling overwhelmed or monitored.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-001",
+      "UC-007",
+      "UC-009"
+    ],
+    "id": "US-191",
+    "cbId": "CB-024"
   }
 ]

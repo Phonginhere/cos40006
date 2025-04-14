@@ -1,7 +1,7 @@
 [
   {
-    "title": "Social Event Discovery \u2013 Personalized Recommendations Based on User Interests",
-    "summary": "As a retired social worker and community volunteer, I want ALFRED to suggest social events tailored to my interests so that I can stay socially connected and engaged despite my limited mobility.",
+    "title": "Social Engagement Recommendations \u2013 Personalized Reminders for Upcoming Social Activities",
+    "summary": "As a retired social worker, I want ALFRED to remind me of upcoming social activities based on my interests, so that I can stay connected and engaged with my community despite my limited mobility.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -10,12 +10,12 @@
       "UC-003",
       "UC-004"
     ],
-    "id": "US-131",
-    "rawRequirementId": "RREQ-009"
+    "id": "US-117",
+    "cbId": "CB-009"
   },
   {
-    "title": "Easy Video Call Initiation with Pre-set Favorites",
-    "summary": "As a retired social worker, I want to quickly initiate video calls with my family and friends using pre-set favorites so that I can maintain social connections despite my reduced mobility.",
+    "title": "Simplified Video Calling for Social Connection",
+    "summary": "As a retired social worker, I want an easy-to-use video calling feature so that I can maintain social connections with my family and friends without difficulty.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -23,38 +23,12 @@
     "useCases": [
       "UC-004"
     ],
-    "id": "US-132",
-    "rawRequirementId": "RREQ-010"
+    "id": "US-118",
+    "cbId": "CB-010"
   },
   {
-    "title": "Personalized Engagement Activities \u2013 Physical Activities Tailored to User Mobility Levels",
-    "summary": "As a retired social worker, I want ALFRED to recommend physical activities that are suitable for my mobility level, so that I can stay active and engaged without exacerbating my arthritis pain.",
-    "priority": 1,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-003"
-    ],
-    "id": "US-133",
-    "rawRequirementId": "RREQ-011"
-  },
-  {
-    "title": "Family and Caregiver Connection \u2013 Real-time Health Updates Shared with Caregivers",
-    "summary": "As an older adult, I want to share real-time health updates with my family and caregivers so that they can stay informed about my well-being and provide the support I need.",
-    "priority": 1,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-004"
-    ],
-    "id": "US-134",
-    "rawRequirementId": "RREQ-012"
-  },
-  {
-    "title": "Support for Social Networks \u2013 Encouragement of Participation in Community Services",
-    "summary": "As a retired social worker, I want ALFRED to suggest community service opportunities based on my interests and availability, so that I can stay socially connected and continue volunteering despite my limited mobility.",
+    "title": "Interest-based Activity Group Connections",
+    "summary": "As a retired social worker, I want ALFRED to suggest local activity groups or clubs based on my interests so that I can stay socially connected and continue volunteering despite my limited mobility.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -63,12 +37,38 @@
       "UC-003",
       "UC-004"
     ],
-    "id": "US-135",
-    "rawRequirementId": "RREQ-013"
+    "id": "US-119",
+    "cbId": "CB-011"
   },
   {
-    "title": "User Feedback Loop for Social Features",
-    "summary": "As a retired social worker, I want ALFRED to collect my preferences for social activities so that I can stay connected with my community and plan my volunteering schedule more effectively.",
+    "title": "Memory Aid for Social Interactions \u2013 Reminders of Names and Relationships",
+    "summary": "As a retired social worker, I want ALFRED to remind me of names and relationships of friends and family during conversations so that I can maintain meaningful social connections without feeling embarrassed or overwhelmed.",
+    "priority": 1,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-004"
+    ],
+    "id": "US-120",
+    "cbId": "CB-012"
+  },
+  {
+    "title": "Enhanced Remote Family Engagement",
+    "summary": "As a retired social worker, I want to have coordinated messaging threads for family updates so that I can easily maintain communication with my children and husband, keeping everyone informed and engaged despite my limited mobility.",
+    "priority": 1,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-004"
+    ],
+    "id": "US-121",
+    "cbId": "CB-013"
+  },
+  {
+    "title": "Guided Discussions on Current Events",
+    "summary": "As a retired social worker, I want ALFRED to facilitate guided discussions on current events so that I can stay socially connected and engaged with my community despite my limited mobility.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -77,12 +77,12 @@
       "UC-003",
       "UC-004"
     ],
-    "id": "US-136",
-    "rawRequirementId": "RREQ-014"
+    "id": "US-122",
+    "cbId": "CB-014"
   },
   {
-    "title": "Cognitive Engagement Reminders \u2013 Timely Reminders for Scheduled Activities",
-    "summary": "As a retired social worker, I want ALFRED to remind me of my scheduled volunteering activities and social engagements so that I can stay socially connected and remain active despite my reduced mobility.",
+    "title": "Personalized Emotional Support \u2013 Mood Tracking with Suggestions for Uplifting Activities",
+    "summary": "As a retired social worker, I want ALFRED to track my mood and suggest uplifting activities so that I can maintain my emotional well-being and stay socially connected despite my limited mobility.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -91,12 +91,12 @@
       "UC-003",
       "UC-004"
     ],
-    "id": "US-137",
-    "rawRequirementId": "RREQ-015"
+    "id": "US-123",
+    "cbId": "CB-015"
   },
   {
-    "title": "Crisis Response Mechanism",
-    "summary": "As a retired social worker, I want the ALFRED system to alert my family and caregivers in case of an emergency so that I can feel safe and secure while maintaining my independence.",
+    "title": "Local Resource Awareness",
+    "summary": "As a retired social worker, I want to access a directory of senior-friendly venues and services so that I can stay socially connected and find suitable volunteering opportunities despite my limited mobility.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -105,7 +105,7 @@
       "UC-003",
       "UC-004"
     ],
-    "id": "US-138",
-    "rawRequirementId": "RREQ-016"
+    "id": "US-124",
+    "cbId": "CB-016"
   }
 ]

@@ -1,122 +1,117 @@
 [
   {
-    "title": "Personalized Health Monitoring \u2013 Alerts for Abnormal Health Conditions",
-    "summary": "As a tech-curious older adult with mild mobility issues, I want to receive alerts for abnormal health conditions so that I can manage my health efficiently and feel secure while living independently.",
+    "title": "Automated Health Alerts",
+    "summary": "As a tech-curious older adult, I want ALFRED to monitor my health and send me automated alerts for medication and emergencies so that I can manage my health efficiently and maintain my independence.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
     "personaId": "P-002",
     "useCases": [
-      "UC-006",
-      "UC-001",
-      "UC-004"
-    ],
-    "id": "US-054",
-    "rawRequirementId": "RREQ-017"
-  },
-  {
-    "title": "Medication Management Support \u2013 Automated Medication Reminders",
-    "summary": "As a tech-curious older adult with mild mobility issues, I want automated medication reminders so that I can efficiently manage my health and avoid forgetting my medication schedule.",
-    "priority": 1,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "personaId": "P-002",
-    "useCases": [
-      "UC-001",
-      "UC-006",
-      "UC-010"
-    ],
-    "id": "US-055",
-    "rawRequirementId": "RREQ-018"
-  },
-  {
-    "title": "Voice-Activated Emergency Calls",
-    "summary": "As a tech-curious older adult with mild mobility issues, I want to make emergency calls using voice commands so that I can quickly get help without struggling with complicated technology.",
-    "priority": 1,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "personaId": "P-002",
-    "useCases": [
-      "UC-001",
-      "UC-004"
-    ],
-    "id": "US-056",
-    "rawRequirementId": "RREQ-019"
-  },
-  {
-    "title": "Wellness Activity Suggestions \u2013 Personalized Exercise Recommendations",
-    "summary": "As a tech-curious older adult, I want personalized exercise recommendations that take into account my mobility issues so that I can maintain my health and independence without feeling overwhelmed by technology.",
-    "priority": 1,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "personaId": "P-002",
-    "useCases": [
-      "UC-007",
       "UC-001",
       "UC-004",
-      "UC-010",
-      "UC-011"
+      "UC-008"
     ],
-    "id": "US-057",
-    "rawRequirementId": "RREQ-020"
+    "id": "US-043",
+    "cbId": "CB-017"
   },
   {
-    "title": "Caregiver Access and Insights \u2013 Shared Health Data with Authorized Caregivers",
-    "summary": "As an older adult, I want to share my health data with my authorized caregivers so that they can help me manage my health efficiently and provide timely assistance when needed.",
-    "priority": 2,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "personaId": "P-002",
-    "useCases": [
-      "UC-006",
-      "UC-001",
-      "UC-004"
-    ],
-    "id": "US-058",
-    "rawRequirementId": "RREQ-021"
-  },
-  {
-    "title": "User-Centric Data Privacy Controls \u2013 User-Defined Data Sharing Preferences",
-    "summary": "As a tech-curious older adult, I want to have control over my data sharing preferences so that I can feel secure about my privacy while using ALFRED for my health monitoring and communication needs.",
-    "priority": 2,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "personaId": "P-002",
-    "useCases": [
-      "UC-006",
-      "UC-010",
-      "UC-011"
-    ],
-    "id": "US-059",
-    "rawRequirementId": "RREQ-022"
-  },
-  {
-    "title": "Customizable Care Plans",
-    "summary": "As a tech-curious older adult, I want to have a customizable care plan based on my health needs so that I can efficiently manage my health and receive timely reminders for my medication and appointments.",
+    "title": "Medication Management Support \u2013 Automated Reminders for Medication Schedules",
+    "summary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to remind me of my medication schedule so that I can manage my health efficiently and maintain my independence at home without feeling overwhelmed by technology.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
     "personaId": "P-002",
     "useCases": [
       "UC-001",
-      "UC-006",
-      "UC-010",
+      "UC-004",
+      "UC-009",
       "UC-011"
     ],
-    "id": "US-060",
-    "rawRequirementId": "RREQ-023"
+    "id": "US-044",
+    "cbId": "CB-018"
   },
   {
-    "title": "Family Communication Support \u2013 Facilitation of Family Group Messages",
-    "summary": "As a tech-curious older adult, I want to easily send and receive group messages to my family so that I can stay connected with them and reduce feelings of isolation.",
+    "title": "Health Data Sharing with Caregivers \u2013 Secure Sharing with Authorized Family Members",
+    "summary": "As a tech-curious older adult, I want to securely share my health data with my children so that they can help me manage my health efficiently and stay informed about my well-being.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
     "personaId": "P-002",
     "useCases": [
+      "UC-001",
       "UC-004"
     ],
-    "id": "US-061",
-    "rawRequirementId": "RREQ-024"
+    "id": "US-045",
+    "cbId": "CB-019"
+  },
+  {
+    "title": "Personalized Care Plan Development - Regular Updates and Adjustments Based on Health Changes",
+    "summary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to regularly update my care plan based on my health changes so that I can effectively manage my health and maintain my independence at home.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-001",
+      "UC-008",
+      "UC-004"
+    ],
+    "id": "US-046",
+    "cbId": "CB-020"
+  },
+  {
+    "title": "Emergency Health Response Coordination",
+    "summary": "As a tech-curious older adult with mild mobility issues, I want to easily request emergency assistance using voice activation so that I can feel safe and secure living independently at home.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-001",
+      "UC-004"
+    ],
+    "id": "US-047",
+    "cbId": "CB-021"
+  },
+  {
+    "title": "Holistic Wellness Activities Suggestions",
+    "summary": "As a tech-curious older adult, I want personalized reminders for physical exercises tailored to my capabilities so that I can maintain my health and stay active without feeling overwhelmed by technology.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-008",
+      "UC-001",
+      "UC-004"
+    ],
+    "id": "US-048",
+    "cbId": "CB-022"
+  },
+  {
+    "title": "Cognitive Health Enhancement Tools",
+    "summary": "As a tech-curious older adult, I want engaging puzzles and games tailored to my cognitive abilities so that I can maintain my mental sharpness and enjoy stimulating activities without feeling overwhelmed by complex technology.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-007"
+    ],
+    "id": "US-049",
+    "cbId": "CB-023"
+  },
+  {
+    "title": "Real-Time Health Monitoring Feedback",
+    "summary": "As a tech-curious older adult, I want to receive real-time feedback on my health status so that I can manage my health efficiently and feel secure living independently.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-008"
+    ],
+    "id": "US-050",
+    "cbId": "CB-024"
   }
 ]

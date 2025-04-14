@@ -1,77 +1,60 @@
 [
   {
-    "title": "Cognitive Stimulation Activities \u2013 Daily Puzzles and Quizzes Tailored to User Preferences",
-    "summary": "As a retired social worker, I want to engage in daily puzzles and quizzes that are tailored to my interests and abilities so that I can remain mentally active and continue to enjoy stimulating activities despite my reduced mobility.",
-    "priority": 2,
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-002"
-    ],
-    "id": "US-147",
-    "rawRequirementId": "RREQ-025"
-  },
-  {
-    "title": "Scheduled Reminders for Physical Activity Sessions",
-    "summary": "As a retired social worker, I want ALFRED to remind me to engage in physical activity sessions so that I can stay physically active and manage my arthritis pain while maintaining my independence.",
+    "title": "Adaptive Physical Activity Programs \u2013 Guided Video Tutorials for Safe Home Exercises",
+    "summary": "As a retired social worker, I want guided video tutorials for safe home exercises tailored to my abilities so that I can remain physically active without risking injury due to my arthritis and reduced mobility.",
     "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
     "personaId": "P-005",
-    "useCases": [],
-    "id": "US-148",
-    "rawRequirementId": "RREQ-026"
+    "useCases": [
+      "UC-008"
+    ],
+    "id": "US-133",
+    "cbId": "CB-025"
   },
   {
-    "title": "Progress Tracking and Feedback for Cognitive and Physical Activities",
-    "summary": "As an older adult, I want to receive visual progress reports on my cognitive and physical activities so that I can stay motivated and engaged in maintaining my health and independence.",
-    "priority": 2,
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [],
-    "id": "US-149",
-    "rawRequirementId": "RREQ-027"
-  },
-  {
-    "title": "Personalized Challenge Creation",
-    "summary": "As an older adult, I want adaptive challenges that evolve based on my performance so that I can stay physically and mentally active while accommodating my mobility limitations and managing arthritis pain.",
-    "priority": 2,
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [],
-    "id": "US-150",
-    "rawRequirementId": "RREQ-028"
-  },
-  {
-    "title": "Motivational Support - Goal-Setting Features with Celebratory Notifications",
-    "summary": "As a retired social worker, I want to set personal activity goals and receive celebratory notifications when I achieve them so that I can stay motivated and maintain my physical and mental activity levels while volunteering and connecting with my community.",
-    "priority": 2,
+    "title": "Cognitive Stimulation Activities \u2013 Memory Recall Challenges Based on Personal History",
+    "summary": "As a retired social worker, I want to engage in memory recall challenges based on my personal history so that I can stay mentally active and connected to my past experiences while managing my arthritis and limited mobility.",
+    "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
     "personaId": "P-005",
     "useCases": [
-      "UC-003"
+      "UC-007"
     ],
-    "id": "US-151",
-    "rawRequirementId": "RREQ-029"
+    "id": "US-134",
+    "cbId": "CB-026"
   },
   {
-    "title": "Emergency Preparedness Training \u2013 Regular Reminders for Safety Drills and Procedures",
-    "summary": "As a retired social worker, I want ALFRED to send me regular reminders for safety drills and emergency procedures so that I can ensure my family's safety and feel more secure at home, despite my reduced mobility and managing arthritis pain.",
-    "priority": 2,
+    "title": "Wellness Check-In Reminders",
+    "summary": "As a retired social worker, I want interactive voice check-ins to assess my mental state so that I can remain mentally active and receive timely support when needed.",
+    "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
     "personaId": "P-005",
-    "useCases": [],
-    "id": "US-152",
-    "rawRequirementId": "RREQ-030"
+    "useCases": [
+      "UC-007"
+    ],
+    "id": "US-135",
+    "cbId": "CB-027"
   },
   {
-    "title": "Daily Prompts for Social Engagement Activities",
-    "summary": "As an older adult, I want daily prompts for social engagement activities so that I can stay connected with my family and community despite my limited mobility.",
+    "title": "Guided Mindfulness and Relaxation Exercises",
+    "summary": "As an older adult, I want daily reminders for guided mindfulness and relaxation exercises with calming sounds so that I can manage my arthritis pain and remain mentally active while staying socially connected.",
+    "priority": 1,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-004",
+      "UC-008"
+    ],
+    "id": "US-136",
+    "cbId": "CB-028"
+  },
+  {
+    "title": "Community Activity Engagement \u2013 Local Event Notifications Based on User Interests",
+    "summary": "As a retired social worker, I want to receive notifications about local events that align with my interests so that I can stay socially connected and continue volunteering despite my limited mobility.",
     "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
@@ -80,18 +63,20 @@
       "UC-003",
       "UC-004"
     ],
-    "id": "US-153",
-    "rawRequirementId": "RREQ-031"
+    "id": "US-137",
+    "cbId": "CB-029"
   },
   {
-    "title": "Daily Mindfulness Reminders",
-    "summary": "As a retired social worker, I want to receive daily mindfulness reminders with personalized content so that I can manage my stress and remain mentally active despite my reduced mobility and busy schedule.",
+    "title": "Personalized Learning Modules \u2013 Music or Art Appreciation Classes",
+    "summary": "As a retired social worker, I want to access personalized music or art appreciation classes so that I can remain mentally engaged and continue my passion for community activities while managing my reduced mobility.",
     "priority": 2,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
     "personaId": "P-005",
-    "useCases": [],
-    "id": "US-154",
-    "rawRequirementId": "RREQ-032"
+    "useCases": [
+      "UC-007"
+    ],
+    "id": "US-138",
+    "cbId": "CB-030"
   }
 ]

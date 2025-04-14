@@ -1,32 +1,49 @@
 [
   {
-    "title": "User-Friendly Installation and Setup - Guided Setup Through Voice Prompts",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want a guided setup process through voice prompts so that I can easily install and configure the ALFRED system without feeling overwhelmed or confused.",
-    "priority": 2,
-    "pillar": "General Requirements",
-    "userGroup": "Older Adults",
-    "personaId": "P-007",
-    "useCases": [],
-    "id": "US-217",
-    "rawRequirementId": "RREQ-033"
-  },
-  {
-    "title": "Intuitive Navigation and Interaction \u2013 Voice-Based Shortcuts for Common Tasks",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to use voice commands to quickly set reminders and access cognitive games so that I can maintain my cognitive abilities without feeling monitored.",
+    "title": "Intuitive User Interface Adaptation \u2013 Voice-Guided Navigation for All User Levels",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want an easy-to-use voice-guided navigation system so that I can manage my daily tasks and stay mentally sharp without feeling overwhelmed or monitored.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
       "UC-001",
-      "UC-008"
+      "UC-007",
+      "UC-009"
     ],
-    "id": "US-218",
-    "rawRequirementId": "RREQ-034"
+    "id": "US-198",
+    "cbId": "CB-032"
   },
   {
-    "title": "User-Controlled Data Privacy",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to have control over my data sharing preferences so that I can feel secure and empowered while using the ALFRED system without feeling monitored.",
+    "title": "User-Controlled Data Sharing Preferences",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to manage my data sharing preferences so that I can maintain my privacy and feel empowered while using the ALFRED system.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-009"
+    ],
+    "id": "US-199",
+    "cbId": "CB-033"
+  },
+  {
+    "title": "User-Centric Installation and Setup - Step-by-Step Voice-Assisted Setup Process",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want a simple, voice-assisted setup process for ALFRED so that I can easily install and configure the system without feeling overwhelmed or monitored.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-001",
+      "UC-009"
+    ],
+    "id": "US-200",
+    "cbId": "CB-034"
+  },
+  {
+    "title": "Cross-Device Compatibility for Health Monitoring",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to access my health monitoring data seamlessly across my smartphone and tablet so that I can easily track my health and stay organized without feeling overwhelmed by technology.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
@@ -34,15 +51,30 @@
     "useCases": [
       "UC-001",
       "UC-008",
-      "UC-011"
+      "UC-009"
     ],
-    "id": "US-219",
-    "rawRequirementId": "RREQ-035"
+    "id": "US-201",
+    "cbId": "CB-035"
   },
   {
-    "title": "Comprehensive Device Integration for Health Monitoring",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to integrate seamlessly with my health monitoring devices so that I can track my health conditions, receive timely reminders for appointments and medications, and maintain my cognitive and physical well-being without feeling monitored.",
-    "priority": 2,
+    "title": "Cognitive Load-Reducing Interface Options",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want an interface that reduces cognitive load and simplifies navigation so that I can easily access reminders, games, and health monitoring without feeling overwhelmed.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-007",
+    "useCases": [
+      "UC-001",
+      "UC-007",
+      "UC-009"
+    ],
+    "id": "US-202",
+    "cbId": "CB-036"
+  },
+  {
+    "title": "Flexible User Experience Customization \u2013 Profile-Based Settings for Personalized Interactions",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want the ALFRED system to allow me to customize my interaction preferences so that I can maintain my independence while receiving the right level of support without feeling monitored.",
+    "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
     "personaId": "P-007",
@@ -50,52 +82,37 @@
       "UC-001",
       "UC-007",
       "UC-008",
-      "UC-011"
+      "UC-009"
     ],
-    "id": "US-220",
-    "rawRequirementId": "RREQ-036"
+    "id": "US-203",
+    "cbId": "CB-037"
   },
   {
-    "title": "Personalized User Experience for Cognitive Engagement",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to adapt to my preferences and interests in cognitive stimulation activities so that I can maintain my mental sharpness without feeling overwhelmed or monitored.",
+    "title": "Integration for Family Communication",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to easily connect with my family through the ALFRED system so that I can maintain my social inclusion without feeling overwhelmed or monitored.",
     "priority": 2,
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
-      "UC-008",
-      "UC-011"
+      "UC-001",
+      "UC-003"
     ],
-    "id": "US-221",
-    "rawRequirementId": "RREQ-037"
+    "id": "US-204",
+    "cbId": "CB-038"
   },
   {
-    "title": "Cognitive Support Tools for Memory Aids",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want cognitive support tools that provide memory aids and appointment reminders so that I can maintain my cognitive abilities and manage my daily tasks without feeling monitored.",
+    "title": "Ongoing User Support Mechanisms \u2013 24/7 Voice-Based Support Assistance",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want 24/7 voice-based support to help me with reminders and cognitive games so that I can maintain my independence and stay sharp without feeling monitored.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
       "UC-001",
-      "UC-008"
+      "UC-007"
     ],
-    "id": "US-222",
-    "rawRequirementId": "RREQ-038"
-  },
-  {
-    "title": "On-Demand Tutorials for Ease of Use",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want access to on-demand tutorials via voice or text so that I can learn how to use ALFRED effectively without feeling overwhelmed or monitored.",
-    "priority": 2,
-    "pillar": "General Requirements",
-    "userGroup": "Older Adults",
-    "personaId": "P-007",
-    "useCases": [
-      "UC-001",
-      "UC-008",
-      "UC-011"
-    ],
-    "id": "US-223",
-    "rawRequirementId": "RREQ-039"
+    "id": "US-205",
+    "cbId": "CB-039"
   }
 ]

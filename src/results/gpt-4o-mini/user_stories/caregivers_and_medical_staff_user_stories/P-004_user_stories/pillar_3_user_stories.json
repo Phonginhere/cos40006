@@ -1,7 +1,7 @@
 [
   {
-    "title": "Health Data Visualization and Reporting",
-    "summary": "As a home-care nurse, I want to visualize patient health trends over time so that I can track health progression, identify early warning signs, and generate insights for better care strategies.",
+    "title": "Health Data Visualization Tools",
+    "summary": "As a home-care nurse, I want to visualize patient health trends over time so that I can identify early warning signs and plan care strategies effectively.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
@@ -10,28 +10,68 @@
       "UC-005",
       "UC-006"
     ],
-    "id": "US-091",
+    "id": "US-081",
+    "cbId": "CB-051"
+  },
+  {
+    "title": "Personalized Care Plan Management",
+    "summary": "As a home-care nurse, I want to track patient health progression over time and receive insights from their health data so that I can provide effective personalized care and anticipate any deterioration.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-005",
+      "UC-006"
+    ],
+    "id": "US-082",
+    "cbId": "CB-052"
+  },
+  {
+    "title": "Historical Anomaly Reporting for Trend Analysis",
+    "summary": "As a home-care nurse, I want to analyze historical health data for my patients so that I can identify early warning signs and improve care strategies.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-005",
+      "UC-006"
+    ],
+    "id": "US-083",
+    "cbId": "CB-053"
+  },
+  {
+    "title": "Medication Management System \u2013 Automated Health Condition Reminders",
+    "summary": "As a home-care nurse, I want to receive automated reminders for my patients' medications and health conditions so that I can efficiently monitor their health status and ensure timely interventions without disrupting my patient care routines.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-005",
+      "UC-006"
+    ],
+    "id": "US-084",
     "cbId": "CB-054"
   },
   {
-    "title": "Integrated Calendar for Medication and Appointment Reminders",
-    "summary": "As a home-care nurse, I want an integrated calendar for medication and appointment reminders so that I can efficiently manage my patients' care schedules and ensure timely interventions without overlaps.",
+    "title": "Remote Patient Check-in Interface - Progress Tracking for Ongoing Health Concerns",
+    "summary": "As a home-care nurse, I want to efficiently monitor my patients' health metrics and track their progression over time so that I can anticipate deterioration and provide timely interventions.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
-      "UC-001",
       "UC-005",
-      "UC-006",
-      "UC-011"
+      "UC-006"
     ],
-    "id": "US-092",
+    "id": "US-085",
     "cbId": "CB-055"
   },
   {
-    "title": "Personalized Health Insights \u2013 Alerts for Potential Health Risks Based on Patterns",
-    "summary": "As a home-care nurse, I want to receive alerts based on patterns in my patients' health data so that I can anticipate deterioration and intervene early.",
+    "title": "Emergency Response Coordination \u2013 Caregiver Alerting for Emergency Situations",
+    "summary": "As a home-care nurse, I want to receive immediate alerts for emergency situations regarding my patients so that I can respond quickly and ensure their safety and well-being.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
@@ -40,12 +80,12 @@
       "UC-005",
       "UC-006"
     ],
-    "id": "US-093",
+    "id": "US-086",
     "cbId": "CB-056"
   },
   {
-    "title": "Emergency Response Features \u2013 Immediate Alerts to Caregivers During Critical Events",
-    "summary": "As a home-care nurse, I want to receive immediate alerts during critical events so that I can respond quickly to my patients' needs and provide timely interventions.",
+    "title": "Holistic Health Tracking \u2013 Mental Health Check-Ins and Resources",
+    "summary": "As a home-care nurse, I want to access mental health check-in tools and resources for my patients so that I can monitor their emotional well-being and provide timely interventions.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
@@ -54,50 +94,7 @@
       "UC-005",
       "UC-006"
     ],
-    "id": "US-094",
+    "id": "US-087",
     "cbId": "CB-057"
-  },
-  {
-    "title": "Automated Medication Reminders",
-    "summary": "As a home-care nurse, I want automated reminders for my patients' medication schedules so that I can ensure they take their medications on time without disrupting their routines.",
-    "priority": 1,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-005",
-      "UC-006",
-      "UC-001"
-    ],
-    "id": "US-095",
-    "cbId": "CB-058"
-  },
-  {
-    "title": "Access to Caregiver Training Resources",
-    "summary": "As a home-care nurse, I want access to a library of training videos and guides so that I can independently explore system features and improve my ability to monitor and care for my patients.",
-    "priority": 2,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-005",
-      "UC-006"
-    ],
-    "id": "US-096",
-    "cbId": "CB-059"
-  },
-  {
-    "title": "Personalized Care Alerts",
-    "summary": "As a home-care nurse, I want to receive alerts based on patient-defined health criteria so that I can monitor their health progression effectively and respond to potential issues promptly.",
-    "priority": 1,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-005",
-      "UC-006"
-    ],
-    "id": "US-097",
-    "cbId": "CB-061"
   }
 ]

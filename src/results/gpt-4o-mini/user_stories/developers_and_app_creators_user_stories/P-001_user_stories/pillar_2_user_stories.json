@@ -1,22 +1,8 @@
 [
   {
-    "title": "Event Recommendation Engine \u2013 Interest-Based Filtering for Personalized Suggestions",
-    "summary": "As a developer, I want to integrate an event recommendation engine that filters suggestions based on user interests so that elderly users can easily find and engage in social activities that enhance their quality of life.",
+    "title": "Community Engagement Toolkit \u2013 User-Generated Event Submissions",
+    "summary": "As a developer, I want to enable users to submit community events directly through the ALFRED platform, so that elderly users can discover and participate in relevant social activities that enhance their well-being and social connections.",
     "priority": 2,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-009",
-      "UC-012"
-    ],
-    "id": "US-008",
-    "cbId": "CB-085"
-  },
-  {
-    "title": "Shared Calendar Integration for Social Events",
-    "summary": "As a developer, I want to create a shared calendar feature that allows elderly users to manage social events and communicate with caregivers, so that they can enhance social inclusion and maintain connections with family and friends.",
-    "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
@@ -25,35 +11,22 @@
       "UC-010",
       "UC-012"
     ],
-    "id": "US-009",
-    "cbId": "CB-086"
+    "id": "US-006",
+    "cbId": "CB-080"
   },
   {
-    "title": "Community Engagement Interface \u2013 Social Groups and Clubs Based on Shared Activities",
-    "summary": "As a developer, I want to create an interface that allows elderly users to easily find and join social groups and clubs based on their interests, so that they can enhance their social connections and engagement.",
-    "priority": 2,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-009",
-      "UC-012"
-    ],
-    "id": "US-010",
-    "cbId": "CB-087"
-  },
-  {
-    "title": "Dynamic User Profiles for Personalized Engagement",
-    "summary": "As a full-stack developer, I want to create dynamic user profiles that adapt to the preferences and needs of elderly users, so that I can enhance their engagement and provide a more tailored experience.",
+    "title": "Voice-Activated Video Call Scheduling",
+    "summary": "As a developer, I want to integrate a voice-activated video call scheduling feature into the ALFRED platform so that elderly users can effortlessly connect with their caregivers and family, enhancing their social inclusion.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
       "UC-009",
+      "UC-011",
       "UC-012"
     ],
-    "id": "US-011",
-    "cbId": "CB-088"
+    "id": "US-007",
+    "cbId": "CB-081"
   }
 ]

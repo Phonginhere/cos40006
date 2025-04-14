@@ -1,105 +1,75 @@
 [
   {
-    "title": "Voice-Activated Medication and Appointment Reminders",
-    "summary": "As a professional caregiver managing multiple elderly clients, I want the ALFRED system to provide voice-activated reminders for medications and appointments so that I can efficiently manage care tasks without overwhelming my clients or causing them unnecessary stress.",
+    "title": "Voice Command Health Data Retrieval \u2013 Alerts for Health Anomalies",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want to retrieve health data using voice commands and receive alerts for any anomalies so that I can monitor my clients' health status effectively while ensuring their privacy and reducing unnecessary stress.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-006",
     "useCases": [
-      "UC-001",
       "UC-005",
-      "UC-006"
+      "UC-006",
+      "UC-010"
     ],
-    "id": "US-146",
+    "id": "US-130",
+    "cbId": "CB-037"
+  },
+  {
+    "title": "Interactive Care Task Management \u2013 Real-Time Status Updates on Care Tasks",
+    "summary": "As a professional caregiver, I want to receive real-time status updates on my clients' health metrics and care tasks so that I can efficiently manage their care while ensuring their privacy and comfort.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-010"
+    ],
+    "id": "US-131",
+    "cbId": "CB-039"
+  },
+  {
+    "title": "Personalized Communication Settings \u2013 Scheduling Communication Windows for Older Adults",
+    "summary": "As a professional caregiver, I want to schedule communication windows for my clients so that I can ensure they receive important information at a calm and appropriate time, minimizing stress and confusion.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-004",
+      "UC-010"
+    ],
+    "id": "US-132",
     "cbId": "CB-040"
   },
   {
-    "title": "Real-Time Health Monitoring Alerts",
-    "summary": "As a professional caregiver managing multiple elderly clients, I want to receive real-time alerts for any abnormal health metrics so that I can verify the information and take appropriate action without causing unnecessary stress to my clients.",
+    "title": "Health Insight Dialogue System \u2013 Conversational Updates on Health Trends",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want the ALFRED system to provide conversational updates on health trends so that I can verify health monitoring results with alert mediation and ensure that sensitive information is communicated in a calm and clear manner.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-006",
     "useCases": [
       "UC-005",
-      "UC-006"
+      "UC-006",
+      "UC-010"
     ],
-    "id": "US-147",
+    "id": "US-133",
     "cbId": "CB-041"
   },
   {
-    "title": "One-Touch Video Calling Feature",
-    "summary": "As a professional caregiver managing multiple elderly clients, I want a one-touch video calling feature so that I can easily communicate with clients and their families without complicated setup, ensuring clarity and responsiveness in care coordination.",
-    "priority": 1,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-004"
-    ],
-    "id": "US-148",
-    "cbId": "CB-042"
-  },
-  {
-    "title": "User-Friendly Interface Customization \u2013 Simplified Navigation for Quick Access",
-    "summary": "As a professional caregiver managing multiple elderly clients, I want a simplified client management dashboard that allows me to quickly access critical health monitoring results and communication tools, so that I can efficiently manage care tasks without unnecessary complexity.",
+    "title": "Health Data Voice Summaries",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want ALFRED to provide voice summaries of recent health data so that I can quickly verify health monitoring results while ensuring clarity and privacy for my clients.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-006",
     "useCases": [
       "UC-005",
-      "UC-006",
       "UC-010"
     ],
-    "id": "US-149",
+    "id": "US-134",
     "cbId": "CB-043"
-  },
-  {
-    "title": "Integrated Feedback Mechanism \u2013 Real-Time Suggestions for Caregiver Efficiency",
-    "summary": "As a professional caregiver, I want the ALFRED system to provide real-time suggestions and insights based on the health data of my clients, so that I can make informed decisions and coordinate care effectively without overwhelming my clients with unnecessary alerts.",
-    "priority": 1,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-005",
-      "UC-006",
-      "UC-010"
-    ],
-    "id": "US-150",
-    "cbId": "CB-044"
-  },
-  {
-    "title": "Multimodal Interaction for Client Management",
-    "summary": "As a professional caregiver, I want to use a combination of voice, touch, and gesture recognition to manage multiple clients' health information easily so that I can ensure accurate monitoring and communication without overwhelming my clients or compromising their privacy.",
-    "priority": 1,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-001",
-      "UC-005",
-      "UC-006",
-      "UC-010"
-    ],
-    "id": "US-151",
-    "cbId": "CB-045"
-  },
-  {
-    "title": "Context-Aware Assistance \u2013 Time-Sensitive Alerts Based on User Routines",
-    "summary": "As a professional caregiver managing multiple elderly clients, I want ALFRED to provide context-aware time-sensitive alerts based on my clients' routines so that I can effectively monitor their health without causing unnecessary stress or confusion.",
-    "priority": 2,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-005",
-      "UC-006",
-      "UC-010"
-    ],
-    "id": "US-152",
-    "cbId": "CB-046"
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
-    "title": "Secure Health Data Access Management",
-    "summary": "As a professional caregiver, I want role-based access controls for health data so that I can securely monitor my clients' health without compromising their privacy.",
+    "title": "User-Centric Data Access Control with Granular Permission Settings for Caregivers",
+    "summary": "As a professional caregiver, I want to have granular permission settings for accessing my clients' health data so that I can ensure their privacy is respected while still being able to monitor their health effectively.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Caregivers and Medical Staff",
@@ -10,25 +10,88 @@
       "UC-005",
       "UC-010"
     ],
-    "id": "US-161",
+    "id": "US-142",
+    "cbId": "CB-065"
+  },
+  {
+    "title": "Intuitive User Interface Design \u2013 Simplified Navigation for Caregivers",
+    "summary": "As a professional caregiver, I want a simplified client management dashboard so that I can efficiently track multiple clients' health status and manage care schedules without confusion.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-010",
+      "UC-011"
+    ],
+    "id": "US-143",
+    "cbId": "CB-066"
+  },
+  {
+    "title": "Real-Time Health Data Synchronization \u2013 Instant Updates for Care Management",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want to receive real-time updates from health monitoring devices so that I can effectively track my clients' health status and respond to any anomalies while ensuring their privacy and minimizing stress.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-010"
+    ],
+    "id": "US-144",
+    "cbId": "CB-067"
+  },
+  {
+    "title": "Comprehensive User Training Resources",
+    "summary": "As a professional caregiver, I want step-by-step guides for common tasks so that I can efficiently manage multiple clients' health monitoring and communication without complicated setup or training.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-005",
+      "UC-011",
+      "UC-010"
+    ],
+    "id": "US-145",
+    "cbId": "CB-068"
+  },
+  {
+    "title": "Multi-Channel Notification System \u2013 Push Notifications for Health Alerts",
+    "summary": "As a professional caregiver, I want a reliable multi-channel notification system that allows me to receive health alerts for my clients so that I can monitor their health status efficiently and intervene when necessary without alarming them unnecessarily.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-010"
+    ],
+    "id": "US-146",
     "cbId": "CB-069"
   },
   {
-    "title": "Intuitive Onboarding and Setup Process",
-    "summary": "As a professional caregiver, I want a step-by-step guided setup process for the ALFRED system, so that I can efficiently configure the platform for my clients without requiring extensive training or technical knowledge.",
+    "title": "Cross-Platform Health Monitoring Integration",
+    "summary": "As a professional caregiver, I want ALFRED to integrate with third-party health applications to monitor multiple clients' health metrics seamlessly so that I can track their well-being in real-time while ensuring data privacy and clarity.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-006",
     "useCases": [
-      "UC-011"
+      "UC-005",
+      "UC-010",
+      "UC-012"
     ],
-    "id": "US-162",
+    "id": "US-147",
     "cbId": "CB-070"
   },
   {
-    "title": "Customizable Dashboard Layouts",
-    "summary": "As a professional caregiver, I want a customizable dashboard layout that allows me to quickly access health metrics and manage multiple clients so that I can efficiently monitor their health and coordinate care without confusion.",
+    "title": "Adaptive Interface for Caregiver Usability",
+    "summary": "As a professional caregiver, I want an adaptive interface that learns from my preferences and provides a simplified client management dashboard so that I can efficiently monitor multiple clients' health status while ensuring clarity and privacy.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Caregivers and Medical Staff",
@@ -37,83 +100,10 @@
       "UC-005",
       "UC-006",
       "UC-010",
-      "UC-012"
+      "UC-009",
+      "UC-011"
     ],
-    "id": "US-163",
+    "id": "US-148",
     "cbId": "CB-071"
-  },
-  {
-    "title": "Comprehensive Data Privacy Controls",
-    "summary": "As a professional caregiver managing multiple elderly clients, I want user-defined privacy settings for data sharing so that I can ensure health data is accessed securely and respects my clients' privacy preferences.",
-    "priority": 1,
-    "pillar": "General Requirements",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-010"
-    ],
-    "id": "US-164",
-    "cbId": "CB-072"
-  },
-  {
-    "title": "Integration with External Health Software",
-    "summary": "As a professional caregiver managing multiple elderly clients, I want ALFRED to integrate with external health software so that I can efficiently monitor clients' health metrics and maintain accurate care documentation while ensuring data privacy.",
-    "priority": 2,
-    "pillar": "General Requirements",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-005",
-      "UC-010",
-      "UC-012"
-    ],
-    "id": "US-165",
-    "cbId": "CB-073"
-  },
-  {
-    "title": "Knowledge Base for Caregiver Empowerment",
-    "summary": "As a professional caregiver, I want access to a comprehensive knowledge base within ALFRED so that I can quickly find reliable information and strategies to effectively support my clients' health and well-being while ensuring their privacy and comfort.",
-    "priority": 2,
-    "pillar": "General Requirements",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-002",
-      "UC-005",
-      "UC-006",
-      "UC-010"
-    ],
-    "id": "US-166",
-    "cbId": "CB-074"
-  },
-  {
-    "title": "Health Monitoring Alerts",
-    "summary": "As a professional caregiver, I want to receive validated alerts for significant changes in my clients' health metrics so that I can ensure timely intervention while maintaining clear communication and minimizing client stress.",
-    "priority": 1,
-    "pillar": "General Requirements",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-005",
-      "UC-006",
-      "UC-010"
-    ],
-    "id": "US-167",
-    "cbId": "CB-075"
-  },
-  {
-    "title": "Collaborative Care Coordination Features \u2013 Shared Access to Care Plans",
-    "summary": "As a professional caregiver, I want secure and collaborative access to my clients' care plans so that I can effectively coordinate care with healthcare professionals and maintain clear communication with clients' family members.",
-    "priority": 1,
-    "pillar": "General Requirements",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-005",
-      "UC-006",
-      "UC-010"
-    ],
-    "id": "US-168",
-    "cbId": "CB-076"
   }
 ]

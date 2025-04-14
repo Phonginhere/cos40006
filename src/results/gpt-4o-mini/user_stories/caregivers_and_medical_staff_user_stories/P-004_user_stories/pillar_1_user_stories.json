@@ -1,22 +1,64 @@
 [
   {
-    "title": "Voice Reminders for Medication and Appointments",
-    "summary": "As a home-care nurse, I want to set up voice-activated reminders for my patients' medications and appointments so that I can efficiently monitor their care without interrupting my patient interactions.",
+    "title": "Voice Command Health Data Retrieval \u2013 Alerts and Notifications for Health Anomalies",
+    "summary": "As a home-care nurse, I want to use voice commands to retrieve health data and receive alerts for anomalies so that I can efficiently monitor my patients' health status and respond promptly to any concerns.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-005",
+      "UC-006"
+    ],
+    "id": "US-070",
+    "cbId": "CB-037"
+  },
+  {
+    "title": "Contextual Caregiver Alerts \u2013 Voice Alerts for Critical Health Changes",
+    "summary": "As a home-care nurse, I want to receive voice alerts for critical health changes in my patients so that I can respond promptly and provide necessary interventions, even when I am not physically present with them.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-005",
+      "UC-006"
+    ],
+    "id": "US-071",
+    "cbId": "CB-038"
+  },
+  {
+    "title": "Health Monitoring and Communication",
+    "summary": "As a home-care nurse, I want to efficiently monitor my patients' health status and communicate with them asynchronously so that I can provide timely interventions and maintain a connection without interrupting their routines.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-004"
+    ],
+    "id": "US-072",
+    "cbId": "CB-039"
+  },
+  {
+    "title": "Voice-Activated Communication Preferences",
+    "summary": "As a home-care nurse, I want to set voice-activated communication preferences so that I can efficiently interact with the ALFRED system and maintain connection with my patients without interrupting my care routines.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
       "UC-001",
-      "UC-005",
-      "UC-006"
+      "UC-004"
     ],
-    "id": "US-080",
+    "id": "US-073",
     "cbId": "CB-040"
   },
   {
-    "title": "Real-Time Health Monitoring Alerts \u2013 Historical Data Trends for Health Metrics",
-    "summary": "As a home-care nurse, I want to analyze historical health data and receive real-time alerts on patient health metrics so that I can anticipate deterioration, plan interventions, and provide timely care to my rural patients.",
+    "title": "Health Insight Dialogue System \u2013 Conversational Updates on Health Trends",
+    "summary": "As a home-care nurse, I want to receive conversational updates on my patients' health trends so that I can track their progression efficiently and identify any early warning signs without interrupting my care routines.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Caregivers and Medical Staff",
@@ -25,12 +67,12 @@
       "UC-005",
       "UC-006"
     ],
-    "id": "US-081",
+    "id": "US-074",
     "cbId": "CB-041"
   },
   {
-    "title": "Asynchronous Communication for Patient Monitoring",
-    "summary": "As a home-care nurse, I want to send quick voice messages to my patients and their families so that I can communicate efficiently without interrupting my care routines.",
+    "title": "Direct Voice Messaging for Care Coordination",
+    "summary": "As a home-care nurse, I want to send and receive quick voice messages to coordinate care with my patients and their families, so that I can maintain effective communication without interrupting my patient care routines.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Caregivers and Medical Staff",
@@ -38,12 +80,12 @@
     "useCases": [
       "UC-004"
     ],
-    "id": "US-082",
+    "id": "US-075",
     "cbId": "CB-042"
   },
   {
-    "title": "Voice Command Shortcuts for Health Monitoring",
-    "summary": "As a home-care nurse, I want to use voice command shortcuts to quickly access patient health data so that I can efficiently monitor my patients' health and respond to their needs without interrupting my workflow.",
+    "title": "Voice Summaries of Recent Health Data",
+    "summary": "As a home-care nurse, I want to receive voice summaries of my patients' recent health data so that I can efficiently monitor their health status and identify any early warning signs without interrupting my care routines.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Caregivers and Medical Staff",
@@ -52,36 +94,7 @@
       "UC-005",
       "UC-006"
     ],
-    "id": "US-083",
+    "id": "US-076",
     "cbId": "CB-043"
-  },
-  {
-    "title": "Multimodal Interaction for Caregivers",
-    "summary": "As a home-care nurse, I want to interact with the ALFRED system using voice commands and touch gestures so that I can efficiently monitor patient health and manage care tasks without interrupting my patient interactions.",
-    "priority": 1,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-001",
-      "UC-005",
-      "UC-006"
-    ],
-    "id": "US-084",
-    "cbId": "CB-045"
-  },
-  {
-    "title": "Context-Aware Assistance for Emotional Support",
-    "summary": "As a home-care nurse, I want ALFRED to adapt its responses based on my patients' emotional states so that I can provide more empathetic and personalized care.",
-    "priority": 1,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-004",
-      "UC-005"
-    ],
-    "id": "US-085",
-    "cbId": "CB-046"
   }
 ]

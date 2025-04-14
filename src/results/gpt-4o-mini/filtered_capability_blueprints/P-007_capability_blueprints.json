@@ -2,371 +2,321 @@
   {
     "personaId": "P-007",
     "cbId": "CB-001",
-    "title": "Natural Language Voice Commands – Simplified Command Structures for Ease of Use",
+    "title": "Natural Language Understanding with Adaptive Learning for Personalized Support",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "Thomas values a user-friendly interface that caters to his cognitive abilities, making simplified command structures crucial for helping him manage daily tasks without feeling overwhelmed. This aligns with his needs for cognitive support and independence.",
-    "subOption": "Simplified command structures for ease of use"
+    "justification": "This subOption is essential for Thomas as it allows ALFRED to tailor its responses and assistance based on his individual preferences and usage patterns, which is vital for maintaining his cognitive abilities while ensuring he feels empowered rather than monitored.",
+    "subOption": "Adaptive learning from user interactions"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-002",
-    "title": "Conversational Engagement – Reminders for Social Interactions",
+    "title": "Task Automation for Cognitive Support – Voice-Activated Scheduling and Reminders",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "Thomas values maintaining connections with family and friends, and reminders for social interactions can help him combat his challenges with forgetfulness and disorientation. This feature aligns with his goal of participating in family activities while ensuring he feels supported rather than monitored.",
-    "subOption": "Reminders for social interactions based on user preferences"
+    "justification": "This capability is crucial for Thomas, as he faces challenges with forgetting appointments and disorientation. Voice-activated scheduling and reminders will empower him to maintain his cognitive abilities and independence without feeling monitored.",
+    "subOption": "Voice-activated scheduling and reminders"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-003",
-    "title": "Task Management Support – Smart Reminders Based on User Behavior Patterns",
+    "title": "Conversational Engagement – Proactive Conversation Starters for Social Inclusion",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "This capability is essential for Thomas, as he faces challenges with forgetting appointments and disorientation. Smart reminders that adapt to his behavior will empower him to maintain his independence while providing just enough support without feeling monitored.",
-    "subOption": "Smart reminders based on user behavior patterns"
+    "justification": "This subOption is particularly relevant to Thomas, as he values social engagement and wishes to avoid feelings of isolation. Proactive conversation starters can help him maintain connections and feel less monitored, aligning with his desire for empowerment and support without intrusive oversight.",
+    "subOption": "Proactive conversation starters to reduce isolation"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-004",
-    "title": "Information Retrieval Assistance – Simplified Summaries for Cognitive Support",
+    "title": "Multimodal Interaction Support for Independent Living – Voice Commands with Touch Interaction",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "This capability is crucial for Thomas as he faces early-stage cognitive concerns, making it essential for him to access information in an easily digestible format. Simplified summaries will help him stay informed without feeling overwhelmed, aligning with his goals of maintaining cognitive abilities and independence.",
-    "subOption": "Simplified summaries of complex information"
+    "justification": "This subOption directly supports Thomas's need for independence and a user-friendly interface, allowing him to manage tasks with minimal cognitive strain while providing an alternative interaction method that respects his comfort level with technology.",
+    "subOption": "Voice commands complemented by touch interactions"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-005",
-    "title": "Error Recovery and Clarification – Contextual Hints for Task Guidance",
+    "title": "Error Recovery Mechanisms – Clarification Prompts for User Commands",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "Given Thomas's early-stage cognitive concerns, he may struggle with maintaining focus on tasks or remembering the system's functionalities. Contextual hints will empower him to navigate the system more easily without feeling monitored, aligning with his desire for independence and privacy.",
-    "subOption": "Contextual hints to guide users back to intended tasks"
+    "justification": "As Thomas has early-stage cognitive concerns, he may occasionally struggle to articulate his commands clearly or may forget what he intended to say. Clarification prompts will help him regain focus and ensure that he can continue to use ALFRED effectively without feeling overwhelmed or frustrated.",
+    "subOption": "Clarification prompts for misunderstood commands"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-006",
-    "title": "Multi-Modal Interaction Options – Voice Interaction Complemented by Touch Controls",
+    "title": "Personalized Voice Profiles for Empowering User Interaction",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "This capability is essential for Thomas, as he prefers empowering technology that supports his independence while accommodating his early-stage cognitive concerns and physical limitations. The combination of voice and touch interaction ensures he can manage tasks like appointment reminders and cognitive games without feeling overwhelmed.",
-    "subOption": "Voice interaction complemented by touch controls"
+    "justification": "Thomas values empowering technology and appreciates well-designed interfaces. Customizing the voice interactions to match his preferences will enhance his comfort and engagement with the system, supporting his goal of maintaining cognitive abilities while feeling respected and not monitored.",
+    "subOption": "Voice customization based on user preferences"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-007",
-    "title": "Adaptive Learning and Personalization – Customizable Communication Styles",
+    "title": "Accessibility Features for Cognitive Ease in User-Driven Interaction",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "This subOption is crucial for Thomas as he has early-stage cognitive concerns and prefers technology that feels empowering rather than intrusive. Customizing communication styles can help him maintain his cognitive engagement while ensuring interactions remain accessible and comfortable for him.",
-    "subOption": "Profile settings for adjusting communication tone and complexity"
+    "justification": "Thomas's early-stage cognitive concerns make simplified command structures crucial for him to interact with ALFRED confidently and effectively. This aligns with his need for cognitive stimulation and maintaining his independence without feeling overwhelmed by complex technology.",
+    "subOption": "Simplified command structures for cognitive ease"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-008",
-    "title": "Emergency Response Activation – Voice-Triggered Alerts for Emergency Contacts",
+    "title": "Routine and Habit Formation Support – Automated Reminders for Newly Formed Routines",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "This subOption is crucial for Thomas because it addresses his need for independence while ensuring he has a reliable way to alert family or caregivers in case of an emergency. Given his challenges with forgetfulness and reluctance to seek help, a voice-triggered alert system would empower him without making him feel monitored.",
-    "subOption": "Voice-triggered alerts for emergency contacts"
+    "justification": "Thomas has challenges with forgetting appointments and values empowerment through technology. Automated reminders would help him maintain his cognitive abilities and support his active lifestyle without feeling overly monitored.",
+    "subOption": "Automated reminders for newly formed routines"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-009",
-    "title": "Social Engagement Recommendations – Personalized Reminders for Upcoming Social Activities",
+    "title": "Social Engagement Recommendations – Event Suggestions Based on Interests and Availability",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "This subOption aligns with Thomas's need to maintain social connections and avoid forgetfulness regarding family activities and events. Personalized reminders will help him stay engaged without feeling overwhelmed or monitored.",
-    "subOption": "Personalized reminders for upcoming social activities"
+    "justification": "This subOption directly supports Thomas's core goal of participating in family activities and maintaining social connections by providing relevant events that align with his interests. It also addresses his challenge of social isolation by encouraging engagement in community activities tailored to him.",
+    "subOption": "Event suggestions based on interests and availability"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-010",
-    "title": "Facilitated Communication Channels – Simplified Video Calling Features for Connecting with Loved Ones",
+    "title": "Family Connection Tools – Scheduled Video Calls with Family Members",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "Thomas values maintaining family connections and enjoys participating in family activities, making simplified video calling essential for him to easily connect with his children and grandchildren. This aligns with his goal of remaining socially active while addressing potential technological barriers.",
-    "subOption": "Simplified video calling features for connecting with loved ones"
+    "justification": "This subOption addresses Thomas's need for social inclusion and maintaining family connections without feeling overly monitored. Scheduled video calls can help him participate in family activities while allowing for a sense of autonomy.",
+    "subOption": "Scheduled video calls with family members"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-011",
-    "title": "Interest-based Activity Group Connections - Matching Users with Local Activity Groups or Clubs",
+    "title": "Interest-Based Community Interaction – Connecting Users with Similar Hobbies",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "This capability directly supports Thomas's goal of maintaining an active lifestyle and participating in family activities by connecting him with local community resources, which can help mitigate his challenges related to social isolation and disorientation.",
-    "subOption": "Matching users with local activity groups or clubs"
+    "justification": "This capability is important for Thomas as it aligns with his core goal of maintaining social connections and his interests in activities like cycling and photography, which can foster community engagement without making him feel monitored.",
+    "subOption": "Matching users with similar hobbies"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-012",
-    "title": "Memory Aid for Social Interactions – Reminders of Names and Relationships of Contacts",
+    "title": "Memory Lane Features – Storytelling Prompts for Shared Experiences",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "This capability addresses Thomas's challenge of disorientation and forgetting details about his social connections, which is crucial for maintaining his cognitive abilities and social interactions. By helping him remember names and relationships, ALFRED can empower him to feel more confident in his social engagements without feeling overly monitored.",
-    "subOption": "Reminders of names and relationships of contacts"
+    "justification": "This subOption aligns with Thomas's goal of maintaining cognitive abilities and participating in family activities. By providing prompts for storytelling, ALFRED can encourage him to engage in reminiscing, which is not only a cognitive exercise but also a way to strengthen family bonds without making him feel monitored.",
+    "subOption": "Storytelling prompts about shared experiences"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-013",
-    "title": "Enhanced Remote Family Engagement – Coordinated Messaging Threads for Family Updates",
+    "title": "Flexible Communication Modes – Voice-to-Text Messaging for Social Inclusion",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "This subOption supports Thomas's goal of maintaining social connections and participating in family activities, addressing his need for simple and effective communication with his adult children and grandchildren. The ability to receive family updates without feeling monitored aligns with his preference for empowering technology.",
-    "subOption": "Coordinated messaging threads for family updates"
-  },
-  {
-    "personaId": "P-007",
-    "cbId": "CB-015",
-    "title": "Personalized Emotional Support – Mood Tracking with Suggestions for Uplifting Activities",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "priority": "2",
-    "userGroup": "Older Adults",
-    "justification": "Given Thomas's early-stage cognitive concerns and his goal to maintain cognitive abilities, mood tracking with uplifting activity suggestions can help him stay engaged and combat any potential feelings of disorientation or forgetfulness. This aligns with his desire for support while maintaining a sense of autonomy.",
-    "subOption": "Mood tracking with suggestions for uplifting activities"
+    "justification": "This capability is crucial for Thomas as it supports his need for social inclusion while minimizing the cognitive load of typing messages, which can be challenging due to his early-stage cognitive concerns. It allows him to communicate effortlessly with family and friends, aligning with his goals of maintaining social connections and participating in family activities.",
+    "subOption": "Voice-to-text messaging for ease of use"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-016",
-    "title": "Local Resource Awareness – Directory of Nearby Senior-Friendly Venues and Services",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "title": "Health Monitoring Integration – Automated Alerts for Abnormal Health Readings",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "This subOption aligns with Thomas's goal of maintaining social connections and participating in family activities by providing him with easy access to local resources that cater to older adults, thereby reducing his reluctance to engage with unfamiliar environments.",
-    "subOption": "Directory of nearby senior-friendly venues and services"
+    "justification": "Thomas values maintaining his cognitive abilities and health monitoring, and automated alerts would empower him to stay informed about his health without feeling overly monitored. This aligns well with his desire for supportive technology that respects his autonomy.",
+    "subOption": "Automated alerts for abnormal health readings"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-017",
-    "title": "Personalized Health Monitoring – Daily Health Summary Reports for Caregivers",
+    "title": "Personalized Health Recommendations - Medication Adherence Strategies for Active Living",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "This subOption aligns well with Thomas's need for health monitoring and his preference for technology that supports without feeling intrusive. Daily health summary reports allow caregivers to stay informed about his well-being without Thomas feeling overly monitored or reliant on direct assistance.",
-    "subOption": "Daily health summary reports sent to caregivers"
-  },
-  {
-    "personaId": "P-007",
-    "cbId": "CB-018",
-    "title": "Medication Management Support – Automated Reminders for Medication Schedules",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "1",
-    "userGroup": "Older Adults",
-    "justification": "Automated reminders will help Thomas manage his medication schedule without feeling monitored, addressing his challenges with forgetting appointments while supporting his desire for independence and cognitive maintenance.",
-    "subOption": "Automated reminders for medication schedules"
+    "justification": "This subOption is particularly relevant for Thomas as he faces challenges with forgetting appointments and managing health, which can be alleviated through reminders and strategies for medication adherence. Ensuring he follows his medication plan will support his goal of maintaining cognitive abilities and an active lifestyle.",
+    "subOption": "Medication adherence tips and strategies"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-019",
-    "title": "Health Data Sharing with Caregivers – Secure Sharing of Health Data with Authorized Family Members",
+    "title": "Emergency Response Coordination – Real-Time Health Status Sharing for Enhanced Independence",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "This option aligns well with Thomas's need for privacy while ensuring that his family can stay informed about his health, which is vital for maintaining his independence. Given his reluctance to ask for help and his emphasis on autonomy, secure sharing allows him to receive support without feeling monitored.",
-    "subOption": "Secure sharing of health data with authorized family members"
+    "justification": "This option is crucial for Thomas, as it addresses his need for maintaining cognitive abilities and health monitoring. Real-time health status sharing can provide timely information to caregivers and family, ensuring he feels supported without overly intrusive monitoring.",
+    "subOption": "Real-time health status sharing during emergencies"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-020",
-    "title": "Personalized Care Plan Development – Integration of Health Goals and Achievements Tracking",
+    "title": "Long-term Health Tracking – Visualizing Health Trends for Empowerment",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "Thomas values maintaining his cognitive abilities and active lifestyle, and tracking health goals will provide him with a sense of accomplishment and motivation without feeling overly monitored. This aligns with his desire for empowering technology and supports his core goals of health monitoring and brain fitness.",
-    "subOption": "Integration of health goals and achievements tracking"
+    "justification": "This capability is essential for Thomas as it allows him to visualize his health progress, helping him maintain cognitive abilities and track his health monitoring without feeling overwhelmed. Given his early-stage cognitive concerns, clear and accessible data representations will empower him to stay informed about his well-being while promoting his independence.",
+    "subOption": "Data visualization for health trends"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-021",
-    "title": "Emergency Health Response Coordination – Voice Activation for Emergency Assistance Requests",
+    "title": "Medication Management System – Voice-Guided Medication Instructions",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "This subOption is critical for Thomas as it empowers him to call for help without needing to navigate complex interfaces, alleviating his fears of being monitored while ensuring he can maintain his independence in case of emergencies.",
-    "subOption": "Voice activation for emergency assistance requests"
+    "justification": "Thomas has early-stage cognitive concerns and may struggle with remembering medication instructions. Voice-guided instructions will empower him to manage his medications independently and with confidence, aligning with his desire for minimal monitoring.",
+    "subOption": "Voice-guided medication instructions"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-022",
-    "title": "Holistic Wellness Activities Suggestions – Reminders for Physical Exercises Tailored to User Capabilities",
+    "title": "User Empowerment Tools – Health Improvement Goal-Setting",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "This capability directly addresses Thomas's goals of maintaining cognitive abilities and continuing an active lifestyle, as he may benefit from gentle physical exercise reminders that cater to his early-stage cognitive concerns while empowering him to stay engaged and healthy.",
-    "subOption": "Reminders for physical exercises tailored to user capabilities"
+    "justification": "Thomas values maintaining his cognitive abilities and active lifestyle, and goal-setting features can empower him to track his health and fitness progress. This aligns with his desire for support without feeling monitored, as he can set and manage personal goals at his own pace.",
+    "subOption": "Goal-setting features for health improvement"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-023",
-    "title": "Cognitive Health Enhancement Tools – Daily Cognitive Challenges with Adaptive Difficulty",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "title": "Cognitive Engagement Activities – Memory Games for Cognitive Stimulation",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "This subOption directly supports Thomas's goal of maintaining cognitive abilities while addressing his challenge of disorientation by providing engaging and appropriately challenging tasks. The adaptive nature of the challenges respects his preference for not feeling monitored, allowing him to progress at his own pace.",
-    "subOption": "Daily cognitive challenges with adaptive difficulty"
+    "justification": "Memory games are directly aligned with Thomas's goal of maintaining cognitive abilities and provide an engaging way to address his early-stage cognitive concerns. They cater to his preference for empowering technology that allows him to stay sharp without feeling monitored.",
+    "subOption": "Memory games for cognitive stimulation"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-024",
-    "title": "User-Centric Feedback Mechanisms – Adaptive Interface Adjustments for Personalized Care",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "title": "Physical Activity Guidance – Gentle Stretching and Mobility Exercises for Cognitive Support",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "Thomas values empowering technology and appreciates well-designed interfaces, which makes adaptive interface adjustments crucial for ensuring that the system remains intuitive and responsive to his needs as his cognitive abilities evolve. This capability would help him maintain his cognitive abilities and manage his daily tasks more effectively.",
-    "subOption": "Adaptive interface adjustments based on user feedback"
+    "justification": "Thomas values maintaining his active lifestyle and has early-stage cognitive concerns, making gentle stretching and mobility exercises essential to keep him physically engaged without overwhelming him. This aligns with his goal of maintaining cognitive abilities and being active, which is crucial for his independence.",
+    "subOption": "Gentle stretching and mobility exercises"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-025",
-    "title": "Adaptive Physical Activity Programs – Guided Video Tutorials for Safe Home Exercises",
+    "title": "Adaptive Learning Modules – Progressive Skill-Building Challenges for Cognitive Fitness",
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "This subOption aligns well with Thomas's goal of maintaining an active lifestyle and cognitive abilities, as it provides him with the guidance needed to safely engage in physical activities. Additionally, the tutorials can help him feel empowered rather than monitored, which is important for his comfort with technology.",
-    "subOption": "Guided video tutorials for safe home exercises"
+    "justification": "Thomas aims to maintain his cognitive abilities and engage in brain fitness activities. Progressive skill-building challenges would provide him with the right level of cognitive stimulation without feeling overwhelmed or monitored, aligning with his preferences for empowering technology.",
+    "subOption": "Progressive skill-building challenges"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-026",
-    "title": "Cognitive Stimulation Activities – Memory Recall Challenges Based on Personal History",
+    "title": "Reminders for Daily Activities – Cognitive Activity Reminders Based on Preferences",
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "This subOption aligns well with Thomas's core goal of maintaining cognitive abilities and addresses his challenge of disorientation. Memory recall challenges can provide a fun and engaging way for him to stimulate his mind while connecting to his personal history, making the experience more meaningful.",
-    "subOption": "Memory recall challenges based on personal history"
+    "justification": "This subOption directly supports Thomas's goal to maintain cognitive abilities and addresses his challenge of forgetting appointments by providing timely reminders for engaging activities tailored to his interests, such as brain fitness games.",
+    "subOption": "Cognitive activity reminders based on preferences"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-027",
-    "title": "Wellness Check-In Reminders – Interactive Voice Check-Ins to Assess Mental State",
+    "title": "Community Engagement Initiatives – Local Activity and Class Suggestions",
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "This subOption directly supports Thomas's core goals of maintaining cognitive abilities and participating in family activities by providing a way to engage in mental wellness through interactive dialogues. Given his early-stage cognitive concerns, this feature can help him stay sharp without feeling monitored.",
-    "subOption": "Interactive voice check-ins to assess mental state"
+    "justification": "This subOption aligns with Thomas's goal of maintaining an active lifestyle and participating in family activities. By suggesting local activities and classes, ALFRED can help him stay engaged and socially connected while promoting cognitive and physical health.",
+    "subOption": "Local activity and class suggestions"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-028",
-    "title": "Guided Mindfulness and Relaxation Exercises – Daily Relaxation Reminders with Calming Sounds",
+    "title": "Mindfulness and Relaxation Tools - Guided Meditation for Cognitive Health",
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "priority": "2",
     "userGroup": "Older Adults",
-    "justification": "This subOption directly addresses Thomas's need for cognitive stimulation and stress management, providing gentle reminders that can help him maintain his mental sharpness while feeling empowered rather than monitored. It also aligns with his goal of maintaining an active lifestyle through mindful relaxation.",
-    "subOption": "Daily relaxation reminders with calming sounds"
+    "justification": "Guided meditation sessions can help Thomas maintain cognitive abilities and manage stress, which are crucial for his active lifestyle and cognitive health. This aligns with his core goal of brain fitness and addresses his challenges with disorientation by promoting relaxation and mental clarity.",
+    "subOption": "Guided meditation sessions"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-029",
-    "title": "Community Activity Engagement – Local Event Notifications Based on User Interests",
+    "title": "Personalized Progress Tracking – Goal-Setting for Cognitive and Physical Achievements",
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "This subOption aligns with Thomas's goal of maintaining his cognitive abilities and participating in family activities by keeping him informed about relevant local events, which can enhance his social engagement and active lifestyle.",
-    "subOption": "Local event notifications based on user interests"
+    "justification": "This subOption aligns with Thomas's core goals of maintaining cognitive abilities and continuing an active lifestyle, providing him with a framework to set and track personal achievements that can keep him motivated and engaged without feeling monitored.",
+    "subOption": "Goal-setting features for personal achievements"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-030",
-    "title": "Personalized Learning Modules – Skill-Building Sessions Tailored to Individual Interests",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "title": "User-Centric Privacy Controls – User-Friendly Privacy Settings Interface",
+    "pillar": "General Requirements",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "This subOption aligns with Thomas's goal of maintaining cognitive abilities and his interests as an amateur photographer and woodworking enthusiast. Personalized skill-building sessions can provide engaging cognitive stimulation while respecting his desire for independence.",
-    "subOption": "Skill-building sessions tailored to individual interests"
+    "justification": "Thomas values privacy and prefers empowering technology. A user-friendly privacy settings interface would support his need for autonomy without feeling monitored, allowing him to engage with the system confidently while managing his personal data.",
+    "subOption": "User-friendly privacy settings interface"
+  },
+  {
+    "personaId": "P-007",
+    "cbId": "CB-031",
+    "title": "Adaptive System Configuration – Guided Onboarding with Voice Assistance",
+    "pillar": "General Requirements",
+    "priority": "1",
+    "userGroup": "Older Adults",
+    "justification": "Given Thomas's reluctance to ask for help and his desire for empowering technology, a guided onboarding process that utilizes voice assistance will make the setup feel more supportive and less intrusive, allowing him to navigate ALFRED confidently and independently.",
+    "subOption": "Guided onboarding process with voice assistance"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-032",
-    "title": "Intuitive User Interface Adaptation – Voice-Guided Navigation for All User Levels",
+    "title": "Interoperability with Health Devices – Seamless Integration with Wearable Health Monitors",
     "pillar": "General Requirements",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "This subOption is critical for Thomas as it addresses his need for an intuitive and supportive interface while using ALFRED. Given his early-stage cognitive concerns, voice-guided navigation can help him manage tasks independently without feeling overwhelmed or monitored.",
-    "subOption": "Voice-guided navigation for all user levels"
+    "justification": "For Thomas, monitoring his health conditions and receiving timely reminders is crucial for maintaining his cognitive abilities and active lifestyle. Seamless integration with health devices like wearables would empower him to track his health effortlessly, thus supporting his independence and health monitoring goals.",
+    "subOption": "Seamless integration with wearable health monitors"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-033",
-    "title": "Secure Data Management Practices – User-Controlled Data Sharing Preferences",
+    "title": "Multi-Modal Data Access – Voice-Driven Data Retrieval for Cognitive Support",
     "pillar": "General Requirements",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "Thomas values privacy and prefers empowering technology, which makes user-controlled data sharing essential for him. This feature would allow him to manage how his data is used, aligning with his desire for autonomy and control over his personal information.",
-    "subOption": "User-controlled data sharing preferences"
-  },
-  {
-    "personaId": "P-007",
-    "cbId": "CB-034",
-    "title": "User-Centric Installation and Setup - Step-by-Step Voice-Assisted Setup Process",
-    "pillar": "General Requirements",
-    "priority": "1",
-    "userGroup": "Older Adults",
-    "justification": "Given Thomas's reluctance to ask for help and his preference for empowering technology, a voice-assisted setup process would provide him with the independence he values while minimizing the stress associated with technology use. This aligns perfectly with his goal of maintaining an active lifestyle without feeling monitored.",
-    "subOption": "Step-by-step voice-assisted setup process"
+    "justification": "This subOption is crucial for Thomas as he values empowering technology and prefers to manage tasks through voice commands, aligning with his goal to maintain cognitive abilities while minimizing the feeling of being monitored.",
+    "subOption": "Voice-driven data retrieval processes"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-035",
-    "title": "Cross-Device Compatibility – Seamless Integration with Smartphones and Tablets",
+    "title": "User Feedback Mechanism – Simple Voice Feedback Collection Prompts",
     "pillar": "General Requirements",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "For Thomas, who is 68 and has early-stage cognitive concerns, seamless integration with smartphones and tablets allows him to access ALFRED easily and manage his tasks without difficulty. This aligns with his core goal of maintaining cognitive abilities and independence while ensuring he can manage appointments and stay connected with family.",
-    "subOption": "Seamless integration with smartphones and tablets"
+    "justification": "Thomas prefers empowering technology and values privacy, which makes simple voice feedback collection prompts an ideal way for him to provide input without feeling monitored. This aligns with his goals of maintaining cognitive abilities while ensuring he feels in control of his interactions with ALFRED.",
+    "subOption": "Simple voice feedback collection prompts"
   },
   {
     "personaId": "P-007",
     "cbId": "CB-036",
-    "title": "Comprehensive Accessibility Features - Cognitive Load-Reducing Interface Options",
+    "title": "Accessibility Compliance Assurance through Diverse User Testing for Older Adults",
     "pillar": "General Requirements",
     "priority": "1",
     "userGroup": "Older Adults",
-    "justification": "Given Thomas's early-stage cognitive concerns, a cognitive load-reducing interface will help him navigate the system more easily and reduce feelings of disorientation. This aligns with his goal of maintaining cognitive abilities while providing a supportive user experience.",
-    "subOption": "Cognitive load-reducing interface options"
-  },
-  {
-    "personaId": "P-007",
-    "cbId": "CB-037",
-    "title": "Flexible User Experience Customization – Profile-Based Settings for Personalized Interactions",
-    "pillar": "General Requirements",
-    "priority": "1",
-    "userGroup": "Older Adults",
-    "justification": "Thomas values empowering technology and prefers a system that adapts to his needs, which aligns well with profile-based settings that tailor interactions to his specific preferences and cognitive abilities. This will help him maintain his independence while providing the right level of support without feeling monitored.",
-    "subOption": "Profile-based settings for personalized interactions"
-  },
-  {
-    "personaId": "P-007",
-    "cbId": "CB-038",
-    "title": "Robust Third-Party Integration Framework – Collaboration Tools for Caregivers and Families",
-    "pillar": "General Requirements",
-    "priority": "1",
-    "userGroup": "Older Adults",
-    "justification": "This capability is significant for Thomas as it supports his goal of maintaining family connections while allowing him to retain independence. Collaboration tools can facilitate communication with his family, helping him stay engaged without feeling monitored, which aligns with his preferences.",
-    "subOption": "Collaboration tools for caregivers and families"
-  },
-  {
-    "personaId": "P-007",
-    "cbId": "CB-039",
-    "title": "Ongoing User Support Mechanisms – 24/7 Voice-Based Support Assistance",
-    "pillar": "General Requirements",
-    "priority": "1",
-    "userGroup": "Older Adults",
-    "justification": "Thomas values empowering technology and prefers not to feel monitored, making 24/7 voice-based support a perfect fit for providing him with assistance when needed without intruding on his independence. This aligns with his goal of maintaining cognitive abilities while ensuring he has support for forgetfulness and disorientation.",
-    "subOption": "24/7 voice-based support assistance"
+    "justification": "User testing with diverse age groups and abilities is crucial for Thomas, as it ensures the system's interface and functionalities are tailored to accommodate his early-stage cognitive concerns and the diverse needs of older adults, helping him maintain his independence and avoid feeling monitored.",
+    "subOption": "User testing with diverse age groups and abilities"
   }
 ]

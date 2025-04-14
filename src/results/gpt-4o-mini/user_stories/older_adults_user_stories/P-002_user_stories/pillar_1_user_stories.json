@@ -1,23 +1,37 @@
 [
   {
-    "title": "Natural Language Voice Commands - Simplified Command Structures for Ease of Use",
-    "summary": "As a tech-curious older adult with mild mobility issues, I want to use simple voice commands to manage my daily tasks so that I can maintain my independence without feeling overwhelmed by technology.",
+    "title": "Natural Language Understanding for Medication Reminders",
+    "summary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to understand and respond to my voice commands for medication reminders so that I can manage my health efficiently without feeling overwhelmed by technology.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
     "personaId": "P-002",
     "useCases": [
       "UC-001",
-      "UC-004",
-      "UC-002",
-      "UC-011"
+      "UC-004"
     ],
-    "id": "US-028",
+    "id": "US-024",
     "cbId": "CB-001"
   },
   {
-    "title": "Social Connection Reminders",
-    "summary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to remind me of social interactions and events based on my preferences so that I can stay connected with family and friends and reduce feelings of isolation.",
+    "title": "Medication and Health Management",
+    "summary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to remind me to take my medications and monitor my health so that I can maintain my independence and manage my health efficiently without feeling overwhelmed by technology.",
+    "priority": 1,
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-001",
+      "UC-008",
+      "UC-009",
+      "UC-011"
+    ],
+    "id": "US-025",
+    "cbId": "CB-002"
+  },
+  {
+    "title": "Proactive Conversation Starters for Social Inclusion",
+    "summary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to initiate conversations about my interests, like classical music, so that I can feel more socially engaged and connected with others.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
@@ -26,58 +40,42 @@
       "UC-003",
       "UC-004"
     ],
-    "id": "US-029",
-    "cbId": "CB-002"
-  },
-  {
-    "title": "Medication Management Support",
-    "summary": "As a tech-curious older adult with mild mobility issues, I want to receive voice-activated medication reminders so that I can manage my health efficiently and maintain my independence at home.",
-    "priority": 1,
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "userGroup": "Older Adults",
-    "personaId": "P-002",
-    "useCases": [
-      "UC-001",
-      "UC-004"
-    ],
-    "id": "US-030",
+    "id": "US-026",
     "cbId": "CB-003"
   },
   {
-    "title": "Information Retrieval Assistance",
-    "summary": "As a tech-curious older adult, I want to easily ask ALFRED for local services and resources using voice commands so that I can manage my daily tasks and stay connected with my community without feeling overwhelmed by technology.",
+    "title": "Voice-Activated Task Management",
+    "summary": "As a tech-curious older adult with mild mobility issues, I want to use voice commands to manage my medication reminders, calendar, and make video calls so that I can maintain my independence and stay connected with my family without feeling overwhelmed by technology.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
     "personaId": "P-002",
     "useCases": [
       "UC-001",
-      "UC-002",
       "UC-004"
     ],
-    "id": "US-031",
+    "id": "US-027",
     "cbId": "CB-004"
   },
   {
-    "title": "Error Recovery and Clarification \u2013 Follow-up Questions for Ambiguous Commands",
-    "summary": "As a tech-curious older adult, I want ALFRED to ask follow-up questions when I give ambiguous commands so that I can clarify my intentions without feeling overwhelmed or frustrated.",
+    "title": "Error Recovery Mechanisms \u2013 Clarification Prompts for User Support",
+    "summary": "As a tech-curious older adult, I want the system to provide clarification prompts when I make a mistake or the system doesn't understand my command, so that I can feel more confident and less intimidated while using the technology.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
     "personaId": "P-002",
     "useCases": [
       "UC-001",
-      "UC-002",
       "UC-004",
       "UC-009",
       "UC-011"
     ],
-    "id": "US-032",
+    "id": "US-028",
     "cbId": "CB-005"
   },
   {
-    "title": "Voice Interaction with Touch Controls",
-    "summary": "As a tech-curious older adult, I want to use voice commands and touch controls to manage my daily tasks so that I can maintain my independence without feeling overwhelmed by technology.",
+    "title": "Personalized Voice Profiles for Enhanced User Interaction",
+    "summary": "As a tech-curious older adult, I want a personalized voice profile so that I can interact with ALFRED in a way that feels familiar and comfortable, making it easier for me to manage my daily tasks and stay connected with my family.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
@@ -88,12 +86,12 @@
       "UC-009",
       "UC-011"
     ],
-    "id": "US-033",
+    "id": "US-029",
     "cbId": "CB-006"
   },
   {
-    "title": "Adaptive Learning and Personalization \u2013 Customizable Interaction Styles for Enhanced User Experience",
-    "summary": "As a tech-curious older adult, I want ALFRED to adapt to my voice and preferences so that I can interact with it more easily and feel more confident in using technology.",
+    "title": "Cognitive Ease through Voice Interaction",
+    "summary": "As a tech-curious older adult, I want ALFRED to provide clear and simple voice instructions so that I can interact with the system confidently and manage my daily tasks without feeling overwhelmed by technology.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
@@ -104,12 +102,12 @@
       "UC-009",
       "UC-011"
     ],
-    "id": "US-034",
+    "id": "US-030",
     "cbId": "CB-007"
   },
   {
-    "title": "Emergency Response Activation \u2013 Voice-Triggered Alerts for Emergency Contacts",
-    "summary": "As a tech-curious older adult with mild mobility issues, I want to activate emergency alerts using my voice so that I can quickly get help when I need it without having to navigate complex technology.",
+    "title": "Medication Management Support",
+    "summary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to remind me to take my medications so that I can manage my health efficiently and maintain my independence at home.",
     "priority": 1,
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "userGroup": "Older Adults",
@@ -118,7 +116,7 @@
       "UC-001",
       "UC-004"
     ],
-    "id": "US-035",
+    "id": "US-031",
     "cbId": "CB-008"
   }
 ]

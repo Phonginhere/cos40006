@@ -1,7 +1,7 @@
 [
   {
-    "title": "Webhook Integration for Health Alerts",
-    "summary": "As a full-stack developer, I want to implement a webhook system that responds to real-time health alerts from wearable devices, so that I can ensure timely notifications for urgent care events and bridge the gap between elderly users and their caregivers.",
+    "title": "Real-Time Health Alerts Integration",
+    "summary": "As a full-stack developer creating healthcare applications, I want to implement a webhook system for real-time health alerts so that I can ensure timely notifications for urgent care events and improve response times for elderly users and their caregivers.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
@@ -9,33 +9,73 @@
     "useCases": [
       "UC-005",
       "UC-006",
+      "UC-010",
+      "UC-012"
+    ],
+    "id": "US-017",
+    "cbId": "CB-101"
+  },
+  {
+    "title": "Comprehensive Developer Documentation \u2013 Step-by-Step Integration Guides",
+    "summary": "As a full-stack developer creating healthcare applications, I want comprehensive developer documentation with step-by-step integration guides so that I can easily build secure and accessible applications that meet healthcare compliance standards and improve the quality of life for elderly users.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-009",
+      "UC-010",
+      "UC-012"
+    ],
+    "id": "US-018",
+    "cbId": "CB-102"
+  },
+  {
+    "title": "OAuth-Based Authentication for Third-Party Apps",
+    "summary": "As a full-stack developer creating healthcare applications, I want an OAuth-based authentication system so that I can ensure secure and compliant access to user data for my applications while maintaining the privacy of elderly users.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-010",
+      "UC-012"
+    ],
+    "id": "US-019",
+    "cbId": "CB-103"
+  },
+  {
+    "title": "API Feedback Mechanism",
+    "summary": "As a full-stack developer creating healthcare applications, I want a feedback mechanism for the ALFRED APIs so that I can efficiently identify and resolve issues while ensuring my applications remain compliant with healthcare regulations.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
       "UC-010",
       "UC-012"
     ],
     "id": "US-020",
-    "cbId": "CB-109"
+    "cbId": "CB-104"
   },
   {
-    "title": "Comprehensive Developer Documentation \u2013 Step-by-Step Guides for Common Integrations",
-    "summary": "As a full-stack developer creating healthcare applications, I want comprehensive documentation with step-by-step guides for common integrations so that I can efficiently build secure and user-friendly applications that meet the needs of elderly users and their caregivers.",
-    "priority": 1,
+    "title": "Modular Extension Architecture for Healthcare Applications",
+    "summary": "As a full-stack developer, I want a modular extension architecture that allows me to easily integrate new features into the ALFRED system so that I can create user-friendly, secure healthcare applications that effectively bridge gaps between elderly users and their caregivers.",
+    "priority": 2,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
-      "UC-005",
-      "UC-006",
       "UC-010",
-      "UC-011",
       "UC-012"
     ],
     "id": "US-021",
-    "cbId": "CB-110"
+    "cbId": "CB-105"
   },
   {
-    "title": "Enhanced Security for API Integration",
-    "summary": "As a full-stack developer, I want to implement OAuth-based authentication for API access so that I can ensure secure data handling and comply with healthcare regulations while integrating third-party applications.",
-    "priority": 1,
+    "title": "Error Tracking and Reporting",
+    "summary": "As a full-stack developer, I want to have robust error tracking and reporting tools integrated into the ALFRED system so that I can quickly identify and resolve issues in healthcare applications, ensuring compliance and enhancing user experience.",
+    "priority": 2,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
@@ -44,82 +84,21 @@
       "UC-012"
     ],
     "id": "US-022",
-    "cbId": "CB-111"
+    "cbId": "CB-106"
   },
   {
-    "title": "Comprehensive Developer Documentation",
-    "summary": "As a full-stack developer, I want access to clear and detailed documentation and development support so that I can create compliant and user-friendly applications for elderly users and their caregivers.",
-    "priority": 2,
+    "title": "Interoperability with Health Devices",
+    "summary": "As a full-stack developer, I want pre-built connectors for various health devices so that I can easily integrate real-time health monitoring into my applications for elderly users and caregivers.",
+    "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
-      "UC-009",
-      "UC-010",
-      "UC-011",
+      "UC-005",
+      "UC-006",
       "UC-012"
     ],
     "id": "US-023",
-    "cbId": "CB-112"
-  },
-  {
-    "title": "Modular Application Architecture for Healthcare Integration",
-    "summary": "As a full-stack developer creating healthcare applications, I want to build a modular architecture that allows for easy customization and integration with various healthcare services so that I can efficiently develop solutions that improve the quality of life for seniors while ensuring security and compliance with healthcare regulations.",
-    "priority": 2,
-    "pillar": "General Requirements",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
-    ],
-    "id": "US-024",
-    "cbId": "CB-113"
-  },
-  {
-    "title": "Automated Compliance Checks for Healthcare Applications",
-    "summary": "As a full-stack developer creating healthcare applications, I want automated compliance checks integrated into the ALFRED system, so that I can ensure my applications consistently meet healthcare regulations (HIPAA, GDPR) without manual intervention.",
-    "priority": 1,
-    "pillar": "General Requirements",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-010"
-    ],
-    "id": "US-025",
-    "cbId": "CB-114"
-  },
-  {
-    "title": "Cross-Platform Compatibility \u2013 Integration with Popular Development Tools",
-    "summary": "As a full-stack developer, I want the ALFRED system to seamlessly integrate with popular development tools and frameworks, so that I can efficiently build accessible healthcare applications that meet the needs of elderly users and their caregivers.",
-    "priority": 2,
-    "pillar": "General Requirements",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-009",
-      "UC-010",
-      "UC-012"
-    ],
-    "id": "US-026",
-    "cbId": "CB-115"
-  },
-  {
-    "title": "Performance Monitoring and Analytics",
-    "summary": "As a full-stack developer creating healthcare applications, I want to access usage analytics for understanding user interactions so that I can design better interfaces and improve application efficiency specifically for elderly users and caregivers.",
-    "priority": 1,
-    "pillar": "General Requirements",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
-    ],
-    "id": "US-027",
-    "cbId": "CB-116"
+    "cbId": "CB-107"
   }
 ]

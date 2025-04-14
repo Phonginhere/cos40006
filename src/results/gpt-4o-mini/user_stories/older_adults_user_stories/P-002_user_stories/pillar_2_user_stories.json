@@ -1,7 +1,7 @@
 [
   {
-    "title": "Social Engagement Recommendations \u2013 Personalized Reminders for Upcoming Social Activities",
-    "summary": "As a tech-curious older adult, I want ALFRED to suggest upcoming social activities based on my interests, so that I can stay socially connected and prevent feelings of isolation.",
+    "title": "Personalized Event Suggestions for Connection",
+    "summary": "As a tech-curious older adult, I want ALFRED to recommend local social events based on my interests so that I can stay connected with family and friends while combating feelings of isolation.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -10,28 +10,79 @@
       "UC-003",
       "UC-004"
     ],
-    "id": "US-036",
+    "id": "US-032",
     "cbId": "CB-009"
   },
   {
-    "title": "Facilitated Communication Channels \u2013 Simplified Video Calling Features",
-    "summary": "As a tech-curious older adult, I want an easy way to make video calls to my family and friends so that I can stay connected without feeling overwhelmed by technology.",
+    "title": "Scheduled Video Calls with Family",
+    "summary": "As a tech-curious older adult with mild mobility issues, I want to schedule video calls with my family members so that I can maintain social connections and feel less isolated.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
     "personaId": "P-002",
     "useCases": [
-      "UC-004",
-      "UC-001",
-      "UC-009",
-      "UC-011"
+      "UC-004"
     ],
-    "id": "US-037",
+    "id": "US-033",
     "cbId": "CB-010"
   },
   {
-    "title": "Interest-based Activity Group Connections",
-    "summary": "As a tech-curious older adult, I want to be matched with local activity groups or clubs based on my interests so that I can engage in social activities and feel less isolated.",
+    "title": "Interest-Based Community Interaction - Facilitating Local Meetups for Social Inclusion",
+    "summary": "As a tech-curious older adult, I want ALFRED to suggest local community events based on my interests so that I can stay socially connected and feel less isolated.",
+    "priority": 1,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-003",
+      "UC-004"
+    ],
+    "id": "US-034",
+    "cbId": "CB-011"
+  },
+  {
+    "title": "Memory Lane \u2013 Voice Playback of Memorable Messages from Family",
+    "summary": "As a tech-curious older adult with mild mobility issues, I want to listen to voice messages from my family so that I can feel more connected and less isolated, especially when I cannot travel to see them.",
+    "priority": 1,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-004"
+    ],
+    "id": "US-035",
+    "cbId": "CB-012"
+  },
+  {
+    "title": "Flexible Communication Modes \u2013 Voice-to-Text Messaging for Easy Connectivity",
+    "summary": "As a tech-curious older adult, I want to send and receive messages using voice-to-text functionality so that I can easily communicate with my family and friends without feeling overwhelmed by complex technology.",
+    "priority": 1,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-004"
+    ],
+    "id": "US-036",
+    "cbId": "CB-013"
+  },
+  {
+    "title": "Social Skill Building Activities \u2013 Conversation Starters for Enhanced Engagement",
+    "summary": "As a tech-curious older adult, I want conversation starters to be suggested by ALFRED so that I can engage more easily with my family and friends during video calls and feel less isolated.",
+    "priority": 1,
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-003",
+      "UC-004"
+    ],
+    "id": "US-037",
+    "cbId": "CB-014"
+  },
+  {
+    "title": "Proactive Check-Ins for Emotional Support",
+    "summary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to proactively check in on me during high-risk times so that I can feel more connected and less isolated, especially when my children are not around.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -41,63 +92,6 @@
       "UC-004"
     ],
     "id": "US-038",
-    "cbId": "CB-011"
-  },
-  {
-    "title": "Memory Aid for Social Interactions \u2013 Reminders of Names and Relationships of Contacts",
-    "summary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to remind me of the names and relationships of my contacts during video calls so that I can feel more connected and engaged in conversations without feeling overwhelmed.",
-    "priority": 1,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Older Adults",
-    "personaId": "P-002",
-    "useCases": [
-      "UC-001",
-      "UC-004"
-    ],
-    "id": "US-039",
-    "cbId": "CB-012"
-  },
-  {
-    "title": "Enhanced Remote Family Engagement \u2013 Shared Calendars for Family Events and Activities",
-    "summary": "As a tech-curious older adult, I want to share my calendar with my children so that they can help me remember important family events and activities, ensuring I stay connected and engaged with them.",
-    "priority": 1,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Older Adults",
-    "personaId": "P-002",
-    "useCases": [
-      "UC-001",
-      "UC-003",
-      "UC-004"
-    ],
-    "id": "US-040",
-    "cbId": "CB-013"
-  },
-  {
-    "title": "Personalized Emotional Support \u2013 Customizable Check-Ins for Emotional Well-Being",
-    "summary": "As a tech-curious older adult with mild mobility issues, I want customizable check-ins for emotional support so that I can feel more connected and engaged with my family and friends, reducing feelings of isolation.",
-    "priority": 1,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Older Adults",
-    "personaId": "P-002",
-    "useCases": [
-      "UC-003",
-      "UC-004"
-    ],
-    "id": "US-041",
     "cbId": "CB-015"
-  },
-  {
-    "title": "Local Resource Awareness",
-    "summary": "As a tech-curious older adult, I want to access a directory of nearby senior-friendly venues and services so that I can stay socially connected and engaged in my community without feeling overwhelmed by technology.",
-    "priority": 1,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Older Adults",
-    "personaId": "P-002",
-    "useCases": [
-      "UC-003",
-      "UC-004"
-    ],
-    "id": "US-042",
-    "cbId": "CB-016"
   }
 ]

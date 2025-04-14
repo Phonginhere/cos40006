@@ -1,36 +1,35 @@
 [
   {
-    "title": "Social Engagement Recommendations \u2013 Personalized Reminders for Upcoming Social Activities",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want personalized reminders for upcoming social activities so that I can maintain my social connections without feeling monitored.",
+    "title": "Social Engagement Recommendations",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want personalized event suggestions based on my interests and availability, so that I can stay socially engaged without feeling monitored or overwhelmed.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
       "UC-003",
-      "UC-001"
+      "UC-007"
     ],
-    "id": "US-177",
+    "id": "US-157",
     "cbId": "CB-009"
   },
   {
-    "title": "Simplified Video Calling Features for Connecting with Loved Ones",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want a simple video calling feature so that I can easily connect with my family without feeling overwhelmed or monitored.",
+    "title": "Scheduled Video Calls with Family Members",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to easily schedule and initiate video calls with my family members so that I can maintain my social connections without feeling monitored or overwhelmed by technology.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
       "UC-001",
-      "UC-003",
-      "UC-009"
+      "UC-003"
     ],
-    "id": "US-178",
+    "id": "US-158",
     "cbId": "CB-010"
   },
   {
-    "title": "Interest-based Activity Group Connections",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to receive recommendations for local activity groups or clubs based on my interests, so that I can maintain my cognitive abilities and continue participating in family activities without feeling monitored.",
+    "title": "Interest-Based Community Interaction \u2013 Connecting Users with Similar Hobbies",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to connect with others who share my interests in cycling and woodworking so that I can engage in meaningful activities without feeling monitored.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -40,41 +39,13 @@
       "UC-007",
       "UC-008"
     ],
-    "id": "US-179",
+    "id": "US-159",
     "cbId": "CB-011"
   },
   {
-    "title": "Memory Aid for Social Interactions \u2013 Reminders of Names and Relationships of Contacts",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to remind me of names and relationships of my contacts so that I can engage more comfortably and confidently in family activities and social interactions without feeling monitored.",
+    "title": "Memory Lane Features \u2013 Storytelling Prompts for Shared Experiences",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want prompts for storytelling that encourage sharing experiences with my family, so that I can maintain connections and participate in family activities without feeling monitored.",
     "priority": 1,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Older Adults",
-    "personaId": "P-007",
-    "useCases": [
-      "UC-001",
-      "UC-003"
-    ],
-    "id": "US-180",
-    "cbId": "CB-012"
-  },
-  {
-    "title": "Coordinated Messaging Threads for Family Updates",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want a simple and intuitive way to communicate with my family through coordinated messaging threads so that I can stay updated on family activities without feeling overwhelmed or monitored.",
-    "priority": 1,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Older Adults",
-    "personaId": "P-007",
-    "useCases": [
-      "UC-001",
-      "UC-003"
-    ],
-    "id": "US-181",
-    "cbId": "CB-013"
-  },
-  {
-    "title": "Personalized Emotional Support \u2013 Mood Tracking with Suggestions for Uplifting Activities",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want ALFRED to track my mood and suggest uplifting activities so that I can maintain my cognitive abilities and continue my active lifestyle without feeling monitored.",
-    "priority": 2,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
     "personaId": "P-007",
@@ -82,21 +53,22 @@
       "UC-003",
       "UC-007"
     ],
-    "id": "US-182",
-    "cbId": "CB-015"
+    "id": "US-160",
+    "cbId": "CB-012"
   },
   {
-    "title": "Local Resource Awareness \u2013 Directory of Nearby Senior-Friendly Venues and Services",
-    "summary": "As an active retiree with early-stage cognitive concerns, I want to easily find and access nearby senior-friendly venues and services so that I can engage in social activities and maintain connections with my family and community without feeling overwhelmed.",
+    "title": "Voice-to-Text Messaging for Social Inclusion",
+    "summary": "As an active retiree with early-stage cognitive concerns, I want to send and receive messages using voice-to-text functionality so that I can maintain social connections with my family and friends without the frustration of typing.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
     "personaId": "P-007",
     "useCases": [
+      "UC-001",
       "UC-003",
       "UC-009"
     ],
-    "id": "US-183",
-    "cbId": "CB-016"
+    "id": "US-161",
+    "cbId": "CB-013"
   }
 ]

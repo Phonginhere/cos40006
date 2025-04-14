@@ -1,7 +1,68 @@
 [
   {
-    "title": "Real-Time Health Monitoring Integration",
-    "summary": "As a full-stack developer, I want to create responsive webhook systems for live health alerts so that elderly users and their caregivers can receive timely notifications for urgent care events.",
+    "title": "Health Data Integration Framework",
+    "summary": "As a full-stack developer creating healthcare applications, I want an easy-to-use API for integrating real-time health data from wearable devices so that I can build applications that deliver timely notifications for urgent care events and improve the quality of life for elderly users.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-010",
+      "UC-012"
+    ],
+    "id": "US-008",
+    "cbId": "CB-086"
+  },
+  {
+    "title": "Integration of Caregiver Input for Personalized Care Plans",
+    "summary": "As a developer, I want to integrate caregiver input into personalized care plans so that applications can refine and adapt health monitoring based on real-time feedback and ensure compliance with healthcare regulations.",
+    "priority": 2,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-010"
+    ],
+    "id": "US-009",
+    "cbId": "CB-087"
+  },
+  {
+    "title": "Automated Escalation to Emergency Contacts",
+    "summary": "As a full-stack developer creating healthcare applications, I want to implement an automated escalation feature that alerts designated emergency contacts when urgent care events are detected, so that elderly users receive timely assistance and caregivers are informed without delay.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-010"
+    ],
+    "id": "US-010",
+    "cbId": "CB-088"
+  },
+  {
+    "title": "Health Monitoring Alerts System - Immediate Notifications for Caregivers",
+    "summary": "As a full-stack developer, I want to design a health monitoring alerts system that provides immediate notifications to caregivers so that they can respond promptly to urgent care events and improve the quality of life for elderly users.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Developers and App Creators",
+    "personaId": "P-001",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-010"
+    ],
+    "id": "US-011",
+    "cbId": "CB-089"
+  },
+  {
+    "title": "Real-time Health Data Integration",
+    "summary": "As a full-stack developer, I want to build webhook systems for live health alerts so that I can ensure timely notifications for urgent care events and bridge the gap between elderly users and their caregivers.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
@@ -12,11 +73,11 @@
       "UC-010"
     ],
     "id": "US-012",
-    "cbId": "CB-093"
+    "cbId": "CB-090"
   },
   {
-    "title": "Personalized Care Plan Integration",
-    "summary": "As a full-stack developer, I want to seamlessly integrate personalized care plans based on healthcare provider recommendations so that elderly users can receive tailored health management and timely notifications from their caregivers.",
+    "title": "Medication Management Interface \u2013 Caregiver Notifications for Missed Doses",
+    "summary": "As a developer, I want to create a medication management interface that notifies caregivers when a user misses a dose, so that I can ensure timely interventions and improve health outcomes for elderly users.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
@@ -24,86 +85,37 @@
     "useCases": [
       "UC-005",
       "UC-006",
-      "UC-010",
-      "UC-012"
+      "UC-010"
     ],
     "id": "US-013",
-    "cbId": "CB-094"
+    "cbId": "CB-091"
   },
   {
-    "title": "Timely Intervention Alerts \u2013 Emergency Notification System for Caregivers",
-    "summary": "As a full-stack developer, I want to build a system that provides timely notifications for urgent care events via automated callbacks so that caregivers can respond quickly and improve the quality of life for elderly users.",
+    "title": "Secure Access Controls for Sensitive Information",
+    "summary": "As a full-stack developer creating healthcare applications, I want to implement secure access controls for user health history so that I can ensure compliance with data privacy standards and protect sensitive information for elderly users and their caregivers.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
-      "UC-005",
-      "UC-006",
       "UC-010"
     ],
     "id": "US-014",
-    "cbId": "CB-095"
+    "cbId": "CB-092"
   },
   {
-    "title": "Secure Data Sharing Mechanism \u2013 User Consent Management for Data Sharing",
-    "summary": "As a developer, I want to implement a secure data sharing mechanism that ensures user consent management, so that I can comply with healthcare regulations while providing seamless integration for healthcare applications.",
+    "title": "Shared Access to User Health Data",
+    "summary": "As a full-stack developer, I want to implement shared access to user health data for caregivers so that they can receive timely notifications and provide better care to elderly users.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Developers and App Creators",
     "personaId": "P-001",
     "useCases": [
+      "UC-005",
+      "UC-006",
       "UC-010"
     ],
     "id": "US-015",
-    "cbId": "CB-096"
-  },
-  {
-    "title": "Caregiver Collaboration Tools",
-    "summary": "As a full-stack developer, I want to implement caregiver collaboration tools for task assignment and tracking so that I can create a more effective and personalized care experience for elderly users and their caregivers.",
-    "priority": 2,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
-    ],
-    "id": "US-016",
-    "cbId": "CB-097"
-  },
-  {
-    "title": "Integration of Cognitive Health Assessment Tools",
-    "summary": "As a full-stack developer, I want to integrate cognitive health assessment results into care plans so that caregivers can receive timely and actionable insights to support elderly users' cognitive health.",
-    "priority": 1,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
-    ],
-    "id": "US-017",
-    "cbId": "CB-098"
-  },
-  {
-    "title": "Integration with Health Analytics Platforms",
-    "summary": "As a developer, I want to seamlessly integrate ALFRED with external health analytics platforms so that I can enhance my applications with comprehensive health monitoring and analytics features for elderly users and their caregivers.",
-    "priority": 1,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Developers and App Creators",
-    "personaId": "P-001",
-    "useCases": [
-      "UC-005",
-      "UC-006",
-      "UC-010",
-      "UC-012"
-    ],
-    "id": "US-018",
-    "cbId": "CB-099"
+    "cbId": "CB-093"
   }
 ]

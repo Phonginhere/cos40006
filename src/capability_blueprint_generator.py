@@ -31,8 +31,12 @@ Your task is to generate a JSON array of **7 to 10 broad and abstract capability
 ⚠️ IMPORTANT: Avoid repeating items from previous pillars. {prior_text}
 
 FORMAT: Each item should be **brief, abstract, and general**. Avoid specifics like feature implementation, target age, or UI details. We only want minimal capability blueprints that will later be turned into fully developed user stories. Please generate **7 to 10** capability blueprints in a JSON array. Each capability blueprint should have:
-- "title": A concise title summarizing the capability blueprint
-- "subOptions": A list of 3 to 6 more specific or optional refinements/variations. The aim of each subOption is a method to deliver the capability blueprint effectively and efficiently, which is specified in "title". Each subOption should be unique enough from each other, and the number of subOptions should be flexible (and considered carefully) between 3 and 6 to ensure all possible options of capability blueprints are listed.
+- "title": A concise title summarizing the capability blueprint. It should be general, minimal, and system-level
+- "subOptions": A list of 3 to 6 more specific or optional refinements/variations. The aim of each subOption is a method to deliver the capability blueprint effectively and efficiently, which is specified in "title". The subOptions are diverse, non-overlapping, and sometimes even mutually EXCLUSIVE, and the number of subOptions should be flexible (and considered carefully) between 3 and 6 to ensure all possible options of capability blueprints are listed.
+Alternatively,  varying the number of subOptions between 3 and 6 is a very smart way to reflect:
+  + The conceptual depth of each capability,
+  + The realistic delivery diversity,
+  + And your’s ability to infer minimal or expanded options.
 
 📤 Output format:
 [
@@ -44,30 +48,163 @@ FORMAT: Each item should be **brief, abstract, and general**. Avoid specifics li
 ]
 
 Example below (DO NOT rely 100% on this example. This is just to help you understand the format and level of detail expected in the output. The real capability blueprints (title, subObtions, subObtions's count, etc.) should be based on the user group summary (as specified above) and ALFRED system summary you’ve been provided, and they should reflect the specific needs of the given User group in relation to the ALFRED system.):
-- Example 1: Based on User group "Caregivers and Medical Staff" and Pillar 3 - Effective & Personalized Care
+
+Example 1: Based on user group "Older Adults", and Pillar 1 - User-Driven Interaction Assistant
 [
   {{
-    "title": "Accessible Client Health Data Interfaces",
+    "title": "Personalized Daily Routines",
     "subOptions": [
-      "Voice-based interaction for data retrieval",
-      "Tactile interface with summaries and alerts",
-      "Real-time dashboards with customizable views",
-      "Offline access to basic health stats"
+      "Voice-based wake-up reminders",
+      "Automated agenda recaps in the morning",
+      "Routine summary and suggestions in the evening"
+    ]
+  }},
+  {{
+    "title": "Environment-Aware Assistance",
+    "subOptions": [
+      "Adjust responses based on current location",
+      "Voice interaction changes based on time of day",
+      "Proactive prompts when users appear inactive",
+      "Seasonal adaptation of guidance and reminders",
+      "Alert suppression during quiet hours"
     ]
   }},
   ...
 ]
 
-Example 2: Based on User group "Older Adults", and pillar "General Requirements"
+Example 2: Based on user group "Older Adults", and Pillar 2 - Personalized Social Inclusion
 [
   {{
-    "title": "Privacy-Preserving Voice Command Recognition",
+    "title": "Enhanced Social Connectivity",
     "subOptions": [
-      "On-device voice processing to avoid cloud dependencies",
-      "Selective data sharing with configurable permissions",
-      "User confirmation before sensitive actions are taken",
-      "Local storage for personal logs with encryption",
-      "Option to disable listening during private hours"
+      "Voice-managed contact directory",
+      "Scheduled calls with friends or family",
+      "Automated invitations to local events"
+    ]
+  }},
+  {{
+    "title": "Memory-Aware Reminders",
+    "subOptions": [
+      "Birthday and anniversary prompts",
+      "Voice-recorded personal notes replay",
+      "Suggestions to reconnect with missed contacts",
+      "Family update digest delivery"
+    ]
+  }},
+  ...
+]
+
+Example 3: Based on user group "Caregivers and Medical Staff", and Pillar 1 - User-Driven Interaction Assistant
+[
+  {{
+    "title": "Remote Emergency Intervention Support",
+    "subOptions": [
+      "Instant voice-based SOS relay",
+      "Automated fallback contact escalation",
+      "Caregiver override for command injection",
+      "Context-aware emergency scenario detection"
+    ]
+  }},
+  {{
+    "title": "Medication Query Interface",
+    "subOptions": [
+      "Voice-driven pill identification",
+      "Medication side effect lookup",
+      "Usage clarification through scenario prompts",
+      "Time-based dosage confirmation via voice"
+    ]
+  }},
+  ...
+]
+
+Example 4: Based on user group "Caregivers and Medical Staff", and Pillar 3 - Effective & Personalized Care
+[
+  {{
+    "title": "Vital Data Monitoring Framework",
+    "subOptions": [
+      "Real-time pulse and heart rate visualization",
+      "Trend detection over rolling 7-day intervals",
+      "Configurable caregiver alert thresholds"
+    ]
+  }},
+  {{
+    "title": "User Localization Support",
+    "subOptions": [
+      "BLE/GPS switching based on indoor/outdoor context",
+      "Geo-fencing alerts for risk zones",
+      "Map-based caregiver dashboard integration",
+      "Historical movement heatmaps",
+      "Proximity alerts to prevent wandering",
+      "Speech-triggered location inquiry"
+    ]
+  }},
+  ...
+]
+
+Example 5: Based on user group "Caregivers and Medical Staff", and General Requirements
+[
+  {{
+    "title": "Secure Communication Channels",
+    "subOptions": [
+      "Encrypted voice and video calls",
+      "Timed message access",
+      "Message self-destruct timers",
+      "Access logs for message viewing"
+    ]
+  }},
+  {{
+    "title": "Cross-Device Access Portability",
+    "subOptions": [
+      "Profile syncing across caregiver devices",
+      "Temporary role delegation for shift coverage",
+      "Low-bandwidth fallback interaction mode",
+      "Device-specific feature enablement toggles"
+    ]
+  }},
+  ...
+]
+
+Example 6: Based on user group "Developers and App Creators", and Pillar 1 - User-Driven Interaction Assistant
+[
+  {{
+    "title": "Voice Interaction Toolkit for Developers",
+    "subOptions": [
+      "Open API for adding new commands",
+      "Replay debugger for intent misfires",
+      "Real-time sandbox simulation",
+      "Feedback analytics for command usage",
+      "Test suite generation for voice flows"
+    ]
+  }},
+  {{
+    "title": "Feature Flag Support in Deployment",
+    "subOptions": [
+      "Rollout scheduling across user cohorts",
+      "Control group selection for voice interaction experiments",
+      "Dynamic disabling of unstable commands",
+      "Audit logging per feature toggle action"
+    ]
+  }},
+  ...
+]
+
+Example 7: Based on user group "Developers and App Creators", and General Requirements
+[
+  {{   
+    "title": "Compliance-Aware Development Tools",
+    "subOptions": [
+      "Templates for privacy policy generation",
+      "Version-controlled legal disclaimer blocks",
+      "CI/CD plugins for consent validation",
+      "Interactive checklists aligned with ISO/HIPAA standards"
+    ]
+  }},
+  {{
+    "title": "System Status and Debugging Framework",
+    "subOptions": [
+      "Crash event timeline reconstruction",
+      "Real-time server health widget",
+      "Log streaming API for external dashboards"
     ]
   }},
   ...

@@ -1,22 +1,7 @@
 [
   {
-    "title": "Guided Home Exercise Programs",
-    "summary": "As a tech-curious older adult with mild mobility issues, I want access to guided video tutorials for safe home exercises so that I can maintain my physical health and independence without feeling overwhelmed by technology.",
-    "priority": 1,
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Older Adults",
-    "personaId": "P-002",
-    "useCases": [
-      "UC-008",
-      "UC-001",
-      "UC-004"
-    ],
-    "id": "US-051",
-    "cbId": "CB-025"
-  },
-  {
-    "title": "Memory Recall Challenges Based on Personal History",
-    "summary": "As a tech-curious older adult with mild mobility issues, I want to engage in memory recall challenges based on my personal history so that I can stimulate my cognitive abilities while reminiscing about my past experiences.",
+    "title": "Personalized Storytelling Sessions",
+    "summary": "As a tech-curious older adult with mild mobility issues, I want to engage in personalized storytelling sessions that resonate with my interests, so that I can stimulate my cognitive abilities while enjoying content related to my passion for classical music and my experiences.",
     "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
@@ -24,12 +9,39 @@
     "useCases": [
       "UC-007"
     ],
-    "id": "US-052",
-    "cbId": "CB-026"
+    "id": "US-046",
+    "cbId": "CB-023"
   },
   {
-    "title": "Wellness Check-In Reminders",
-    "summary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to remind me daily to reflect on my mood and health so that I can better manage my well-being and stay connected with my health.",
+    "title": "Gentle Stretching and Mobility Exercises Guidance",
+    "summary": "As a tech-curious older adult, I want ALFRED to guide me through gentle stretching and mobility exercises so that I can maintain my independence and manage my joint pain more effectively.",
+    "priority": 1,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-008"
+    ],
+    "id": "US-047",
+    "cbId": "CB-024"
+  },
+  {
+    "title": "Adaptive Learning Modules \u2013 Customizable Difficulty Levels for Activities",
+    "summary": "As a tech-curious older adult, I want activities that adapt to my abilities so that I can engage in cognitive stimulation without feeling overwhelmed.",
+    "priority": 1,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-007",
+      "UC-009"
+    ],
+    "id": "US-048",
+    "cbId": "CB-025"
+  },
+  {
+    "title": "Hydration and Nutrition Check-ins",
+    "summary": "As a tech-curious older adult, I want ALFRED to remind me to stay hydrated and check my nutrition so that I can manage my health efficiently and maintain my independence at home.",
     "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
@@ -38,51 +50,34 @@
       "UC-001",
       "UC-008"
     ],
-    "id": "US-053",
-    "cbId": "CB-027"
+    "id": "US-049",
+    "cbId": "CB-026"
   },
   {
-    "title": "Guided Mindfulness and Relaxation Exercises",
-    "summary": "As a tech-curious older adult with mild mobility issues, I want daily relaxation reminders with calming sounds so that I can manage my stress and maintain my mental well-being while enjoying my independence at home.",
-    "priority": 1,
+    "title": "Calming Music Playlists",
+    "summary": "As a tech-curious older adult, I want access to calming music playlists so that I can relax and manage my stress while maintaining my independence at home.",
+    "priority": 2,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
     "personaId": "P-002",
     "useCases": [
-      "UC-001",
-      "UC-007"
+      "UC-001"
     ],
-    "id": "US-054",
+    "id": "US-050",
     "cbId": "CB-028"
   },
   {
-    "title": "Community Activity Engagement \u2013 Local Event Notifications Based on User Interests",
-    "summary": "As a tech-curious older adult with mild mobility issues, I want to receive notifications about local events that match my interests so that I can stay socially connected and engaged with my community despite my limitations.",
+    "title": "Personalized Progress Tracking \u2013 Activity Logs for Cognitive and Physical Exercises",
+    "summary": "As a tech-curious older adult, I want to track my cognitive and physical activities in a way that is easy to understand so that I can monitor my progress and stay motivated in maintaining my health.",
     "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
     "personaId": "P-002",
     "useCases": [
-      "UC-003",
-      "UC-004"
+      "UC-008",
+      "UC-007"
     ],
-    "id": "US-055",
+    "id": "US-051",
     "cbId": "CB-029"
-  },
-  {
-    "title": "Personalized Music Appreciation Classes",
-    "summary": "As a tech-curious older adult with mild mobility issues, I want to access personalized music appreciation classes through ALFRED so that I can enjoy my passion for classical music while engaging my cognitive abilities without feeling overwhelmed by technology.",
-    "priority": 1,
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Older Adults",
-    "personaId": "P-002",
-    "useCases": [
-      "UC-001",
-      "UC-007",
-      "UC-009",
-      "UC-011"
-    ],
-    "id": "US-056",
-    "cbId": "CB-030"
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
-    "title": "Social Engagement Recommendations \u2013 Personalized Reminders for Upcoming Social Activities",
-    "summary": "As a retired social worker, I want ALFRED to remind me of upcoming social activities based on my interests, so that I can stay connected and engaged with my community despite my limited mobility.",
+    "title": "Social Engagement Recommendations",
+    "summary": "As a retired social worker, I want ALFRED to suggest local events based on my interests and availability, so that I can stay socially connected despite my limited mobility.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -10,12 +10,12 @@
       "UC-003",
       "UC-004"
     ],
-    "id": "US-117",
+    "id": "US-103",
     "cbId": "CB-009"
   },
   {
-    "title": "Simplified Video Calling for Social Connection",
-    "summary": "As a retired social worker, I want an easy-to-use video calling feature so that I can maintain social connections with my family and friends without difficulty.",
+    "title": "Scheduled Video Calls for Social Engagement",
+    "summary": "As a retired social worker, I want to schedule regular video calls with my family and friends so that I can maintain social connections despite my limited mobility.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -23,12 +23,12 @@
     "useCases": [
       "UC-004"
     ],
-    "id": "US-118",
+    "id": "US-104",
     "cbId": "CB-010"
   },
   {
-    "title": "Interest-based Activity Group Connections",
-    "summary": "As a retired social worker, I want ALFRED to suggest local activity groups or clubs based on my interests so that I can stay socially connected and continue volunteering despite my limited mobility.",
+    "title": "Interest-Based Community Interaction \u2013 Facilitating Local Meetups and Clubs",
+    "summary": "As a retired social worker, I want ALFRED to suggest local meetups and clubs based on my interests so that I can stay socially connected and continue volunteering despite my limited mobility.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -37,25 +37,26 @@
       "UC-003",
       "UC-004"
     ],
-    "id": "US-119",
+    "id": "US-105",
     "cbId": "CB-011"
   },
   {
-    "title": "Memory Aid for Social Interactions \u2013 Reminders of Names and Relationships",
-    "summary": "As a retired social worker, I want ALFRED to remind me of names and relationships of friends and family during conversations so that I can maintain meaningful social connections without feeling embarrassed or overwhelmed.",
+    "title": "Memory Lane Features \u2013 Storytelling Prompts for Social Connection",
+    "summary": "As a retired social worker, I want to have access to storytelling prompts that help me share memories and experiences with family and friends so that I can foster deeper connections and maintain my social ties despite my limited mobility.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
     "personaId": "P-005",
     "useCases": [
+      "UC-003",
       "UC-004"
     ],
-    "id": "US-120",
+    "id": "US-106",
     "cbId": "CB-012"
   },
   {
-    "title": "Enhanced Remote Family Engagement",
-    "summary": "As a retired social worker, I want to have coordinated messaging threads for family updates so that I can easily maintain communication with my children and husband, keeping everyone informed and engaged despite my limited mobility.",
+    "title": "Flexible Communication Modes \u2013 Voice-to-Text Messaging for Social Engagement",
+    "summary": "As a retired social worker, I want to use voice-to-text messaging to easily communicate with my family and friends so that I can stay socially connected despite my reduced mobility and busy schedule.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -63,13 +64,13 @@
     "useCases": [
       "UC-004"
     ],
-    "id": "US-121",
+    "id": "US-107",
     "cbId": "CB-013"
   },
   {
-    "title": "Guided Discussions on Current Events",
-    "summary": "As a retired social worker, I want ALFRED to facilitate guided discussions on current events so that I can stay socially connected and engaged with my community despite my limited mobility.",
-    "priority": 1,
+    "title": "Enhanced Social Engagement",
+    "summary": "As a retired social worker, I want ALFRED to provide me with conversation starters so that I can engage meaningfully with my friends and family, helping to maintain my social connections despite my limited mobility.",
+    "priority": 2,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
     "personaId": "P-005",
@@ -77,12 +78,12 @@
       "UC-003",
       "UC-004"
     ],
-    "id": "US-122",
+    "id": "US-108",
     "cbId": "CB-014"
   },
   {
-    "title": "Personalized Emotional Support \u2013 Mood Tracking with Suggestions for Uplifting Activities",
-    "summary": "As a retired social worker, I want ALFRED to track my mood and suggest uplifting activities so that I can maintain my emotional well-being and stay socially connected despite my limited mobility.",
+    "title": "Proactive Social Check-Ins",
+    "summary": "As a retired social worker, I want ALFRED to proactively check in with me and suggest social activities based on my interests and schedule so that I can stay socially connected and engaged despite my limited mobility.",
     "priority": 1,
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "userGroup": "Older Adults",
@@ -91,21 +92,7 @@
       "UC-003",
       "UC-004"
     ],
-    "id": "US-123",
+    "id": "US-109",
     "cbId": "CB-015"
-  },
-  {
-    "title": "Local Resource Awareness",
-    "summary": "As a retired social worker, I want to access a directory of senior-friendly venues and services so that I can stay socially connected and find suitable volunteering opportunities despite my limited mobility.",
-    "priority": 1,
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-003",
-      "UC-004"
-    ],
-    "id": "US-124",
-    "cbId": "CB-016"
   }
 ]

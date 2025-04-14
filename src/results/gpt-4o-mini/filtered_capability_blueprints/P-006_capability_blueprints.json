@@ -1,232 +1,192 @@
 [
   {
     "personaId": "P-006",
-    "cbId": "CB-040",
-    "title": "Voice-Activated Task Management – Voice Reminders for Medication and Appointments",
+    "cbId": "CB-037",
+    "title": "Voice Command Health Data Retrieval – Alerts for Health Anomalies",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "This subOption directly supports Sarah's core goals of managing appointments and ensuring her clients take their medications on time. It also addresses her challenges with clients who may struggle with technology, allowing her to provide reminders in a straightforward manner without overwhelming them.",
-    "subOption": "Voice reminders for medication and appointments"
+    "justification": "This capability is crucial for Sarah as it allows her to receive timely alerts about any health anomalies in her clients, enabling her to intervene quickly and ensure their safety. Given her concerns about misinterpretation of data and the need for careful review, having alerts that require validation before being acted upon aligns well with her goals of careful oversight in caregiving.",
+    "subOption": "Retrieve alerts and notifications regarding health anomalies"
+  },
+  {
+    "personaId": "P-006",
+    "cbId": "CB-039",
+    "title": "Interactive Care Task Management – Real-Time Status Updates on Care Tasks",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": "1",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "Sarah needs to efficiently manage multiple clients and ensure that she is aware of their health statuses in real-time to provide timely care. This subOption aligns with her goal of tracking health status and managing appointments effectively.",
+    "subOption": "Real-time status updates on care tasks"
+  },
+  {
+    "personaId": "P-006",
+    "cbId": "CB-040",
+    "title": "Personalized Communication Settings – Scheduling Communication Windows for Older Adults",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": "1",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "This subOption addresses Sarah's need for clear communication strategies with her clients, ensuring that sensitive information is presented in a calm and controlled manner. Scheduling communication windows aligns with her goal of reducing client stress and avoiding unnecessary or impersonal alerts, particularly for clients with cognitive impairments.",
+    "subOption": "Scheduling communication windows for older adults"
   },
   {
     "personaId": "P-006",
     "cbId": "CB-041",
-    "title": "Real-Time Health Monitoring Alerts – Emergency Alert System for Caregivers",
+    "title": "Health Insight Dialogue System – Conversational Updates on Health Trends",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "The emergency alert system aligns with Sarah's goal of ensuring the safety and well-being of her clients, allowing her to receive immediate notifications if any health anomalies arise. This capability addresses her concern about timely intervention without compromising the privacy of her clients.",
-    "subOption": "Emergency alert system for caregivers"
-  },
-  {
-    "personaId": "P-006",
-    "cbId": "CB-042",
-    "title": "Simplified Communication Tools – One-Touch Video Calling Feature",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "priority": "1",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "The one-touch video calling feature aligns with Sarah's need for effective communication with her clients, allowing her to quickly connect with them or their family members in a straightforward manner. This capability directly supports her goal of maintaining clear communication while managing multiple clients efficiently.",
-    "subOption": "One-touch video calling feature"
+    "justification": "This subOption aligns well with Sarah's need for verified health monitoring results and clarity in communication, allowing her to track multiple clients' health status in a calm and human-centered way, which is essential given her focus on reducing client stress and ensuring careful interpretation of health data.",
+    "subOption": "Conversational updates on health trends"
   },
   {
     "personaId": "P-006",
     "cbId": "CB-043",
-    "title": "User-Friendly Interface Customization – Simplified Navigation for Quick Access",
+    "title": "User-Focused Information Delivery – Voice Summaries of Recent Health Data",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "Sarah's role as a professional caregiver managing multiple clients requires her to quickly access critical information. Simplified navigation will help her efficiently manage appointments and health monitoring without the burden of a complicated interface, addressing her need for ease of use in a high-pressure environment.",
-    "subOption": "Simplified navigation options for quick access"
+    "justification": "This capability is essential for Sarah as it allows her to quickly and effectively track her clients' health statuses without overwhelming them with complex information, addressing her goal of ensuring health data is interpreted carefully and never misused.",
+    "subOption": "Voice summaries of recent health data"
   },
   {
     "personaId": "P-006",
-    "cbId": "CB-044",
-    "title": "Integrated Feedback Mechanism – Real-Time Suggestions for Caregiver Efficiency",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "cbId": "CB-051",
+    "title": "Health Data Visualization Tools – Customizable Health Metrics Dashboards",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "Sarah needs to track multiple clients' health status in real-time and manage care schedules effectively. Real-time suggestions based on interaction history would help her quickly access relevant information and streamline her tasks, reducing stress and enhancing clarity in her caregiving responsibilities.",
-    "subOption": "Real-time suggestions based on interaction history"
+    "justification": "Sarah needs to track multiple clients' health data effectively, and customizable dashboards would allow her to access the most relevant metrics at a glance, accommodating her focus on clear communication and oversight in care management. This aligns with her goal of ensuring health data is interpreted carefully and avoiding rushed decisions.",
+    "subOption": "Customizable health metrics dashboards"
   },
   {
     "personaId": "P-006",
-    "cbId": "CB-045",
-    "title": "Support for Multimodal Interaction – Voice, Touch, and Gesture Recognition Capabilities",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "cbId": "CB-052",
+    "title": "Personalized Care Plan Management – Collaborative Care Planning for Multiple Caregivers",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "This capability is crucial for Sarah, as she manages clients with varying levels of technology comfort and prefers intuitive interfaces. Voice and touch recognition can help facilitate smoother communication and interaction without overwhelming her clients, particularly those with cognitive impairments.",
-    "subOption": "Voice, touch, and gesture recognition capabilities"
+    "justification": "This capability is crucial for Sarah as she manages multiple clients and needs to coordinate care across different caregivers. The ability to collaboratively plan care ensures that all caregivers are aligned on the needs and health status of their clients, thereby enhancing the quality of care.",
+    "subOption": "Collaborative care planning with multiple caregivers"
   },
   {
     "personaId": "P-006",
-    "cbId": "CB-046",
-    "title": "Context-Aware Assistance – Time-Sensitive Alerts Based on User Routines",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "priority": "2",
+    "cbId": "CB-053",
+    "title": "Anomaly Detection and Alerts – Customizable Caregiver Alert Thresholds",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "This subOption is crucial for Sarah as it aligns with her need to manage multiple clients' health and care schedules effectively. Timely alerts can help her avoid rushed decisions and ensure that she interprets health data carefully, enhancing her ability to provide personalized care.",
-    "subOption": "Time-sensitive alerts based on user routines"
+    "justification": "This capability is crucial for Sarah, as she needs to manage multiple clients' health status accurately and avoid misinterpretations that can lead to unnecessary stress or actions. Customizable thresholds allow her to tailor alerts based on the unique needs and conditions of each client, fostering a more personalized and effective caregiving approach.",
+    "subOption": "Customizable alert thresholds for caregivers"
   },
   {
     "personaId": "P-006",
     "cbId": "CB-054",
-    "title": "Health Data Visualization and Reporting – Customizable Health Dashboards for Caregivers",
+    "title": "Medication Management System – Tailored Automated Reminders for Health Conditions",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "Sarah needs a simple interface to quickly access critical information about her clients, and customizable health dashboards would allow her to effectively monitor multiple clients' health status in real-time. This aligns with her goal of maintaining clarity in shared environments and managing care efficiently.",
-    "subOption": "Customizable health dashboards for caregivers"
+    "justification": "Sarah needs to manage medication for multiple clients efficiently without overwhelming them. Automated reminders tailored to health conditions can help her ensure that clients take their medications on time while reducing confusion or alarm caused by impersonal alerts.",
+    "subOption": "Automated reminders based on health conditions"
   },
   {
     "personaId": "P-006",
     "cbId": "CB-055",
-    "title": "Remote Care Coordination Tools – Integrated Calendar for Medication and Appointment Reminders",
+    "title": "Remote Patient Check-in Interface – Scheduled Virtual Check-ins via Video",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "An integrated calendar for medication and appointment reminders is crucial for Sarah as it helps her efficiently manage multiple clients' schedules while ensuring timely medication administration, which is vital in her role as a caregiver. This directly addresses her goal of managing care schedules and reduces the stress of juggling multiple appointments.",
-    "subOption": "Integrated calendar for medication and appointment reminders"
+    "justification": "Scheduled virtual check-ins via video align with Sarah's goal of maintaining clear communication with her clients and their families while also allowing for real-time health status updates. This feature can help her manage multiple clients effectively and ensure she has the necessary information to provide personalized care.",
+    "subOption": "Scheduled virtual check-ins via video"
   },
   {
     "personaId": "P-006",
     "cbId": "CB-056",
-    "title": "Personalized Health Insights – Alerts for Potential Health Risks Based on Patterns",
+    "title": "Emergency Response Coordination – Caregiver Alerts for Client Emergencies",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "This capability aligns with Sarah's goal to track multiple clients' health status in real-time while ensuring that health data is interpreted carefully. Alerts for potential health risks will enable her to take timely action without relying solely on automated interpretations, which she is concerned may lead to rushed decisions.",
-    "subOption": "Alerts for potential health risks based on patterns"
+    "justification": "This subOption is critical for Sarah as it allows her to receive timely alerts regarding her clients' health emergencies, enabling her to respond quickly and appropriately. Given her role in managing multiple elderly clients and her concern about ensuring their safety and well-being, this capability supports her core goals effectively.",
+    "subOption": "Caregiver alerting for emergency situations"
   },
   {
     "personaId": "P-006",
     "cbId": "CB-057",
-    "title": "Emergency Response Features – Immediate Alerts to Caregivers During Critical Events",
+    "title": "Holistic Health Tracking – Integration with Fitness and Wellness Apps",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "This subOption is crucial for Sarah, as she manages multiple clients and needs real-time information to make informed decisions regarding their health and safety. Immediate alerts would also help her prevent rushed or incorrect decisions, aligning with her goal to ensure careful interpretation of health data.",
-    "subOption": "Immediate alerts to caregivers during critical events"
+    "justification": "This capability aligns with Sarah's need to track multiple clients' health status in real-time and provide personalized care. Integrating fitness and wellness apps would allow her to monitor health metrics more effectively, helping her manage care schedules and ensure clients receive appropriate support.",
+    "subOption": "Integration with fitness and wellness apps"
   },
   {
     "personaId": "P-006",
-    "cbId": "CB-058",
-    "title": "Medication Management System – Tracking of Medication Adherence with Alerts",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "cbId": "CB-065",
+    "title": "User-Centric Data Access Control with Granular Permission Settings for Caregivers",
+    "pillar": "General Requirements",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "This subOption is crucial for Sarah as it supports her goal of tracking multiple clients' health status while ensuring that medication is taken correctly, which directly impacts their well-being. Given her concerns about timely and accurate care decisions, this feature can help mitigate risks associated with medication mismanagement and promote safer outcomes.",
-    "subOption": "Tracking of medication adherence with alerts"
+    "justification": "Sarah prioritizes data privacy and control over sensitive information, as highlighted by her concerns about how health data is interpreted and shared. Granular permission settings will allow her to manage access to client data more effectively, ensuring that only necessary information is shared, thus respecting the privacy preferences of older adults.",
+    "subOption": "Granular permission settings for caregivers"
   },
   {
     "personaId": "P-006",
-    "cbId": "CB-059",
-    "title": "Caregiver Training and Support Resources - Access to a Library of Training Videos and Guides",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "2",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "This subOption aligns with Sarah's need for ease of use and effective communication, as having access to training resources can help her quickly understand how to use ALFRED effectively for her diverse clientele. It also addresses her challenge of managing varying levels of technology comfort among her clients.",
-    "subOption": "Access to a library of training videos and guides"
-  },
-  {
-    "personaId": "P-006",
-    "cbId": "CB-060",
-    "title": "Multi-User Access Management - Customizable Permissions for Data Access",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "cbId": "CB-066",
+    "title": "Intuitive User Interface Design – Simplified Navigation for Caregivers",
+    "pillar": "General Requirements",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "Sarah's role as a professional caregiver managing multiple clients emphasizes the need for customizable permissions to ensure that each client's health data is accessed securely and appropriately. This capability aligns with her goal of maintaining clear communication while respecting clients' privacy preferences.",
-    "subOption": "Customizable permissions for data access"
+    "justification": "Sarah's role as a professional caregiver managing multiple clients necessitates a simple and efficient interface to quickly access critical information without complications. A tailored navigation system would enhance her ability to juggle multiple care schedules and reduce stress associated with technology use.",
+    "subOption": "Simplified navigation tailored for caregivers"
   },
   {
     "personaId": "P-006",
-    "cbId": "CB-061",
-    "title": "Personalized Care Alerts – Customizable Alert Settings for Specific Health Conditions",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "cbId": "CB-067",
+    "title": "Real-Time Health Data Synchronization – Instant Updates from Health Monitoring Devices",
+    "pillar": "General Requirements",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "This subOption aligns with Sarah's goal of ensuring health data is interpreted carefully and never misused. Customizable alert settings would allow her to tailor notifications based on individual client needs, thus avoiding unnecessary stress for clients while ensuring that she is informed of critical health changes.",
-    "subOption": "Customizable alert settings for specific health conditions"
+    "justification": "Sarah needs real-time data to effectively monitor her clients' health, ensuring timely interventions and appropriate responses to health metrics, especially given her focus on careful interpretation of health data to avoid rushed decisions.",
+    "subOption": "Instant updates from health monitoring devices"
+  },
+  {
+    "personaId": "P-006",
+    "cbId": "CB-068",
+    "title": "Comprehensive User Training Resources – Step-by-Step Guides for Common Tasks",
+    "pillar": "General Requirements",
+    "priority": "1",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "Sarah manages multiple clients and needs a straightforward way to access critical information and perform tasks without extensive training. Step-by-step guides will help her navigate ALFRED efficiently, especially for clients with varying levels of technology comfort.",
+    "subOption": "Step-by-step guides for common tasks"
   },
   {
     "personaId": "P-006",
     "cbId": "CB-069",
-    "title": "Secure Health Data Access Management – Role-Based Access Controls for Caregiver Permissions",
+    "title": "Multi-Channel Notification System – Push Notifications for Health Alerts",
     "pillar": "General Requirements",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "Sarah needs to ensure that sensitive health data is only accessible to authorized caregivers while respecting the privacy preferences of her clients. Role-based access controls will help her manage this access effectively, keeping client data secure and allowing her to focus on providing care without concerns about data misuse.",
-    "subOption": "Role-based access controls for caregiver permissions"
+    "justification": "Push notifications for health alerts are crucial for Sarah as they provide real-time information on her clients' health statuses, allowing her to respond promptly to any anomalies. Given her focus on ensuring clients' safety and well-being, this capability helps her manage multiple clients effectively while also respecting their privacy.",
+    "subOption": "Push notifications for health alerts"
   },
   {
     "personaId": "P-006",
     "cbId": "CB-070",
-    "title": "Intuitive Onboarding and Setup Process – Step-by-Step Guided Setup for Caregivers",
+    "title": "Cross-Platform Integration Capabilities – API Support for Third-Party Health Applications",
     "pillar": "General Requirements",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "Sarah, as a professional caregiver managing multiple elderly clients, needs a straightforward and efficient onboarding process to quickly familiarize herself with the system's functionalities without extensive training. A step-by-step guided setup will help her overcome the challenge of varying levels of technology comfort among her clients and ensure that she can manage care effectively.",
-    "subOption": "Step-by-step guided setup for caregivers"
+    "justification": "Sarah's role as a professional caregiver managing multiple clients requires her to efficiently track health metrics and coordinate care. API support for third-party health applications would enhance the capability to integrate various health monitoring tools, allowing her to have a comprehensive view of her clients' health data and streamline communication with healthcare professionals.",
+    "subOption": "API support for third-party health applications"
   },
   {
     "personaId": "P-006",
     "cbId": "CB-071",
-    "title": "Adaptive User Interface for Caregivers – Customizable Dashboard Layouts",
+    "title": "Adaptive Learning and Support – Feedback-Driven Interface Adjustments for Caregiver Usability",
     "pillar": "General Requirements",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "Sarah needs a simple interface to quickly access critical information about multiple clients, which can be enhanced through customizable dashboard layouts that prioritize the most relevant data for her caregiving tasks. This aligns with her goal of effectively managing multiple care schedules simultaneously while ensuring clarity and ease of use.",
-    "subOption": "Customizable dashboard layouts based on caregiver preferences"
-  },
-  {
-    "personaId": "P-006",
-    "cbId": "CB-072",
-    "title": "Comprehensive Data Privacy Controls – User-Defined Privacy Settings for Data Sharing",
-    "pillar": "General Requirements",
-    "priority": "1",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "Sarah's concerns about data privacy and the need for clear control over sensitive information directly align with the need for user-defined privacy settings. This feature would empower her to manage how client health data is shared, ensuring that it is only accessible to those who need it while respecting the preferences of her elderly clients.",
-    "subOption": "User-defined privacy settings for data sharing"
-  },
-  {
-    "personaId": "P-006",
-    "cbId": "CB-073",
-    "title": "Interoperability with Third-Party Systems – API Support for Integration with External Health Software",
-    "pillar": "General Requirements",
-    "priority": "2",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "Sarah needs reliable tools to monitor multiple clients' health data and coordinate care effectively. API integration with external health software would facilitate the seamless sharing of critical health information, enhancing her ability to provide personalized care while respecting client privacy.",
-    "subOption": "API support for integration with external health software"
-  },
-  {
-    "personaId": "P-006",
-    "cbId": "CB-074",
-    "title": "Feedback and Support Mechanisms – Knowledge Base for Caregiver Empowerment",
-    "pillar": "General Requirements",
-    "priority": "2",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "Sarah needs a simple interface to quickly access critical information and may encounter challenges with technology, especially given her clients' varying levels of comfort. A knowledge base would provide her with immediate answers to common issues, facilitating her caregiving tasks efficiently.",
-    "subOption": "Access to a knowledge base with FAQs and troubleshooting guides"
-  },
-  {
-    "personaId": "P-006",
-    "cbId": "CB-075",
-    "title": "Data Analytics and Reporting Tools – Alerts for Significant Changes in Health Metrics",
-    "pillar": "General Requirements",
-    "priority": "1",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "Sarah needs to monitor multiple clients' health statuses in real-time and requires alerts for significant changes to ensure timely interventions. This aligns with her goal to document care activities accurately while providing secure and clear communication with clients and their families.",
-    "subOption": "Alerts for significant changes in health metrics"
-  },
-  {
-    "personaId": "P-006",
-    "cbId": "CB-076",
-    "title": "Collaborative Care Coordination Features – Shared Access to Care Plans",
-    "pillar": "General Requirements",
-    "priority": "1",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "This capability is crucial for Sarah as she manages multiple elderly clients and needs to coordinate care effectively among various caregivers. Shared access to care plans ensures that all involved caregivers have the necessary information to provide consistent and personalized care, which aligns with her goals of maintaining clear communication and coordinating care.",
-    "subOption": "Shared access to care plans among multiple caregivers"
+    "justification": "Sarah needs a simple interface to quickly access critical information, and feedback-driven adjustments would allow the system to adapt to her preferences and the varying tech comfort levels of her clients, enhancing usability in complex caregiving scenarios.",
+    "subOption": "Feedback-driven interface adjustments"
   }
 ]

@@ -1,99 +1,83 @@
 [
   {
-    "title": "Automated Health Alerts for Safety",
-    "summary": "As a retired social worker, I want ALFRED to monitor my health and send automated alerts in case of emergencies so that I can ensure my safety while managing arthritis and maintaining my independence.",
+    "title": "Automated Alerts for Health Monitoring",
+    "summary": "As a retired social worker, I want ALFRED to automatically alert me and my family if my health readings indicate any abnormalities, so that I can receive timely assistance and maintain my independence.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
     "personaId": "P-005",
     "useCases": [],
-    "id": "US-125",
+    "id": "US-110",
+    "cbId": "CB-016"
+  },
+  {
+    "title": "Medication Adherence Support",
+    "summary": "As a retired social worker, I want ALFRED to remind me about my medication schedule and provide tips for managing my arthritis pain, so that I can remain physically active and volunteer without worrying about my health.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-008"
+    ],
+    "id": "US-111",
     "cbId": "CB-017"
   },
   {
-    "title": "Medication Management Support",
-    "summary": "As a retired social worker, I want automated reminders for my medication schedule so that I can manage my arthritis pain effectively and maintain my health while staying socially connected.",
+    "title": "Caregiver Communication Hub \u2013 Shared Health Updates and Alerts",
+    "summary": "As a retired social worker, I want to receive shared health updates and alerts from my caregivers so that I can stay informed about my health status and effectively manage my well-being while continuing to volunteer and stay socially connected.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
     "personaId": "P-005",
-    "useCases": [],
-    "id": "US-126",
+    "useCases": [
+      "UC-004"
+    ],
+    "id": "US-112",
     "cbId": "CB-018"
   },
   {
-    "title": "Health Data Sharing with Caregivers",
-    "summary": "As a retired social worker, I want to securely share my health data with my husband and adult children so that they can help me manage my health and ensure my well-being during my recovery.",
+    "title": "Emergency Contact Notifications",
+    "summary": "As a retired social worker, I want ALFRED to automatically notify my emergency contacts if I don't respond to health alerts, so that I can ensure my family's peace of mind and receive timely help in case of an emergency.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
     "personaId": "P-005",
     "useCases": [],
-    "id": "US-127",
+    "id": "US-113",
     "cbId": "CB-019"
   },
   {
-    "title": "Personalized Care Plan Development",
-    "summary": "As a retired social worker, I want ALFRED to regularly update my care plan based on my health changes so that I can manage my arthritis pain and stay physically active while maintaining my independence.",
-    "priority": 1,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-008"
-    ],
-    "id": "US-128",
-    "cbId": "CB-020"
-  },
-  {
-    "title": "Emergency Health Response Coordination",
-    "summary": "As a retired social worker, I want to easily request emergency assistance using voice commands so that I can quickly get help in case of a health issue without struggling with physical limitations.",
+    "title": "Long-term Health Tracking \u2013 Data Visualization for Health Trends",
+    "summary": "As a retired social worker, I want to visualize my long-term health data and trends so that I can monitor my well-being and manage my arthritis pain effectively.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
     "personaId": "P-005",
     "useCases": [],
-    "id": "US-129",
+    "id": "US-114",
+    "cbId": "CB-020"
+  },
+  {
+    "title": "Voice-Guided Medication Instructions",
+    "summary": "As a retired social worker, I want to receive voice-guided medication reminders and instructions so that I can manage my arthritis pain effectively and ensure I stay healthy while maintaining my busy schedule.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [],
+    "id": "US-115",
     "cbId": "CB-021"
   },
   {
-    "title": "Holistic Wellness Activities Suggestions",
-    "summary": "As a retired social worker, I want personalized reminders for physical exercises that consider my mobility challenges, so that I can remain physically active and manage my arthritis pain effectively.",
+    "title": "Health Monitoring and Reminders",
+    "summary": "As a retired social worker, I want ALFRED to monitor my health conditions and send medication reminders so that I can manage my arthritis pain effectively and maintain my well-being without feeling overwhelmed.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Older Adults",
     "personaId": "P-005",
-    "useCases": [
-      "UC-008"
-    ],
-    "id": "US-130",
+    "useCases": [],
+    "id": "US-116",
     "cbId": "CB-022"
-  },
-  {
-    "title": "Cognitive Health Enhancement Tools",
-    "summary": "As a retired social worker, I want to engage in daily cognitive challenges with adaptive difficulty so that I can stay mentally active and maintain my cognitive health while managing my arthritis and busy schedule.",
-    "priority": 1,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-007"
-    ],
-    "id": "US-131",
-    "cbId": "CB-023"
-  },
-  {
-    "title": "Real-Time Feedback for Care Customization",
-    "summary": "As a retired social worker, I want to provide real-time feedback on my health and well-being through ALFRED, so that my care can be tailored to my specific needs and I can stay connected with my caregivers.",
-    "priority": 1,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-004",
-      "UC-008"
-    ],
-    "id": "US-132",
-    "cbId": "CB-024"
   }
 ]

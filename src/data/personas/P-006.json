@@ -13,8 +13,10 @@
   },
   "Core characteristics": [
     "Organized",
+    "Prefers visual over menu-driven systems in multitasking scenarios",
     "Deliberate and careful with information access",
     "Advocates for slow tech adoption where client harm is possible",
+    "Supports client autonomy in technology usage decisions",
     "Compassionate",
     "Practical",
     "Resourceful",
@@ -23,28 +25,31 @@
   "Core goals": [
     "Track multiple clients' health status in real-time",
     "Efficiently manage appointments and care schedules",
+    "Enable clients to actively manage data access and sharing preferences",
     "Maintain clear communication with clients' family members",
     "Coordinate care with healthcare professionals",
     "Document care activities accurately",
-    "Ensure health data is interpreted carefully and never misused",
+    "Ensure clients are empowered to control who can access their data",
     "Promote safeguards that protect clients from over-reliance on automated systems",
     "Reduce client stress by avoiding unnecessary or impersonal system alerts",
     "Ensure clients receive information in a calm, human-centered way"
   ],
   "Typical challenges": [
     "Clients with varying levels of technology comfort",
-    "Juggling multiple care schedules simultaneously",
+    "Needs visual cues to reduce mental load when managing overlapping client schedules",
     "Limited internet connectivity in remote areas",
-    "Concerned that instant data access may lead to rushed or incorrect decisions by caregivers",
-    "Needs systems that prioritize review and oversight over speed",
+    "Clients sometimes feel disempowered by systems that make decisions on their behalf",
+    "Wants clients to actively review and approve data sharing with caregivers or families",
     "Voice assistants misinterpret commands in noisy environments or breach client confidentiality",
     "Automated reminders from systems like ALFRED can confuse or alarm clients with cognitive impairments",
     "Needs control over when and how sensitive information is presented to clients"
   ],
   "Singularities": [
     "Specializes in dementia care",
+    "Customizes device home screens to highlight most-used ALFRED functions",
+    "Runs mini digital literacy sessions for clients to help them manage ALFRED’s privacy tools",
     "Developed her own paper-based tracking system before adopting digital tools",
-    "Advocates for technology adoption among elderly clients",
+    "Helps clients understand how to manage their own privacy settings",
     "Previously involved in a care incident where misread sensor data led to an unnecessary emergency call",
     "Believes that timing and tone of communication are therapeutic tools in caregiving",
     "Experienced incidents where system-generated notifications led to client agitation"
@@ -62,7 +67,7 @@
   ],
   "Most important tasks": [
     "Verified health monitoring results with alert mediation",
-    "Simplified client management dashboard",
+    "Visually guided dashboard for high-frequency caregiving tasks",
     "Secure communication with families and healthcare providers"
   ],
   "Least important tasks": [
@@ -71,13 +76,13 @@
     "Entertainment options"
   ],
   "Miscellaneous": [
-    "Disables direct client notifications in most ALFRED configurations",
     "Prefers tablet for client management activities",
+    "Uses visual icons or tags to quickly distinguish between client priorities",
     "Needs offline functionality for areas with poor connectivity",
-    "Values simple, intuitive interfaces that work quickly",
-    "Concerned about elderly clients' data privacy",
+    "Relies on visual cues to manage tasks efficiently under time pressure",
+    "Believes privacy must be configured at the client level when possible",
     "Prefers tactile or typed input over voice for sensitive information due to privacy concerns",
-    "Prefers ALFRED to require validation before showing abnormal health trends",
+    "Prefers clients to validate sharing of health data anomalies with caregivers",
     "Believes in collaborative care decisions, not automated interpretations"
   ]
 }

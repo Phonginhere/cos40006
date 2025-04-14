@@ -1,7 +1,7 @@
 [
   {
-    "title": "Secure Health Data Access Management",
-    "summary": "As a home-care nurse, I want role-based access controls for caregiver permissions so that I can securely access my patients' health data while respecting their privacy preferences.",
+    "title": "User-Centric Data Access Control \u2013 Granular Permission Settings for Caregivers",
+    "summary": "As a home-care nurse, I want to set granular permission levels for accessing patient health data so that I can ensure privacy while effectively monitoring and coordinating care for my rural patients.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Caregivers and Medical Staff",
@@ -10,30 +10,27 @@
       "UC-005",
       "UC-006"
     ],
-    "id": "US-101",
-    "cbId": "CB-069"
+    "id": "US-088",
+    "cbId": "CB-065"
   },
   {
-    "title": "Flexible Learning Options for Feature Familiarization",
-    "summary": "As a home-care nurse, I want to explore new health tech features at my own pace so that I can independently use digital tools to support my rural patients without feeling constrained by structured walkthroughs.",
+    "title": "Intuitive User Interface Design \u2013 Simplified Navigation for Caregivers",
+    "summary": "As a home-care nurse, I want an intuitive interface to easily access patient health data and manage care tasks without complicated setup, so that I can efficiently monitor my patients and respond promptly to their needs.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
-      "UC-001",
-      "UC-002",
-      "UC-004",
       "UC-005",
       "UC-006",
       "UC-011"
     ],
-    "id": "US-102",
-    "cbId": "CB-070"
+    "id": "US-089",
+    "cbId": "CB-066"
   },
   {
-    "title": "Customizable Dashboard for Patient Monitoring",
-    "summary": "As a home-care nurse, I want to customize my dashboard layout to prioritize the health metrics of my patients so that I can efficiently track their progression and respond to their needs without unnecessary navigation.",
+    "title": "Real-Time Health Data Synchronization for Remote Monitoring",
+    "summary": "As a home-care nurse, I want to receive real-time updates from health monitoring devices so that I can track my patients' vital signs and health metrics efficiently, allowing for timely interventions and informed care strategies.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Caregivers and Medical Staff",
@@ -42,68 +39,28 @@
       "UC-005",
       "UC-006"
     ],
-    "id": "US-103",
-    "cbId": "CB-071"
+    "id": "US-090",
+    "cbId": "CB-067"
   },
   {
-    "title": "Comprehensive Data Privacy Controls",
-    "summary": "As a home-care nurse, I want to have user-defined privacy settings for data sharing so that I can access necessary health data while respecting my patients' privacy preferences.",
-    "priority": 1,
-    "pillar": "General Requirements",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-005",
-      "UC-006"
-    ],
-    "id": "US-104",
-    "cbId": "CB-072"
-  },
-  {
-    "title": "Health Data Integration",
-    "summary": "As a home-care nurse, I want to easily import and export patient health records from third-party systems so that I can analyze trends and monitor my patients' health progression effectively.",
-    "priority": 1,
-    "pillar": "General Requirements",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-005",
-      "UC-006"
-    ],
-    "id": "US-105",
-    "cbId": "CB-073"
-  },
-  {
-    "title": "Knowledge Base Access for Independent Learning",
-    "summary": "As a home-care nurse, I want access to a comprehensive knowledge base so that I can explore system features at my own pace and improve my ability to support my rural patients.",
+    "title": "Comprehensive User Training Resources \u2013 Interactive Video Tutorials for Independent Learning",
+    "summary": "As a home-care nurse, I want to access interactive video tutorials independently so that I can explore the system features at my own pace and enhance my ability to monitor and care for my patients effectively.",
     "priority": 2,
     "pillar": "General Requirements",
     "userGroup": "Caregivers and Medical Staff",
     "personaId": "P-004",
     "useCases": [
-      "UC-002",
+      "UC-001",
       "UC-005",
-      "UC-006"
+      "UC-006",
+      "UC-011"
     ],
-    "id": "US-106",
-    "cbId": "CB-074"
+    "id": "US-091",
+    "cbId": "CB-068"
   },
   {
-    "title": "Custom Health Trend Reporting",
-    "summary": "As a home-care nurse, I want to generate custom reports on patient health trends over time so that I can analyze patterns and identify early warning signs to improve care strategies.",
-    "priority": 1,
-    "pillar": "General Requirements",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-004",
-    "useCases": [
-      "UC-005"
-    ],
-    "id": "US-107",
-    "cbId": "CB-075"
-  },
-  {
-    "title": "Real-Time Patient Monitoring Updates",
-    "summary": "As a home-care nurse, I want to receive real-time updates on my patients' health status so that I can monitor their vital signs efficiently and respond proactively to any changes.",
+    "title": "Health Alert Notifications",
+    "summary": "As a home-care nurse, I want to receive push notifications for health alerts such as anomalies in patient vitals so that I can promptly respond to potential issues and ensure my patients' well-being.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Caregivers and Medical Staff",
@@ -112,7 +69,36 @@
       "UC-005",
       "UC-006"
     ],
-    "id": "US-108",
-    "cbId": "CB-076"
+    "id": "US-092",
+    "cbId": "CB-069"
+  },
+  {
+    "title": "Cross-Platform Integration for Health Monitoring",
+    "summary": "As a home-care nurse, I want ALFRED to integrate with third-party health applications so that I can track patient health data from various devices and platforms, enabling me to monitor their well-being more effectively and efficiently.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-005",
+      "UC-006"
+    ],
+    "id": "US-093",
+    "cbId": "CB-070"
+  },
+  {
+    "title": "Adaptive Learning and Support",
+    "summary": "As a home-care nurse, I want the ALFRED system to adapt to my learning style and preferences so that I can explore features at my own pace and improve my efficiency in monitoring patient health remotely.",
+    "priority": 2,
+    "pillar": "General Requirements",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-004",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-011"
+    ],
+    "id": "US-094",
+    "cbId": "CB-071"
   }
 ]

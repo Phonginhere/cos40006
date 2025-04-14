@@ -1,7 +1,20 @@
 [
   {
-    "title": "Adaptive Physical Activity Programs \u2013 Guided Video Tutorials for Safe Home Exercises",
-    "summary": "As a retired social worker, I want guided video tutorials for safe home exercises tailored to my abilities so that I can remain physically active without risking injury due to my arthritis and reduced mobility.",
+    "title": "Cognitive Engagement Activities - Memory Games for Mental Stimulation",
+    "summary": "As a retired social worker, I want engaging memory games that adapt to my cognitive abilities so that I can stay mentally active and connected while managing my arthritis pain.",
+    "priority": 1,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-007"
+    ],
+    "id": "US-117",
+    "cbId": "CB-023"
+  },
+  {
+    "title": "Physical Activity Guidance \u2013 Gentle Stretching and Mobility Exercises",
+    "summary": "As a retired social worker, I want guidance on gentle stretching and mobility exercises so that I can stay physically active and manage my arthritis pain effectively.",
     "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
@@ -9,52 +22,37 @@
     "useCases": [
       "UC-008"
     ],
-    "id": "US-133",
+    "id": "US-118",
+    "cbId": "CB-024"
+  },
+  {
+    "title": "Adaptive Learning for Physical Activities",
+    "summary": "As a retired social worker, I want customizable difficulty levels for activities so that I can engage in physical and cognitive tasks that suit my current abilities and help me stay active despite my arthritis.",
+    "priority": 1,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
+    "useCases": [
+      "UC-007",
+      "UC-008"
+    ],
+    "id": "US-119",
     "cbId": "CB-025"
   },
   {
-    "title": "Cognitive Stimulation Activities \u2013 Memory Recall Challenges Based on Personal History",
-    "summary": "As a retired social worker, I want to engage in memory recall challenges based on my personal history so that I can stay mentally active and connected to my past experiences while managing my arthritis and limited mobility.",
+    "title": "Reminders for Daily Activities \u2013 Check-Ins for Hydration and Nutrition",
+    "summary": "As a retired social worker, I want ALFRED to remind me to stay hydrated and check my nutrition so that I can maintain my physical health while managing my arthritis and busy schedule.",
     "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
     "personaId": "P-005",
-    "useCases": [
-      "UC-007"
-    ],
-    "id": "US-134",
+    "useCases": [],
+    "id": "US-120",
     "cbId": "CB-026"
   },
   {
-    "title": "Wellness Check-In Reminders",
-    "summary": "As a retired social worker, I want interactive voice check-ins to assess my mental state so that I can remain mentally active and receive timely support when needed.",
-    "priority": 1,
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-007"
-    ],
-    "id": "US-135",
-    "cbId": "CB-027"
-  },
-  {
-    "title": "Guided Mindfulness and Relaxation Exercises",
-    "summary": "As an older adult, I want daily reminders for guided mindfulness and relaxation exercises with calming sounds so that I can manage my arthritis pain and remain mentally active while staying socially connected.",
-    "priority": 1,
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "userGroup": "Older Adults",
-    "personaId": "P-005",
-    "useCases": [
-      "UC-004",
-      "UC-008"
-    ],
-    "id": "US-136",
-    "cbId": "CB-028"
-  },
-  {
-    "title": "Community Activity Engagement \u2013 Local Event Notifications Based on User Interests",
-    "summary": "As a retired social worker, I want to receive notifications about local events that align with my interests so that I can stay socially connected and continue volunteering despite my limited mobility.",
+    "title": "Community Engagement Initiatives - Volunteer Opportunities Based on Interests",
+    "summary": "As a retired social worker, I want ALFRED to suggest volunteer opportunities based on my interests so that I can stay socially connected and remain active in my community despite my limited mobility.",
     "priority": 1,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
@@ -63,20 +61,32 @@
       "UC-003",
       "UC-004"
     ],
-    "id": "US-137",
-    "cbId": "CB-029"
+    "id": "US-121",
+    "cbId": "CB-027"
   },
   {
-    "title": "Personalized Learning Modules \u2013 Music or Art Appreciation Classes",
-    "summary": "As a retired social worker, I want to access personalized music or art appreciation classes so that I can remain mentally engaged and continue my passion for community activities while managing my reduced mobility.",
+    "title": "Mindfulness and Relaxation Tools - Guided Meditation for Active Living",
+    "summary": "As a retired social worker, I want guided meditation sessions integrated into ALFRED so that I can manage my arthritis pain and stay mentally active while maintaining my busy schedule.",
     "priority": 2,
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "userGroup": "Older Adults",
     "personaId": "P-005",
+    "useCases": [],
+    "id": "US-122",
+    "cbId": "CB-028"
+  },
+  {
+    "title": "Personalized Progress Tracking \u2013 Goal-Setting for Achievements",
+    "summary": "As a retired social worker, I want to set and track personal goals for physical and cognitive activities so that I can stay active and engaged while managing my arthritis.",
+    "priority": 1,
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "userGroup": "Older Adults",
+    "personaId": "P-005",
     "useCases": [
-      "UC-007"
+      "UC-007",
+      "UC-008"
     ],
-    "id": "US-138",
-    "cbId": "CB-030"
+    "id": "US-123",
+    "cbId": "CB-029"
   }
 ]

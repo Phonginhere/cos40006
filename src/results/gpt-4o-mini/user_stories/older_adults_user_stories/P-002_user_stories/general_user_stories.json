@@ -1,7 +1,81 @@
 [
   {
-    "title": "Intuitive Voice-Guided Navigation",
-    "summary": "As a tech-curious older adult, I want an intuitive voice-guided navigation system so that I can easily manage my daily tasks without feeling overwhelmed by technology.",
+    "title": "User-Centric Privacy Controls \u2013 User-Friendly Privacy Settings Interface",
+    "summary": "As a tech-curious older adult, I want a simple and clear privacy settings interface so that I can easily manage my data privacy and feel secure while using the ALFRED system.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-009",
+      "UC-011"
+    ],
+    "id": "US-052",
+    "cbId": "CB-030"
+  },
+  {
+    "title": "Adaptive System Configuration \u2013 Guided Onboarding with Voice Assistance",
+    "summary": "As a tech-curious older adult, I want a guided onboarding process with voice assistance so that I can easily set up and configure ALFRED without feeling overwhelmed by technology.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-011"
+    ],
+    "id": "US-053",
+    "cbId": "CB-031"
+  },
+  {
+    "title": "Health Monitoring Integration",
+    "summary": "As a tech-curious older adult, I want ALFRED to connect seamlessly with my wearable health monitor so that I can efficiently manage my health and receive timely reminders for medication and alerts in case of emergencies.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-001",
+      "UC-008",
+      "UC-009",
+      "UC-011"
+    ],
+    "id": "US-054",
+    "cbId": "CB-032"
+  },
+  {
+    "title": "Voice-Driven Health Management",
+    "summary": "As a tech-curious older adult with mild mobility issues, I want to use voice commands to set medication reminders and manage my health schedule so that I can maintain my independence and manage my health efficiently without feeling overwhelmed by technology.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-001",
+      "UC-004"
+    ],
+    "id": "US-055",
+    "cbId": "CB-033"
+  },
+  {
+    "title": "Simple Voice Feedback Collection",
+    "summary": "As a tech-curious older adult, I want to provide feedback to ALFRED using simple voice prompts, so that I can easily share my experiences and suggestions without feeling overwhelmed by technology.",
+    "priority": 1,
+    "pillar": "General Requirements",
+    "userGroup": "Older Adults",
+    "personaId": "P-002",
+    "useCases": [
+      "UC-001",
+      "UC-004",
+      "UC-002",
+      "UC-009",
+      "UC-011"
+    ],
+    "id": "US-056",
+    "cbId": "CB-035"
+  },
+  {
+    "title": "Accessibility Compliance Assurance \u2013 User Testing for Diverse Abilities",
+    "summary": "As a tech-curious older adult, I want the ALFRED system to be easy to navigate and understand, so that I can maintain my independence without feeling overwhelmed by complex technology.",
     "priority": 1,
     "pillar": "General Requirements",
     "userGroup": "Older Adults",
@@ -13,99 +87,6 @@
       "UC-011"
     ],
     "id": "US-057",
-    "cbId": "CB-032"
-  },
-  {
-    "title": "User-Controlled Data Sharing Preferences",
-    "summary": "As a tech-curious older adult, I want to have control over what personal and health information I share with ALFRED so that I can feel secure and respected regarding my privacy.",
-    "priority": 1,
-    "pillar": "General Requirements",
-    "userGroup": "Older Adults",
-    "personaId": "P-002",
-    "useCases": [
-      "UC-001",
-      "UC-004",
-      "UC-009",
-      "UC-011"
-    ],
-    "id": "US-058",
-    "cbId": "CB-033"
-  },
-  {
-    "title": "User-Centric Installation and Setup \u2013 Step-by-Step Voice-Assisted Process",
-    "summary": "As a tech-curious older adult, I want a simple and clear voice-assisted setup process for ALFRED so that I can easily install and configure the system without feeling overwhelmed by technology.",
-    "priority": 1,
-    "pillar": "General Requirements",
-    "userGroup": "Older Adults",
-    "personaId": "P-002",
-    "useCases": [
-      "UC-011"
-    ],
-    "id": "US-059",
-    "cbId": "CB-034"
-  },
-  {
-    "title": "Cross-Device Compatibility for Medication Reminders",
-    "summary": "As a tech-curious older adult with mild mobility issues, I want to receive medication reminders on my smartphone or tablet so that I can manage my health efficiently and maintain my independence without feeling overwhelmed by technology.",
-    "priority": 1,
-    "pillar": "General Requirements",
-    "userGroup": "Older Adults",
-    "personaId": "P-002",
-    "useCases": [
-      "UC-001",
-      "UC-004",
-      "UC-009",
-      "UC-011"
-    ],
-    "id": "US-060",
-    "cbId": "CB-035"
-  },
-  {
-    "title": "Cognitive Load-Reducing Interface Options",
-    "summary": "As a tech-curious older adult, I want a simple and intuitive interface that reduces cognitive load so that I can easily navigate and use ALFRED without feeling overwhelmed by technology.",
-    "priority": 1,
-    "pillar": "General Requirements",
-    "userGroup": "Older Adults",
-    "personaId": "P-002",
-    "useCases": [
-      "UC-001",
-      "UC-004",
-      "UC-009",
-      "UC-011"
-    ],
-    "id": "US-061",
     "cbId": "CB-036"
-  },
-  {
-    "title": "Flexible User Experience Customization for Enhanced Independence",
-    "summary": "As a tech-curious older adult, I want the ALFRED system to offer personalized interaction settings based on my preferences so that I can manage my tasks more easily and feel more comfortable using the technology.",
-    "priority": 1,
-    "pillar": "General Requirements",
-    "userGroup": "Older Adults",
-    "personaId": "P-002",
-    "useCases": [
-      "UC-001",
-      "UC-004",
-      "UC-009",
-      "UC-011"
-    ],
-    "id": "US-062",
-    "cbId": "CB-037"
-  },
-  {
-    "title": "24/7 Voice-Based Support Assistance",
-    "summary": "As a tech-curious older adult, I want 24/7 voice-based support so that I can receive immediate assistance with my medication reminders, calendar management, and emergency situations without feeling overwhelmed by complex technology.",
-    "priority": 1,
-    "pillar": "General Requirements",
-    "userGroup": "Older Adults",
-    "personaId": "P-002",
-    "useCases": [
-      "UC-001",
-      "UC-004",
-      "UC-009",
-      "UC-011"
-    ],
-    "id": "US-063",
-    "cbId": "CB-039"
   }
 ]

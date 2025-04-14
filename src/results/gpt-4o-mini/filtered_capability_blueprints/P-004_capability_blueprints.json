@@ -1,292 +1,252 @@
 [
   {
     "personaId": "P-004",
-    "cbId": "CB-040",
-    "title": "Voice-Activated Task Management – Voice Reminders for Medication and Appointments",
+    "cbId": "CB-037",
+    "title": "Voice Command Health Data Retrieval – Alerts and Notifications for Health Anomalies",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike requires a simple interface for efficient monitoring and communication, and voice reminders can help him ensure that patients adhere to medication schedules and appointments without disrupting his workflow. This aligns with his need for asynchronous communication and effective patient management.",
-    "subOption": "Voice reminders for medication and appointments"
+    "justification": "This capability is crucial for Mike, as he needs to monitor health metrics efficiently and respond quickly to any anomalies that could indicate deterioration in his patients' health, aligning directly with his core goals of providing preventative care and early intervention.",
+    "subOption": "Retrieve alerts and notifications regarding health anomalies"
+  },
+  {
+    "personaId": "P-004",
+    "cbId": "CB-038",
+    "title": "Contextual Caregiver Alerts – Voice Alerts for Critical Health Changes",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": "1",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "Voice alerts for critical health changes are crucial for Mike as they enable him to receive immediate notifications regarding his patients' health metrics, which he can use to make timely interventions. This aligns with his goal of monitoring health status efficiently and responding to early warning signs based on health data.",
+    "subOption": "Voice alerts for critical health changes"
+  },
+  {
+    "personaId": "P-004",
+    "cbId": "CB-039",
+    "title": "Interactive Care Task Management – Real-Time Status Updates for Efficient Patient Monitoring",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": "1",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "Real-time status updates on care tasks are crucial for Mike as they allow him to monitor multiple patients efficiently and respond promptly to any changes in their health status, addressing his core goals of anticipating deterioration and managing care remotely.",
+    "subOption": "Real-time status updates on care tasks"
+  },
+  {
+    "personaId": "P-004",
+    "cbId": "CB-040",
+    "title": "Personalized Communication Settings – Voice-Activated Preferences for Caregivers",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "priority": "1",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "Mike values technology that enhances patient connection and prefers flexible, independent exploration of system features. Voice-activated communication preferences would allow him to efficiently interact with the system while keeping his hands free for patient care, aligning with his goal of supporting socially isolated patients.",
+    "subOption": "Voice-activated communication preferences"
   },
   {
     "personaId": "P-004",
     "cbId": "CB-041",
-    "title": "Real-Time Health Monitoring Alerts – Historical Data Trends for Health Metrics",
+    "title": "Health Insight Dialogue System – Conversational Updates on Health Trends",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike values analyzing patient health trends to improve care outcomes and relies on historical data to spot patterns that can lead to early interventions. This subOption directly supports his goal of tracking patient health progression over time.",
-    "subOption": "Historical data trends for health metrics"
+    "justification": "Mike's core goals include tracking patient health progression over time and spotting patterns in health metrics to anticipate deterioration. Conversational updates on health trends would enable him to receive timely insights and alerts regarding his patients, enhancing his decision-making and care strategies.",
+    "subOption": "Conversational updates on health trends"
   },
   {
     "personaId": "P-004",
     "cbId": "CB-042",
-    "title": "Simplified Communication Tools – Voice Messages for Asynchronous Communication",
+    "title": "Remote Interaction Facilitation – Direct Voice Messaging for Care Coordination",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "This subOption aligns well with Mike's preference for asynchronous communication, as he often sends quick voice notes during breaks in patient visits. It allows him to communicate efficiently without interrupting patient care routines, which is essential given his rural healthcare context and limited connectivity.",
-    "subOption": "Voice messages for asynchronous communication"
+    "justification": "This subOption aligns well with Mike's preference for asynchronous communication, allowing him to send quick voice notes during breaks without disrupting patient care routines. It supports his need for efficient communication with both patients and the healthcare team, making it easier for him to manage care remotely.",
+    "subOption": "Direct voice messages for non-urgent inquiries"
   },
   {
     "personaId": "P-004",
     "cbId": "CB-043",
-    "title": "User-Friendly Interface Customization – Voice Command Shortcuts for Common Functions",
+    "title": "User-Focused Information Delivery – Voice Summaries of Recent Health Data",
     "pillar": "Pillar 1 - User-Driven Interaction Assistant",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike values systems that allow him to explore features at his own pace and prefers tools that enhance patient connection without being overly complex. Voice command shortcuts will enable him to efficiently navigate the system and access critical information quickly, which is essential given his remote working conditions and the need for effective communication with patients and their families.",
-    "subOption": "Voice command shortcuts for common functions"
+    "justification": "This feature supports Mike's goal of efficiently monitoring patients' health status by providing quick, accessible insights into vital metrics without requiring extensive navigation. It aligns with his need to spot patterns in health metrics and generate insights for better care strategies.",
+    "subOption": "Voice summaries of recent health data"
+  },
+  {
+    "personaId": "P-004",
+    "cbId": "CB-044",
+    "title": "Social Engagement Recommendation System – Proactive Reminders for Upcoming Social Activities",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "priority": "1",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "Mike values maintaining connections with socially isolated patients and managing their social needs. Proactive reminders for social activities can help him encourage patient engagement and reduce isolation, which aligns with his core goals of providing empathetic care and supporting emotional well-being.",
+    "subOption": "Proactive reminders for upcoming social activities"
   },
   {
     "personaId": "P-004",
     "cbId": "CB-045",
-    "title": "Support for Multimodal Interaction – Voice, Touch, and Gesture Recognition",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "title": "Interactive Communication Facilitation – Text-Based Messaging Reminders for Caregivers",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike values systems that allow him to independently explore features, which voice and touch recognition can facilitate, making interactions with ALFRED more intuitive and accessible. This is particularly important given his rural setting, where connectivity may be inconsistent, and he often needs to communicate efficiently between patient visits.",
-    "subOption": "Voice, touch, and gesture recognition capabilities"
+    "justification": "This subOption supports Mike's need for efficient asynchronous communication with healthcare teams and families, allowing him to send reminders without interrupting patient care routines. It aligns well with his preference for tools that enhance patient connection while respecting the autonomy of older adults.",
+    "subOption": "Text-based messaging reminders for caregivers"
   },
   {
     "personaId": "P-004",
     "cbId": "CB-046",
-    "title": "Context-Aware Assistance – Adaptive Responses Based on User Mood or State",
-    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
-    "priority": "1",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike values systems that adapt to the emotional context of caregiving, enabling him to respond empathetically to his patients' needs. This capability can enhance his ability to monitor patients' emotional well-being, which is critical given his focus on providing preventative care and early intervention.",
-    "subOption": "Adaptive responses based on user mood or state"
-  },
-  {
-    "personaId": "P-004",
-    "cbId": "CB-048",
-    "title": "Enhanced Communication Channels – Voice Messages for Asynchronous Communication",
+    "title": "Personalized Social Inclusion – Access to Local Community Resources",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "priority": "1",
+    "priority": "2",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "This subOption aligns with Mike's preference for asynchronous communication, allowing him to send quick voice notes during breaks in patient visits without interrupting care routines. It also supports his need for efficient communication with both patients and healthcare teams, enhancing his ability to monitor and respond to patient needs effectively.",
-    "subOption": "Voice messages for asynchronous communication"
-  },
-  {
-    "personaId": "P-004",
-    "cbId": "CB-049",
-    "title": "Social Interaction Tracking – Customizable Reports for Caregivers on Social Activity Trends",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "priority": "1",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "This capability is essential for Mike as it allows him to generate insights from patient data, particularly regarding social interactions, which can inform his care strategies and help him monitor the social well-being of his patients more effectively. By analyzing social activity trends, he can address the social isolation of elderly patients, aligning with his core goals.",
-    "subOption": "Customizable reports for caregivers on social activity trends"
+    "justification": "This capability is vital for Mike as it enables him to support socially isolated patients by connecting them with community resources and activities that can enhance their social engagement and emotional well-being, which aligns with his goal of fostering connections for his patients.",
+    "subOption": "Access to local community resources"
   },
   {
     "personaId": "P-004",
     "cbId": "CB-050",
-    "title": "User-Centric Social Profiles – Caregiver Status Updates on User Interactions",
+    "title": "Shared Activity Planning Tools - Seamless Calendar Integration for Care Coordination",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "This capability is crucial for Mike as it allows him to receive timely updates on his patients' interactions and social engagement, which is vital for monitoring their emotional wellbeing and preventing isolation. Given Mike's emphasis on understanding his patients' emotional states and maintaining connections with socially isolated patients, these updates will enhance the care he provides.",
-    "subOption": "Status updates for caregivers on user interactions"
+    "justification": "This capability is crucial for Mike as he manages multiple patients in rural settings, often needing to coordinate care schedules and medication plans effectively. The integration with user calendars aligns with his preference for calendar-based organization and helps prevent overlaps in patient care.",
+    "subOption": "Integration with user calendars for seamless coordination"
   },
   {
     "personaId": "P-004",
     "cbId": "CB-051",
-    "title": "Activity Participation Monitoring – Alerting Caregivers About Missed Activities",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "title": "Health Data Visualization Tools – Graphical Trends for Vital Signs",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "This subOption is particularly relevant for Mike as he needs to ensure that his patients stay engaged and connected to social activities, which is crucial for their emotional well-being. Being alerted about missed activities would allow him to proactively reach out and support socially isolated patients, addressing both their emotional needs and health monitoring.",
-    "subOption": "Alerting caregivers about missed activities"
+    "justification": "This capability is crucial for Mike as he aims to track patient health progression over time and spot patterns in health metrics to anticipate deterioration. Graphical trends will enable him to quickly analyze vital signs and generate insights for effective care planning.",
+    "subOption": "Graphical trends over time for vital signs"
+  },
+  {
+    "personaId": "P-004",
+    "cbId": "CB-052",
+    "title": "Personalized Care Plan Management – Goal Tracking for Patient Health Improvements",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": "1",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "This subOption aligns well with Mike's core goals of tracking patient health progression and using historical health data to inform care strategies. It supports his need to spot patterns in health metrics to anticipate deterioration and provide preventative care, which is critical given his role as a home-care nurse.",
+    "subOption": "Goal tracking for patient health improvements"
   },
   {
     "personaId": "P-004",
     "cbId": "CB-053",
-    "title": "Cognitive Stimulation through Social Interaction – Discussion Prompts for Family Conversations",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "priority": "2",
+    "title": "Anomaly Detection and Alerts – Historical Anomaly Reporting for Trend Analysis",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "This subOption aligns with Mike's goal of supporting socially isolated patients and maintaining connections with their families, enhancing their emotional wellbeing. By facilitating family interactions, it addresses his challenge of managing emotional states and social needs remotely.",
-    "subOption": "Discussion prompts for family conversations"
+    "justification": "This capability aligns with Mike's goal of using historical health data to identify early warning signs and analyze patient health trends, which is crucial for effective and preventative care in his rural healthcare practice.",
+    "subOption": "Historical anomaly reporting for trend analysis"
   },
   {
     "personaId": "P-004",
     "cbId": "CB-054",
-    "title": "Health Data Visualization and Reporting – Graphical Trends of Vital Signs Over Time",
+    "title": "Medication Management System – Automated Health Condition Reminders",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "This capability is particularly relevant to Mike, as he enjoys analyzing patient health trends to improve care outcomes and needs to spot patterns in health metrics for early interventions. Graphical representations can help him quickly assess patient data and make informed decisions during his visits.",
-    "subOption": "Graphical trends of vital signs over time"
+    "justification": "Automated reminders will support Mike in efficiently tracking patient medication schedules, which is crucial for monitoring health status and facilitating timely interventions, especially given his focus on preventative care and early intervention.",
+    "subOption": "Automated reminders based on health conditions"
   },
   {
     "personaId": "P-004",
     "cbId": "CB-055",
-    "title": "Remote Care Coordination Tools - Integrated Calendar for Medication and Appointment Reminders",
+    "title": "Remote Patient Check-in Interface - Progress Tracking for Ongoing Health Concerns",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "This subOption aligns with Mike's need for efficient monitoring of patients' health status and his preference for calendar-based coordination. By integrating medication and appointment reminders, he can better manage care across multiple patients without overlaps.",
-    "subOption": "Integrated calendar for medication and appointment reminders"
+    "justification": "This subOption aligns with Mike's core goal of tracking patient health progression over time and using historical health data to identify early warning signs. It directly supports his need for efficient remote monitoring and allows him to generate insights from patient data, which is crucial in rural healthcare where in-person visits are limited.",
+    "subOption": "Progress tracking for ongoing health concerns"
   },
   {
     "personaId": "P-004",
     "cbId": "CB-056",
-    "title": "Personalized Health Insights – Alerts for Potential Health Risks Based on Patterns",
+    "title": "Emergency Response Coordination – Caregiver Alerting for Emergency Situations",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike's core goals include spotting patterns in health metrics to anticipate deterioration, making alerts for potential health risks crucial for his role as a home-care nurse. This capability will help him monitor patients effectively and respond quickly to any emerging issues, especially given his challenges with managing care remotely and the need for timely interventions.",
-    "subOption": "Alerts for potential health risks based on patterns"
+    "justification": "This subOption is crucial for Mike as he manages patient care remotely and needs to be notified about any emergencies or health anomalies that could arise between visits. Given his focus on monitoring health status and providing timely interventions, having a reliable alert system enhances his ability to respond swiftly to his patients' needs.",
+    "subOption": "Caregiver alerting for emergency situations"
   },
   {
     "personaId": "P-004",
     "cbId": "CB-057",
-    "title": "Emergency Response Features – Immediate Alerts to Caregivers During Critical Events",
+    "title": "Holistic Health Tracking – Mental Health Check-Ins and Resources",
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "This capability is crucial for Mike as it directly supports his goal of monitoring patients' health status efficiently and providing timely interventions based on critical health data. Given the challenges he faces with remote care and travel times, receiving immediate alerts allows him to respond quickly to any anomalies in his patients' health, enhancing their safety and well-being.",
-    "subOption": "Immediate alerts to caregivers during critical events"
-  },
-  {
-    "personaId": "P-004",
-    "cbId": "CB-058",
-    "title": "Medication Management System – Automated Reminders for Medication Schedules",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "1",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike's core goals include effective monitoring of patient health and medication tracking, which are crucial for preventing deterioration in his elderly patients. Automated reminders would facilitate timely adherence to medication schedules, ensuring that he can efficiently manage care remotely, especially given his focus on supporting socially isolated patients.",
-    "subOption": "Automated reminders for medication schedules"
-  },
-  {
-    "personaId": "P-004",
-    "cbId": "CB-059",
-    "title": "Caregiver Training and Support Resources – Access to a Library of Training Videos and Guides",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "2",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike values exploring system features at his own pace and prefers flexible learning options. Access to a library of training videos and guides will support his need to independently learn how to use ALFRED's features for effective patient care, addressing his typical challenges with limited resources and inconsistent connectivity in rural areas.",
-    "subOption": "Access to a library of training videos and guides"
-  },
-  {
-    "personaId": "P-004",
-    "cbId": "CB-061",
-    "title": "Personalized Care Alerts – Event-Triggered Alerts Based on User-Defined Criteria",
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "priority": "1",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "This subOption aligns well with Mike's goal of using historical health data to identify early warning signs, enabling him to set personalized alerts that fit the unique health conditions of his patients. As a home-care nurse, having the ability to receive alerts based on specific patient needs allows him to monitor patients effectively, especially given the challenges of long travel times and managing care remotely.",
-    "subOption": "Event-triggered alerts based on user-defined criteria"
-  },
-  {
-    "personaId": "P-004",
-    "cbId": "CB-064",
-    "title": "Activity Scheduling and Reminders – Customizable Reminders for Physical and Cognitive Activities",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
-    "priority": "1",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "Customizable reminders align with Mike's need to efficiently monitor his patients' activities and health status remotely, while also supporting his goal of providing preventative care and early intervention. This feature allows him to tailor reminders based on individual patient needs, which is crucial given his focus on personalized care for elderly patients.",
-    "subOption": "Customizable reminders for physical and cognitive activities"
+    "justification": "Mike's focus on responding empathetically to patients' emotional and behavioral cues makes mental health check-ins crucial for his caregiving. This feature aligns well with his goal of supporting socially isolated patients and addressing their emotional wellbeing.",
+    "subOption": "Mental health check-ins and resources"
   },
   {
     "personaId": "P-004",
     "cbId": "CB-065",
-    "title": "Progress Tracking and Feedback – Visual Progress Reports for Activities",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "title": "User-Centric Data Access Control – Granular Permission Settings for Caregivers",
+    "pillar": "General Requirements",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike values analyzing patient health trends for better care outcomes, and visual progress reports can provide him with the insights he needs to track health progression over time and identify early warning signs effectively.",
-    "subOption": "Visual progress reports for physical and cognitive activities"
+    "justification": "Mike needs to ensure that he can access the necessary health data of his patients while respecting their privacy preferences. Granular permission settings allow him to track vital health metrics without compromising the autonomy and confidentiality of the older adults he cares for.",
+    "subOption": "Granular permission settings for caregivers"
+  },
+  {
+    "personaId": "P-004",
+    "cbId": "CB-066",
+    "title": "Intuitive User Interface Design – Simplified Navigation for Caregivers",
+    "pillar": "General Requirements",
+    "priority": "1",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "Mike, as a home-care nurse, requires a simple interface to quickly access critical information without complicated setup or training, making simplified navigation essential for efficient health monitoring and patient care management.",
+    "subOption": "Simplified navigation tailored for caregivers"
   },
   {
     "personaId": "P-004",
     "cbId": "CB-067",
-    "title": "Personalized Activity Recommendations – Tailored Activity Suggestions Based on Health Data",
-    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "title": "Real-Time Health Data Synchronization – Instant Updates from Health Monitoring Devices",
+    "pillar": "General Requirements",
+    "priority": "1",
+    "userGroup": "Caregivers and Medical Staff",
+    "justification": "This capability is essential for Mike, as it aligns with his goal of efficiently monitoring patients' health status and spotting patterns in health metrics to anticipate deterioration. Given his rural setting, having real-time access to health data allows him to respond promptly to any anomalies, enhancing patient care.",
+    "subOption": "Instant updates from health monitoring devices"
+  },
+  {
+    "personaId": "P-004",
+    "cbId": "CB-068",
+    "title": "Comprehensive User Training Resources – Interactive Video Tutorials for Independent Learning",
+    "pillar": "General Requirements",
     "priority": "2",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "This subOption aligns with Mike's goal of using historical health data to identify early warning signs and improve care strategies for his patients. Tailored activity suggestions based on health data can help him ensure that the activities recommended to patients are appropriate for their specific health needs, thereby enhancing the effectiveness of his care.",
-    "subOption": "Tailored activity suggestions based on health data"
+    "justification": "Mike values systems that allow him to explore features independently and prefers flexible learning options. Video tutorials would enable him to learn at his own pace, helping him become proficient in using ALFRED's functionalities to support his rural patients effectively.",
+    "subOption": "Video tutorials for system navigation"
   },
   {
     "personaId": "P-004",
     "cbId": "CB-069",
-    "title": "Secure Health Data Access Management – Role-Based Access Controls for Caregiver Permissions",
+    "title": "Multi-Channel Notification System – Push Notifications for Health Alerts",
     "pillar": "General Requirements",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike Johnson, as a home-care nurse, requires the ability to access critical health data while ensuring that patient privacy is maintained. Role-based access controls allow him to manage permissions effectively, ensuring that he can monitor patient health without compromising the privacy preferences of the older adults he supports.",
-    "subOption": "Role-based access controls for caregiver permissions"
+    "justification": "This capability is critical for Mike as it allows him to monitor patient health metrics in real-time, ensuring he can react promptly to any anomalies, which aligns with his goal to respond empathetically and provide preventative care. Given the challenges of managing care remotely, timely health alerts via push notifications can significantly enhance his efficiency and responsiveness.",
+    "subOption": "Push notifications for health alerts"
   },
   {
     "personaId": "P-004",
     "cbId": "CB-070",
-    "title": "Intuitive Onboarding and Setup Process – Interactive Tutorials for Feature Familiarization",
+    "title": "Cross-Platform Integration Capabilities – API Support for Third-Party Health Applications",
     "pillar": "General Requirements",
     "priority": "1",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike values flexible, modular learning options and prefers discovering system capabilities on his own. Interactive tutorials will allow him to explore ALFRED's features independently, enabling him to adapt the system to his needs without feeling constrained by structured walkthroughs.",
-    "subOption": "Interactive tutorials for feature familiarization"
+    "justification": "Mike's role as a home-care nurse in rural settings requires him to efficiently monitor patient health and utilize various tools for data analysis. API support for third-party health applications would allow him to integrate ALFRED with other vital health monitoring tools, enhancing his ability to track health metrics and generate insights for better care planning.",
+    "subOption": "API support for third-party health applications"
   },
   {
     "personaId": "P-004",
     "cbId": "CB-071",
-    "title": "Adaptive User Interface for Caregivers – Customizable Dashboard Layouts",
-    "pillar": "General Requirements",
-    "priority": "1",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike values systems that adapt to his needs and allow for flexible exploration, making customizable dashboard layouts essential for efficiently accessing critical health data without unnecessary complexity. This aligns with his goal of monitoring patients' health status efficiently in a rural setting with limited resources.",
-    "subOption": "Customizable dashboard layouts based on caregiver preferences"
-  },
-  {
-    "personaId": "P-004",
-    "cbId": "CB-072",
-    "title": "Comprehensive Data Privacy Controls – User-Defined Privacy Settings for Data Sharing",
-    "pillar": "General Requirements",
-    "priority": "1",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike values the ability to access necessary health data while respecting the privacy preferences of older adults, which is crucial for maintaining trust and autonomy in caregiver-patient relationships. User-defined privacy settings empower him to manage data sharing effectively without compromising patient confidentiality.",
-    "subOption": "User-defined privacy settings for data sharing"
-  },
-  {
-    "personaId": "P-004",
-    "cbId": "CB-073",
-    "title": "Interoperability with Third-Party Systems – Data Import/Export Functionalities for Health Records",
-    "pillar": "General Requirements",
-    "priority": "1",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike Johnson, as a home-care nurse, needs to track patient health progression and analyze historical health data to inform care strategies. The ability to import and export health records allows him to efficiently manage and share patient data, which is critical given his role in remote healthcare delivery, especially in rural settings.",
-    "subOption": "Data import/export functionalities for health records"
-  },
-  {
-    "personaId": "P-004",
-    "cbId": "CB-074",
-    "title": "Feedback and Support Mechanisms – Knowledge Base Access for Independent Learning",
+    "title": "Adaptive Learning and Support - Feedback-Driven Interface Adjustments for Caregiver Efficiency",
     "pillar": "General Requirements",
     "priority": "2",
     "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike values the ability to explore system features at his own pace and prefers discovering capabilities independently. Access to a knowledge base with FAQs will empower him to find solutions and learn about features without needing immediate assistance, aligning with his desire for flexible learning options.",
-    "subOption": "Access to a knowledge base with FAQs and troubleshooting guides"
-  },
-  {
-    "personaId": "P-004",
-    "cbId": "CB-075",
-    "title": "Data Analytics and Reporting Tools – Custom Report Generation for Health Trends Over Time",
-    "pillar": "General Requirements",
-    "priority": "1",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike's core goals include tracking patient health progression and using historical data to identify early warning signs, which aligns perfectly with the need for custom report generation. This capability will enable him to analyze trends effectively, leading to better care outcomes for his patients.",
-    "subOption": "Custom report generation for health trends over time"
-  },
-  {
-    "personaId": "P-004",
-    "cbId": "CB-076",
-    "title": "Collaborative Care Coordination Features – Real-Time Updates on Patient Status for Caregivers",
-    "pillar": "General Requirements",
-    "priority": "1",
-    "userGroup": "Caregivers and Medical Staff",
-    "justification": "Mike's role as a home-care nurse involves managing patient care remotely between visits, and having real-time updates on patient status is essential for efficient communication and timely interventions. This feature aligns with his goal of monitoring health status efficiently and responding empathetically to patients' needs.",
-    "subOption": "Real-time updates on patient status for all involved caregivers"
+    "justification": "Mike values flexible, modular learning options and prefers discovering system capabilities independently. An interface that adjusts based on his usage can enhance his experience and make it easier for him to monitor and analyze patient data efficiently.",
+    "subOption": "Feedback-driven interface adjustments"
   }
 ]

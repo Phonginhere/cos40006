@@ -1,7 +1,7 @@
 [
   {
-    "title": "Customizable Health Dashboards for Caregivers",
-    "summary": "As a professional caregiver managing multiple elderly clients, I want a customizable health dashboard that allows me to track my clients' health metrics in real-time, so that I can efficiently manage their care and ensure their well-being without compromising their privacy.",
+    "title": "Health Monitoring Dashboard Customization",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want a customizable health metrics dashboard that allows me to track real-time health data for my clients so that I can efficiently monitor their well-being while ensuring their privacy and clarity in communication.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
@@ -11,12 +11,57 @@
       "UC-006",
       "UC-010"
     ],
-    "id": "US-153",
+    "id": "US-135",
+    "cbId": "CB-051"
+  },
+  {
+    "title": "Health Monitoring and Alert Management",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want to verify health monitoring results and mediate alerts so that I can ensure accurate interpretation of health data and make informed decisions without causing unnecessary stress for my clients.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-010"
+    ],
+    "id": "US-136",
+    "cbId": "CB-052"
+  },
+  {
+    "title": "Customizable Caregiver Alert Thresholds",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want to customize alert thresholds for health monitoring so that I can receive timely notifications without alarming my clients or making rushed decisions based on misinterpreted data.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-010"
+    ],
+    "id": "US-137",
+    "cbId": "CB-053"
+  },
+  {
+    "title": "Tailored Medication Reminders",
+    "summary": "As a professional caregiver, I want ALFRED to provide tailored medication reminders that are context-sensitive and can be validated before notifying clients, so that I can ensure my clients receive timely and appropriate reminders without causing unnecessary stress or confusion.",
+    "priority": 1,
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "userGroup": "Caregivers and Medical Staff",
+    "personaId": "P-006",
+    "useCases": [
+      "UC-005",
+      "UC-006",
+      "UC-010"
+    ],
+    "id": "US-138",
     "cbId": "CB-054"
   },
   {
-    "title": "Integrated Calendar for Medication and Appointment Reminders",
-    "summary": "As a professional caregiver managing multiple elderly clients, I want an integrated calendar that allows me to set medication and appointment reminders for each client so that I can efficiently manage care schedules and ensure timely medication administration without overwhelming my clients with alerts.",
+    "title": "Remote Patient Check-in Interface \u2013 Scheduled Virtual Check-ins via Video",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want to conduct scheduled virtual check-ins via video so that I can monitor my clients' health in real-time, maintain clear communication with their families, and provide personalized care without overwhelming my clients with impersonal alerts.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
@@ -26,12 +71,12 @@
       "UC-006",
       "UC-010"
     ],
-    "id": "US-154",
+    "id": "US-139",
     "cbId": "CB-055"
   },
   {
-    "title": "Personalized Health Insights \u2013 Alerts for Potential Health Risks Based on Patterns",
-    "summary": "As a professional caregiver managing multiple elderly clients, I want to receive personalized health alerts based on monitored trends so that I can ensure timely and accurate interventions without overwhelming my clients with unnecessary notifications.",
+    "title": "Emergency Response Coordination \u2013 Caregiver Alerts for Client Emergencies",
+    "summary": "As a professional caregiver managing multiple elderly clients, I want to receive timely alerts for client emergencies so that I can intervene swiftly and ensure their safety while minimizing unnecessary stress on my clients.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
@@ -41,12 +86,12 @@
       "UC-006",
       "UC-010"
     ],
-    "id": "US-155",
+    "id": "US-140",
     "cbId": "CB-056"
   },
   {
-    "title": "Emergency Response Features \u2013 Immediate Alerts to Caregivers During Critical Events",
-    "summary": "As a professional caregiver managing multiple elderly clients, I want immediate alerts for critical health events so that I can ensure timely interventions without compromising my clients' privacy and well-being.",
+    "title": "Holistic Health Monitoring",
+    "summary": "As a professional caregiver, I want to track multiple clients' health metrics in real-time and receive alerts for any anomalies, so that I can ensure their safety and well-being without compromising their privacy.",
     "priority": 1,
     "pillar": "Pillar 3 - Effective & Personalized Care",
     "userGroup": "Caregivers and Medical Staff",
@@ -56,67 +101,7 @@
       "UC-006",
       "UC-010"
     ],
-    "id": "US-156",
+    "id": "US-141",
     "cbId": "CB-057"
-  },
-  {
-    "title": "Medication Management System \u2013 Tracking of Medication Adherence with Alerts",
-    "summary": "As a professional caregiver, I want to track my clients' medication adherence with alerts so that I can ensure they are taking their medications correctly while maintaining their privacy and reducing unnecessary stress.",
-    "priority": 1,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-005",
-      "UC-006",
-      "UC-010"
-    ],
-    "id": "US-157",
-    "cbId": "CB-058"
-  },
-  {
-    "title": "Access to Caregiver Training Resources",
-    "summary": "As a professional caregiver, I want access to a library of training videos and guides so that I can effectively use ALFRED to monitor my clients' health, communicate with their families, and manage their care schedules without causing confusion or stress for my clients.",
-    "priority": 2,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-005",
-      "UC-006",
-      "UC-010"
-    ],
-    "id": "US-158",
-    "cbId": "CB-059"
-  },
-  {
-    "title": "Multi-User Access Management - Customizable Permissions for Data Access",
-    "summary": "As a professional caregiver, I want to customize data access permissions for each client so that I can ensure their privacy while still being able to effectively monitor their health and communicate with their families.",
-    "priority": 1,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-005",
-      "UC-006",
-      "UC-010"
-    ],
-    "id": "US-159",
-    "cbId": "CB-060"
-  },
-  {
-    "title": "Customizable Alert Settings for Health Monitoring",
-    "summary": "As a professional caregiver, I want to customize alert settings for my clients' health conditions so that I can ensure timely interventions without causing unnecessary stress or confusion for my clients.",
-    "priority": 1,
-    "pillar": "Pillar 3 - Effective & Personalized Care",
-    "userGroup": "Caregivers and Medical Staff",
-    "personaId": "P-006",
-    "useCases": [
-      "UC-005",
-      "UC-006",
-      "UC-010"
-    ],
-    "id": "US-160",
-    "cbId": "CB-061"
   }
 ]

@@ -1,41 +1,49 @@
 {
-  "Id": "P-002",
-  "Name": "Elena Rivera",
-  "Role": "Tech-curious older adult with mild mobility issues",
-  "Tagline": "I want to stay independent but technology sometimes feels overwhelming.",
-  "Demographic data": {
-    "Age": 73,
-    "Marital Status": "Widow",
-    "Living Situation": "Lives alone in an urban apartment",
-    "Education": "College educated",
-    "Occupation": "Retired elementary school teacher",
-    "Children": "Two adult children who live in different cities"
-  },
-  "Core characteristics": [
-    "Intellectually curious", "Social", "Organized", "Mildly anxious about health", "Values independence", "Cautious with new technology but willing to learn"
-  ],
-  "Core goals": [
-    "Maintain independence at home", "Stay connected with family and friends", "Manage her health efficiently"
-  ],
-  "Typical challenges": [
-    "Intimidated by complex technology", "Joint pain limiting mobility", "Forgets medication schedule", "Feels isolated when unable to travel"
-  ],
-  "Singularities": [
-    "Passionate about classical music", "Volunteers at a literacy program", "Maintains a small herb garden"
-  ],
-  "Working situation": "Retired, occasionally tutors children",
-  "Place of work": "Home-based volunteer work",
-  "Expertise": "Education, community organizing",
-  "Main tasks with system support": [
-    "Medication reminders", "Calendar management", "Video calls", "Navigation assistance"
-  ],
-  "Most important tasks": [
-    "Health monitoring", "Staying socially connected", "Emergency assistance"
-  ],
-  "Least important tasks": [
-    "Complex home automation", "Gaming for entertainment"
-  ],
-  "Miscellaneous": [
-    "Prefers voice interaction", "Appreciates clear instructions", "Concerned about privacy"
-  ]
+    "Id": "P-002",
+    "Name": "Elena Rivera",
+    "Role": "Tech-curious older adult with mild mobility issues",
+    "Tagline": "I am an open-minded and independent person and I want to live a good life, however technology sometimes makes me feel overwhelming.",
+    "DemographicData": {
+        "Age": 60,
+        "MaritalStatus": "Married",
+        "LivingSituation": "Lives in urban area",
+        "Education": "High school degree",
+        "Occupation": "",
+        "Children": "2"
+    },
+    "CoreCharacteristics": [
+        "Optimistic",
+        "Open-minded",
+        "Independent",
+        "Flexible",
+        "Curious",
+        "Social",
+        "Active",
+        "Overwhelming"
+    ],
+    "CoreGoals": [
+        "Suggest to-dos related to my life",
+        "System allows manual blocking of harmful content",
+        "Suggest daily exercises",
+        "Drink water to improve overall health",
+        "Keep communication to be polite, ethical and healthy",
+        "Social media contact with family and friends",
+        "Take taxi",
+        "Small, simple, and comfortable wearables"
+    ],
+    "TypicalChallenges": [
+        "Distractions due to harmful contents",
+        "Lose motivation due to limited range of exercises",
+        "Have experienced negative comments about myself before",
+        "Difficulty finding ways to communicate with family and friends",
+        "Use bulky equipment"
+    ],
+    "Singularities": [
+        "Flexible to manage own time for socializing different groups",
+        "Curious about technology, and eager to learn how to use it for daily life",
+        "Lost motivation and want to boost productivity to perform better"
+    ],
+    "WorkingSituation": "",
+    "PlaceOfWork": "",
+    "Expertise": []
 }

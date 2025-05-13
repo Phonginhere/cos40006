@@ -1,0 +1,42 @@
+UNREAL EXAMPLE — USE CASE TASK ANALYSIS INSTRUCTION
+==============================================
+
+EXAMPLE SCENARIO SUMMARY (from ALFRED project):
+Personas: Mike from the Medical Staff (P-004), Otto the Older Person (P-002)
+
+Scenario:
+For a couple of months now, Mike from the Medical Staff has been taking care of Otto the Older Person. Otto is an uncomplicated patient, who does not have any severe problems besides his blood pressure, which is a bit high. Mike regularly visits Otto to monitor his blood pressure. Twice a week, Mike calls Otto on the phone to ask him about his health status. However, there are times when Mike is not able to visit Otto as often as he needs to and consequently, he is sometimes concerned about Otto’s wellbeing. Therefore he talked to Otto about his concerns and they both agreed it would be a good idea to have the ALFRED device to be included in the care process in order to improve Otto’s healthcare and safety. The ALFRED solution seems a good option for enhancing the care process as its functions are expandable to the user’s needs. Furthermore, for this purpose Mike hands a new shirt to Otto, which contains a set of unobtrusive sensors. These sensors can send Otto’s vital parameters via ALFRED to Mike. This way, Mike is able to keep track of Otto’s health. Mike and Otto agreed that this solution would benefit both of them. However, Otto is also concerned about his privacy and feels that it is very important that he can decide which of the sensor data is available to Mike. He also wants to be able to check the vital data himself. Otto also wants the new shirt to look nice and fashionable and does not want it to make him look like a patient. Otto and Mike have also agreed that not all of the functions of the shirt have to be enabled at all times. However, Mike has informed Otto the health data that these sensors record can provide information about why he is feeling pain or stress. Mike and Otto agreed that it would be good if ALFRED could remind Otto to take his pills on a regular basis and Otto confirms to ALFRED once he has taken his pills. Furthermore, ALFRED should be able to collect and/or keep track of Otto’s heart rate, measure his body temperature, heart rate, breathing frequency, activity rate and the amount of taken steps. Mike is aware that Otto does not meet a lot of people, and so he wants to make sure that Otto is in a good shape and that he treats his health problems. Sometimes Mike calls Otto with the video call in order to check that he seems well.
+
+==============================================
+Some of the extracted tasks for each persona involved are:
+
+[
+  {
+    "personaId": "P-004",
+    "tasks": [
+      "Regularly visits Otto to monitor his blood pressure",
+      "Calls Otto twice a week to check on his health status",
+      "Discusses Otto's wellbeing and proposes adding ALFRED to the care process",
+      "Hands a shirt with embedded sensors to Otto",
+      "Explains how the shirt's sensors can help monitor Otto's health",
+      "Receives Otto’s vital signs data via ALFRED",
+      "Agrees with Otto on what data should be shared and when",
+      "Informs Otto about how sensor data can indicate pain or stress",
+      "Requests ALFRED to remind Otto to take his pills",
+      "Uses video calls via ALFRED to visually check on Otto's condition"
+    ]
+  },
+  {
+    "personaId": "P-002",
+    "tasks": [
+      "Receives health checkups from Mike",
+      "Wears a shirt with embedded sensors to track vital parameters",
+      "Agrees to use ALFRED to support his care",
+      "Wants control over which sensor data is shared with Mike",
+      "Wants to view his own health data through ALFRED",
+      "Prefers the wearable shirt to look stylish and non-medical",
+      "Confirms pill intake to ALFRED after taking medication",
+      "Engages in conversations with Mike about health and privacy preferences"
+    ]
+  }
+]

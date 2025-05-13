@@ -1,80 +1,41 @@
 {
-  "Id": "P-004",
-  "Name": "Mike Johnson",
-  "Role": "Home-care nurse providing rural healthcare services",
-  "Tagline": "I want to independently use digital tools to support my rural patients and explore system features at my own pace.",
-  "Demographic data": {
-    "Age": 43,
-    "Marital Status": "Not specified",
-    "Living Situation": "Lives in rural area",
-    "Education": "Nursing degree",
-    "Occupation": "Home-care nurse",
-    "Children": "Not specified"
-  },
-  "Core characteristics": [
-    "Caring",
-    "Patient-focused",
-    "Dedicated",
-    "Empathetic",
-    "Enjoys helping others",
-    "Self-reliant with new technology",
-    "Learns best through interactive demonstration"
-  ],
-  "Core goals": [
-    "Track patient health progression over time for better planning",
-    "Use historical health data to identify early warning signs",
-    "Generate insights from patient data to inform care strategies",
-    "Monitor patients' health status efficiently",
-    "Support socially isolated patients",
-    "Respond empathetically to patients’ emotional and behavioral cues",
-    "Provide preventative care and early intervention"
-  ],
-  "Typical challenges": [
-    "Understanding emotional states of patients beyond physical symptoms",
-    "Long travel times between patient visits",
-    "Inconsistent cellular or video bandwidth in rural areas",
-    "Limited resources in rural healthcare settings",
-    "Managing patient care remotely between visits",
-    "Maintaining connection with socially isolated patients",
-    "Coordinating with other healthcare providers in remote areas"
-  ],
-  "Singularities": [
-    "Enjoys analyzing patient health trends to improve care outcomes",
-    "Values systems that adapt to emotional context in caregiving",
-    "Specializes in care for elderly patients living alone",
-    "Particularly attentive to patients' emotional wellbeing and social needs",
-    "Uses calendar-based tools to organize medication and visit plans independently"
-  ],
-  "Working situation": "Full-time home-care nurse for 10 years, nursing for 20 years total",
-  "Place of work": "Patients' homes across rural areas",
-  "Expertise": "Geriatric home healthcare, remote patient monitoring, rural healthcare delivery",
-  "Main tasks with system support": [
-    "Health monitoring",
-    "Medication tracking",
-    "Care plan documentation",
-    "Patient data analysis"
-  ],
-  "Most important tasks": [
-    "Spotting patterns in health metrics to anticipate deterioration",
-    "Regular monitoring of vital signs",
-    "Efficient asynchronous communication with healthcare team and families"
-  ],
-  "Least important tasks": [
-    "Managing task workflows across teams",
-    "Complex data entry",
-    "Non-critical notifications"
-  ],
-  "Miscellaneous": [
-    "Prefers reviewing periodic reports over relying solely on real-time alerts",
-    "Uses trend data to make early interventions before critical events occur",
-    "Often sends quick voice notes during breaks in patient visits",
-    "Prefers async voice messages to avoid interrupting patient care routines",
-    "Relies on calendar-based coordination instead of formal task delegation systems",
-    "Prefers tools that sync reminders across patients to avoid overlaps",
-    "Regularly explores new health tech features through tutorials or trial-and-error",
-    "Uses laptop with internet connection almost daily",
-    "Values technology that enhances patient connection without replacing personal care",
-    "Prefers discovering system capabilities on their own rather than being walked through each step",
-    "Finds structured walkthroughs limiting — values flexible, modular learning options"
-  ]
+    "Id": "P-004",
+    "Name": "Mike Johnson",
+    "Role": "Medical Staff (Registered Nurse) providing urban healthcare services",
+    "Tagline": "I want to independently use digital tools to support my urban patients and explore system features at my own pace.",
+    "DemographicData": {
+        "Age": 43,
+        "MaritalStatus": "Single",
+        "LivingSituation": "Lives in metropolitan area",
+        "Education": "Master's degree of Nursing",
+        "Occupation": "Registered Nurse",
+        "Children": "0"
+    },
+    "CoreCharacteristics": [
+        "Task-focused",
+        "Prefers standard workflows",
+        "Time-constrained"
+    ],
+    "CoreGoals": [
+        "Support patient care efficiently during active shifts",
+        "Limit distractions during non-critical situations",
+        "Access accurate, validated health data quickly"
+    ],
+    "TypicalChallenges": [
+        "Limited time per patient",
+        "High alert tiredness in busy environments",
+        "Frequent tech transitions across hospital systems"
+    ],
+    "Singularities": [
+        "Very busy and handles patients one at a time",
+        "Avoids non-emergency notifications",
+        "Rarely available outside official work hours"
+    ],
+    "WorkingSituation": "Full-time Registered nurse for 10 years, nursing for 20 years total",
+    "PlaceOfWork": "Hospitals across urban areas",
+    "Expertise": [
+        "Geriatric hospital-based healthcare",
+        "Direct patient monitoring",
+        "Urban healthcare delivery"
+    ]
 }

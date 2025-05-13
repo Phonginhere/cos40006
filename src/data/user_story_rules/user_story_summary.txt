@@ -1,0 +1,74 @@
+ALFRED USER STORY DEFINITIONS AND STRUCTURE
+────────────────────────────────────────────
+
+This document outlines the structure and definition of user stories used within the ALFRED system requirement analysis. These stories are created to capture the needs, behaviors, and constraints of real or representative users, and are designed to link personas to system functionalities across the six ALFRED requirement pillars:
+
+  1. Pillar 1 – User-Driven Interaction Assistant
+  2. Pillar 2 – Personalized Social Inclusion
+  3. Pillar 3 – Effective & Personalized Care
+  4. Pillar 4 – Physical & Cognitive Impairments Prevention
+  5. General Requirements (Cross-functional)
+  6. Core Requirements (Developer-facing)
+
+Each user story represents a unit of functionality or behavior as perceived and required by a specific user persona within a particular context of system usage.
+
+────────────────────────────────────────────
+
+USER STORY STRUCTURE
+─────────────────────
+Each ALFRED user story contains the following elements:
+
+• ID                  : A unique identifier for the user story.
+• Title               : A brief, descriptive title.
+• Persona             : The persona's id that the user story came from
+• User Group          : One of: Older Adults, Caregivers and Medical Staff, Developers and App Creators.
+• Related Use Case    : The specific use case scenario this story belongs to.
+• Priority Number     : A prioritization value from 1 (very high) to 5 (out of scope).
+• Summary             : The description of the user story (1-2 sentences)
+
+────────────────────────────────────────────
+
+USER STORY PRIORITY SCALE
+──────────────────────────
+The prioritization of user stories is based on project goals, user data, and expert input:
+
+Priority | Definition
+─────────|─────────────────────────────────────────────────────────────────────
+   1     | Very high priority. Will be implemented.
+   2     | High priority. Important for the ALFRED system; an implementation is planned.
+   3     | Normal priority. Good additions for the ALFRED system; will be implemented if resources are available.
+   4     | Low priority. Extensions to the system; may be included through synergies with other stories.
+   5     | Out of the project scope. Will not be implemented.
+
+────────────────────────────────────────────
+
+EXAMPLES BY PILLAR
+────────────────────
+
+→ Pillar 1 – User-Driven Interaction Assistant
+   • "As an older person I would like to know exactly what ALFRED does with my personal data and share it only on my specific permission"
+   • "As Hilde, I want to increase font size on the ALFRED interface so I can read comfortably."
+
+→ Pillar 2 – Personalized Social Inclusion
+   • "As Elena, I want ALFRED to suggest local community events so I can meet new people nearby."  
+   • "As Olivia, I want to share emotional messages with Carl via ALFRED to feel connected."
+
+→ Pillar 3 – Effective & Personalized Care
+   • "As Mike, I want to receive a summary of patient exercises so I can check their recovery progress remotely."  
+   • "As Sarah, I want alerts if a client misses medication, so I can intervene when needed."
+
+→ Pillar 4 – Physical & Cognitive Impairments Prevention
+   • "As Olivia, I want ALFRED to remind me of skiing-themed exercises to stay motivated for rehab."  
+   • "As Hilde, I want creative memory games that reflect my hobbies so I stay mentally active."
+
+→ General Requirements
+   • "As Olivia, I want to disable app uninstall so I cannot accidentally remove ALFRED."  
+   • "As Elena, I want a privacy toggle so I can choose what ALFRED shares."
+
+→ Core Requirements (Developers)
+   • "As Daniel, I want reusable backend modules to reduce redundant code across ALFRED apps."  
+   • "As John, I want long-term supported libraries to maintain system reliability."
+
+────────────────────────────────────────────
+
+This user story structure helps ensure traceability, implementation alignment, and coverage of all user groups within the ALFRED system.

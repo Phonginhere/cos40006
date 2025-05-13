@@ -26,15 +26,14 @@ USER_GROUP_KEYS = {
 USER_GROUPS = list(USER_GROUP_KEYS.keys())
 
 USE_CASE_DIR = os.path.join("results", CURRENT_LLM, "use_cases")
-CAPABILITY_BLUEPRINTS_FILE = os.path.join("results", CURRENT_LLM, "capability_blueprints.json")
-FILTERED_CAPABILITY_BLUEPRINTS_DIR = os.path.join("results", CURRENT_LLM, "filtered_capability_blueprints")
-FILTERED_CAPABILITY_BLUEPRINT_SUMMARIES_DIR = os.path.join(FILTERED_CAPABILITY_BLUEPRINTS_DIR, "summaries")
+USE_CASE_TYPE_CONFIG_PATH = os.path.join("data", "use_case_rules", "use_case_type_config.json")
+USE_CASE_TASK_DIR = os.path.join("results", CURRENT_LLM, "use_case_task_analysis")
 FINAL_USER_STORY_DIR = os.path.join("results", CURRENT_LLM, "user_stories")
 
 # ==================================================================================================
 # ALFRED SYSTEM SUMMARY LOADER
 
-def load_alfred_summary(path: str = "data/alfred_summary.txt") -> str:
+def load_alfred_summary(path: str = "data/alfred_system_summaries/alfred_system_summary.txt") -> str:
     """Loads the ALFRED system summary from a plain text file."""
     try:
         with open(path, "r", encoding="utf-8") as f:
@@ -48,7 +47,7 @@ def load_alfred_summary(path: str = "data/alfred_summary.txt") -> str:
 def load_user_group_summary(group: str) -> str:
     """Loads the user group summary from a JSON file based on the user group (older adults, caregivers, developers)."""
     summary_files = {
-        value: f"data/{value}_summary.json"
+        value: f"data/alfred_system_summaries/{value}_summary.json"
         for value in USER_GROUP_KEYS.values()
     }
 
@@ -69,6 +68,23 @@ def load_user_group_summary(group: str) -> str:
         raise FileNotFoundError(f"❌ User group summary file not found: {path}")
     except json.JSONDecodeError:
         raise ValueError(f"❌ Error decoding JSON from file: {path}")
+    
+# ==================================================================================================
+# USE CASE SUMMARY LOADER
+def load_use_case_summary(path: str = "data/use_case_rules/use_case_summary.txt") -> str:
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return f.read().strip()
+    except FileNotFoundError:
+        raise FileNotFoundError(f"❌ Missing use-case summary file at: {path}")
+    
+def load_use_case_task_example(path: str = "data/use_case_rules/use_case_task_analysis_example.txt") -> str:
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return f.read().strip()
+    except FileNotFoundError:
+        raise FileNotFoundError(f"❌ Missing use-case task analysis file at: {path}")
+
 
 # ==================================================================================================
 # LLM HANDLER
@@ -99,7 +115,7 @@ def get_openai_response(
     prompt: str,
     model: str,
     temperature: float = 0.7,
-    max_tokens: int = 8192,
+    max_tokens: int = 16384,
     system_prompt: str = "You are an expert in system requirements engineering."
 ) -> str:
     """Uses OpenAI's API to generate a response from the specified model."""
@@ -121,9 +137,9 @@ def get_openai_response(
         return None
 
 # LLM Dispatcher
-def get_llm_response(prompt: str) -> str:
+def get_llm_response(prompt: str, max_tokens: int = 16384) -> str:
     """Dispatches LLM call based on the currently selected model."""
     if CURRENT_LLM.startswith("gpt-4"):
-        return get_openai_response(prompt, model=CURRENT_LLM)
+        return get_openai_response(prompt, model=CURRENT_LLM, max_tokens=max_tokens)
     else:
         raise NotImplementedError(f"❌ LLM '{CURRENT_LLM}' is not supported yet.")

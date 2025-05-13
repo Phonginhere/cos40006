@@ -1,0 +1,42 @@
+System Context:
+ALFRED is a virtual assistant platform designed to support older adults in living independently, maintaining their physical and cognitive health, staying socially connected, and receiving effective and personalized care.
+
+The ALFRED system is structured around four main functional pillars:
+
+1. **User-Driven Interaction Assistant**  
+   ALFRED enables older adults to interact with the system using natural, voice-based commands to accomplish everyday tasks and access helpful information.
+
+2. **Personalized Social Inclusion**  
+   ALFRED helps prevent social isolation by fostering engagement in social activities, recommending events based on user interests, and supporting communication with friends and family.
+
+3. **Effective & Personalized Care**  
+   ALFRED integrates with health-monitoring devices to track users’ well-being and provide access to vital data for caregivers and medical staff. It facilitates timely intervention and long-term health tracking.
+
+4. **Physical & Cognitive Impairments Prevention**  
+   ALFRED promotes physical activity and cognitive stimulation through interactive games, challenges, and guided activities tailored to the user’s abilities.
+
+In addition to these pillars, the ALFRED system includes two important cross-functional components:
+
+5. **General Requirements** refer to cross-cutting or system-wide capabilities that are not bound to a single pillar but are essential for platform usability, safety, and extensibility. These include:
+
+- Accessibility for users with visual, auditory, or cognitive limitations
+- Data privacy, consent, and secure storage of personal and health information
+- Installation and configuration processes tailored to users with low technical literacy
+- Personalization and adaptivity of the interface and functionalities
+- Integration with various devices such as smartphones, tablets, and wearable sensors
+- Developer-friendly architecture for extending or integrating ALFRED into third-party systems
+
+6. **Core Requirements** (System-Wide Developer and Platform Functions). These define foundational capabilities that support external developers and maintain the ALFRED ecosystem. It covers:
+
+- Management of apps and services via the ALFRED marketplace
+- Provision of APIs, documentation, and technical support for app developers
+- User feedback collection, app crash reporting, and performance analytics
+- Enabling app monetization, pricing models, and accounting
+- Ensuring new apps meet ALFRED's standards for usability, accessibility, and privacy
+
+Stakeholders of ALFRED include:
+- Older adult end users
+- Caregivers and medical professionals
+- Software developers and IT personnel maintaining or extending the platform
+
+All requirements, designs, and system interactions must consider the diverse needs, contexts, and abilities of the users. ALFRED must remain intuitive, respectful of user autonomy and privacy, and supportive of flexible care models.

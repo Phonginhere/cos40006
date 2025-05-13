@@ -1,94 +1,41 @@
 {
-  "Id": "P-006",
-  "Name": "Sarah Thompson",
-  "Role": "Professional caregiver managing multiple elderly clients",
-  "Tagline": "I need reliable and secure tools to monitor multiple clients, with a strong focus on privacy and clarity in shared environments.",
-  "Demographic data": {
-    "Age": 45,
-    "Marital Status": "Married",
-    "Living Situation": "Lives in rural area with family",
-    "Education": "Certified in Geriatric Care",
-    "Occupation": "Professional caregiver",
-    "Children": "Two school-age children"
-  },
-  "Core characteristics": [
-    "Organized",
-    "Prioritizes intentional review over automated updates",
-    "Prefers visual over menu-driven systems in multitasking scenarios",
-    "Deliberate and careful with information access",
-    "Advocates for slow tech adoption where client harm is possible",
-    "Supports client autonomy in technology usage decisions",
-    "Compassionate",
-    "Favors diagnostic support systems that explain implications based on situational prompts",
-    "Trusts formal emergency systems more than ad-hoc alerts",
-    "Tech-aware but cautious with voice interfaces"
-  ],
-  "Core goals": [
-    "Track client health status on demand with caregiver-controlled refresh",
-    "Efficiently manage appointments and care schedules",
-    "Enable clients to actively manage data access and sharing preferences",
-    "Maintain clear communication with clients' family members",
-    "Access scenario-specific care insights for collaborative decision-making",
-    "Document care activities accurately",
-    "Ensure clients are empowered to control who can access their data",
-    "Promote safeguards that protect clients from over-reliance on automated systems",
-    "Reduce client stress by avoiding unnecessary or impersonal system alerts",
-    "Ensure clients receive information in a calm, human-centered way"
-  ],
-  "Typical challenges": [
-    "Often delays data retrieval to ensure a calm environment before review",
-    "Clients with varying levels of technology comfort",
-    "Wants to manually control when health data is retrieved and shared",
-    "Emergency support is unreliable without proper local (remote) service integration",
-    "“Struggles with systems that generalize advice without individual context",
-    "Wants clients to actively review and approve data sharing with caregivers or families",
-    "Voice assistants misinterpret commands in noisy environments or breach client confidentiality",
-    "Automated reminders from systems like ALFRED can confuse or alarm clients with cognitive impairments",
-    "Needs control over when and how sensitive information is presented to clients"
-  ],
-  "Singularities": [
-    "Specializes in dementia care",
-    "Worked with local emergency departments to define response guidelines for dementia cases",
-    "Frequently reviews health data only in the context of a specific symptom or incident",
-    "Customizes device home screens to highlight most-used ALFRED functions",
-    "Runs mini digital literacy sessions for clients to help them manage ALFRED’s privacy tools",
-    "Developed her own paper-based tracking system before adopting digital tools",
-    "Helps clients understand how to manage their own privacy settings",
-    "Previously involved in a care incident where misread sensor data led to an unnecessary emergency call",
-    "Believes that timing and tone of communication are therapeutic tools in caregiving",
-    "Experienced incidents where system-generated notifications led to client agitation"
-  ],
-  "Working situation": "Full-time caregiver managing 8-10 clients",
-  "Place of work": "Various client homes and care facilities across rural region",
-  "Expertise": "Geriatric care, dementia management, care coordination",
-  "Main tasks with system support": [
-    "Health monitoring",
-    "Medication tracking",
-    "Context-sensitive scheduling with caregiver-managed reminders",
-    "Communication with families",
-    "Care plan documentation",
-    "Ensure emergency protocols are linked to verified local response systems"
-  ],
-  "Most important tasks": [
-    "Visually guided dashboard for high-frequency caregiving tasks",
-    "Secure communication with families and healthcare providers"
-  ],
-  "Least important tasks": [
-    "Social features",
-    "Complex analytics",
-    "Entertainment options"
-  ],
-  "Miscellaneous": [
-    "Disables real-time syncing when working with high-anxiety clients",
-    "Prefers tablet for client management activities",
-    "Uses visual icons or tags to quickly distinguish between client priorities",
-    "Prefers systems that don’t require always-on syncing to function reliably",
-    "Relies on visual cues to manage tasks efficiently under time pressure",
-    "Believes privacy must be configured at the client level when possible",
-    "Prefers tactile or typed input over voice for sensitive information due to privacy concerns",
-    "Prefers that health anomalies escalate directly to emergency services when critical",
-    "Believes in collaborative care decisions, not automated interpretations",
-    "Prefers actionable insights triggered by real-world caregiving situations",
-    "Finds continuous trend summaries overwhelming and often irrelevant to urgent client needs"
-  ]
+    "Id": "P-006",
+    "Name": "Sarah Thompson",
+    "Role": "Informal caregiver managing multiple elderly clients",
+    "Tagline": "I need reliable and secure tools to monitor multiple clients, with a strong focus on privacy and clarity in shared environments.",
+    "DemographicData": {
+        "Age": 38,
+        "MaritalStatus": "Married",
+        "LivingSituation": "Lives with her family and her grandmother Elena in suburban area",
+        "Education": "Diploma's degree of Health Science",
+        "Occupation": "Home-based caregiver",
+        "Children": "1 school-age"
+    },
+    "CoreCharacteristics": [
+        "Flexible",
+        "Emotionally engaged",
+        "Multitasking caregiver"
+    ],
+    "CoreGoals": [
+        "Monitor multiple clients in parallel",
+        "Enable bonding through interactive tools",
+        "Stay responsive at all times"
+    ],
+    "TypicalChallenges": [
+        "Context switching across clients and family",
+        "May overload from overlapping responsibilities",
+        "Need for tools that support informal care routines"
+    ],
+    "Singularities": [
+        "Manages care for multiple clients at once",
+        "Always available, even during nights",
+        "Operates in home/shared environments"
+    ],
+    "WorkingSituation": "Home-based caregiver managing multiple clients in daily rotation",
+    "PlaceOfWork": "Patients' homes, mostly in suburban and rural areas",
+    "Expertise": [
+        "Elderly home care",
+        "Family-integrated care routines",
+        "Privacy-conscious care coordination"
+    ]
 }

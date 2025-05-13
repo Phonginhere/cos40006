@@ -1,41 +1,48 @@
 {
-  "Id": "P-005",
-  "Name": "Olivia the Older Person",
-  "Role": "Retired social worker and community volunteer",
-  "Tagline": "Active, positive, and connected – even in times of recovery",
-  "Demographic data": {
-    "Age": 64,
-    "Marital Status": "Married",
-    "Living Situation": "Lives with her husband in a suburban home",
-    "Education": "University degree in Social Work",
-    "Occupation": "Former social worker",
-    "Children": "Two adult children"
-  },
-  "Core characteristics": [
-    "Happy", "Positive", "Active", "Curious", "Open-minded", "Satisfied"
-  ],
-  "Core goals": [
-    "Stay socially connected despite limited mobility", "Remain physically and mentally active", "Continue volunteering"
-  ],
-  "Typical challenges": [
-    "Reduced mobility", "Managing arthritis pain", "Busy schedule"
-  ],
-  "Singularities": [
-    "Idealist ex-hippie", "Former social worker with strong community values", "Skiing enthusiast despite arthritis"
-  ],
-  "Working situation": "Retired but still volunteers",
-  "Place of work": "Home-based and local programs",
-  "Expertise": "Community outreach, social advocacy",
-  "Main tasks with system support": [
-    "Maintaining communication", "Staying updated on issues", "Scheduling volunteering activities"
-  ],
-  "Most important tasks": [
-    "Social connection", "Accessing news sources", "Calendar management"
-  ],
-  "Least important tasks": [
-    "Complex tech configurations", "Entertainment gaming"
-  ],
-  "Miscellaneous": [
-    "Takes care of her grandson", "Enjoys walking dogs", "Uses crutches temporarily"
-  ]
+    "Id": "P-005",
+    "Name": "Olivia",
+    "Role": "Retired social worker and community volunteer",
+    "Tagline": "I am a difficult, pessimistic, and dependent person and I need some help to register and improve my recovery constantly.",
+    "DemographicData": {
+        "Age": 75,
+        "MaritalStatus": "Widow",
+        "LivingSituation": "Lives alone in suburban area",
+        "Education": "Bachelor degree in social work",
+        "Occupation": "Retired social worker",
+        "Children": "1"
+    },
+    "CoreCharacteristics": [
+        "Grumpy",
+        "Pessimistic",
+        "Emotionally damaged",
+        "Dependent",
+        "Reclusive",
+        "Abasive"
+    ],
+    "CoreGoals": [
+        "Push-to-Talk when I ask the system to",
+        "Let the system to block harmful contents, disable uninstalling the system",
+        "Full control system to find daily exercises",
+        "Drink beverage",
+        "Freedom to communicate with no censorship",
+        "Take public transport",
+        "Good-looking wearables and not to be stigmatizing"
+    ],
+    "TypicalChallenges": [
+        "Lose control when accessing the harmful contents",
+        "Privacy concerns",
+        "Own customization on the system",
+        "Comfort needs",
+        "Uncensored communications",
+        "Language handling"
+    ],
+    "Singularities": [
+        "Persistent about technology adaptation",
+        "Always grumpy and rarely change, takes longer time to adapt my needs",
+        "Need constant supervision",
+        "Make myself perfect and avoid discrimination"
+    ],
+    "WorkingSituation": "Retired",
+    "PlaceOfWork": "",
+    "Expertise": []
 }

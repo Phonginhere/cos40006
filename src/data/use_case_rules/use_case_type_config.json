@@ -1,0 +1,85 @@
+[
+  {
+    "useCaseType": "Onboarding / Setup",
+    "requiredUserGroups": ["Older Adults"],
+    "optionalUserGroups": ["Caregivers and Medical Staff"],
+    "requiredPillars": ["General Requirements", "Pillar 1 - User-Driven Interaction Assistant"],
+    "optionalPillars": ["Pillar 2 - Personalized Social Inclusion", "Pillar 3 - Effective & Personalized Care"],
+    "min": 1,
+    "max": 2,
+    "pickTwoPersonasRate": 0.3
+  },
+  {
+    "useCaseType": "Daily Life Support",
+    "requiredUserGroups": ["Older Adults"],
+    "optionalUserGroups": ["Caregivers and Medical Staff"],
+    "requiredPillars": ["Pillar 1 - User-Driven Interaction Assistant"],
+    "optionalPillars": ["Pillar 2 - Personalized Social Inclusion", "Pillar 3 - Effective & Personalized Care"],
+    "min": 1,
+    "max": 3,
+    "pickTwoPersonasRate": 0.3
+  },
+  {
+    "useCaseType": "Health Monitoring",
+    "requiredUserGroups": ["Older Adults"],
+    "optionalUserGroups": ["Caregivers and Medical Staff"],
+    "requiredPillars": ["Pillar 3 - Effective & Personalized Care"],
+    "optionalPillars": ["Pillar 1 - User-Driven Interaction Assistant", "Pillar 4 - Physical & Cognitive Impairments Prevention"],
+    "min": 1,
+    "max": 3,
+    "pickTwoPersonasRate": 0.3
+  },
+  {
+    "useCaseType": "Social Enrichment",
+    "requiredUserGroups": ["Older Adults"],
+    "optionalUserGroups": ["Caregivers and Medical Staff"],
+    "requiredPillars": ["Pillar 2 - Personalized Social Inclusion"],
+    "optionalPillars": ["Pillar 1 - User-Driven Interaction Assistant", "Pillar 4 - Physical & Cognitive Impairments Prevention"],
+    "min": 1,
+    "max": 3,
+    "pickTwoPersonasRate": 0.3
+  },
+  {
+    "useCaseType": "Recovery & Rehab",
+    "requiredUserGroups": ["Older Adults"],
+    "optionalUserGroups": ["Caregivers and Medical Staff"],
+    "requiredPillars": ["Pillar 4 - Physical & Cognitive Impairments Prevention"],
+    "optionalPillars": ["Pillar 3 - Effective & Personalized Care", "Pillar 1 - User-Driven Interaction Assistant"],
+    "min": 1,
+    "max": 2,
+    "pickTwoPersonasRate": 0.3
+  },
+  {
+    "useCaseType": "Trust & Privacy Negotiation",
+    "requiredUserGroups": ["Older Adults"],
+    "optionalUserGroups": ["Caregivers and Medical Staff"],
+    "requiredPillars": ["General Requirements"],
+    "optionalPillars": ["Pillar 1 - User-Driven Interaction Assistant", "Pillar 2 - Personalized Social Inclusion"],
+    "min": 1,
+    "max": 1,
+    "pickTwoPersonasRate": 0.3
+  },
+  {
+    "useCaseType": "Developer Tools / Integration",
+    "requiredUserGroups": ["Developers and App Creators"],
+    "optionalUserGroups": ["Caregivers and Medical Staff"],
+    "requiredPillars": ["Developer Core"],
+    "optionalPillars": ["General Requirements"],
+    "min": 1,
+    "max": 2,
+    "pickTwoPersonasRate": 0.3
+  },
+  {
+    "useCaseType": "Marketplace Discovery",
+    "requiredUserGroups": ["Developers and App Creators"],
+    "optionalUserGroups": ["Older Adults"],
+    "requiredPillars": ["Developer Core", "General Requirements"],
+    "optionalPillars": ["Pillar 1 - User-Driven Interaction Assistant"],
+    "min": 1,
+    "max": 1,
+    "pickTwoPersonasRate": 0.3
+  },
+  {
+    "maxPersonaFrequencyGapRate": 0.1
+  }
+]

@@ -13,20 +13,15 @@ class UserPersona:
         self.role: str = data.get("Role", "Unknown")
         self.tagline: str = data.get("Tagline", "")
 
-        self.demographic_data: dict = data.get("Demographic data", {})
-        self.core_characteristics: List[str] = data.get("Core characteristics", [])
-        self.core_goals: List[str] = data.get("Core goals", [])
-        self.typical_challenges: List[str] = data.get("Typical challenges", [])
+        self.demographic_data: dict = data.get("DemographicData", {})
+        self.core_characteristics: List[str] = data.get("CoreCharacteristics", [])
+        self.core_goals: List[str] = data.get("CoreGoals", [])
+        self.typical_challenges: List[str] = data.get("TypicalChallenges", [])
         self.singularities: List[str] = data.get("Singularities", [])
 
-        self.working_situation: str = data.get("Working situation", "")
-        self.place_of_work: str = data.get("Place of work", "")
+        self.working_situation: str = data.get("WorkingSituation", "")
+        self.place_of_work: str = data.get("PlaceOfWork", "")
         self.expertise: str = data.get("Expertise", "")
-
-        self.main_tasks: List[str] = data.get("Main tasks with system support", [])
-        self.most_important_tasks: List[str] = data.get("Most important tasks", [])
-        self.least_important_tasks: List[str] = data.get("Least important tasks", [])
-        self.miscellaneous: List[str] = data.get("Miscellaneous", [])
         
         # Set user group once
         self.user_group = self.classify_user_group()
@@ -35,11 +30,10 @@ class UserPersona:
         """Use LLM to classify this persona into one of the 3 user groups."""
         minimal_data = {
             "Role": self.role,
-            "Core goals": self.core_goals,
-            "Typical challenges": self.typical_challenges,
-            "Working situation": self.working_situation,
+            "CoreGoals": self.core_goals,
+            "TypicalChallenges": self.typical_challenges,
+            "WorkingSituation": self.working_situation,
             "Expertise": self.expertise,
-            "Main tasks with system support": self.main_tasks,
         }
 
         prompt = f"""
@@ -67,37 +61,30 @@ Persona:
             "Id": self.id,
             "Name": self.name,
             "Role": self.role,
+            "UserGroup": self.user_group,
             "Tagline": self.tagline,
-            "Demographic data": self.demographic_data,
-            "Core goals": self.core_goals,
-            "Typical challenges": self.typical_challenges,
+            "DemographicData": self.demographic_data,
+            "CoreGoals": self.core_goals,
+            "TypicalChallenges": self.typical_challenges,
             "Singularities": self.singularities,
-            "Working situation": self.working_situation,
-            "Place of work": self.place_of_work,
+            "WorkingSituation": self.working_situation,
+            "PlaceOfWork": self.place_of_work,
             "Expertise": self.expertise,
-            "Main tasks with system support": self.main_tasks,
-            "Most important tasks": self.most_important_tasks,
-            "Least important tasks": self.least_important_tasks,
-            "Miscellaneous": self.miscellaneous
         }, indent=2)
-    
+
     def to_dict(self) -> dict:
         return {
             "Id": self.id,
             "Name": self.name,
             "Role": self.role,
             "Tagline": self.tagline,
-            "Demographic data": self.demographic_data,
-            "Core goals": self.core_goals,
-            "Typical challenges": self.typical_challenges,
+            "DemographicData": self.demographic_data,
+            "CoreGoals": self.core_goals,
+            "TypicalChallenges": self.typical_challenges,
             "Singularities": self.singularities,
-            "Working situation": self.working_situation,
-            "Place of work": self.place_of_work,
+            "WorkingSituation": self.working_situation,
+            "PlaceOfWork": self.place_of_work,
             "Expertise": self.expertise,
-            "Main tasks with system support": self.main_tasks,
-            "Most important tasks": self.most_important_tasks,
-            "Least important tasks": self.least_important_tasks,
-            "Miscellaneous": self.miscellaneous
         }
 
     def display(self):
@@ -112,30 +99,23 @@ Persona:
         print(f"   - Work Situation: {self.working_situation}")
         print(f"   - Place of Work: {self.place_of_work}")
         print(f"   - Expertise: {self.expertise}")
-        print(f"   - Main Tasks: {', '.join(self.main_tasks)}")
-        print(f"   - Most Important Tasks: {', '.join(self.most_important_tasks)}")
-        print(f"   - Least Important Tasks: {', '.join(self.least_important_tasks)}")
-        print(f"   - Miscellaneous: {', '.join(self.miscellaneous)}")
         print(f"   - User group: {self.user_group}")
 
 
 class UserPersonaLoader:
-    """Loads new-format user personas from a directory of JSON files."""
+    """Loads user personas from a directory of JSON files."""
 
     def __init__(self, directory: Optional[str] = None):
         self.directory: str = directory or os.path.join("data", "personas")
         self.personas: List[UserPersona] = []
 
     def load(self) -> None:
-        """Loads all valid JSON files in the directory into UserPersona instances."""
         try:
             for filename in os.listdir(self.directory):
                 if filename.endswith(".json"):
                     filepath = os.path.join(self.directory, filename)
                     with open(filepath, "r", encoding="utf-8") as file:
                         data = json.load(file)
-
-                        # Validate minimum required fields
                         if "Id" in data and "Name" in data:
                             self.personas.append(UserPersona(data))
                         else:
@@ -145,11 +125,9 @@ class UserPersonaLoader:
             print(f"❌ Error loading personas: {e}")
 
     def get_personas(self) -> List[UserPersona]:
-        """Returns all loaded personas."""
         return self.personas
 
     def print_persona(self, name: str) -> None:
-        """Prints details of a persona by name."""
         for persona in self.personas:
             if persona.name.lower() == name.lower():
                 persona.display()
@@ -157,7 +135,6 @@ class UserPersonaLoader:
         print(f"❌ Persona with name '{name}' not found.")
 
     def print_all_personas(self) -> None:
-        """Prints all loaded personas."""
         if not self.personas:
             print("❌ No personas loaded.")
             return
@@ -166,5 +143,4 @@ class UserPersonaLoader:
         print()
 
     def find_by_role(self, role: str) -> List[UserPersona]:
-        """Returns personas matching a given role."""
         return [p for p in self.personas if p.role.lower() == role.lower()]

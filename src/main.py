@@ -2,11 +2,16 @@ import sys
 import random
 
 from user_persona_loader import UserPersonaLoader
+
 from use_cases.use_case_loader import UseCaseLoader
 from use_cases.skeleton_use_case_writer import write_use_case_skeletons
 from use_cases.raw_use_case_generator import generate_raw_use_cases
 from use_cases.enriched_use_case_generator import enrich_use_cases_with_scenarios
 from use_cases.use_case_task_analyzer import analyze_all_use_cases
+
+from user_stories.skeleton_user_story_extractor import extract_skeleton_user_stories
+from user_stories.user_story_generator import generate_complete_user_stories
+from user_stories.user_story_fr_nfr_typer import update_user_stories_with_type
 
 def main():
     # Step 1: Load user personas
@@ -39,6 +44,20 @@ def main():
     #   Step 2d: Extract persona tasks from scenarios
     print("\n🧾 Phase 2d: Extracting tasks from scenarios...")
     analyze_all_use_cases(persona_loader)
+    
+    # Step 3: Generate user stories from tasks
+    print("\n============================================================ LOAD / GENERATE USER STORIES ============================================================")
+    #   Step 3a: Generate skeleton user stories from tasks
+    print("\n📘 Phase 3a: Generating skeleton user stories from extracted tasks...")
+    extract_skeleton_user_stories(persona_loader)
+    
+    #   Step 3b: Generate complete user stories from skeletons
+    print("\n📝 Phase 3b: Generating complete user stories...")
+    generate_complete_user_stories(persona_loader, use_case_loader)
+    
+    #   Step 3c: Update user stories with type (functional/non-functional)
+    print("\n🔍 Phase 3c: Updating user stories with type...")
+    update_user_stories_with_type()
     
     print("\n✅ Pipeline completed successfully. Check your results in the output folder.")
 

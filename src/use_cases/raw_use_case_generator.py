@@ -111,7 +111,7 @@ def generate_raw_use_cases(persona_loader: UserPersonaLoader) -> None:
             uc, all_personas, alfred_summary, uc_summary, group_summaries, existing_names
         )
 
-        print(f"🧠  Asking model for {uc.id} ...")
+        print(f"\n🧠  Asking model for {uc.id} ...")
         raw = get_llm_response(prompt, max_tokens=300)
 
         raw = re.sub(r"```.*?```", "", raw, flags=re.S)

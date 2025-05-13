@@ -1,0 +1,30 @@
+{
+  "useCaseId": "UC-005",
+  "tasksByPersona": [
+    {
+      "personaId": "P-005",
+      "tasks": [
+        "Activates ALFRED to start the memory challenge games",
+        "Expresses skepticism about using technology to improve cognitive skills",
+        "Engages in memory games to enhance cognitive function",
+        "Participates in a video call with Elena through ALFRED",
+        "Encourages Elena while playing the games",
+        "Receives feedback on performance and encouragement from ALFRED",
+        "Feels a sense of accomplishment after completing the games",
+        "Experiences emotional uplift through social interaction and gaming"
+      ]
+    },
+    {
+      "personaId": "P-002",
+      "tasks": [
+        "Requests ALFRED to connect her to Olivia for the memory games",
+        "Expresses excitement about joining the memory challenge",
+        "Engages in interactive memory puzzles with Olivia",
+        "Fosters a supportive environment during gameplay",
+        "Experiences a boost in mood and motivation through social gaming",
+        "Relies on ALFRED to facilitate her connection to Olivia",
+        "Values the safe and engaging context provided by ALFRED"
+      ]
+    }
+  ]
+}

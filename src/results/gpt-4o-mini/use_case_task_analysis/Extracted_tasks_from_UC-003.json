@@ -1,0 +1,28 @@
+{
+  "useCaseId": "UC-003",
+  "tasksByPersona": [
+    {
+      "personaId": "P-005",
+      "tasks": [
+        "Asks ALFRED for healthy recipe suggestions to alleviate cooking anxiety",
+        "Feels encouraged as ALFRED provides step-by-step cooking instructions",
+        "Experiences a sense of accomplishment while preparing meals with ALFRED's guidance",
+        "Engages in a cooking session with Sarah via video call through ALFRED",
+        "Personalizes the recipe based on her preferences with Sarah's support",
+        "Recognizes the importance of social interaction during meal preparation",
+        "Expresses satisfaction and joy after successfully creating a meal"
+      ]
+    },
+    {
+      "personaId": "P-006",
+      "tasks": [
+        "Identifies Olivia's struggles with meal planning and suggests cooking together",
+        "Requests ALFRED to remind Olivia about their cooking session to enhance engagement",
+        "Provides supportive tips and encouragement during the cooking session via video call",
+        "Monitors Olivia's progress during the meal preparation for assurance",
+        "Facilitates a shared experience to strengthen their bond through cooking",
+        "Encourages Olivia to explore new recipes and maintain a healthy diet"
+      ]
+    }
+  ]
+}

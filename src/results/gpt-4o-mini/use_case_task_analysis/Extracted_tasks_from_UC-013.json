@@ -1,0 +1,38 @@
+{
+  "useCaseId": "UC-013",
+  "tasksByPersona": [
+    {
+      "personaId": "P-004",
+      "tasks": [
+        "Guides Olivia through the setup process of the ALFRED system",
+        "Explains the benefits of ALFRED for health monitoring",
+        "Assures Olivia that she will have control over the system’s functionalities",
+        "Helps customize voice command settings for easier interaction",
+        "Encourages Olivia to practice using voice commands",
+        "Reassures Olivia about the privacy of her data"
+      ]
+    },
+    {
+      "personaId": "P-006",
+      "tasks": [
+        "Assists Olivia in the setup of the ALFRED system",
+        "Explains the social features of ALFRED to Olivia",
+        "Encourages Olivia to consider engaging in community events",
+        "Reinforces the idea that Olivia can choose how to use the system",
+        "Provides reassurance to Olivia about her concerns with technology",
+        "Supports Olivia in customizing the system to meet her preferences"
+      ]
+    },
+    {
+      "personaId": "P-005",
+      "tasks": [
+        "Participates in the collaborative setup of the ALFRED system",
+        "Observes and supports Olivia’s learning process with the technology",
+        "Expresses understanding of Olivia’s apprehensions about privacy",
+        "Encourages a sense of autonomy for Olivia in managing her health",
+        "Highlights the importance of user-friendly design for older adults",
+        "Provides emotional support to Olivia during the setup process"
+      ]
+    }
+  ]
+}

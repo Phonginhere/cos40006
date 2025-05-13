@@ -1,21 +1,18 @@
 {
   "id": "UC-008",
-  "useCaseType": "Social Enrichment",
+  "useCaseType": "Developer Tools / Integration",
   "userGroups": [
     "Caregivers and Medical Staff",
-    "Older Adults"
+    "Developers and App Creators"
   ],
   "pillars": [
-    "Pillar 1 - User-Driven Interaction Assistant",
-    "Pillar 2 - Personalized Social Inclusion",
-    "Pillar 4 - Physical & Cognitive Impairments Prevention"
+    "Developer Core"
   ],
-  "name": "Interactive Social Exercise Engagement",
-  "description": "ALFRED facilitates engaging exercises that promote both physical activity and social interaction among older adults, allowing caregivers to monitor participation and provide support. This use case focuses on enhancing the social and physical well-being of users like Olivia and Elena through tailored exercise recommendations and activities.",
-  "scenario": "On a bright Tuesday morning, Sarah Thompson, an informal caregiver, arrived at Elena Rivera's home. She noticed that Elena, a tech-curious older adult with mild mobility issues, was sitting at the kitchen table, looking a bit apprehensive about using her ALFRED system. Meanwhile, Olivia, a retired social worker known for her grumpiness, was visiting for a cup of tea, hoping to catch up and share some stories.\n\n\"Good morning, ladies!\" Sarah greeted, setting her bag down. \"How about we get started with some interactive exercises to lift your spirits and keep you active?\" Elena looked intrigued, her curiosity piqued by the idea, while Olivia rolled her eyes, mumbling about unnecessary activities.\n\n\"Come on, Olivia,\" Elena encouraged, \"it could be fun! Besides, we can do this together.\" Sarah chimed in, \"ALFRED can suggest exercises tailored to both your needs and help keep track of your progress.\" With a sigh, Olivia reluctantly agreed, feeling the weight of her isolation.\n\nSarah activated ALFRED with a simple voice command. \"ALFRED, suggest some engaging exercises for us today.\" The assistant responded, suggesting a mix of seated stretches and light yoga, with prompts for refreshing water breaks. Olivia hesitated but was drawn in by the idea of sharing the experience with Elena. \n\nAs they began the exercises, ALFRED guided them through each movement, providing encouragement and gentle reminders to stay hydrated. Elena smiled, finding the exercises both enjoyable and manageable. Olivia slowly warmed up to the idea, even cracking a smile as they followed ALFRED’s cheerful prompts.\n\nAfter their session, Sarah checked the participation metrics on her device. \"You both did wonderfully! This will not only help you physically but also boost your mood,\" she said, noting Olivia’s surprisingly positive reaction. \"Maybe it's not so bad after all,\" Olivia admitted, her grumpiness starting to fade.\n\nWith a sense of accomplishment, the three shared a laugh, and Sarah reminded them that they could use ALFRED anytime for more sessions. Elena and Olivia exchanged smiles, realizing this small step could lead to more social interactions and a healthier lifestyle, thanks to ALFRED’s support.",
+  "name": "Healthcare App Integration Support",
+  "description": "This use case allows developers to access integration guidelines and tools for creating healthcare applications specifically tailored for elderly patients and caregivers. By providing structured support for API usage and compliance, it enables seamless collaboration between developers and medical staff to enhance patient care.",
+  "scenario": "Daniel Chen, a full-stack developer, was eager to create a healthcare app tailored for elderly patients and their caregivers. Living in a rural area and working remotely, he often faced challenges in balancing modern development tools with the need for compatibility on older devices. He had recently integrated ALFRED into his development environment, as it provided comprehensive API guidelines and tools specifically designed for the needs of healthcare applications. \n\nOne afternoon, as Daniel was sifting through the integration documentation, he received a video call from Mike Johnson, a registered nurse who had been using ALFRED to manage his urban healthcare responsibilities. Mike was looking for ways to streamline patient data access while ensuring that the applications were user-friendly for both himself and the elderly patients he cared for. He explained to Daniel his challenges in rapidly accessing validated health data amidst hectic hospital shifts. \n\n\"ALFRED has been great for my patients, but I need to ensure that any new app you develop aligns with our workflows and the strict security measures we have in place,\" Mike stated, his tone urgent yet appreciative. \n\nDaniel nodded, understanding the critical nature of Mike’s role. \"I can help with that. The ALFRED system is designed to accommodate user feedback from healthcare providers like you, which will help shape the app to meet your needs.\" \n\nThey spent the next hour discussing how the app could enhance patient care, focusing on features that allowed for quick data retrieval and minimal distractions during Mike's busy shifts. Daniel took notes on Mike's input, ensuring he would incorporate elements that would make the app not just functional, but also intuitive for the elderly users.\n\nBy the end of their meeting, Daniel felt motivated and confident. He knew that with Mike’s insights and the support from the ALFRED platform, he could develop an app that would not only serve caregivers but also empower elderly patients. This collaboration was a promising step towards enhancing patient care, making the lives of both the caregivers and the seniors they serve a little easier.",
   "personas": [
-    "P-006",
-    "P-005",
-    "P-002"
+    "P-001",
+    "P-004"
   ]
 }

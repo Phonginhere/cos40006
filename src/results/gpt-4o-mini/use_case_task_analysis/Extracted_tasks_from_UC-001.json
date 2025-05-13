@@ -1,0 +1,29 @@
+{
+  "useCaseId": "UC-001",
+  "tasksByPersona": [
+    {
+      "personaId": "P-006",
+      "tasks": [
+        "Monitors Elena's vital signs through ALFRED",
+        "Receives real-time alerts about Elena's health status",
+        "Communicates with Elena via ALFRED's video feature",
+        "Appreciates the privacy features of ALFRED for patient data",
+        "Manages a schedule for multiple clients using ALFRED",
+        "Feels reassured by the clarity of health data provided by ALFRED",
+        "Reminds Elena to take breaks during exercises for safety"
+      ]
+    },
+    {
+      "personaId": "P-002",
+      "tasks": [
+        "Wears a comfortable wearable sensor for health monitoring",
+        "Engages with ALFRED for exercise guidance and motivation",
+        "Expresses preferences for the non-intrusive nature of the device",
+        "Appreciates the support in maintaining independence while monitored",
+        "Receives hydration reminders from ALFRED after exercising",
+        "Sends updates to her daughter through ALFRED for social connection",
+        "Feels emotionally supported by ALFRED’s interactions and reminders"
+      ]
+    }
+  ]
+}

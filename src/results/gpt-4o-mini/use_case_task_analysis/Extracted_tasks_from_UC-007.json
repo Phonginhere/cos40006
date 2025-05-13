@@ -1,0 +1,35 @@
+{
+  "useCaseId": "UC-007",
+  "tasksByPersona": [
+    {
+      "personaId": "P-004",
+      "tasks": [
+        "Monitors Olivia's health metrics via tablet using ALFRED",
+        "Receives alerts from ALFRED about anomalies in Olivia's vital signs",
+        "Prioritizes non-critical notifications to minimize interruptions during work",
+        "Ensures efficient care for Olivia while managing other patients",
+        "Trusts ALFRED to provide accurate health updates on Olivia"
+      ]
+    },
+    {
+      "personaId": "P-006",
+      "tasks": [
+        "Remotely monitors Olivia's health through ALFRED alerts",
+        "Balances caregiving responsibilities for multiple clients",
+        "Relies on ALFRED to notify her of any urgent health concerns for Olivia",
+        "Feels reassured knowing she can stay updated without being physically present",
+        "Values the ability to access information quickly and intuitively"
+      ]
+    },
+    {
+      "personaId": "P-005",
+      "tasks": [
+        "Interacts with ALFRED to receive medication schedule reminders",
+        "Connects with Sarah via scheduled video calls through ALFRED",
+        "Engages in guided exercises with ALFRED while respecting her comfort zone",
+        "Experiences increased emotional support and connection through technology",
+        "Recognizes the importance of privacy and autonomy in using ALFRED"
+      ]
+    }
+  ]
+}

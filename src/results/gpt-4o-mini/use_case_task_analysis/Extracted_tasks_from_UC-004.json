@@ -1,0 +1,18 @@
+{
+  "useCaseId": "UC-004",
+  "tasksByPersona": [
+    {
+      "personaId": "P-005",
+      "tasks": [
+        "Asks ALFRED for information on social activities happening today",
+        "Instructs ALFRED to send a message confirming attendance at a book club meeting",
+        "Appreciates ALFRED's ability to filter harmful content in communications",
+        "Receives reminders from ALFRED to take medication",
+        "Engages in light stretching exercises guided by ALFRED",
+        "Requests ALFRED to check the bus schedule for transportation",
+        "Feels empowered and supported by ALFRED during social interactions",
+        "Experiences increased confidence and reduced loneliness with ALFRED's assistance"
+      ]
+    }
+  ]
+}

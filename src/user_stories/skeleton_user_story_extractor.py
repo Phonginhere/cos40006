@@ -1,0 +1,78 @@
+import os
+import json
+import shutil
+
+from collections import defaultdict
+
+from user_persona_loader import UserPersonaLoader
+from utils import USE_CASE_TASK_DIR, USER_STORY_DIR
+from user_stories.user_story_loader import UserStory
+
+def extract_skeleton_user_stories(persona_loader: UserPersonaLoader):
+    # Step 0: Load persona map
+    persona_loader.load()
+    all_personas = {p.id: p for p in persona_loader.get_personas()}
+
+    # Step 0.1: Check if story files already exist and match expected count
+    if os.path.exists(USER_STORY_DIR):
+        existing_files = set(os.listdir(USER_STORY_DIR))
+        expected_files = {f"User_stories_for_{pid}.json" for pid in all_personas}
+        
+        if expected_files.issubset(existing_files) and len(expected_files) == len(all_personas):
+            print("✅ All skeleton user story files already exist. Skipping extraction.")
+            return
+    
+    # Step 1: Clean user story directory
+    if os.path.exists(USER_STORY_DIR):
+        shutil.rmtree(USER_STORY_DIR)
+    os.makedirs(USER_STORY_DIR, exist_ok=True)
+    
+    # Step 2: Load persona map
+    persona_loader.load()
+    all_personas = {p.id: p for p in persona_loader.get_personas()}
+
+    # Step 3: Process extracted task files
+    grouped_stories = defaultdict(list)
+    uid_counter = 1
+
+    for filename in os.listdir(USE_CASE_TASK_DIR):
+        if not filename.endswith(".json"):
+            continue
+
+        file_path = os.path.join(USE_CASE_TASK_DIR, filename)
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+        except UnicodeDecodeError:
+            with open(file_path, 'r', encoding='cp1252') as f:
+                data = json.load(f)
+
+        uc_id = data["useCaseId"]
+        for entry in data["tasksByPersona"]:
+            persona_id = entry["personaId"]
+            user_group = all_personas[persona_id].user_group if persona_id in all_personas else "Unknown"
+
+            for task in entry["tasks"]:
+                story = UserStory(
+                    id=f"US-{uid_counter:03}",
+                    title="",           # Leave title as empty
+                    persona=persona_id,
+                    user_group=user_group,
+                    use_case=uc_id,
+                    priority=None,      # Leave priority as unknown
+                    summary="",         # Leave summary as empty",
+                    type="",            # Unknown
+                    cluster=None,
+                    pillar=None,
+                    task=task
+                )
+                grouped_stories[persona_id].append(story)
+                uid_counter += 1
+
+    # Step 4: Write grouped user stories per persona
+    for persona_id, stories in grouped_stories.items():
+        file_path = os.path.join(USER_STORY_DIR, f"User_stories_for_{persona_id}.json")
+        with open(file_path, 'w', encoding='utf-8') as f:
+            json.dump([s.to_dict() for s in stories], f, indent=2, ensure_ascii=False)
+
+    print(f"✅ Extracted and saved user stories for {len(grouped_stories)} persona(s).")

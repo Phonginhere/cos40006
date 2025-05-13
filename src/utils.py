@@ -28,7 +28,7 @@ USER_GROUPS = list(USER_GROUP_KEYS.keys())
 USE_CASE_DIR = os.path.join("results", CURRENT_LLM, "use_cases")
 USE_CASE_TYPE_CONFIG_PATH = os.path.join("data", "use_case_rules", "use_case_type_config.json")
 USE_CASE_TASK_DIR = os.path.join("results", CURRENT_LLM, "use_case_task_analysis")
-FINAL_USER_STORY_DIR = os.path.join("results", CURRENT_LLM, "user_stories")
+USER_STORY_DIR = os.path.join("results", CURRENT_LLM, "user_stories")
 
 # ==================================================================================================
 # ALFRED SYSTEM SUMMARY LOADER
@@ -84,6 +84,15 @@ def load_use_case_task_example(path: str = "data/use_case_rules/use_case_task_an
             return f.read().strip()
     except FileNotFoundError:
         raise FileNotFoundError(f"❌ Missing use-case task analysis file at: {path}")
+    
+# ==================================================================================================
+# USER STORY SUMMARY LOADER
+def load_user_story_summary(path: str = "data/user_story_rules/user_story_summary.txt") -> str:
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return f.read().strip()
+    except FileNotFoundError:
+        raise FileNotFoundError(f"❌ Missing user story summary file at: {path}")
 
 
 # ==================================================================================================

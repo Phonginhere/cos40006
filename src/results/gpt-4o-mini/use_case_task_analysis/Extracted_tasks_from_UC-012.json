@@ -1,0 +1,38 @@
+{
+  "useCaseId": "UC-012",
+  "tasksByPersona": [
+    {
+      "personaId": "P-002",
+      "tasks": [
+        "Explores the ALFRED platform for applications to enhance daily life",
+        "Requests applications that help stay active and connected with family",
+        "Expresses the need for easy-to-use exercises tailored to her mobility issues",
+        "Communicates her preferences for visually appealing app design",
+        "Engages with Daniel to discuss features that ensure safety and clarity",
+        "Feels motivated by the potential of the ALFRED system to improve her life"
+      ]
+    },
+    {
+      "personaId": "P-001",
+      "tasks": [
+        "Accesses development resources on the ALFRED platform to support app creation",
+        "Suggests app features that encourage physical activity for older adults",
+        "Ensures that the app includes clear instructions and visual aids",
+        "Discusses the importance of blocking harmful content in the app",
+        "Takes notes on user feedback to guide app development",
+        "Commits to integrating functionalities for open and safe communication"
+      ]
+    },
+    {
+      "personaId": "P-005",
+      "tasks": [
+        "Joins the conversation to express her own needs for exercise applications",
+        "Requests that the app allows for free communication without censorship",
+        "Shares her feelings of being overwhelmed when searching for exercises",
+        "Collaborates with Elena and Daniel to articulate specific app requirements",
+        "Expresses curiosity about the potential for community support through the app",
+        "Seeks reassurance that the app will respect user autonomy and safety"
+      ]
+    }
+  ]
+}

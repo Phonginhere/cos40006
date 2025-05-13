@@ -2,6 +2,7 @@ import os
 import re
 import json
 import textwrap
+
 from pathlib import Path
 
 from utils import get_llm_response, load_use_case_task_example, load_alfred_summary, USE_CASE_TASK_DIR
@@ -21,7 +22,18 @@ def build_task_extraction_prompt(uc, all_personas: dict, alfred_summary: str) ->
     return textwrap.dedent(f"""
 You are a requirements analyst. You are reading a finalized use case from the ALFRED system.
 
-Your goal is to extract all the **distinct tasks** (or operands/actions) that each persona performs or participates in, based on the scenario. These tasks should represent concrete, goal-directed activities or interactions—especially those relevant for system behavior, user goals, or functional requirements.
+🎯 Your objective is to extract a **diverse and balanced set of persona tasks**, with a **strong emphasis on non-functional concerns**. You must extract tasks that relate to:
+
+- Functional actions (e.g., interactions, operations, commands), and  
+- Non-functional expectations, such as:
+  • Privacy or security concerns  
+  • Usability or accessibility preferences  
+  • Trust, safety, or autonomy  
+  • Performance expectations or emotional responses  
+  • System adaptability, control, or comfort  
+  
+These tasks will be used to generate user stories that cover both behavioral and quality-of-service aspects of the system. To avoid bias, you must **prioritize non-functional aspects when they appear** in the scenario.
+Note that, the term **functional** and **non-functional** should not be used directly in the extracted tasks.
 
 --- ALFRED SYSTEM ---
 
@@ -47,6 +59,7 @@ Scenario:
 
 📝 TASK → For each persona listed above:
 - Identify all meaningful *tasks* (or operands/actions) they perform in the scenario.
+- Include **both action-based** (functional) and **quality-focused** (non-functional) tasks.
 - Each task should be written as a short, complete sentence or phrase. Also, they should be distinct, goal-oriented and not repeated across personas.
 - Group tasks by persona. In the extracted tasks, please use the persona name, NOT their id, which is only used for the attribute "personaId".
 - Focus on system-relevant behaviors, motivations, requests, and interactions.
@@ -76,7 +89,7 @@ def extract_and_save_tasks(uc, all_personas: dict) -> None:
     """Generate persona-level tasks for a use case and save the result."""
     alfred_summary = load_alfred_summary()
     prompt = build_task_extraction_prompt(uc, all_personas, alfred_summary)
-    print(f"🧠 Extracting persona tasks for {uc.id}...")
+    print(f"\n🧠 Extracting persona tasks for {uc.id}...")
 
     raw = get_llm_response(prompt, max_tokens=600)
     raw = re.sub(r"```.*?```", "", raw, flags=re.S).strip()
@@ -92,7 +105,7 @@ def extract_and_save_tasks(uc, all_personas: dict) -> None:
         "tasksByPersona": parsed
     }
 
-    out_path = Path(USE_CASE_TASK_DIR) / f"{uc.id}.json"
+    out_path = Path(USE_CASE_TASK_DIR) / f"Extracted_tasks_from_{uc.id}.json"
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(result, indent=2, ensure_ascii=False))
     print(f"✅ Tasks saved to: {out_path}")
@@ -105,10 +118,22 @@ def analyze_all_use_cases(persona_loader: UserPersonaLoader) -> None:
     uc_loader.load()
     all_uc = [uc for uc in uc_loader.get_all() if uc.scenario and uc.scenario.strip()]
 
-    expected_files = {f"{uc.id}.json" for uc in all_uc}
-    existing_files = set(f.name for f in Path(USE_CASE_TASK_DIR).glob("*.json"))
+    # Gather all use case IDs
+    expected_uc_ids = {uc.id for uc in all_uc}
 
-    if expected_files == existing_files:
+    # Gather all filenames in the analysis output folder
+    existing_filenames = set(f.name for f in Path(USE_CASE_TASK_DIR).glob("*.json"))
+
+    # Extract detected UC-IDs from filenames
+    existing_uc_ids = set()
+    for filename in existing_filenames:
+        for uc_id in expected_uc_ids:
+            if uc_id in filename:
+                existing_uc_ids.add(uc_id)
+                break
+
+    # Compare
+    if expected_uc_ids == existing_uc_ids:
         print("✅ All use case task files already exist. Skipping analysis.")
         return
 

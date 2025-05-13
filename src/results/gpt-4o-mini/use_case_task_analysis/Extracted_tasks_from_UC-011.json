@@ -1,0 +1,19 @@
+{
+  "useCaseId": "UC-011",
+  "tasksByPersona": [
+    {
+      "personaId": "P-005",
+      "tasks": [
+        "Asks ALFRED for exercise suggestions to maintain physical health",
+        "Expresses concerns about safety and comfort during the exercise routine",
+        "Receives personalized exercise guidance from ALFRED",
+        "Engages in a customized stretching routine with ALFRED's assistance",
+        "Requests a break during the exercise session to hydrate",
+        "Feels a sense of accomplishment after completing the exercise routine",
+        "Agrees to schedule future exercise reminders with ALFRED",
+        "Appreciates the non-intrusive support from ALFRED in her exercise regimen",
+        "Seeks reassurance from ALFRED regarding the avoidance of harmful content"
+      ]
+    }
+  ]
+}

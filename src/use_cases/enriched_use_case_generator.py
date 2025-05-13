@@ -72,6 +72,7 @@ TASK → Compose a lifelike 200–400-word scenario that:
   • Mentions *every* persona by name or role (not by ID)
   • Shows their motivations, interactions with ALFRED, and the outcome
   • Does **not** copy or closely paraphrase any previous scenario above
+  • **Strictly**, the scenario's content must be significantly affected by the **involved personas' information**; rather than the use case name or description, which play less essential roles.
 
 Strictly return only the scenario narrative. Do not include any additional text or commentary. Do NOT use any markdown, bold, italic, or special formatting in your response.
 """
@@ -102,7 +103,7 @@ def enrich_use_cases_with_scenarios(persona_loader: UserPersonaLoader) -> None:
             print(f"⚠️  {uc.id} missing name or description – skipping.")
             continue
 
-        print(f"🧠  Generating scenario for {uc.id} …")
+        print(f"\n🧠  Generating scenario for {uc.id} …")
         prompt = build_scenario_prompt(uc, all_personas, alfred_summary, uc_summary, group_summaries, uc_loader.get_all())
         raw = get_llm_response(prompt, max_tokens=550)
 
@@ -110,7 +111,7 @@ def enrich_use_cases_with_scenarios(persona_loader: UserPersonaLoader) -> None:
         scenario = re.sub(r"```.*?```", "", raw, flags=re.S).strip()
         uc.scenario = scenario
 
-        print(f"✅  {uc.id} scenario added → {scenario[:80]}…")
+        print(f"✅  {uc.id} scenario added → {scenario[:200]}…")
 
     uc_loader.save_all()
     print("💾  Scenario generation complete.")

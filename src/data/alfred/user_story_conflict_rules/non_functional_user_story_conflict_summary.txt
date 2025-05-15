@@ -1,0 +1,145 @@
+# Technique for Detecting Conflicts in Non-Functional User Stories (NFUS)
+
+The technique to identify, and classify the conflicts from non-functional user stories has been proposed by Sadana and Liu, which works as follows:
+
+===============================
+1. DECOMPOSING EACH USER STORY
+===============================
+
+Every non-functional user story (NFUS) should be **decomposed** into its smallest, specific, actionable components, referred to as **lowest-level NFUSs**.
+
+→ These fragments capture **a single clear intent or constraint**.  
+→ The decomposition allows us to perform **precise comparisons** and detect localized conflicts.
+
+Example:
+Original NFUS:  
+“I want the app to notify me discreetly without making noise during patient rest hours.”
+
+Lowest-level NFUSs:
+- A1: Avoid sound-based alerts during rest hours.  
+- A2: Use vibration or visual signals instead of sound.
+
+
+===============================
+2. IDENTIFYING CONFLICTS
+===============================
+
+After decomposition, compare each pair of NFUSs at the lowest level.
+
+Two lowest-level NFUSs are said to **conflict** if they **contradict** one another — that is:
+
+→ They impose **opposite expectations** on the system's behavior  
+→ They **cannot be satisfied at the same time** under the same conditions  
+
+**Definition of “contradict”**:  
+Two lowest-level NFUSs contradict if their goals or constraints are **clearly incompatible** in a way that would be **immediately obvious** to an informed reader (e.g., an undergraduate student who understands the ALFRED system). The contradiction should not require deep domain knowledge or subtle reasoning.
+
+There are two types of conflict:
+
+(1) MUTUALLY EXCLUSIVE CONFLICT  
+→ When *all* elements of one story contradict *all* elements of another.  
+→ The goals are inherently incompatible and cannot coexist.  
+
+(2) PARTIAL CONFLICT  
+→ When *some* components conflict but others are compatible.  
+→ There may be opportunities for conditional logic, escalation paths, or layered behavior.
+
+===============================
+3. STEP-BY-STEP FORMAT
+===============================
+
+For each pair of user stories:
+
+Step 1. **Pre-resolution – Identify User Story Content**  
+→ Briefly summarize what each user story is trying to achieve.
+
+Step 2. **Decompose NFUSs**  
+→ List the lowest-level NFUSs for each story (e.g., A1, A2, B1, B2).
+
+Step 3. **Analyze Conflicts**  
+→ Compare A1 vs. B1, A1 vs. B2, A2 vs. B1, etc.  
+→ Specify whether the conflict is **Mutually Exclusive** or **Partial**.
+
+Step 4. **Add Observations**  
+→ Note if any fragments are compatible. Suggest conditional designs if appropriate.
+
+Step 5. **Suggest Resolution Strategy**  
+→ Combine compatible parts, or  
+→ Update conditions (e.g., time-based triggers, escalation logic).
+
+===============================
+4. UNREAL EXAMPLES
+===============================
+
+Note that, the following are just the just non-existent examples, which are used for references only, and do not confuse with the real inputs provided (personas, summaries, ...):
+
+✦ EXAMPLE 1 – MUTUALLY EXCLUSIVE CONFLICT  
+(Luke – Registered Nurse)  
+→ “I want ALFRED’s features to stay strictly clinical, without emotional distractions.”
+
+(Phoebe – Informal Caregiver)  
+→ “I want ALFRED’s tools to encourage emotional engagement, such as bonding games and messages.”
+
+Decomposition:
+• Luke:
+  - A1: No emotional distractions
+  - A2: Clinical features only
+
+• Phoebe:
+  - B1: Enable bonding games
+  - B2: Display emotional prompts/messages
+
+→ Conflict Type: Mutually Exclusive  
+→ A1 & A2 conflict with B1 & B2 completely.
+
+→ Resolution Strategy:  
+  → Use personalization to separate modes based on user role (clinical vs. emotional interface)
+
+
+✦ EXAMPLE 2 – NO CONFLICT  
+(Luke – Registered Nurse)  
+→ “I want to use video calls only in emergencies.”
+
+(Lily – Older Adult)  
+→ “I want ALFRED to detect falls and send an emergency message to someone.”
+
+Decomposition:
+• Luke:
+  - C1: Restrict video calls to emergency use  
+  - C2: Avoid unnecessary interruptions  
+
+• Lily:
+  - O1: Trigger emergency message on fall  
+  - O2: Ensure contact is notified  
+  - O3: Reassurance via communication (possibly video)  
+
+→ Conflict Type: (No conflict)  
+→ Reason: Lily’s request for reassurance **does not require** video calls, and explicitly leaves it open to other communication methods. Luke’s preference is respected as long as video is used judiciously (e.g., only if message response fails).
+
+→ Resolution: No change needed — these expectations are compatible.
+
+✦ EXAMPLE 3 – PARTIAL CONFLICT  
+(Sophie – Older Adult)  
+→ “I want ALFRED to remind me frequently about hydration and movement throughout the day.”
+
+(Ethan – Caregiver)  
+→ “I want ALFRED to avoid interrupting clients during their rest periods or focused activities.”
+
+Decomposition:
+• Sophie:
+  - S1: Send hydration reminders at regular intervals  
+  - S2: Send movement reminders periodically during the day  
+  - S3: Encourage light physical activity for wellness  
+
+• Ethan:
+  - E1: Suppress reminders during rest periods  
+  - E2: Avoid disrupting focused activities (e.g., reading, therapy)  
+  - E3: Minimize non-urgent notifications during passive care time  
+
+→ Conflict Type: Partial  
+→ Reason: S1 and S2 may conflict with E1 and E2 if reminders are sent at times when the user is resting or engaged in focused tasks. However, both users' goals are reasonable and can coexist with better timing control.
+
+→ Resolution Strategy:  
+  → Introduce context-aware notification scheduling  
+  → Allow user to configure "quiet periods" where non-urgent reminders are deferred  
+  → Let caregivers approve or adjust default reminder windows

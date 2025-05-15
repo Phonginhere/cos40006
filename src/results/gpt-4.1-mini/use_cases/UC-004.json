@@ -1,0 +1,17 @@
+{
+  "id": "UC-004",
+  "useCaseType": "Social Enrichment (Social Media, Communication)",
+  "userGroups": [
+    "Older Adults"
+  ],
+  "pillars": [
+    "Pillar 2 - Personalized Social Inclusion",
+    "Pillar 4 - Physical & Cognitive Impairments Prevention"
+  ],
+  "name": "Formalized Social Messaging",
+  "description": "This use case enables Olivia to maintain formal, polite, and privacy-conscious communication through ALFRED, limiting unsolicited notifications and ensuring data sharing is strictly controlled. It supports her preference for push-to-talk interaction and avoids overwhelming technology features while fostering social inclusion and cognitive engagement.",
+  "scenario": "Olivia wakes up to a quiet morning in her suburban home, determined to keep her day orderly and free from the usual digital clutter that frustrates her. She knows ALFRED is there to assist, but she insists on pushing the interaction, literally—she activates the voice assistant only when she wants, refusing any unsolicited prompts or notifications. The system respects her preference, remaining silent until Olivia commands it.\n\nLater, Olivia decides to send a message to her longtime friend, carefully instructing ALFRED to draft a formal and polite note. She’s meticulous about her words, wanting to avoid any hint of casualness or unintended familiarity. ALFRED patiently repeats the message back to her without embellishment, ensuring it meets her high standards before sending. Olivia appreciates the privacy controls—she explicitly blocked all app installations and data sharing, wary of any breaches or leaks. The system confirms that her message is sent only to the intended recipient, with no data shared beyond her strict parameters.\n\nWhen her daughter calls to check in, Olivia chooses to keep the conversation brief and formal, declining the video check-in her caregiver suggested last week. She finds video intrusive and prefers offline, more private updates. ALFRED silently notes her preference, avoiding any automatic video call reminders. Olivia is firm—she wants to maintain control over what is shared and when, even if it means her caregivers feel slightly distanced.\n\nThroughout the day, ALFRED offers no unsolicited reminders, including those for physical exercises, which Olivia dismisses immediately. She’s skeptical about the wellness nudges, feeling overwhelmed by too much technology intervention. Yet, when she asks ALFRED to suggest a cognitively stimulating activity, the system proposes a brief, formal word puzzle that suits her taste and doesn’t feel intrusive. Olivia reluctantly agrees to try it, appreciating that the interaction remains on her terms, respectful and unobtrusive.\n\nDespite her grumpiness and resistance, ALFRED’s strict adherence to Olivia’s privacy and communication preferences allows her to feel a rare sense of security and autonomy. The system’s silence and formality prevent the overwhelm she fears, even if it means she misses some supportive opportunities. Olivia remains cautious but quietly acknowledges that this tailored interaction helps her stay socially connected without sacrificing her privacy or dignity.",
+  "personas": [
+    "P-005"
+  ]
+}

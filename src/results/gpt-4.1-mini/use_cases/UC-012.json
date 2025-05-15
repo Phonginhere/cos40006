@@ -1,0 +1,20 @@
+{
+  "id": "UC-012",
+  "useCaseType": "Marketplace Discovery",
+  "userGroups": [
+    "Developers and App Creators",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Developer Core",
+    "General Requirements"
+  ],
+  "name": "Developer App Submission Workflow",
+  "description": "This use case describes the process where a developer creates, tests, and submits a new application to the ALFRED marketplace, ensuring compliance with platform standards and enabling older adults to discover and install apps tailored to their health and social needs.",
+  "scenario": "Daniel Chen is working remotely in his rural home office, deeply focused on finalizing his new healthcare app designed to integrate with the ALFRED platform. He appreciates the clean API documentation and the ability to test his app in a sandbox environment, but he’s cautious about balancing cutting-edge features with the need for compatibility on older devices that many older adults use. Daniel’s goal is to build an app that is secure and accessible, yet innovative enough to stand out on the ALFRED marketplace. As he uploads his app for review, he double-checks the privacy compliance settings, knowing that any misstep could delay approval.\n\nMeanwhile, Elena Rivera, a tech-curious older adult with mild mobility challenges, has recently discovered the ALFRED marketplace. She is eager to explore new apps that could help her stay active and socially connected. However, she approaches installations with a mixture of excitement and caution; while she openly shares her health data to improve personalized care, she dislikes anything that feels controlling or intrusive. Elena listens carefully when ALFRED’s voice assistant explains the new app’s functionalities, appreciating its informal tone and encouragement to challenge herself with more demanding exercises. She quickly installs the app, hoping it will boost her motivation beyond the limited routines she’s grown bored of.\n\nIn contrast, Olivia, a retired social worker living alone, watches this interaction warily. She is skeptical of new apps and is particularly concerned about data privacy. Olivia has strict rules about limiting data sharing and prefers formal, minimal communication from ALFRED. When she learns about Daniel’s new app, she immediately blocks its installation, worried it might send unsolicited notifications or share her data with third parties. Olivia dismisses most suggestions for physical challenges and refuses video check-ins, preferring to maintain her independence without feeling monitored. She finds Elena’s enthusiasm puzzling, convinced that technology often oversteps boundaries and that most older adults should be protected from such complexities.\n\nBack in his workspace, Daniel receives mixed feedback from the ALFRED platform’s automated review process, noting Olivia’s concerns as representative of a significant user segment. He contemplates adding more granular privacy controls and clearer user consent prompts to address such worries, understanding that the success of his app hinges not only on its technical merit but also on its sensitivity to diverse user attitudes. Elena, meanwhile, enjoys the app’s features and feels empowered to take on new challenges, while Olivia remains steadfast in her cautious stance, embodying the very real tensions the ALFRED ecosystem must navigate between innovation and user trust.",
+  "personas": [
+    "P-002",
+    "P-001",
+    "P-005"
+  ]
+}

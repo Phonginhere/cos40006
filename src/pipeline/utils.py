@@ -32,6 +32,7 @@ USER_STORY_SUMMARY_PATH = os.path.join("data", SYSTEM_NAME, "user_story_rules", 
 NON_FUNCTIONAL_USER_STORY_CLUSTERING_SUMMARY_DIR = os.path.join("data", SYSTEM_NAME, "user_story_rules", "non_functional_user_story_clustering_summary")
 
 NON_FUNCTIONAL_USER_STORY_CONFLICT_SUMMARY_PATH = os.path.join("data", SYSTEM_NAME, "user_story_conflict_rules", "non_functional_user_story_conflict_summary.txt")
+FUNCTIONAL_USER_STORY_CONFLICT_SUMMARY_PATH = os.path.join("data", SYSTEM_NAME, "user_story_conflict_rules", "functional_user_story_conflict_summary.txt")
 
 USE_CASE_DIR = os.path.join("results", CURRENT_LLM, "use_cases")
 USE_CASE_TASK_EXTRACTION_DIR = os.path.join("results", CURRENT_LLM, "use_case_task_extraction")
@@ -41,6 +42,8 @@ FUNCTIONAL_USER_STORY_CLUSTER_SET_PATH = os.path.join("results", CURRENT_LLM, "f
 
 NON_FUNCTIONAL_USER_STORY_ANALYSIS_PATH = os.path.join("results", CURRENT_LLM, "non_functional_user_story_analysis.json")
 NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join("results", CURRENT_LLM, "conflicts_within_one_group", "non_functional_user_stories")
+
+FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join("results", CURRENT_LLM, "conflicts_within_one_group", "functional_user_stories")
 
 # ==================================================================================================
 # ALFRED SYSTEM SUMMARY LOADER

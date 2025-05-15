@@ -1,0 +1,30 @@
+{
+  "useCaseId": "UC-007",
+  "tasksByPersona": [
+    {
+      "personaId": "P-004",
+      "tasks": [
+        "Accesses only validated, urgent health data from ALFRED",
+        "Relies on ALFRED's filtering to reduce notification overload",
+        "Avoids engaging with emotional or playful system interactions",
+        "Focuses strictly on clinical facts when reviewing patient data",
+        "Monitors Olivia's vital signs remotely through ALFRED",
+        "Prefers concise and prioritized health alerts to manage workload"
+      ]
+    },
+    {
+      "personaId": "P-006",
+      "tasks": [
+        "Supports Olivia's engagement by fostering openness through ALFRED"
+      ]
+    },
+    {
+      "personaId": "P-005",
+      "tasks": [
+        "Responds coolly and dismissively to ALFRED's reminders and check-ins",
+        "Prefers offline communication over system-mediated interactions",
+        "Guards personal health data carefully, even from medical staff"
+      ]
+    }
+  ]
+}

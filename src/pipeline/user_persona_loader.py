@@ -140,6 +140,8 @@ class UserPersonaLoader:
 
     def load(self) -> None:
         try:
+            self.personas = []
+            
             for filename in os.listdir(self.directory):
                 if filename.endswith(".json"):
                     filepath = os.path.join(self.directory, filename)

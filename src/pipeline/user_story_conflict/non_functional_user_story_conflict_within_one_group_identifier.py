@@ -18,7 +18,7 @@ from pipeline.utils import (
 )
 
 
-def identify_conflicts_within_one_group(user_story_loader: Optional[UserStoryLoader] = None):
+def identify_non_functional_conflicts_within_one_group(user_story_loader: Optional[UserStoryLoader] = None):
     os.makedirs(NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, exist_ok=True)
 
     existing_files = set(f for f in os.listdir(NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR) if f.endswith(".json"))
@@ -155,7 +155,7 @@ Format your answer strictly as a JSON object:
 If conflict is found:
 {{
   "conflictType": "Mutually Exclusive" or "Partial",
-  "conflictDescription": "A short (1–3 sentence) description of why this is a conflict.",
+  "conflictDescription": "[A short (1–3 sentence) description of why this is a conflict, and/or why this conflict type is determined]",
   "conflictingNfrPairs": [
     ["<lowest-level NFR from A>", "<lowest-level NFR from B>"],
     ...

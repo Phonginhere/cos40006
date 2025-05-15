@@ -2,7 +2,7 @@
   "Id": "P-005",
   "Name": "Olivia",
   "Role": "Retired social worker and community volunteer",
-  "Tagline": "I am a difficult, pessimistic, and dependent person and I need some help to monitor and improve my recovery constantly.",
+  "Tagline": "I am a difficult, pessimistic, and dependent person and I need some help to monitor and improve my recovery constantly. However technology sometimes make me feels overwhelming, or even unsafe in terms of data privacy.",
   "DemographicData": {
     "Age": "75",
     "MaritalStatus": "Widow",
@@ -21,10 +21,10 @@
   ],
   "CoreGoals": [
     "Push-to-Talk when I ask the system to",
-    "Full control system to find daily exercises",
     "Drink beverage",
     "Take public transport",
-    "Keep communication to be formal, polite, ethical and healthy"
+    "Keep communication to be formal, polite, ethical and healthy",
+    "Limit the sending of almost ALFRED's messages/notifications (not just unsolicited ones, but almost all of them)"
   ],
   "TypicalChallenges": [
     "Privacy concerns",

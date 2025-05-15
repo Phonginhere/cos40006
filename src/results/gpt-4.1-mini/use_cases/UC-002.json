@@ -1,0 +1,21 @@
+{
+  "id": "UC-002",
+  "useCaseType": "Cognitive Engagement & Stimulation (Gaming)",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Pillar 1 - User-Driven Interaction Assistant",
+    "Pillar 4 - Physical & Cognitive Impairments Prevention"
+  ],
+  "name": "Tailored Cognitive Gaming Support",
+  "description": "This use case enables older adults with varying attitudes and privacy concerns to engage in personalized cognitive stimulation games, while allowing caregivers to monitor progress discreetly and support recovery without overwhelming the user.",
+  "scenario": "Olivia, a retired social worker, often approaches technology with suspicion and reluctance. She values her privacy deeply and is wary of ALFRED’s cognitive games, fearing they might share too much of her data or overwhelm her with unnecessary notifications. When ALFRED suggests a new memory game, Olivia immediately dismisses it, muttering that she doesn’t want “another device spying on me.” She insists that ALFRED only activate when she explicitly pushes the talk button and demands formal, no-nonsense communication, which sometimes frustrates the system’s more casual prompts.\n\nIn contrast, Elena, a tech-curious woman with mild mobility issues, embraces ALFRED’s offerings with enthusiasm. She eagerly accepts the daily cognitive challenges, even the harder ones, and enjoys sharing her progress during video check-ins. Elena appreciates the system’s automatic activation and the steady stream of health reminders, finding motivation in the scores and feedback ALFRED provides. She often encourages Olivia to try the games, but Olivia’s dismissive attitude and strict privacy preferences create a palpable tension between them.\n\nMeanwhile, Mike, the registered nurse, balances his professional responsibilities with the differing attitudes of his patients. He respects Olivia’s desire for minimal data sharing and formal interactions, limiting his remote monitoring to essential clinical data only. Mike disables non-critical notifications during his shifts to stay focused but makes sure to review Olivia’s progress reports discreetly. With Elena, however, he adopts a more engaged approach, appreciating her openness to video check-ins and her willingness to share extensive health data, which helps him tailor her care more dynamically.\n\nSarah, the informal caregiver managing multiple elderly clients including Olivia and Elena, finds herself navigating these contrasting preferences daily. She values ALFRED’s ability to send her all notifications, even the non-critical ones, so she can keep a close eye on each client’s cognitive engagement. Sarah encourages playful interaction with the system, sometimes inviting Elena to join group games, but remains careful not to overwhelm Olivia, respecting her request to block app installations and dismiss hard exercise notifications. The friction between Olivia’s guardedness and Elena’s openness requires Sarah to constantly adjust her communication style and monitoring strategies, highlighting the system’s need to accommodate diverse and sometimes conflicting user needs.",
+  "personas": [
+    "P-005",
+    "P-002",
+    "P-004",
+    "P-006"
+  ]
+}

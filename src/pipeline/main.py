@@ -14,12 +14,14 @@ from pipeline.use_case.use_case_task_deduplicator import deduplicate_tasks_for_a
 from pipeline.user_story.user_story_loader import UserStoryLoader
 from pipeline.user_story.skeleton_user_story_extractor import extract_skeleton_user_stories
 from pipeline.user_story.user_story_generator import generate_complete_user_stories
+from pipeline.user_story.user_story_verifier import verify_user_stories
 from pipeline.user_story.user_story_functional_and_non_funtional_typer import update_user_stories_with_type
 from pipeline.user_story.non_functional_user_story_clusterer import cluster_non_functional_user_stories
 from pipeline.user_story.functional_user_story_clusterer import generate_functional_cluster_definitions, cluster_functional_user_stories
 
-from pipeline.user_story_conflict.non_functional_user_story_analyzer import analyze_non_functional_user_stories
-from pipeline.user_story_conflict.non_functional_user_story_conflict_within_one_group_identifier import identify_conflicts_within_one_group
+from pipeline.user_story_conflict.non_functional_user_story_decomposer import decompose_non_functional_user_stories
+from pipeline.user_story_conflict.non_functional_user_story_conflict_within_one_group_identifier import identify_non_functional_conflicts_within_one_group
+from pipeline.user_story_conflict.functional_user_story_conflict_within_one_group_identifier import identify_functional_conflicts_within_one_group
 
 def main():
     # Step 1: Load user personas
@@ -69,6 +71,10 @@ def main():
     print("\n📝 Phase 3b: Generating complete user stories...")
     generate_complete_user_stories(persona_loader, use_case_loader)
     
+    #   Step 3b-1: Verify user story summaries for persona dominance
+    print("\n🔎 Phase 3b-1: Verifying user story summaries for persona dominance...")
+    verify_user_stories(persona_loader)
+    
     #   Step 3c: Update user stories with type (functional/non-functional)
     print("\n🔍 Phase 3c: Updating user stories with type...")
     update_user_stories_with_type()
@@ -100,11 +106,17 @@ def main():
     print("\n============================================================ ANALYZE NON-FUNCTIONAL USER STORIES ========================================================")
     #   Step 4a: Decomposite non-functional user stories
     print("\n🔍 Phase 4a: Decompositing non-functional user stories...")
-    analyze_non_functional_user_stories(user_story_loader)
+    decompose_non_functional_user_stories(user_story_loader)
     
     #   Step 4b: Identify conflicts within one user group
-    print("\n⚔️ Phase 4b: Identifying conflicts within one user group...")
-    identify_conflicts_within_one_group(user_story_loader)
+    print("\n⚔️ Phase 4b: Identifying conflicts for non-functional user stories within one user group...")
+    identify_non_functional_conflicts_within_one_group(user_story_loader)
+    
+    # Step 5: Conflict analysis for functional user stories
+    print("\n============================================================ ANALYZE FUNCTIONAL USER STORIES ==========================================================")
+    #   Step 5a: Identify conflicts within one user group
+    print("\n⚔️ Phase 5a: Identifying conflicts for functional user stories within one user group...")
+    identify_functional_conflicts_within_one_group(user_story_loader)
     
     print("\n✅ Pipeline completed successfully. Check your results in the output folder.")
 

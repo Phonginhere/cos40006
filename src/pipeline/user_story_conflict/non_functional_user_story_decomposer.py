@@ -16,7 +16,7 @@ from pipeline.utils import (
 )
 
 
-def analyze_non_functional_user_stories(user_story_loader: Optional[UserStoryLoader] = None):
+def decompose_non_functional_user_stories(user_story_loader: Optional[UserStoryLoader] = None):
     # Load or create output directory and loader
     loader = user_story_loader if user_story_loader else UserStoryLoader()
     loader.load_all_user_stories()
@@ -53,14 +53,23 @@ def analyze_non_functional_user_stories(user_story_loader: Optional[UserStoryLoa
             story
         )
         response = get_llm_response(prompt)
-        parsed = parse_decomposition_response(response)
-        if parsed:
-            all_results.append({
-                **story.to_dict(),
-                "decomposition": parsed
-            })
-            
-            print(f"✅ Decomposed NFUS (ID: {story.id}, Persona: {story.persona}, decomposition: {parsed})")
+
+        # Fallback handling: if response is None or parsing fails, use story.summary as single decomposition element
+        if response is None:
+            print(f"⚠️ LLM response is None for story {story.id}, using fallback decomposition.")
+            decomposition = [story.summary]
+        else:
+            decomposition = parse_decomposition_response(response)
+            if decomposition is None:
+                print(f"⚠️ Failed to parse LLM response for story {story.id}, using fallback decomposition.")
+                decomposition = [story.summary]
+
+        all_results.append({
+            **story.to_dict(),
+            "decomposition": decomposition
+        })
+
+        # print(f"✅ Decomposed NFUS (ID: {story.id}, Persona: {story.persona}, decomposition: {decomposition})")
 
     with open(NON_FUNCTIONAL_USER_STORY_ANALYSIS_PATH, "w", encoding="utf-8") as f:
         json.dump(all_results, f, indent=2, ensure_ascii=False)

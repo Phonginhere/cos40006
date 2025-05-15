@@ -1,0 +1,17 @@
+{
+  "id": "UC-009",
+  "useCaseType": "Recovery & Rehab",
+  "userGroups": [
+    "Older Adults"
+  ],
+  "pillars": [
+    "Pillar 3 - Effective & Personalized Care",
+    "Pillar 4 - Physical & Cognitive Impairments Prevention"
+  ],
+  "name": "Privacy-Focused Recovery Monitoring",
+  "description": "This use case supports Olivia in her recovery process by providing personalized care and cognitive-physical rehabilitation while respecting her strict privacy preferences and minimizing unsolicited system interactions.",
+  "scenario": "Olivia, a retired social worker living alone in her suburban home, approached the ALFRED system with a mix of skepticism and guarded hope. She was well aware of her own reputation for being difficult and grumpy, especially when it came to technology. Privacy was her fortress; she refused to allow any app installations unless she explicitly requested them, and she insisted that ALFRED’s voice assistant keep interactions terse and to the point—detailed explanations annoyed her. When ALFRED suggested a new cognitive game to aid her recovery, Olivia dismissed the notification immediately, irritated by what she perceived as an unnecessary intrusion. She preferred to maintain control, often muttering about the system’s overzealous reminders for hard exercises and refusing to wear any sensor-equipped wearables that might share her data beyond her strict limits.\n\nDespite her resistance, Olivia recognized the necessity of some monitoring to support her recovery. She cautiously allowed ALFRED to track her physical progress but insisted that no data be shared with her caregivers or family without her direct consent, which she rarely granted. The system respected her wishes, but this created tension with the medical team who wished to stay informed for timely interventions. Olivia’s daughter, worried yet respectful of her mother’s privacy, occasionally tried to initiate video check-ins through ALFRED. Olivia, however, found these invasive and preferred offline check-ups, often declining calls or deflecting with curt responses. This left caregivers frustrated, as they struggled to gauge her wellbeing without direct feedback.\n\nOlivia’s insistence on formality extended to every interaction; she expected ALFRED to communicate politely and ethically, never crossing into casual or overly familiar language. The system adapted, but the conversations remained cold and transactional, which left Olivia feeling isolated at times. Still, she appreciated that ALFRED only activated voice commands when she explicitly used the push-to-talk feature, sparing her from unwanted interruptions. In moments of quiet, Olivia found herself grudgingly relying on ALFRED’s gentle prompts to drink water or remind her of appointments, acknowledging that the system, though intrusive in her eyes, was a necessary companion in her slow recovery.",
+  "personas": [
+    "P-005"
+  ]
+}

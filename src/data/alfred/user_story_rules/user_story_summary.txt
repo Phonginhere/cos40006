@@ -28,7 +28,7 @@ Each ALFRED user story contains the following elements:
 • Pillar              : Strictly, one of: "Developer Core", "General Requirements", "Pillar 1 - User-Driven Interaction Assistant", "Pillar 2 - Personalized Social Inclusion", "Pillar 3 - Effective & Personalized Care", or "Pillar 4 - Physical & Cognitive Impairments Prevention"
 • Task                : The raw task that inspired this story (used internally for traceability)
 • Priority Number     : A prioritization value from 1 (very high) to 5 (out of scope).
-• Summary             : A 1–2 sentence description of the story, starting with the persona’s role & intent. Generally, it should not mention directly the persona's name.
+• Summary             : A 1–2 sentence description of the story, starting with the persona’s role & intent. Generally, it should not mention directly the persona's name. Strictly, the persona information should be dominant in the context of a user story rather than the system context, even if it contradicts some of the content in the system context.
 
 ────────────────────────────────────────────
 

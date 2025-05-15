@@ -1,0 +1,20 @@
+{
+  "id": "UC-003",
+  "useCaseType": "Wellbeing & Lifestyle Optimization (Nutrition, Fitness)",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Older Adults"
+  ],
+  "pillars": [
+    "General Requirements",
+    "Pillar 2 - Personalized Social Inclusion",
+    "Pillar 4 - Physical & Cognitive Impairments Prevention"
+  ],
+  "name": "Privacy-Conscious Wellbeing Coaching",
+  "description": "ALFRED provides Olivia with personalized nutrition and fitness guidance that respects her strict privacy preferences, while enabling Sarah to monitor and support Olivia’s recovery and lifestyle improvements through secure, tailored interactions and minimal notifications.",
+  "scenario": "Olivia, a retired social worker, often felt overwhelmed by technology and deeply cautious about her privacy. When Sarah, her informal caregiver, suggested using ALFRED to support Olivia’s recovery and lifestyle improvements, Olivia was skeptical. She insisted that ALFRED only respond when she explicitly activated it with a push-to-talk command, and that all communication remain formal and unobtrusive. Olivia’s distrust of unsolicited notifications led her to block nearly all alerts, especially those related to fitness challenges or any form of video check-ins. She preferred to keep her data tightly controlled, sharing only minimal information with Sarah, and absolutely no data with app developers or third parties.\n\nMeanwhile, Sarah faced the challenge of managing several clients, including Olivia, and needed to stay informed to provide timely support. She appreciated ALFRED’s secure environment that respected Olivia’s stringent privacy settings but found herself frustrated by the limited notifications and sparse data she received. Sarah wanted to encourage Olivia gently, using interactive tools or occasional check-in messages, but Olivia often dismissed these, perceiving them as intrusive or overly familiar. When Sarah tried to suggest mild physical activities or dietary adjustments through ALFRED, Olivia frequently ignored or declined, preferring to maintain control and avoid any sense of dependency.\n\nDespite this tension, ALFRED acted as a careful mediator. It allowed Sarah to monitor Olivia’s progress subtly, providing only the most essential health indicators with Olivia’s consent, while filtering out non-critical alerts. Olivia used ALFRED mainly to access personalized nutrition tips quietly, asking for advice only when she felt ready, never feeling pressured by persistent reminders. Sarah respected Olivia’s preference for offline check-ins, arranging occasional phone calls instead of video sessions, which Olivia found less invasive.\n\nOver time, this cautious balance enabled Olivia to maintain her independence and privacy without completely isolating Sarah from her care needs. Though the system could not fully resolve their conflicting expectations, ALFRED’s flexibility allowed both women to coexist with discomfort yet mutual respect, supporting Olivia’s recovery in a way that felt manageable rather than overwhelming.",
+  "personas": [
+    "P-005",
+    "P-006"
+  ]
+}

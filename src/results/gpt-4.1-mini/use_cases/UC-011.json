@@ -1,0 +1,16 @@
+{
+  "id": "UC-011",
+  "useCaseType": "Daily Life Support (Assistive Tech, Smart Home, IoT, or Public Services)",
+  "userGroups": [
+    "Older Adults"
+  ],
+  "pillars": [
+    "Pillar 1 - User-Driven Interaction Assistant"
+  ],
+  "name": "Selective Voice Interaction Control",
+  "description": "Olivia utilizes ALFRED with a push-to-talk voice interaction model to maintain control over system engagement, minimizing unsolicited notifications and ensuring formal, privacy-respecting communication tailored to her preferences.",
+  "scenario": "Olivia, a retired social worker and community volunteer, sat in her modest living room, her expression a mix of skepticism and mild irritation as she glanced at the ALFRED device on her side table. She had insisted on a push-to-talk voice interaction model, determined that ALFRED only respond when she explicitly summoned it. The barrage of unsolicited notifications from other devices in her past had left her wary—she wanted control, not constant interruptions. Despite ALFRED’s gentle prompts, Olivia dismissed all suggestions for exercise games or video check-ins with a curt, “Not now,” firmly reinforcing her boundaries.\n\nHer distrust was rooted in privacy concerns; she had set ALFRED to block all app installations unless she made a special request, and she was particularly strict about data sharing. The idea of her health data floating beyond her immediate circle made her visibly uncomfortable. She declined to wear any wearable sensors that sent data to third parties, even if it could help her monitor her recovery. ALFRED respected these settings, but sometimes Olivia’s refusal to engage left the system’s capabilities underused.\n\nWhile ALFRED maintained a formal and polite tone, Olivia still found herself frustrated by the device’s occasional reminders, especially when it nudged her to drink water or prepare for her bus ride to the community center. Her reluctance to accept help extended to check-up calls; she preferred offline check-ins, feeling that video calls were intrusive and unnecessary. Yet, deep down, she knew she needed supervision to stay on track with her recovery, a conflict that left her grumpy and resistant to adapting.\n\nThough ALFRED’s design aimed to support her independence, Olivia’s persistent skepticism and need for perfection made the interaction strained. The system waited patiently for her to initiate communication, offering assistance only on her terms. In this delicate balance, Olivia maintained control over her technology and privacy, even if it meant missing out on some benefits ALFRED could provide.",
+  "personas": [
+    "P-005"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "UC-007",
+  "useCaseType": "Health Monitoring (Wearables, Sensors)",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Pillar 1 - User-Driven Interaction Assistant",
+    "Pillar 3 - Effective & Personalized Care",
+    "Pillar 4 - Physical & Cognitive Impairments Prevention"
+  ],
+  "name": "Context-Aware Vital Monitoring",
+  "description": "This use case enables personalized, context-sensitive monitoring of vital signs through wearables, respecting the unique preferences and privacy concerns of older adults while providing caregivers with timely, relevant health insights to support efficient and appropriate care.",
+  "scenario": "Olivia, a retired social worker living alone, has always been wary of technology, especially anything that tracks her health or shares her data. When Sarah Thompson, her informal caregiver, suggested trying ALFRED’s context-aware vital monitoring, Olivia was hesitant. She insisted that ALFRED only listen when she explicitly asks it to, and refused to wear any sensor that might share data without her strict control. Sarah understood Olivia’s privacy concerns but worried about missing critical signs, so she configured ALFRED to send her notifications immediately, including non-urgent ones, to stay responsive and connected to Olivia’s well-being.\n\nMeanwhile, Mike Johnson, a registered nurse overseeing Olivia’s care, found himself frustrated by the constant alerts Sarah received. During his busy hospital shifts, he preferred to block all non-critical notifications and access only validated, urgent health data. Mike relied on ALFRED’s ability to filter what he saw, but he knew this clashed with Sarah’s approach, which sometimes overwhelmed the system with messages. Mike also disliked any emotional or playful interactions with patients; he focused strictly on clinical facts and avoided engaging with games or chats, unlike Sarah, who encouraged such interactions to build rapport with Olivia.\n\nOlivia herself responded coolly to ALFRED’s reminders and check-ins, often dismissing suggestions to wear wearables or accept video calls. She preferred offline communication and remained guarded about sharing her health data, even with Mike. Her grumpiness sometimes clashed with Sarah’s attempts to foster more openness through interactive tools. Sarah navigated this by respecting Olivia’s boundaries while keeping a close eye on the data ALFRED provided, manually deciding what to record and share.\n\nThe result was a delicate balance: ALFRED mediated between Olivia’s insistence on privacy and limited use, Sarah’s need for thorough monitoring and emotional connection, and Mike’s demand for concise, critical alerts during his demanding shifts. Each persona’s different priorities created tension in how ALFRED’s features were personalized, highlighting the complexity of delivering effective, respectful care through technology.",
+  "personas": [
+    "P-004",
+    "P-006",
+    "P-005"
+  ]
+}

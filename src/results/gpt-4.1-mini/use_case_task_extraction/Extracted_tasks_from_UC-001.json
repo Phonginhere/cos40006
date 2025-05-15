@@ -1,0 +1,44 @@
+{
+  "useCaseId": "UC-001",
+  "tasksByPersona": [
+    {
+      "personaId": "P-002",
+      "tasks": [
+        "Wears a sleek health monitor bracelet throughout the day",
+        "Gives consent to share most personal health data with caregiver via ALFRED",
+        "Issues voice commands to ALFRED using casual language",
+        "Requests ALFRED to show daily health stats while skipping reminders",
+        "Reviews vital signs data independently at any time",
+        "Expresses preference for casual, non-medical language from ALFRED",
+        "Rejects formal medical jargon as alienating",
+        "Prefers physical challenges over interactive games for exercise",
+        "Manages privacy settings to control which health data is shared and when",
+        "Experiences frustration when data sharing interrupts personal activities",
+        "Adjusts her engagement level with ALFRED’s reminders based on motivation",
+        "Appreciates the comfort and discreetness of wearable devices",
+        "Seeks to maintain autonomy while using the health monitoring system",
+        "Wishes for more control over data visibility to her caregiver",
+        "Engages in more strenuous physical exercises prompted by ALFRED"
+      ]
+    },
+    {
+      "personaId": "P-006",
+      "tasks": [
+        "Checks the ALFRED dashboard each morning for client health alerts",
+        "Monitors real-time heart rate and activity level data shared by Elena",
+        "Receives notifications about unusual health metrics",
+        "Manually filters and prioritizes notifications to reduce information overload",
+        "Initiates video calls to clients via ALFRED for quick check-ins",
+        "Encourages clients to engage beyond health metrics using ALFRED features",
+        "Balances notification volume to avoid missing critical updates",
+        "Reassures clients about customization options for data sharing and privacy",
+        "Adjusts notification settings to ease cognitive load during multitasking",
+        "Seeks to build emotional connection with clients through ALFRED",
+        "Acknowledges and respects clients’ wishes for autonomy",
+        "Strives to maintain timely intervention capabilities while honoring privacy",
+        "Desires better tools to filter alerts without losing important information",
+        "Manages multiple elderly clients’ data efficiently using ALFRED"
+      ]
+    }
+  ]
+}

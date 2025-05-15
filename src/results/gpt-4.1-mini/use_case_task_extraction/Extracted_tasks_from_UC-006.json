@@ -1,0 +1,20 @@
+{
+  "useCaseId": "UC-006",
+  "tasksByPersona": [
+    {
+      "personaId": "P-005",
+      "tasks": [
+        "Interrupts ALFREDs suggestions to enforce explicit consent before enabling sensor monitoring",
+        "Reviews all data sharing permissions and sensor usage before activation",
+        "Requests ALFRED to switch to push-to-talk mode to control when it listens",
+        "Asks ALFRED to list what information has been recorded and who has access",
+        "Tests ALFREDs data sharing controls repeatedly throughout the day",
+        "Maintains firm and cautious tone to express skepticism and distrust toward technology",
+        "Values transparency and thorough reports about data handling to feel reassured",
+        "Feels a fragile sense of independence by managing recovery on own terms with ALFREDs respect",
+        "Rejects being watched or monitored continuously through technology",
+        "Expects ALFRED to honor her privacy preferences rigidly without compromise"
+      ]
+    }
+  ]
+}

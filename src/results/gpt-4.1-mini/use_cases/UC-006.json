@@ -1,0 +1,17 @@
+{
+  "id": "UC-006",
+  "useCaseType": "Trust & Privacy Negotiation (Sensor Data, Data Sharing)",
+  "userGroups": [
+    "Older Adults"
+  ],
+  "pillars": [
+    "General Requirements",
+    "Pillar 1 - User-Driven Interaction Assistant"
+  ],
+  "name": "Consent-Driven Data Control",
+  "description": "Olivia manages her privacy preferences by explicitly consenting to specific data sharing and sensor usage, ensuring ALFRED respects her strict limitations and formal communication requirements while supporting her independence and recovery.",
+  "scenario": "Olivia, a retired social worker in her mid-seventies, sat cautiously in her living room, eyeing the ALFRED device on the table. She had agreed to try ALFRED to help with her recovery, but her skepticism about technology and deep concerns about privacy weighed heavily on her mind. She was determined to maintain strict control over what data ALFRED could access and share. When ALFRED’s voice assistant gently suggested enabling health sensor monitoring, Olivia promptly interrupted, “No, I want to review any data sharing before anything happens. Consent first.” Her tone was firm; she was not one to be rushed or eased into technology.\n\nALFRED responded calmly, “Of course, Olivia. I will only activate sensors and share data with your explicit permission.” Olivia tested this by asking ALFRED to list all apps and permissions. She blocked all except the basic voice assistant function, refusing any app installations unless she requested them herself. Notifications were another point of contention. ALFRED’s usual reminders and health alerts were met with curt dismissals, especially any messages about strenuous exercises. “I don’t want constant nagging,” Olivia told ALFRED, emphasizing her wish to minimize interruptions.\n\nThe system adapted by switching to a push-to-talk mode, allowing Olivia to control when ALFRED would listen or respond. This suited her need for autonomy and reduced her feeling of being overwhelmed. Meanwhile, Olivia’s daughter had hoped ALFRED might facilitate more frequent remote check-ins, including video calls, but Olivia firmly declined. “I prefer offline check-ins,” she insisted, uncomfortable with the idea of being watched. ALFRED respected this boundary, only allowing formal, polite communication and refraining from unsolicited messages to Olivia or her contacts.\n\nThroughout the day, Olivia tested ALFRED’s data sharing controls by asking what information had been recorded and who had access. The system’s thorough, transparent reports reassured her somewhat, though her distrust lingered. She remained grumpy and resistant, yet a faint sense of relief emerged from knowing her privacy preferences were honored. ALFRED’s respectful silence and deference to her wishes allowed Olivia to feel a fragile but genuine sense of independence in managing her recovery on her own terms.",
+  "personas": [
+    "P-005"
+  ]
+}

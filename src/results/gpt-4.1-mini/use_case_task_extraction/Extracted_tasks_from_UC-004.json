@@ -1,0 +1,21 @@
+{
+  "useCaseId": "UC-004",
+  "tasksByPersona": [
+    {
+      "personaId": "P-005",
+      "tasks": [
+        "Sends a formal and polite message through ALFRED to a longtime friend",
+        "Carefully instructs ALFRED to draft messages with precise, non-casual language",
+        "Reviews and confirms the message repeated back by ALFRED before sending",
+        "Ensures messages are sent only to intended recipients without data leakage",
+        "Answers a call from her daughter with a brief and formal conversation",
+        "Declines video check-in requests and prefers offline updates from caregivers",
+        "Requests ALFRED to suggest cognitively stimulating activities on demand",
+        "Accepts a brief, formal word puzzle interaction from ALFRED reluctantly",
+        "Maintains control over what information is shared and when",
+        "Prefers ALFRED's silence and formality to avoid feeling overwhelmed",
+        "Values feeling secure and autonomous through ALFRED's adherence to her preferences"
+      ]
+    }
+  ]
+}

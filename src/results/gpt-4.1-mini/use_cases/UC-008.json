@@ -1,0 +1,18 @@
+{
+  "id": "UC-008",
+  "useCaseType": "Developer Tools / Integration",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Developers and App Creators"
+  ],
+  "pillars": [
+    "Developer Core"
+  ],
+  "name": "Clinical Integration API Support",
+  "description": "This use case enables healthcare professionals and developers to seamlessly integrate clinical data and workflows into ALFRED via robust APIs. It supports efficient, secure, and focused access to patient information during urban healthcare delivery, enhancing real-time care coordination.",
+  "scenario": "Mike Johnson starts his shift at a bustling urban hospital, already feeling the fatigue that comes with a long day of patient care. He appreciates the introduction of ALFRED's Clinical Integration API because it promises to streamline access to patient data without the usual delays of logging into multiple systems. However, Mike is cautious; he is determined to keep his focus strictly clinical and avoid distractions, especially any non-critical notifications that might interrupt his workflow. He configures ALFRED to silence all alerts except those marked urgent, ensuring his attention remains undivided.\n\nMeanwhile, Daniel Chen, working remotely from his rural home, is deep into developing a new ALFRED app designed to optimize clinical workflows. Daniel is enthusiastic about leveraging ALFRED’s open APIs and appreciates the platform’s support for modern development practices, including asynchronous workflows and AI-assisted coding. Yet, he finds himself grappling with the challenge of balancing cutting-edge features like smart voice guidance and responsive UI elements against the need for compatibility with older devices that some healthcare providers still use. His insistence on disabling legacy APIs post-migration creates tension, as he worries about disrupting existing clinical routines.\n\nMike, on the front lines, is less concerned with the technical innovations than with having reliable, immediate access to validated health data. When ALFRED pulls up a patient’s vitals and medication schedule seamlessly, Mike feels a moment of relief. However, he is wary of data privacy implications, especially when the system offers to share more detailed patient notes. Mike decides to limit data access strictly to what is clinically necessary, mindful of patient consent but prioritizing care efficiency.\n\nDaniel, receiving feedback from Mike via the platform’s developer communication channels, recognizes the nurse’s need for simplicity and minimal distraction. He debates whether to add more proactive voice prompts that might aid less tech-savvy users but could overwhelm busy professionals like Mike. The two perspectives collide: Daniel’s drive for innovation versus Mike’s demand for focused, distraction-free clinical support. Their differing priorities shape the evolution of the ALFRED Clinical Integration API, reflecting both the promise and the complexity of integrating technology into real-world healthcare.",
+  "personas": [
+    "P-004",
+    "P-001"
+  ]
+}

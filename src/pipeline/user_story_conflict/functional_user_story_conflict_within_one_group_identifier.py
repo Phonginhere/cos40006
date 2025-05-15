@@ -10,14 +10,13 @@ from pipeline.user_story.user_story_loader import UserStoryLoader
 from pipeline.utils import (
     USER_GROUP_KEYS,
     USER_GROUPS,
-    FUNCTIONAL_USER_STORY_CONFLICT_SUMMARY_PATH,
     FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR,
     load_system_summary,
     load_user_story_summary,
+    load_functional_user_story_conflict_summary,
     get_llm_response,
     CURRENT_LLM
 )
-
 
 def identify_functional_conflicts_within_one_group(user_story_loader: Optional[UserStoryLoader] = None):
     os.makedirs(FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, exist_ok=True)
@@ -46,7 +45,7 @@ def identify_functional_conflicts_within_one_group(user_story_loader: Optional[U
 
     system_summary = load_system_summary()
     user_story_guidelines = load_user_story_summary()
-    conflict_technique_summary = load_functional_conflict_summary()
+    conflict_technique_summary = load_functional_user_story_conflict_summary()
 
     conflict_id_counter = 1
     all_conflicts_by_group = {USER_GROUP_KEYS[g]: [] for g in USER_GROUPS}
@@ -114,15 +113,6 @@ def identify_functional_conflicts_within_one_group(user_story_loader: Optional[U
         print(f"✅ Saved {len(conflicts)} conflicts for user group {group_key} at {path}")
 
 
-def load_functional_conflict_summary() -> str:
-    try:
-        with open(FUNCTIONAL_USER_STORY_CONFLICT_SUMMARY_PATH, "r", encoding="utf-8") as f:
-            return f.read().strip()
-    except Exception as e:
-        print(f"❌ Could not load functional conflict summary: {e}")
-        return ""
-
-
 def build_conflict_prompt(
     conflict_summary: str,
     system_summary: str,
@@ -164,6 +154,8 @@ User Story B:
 
 TASK:
 If you think there is a conflict between these two user stories, identify it according to the Chentouf conflict types (Start-Forbid, Forbid-stop, Two Condition Events, Two Operation Frequencies Conflict). If there is no conflict, respond with an empty JSON object: {{}}
+Note that, please strictly follow the definition of conflict between two user stories in the Chentouf's technique summary. Do not consider diversity of user preferences or slight differences in user stories as a conflict.
+If you think the conflict found is a mild or nuanced one, it is likely that the user stories are not conflicting at all. In that case, please respond with an empty JSON object: {{}}.
 
 Only respond with a valid JSON object with the following structure:
 

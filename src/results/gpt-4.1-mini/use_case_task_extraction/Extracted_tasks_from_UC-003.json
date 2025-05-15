@@ -4,21 +4,28 @@
     {
       "personaId": "P-005",
       "tasks": [
-        "Requests personalized nutrition advice from ALFRED when ready",
-        "Uses ALFRED quietly without feeling pressured by reminders",
-        "Prefers offline check-ins with Sarah over video calls",
-        "Desires to maintain independence and avoid dependency on caregivers or technology"
+        "Set strict privacy boundaries within ALFRED to block app installations",
+        "Disable most ALFRED notifications, especially those related to intense exercises",
+        "Instruct ALFRED to avoid unsolicited reminders",
+        "Dismiss ALFRED's physical activity suggestions involving wearable sensors or video check-ins",
+        "Tolerate use of ALFRED's messaging features for social interactions",
+        "Maintain control over what health metrics ALFRED shares with caregivers",
+        "Prefer to engage with ALFRED autonomously without overwhelming prompts",
+        "Express cautious autonomy by limiting system-driven interventions",
+        "Experience discomfort or overwhelm when receiving excessive notifications",
+        "Value dignity and respect in system communication style"
       ]
     },
     {
       "personaId": "P-006",
       "tasks": [
-        "Monitors Olivia's recovery and lifestyle improvements through ALFRED",
-        "Sends occasional check-in messages respecting Olivia's preference for minimal notifications",
-        "Arranges offline phone calls instead of video check-ins to respect Olivia's comfort",
-        "Feels frustrated by sparse notifications and limited access to Olivia's detailed data",
-        "Attempts to suggest mild physical activities and dietary adjustments through the system",
-        "Respects Olivia's boundaries despite frequent dismissal of her suggestions"
+        "Use manual logging feature in ALFRED to record observations during visits",
+        "Respect Olivias privacy settings by not accessing blocked health metrics",
+        "Adapt caregiving approach by proposing offline check-ins",
+        "Seek timely support alerts when critical health issues arise",
+        "Observe Olivias gradual openness to gentle reminders",
+        "Experience concern over potential missed health signs due to privacy restrictions",
+        "Maintain a watchful yet unobtrusive presence through system mediation"
       ]
     }
   ]

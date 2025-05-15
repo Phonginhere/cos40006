@@ -41,7 +41,7 @@ This conflict occurs when two requirements provide opposing instructions for the
   - **Event:** E  
   - **Operation A:** Oa  
   - **Operation B:** Ob  
-  - Where Oa ≠ Ob (operations are different and conflicting)
+  - Where Oa ≠ Ob (operations are very inconsistent and conflicting)
 
   - **Requirement A:** "When event E happens, do operation Oa."  
   - **Requirement B:** "When event E happens, do operation Ob."
@@ -91,7 +91,7 @@ Here, two requirements specify mutually exclusive or different triggering condit
 - **Operation:** O  
 - **Event A:** Ea  
 - **Event B:** Eb  
-- Where Ea ≠ Eb (events are different or conflicting)
+- Where Ea ≠ Eb (events are very inconsistent or conflicting)
 
 - **Requirement A:** "When performing operation O, event Ea must occur."  
 - **Requirement B:** "When performing operation O, event Eb must occur."

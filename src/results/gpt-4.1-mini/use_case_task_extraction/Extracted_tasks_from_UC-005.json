@@ -4,17 +4,16 @@
     {
       "personaId": "P-005",
       "tasks": [
-        "Hesitates before starting a cognitive game session suggested by ALFRED",
-        "Selects simpler, less demanding cognitive challenges",
-        "Expresses skepticism toward the digital solution"
+        "Engages in segmented cognitive game sessions tailored to her preferences",
+        "Finds Elenas open sharing style overwhelming during joint sessions"
       ]
     },
     {
       "personaId": "P-002",
       "tasks": [
-        "Allows automatic activation of health and game features by ALFRED",
-        "Respects others' privacy choices but wishes for more open data sharing",
-        "Engages with ALFRED in an open, exploratory manner"
+        "Allows automatic activation of ALFRED for daily exercises and cognitive challenges",
+        "Struggles to understand Olivia's guarded and slow adaptation style",
+        "Balances social inclusion and health tracking through ALFRED's capabilities"
       ]
     }
   ]

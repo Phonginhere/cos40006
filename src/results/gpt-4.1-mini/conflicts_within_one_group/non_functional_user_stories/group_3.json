@@ -1,25 +1,308 @@
 [
   {
     "conflictType": "Partial",
-    "conflictDescription": "Some lowest-level NFRs conflict because US-151 expects ALFRED to provide support and suggestions proactively to empower the user, which can imply system-initiated interactions, whereas US-058 requires ALFRED to activate only upon explicit user request and limit notifications to an absolute minimum to avoid pressure. These goals partially contradict in terms of system proactivity and user control.",
+    "conflictDescription": "User Story A seeks automatic management of data sharing permissions with minimized consent prompts, which conflicts with User Story B's requirement for strict user control over exactly what data is shared and with whom, implying active user involvement. These goals partially conflict because automatic handling may reduce user control and explicit consent, but transparency and prevention of unauthorized sharing remain compatible.",
     "conflictingNfrPairs": [
       [
-        "Provide support and suggestions that empower the user",
-        "ALFRED activates only upon explicit user request."
+        "Automatically manage data sharing permissions based on user preferences and context",
+        "Allow user to specify exactly which health data can be shared"
       ],
       [
-        "Provide support and suggestions that empower the user",
-        "Notifications and reminders are limited to an absolute minimum."
+        "Automatically manage data sharing permissions based on user preferences and context",
+        "Allow user to specify authorized recipients for health data sharing"
+      ],
+      [
+        "Minimize or eliminate frequent consent prompts to reduce user burden",
+        "Allow user to specify exactly which health data can be shared"
+      ],
+      [
+        "Minimize or eliminate frequent consent prompts to reduce user burden",
+        "Allow user to specify authorized recipients for health data sharing"
       ]
     ],
     "conflictId": "NFCWI-001",
     "personaAId": "P-002",
     "personaBId": "P-005",
     "userGroup": "Older Adults",
-    "userStoryAId": "US-151",
-    "userStoryBId": "US-058",
-    "userStoryASummary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to offer support and suggestions that empower me and align with my desire for some control, even if that means the system may occasionally feel controlling, so I can improve my health and daily life while maintaining my independence.",
-    "userStoryBSummary": "As a retired social worker who is cautious about technology and privacy, I want ALFRED to activate only when I explicitly ask and to limit notifications and reminders to an absolute minimum, so I maintain full control and avoid feeling overwhelmed or pressured by the system.",
-    "cluster": "Interaction Pace & Setup Flexibility"
+    "userStoryAId": "US-144",
+    "userStoryBId": "US-057",
+    "userStoryASummary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to automatically handle data sharing permissions so I can confidently share my health information without being burdened by constant consent requests.",
+    "userStoryBSummary": "As an older person who values privacy, I want to strictly limit which health data ALFRED shares and with whom, ensuring no unwanted exposure or sharing with third parties.",
+    "cluster": "Security & Privacy",
+    "generalResolutionType": "Update both user stories",
+    "resolutionDescription": "Adjusted both user stories to clarify conditional automatic management that respects explicit user control and consent, ensuring automatic handling reduces burden only within user-defined boundaries and preferences.",
+    "newUserStoryASummary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to automatically handle data sharing permissions within my specified preferences, so I can confidently share my health information without frequent consent requests.",
+    "newUserStoryADecomposition": [
+      "Automatically manage data sharing permissions according to user-defined preferences",
+      "Minimize consent prompts only when consistent with user preferences"
+    ],
+    "newUserStoryBSummary": "As an older person who values privacy, I want to strictly limit which health data ALFRED shares and with whom, ensuring no unwanted exposure or sharing with third parties, and to be able to override automatic sharing settings at any time.",
+    "newUserStoryBDecomposition": [
+      "Allow user to specify exactly which health data can be shared",
+      "Allow user to specify authorized recipients for health data sharing",
+      "Allow user to override automatic sharing settings and require explicit consent when desired"
+    ]
+  },
+  {
+    "conflictType": "Partial",
+    "conflictDescription": "User Story A requires ALFRED to automatically manage data sharing permissions and reduce frequent consent prompts, implying proactive system actions, whereas User Story B demands ALFRED to only listen and respond upon explicit user push-to-talk activation and avoid unsolicited interventions, representing a restriction on system-initiated actions. These goals partially conflict as automatic permission handling and proactive sharing may contradict strict user-controlled interaction and avoidance of unsolicited system actions.",
+    "conflictingNfrPairs": [
+      [
+        "Automatically manage data sharing permissions based on user preferences and context",
+        "ALFRED only listens when push-to-talk is activated by the user"
+      ],
+      [
+        "Automatically manage data sharing permissions based on user preferences and context",
+        "ALFRED avoids initiating unsolicited interventions"
+      ],
+      [
+        "Minimize or eliminate frequent consent prompts to reduce user burden",
+        "ALFRED avoids sending unsolicited notifications"
+      ]
+    ],
+    "conflictId": "NFCWI-002",
+    "personaAId": "P-002",
+    "personaBId": "P-005",
+    "userGroup": "Older Adults",
+    "userStoryAId": "US-144",
+    "userStoryBId": "US-059",
+    "userStoryASummary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to automatically handle data sharing permissions so I can confidently share my health information without being burdened by constant consent requests.",
+    "userStoryBSummary": "As an older person with strict privacy concerns, I want ALFRED to only listen and respond when I use push-to-talk, avoiding almost all unsolicited notifications and interventions to keep full control over my interactions.",
+    "cluster": "Security & Privacy",
+    "generalResolutionType": "Update both user stories",
+    "resolutionDescription": "Refine both user stories to explicitly specify context-based conditions and user consent control to harmonize automatic permission management with push-to-talk interaction and notification preferences.",
+    "newUserStoryASummary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to automatically handle data sharing permissions within my specified preferences and only with my consent, so I can confidently share my health information without frequent consent requests.",
+    "newUserStoryADecomposition": [
+      "Automatically manage data sharing permissions based on user-defined preferences and explicit consent",
+      "Minimize frequent consent prompts by using stored preferences with user control",
+      "Ensure data sharing respects user consent and privacy constraints"
+    ],
+    "newUserStoryBSummary": "As an older person with strict privacy concerns, I want ALFRED to only listen and respond when I use push-to-talk and avoid unsolicited notifications and interventions unless explicitly permitted, to keep full control over my interactions.",
+    "newUserStoryBDecomposition": [
+      "ALFRED only listens and responds when push-to-talk is activated by the user",
+      "Avoid initiating unsolicited notifications or interventions without explicit user permission",
+      "Respect user control over interaction timing and content"
+    ]
+  },
+  {
+    "conflictType": "Partial",
+    "conflictDescription": "The automatic management of data sharing permissions with minimized consent prompts in User Story A partially conflicts with the need for explicit user authorization for sharing sensor data in User Story B. These goals are incompatible under the same conditions because automatic permission handling reduces explicit user control, which contradicts strict user authorization requirements.",
+    "conflictingNfrPairs": [
+      [
+        "Automatically manage data sharing permissions based on user preferences and context",
+        "Enable user to explicitly authorize or deny sharing of sensor data"
+      ],
+      [
+        "Minimize or eliminate frequent consent prompts to reduce user burden",
+        "Enable user to explicitly authorize or deny sharing of sensor data"
+      ]
+    ],
+    "conflictId": "NFCWI-003",
+    "personaAId": "P-002",
+    "personaBId": "P-005",
+    "userGroup": "Older Adults",
+    "userStoryAId": "US-144",
+    "userStoryBId": "US-081",
+    "userStoryASummary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to automatically handle data sharing permissions so I can confidently share my health information without being burdened by constant consent requests.",
+    "userStoryBSummary": "As an older adult with strong privacy concerns, I want to strictly control and limit any sharing of my sensor data, including with medical staff, to protect my personal information and feel secure using ALFRED.",
+    "cluster": "Security & Privacy",
+    "generalResolutionType": "Update both user stories",
+    "resolutionDescription": "Adjusted both summaries to clarify conditions under which data sharing permissions are managed, allowing automatic handling within user-specified preferences for the tech-curious user while preserving explicit authorization control for the privacy-conscious user. This reduces conflict by defining distinct consent scopes and contexts.",
+    "newUserStoryASummary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to automatically handle data sharing permissions within my specified preferences and contexts, so I can confidently share my health information without frequent consent requests except for sensitive sensor data.",
+    "newUserStoryADecomposition": [
+      "Automatically manage data sharing permissions based on user preferences and context",
+      "Exclude highly sensitive sensor data from automatic permission handling",
+      "Minimize frequent consent prompts except for sensitive data sharing"
+    ],
+    "newUserStoryBSummary": "As an older adult with strong privacy concerns, I want to strictly control and explicitly authorize any sharing of my sensor data, including with medical staff, to protect my personal information and feel secure using ALFRED.",
+    "newUserStoryBDecomposition": [
+      "Enable user to explicitly authorize or deny sharing of sensor data",
+      "Restrict sharing of sensor data unless explicit user consent is given",
+      "Maintain strict privacy controls over personal information"
+    ]
+  },
+  {
+    "conflictType": "Partial",
+    "conflictDescription": "The first story requires automatic management of data sharing permissions with minimized consent prompts, while the second demands explicit approval for all sensor data collection and sharing, which contradicts automatic handling without frequent user consent.",
+    "conflictingNfrPairs": [
+      [
+        "Automatically manage data sharing permissions based on user preferences and context",
+        "Block all sensor data collection unless explicitly approved by the user"
+      ],
+      [
+        "Automatically manage data sharing permissions based on user preferences and context",
+        "Block all sensor data sharing unless explicitly approved by the user"
+      ],
+      [
+        "Minimize or eliminate frequent consent prompts to reduce user burden",
+        "Block all sensor data collection unless explicitly approved by the user"
+      ],
+      [
+        "Minimize or eliminate frequent consent prompts to reduce user burden",
+        "Block all sensor data sharing unless explicitly approved by the user"
+      ]
+    ],
+    "conflictId": "NFCWI-004",
+    "personaAId": "P-002",
+    "personaBId": "P-005",
+    "userGroup": "Older Adults",
+    "userStoryAId": "US-144",
+    "userStoryBId": "US-084",
+    "userStoryASummary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to automatically handle data sharing permissions so I can confidently share my health information without being burdened by constant consent requests.",
+    "userStoryBSummary": "As an older person who is very concerned about privacy, I want to block all sensor data collection and sharing unless I explicitly approve it, so I can keep full control over my personal information and feel safe using ALFRED.",
+    "cluster": "Security & Privacy",
+    "generalResolutionType": "Update both user stories",
+    "resolutionDescription": "The resolution updates both stories to specify clear boundaries on automatic handling and explicit consent: automatic handling applies only to non-sensitive data with user-defined preferences, while sensor data collection/sharing requires explicit approval. This removes direct contradiction and respects both users' privacy and convenience needs.",
+    "newUserStoryASummary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to automatically handle data sharing permissions for non-sensitive information within my specified preferences and contexts, so I can confidently share my health information without frequent consent requests.",
+    "newUserStoryADecomposition": [
+      "Automatically manage data sharing permissions for non-sensitive information based on user preferences and context",
+      "Minimize frequent consent prompts for non-sensitive data sharing"
+    ],
+    "newUserStoryBSummary": "As an older person who is very concerned about privacy, I want to block all sensor data collection and sharing unless I explicitly approve it, so I can keep full control over my personal information and feel safe using ALFRED.",
+    "newUserStoryBDecomposition": [
+      "Block all sensor data collection unless explicitly approved by the user",
+      "Block all sensor data sharing unless explicitly approved by the user"
+    ]
+  },
+  {
+    "conflictType": "Partial",
+    "conflictDescription": "User Story A requires ALFRED to automatically manage data sharing permissions and minimize frequent consent prompts, while User Story B demands strict user approval for all data collection and app installations, emphasizing explicit user control. These impose opposite expectations on consent management, conflicting on the automation versus explicit control of permissions.",
+    "conflictingNfrPairs": [
+      [
+        "Automatically manage data sharing permissions based on user preferences and context",
+        "Limit sensor data collection strictly to user-approved permissions"
+      ],
+      [
+        "Minimize or eliminate frequent consent prompts to reduce user burden",
+        "Ensure user maintains full control over data collection and app permissions to prevent unwanted monitoring"
+      ]
+    ],
+    "conflictId": "NFCWI-005",
+    "personaAId": "P-002",
+    "personaBId": "P-005",
+    "userGroup": "Older Adults",
+    "userStoryAId": "US-144",
+    "userStoryBId": "US-085",
+    "userStoryASummary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to automatically handle data sharing permissions so I can confidently share my health information without being burdened by constant consent requests.",
+    "userStoryBSummary": "As an older person who is cautious and values privacy, I want to strictly limit ALFRED’s sensor data collection and block all app installations unless I explicitly approve them to maintain full control and avoid unwanted monitoring.",
+    "cluster": "Security & Privacy",
+    "generalResolutionType": "Update both user stories",
+    "resolutionDescription": "Both user stories are updated to define clear conditions and scopes for data sharing permissions management, balancing automatic handling within specified preferences and strict control over sensitive data and app installations, thus resolving the conflict through context-specific control.",
+    "newUserStoryASummary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to automatically handle data sharing permissions for non-sensitive health information within my specified preferences and contexts, so I can confidently share my health information without frequent consent requests.",
+    "newUserStoryADecomposition": [
+      "Automatically manage data sharing permissions for non-sensitive information within user preferences",
+      "Apply context-aware rules to reduce frequent consent prompts for routine data sharing"
+    ],
+    "newUserStoryBSummary": "As an older person who is cautious and values privacy, I want to strictly limit ALFRED’s sensor data collection and block all app installations unless I explicitly approve them, especially for sensitive data, to maintain full control and avoid unwanted monitoring.",
+    "newUserStoryBDecomposition": [
+      "Restrict sensor data collection to user-approved permissions for sensitive data",
+      "Block all app installations unless explicitly approved by the user",
+      "Ensure user maintains full control over data collection and app permissions to prevent unwanted monitoring"
+    ]
+  },
+  {
+    "conflictType": "Partial",
+    "conflictDescription": "The first user story seeks to minimize or eliminate frequent consent prompts by automatically managing data sharing permissions, while the second user story requires explicit user consent for all data sharing, which directly contradicts the goal of minimizing consent prompts. However, other aspects like complaint submission and transparent handling are compatible.",
+    "conflictingNfrPairs": [
+      [
+        "Minimize or eliminate frequent consent prompts to reduce user burden",
+        "Ensure all personal and health data is handled only with explicit user consent."
+      ]
+    ],
+    "conflictId": "NFCWI-006",
+    "personaAId": "P-002",
+    "personaBId": "P-005",
+    "userGroup": "Older Adults",
+    "userStoryAId": "US-144",
+    "userStoryBId": "US-140",
+    "userStoryASummary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to automatically handle data sharing permissions so I can confidently share my health information without being burdened by constant consent requests.",
+    "userStoryBSummary": "As an older person who is very concerned about privacy, I want to easily submit complaints about data handling to ALFRED to ensure my personal and health information is never shared without my explicit consent.",
+    "cluster": "Security & Privacy",
+    "generalResolutionType": "Update both user stories",
+    "resolutionDescription": "The conflict is resolved by clarifying that automatic handling of data sharing permissions applies only to non-sensitive data within user-specified preferences, while explicit user consent is still required for sensitive data sharing. This respects the privacy concerns while reducing consent prompts for less sensitive data.",
+    "newUserStoryASummary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to automatically handle data sharing permissions for non-sensitive health information within my specified preferences and contexts, so I can confidently share my health information without frequent consent requests.",
+    "newUserStoryADecomposition": [
+      "Automatically manage data sharing permissions for non-sensitive health information",
+      "Limit automatic sharing to user-specified preferences and contexts",
+      "Minimize frequent consent prompts for non-sensitive data"
+    ],
+    "newUserStoryBSummary": "As an older person who is very concerned about privacy, I want to easily submit complaints about data handling to ALFRED and require explicit user consent for sharing sensitive personal and health information to ensure my data is never shared without my approval.",
+    "newUserStoryBDecomposition": [
+      "Allow easy submission of complaints about data handling",
+      "Require explicit user consent for sharing sensitive personal and health information",
+      "Ensure no sharing of sensitive data without user approval"
+    ]
+  },
+  {
+    "conflictType": "Partial",
+    "conflictDescription": "Some NFRs conflict because automatic management of data sharing permissions with minimized consent prompts contradicts the requirement for full manual control and explicit consent before any data sharing. However, other NFRs like transparency and preventing unwanted notifications are compatible.",
+    "conflictingNfrPairs": [
+      [
+        "Automatically manage data sharing permissions based on user preferences and context",
+        "Enable full manual control over ALFRED's behaviors by the user"
+      ],
+      [
+        "Minimize or eliminate frequent consent prompts to reduce user burden",
+        "Prevent any data sharing without explicit user consent"
+      ]
+    ],
+    "conflictId": "NFCWI-007",
+    "personaAId": "P-002",
+    "personaBId": "P-005",
+    "userGroup": "Older Adults",
+    "userStoryAId": "US-144",
+    "userStoryBId": "US-150",
+    "userStoryASummary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to automatically handle data sharing permissions so I can confidently share my health information without being burdened by constant consent requests.",
+    "userStoryBSummary": "As an older person who is very cautious about privacy, I want to have full manual control over ALFRED's behaviors and app installations to prevent any data sharing or unwanted notifications that make me feel unsafe.",
+    "cluster": "Security & Privacy",
+    "generalResolutionType": "Update both user stories",
+    "resolutionDescription": "User story A is updated to limit automatic data sharing to non-sensitive information and contexts explicitly allowed by the user, while minimizing consent prompts only for these cases. User story B is updated to clarify that full manual control and explicit consent is required for sensitive data and app installations, reconciling both preferences by scope and data sensitivity.",
+    "newUserStoryASummary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to automatically handle data sharing permissions for non-sensitive health information within my specified preferences and contexts, minimizing frequent consent requests only for such data.",
+    "newUserStoryADecomposition": [
+      "Automatically manage data sharing permissions for non-sensitive data within user preferences",
+      "Minimize consent prompts for non-sensitive data sharing",
+      "Restrict automatic sharing to approved contexts"
+    ],
+    "newUserStoryBSummary": "As an older person who is very cautious about privacy, I want to have full manual control over ALFRED's behaviors and app installations to prevent any data sharing or unwanted notifications that make me feel unsafe, especially regarding sensitive data and third-party access.",
+    "newUserStoryBDecomposition": [
+      "Enable full manual control over ALFRED behaviors and app installations",
+      "Require explicit consent before any sensitive data sharing",
+      "Prevent data sharing with third parties without explicit user approval"
+    ]
+  },
+  {
+    "conflictType": "Partial",
+    "conflictDescription": "The desire for easy sharing of personal health data (automatic or seamless sharing) conflicts with the requirement to only monitor recovery data upon explicit user request and prevent background monitoring, as both cannot be simultaneously satisfied under the same conditions.",
+    "conflictingNfrPairs": [
+      [
+        "The system must allow easy sharing of personal health data from the wearables.",
+        "Prevent any background or automatic recovery monitoring without consent"
+      ],
+      [
+        "The system must allow easy sharing of personal health data from the wearables.",
+        "Monitor recovery data only upon explicit user request"
+      ]
+    ],
+    "conflictId": "NFCWI-008",
+    "personaAId": "P-002",
+    "personaBId": "P-005",
+    "userGroup": "Older Adults",
+    "userStoryAId": "US-012",
+    "userStoryBId": "US-115",
+    "userStoryASummary": "As a tech-curious older adult with mild mobility issues, I want small, simple, and comfortable health wearables that fit my lifestyle and allow me to share personal health data easily without feeling burdened.",
+    "userStoryBSummary": "As an older person with strong privacy concerns, I want ALFRED to only monitor my recovery when I explicitly ask it to, so I maintain full control over my personal data and avoid feeling surveilled.",
+    "cluster": "User-Directed Care Experience",
+    "generalResolutionType": "Update both user stories",
+    "resolutionDescription": "The conflict is resolved by clarifying that user A allows easy sharing of personal health data with explicit consent and user B restricts monitoring to explicit user requests, ensuring no background or automatic monitoring without consent. This aligns both stories by defining explicit consent as a precondition.",
+    "newUserStoryASummary": "As a tech-curious older adult with mild mobility issues, I want small, simple, and comfortable health wearables that fit my lifestyle and allow me to share personal health data easily with my explicit consent.",
+    "newUserStoryADecomposition": [
+      "Provide small, simple, and comfortable health wearables",
+      "Enable easy sharing of personal health data with explicit user consent"
+    ],
+    "newUserStoryBSummary": "As an older person with strong privacy concerns, I want ALFRED to only monitor my recovery when I explicitly ask it to, so I maintain full control over my personal data and avoid feeling surveilled.",
+    "newUserStoryBDecomposition": [
+      "Prevent any background or automatic recovery monitoring without explicit consent",
+      "Monitor recovery data only upon explicit user request"
+    ]
   }
 ]

@@ -40,10 +40,12 @@ USE_CASE_TASK_EXTRACTION_DIR = os.path.join("results", CURRENT_LLM, "use_case_ta
 USER_STORY_DIR = os.path.join("results", CURRENT_LLM, "user_stories")
 FUNCTIONAL_USER_STORY_CLUSTER_SET_PATH = os.path.join("results", CURRENT_LLM, "functional_user_story_cluster_set.json")
 
-NON_FUNCTIONAL_USER_STORY_ANALYSIS_PATH = os.path.join("results", CURRENT_LLM, "non_functional_user_story_analysis.json")
-NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join("results", CURRENT_LLM, "conflicts_within_one_group", "non_functional_user_stories")
+USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join("results", CURRENT_LLM, "conflicts_within_one_group")
 
-FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join("results", CURRENT_LLM, "conflicts_within_one_group", "functional_user_stories")
+NON_FUNCTIONAL_USER_STORY_ANALYSIS_PATH = os.path.join("results", CURRENT_LLM, "non_functional_user_story_analysis.json")
+NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join(USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, "non_functional_user_stories")
+
+FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join(USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, "functional_user_stories")
 
 # ==================================================================================================
 # ALFRED SYSTEM SUMMARY LOADER
@@ -147,27 +149,31 @@ def load_user_story_summary() -> str:
 # ==================================================================================================
 # NON-FUNCTIONAL USER STORY CLUSTER SUMMARY LOADER
 
-def load_non_functional_user_story_cluster_summary(pillar: str) -> str:
-    """Loads the pillar-specific cluster summary for user story classification."""
-    path_map = {
-        "General Requirements": "general_requirements_clusters_summary.txt",
-        "Pillar 1 - User-Driven Interaction Assistant": "pillar_1_clusters_summary.txt",
-        "Pillar 2 - Personalized Social Inclusion": "pillar_2_clusters_summary.txt",
-        "Pillar 3 - Effective & Personalized Care": "pillar_3_clusters_summary.txt",
-        "Pillar 4 - Physical & Cognitive Impairments Prevention": "pillar_4_clusters_summary.txt",
-        "Developer Core": "developer_core_clusters_summary.txt"
+def load_non_functional_user_story_cluster_summary(pillar: str) -> list:
+    """Load non-functional user story clusters as JSON objects for the given pillar."""
+    filename_map = {
+        "General Requirements": "general_requirements_clusters_summary.json",
+        "Pillar 1 - User-Driven Interaction Assistant": "pillar_1_clusters_summary.json",
+        "Pillar 2 - Personalized Social Inclusion": "pillar_2_clusters_summary.json",
+        "Pillar 3 - Effective & Personalized Care": "pillar_3_clusters_summary.json",
+        "Pillar 4 - Physical & Cognitive Impairments Prevention": "pillar_4_clusters_summary.json",
+        "Developer Core": "developer_core_clusters_summary.json"
     }
-    filename = path_map.get(pillar)
+    filename = filename_map.get(pillar)
     if not filename:
-        return None
+        print(f"⚠️ No cluster JSON file mapped for pillar: {pillar}")
+        return []
 
     full_path = os.path.join(NON_FUNCTIONAL_USER_STORY_CLUSTERING_SUMMARY_DIR, filename)
     try:
         with open(full_path, "r", encoding="utf-8") as f:
-            return f.read().strip()
+            return json.load(f)
     except FileNotFoundError:
-        print(f"❌ Cluster summary file not found: {full_path}")
-        return None
+        print(f"❌ Cluster JSON file not found: {full_path}")
+        return []
+    except json.JSONDecodeError:
+        print(f"❌ JSON decode error in cluster file: {full_path}")
+        return []
     
 # ==================================================================================================
 # NON-FUNCTIONAL USER STORY CONFLICT SUMMARY LOADER
@@ -177,6 +183,13 @@ def load_non_functional_user_story_conflict_summary() -> str:
             return f.read().strip()
     except FileNotFoundError:
         raise FileNotFoundError(f"❌ Missing non-functional user story conflict summary file at: {NON_FUNCTIONAL_USER_STORY_CONFLICT_SUMMARY_PATH}")
+    
+def load_functional_user_story_conflict_summary() -> str:
+    try:
+        with open(FUNCTIONAL_USER_STORY_CONFLICT_SUMMARY_PATH, "r", encoding="utf-8") as f:
+            return f.read().strip()
+    except FileNotFoundError:
+        raise FileNotFoundError(f"❌ Missing non-functional user story conflict summary file at: {FUNCTIONAL_USER_STORY_CONFLICT_SUMMARY_PATH}")
 
 # ==================================================================================================
 # LLM HANDLER
@@ -188,7 +201,7 @@ except ImportError:
     raise ImportError("❌ Missing dependency: Please install the OpenAI package using 'pip install openai'.")
 
 # Load OpenAI API key from file
-def load_api_key(path: str = "openai_api_key.txt") -> str:
+def load_api_key(path: str = "api_key.txt") -> str:
     """Loads the OpenAI API key from a separate text file."""
     try:
         with open(path, "r") as file:
@@ -197,7 +210,7 @@ def load_api_key(path: str = "openai_api_key.txt") -> str:
                 raise ValueError("❌ OpenAI API key file is empty.")
             return key
     except FileNotFoundError:
-        raise FileNotFoundError("❌ API key file not found. Please create 'openai_api_key.txt' and add your API key.")
+        raise FileNotFoundError("❌ API key file not found. Please create 'api_key.txt' and add your API key.")
 
 # Set OpenAI API key
 api_key = load_api_key()

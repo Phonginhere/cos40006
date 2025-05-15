@@ -1,320 +1,284 @@
 [
   {
-    "nfus_id": "US-108",
-    "nfus_summary": "As a developer, I want to disable legacy APIs only after I am confident that all my applications have fully migrated, so I can maintain system stability for users while progressively implementing new features.",
-    "cluster_name": "Balance Innovation with Legacy API Support",
-    "cluster_description": "Functional stories related to managing API versions, migration workflows, and feature rollouts that ensure system stability and backward compatibility during transitions from legacy to new APIs."
+    "nfus_id": "US-106",
+    "nfus_summary": "As a full-stack developer creating healthcare applications, I want to implement strict security and privacy standards that protect sensitive user data without compromising app responsiveness or usability on older devices.",
+    "cluster_name": "Ensure App Security and Privacy Compliance",
+    "cluster_description": "Functional stories related to implementing security measures, privacy controls, and data protection mechanisms that ensure compliance with strict standards while maintaining usability and performance."
   },
   {
-    "nfus_id": "US-111",
-    "nfus_summary": "As a full-stack developer creating healthcare applications, I want to implement advanced features like smart voice guidance and responsive UI while balancing performance constraints, so that my apps remain accessible and functional across diverse devices used by healthcare providers.",
-    "cluster_name": "Balance Innovation with Device Compatibility",
-    "cluster_description": "Functional stories related to designing and implementing advanced app features that optimize performance and maintain accessibility across a variety of hardware devices with different capabilities."
+    "nfus_id": "US-107",
+    "nfus_summary": "As a full-stack developer, I want to optimize my healthcare app’s responsiveness on older devices to ensure compatibility and performance without compromising the modular and scalable design I advocate.",
+    "cluster_name": "Optimize App Responsiveness on Older Devices",
+    "cluster_description": "Functional stories related to performance optimization, efficient resource usage, and adaptive UI/UX to ensure the app runs smoothly on older hardware without sacrificing design modularity."
   },
   {
-    "nfus_id": "US-112",
-    "nfus_summary": "As a full-stack developer, I want to disable legacy APIs after migration to ensure a streamlined, secure development environment that supports modern coding practices and reduces maintenance complexity.",
-    "cluster_name": "Disable Legacy APIs Post-Migration",
-    "cluster_description": "Functional stories focused on deprecating and disabling legacy API endpoints after successful migration, ensuring security, maintainability, and adoption of modern development standards."
+    "nfus_id": "US-134",
+    "nfus_summary": "As a full-stack developer creating healthcare applications, I want to implement robust privacy protocols that require explicit user opt-in for app installation and data sharing to uphold older adults’ autonomy and address their privacy concerns.",
+    "cluster_name": "Enforce strict app privacy controls",
+    "cluster_description": "Functional stories related to privacy protocols, explicit consent mechanisms, opt-in flows, and user autonomy in app installation and data sharing processes."
   },
   {
-    "nfus_id": "US-116",
-    "nfus_summary": "As a full-stack developer creating healthcare applications, I want to ensure my app complies with usability and accessibility standards so that it effectively serves the diverse needs of older adults and caregivers, while reflecting my commitment to inclusive and user-centered design.",
-    "cluster_name": "Ensure App Usability and Accessibility Compliance",
-    "cluster_description": "Functional stories involving design and implementation of app features that meet recognized usability and accessibility standards to serve diverse user groups including older adults and caregivers."
-  },
-  {
-    "nfus_id": "US-117",
-    "nfus_summary": "As a full-stack healthcare app developer, I want to disable legacy APIs after migration and limit proactive voice prompts in a way that aligns with my development goals and respects clinicians’ workflow preferences, so I can deliver innovative, efficient, and user-friendly applications.",
-    "cluster_name": "Balance Innovation with Workflow Simplicity",
-    "cluster_description": "Functional stories related to managing voice interaction features and API transitions that optimize clinician workflow by minimizing interruptions and complexity while enabling innovation."
-  },
-  {
-    "nfus_id": "US-141",
-    "nfus_summary": "As a full-stack developer creating healthcare applications, I want to use ALFRED’s API documentation to efficiently develop secure and accessible apps that align with my preference for modern, scalable technologies while ensuring strict privacy compliance and meeting the diverse needs of older adult users.",
-    "cluster_name": "Use ALFRED API Documentation for Secure Apps",
-    "cluster_description": "Functional stories related to utilizing ALFRED’s API documentation for developing secure, privacy-compliant, and scalable applications that cater to older adults and healthcare providers."
-  },
-  {
-    "nfus_id": "US-144",
-    "nfus_summary": "As a full-stack developer creating healthcare applications, I want to ensure my app’s privacy compliance settings are thoroughly verified before submission so that I can maintain user trust, uphold data control principles important to my users, and avoid delays in the approval process.",
-    "cluster_name": "Verify Privacy Compliance Before App Submission",
-    "cluster_description": "Functional stories concerning privacy compliance checks, app verification workflows, and submission processes that safeguard user data and ensure adherence to privacy standards prior to app deployment."
-  },
-  {
-    "nfus_id": "US-006",
-    "nfus_summary": "As an older adult who is tech-curious and open-minded, I want ALFRED to communicate with me using casual, non-medical language so that I feel comfortable, engaged, and not alienated by formal or technical jargon.",
-    "cluster_name": "Casual and User-Friendly Communication",
-    "cluster_description": "Functional stories related to the system’s interaction style, specifically implementing casual, approachable language in communication to enhance user comfort and engagement."
+    "nfus_id": "US-136",
+    "nfus_summary": "As a full-stack developer, I want to ensure my healthcare app meets strict data privacy and security standards before publishing on ALFRED's marketplace to protect older adults’ sensitive information and build user trust.",
+    "cluster_name": "Secure and Compliant App Publishing",
+    "cluster_description": "Functional stories related to app validation, compliance checking, security audits, and publishing workflows that enforce data privacy and security standards before marketplace release."
   },
   {
     "nfus_id": "US-012",
-    "nfus_summary": "As a tech-curious older adult with mild mobility issues, I want wearable health devices to be small, simple, and comfortable so they fit naturally into my lifestyle, helping me stay motivated to use them regularly without feeling like I am being controlled or singled out.",
-    "cluster_name": "Comfortable and Discreet Wearable Health Devices",
-    "cluster_description": "Functional stories concerning the design, integration, and user interaction of wearable health devices that prioritize comfort, simplicity, and non-stigmatizing appearance."
+    "nfus_summary": "As a tech-curious older adult with mild mobility issues, I want small, simple, and comfortable health wearables that fit my lifestyle and allow me to share personal health data easily without feeling burdened.",
+    "cluster_name": "Comfortable and Unobtrusive Health Wearables",
+    "cluster_description": "Functional stories related to wearable device integration, user comfort features, data sharing options, and seamless health monitoring that minimize user burden."
   },
   {
-    "nfus_id": "US-123",
-    "nfus_summary": "As a tech-curious older adult with mild mobility issues, I want to start my day by comfortably wearing a small, simple, and lightweight wristband that integrates with ALFRED so I can easily monitor my health while staying independent and feeling in control.",
-    "cluster_name": "Seamless Wearable Integration and Daily Use",
-    "cluster_description": "Functional stories that enable smooth daily use and integration of wearable devices with ALFRED to support health monitoring while preserving user independence and comfort."
+    "nfus_id": "US-040",
+    "nfus_summary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to communicate in a playful and informal way that motivates me and keeps me engaged without feeling controlling or overwhelming.",
+    "cluster_name": "Playful Informal Communication",
+    "cluster_description": "Functional stories related to conversational style, user engagement, motivational messaging, and interaction design that foster informal and playful communication."
   },
   {
-    "nfus_id": "US-132",
-    "nfus_summary": "As a tech-curious older adult with mild mobility issues, I want to control how ALFRED prompts me and adjusts monitoring so that I feel empowered, maintain my independence, and avoid feeling overwhelmed or restricted.",
-    "cluster_name": "User Control over Health Monitoring and Prompts",
-    "cluster_description": "Functional stories enabling users to customize, control, and adjust ALFRED’s health monitoring behaviors and notification prompts to suit personal preferences and autonomy."
+    "nfus_id": "US-144",
+    "nfus_summary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to automatically handle data sharing permissions so I can confidently share my health information without being burdened by constant consent requests.",
+    "cluster_name": "Trust ALFRED for Data Sharing and Permissions",
+    "cluster_description": "Functional stories related to automated permission handling, data sharing management, and trust-building mechanisms that reduce user consent fatigue."
   },
   {
-    "nfus_id": "US-133",
-    "nfus_summary": "As a tech-curious older adult with mild mobility issues, I want to have the flexibility to decide when ALFRED can send me health prompts and when I can enjoy spontaneous, uninterrupted moments, so I can maintain control over my daily life without feeling constantly monitored.",
-    "cluster_name": "Flexible and Respectful Health Prompting",
-    "cluster_description": "Functional stories related to scheduling, enabling, or disabling health-related notifications and interventions based on user preferences to preserve spontaneity and user autonomy."
+    "nfus_id": "US-050",
+    "nfus_summary": "As a medical staff member, I want to avoid video check-ins during care visits to maintain professional boundaries and minimize distractions, respecting patients' comfort and my focus on clinical tasks.",
+    "cluster_name": "Respect Olivia’s refusal of video check-ins",
+    "cluster_description": "Functional stories related to communication control, video call management, and respecting user preferences to avoid unsolicited or undesired video interactions."
   },
   {
-    "nfus_id": "US-151",
-    "nfus_summary": "As a tech-curious older adult with mild mobility issues, I want ALFRED to provide helpful support and suggestions in a way that respects my autonomy and does not feel controlling or intrusive, so I can confidently manage my daily life and remain independent.",
-    "cluster_name": "Non-Intrusive and Autonomy-Respecting Support",
-    "cluster_description": "Functional stories focused on delivering system support and recommendations that avoid being controlling or intrusive, thus preserving user independence and confidence."
-  },
-  {
-    "nfus_id": "US-051",
-    "nfus_summary": "As a medical staff member, I want ALFRED to strictly limit data sharing to essential clinical information only and support formal, no-nonsense communication modes, so that I can respect patient privacy, avoid emotional distractions, and maintain focus during my shifts.",
-    "cluster_name": "Strict Data Sharing and Formal Communication for Medical Staff",
-    "cluster_description": "Functional stories related to secure, minimal clinical data sharing and communication modes that are formal and focused to support healthcare professionals’ workflow without distractions."
-  },
-  {
-    "nfus_id": "US-096",
-    "nfus_summary": "As a medical staff user, I want ALFRED to avoid any emotional or playful interactions with patients during my care, so that I can focus strictly on clinical facts and provide professional, distraction-free support.",
-    "cluster_name": "Professional and Fact-Focused Interaction",
-    "cluster_description": "Functional stories that ensure ALFRED’s interactions in clinical contexts are strictly professional, factual, and free from emotional or playful elements."
-  },
-  {
-    "nfus_id": "US-155",
-    "nfus_summary": "As a medical staff, I want ALFRED to activate and respond only when I explicitly command it, so that I can maintain focus and avoid any distractions during my busy clinical shifts.",
-    "cluster_name": "Explicit Command Activation for Clinical Use",
-    "cluster_description": "Functional stories ensuring ALFRED activates and responds only upon explicit commands from medical staff to minimize distractions during clinical work."
-  },
-  {
-    "nfus_id": "US-030",
-    "nfus_summary": "As an older adult who feels overwhelmed by technology and is concerned about privacy, I want ALFRED to never suggest or activate cognitive games unless I explicitly ask for them, so I can maintain control and avoid stress.",
-    "cluster_name": "User-Controlled Activation of Cognitive Games",
-    "cluster_description": "Functional stories related to cognitive games that require explicit user initiation before activation or suggestion, ensuring user control and minimizing stress."
+    "nfus_id": "US-100",
+    "nfus_summary": "As a medical staff member, I want to navigate the healthcare app manually without voice guidance to avoid interruptions and maintain clinical focus during my busy shifts.",
+    "cluster_name": "Manual Navigation Without Voice Guidance",
+    "cluster_description": "Functional stories related to user interface navigation, manual control features, and disabling or bypassing voice assistance to support uninterrupted workflow."
   },
   {
     "nfus_id": "US-031",
-    "nfus_summary": "As an older adult who feels overwhelmed by technology and values privacy, I want ALFRED to activate only when I press the talk button, so I feel in control and avoid any unexpected or intrusive listening.",
-    "cluster_name": "Push-to-Talk Activation for Privacy Control",
-    "cluster_description": "Functional stories that implement push-to-talk mechanisms requiring explicit user activation before the system listens or responds, supporting privacy and control."
-  },
-  {
-    "nfus_id": "US-032",
-    "nfus_summary": "As an older adult who prefers formal communication, I want ALFRED to interact with me only in a formal, polite, and straightforward way, avoiding casual or overly friendly language, so that I feel respected and comfortable using the system.",
-    "cluster_name": "Formal and Polite Communication Style",
-    "cluster_description": "Functional stories governing ALFRED’s interaction style to maintain formality, politeness, and straightforwardness to match user communication preferences."
+    "nfus_summary": "As an older person who is cautious about technology, I want ALFRED to listen only when I press a button so I can control when it hears me and avoid feeling overwhelmed or interrupted.",
+    "cluster_name": "Push-to-Talk Activation Only",
+    "cluster_description": "Functional stories related to voice command activation, push-to-talk control, and user-driven interaction initiation to provide privacy and reduce unsolicited listening."
   },
   {
     "nfus_id": "US-033",
-    "nfus_summary": "As an older adult who feels overwhelmed by technology and concerned about data privacy, I want ALFRED to activate only when I explicitly press a push-to-talk button and never turn on automatically, so that I can feel safe, maintain full control over when the system listens, and avoid unsolicited interactions.",
-    "cluster_name": "Strict Push-to-Talk Activation for Privacy",
-    "cluster_description": "Functional stories implementing strict push-to-talk activation controls that prevent automatic listening or activation, ensuring user privacy and control."
+    "nfus_summary": "As an older person who values control and privacy, I want ALFRED to send me only essential and requested messages or notifications to prevent irritation and avoid feeling overwhelmed.",
+    "cluster_name": "Minimize Unsolicited Interruptions",
+    "cluster_description": "Functional stories related to notification management, message filtering, and user preference enforcement to limit system-initiated interruptions."
   },
   {
     "nfus_id": "US-034",
-    "nfus_summary": "As an older adult who values privacy and control, I want to ensure ALFRED does not share my cognitive game progress or any related health data without my explicit permission, so I can feel safe and not overwhelmed by unwanted data sharing.",
-    "cluster_name": "Explicit Consent for Data Sharing in Cognitive Games",
-    "cluster_description": "Functional stories ensuring that any data sharing related to cognitive games or health data occurs only after explicit user consent."
+    "nfus_summary": "As an older person who values privacy and dislikes intrusion, I want to block almost all unsolicited messages and video check-ins from ALFRED to avoid feeling overwhelmed and maintain control.",
+    "cluster_name": "Disable Unsolicited Messages and Video Check-Ins",
+    "cluster_description": "Functional stories related to blocking or restricting unsolicited communications, especially video interactions and system messages, to uphold user privacy and control."
+  },
+  {
+    "nfus_id": "US-035",
+    "nfus_summary": "As an older person who is very concerned about privacy, I want to keep my health data completely private and not share it with caregivers or any third parties to maintain full control and feel safe from any unwanted access.",
+    "cluster_name": "Strict Privacy for Health Data",
+    "cluster_description": "Functional stories related to health data access control, data encryption, sharing restrictions, and privacy enforcement to ensure no unauthorized data sharing."
   },
   {
     "nfus_id": "US-036",
-    "nfus_summary": "As an older adult who is cautious about technology and privacy, I want to strictly control and limit the personal and health data ALFRED collects and shares, ensuring that my information is never exposed to unauthorized parties or third parties, so I can feel safe and maintain my privacy on my own terms.",
-    "cluster_name": "Strict Privacy Control and Minimal Data Sharing",
-    "cluster_description": "Functional stories related to data collection, storage, and sharing practices that enforce strict user control and minimal exposure of personal and health information."
+    "nfus_summary": "As an older adult, I want ALFRED to communicate with me in a strictly formal and curt manner to ensure I feel respected and maintain clear boundaries without any friendliness or informality.",
+    "cluster_name": "Maintain Formal and Curt Communication",
+    "cluster_description": "Functional stories related to communication style configuration, message tone control, and interaction protocols enforcing formal and respectful dialogue."
   },
   {
-    "nfus_id": "US-037",
-    "nfus_summary": "As an older adult who prefers formal and polite communication, I want ALFRED to use only strict, no-nonsense language with me so that I feel respected and avoid frustration caused by casual or overly friendly prompts.",
-    "cluster_name": "Strict Formal Communication",
-    "cluster_description": "Functional stories enforcing a formal, no-nonsense communication style that avoids casual or overly friendly language to meet user preferences."
+    "nfus_id": "US-052",
+    "nfus_summary": "As an older person who is cautious with technology, I want to block all app installations by default and only allow those I explicitly request to protect my privacy and control my system.",
+    "cluster_name": "Block All App Installations by Default",
+    "cluster_description": "Functional stories related to app installation controls, default blocking policies, user approval workflows, and system security to prevent unauthorized app installations."
+  },
+  {
+    "nfus_id": "US-054",
+    "nfus_summary": "As an older person who is cautious about privacy and overwhelmed by technology, I want ALFRED to send me only the reminders and notifications I explicitly request, so I can maintain control and avoid feeling intruded upon.",
+    "cluster_name": "Disable Unsolicited Reminders",
+    "cluster_description": "Functional stories related to reminder and notification management, user preference adherence, and suppression of unsolicited system alerts."
+  },
+  {
+    "nfus_id": "US-055",
+    "nfus_summary": "As an older person with strong privacy concerns, I want to dismiss ALFRED's physical activity suggestions that use wearable sensors or video check-ins to protect my personal data and avoid feeling overwhelmed.",
+    "cluster_name": "Dismiss Activity Suggestions with Sensors",
+    "cluster_description": "Functional stories related to activity suggestion control, sensor data usage opt-outs, and user-driven dismissal of sensor-based interventions."
+  },
+  {
+    "nfus_id": "US-056",
+    "nfus_summary": "As an older person, I want ALFRED to restrict messaging to formal and polite communication only, so I can preserve my dignity and avoid feeling overwhelmed or intruded upon.",
+    "cluster_name": "Formal Messaging Only for Social Interaction",
+    "cluster_description": "Functional stories related to message composition, tone restriction, and social interaction management enforcing formal and polite communication styles."
+  },
+  {
+    "nfus_id": "US-057",
+    "nfus_summary": "As an older person who values privacy, I want to strictly limit which health data ALFRED shares and with whom, ensuring no unwanted exposure or sharing with third parties.",
+    "cluster_name": "Strict Control Over Health Data Sharing",
+    "cluster_description": "Functional stories related to granular health data sharing permissions, user-controlled access lists, and enforcement of data sharing policies."
   },
   {
     "nfus_id": "US-058",
-    "nfus_summary": "As a retired social worker who is cautious about technology and privacy, I want ALFRED to activate only when I choose and to minimize all notifications, especially reminders and exercise prompts, so I can feel in control and avoid feeling overwhelmed or pressured by the system.",
-    "cluster_name": "User-Controlled Activation and Minimal Notifications",
-    "cluster_description": "Functional stories that support user choice for system activation and limit notifications and reminders to prevent user overwhelm."
+    "nfus_summary": "As an older person who is very concerned about privacy, I want ALFRED to only respond when I use push-to-talk so I can fully control interactions and avoid unwanted notifications.",
+    "cluster_name": "Autonomous Use with Minimal Prompts",
+    "cluster_description": "Functional stories related to interaction control, push-to-talk enforcement, and suppression of unsolicited system interventions."
   },
   {
     "nfus_id": "US-059",
-    "nfus_summary": "As an older adult who values privacy and comfort, I want to avoid video check-ins arranged by my caregiver and prefer offline check-ins instead, so that I feel less pressured and maintain control over my personal interactions.",
-    "cluster_name": "Preference for Offline Communication over Video Calls",
-    "cluster_description": "Functional stories enabling offline communication options and avoiding unsolicited or pressured video interactions to maintain user comfort and privacy."
+    "nfus_summary": "As an older person with strict privacy concerns, I want ALFRED to only listen and respond when I use push-to-talk, avoiding almost all unsolicited notifications and interventions to keep full control over my interactions.",
+    "cluster_name": "Limit System-Initiated Interventions",
+    "cluster_description": "Functional stories related to minimizing unsolicited system interactions, enforcing user-initiated communication, and controlling notification frequency."
   },
   {
     "nfus_id": "US-060",
-    "nfus_summary": "As an older adult who feels overwhelmed by technology, I want ALFRED to only respond when I explicitly activate it with a push-to-talk command, so that I can maintain control over interactions and feel less dependent on the system.",
-    "cluster_name": "Explicit Push-to-Talk Response Control",
-    "cluster_description": "Functional stories enforcing system response only upon explicit push-to-talk activation to maintain user control and reduce dependence."
+    "nfus_summary": "As an older person who feels overwhelmed by technology, I want ALFRED to send me almost no notifications unless I specifically ask for them, so I can maintain my privacy and avoid discomfort.",
+    "cluster_name": "Limit Notifications to Avoid Overwhelm",
+    "cluster_description": "Functional stories related to notification filtering, user opt-in controls, and reducing system-generated alerts to prevent user overload."
   },
   {
-    "nfus_id": "US-067",
-    "nfus_summary": "As an older adult who values privacy and formality, I want to send only formal and polite messages through ALFRED, avoid almost all notifications, and ensure no sharing of my data, so I can communicate on my own terms while maintaining my dignity and control.",
-    "cluster_name": "Formal Messaging with Privacy and Notification Control",
-    "cluster_description": "Functional stories supporting sending formal, polite messages with strict control over notifications and data sharing."
+    "nfus_id": "US-061",
+    "nfus_summary": "As an older adult who values privacy and dignity, I want ALFRED to communicate with me only in a formal, polite, and respectful way to preserve my autonomy and self-respect.",
+    "cluster_name": "Maintain Formal and Respectful Communication",
+    "cluster_description": "Functional stories related to communication tone management, enforcement of respectful language, and customization of interaction styles to uphold user dignity."
+  },
+  {
+    "nfus_id": "US-069",
+    "nfus_summary": "As an older person who values formal and polite communication and strict privacy, I want ALFRED to send messages to my contacts using only formal language and fully respect my privacy preferences without sharing my data.",
+    "cluster_name": "Compose Formal Messages with Strict Privacy",
+    "cluster_description": "Functional stories related to message generation, privacy-respecting communication, and formal language enforcement in social interactions."
+  },
+  {
+    "nfus_id": "US-070",
+    "nfus_summary": "As an older person who values professionalism and privacy, I want to send voice messages that strictly avoid casual expressions and maintain a formal, polite tone to preserve my dignity in every communication.",
+    "cluster_name": "Strictly Formal Voice Messaging",
+    "cluster_description": "Functional stories related to voice message creation, tone control, and privacy adherence ensuring formal and polite audio communication."
+  },
+  {
+    "nfus_id": "US-071",
+    "nfus_summary": "As an older person who values formal and professional communication, I want to dismiss ALFRED's informal greetings and emojis so that I do not feel overwhelmed or pressured by unwanted casual suggestions.",
+    "cluster_name": "Dismiss Informal Greetings and Emojis",
+    "cluster_description": "Functional stories related to UI customization, disabling informal interaction elements, and maintaining a professional communication environment."
+  },
+  {
+    "nfus_id": "US-072",
+    "nfus_summary": "As an older person who values privacy and dislikes intrusive technology, I want to decline video call health check-ins and prefer offline check-ins to feel more comfortable and secure.",
+    "cluster_name": "Decline Video Check-Ins Favoring Offline Contact",
+    "cluster_description": "Functional stories related to communication preferences, offline interaction support, and refusal mechanisms for video check-ins."
   },
   {
     "nfus_id": "US-073",
-    "nfus_summary": "As a retired social worker who is cautious about technology, I want to engage in cognitively stimulating activities only when I explicitly request them, so that I can maintain formal, low-intrusion mental exercises without unsolicited interruptions or overwhelming prompts.",
-    "cluster_name": "On-Demand Cognitive Activities with Low Intrusion",
-    "cluster_description": "Functional stories enabling cognitive activities that start only upon user request and avoid unsolicited prompts or interruptions."
+    "nfus_summary": "As an older person, I want all voice messages I send and receive to be strictly formal and polite, with no casual expressions or unsolicited notifications, to maintain my professional communication style and avoid feeling overwhelmed or intruded upon.",
+    "cluster_name": "Maintain Strictly Formal Voice Messaging",
+    "cluster_description": "Functional stories related to voice communication control, tone enforcement, and suppression of unsolicited messages to maintain professionalism."
+  },
+  {
+    "nfus_id": "US-074",
+    "nfus_summary": "As an older person who is persistent about technology adaptation and prefers to use ALFRED without detailed feature explanations, I want it to operate simply so I do not feel overwhelmed or irritated.",
+    "cluster_name": "Avoid Detailed System Explanations",
+    "cluster_description": "Functional stories related to UI simplification, minimal guidance modes, and streamlined feature access to reduce user cognitive load."
   },
   {
     "nfus_id": "US-075",
-    "nfus_summary": "As an older adult who is cautious about technology, I want to block all app installations unless I explicitly request them and limit data sharing strictly to authorized individuals, so that I can protect my privacy and avoid overwhelming or unnecessary notifications.",
-    "cluster_name": "Strict Control Over App Installations and Data Sharing",
-    "cluster_description": "Functional stories that enforce user authorization for app installations and restrict data sharing to authorized parties, minimizing unwanted notifications."
+    "nfus_summary": "As an older person who values strict privacy and formal communication, I want to activate cognitive games only with push-to-talk to avoid unsolicited interactions and maintain control over my data.",
+    "cluster_name": "Segmented Cognitive Games with Formal Interaction",
+    "cluster_description": "Functional stories related to cognitive game activation control, privacy-preserving data handling, and formal communication modes within game interactions."
   },
   {
     "nfus_id": "US-076",
-    "nfus_summary": "As an older adult who is cautious with technology, I want ALFRED to only listen and respond when I push to talk, maintain formal communication at all times, and minimize almost all notifications to protect my privacy and prevent feeling overwhelmed.",
-    "cluster_name": "Push-to-Talk Activation with Formal Communication and Notification Minimization",
-    "cluster_description": "Functional stories combining strict push-to-talk listening activation, formal communication style, and minimal notifications to support privacy and reduce user stress."
+    "nfus_summary": "As an older person who is strict about privacy and formal communication, I want ALFRED to keep my cognitive game sessions separate from others to avoid unwanted data sharing and informal interactions.",
+    "cluster_name": "Separate Cognitive Sessions by Privacy Preferences",
+    "cluster_description": "Functional stories related to session isolation, data segregation, and privacy controls ensuring no cross-sharing or informal communication across cognitive game sessions."
   },
   {
-    "nfus_id": "US-077",
-    "nfus_summary": "As an older adult who is cautious and values privacy, I want ALFRED to only respond when I explicitly activate it and to block all unsolicited notifications and app installations, so that I can maintain strict control over my data sharing and avoid feeling overwhelmed or unsafe with technology.",
-    "cluster_name": "Strict Activation and Blocking of Unsolicited Notifications and Installations",
-    "cluster_description": "Functional stories enforcing explicit activation controls and blocking unsolicited notifications and app installations to maintain user safety and privacy."
+    "nfus_id": "US-081",
+    "nfus_summary": "As an older adult with strong privacy concerns, I want to strictly control and limit any sharing of my sensor data, including with medical staff, to protect my personal information and feel secure using ALFRED.",
+    "cluster_name": "Strict Control of Sensor Data Sharing",
+    "cluster_description": "Functional stories related to sensor data access management, sharing restrictions, and privacy enforcement for all collected sensor information."
   },
   {
-    "nfus_id": "US-078",
-    "nfus_summary": "As an older adult who is cautious about technology and values privacy, I want to start cognitive game sessions only when I explicitly ask for them, so I can avoid feeling overwhelmed and keep full control over my interaction with ALFRED.",
-    "cluster_name": "Explicit User Control of Cognitive Game Sessions",
-    "cluster_description": "Functional stories ensuring cognitive games begin only upon explicit user initiation, supporting privacy and user control."
-  },
-  {
-    "nfus_id": "US-080",
-    "nfus_summary": "As an older adult who is cautious about technology, I want to play cognitive games only when I choose to start them and ensure my personal data remains completely private without any unsolicited notifications, so I can feel secure and not overwhelmed.",
-    "cluster_name": "Voluntary Cognitive Game Use with Data Privacy and Notification Control",
-    "cluster_description": "Functional stories that allow cognitive game play only by user choice, with strict privacy protections and suppression of unsolicited notifications."
+    "nfus_id": "US-083",
+    "nfus_summary": "As an older adult who values privacy and dislikes feeling monitored, I want to receive health updates and care check-ins only through offline methods and in-person visits.",
+    "cluster_name": "Prefer Offline Updates and In-Person Visits",
+    "cluster_description": "Functional stories related to communication channel preferences, offline notification support, and scheduling in-person care interactions."
   },
   {
     "nfus_id": "US-084",
-    "nfus_summary": "As an older adult who is very concerned about privacy and feels overwhelmed by technology, I want ALFRED to always ask for my clear and explicit permission before turning on any sensors or sharing any of my data, so I can keep full control and feel safe using the system.",
-    "cluster_name": "Explicit Consent for Sensor Activation and Data Sharing",
-    "cluster_description": "Functional stories requiring clear, explicit user permission before activating sensors or sharing any personal data."
+    "nfus_summary": "As an older person who is very concerned about privacy, I want to block all sensor data collection and sharing unless I explicitly approve it, so I can keep full control over my personal information and feel safe using ALFRED.",
+    "cluster_name": "Restrict Sensor Data Collection and Sharing",
+    "cluster_description": "Functional stories related to sensor activation controls, user consent management, and blocking unauthorized data collection and sharing."
   },
   {
     "nfus_id": "US-085",
-    "nfus_summary": "As a retired social worker who is cautious about technology, I want to personally review and explicitly approve every data sharing permission and sensor activation before they happen, so I can keep full control over my privacy and prevent any unwanted exposure of my information.",
-    "cluster_name": "User Review and Approval of Data Sharing and Sensor Use",
-    "cluster_description": "Functional stories enabling users to review and explicitly approve all data sharing permissions and sensor activations before they occur."
+    "nfus_summary": "As an older person who is cautious and values privacy, I want to strictly limit ALFRED’s sensor data collection and block all app installations unless I explicitly approve them to maintain full control and avoid unwanted monitoring.",
+    "cluster_name": "Strict Control Over Sensor Data Collection",
+    "cluster_description": "Functional stories related to strict sensor usage policies, app installation controls, and privacy enforcement mechanisms to prevent unauthorized monitoring."
   },
   {
     "nfus_id": "US-086",
-    "nfus_summary": "As an older adult who feels overwhelmed by technology and values strict privacy, I want ALFRED to only listen and respond when I press a button or explicitly activate it, so I can feel safe and maintain full control over when the system is attentive.",
-    "cluster_name": "Push-to-Talk Mode on Request for Privacy",
-    "cluster_description": "Functional stories implementing push-to-talk mode that requires explicit user activation for listening and responding."
+    "nfus_summary": "As an older person who values privacy and minimal disturbance, I want wearable sensors that monitor my vital signs discreetly without sharing data with third parties or sending unnecessary alerts, only notifying me or trusted contacts in true emergencies.",
+    "cluster_name": "Silent Vital Signs Tracking with Emergency Alerts Only",
+    "cluster_description": "Functional stories related to discreet vital sign monitoring, emergency alert mechanisms, and strict data sharing restrictions."
   },
   {
-    "nfus_id": "US-088",
-    "nfus_summary": "As an older adult who is very concerned about privacy, I want to be able to review and explicitly approve any data sharing or sensor activation beforehand, so that I feel fully in control and safe while using ALFRED.",
-    "cluster_name": "Pre-Approval Control of Data Sharing and Sensors",
-    "cluster_description": "Functional stories focused on user review and explicit approval processes for any data sharing or sensor activation before execution."
+    "nfus_id": "US-115",
+    "nfus_summary": "As an older person with strong privacy concerns, I want ALFRED to only monitor my recovery when I explicitly ask it to, so I maintain full control over my personal data and avoid feeling surveilled.",
+    "cluster_name": "Discreet Recovery Monitoring Without Intrusion",
+    "cluster_description": "Functional stories related to recovery tracking activation control, explicit user consent for monitoring, and privacy-preserving data handling."
   },
   {
-    "nfus_id": "US-089",
-    "nfus_summary": "As a difficult and privacy-conscious older adult, I want to explicitly approve every instance of data sharing and sensor activation to ensure I maintain full control over my personal information and avoid feeling overwhelmed or unsafe with technology.",
-    "cluster_name": "Strict User Approval for All Data and Sensor Activities",
-    "cluster_description": "Functional stories requiring explicit user approval for every data sharing and sensor activation event to maximize privacy and control."
+    "nfus_id": "US-116",
+    "nfus_summary": "As an older person who values privacy and control, I want ALFRED to only respond when I push-to-talk and to minimize all notifications and unsolicited messages so I do not feel overwhelmed or lose my dignity.",
+    "cluster_name": "Maintain Dignity by Minimizing Dependency",
+    "cluster_description": "Functional stories related to interaction control via push-to-talk, notification minimization, and respect for user autonomy and privacy."
   },
   {
-    "nfus_id": "US-090",
-    "nfus_summary": "As an older adult who is cautious about technology and privacy, I want ALFRED to provide concise and straightforward information about what data is collected and who can see it, so I can maintain strict control over my personal information without feeling overwhelmed.",
-    "cluster_name": "Transparent and Concise Data Handling Reports",
-    "cluster_description": "Functional stories providing users with clear, concise, and understandable reports on data collection and access to support informed privacy control."
-  },
-  {
-    "nfus_id": "US-091",
-    "nfus_summary": "As an older adult who is very concerned about privacy, I want to explicitly approve any data sharing and sensor use before it happens, so that I can maintain full control over my personal information and feel secure using ALFRED.",
-    "cluster_name": "Explicit Pre-Approval of Data Sharing and Sensor Use",
-    "cluster_description": "Functional stories requiring user explicit approval prior to any data sharing or sensor activation to ensure security and control."
-  },
-  {
-    "nfus_id": "US-092",
-    "nfus_summary": "As a retired social worker who is cautious about technology, I want ALFRED to monitor me only when I explicitly ask for it, so I can maintain my privacy, avoid feeling constantly watched, and keep control over my personal data.",
-    "cluster_name": "User-Initiated Monitoring Only",
-    "cluster_description": "Functional stories that enable system monitoring of users only upon explicit user request to preserve privacy and prevent feelings of constant surveillance."
-  },
-  {
-    "nfus_id": "US-093",
-    "nfus_summary": "As an older adult who feels overwhelmed by technology and is very concerned about data privacy, I want ALFRED to always ask for my explicit consent before using any sensors or sharing any of my data, so I can keep full control over my privacy and feel safe.",
-    "cluster_name": "Always Explicit Consent for Sensor Use and Data Sharing",
-    "cluster_description": "Functional stories enforcing that explicit user consent is obtained every time sensors are activated or data is shared to maintain privacy and user safety."
-  },
-  {
-    "nfus_id": "US-102",
-    "nfus_summary": "As an older adult who values privacy and prefers formal, limited communication, I want to avoid system-mediated interactions like video calls or instant messages, so that I can feel safe from unwanted digital intrusions and maintain control over my personal data.",
-    "cluster_name": "Avoidance of System-Mediated Communication",
-    "cluster_description": "Functional stories that limit or disable system-mediated communication methods such as video calls and instant messaging to protect user privacy and comfort."
-  },
-  {
-    "nfus_id": "US-103",
-    "nfus_summary": "As an older adult who values strict privacy, I want to ensure that my personal health data is never shared with medical staff or anyone else without my explicit permission, so I can maintain control over my information and feel safe using ALFRED.",
-    "cluster_name": "Strict User-Controlled Health Data Sharing",
-    "cluster_description": "Functional stories enforcing that personal health data is only shared with explicit user permission to maintain strict privacy controls."
+    "nfus_id": "US-117",
+    "nfus_summary": "As an older person who is cautious about privacy and technology, I want ALFRED to monitor my recovery only when I explicitly request it, ensuring I feel in control and not overwhelmed by constant surveillance.",
+    "cluster_name": "Respect Privacy While Supporting Recovery",
+    "cluster_description": "Functional stories related to user-initiated recovery monitoring, explicit consent workflows, and privacy-focused data collection."
   },
   {
     "nfus_id": "US-118",
-    "nfus_summary": "As an older adult who values formal, polite, and transactional language, I want ALFRED to interact with me using strictly respectful and controlled communication, avoiding casual or familiar tones that make me uncomfortable.",
-    "cluster_name": "Strictly Formal and Polite Interaction Style",
-    "cluster_description": "Functional stories implementing system communication that is strictly formal, respectful, and avoids casual or familiar language to align with user preferences."
+    "nfus_summary": "As an older person, I want to strictly control and limit any sharing of my health data, including real-time sharing with caregivers and medical staff, to protect my privacy and avoid feeling constantly monitored.",
+    "cluster_name": "Strict Control of Health Data Sharing",
+    "cluster_description": "Functional stories related to real-time health data access controls, sharing permissions, and privacy enforcement for caregiver and medical staff interactions."
   },
   {
-    "nfus_id": "US-121",
-    "nfus_summary": "As an older person who values formal, polite, and ethical communication, I want ALFRED to keep all interactions strictly formal without casual familiarity, even if it feels cold, so that I feel respected and maintain my dignity despite occasional feelings of isolation.",
-    "cluster_name": "Strict Formality in Social Inclusion Communication",
-    "cluster_description": "Functional stories ensuring all social interaction features maintain a strictly formal and polite tone, avoiding casual familiarity to uphold dignity."
+    "nfus_id": "US-132",
+    "nfus_summary": "As an older person who feels overwhelmed by technology, I want to activate ALFRED's voice commands only when I press the push-to-talk button, so I can keep full control and protect my privacy.",
+    "cluster_name": "Push-to-Talk Activation Control",
+    "cluster_description": "Functional stories related to voice command activation exclusively via push-to-talk, preventing unsolicited listening or activation."
   },
   {
-    "nfus_id": "US-122",
-    "nfus_summary": "As an older adult who is very concerned about privacy, I want to have full control over what recovery data ALFRED collects and ensure that nothing is shared without my explicit permission, so I can maintain my autonomy and avoid feeling monitored or exposed.",
-    "cluster_name": "Full User Control over Recovery Data Collection and Sharing",
-    "cluster_description": "Functional stories allowing users to control recovery data collection and strictly regulate sharing with explicit permission to preserve autonomy."
-  },
-  {
-    "nfus_id": "US-137",
-    "nfus_summary": "As a difficult and privacy-conscious older adult, I want ALFRED to respond only when I explicitly activate it using push-to-talk and to limit almost all notifications, so I can maintain strict control over my interactions without feeling overwhelmed or invaded by constant interruptions.",
-    "cluster_name": "Push-to-Talk Activation with Strict Notification Limitation",
-    "cluster_description": "Functional stories enforcing push-to-talk interaction activation and minimal notifications to avoid overwhelming privacy-conscious users."
+    "nfus_id": "US-133",
+    "nfus_summary": "As an older person who feels overwhelmed by technology, I want ALFRED to respond only when I explicitly use push-to-talk commands and avoid sending me almost any unsolicited notifications or suggestions to keep control and protect my privacy.",
+    "cluster_name": "Strictly Controlled Functional Use Only",
+    "cluster_description": "Functional stories related to limiting system responses to explicit push-to-talk commands and suppressing unsolicited system notifications."
   },
   {
     "nfus_id": "US-138",
-    "nfus_summary": "As an older adult who is cautious about privacy and easily overwhelmed by technology, I want ALFRED to activate only when I ask it to and to minimize nearly all notifications and reminders, so I can keep strict control over my interactions and avoid feeling intruded upon or stressed.",
-    "cluster_name": "Strict Activation Control and Notification Minimization",
-    "cluster_description": "Functional stories allowing activation only on explicit user request and minimizing notifications to reduce stress and intrusion."
-  },
-  {
-    "nfus_id": "US-139",
-    "nfus_summary": "As an older adult who prefers to control technology carefully, I want ALFRED to respond only when I explicitly activate it using push-to-talk, so I can avoid unsolicited interruptions and maintain my privacy and autonomy.",
-    "cluster_name": "Controlled Push-to-Talk Activation to Prevent Interruptions",
-    "cluster_description": "Functional stories ensuring ALFRED responds exclusively to explicit push-to-talk activations to prevent unsolicited interruptions."
+    "nfus_summary": "As an older adult who is very cautious about privacy, I want to block all app installations by default and only allow them when I explicitly request, so I can protect my personal data and avoid unwanted technology intrusions.",
+    "cluster_name": "Skeptical Review of New Apps",
+    "cluster_description": "Functional stories related to app installation approval workflows, default blocking policies, and privacy-focused app management."
   },
   {
     "nfus_id": "US-140",
-    "nfus_summary": "As a retired social worker who is cautious about technology, I want ALFRED to respond only when I explicitly activate it by push-to-talk, so that I can avoid unsolicited interruptions and feel safe and fully in control of my interactions.",
-    "cluster_name": "Push-to-Talk Activation for Safe and Controlled Interactions",
-    "cluster_description": "Functional stories that require explicit push-to-talk activation for system responses to ensure user safety and interaction control."
+    "nfus_summary": "As an older person who is very concerned about privacy, I want to easily submit complaints about data handling to ALFRED to ensure my personal and health information is never shared without my explicit consent.",
+    "cluster_name": "Submit Privacy Complaints to Enforce Data Sovereignty",
+    "cluster_description": "Functional stories related to user complaint submission, data sovereignty enforcement, and privacy issue reporting mechanisms."
   },
   {
-    "nfus_id": "US-152",
-    "nfus_summary": "As a retired social worker who is cautious about technology, I want to block all app installations unless I explicitly approve them and strictly limit data sharing to avoid unsolicited notifications and ensure my privacy is fully protected.",
-    "cluster_name": "User-Approved App Installations and Data Sharing Restrictions",
-    "cluster_description": "Functional stories that block app installations without explicit user approval and enforce strict limitations on data sharing to protect privacy."
+    "nfus_id": "US-141",
+    "nfus_summary": "As an older person who is cautious about technology and privacy, I want to block all app installations unless I explicitly request them, so I can avoid unwanted data sharing and feel safe using ALFRED.",
+    "cluster_name": "Strict Opt-In for App Installations",
+    "cluster_description": "Functional stories related to app installation opt-in controls, user approval processes, and system security enforcement."
   },
   {
-    "nfus_id": "US-162",
-    "nfus_summary": "As an older adult who is cautious about privacy and technology, I want ALFRED to respond only when I explicitly give voice commands, so that I can maintain full control and avoid feeling overwhelmed or having my privacy invaded.",
-    "cluster_name": "Explicit Voice Command Activation for Privacy Control",
-    "cluster_description": "Functional stories implementing system response only upon explicit voice commands to maintain user privacy and control."
+    "nfus_id": "US-150",
+    "nfus_summary": "As an older person who is very cautious about privacy, I want to have full manual control over ALFRED's behaviors and app installations to prevent any data sharing or unwanted notifications that make me feel unsafe.",
+    "cluster_name": "Strict Control Over ALFRED Behaviors and Settings",
+    "cluster_description": "Functional stories related to user-configurable system behaviors, manual override controls, and app installation management ensuring privacy and safety."
+  },
+  {
+    "nfus_id": "US-027",
+    "nfus_summary": "As an informal caregiver managing multiple elderly clients, I want ALFRED to communicate in a way that encourages clients without being intrusive, so I can respect their autonomy while effectively supporting their health.",
+    "cluster_name": "Motivational yet Respectful Communication",
+    "cluster_description": "Functional stories related to communication styles balancing encouragement and respect, avoiding intrusiveness while supporting user autonomy and health goals."
   }
 ]

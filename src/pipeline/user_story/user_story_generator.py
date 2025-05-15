@@ -125,7 +125,7 @@ You must return a single JSON object with the following structure:
 
 {{
   "title": "User Story Title",
-  "summary": ""As a [user role, not name], I want to [do something specific](, so that I can [achieve a goal or handle a concern].)", # "so that ..." is optional
+  "summary": ""As a [user role, not name], I want to [do something specific] (, so that I can [achieve a goal or handle a concern].)", # "so that ..." is hardly optional
   "priority": 3, # 1 (Lowest) to 5 (Highest)
   "pillar": "[Associated Pillar]"
 }}

@@ -133,7 +133,11 @@ User Story Guidelines:
 
 ====================
 Cluster of the two user stories below: {cluster}
-Compare the following two non-functional user stories. Report any conflicts between them, focusing on the lowest-level non-functional (decomposed) user stories.
+Compare the following two non-functional user stories. Report any conflicts between them using the Sadana and Liu's technique mentioned above, focusing on the lowest-level non-functional (decomposed) user stories.
+
+If there is no conflict, respond with an empty JSON object: {{}}
+Note that, please strictly follow the definition of conflict between two user stories in the Chentouf's technique summary. Do not consider diversity of user preferences or slight differences in user stories as a conflict.
+If you think the conflict found is a mild or nuanced one, it is likely that the user stories are not conflicting at all. In that case, please respond with an empty JSON object: {{}}.
 
 Do NOT attempt to propose resolutions. Only identify clear contradictions or incompatible goals.
 

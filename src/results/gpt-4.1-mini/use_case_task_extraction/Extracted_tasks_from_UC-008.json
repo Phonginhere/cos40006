@@ -4,25 +4,27 @@
     {
       "personaId": "P-004",
       "tasks": [
-        "Starts shift at the urban hospital and prepares for patient care",
-        "Maintains focus on clinical tasks without interference",
-        "Considers patient consent and data privacy when accessing notes",
-        "Expresses caution toward sharing detailed patient notes"
+        "Disables interactive tutorials in the app to avoid distractions",
+        "Navigates the healthcare app manually without relying on voice guidance",
+        "Relies on secure API integration to pull patient vitals into hospital systems",
+        "Expresses skepticism about adopting new digital tools in clinical workflow",
+        "Trusts the data validation mechanisms to ensure accuracy",
+        "Manages app settings to reduce cognitive load during work hours"
       ]
     },
     {
       "personaId": "P-001",
       "tasks": [
-        "Develops a new ALFRED app to optimize clinical workflows",
-        "Utilizes ALFREDs open APIs for integration",
-        "Implements asynchronous workflows and AI-assisted coding",
-        "Balances innovative features with compatibility for older devices",
-        "Disables legacy APIs after migration to avoid disruptions",
-        "Receives and analyzes feedback from medical staff via developer channels",
-        "Debates adding proactive voice prompts to assist less tech-savvy users",
-        "Considers potential for overwhelming busy professionals with UI elements",
-        "Strives to meet usability and accessibility standards in app design",
-        "Manages tension between innovation and user demand for simplicity"
+        "Develops healthcare app integrations for the ALFRED platform remotely",
+        "Implements strict security and privacy standards in app design",
+        "Optimizes app responsiveness on older devices",
+        "Incorporates smart, proactive voice guidance and autocompletion features",
+        "Balances app complexity to avoid overwhelming end users and medical staff",
+        "Designs adjustable interaction modes to accommodate different user preferences",
+        "Refines customization options based on user feedback",
+        "Monitors and evaluates app usability for clinical and older adult users",
+        "Seeks to enhance accessibility and reduce cognitive load through voice assistance",
+        "Reflects on the tension between innovative features and clinical straightforwardness"
       ]
     }
   ]

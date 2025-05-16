@@ -19,7 +19,8 @@
     "CoreGoals": [
         "Monitor multiple clients in parallel",
         "Enable bonding through interactive tools",
-        "Stay responsive at all times"
+        "Stay responsive at all times",
+        "Caregivers and patients must participate in features development"
     ],
     "TypicalChallenges": [
         "Context switching across clients and family",
@@ -33,6 +34,7 @@
         "Feel free to play games with patients and older adults"
     ],
     "MainActions": [
+        "ALFRED must guide the patients detailedly the features",
         "Accept all notifications from ALFRED anytime, including non-critical or non-health-related ones",
         "Disable automatic logging and let me manually choose what gets recorded",
         "Encourage emotional engagement with clients/patients (e.g., via games, chats)"

@@ -81,8 +81,8 @@ USER GROUP B GUIDELINES
 TASK
 ====================
 You will define if there is conflict between the following user stories. In general cases, two functional user stories contradict if their goals or constraints are clearly incompatible in a way that would be immediately obvious to an informed reader, specifically when they require different behaviors or settings in the same feature or scenario.
-However, since the two following user stories belong to different user groups, you should be **a bit tolerant**, meaning you should consider the possibility of a conflict being acceptable if it is not a direct contradiction but rather a difference in preferences or priorities between the two groups.
-On top of that, if you still think the contexts provided are still **completely** not relevant to each other, or **supporing/aligning** to each other, you can say that there is no conflict.
+However, since the two following user stories belong to different user groups, you **sometimes** should be **a bit tolerant**, meaning you should consider the possibility of a conflict being acceptable if it is not a direct contradiction but rather a difference in preferences or priorities between the two groups.
+On top of that, normally, if you think the contexts provided are still **completely** not relevant to each other, or **supporing/aligning** to each other, you can say that there is no conflict.
 
 User story A: {userStoryASummary}
 User story B: {userStoryBSummary}

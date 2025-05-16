@@ -3,7 +3,7 @@ import json
 from typing import Optional
 
 from pipeline.utils import (
-    FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR,
+    FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR,
     USER_STORY_DIR,
     USER_GROUP_KEYS,
     load_system_summary,
@@ -72,7 +72,6 @@ Finally, provide the NEW summaries for both user stories according to the resolu
 - If a user story is discarded, its summary should be an empty string.
 - If updated or kept, provide the updated or original summary respectively. If updated, **unlike the original user story summary (summaries)**, which is mostly dominant by the persona's information; your **updated summary (summaries)** must be smooth, consistent, and coherent, respecting the system summary. That means, at least one of the personas' information should partially be sacrificed for the coherence, consistence and smoothness.
 (Note that, a user story's summary is a short and precise user story in 1-2 sentences. Generally, it is limited to about 10 to 25 words. General format is: As a/an + [<role, or type of user>, 2-3 words], I would like to/want to/do not want to/... + [<some goal>, 4-6 words], so that + [<some reason>, 5-7 words])
-
 Respond STRICTLY in the JSON format:
 
 {{
@@ -137,7 +136,7 @@ def update_user_story_file_by_persona(persona_id: str, story_id: str, new_summar
         json.dump(stories, f, indent=2, ensure_ascii=False)
 
 
-def resolve_functional_conflicts_within_one_group(persona_loader: UserPersonaLoader):
+def resolve_functional_conflicts_across_two_groups(persona_loader: UserPersonaLoader):
     system_summary = load_system_summary()
     user_story_guidelines = load_user_story_guidelines()
     technique_summary = load_functional_user_story_conflict_summary()
@@ -158,12 +157,12 @@ def resolve_functional_conflicts_within_one_group(persona_loader: UserPersonaLoa
             print(f"⚠️ Failed to load user stories from {fname}: {e}")
 
     conflict_files = [
-        f for f in os.listdir(FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR)
+        f for f in os.listdir(FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR)
         if f.endswith(".json")
     ]
 
     for conflict_file in conflict_files:
-        conflict_path = os.path.join(FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, conflict_file)
+        conflict_path = os.path.join(FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR, conflict_file)
         try:
             conflicts = load_json_file(conflict_path)
         except Exception as e:
@@ -246,4 +245,3 @@ def resolve_functional_conflicts_within_one_group(persona_loader: UserPersonaLoa
                 print(f"✅ Updated conflict file saved: {conflict_file}")
             except Exception as e:
                 print(f"❌ Failed to save updated conflict file {conflict_file}: {e}")
-

@@ -1,0 +1,122 @@
+[
+  {
+    "taskID": 166,
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Develop a new healthcare monitoring app for ALFRED"
+  },
+  {
+    "taskID": 167,
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Implement rigorous data collection features in the app"
+  },
+  {
+    "taskID": 168,
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Design proactive voice reminders for caregivers"
+  },
+  {
+    "taskID": 169,
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Force installation of critical notifications on patient devices"
+  },
+  {
+    "taskID": 171,
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Override patient opt-out attempts for data tracking"
+  },
+  {
+    "taskID": 172,
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Maintain caregiver access to all patient sensor data by default"
+  },
+  {
+    "taskID": 173,
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Defend strict notification regimes during developer-caregiver meetings"
+  },
+  {
+    "taskID": 175,
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Update the app to ensure absolute caregiver reachability"
+  },
+  {
+    "taskID": 176,
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Build app features with conservative security and compliance focus"
+  },
+  {
+    "taskID": 177,
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Respond to caregiver complaints about notification volume"
+  },
+  {
+    "taskID": 242,
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Develop a new health monitoring app using ALFRED’s open APIs"
+  },
+  {
+    "taskID": 243,
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Study and adhere to the platform’s security guidelines"
+  },
+  {
+    "taskID": 244,
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Design a cognitive exercise feature that challenges users’ mental agility"
+  },
+  {
+    "taskID": 245,
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Balance app compatibility across older devices"
+  },
+  {
+    "taskID": 246,
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Implement forced critical updates to ensure latest security patches"
+  },
+  {
+    "taskID": 247,
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Submit the completed app to the ALFRED marketplace"
+  },
+  {
+    "taskID": 248,
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Prioritize app accessibility alongside robustness"
+  },
+  {
+    "taskID": 249,
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Accept potential user resistance to intrusive updates for safety reasons"
+  },
+  {
+    "taskID": 250,
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Document app features clearly for marketplace approval"
+  },
+  {
+    "taskID": 251,
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Evaluate privacy requirements to comply with ALFRED standards"
+  }
+]

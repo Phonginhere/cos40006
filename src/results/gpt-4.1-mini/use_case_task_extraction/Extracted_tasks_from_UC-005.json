@@ -4,22 +4,31 @@
     {
       "personaId": "P-005",
       "tasks": [
-        "Speaks firmly to ALFRED expecting concise and to-the-point responses",
-        "Prefers ALFRED to remain almost invisible in daily routine",
-        "Expresses skepticism about the system's monitoring of recovery",
-        "Expects the system to respect her autonomy and personal boundaries"
+        "Dismisses cognitive game notifications upon arrival",
+        "Activates ALFRED manually using the push-to-talk feature",
+        "Customizes ALFRED settings to block all app installations",
+        "Refuses to share any personal data with caregivers or medical staff",
+        "Insists on formal and sparse communication style from ALFRED",
+        "Rejects cognitive exercises perceived as too challenging or intrusive",
+        "Prefers minimal system interaction and limited notifications",
+        "Experiences frustration and isolation due to strict technology boundaries",
+        "Monitors and controls ALFRED’s privacy settings rigorously",
+        "Avoids casual or informal tones in system communication"
       ]
     },
     {
       "personaId": "P-002",
       "tasks": [
-        "Engages in challenging cognitive exercises to push mental limits",
-        "Allows ALFRED to send proactive notifications and reminders",
-        "Embraces wearables and health sensors for continuous progress tracking",
-        "Uses health and activity data feedback from ALFRED as motivation",
-        "Welcomes interruptions from ALFRED as helpful prompts",
-        "Trusts ALFRED with personal health information for personalized care",
-        "Expects a dynamic and fully integrated gaming and health experience"
+        "Eagerly accepts and engages with ALFRED’s cognitive games",
+        "Welcomes and responds positively to frequent system notifications",
+        "Shares progress and experiences with friends via ALFRED’s social features",
+        "Participates in informal and lively conversations encouraged by ALFRED",
+        "Uses wearable devices to provide health data to the system",
+        "Accepts video check-ins from caregivers through ALFRED",
+        "Explores and learns new features from ALFRED’s detailed explanations",
+        "Allows dynamic personalization by sharing personal and health data",
+        "Views ALFRED as an active partner for physical and cognitive engagement",
+        "Embraces system encouragement as motivation for activity and social connection"
       ]
     }
   ]

@@ -3,12 +3,13 @@ import json
 from typing import Optional
 
 from pipeline.utils import (
-    FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR,
+    NON_FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR,
+    NON_FUNCTIONAL_USER_STORY_DECOMPOSITION_PATH,
     USER_STORY_DIR,
     USER_GROUP_KEYS,
     load_system_summary,
     load_user_story_guidelines,
-    load_functional_user_story_conflict_summary,
+    load_non_functional_user_story_conflict_summary,
     get_llm_response,
 )
 from pipeline.user_persona_loader import UserPersonaLoader
@@ -34,12 +35,12 @@ def build_resolution_prompt(
     storyB_summary: str,
     conflictType: str,
     conflictDescription: str,
+    conflictingNfrPairs: list,
 ) -> str:
     prompt = f"""
 You are an expert system requirements engineer.
 
-Apply the Chentouf et al. resolution strategies for functional user story conflicts:
-
+Apply the Sadana and Liu resolution strategies for non-functional requirement (a.k.a user story) conflicts:
 {technique_summary}
 
 System Summary:
@@ -47,6 +48,8 @@ System Summary:
 
 Conflict Type: {conflictType}
 Conflict Description: {conflictDescription}
+Conflicting NFR Pairs:
+{json.dumps(conflictingNfrPairs, indent=2)}
 
 User Story A Summary:
 {storyA_summary}
@@ -60,29 +63,46 @@ The summary **may* or **may not** be adjusted so the conflict is no longer valid
 - If the conflict is NO LONGER valid, respond with ONLY:
 None
 
-- If the conflict is still valid, analyze the conflict based on the given Chentouf's technique and choose ONE of the following four resolution types (return exactly the type text, no quotes):
+- If the conflict is still valid, analyze that conflict based on the given Sadana and Liu's technique, choose ONE of the following four resolution types (exact text required in the output):
   1. Update both user stories
   2. Update one and keep one remain the same
   3. Update one and discard the other
   4. Keep one remain and discard the other
 
-Then provide a concise resolution description explaining how the resolution strategy is applied.
+Then provide a concise resolution description explaining how you apply the chosen resolution.
 
-Finally, provide the NEW summaries for both user stories according to the resolution:
-- If a user story is discarded, its summary should be an empty string.
+Finally, provide the NEW summaries and decompositions for both user stories according to the resolution:
+- If a user story is discarded, its summary and decomposition should be empty strings.
 - If updated or kept, provide the updated or original summary respectively. If updated, **unlike the original user story summary (summaries)**, which is mostly dominant by the persona's information; your **updated summary (summaries)** must be smooth, consistent, and coherent, respecting the system summary. That means, at least one of the personas' information should partially be sacrificed for the coherence, consistence and smoothness.
-(Note that, a user story's summary is a short and precise user story in 1-2 sentences. Generally, it is limited to about 10 to 25 words. General format is: As a/an + [<role, or type of user>, 2-3 words], I would like to/want to/do not want to/... + [<some goal>, 4-6 words], so that + [<some reason>, 5-7 words])
+(Note that, a user story's summary is a short and precise user story in 1-2 sentences. Generally, it is limited to about 10 to 25 words.  General format is: As a/an + [<role, or type of user>, 2-3 words], I would like to/want to/do not want to/... + [<some goal>, 4-6 words], so that + [<some reason>, 5-7 words])
+- For new decomposition, provide a JSON array string if updated, or empty string if discarded. Decomposition instructions:
+    • New decomposition must be corresponding to the new summary. It should be a small list (1-3, depends on the complicated level of the given user story's summary) of atomic non-functional requirements (NFRs) that represent this user story.
+    • Only include more than 3 if **absolutely necessary** — avoid over-decomposition.
+    • Each NFR should be: Short, concrete, and **standalone**; non-overlapping and non-repetitive. Strictly it should be derived from the user story's actual intent — avoid generic expansions or technical over-specification.
+    • Do NOT split every adjective or clause into separate NFRs unless they clearly indicate different goals.
+    • If the original story is simple, keep the decomposition small and focused.
 
 Respond STRICTLY in the JSON format:
 
 {{
     "generalResolutionType": "(strictly, one of the four exact types above (do not include quotes, just the text))",
     "resolutionDescription": "(A short description of how the resolution strategy is applied)",
-    "newUserStoryASummary": "(updated or original summary A or empty string if discarded)",
-    "newUserStoryBSummary": "(updated or original summary B or empty string if discarded)"
+    "newUserStoryASummary": "(updated or original summary of user story A or empty if discarded)",
+    "newUserStoryADecomposition": [
+        "(lowest-level NFR A1)",
+        "(lowest-level NFR A2)",
+        ...
+        "(lowest-level NFR An)"
+    ],
+    "newUserStoryBSummary": "(updated or original summary of user story B or empty if discarded)",
+    "newUserStoryBDecomposition": [
+        "(lowest-level NFR B1)",
+        ...
+        "(lowest-level NFR Bn)"
+    ],
 }}
 
-Do not include any additional text or commentary. Do NOT use any markdown, bold, italic, or special formatting in your response.
+Strictly, do not include any additional text or commentary (e.g., "A1", "B2", "NFR3", e.t.c in decomposition's elements). Do NOT use any markdown, bold, italic, or special formatting in your response.
 """
     return prompt.strip()
 
@@ -93,16 +113,17 @@ def parse_llm_response(raw: str) -> Optional[dict]:
         raw_clean = re.sub(r"```(json)?", "", raw).strip()
         data = json.loads(raw_clean)
 
-        required_keys = {
+        keys = {
             "generalResolutionType",
             "resolutionDescription",
             "newUserStoryASummary",
+            "newUserStoryADecomposition",
             "newUserStoryBSummary",
+            "newUserStoryBDecomposition",
         }
-        if not all(k in data for k in required_keys):
+        if not all(k in data for k in keys):
             return None
 
-        # Treat "None" or empty resolution type as no resolution
         if not data["generalResolutionType"] or data["generalResolutionType"].strip().lower() == "none":
             return None
 
@@ -137,40 +158,35 @@ def update_user_story_file_by_persona(persona_id: str, story_id: str, new_summar
         json.dump(stories, f, indent=2, ensure_ascii=False)
 
 
-def resolve_functional_conflicts_within_one_group(persona_loader: UserPersonaLoader):
+def resolve_non_functional_conflicts_across_two_groups(persona_loader: UserPersonaLoader):
     system_summary = load_system_summary()
     user_story_guidelines = load_user_story_guidelines()
-    technique_summary = load_functional_user_story_conflict_summary()
+    technique_summary = load_non_functional_user_story_conflict_summary()
 
     all_personas = {p.id: p for p in persona_loader.get_personas()}
 
-    # Load all user stories from USER_STORY_DIR by reading all persona files and indexing by story ID
-    user_stories = {}
-    for fname in os.listdir(USER_STORY_DIR):
-        if not fname.endswith(".json"):
-            continue
-        try:
-            path = os.path.join(USER_STORY_DIR, fname)
-            stories = load_json_file(path)
-            for story in stories:
-                user_stories[story["id"]] = story
-        except Exception as e:
-            print(f"⚠️ Failed to load user stories from {fname}: {e}")
+    try:
+        nfus_analysis = load_json_file(NON_FUNCTIONAL_USER_STORY_DECOMPOSITION_PATH)
+    except Exception as e:
+        print(f"❌ Failed to load NFUS analysis: {e}")
+        return
+
+    nfus_dict = {entry["id"]: entry for entry in nfus_analysis}
 
     conflict_files = [
-        f for f in os.listdir(FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR)
+        f for f in os.listdir(NON_FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR)
         if f.endswith(".json")
     ]
 
     for conflict_file in conflict_files:
-        conflict_path = os.path.join(FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, conflict_file)
+        conflict_path = os.path.join(NON_FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR, conflict_file)
         try:
             conflicts = load_json_file(conflict_path)
         except Exception as e:
             print(f"❌ Failed to load conflicts file {conflict_file}: {e}")
             continue
 
-        # Skip if all conflicts already resolved (have resolution fields)
+        # Skip if all conflicts already resolved (have the resolution fields)
         if all("generalResolutionType" in c and "resolutionDescription" in c for c in conflicts):
             print(f"⏭️ Skipping {conflict_file} - all conflicts already have resolution.")
             continue
@@ -183,14 +199,12 @@ def resolve_functional_conflicts_within_one_group(persona_loader: UserPersonaLoa
 
             a_id = conflict.get("userStoryAId")
             b_id = conflict.get("userStoryBId")
-
-            # Check both stories exist in user stories loaded
-            if a_id not in user_stories or b_id not in user_stories:
+            if a_id not in nfus_dict or b_id not in nfus_dict:
                 print(f"⚠️ Skipping conflict {conflict.get('conflictId')} because user story missing.")
                 continue
 
-            storyA_data = user_stories[a_id]
-            storyB_data = user_stories[b_id]
+            storyA_data = nfus_dict[a_id]
+            storyB_data = nfus_dict[b_id]
 
             personaA = all_personas.get(conflict.get("personaAId"))
             personaB = all_personas.get(conflict.get("personaBId"))
@@ -209,6 +223,7 @@ def resolve_functional_conflicts_within_one_group(persona_loader: UserPersonaLoa
                 storyB_data.get("summary", ""),
                 conflict.get("conflictType", ""),
                 conflict.get("conflictDescription", ""),
+                conflict.get("conflictingNfrPairs", []),
             )
 
             response = get_llm_response(prompt)
@@ -223,7 +238,9 @@ def resolve_functional_conflicts_within_one_group(persona_loader: UserPersonaLoa
                     "generalResolutionType": "",
                     "resolutionDescription": "",
                     "newUserStoryASummary": "",
+                    "newUserStoryADecomposition": "",
                     "newUserStoryBSummary": "",
+                    "newUserStoryBDecomposition": "",
                 })
                 updated = True
                 continue
@@ -232,11 +249,27 @@ def resolve_functional_conflicts_within_one_group(persona_loader: UserPersonaLoa
                 "generalResolutionType": parsed["generalResolutionType"],
                 "resolutionDescription": parsed["resolutionDescription"],
                 "newUserStoryASummary": parsed["newUserStoryASummary"],
+                "newUserStoryADecomposition": parsed["newUserStoryADecomposition"],
                 "newUserStoryBSummary": parsed["newUserStoryBSummary"],
+                "newUserStoryBDecomposition": parsed["newUserStoryBDecomposition"],
             })
             updated = True
 
-            # Update user story files accordingly (per persona)
+            def update_or_delete_story(nfus_dict, story_id, new_summary, new_decomposition):
+                if not new_summary.strip():
+                    if story_id in nfus_dict:
+                        print(f"🗑️ Deleting user story {story_id} due to empty summary in resolution.")
+                        del nfus_dict[story_id]
+                else:
+                    nfus_dict[story_id]["summary"] = new_summary
+                    if new_decomposition and isinstance(new_decomposition, list) and len(new_decomposition) > 0:
+                        nfus_dict[story_id]["decomposition"] = new_decomposition
+                    else:
+                        nfus_dict[story_id]["decomposition"] = []
+
+            update_or_delete_story(nfus_dict, a_id, parsed["newUserStoryASummary"], parsed["newUserStoryADecomposition"])
+            update_or_delete_story(nfus_dict, b_id, parsed["newUserStoryBSummary"], parsed["newUserStoryBDecomposition"])
+
             update_user_story_file_by_persona(conflict.get("personaAId"), a_id, parsed["newUserStoryASummary"])
             update_user_story_file_by_persona(conflict.get("personaBId"), b_id, parsed["newUserStoryBSummary"])
 
@@ -246,4 +279,3 @@ def resolve_functional_conflicts_within_one_group(persona_loader: UserPersonaLoa
                 print(f"✅ Updated conflict file saved: {conflict_file}")
             except Exception as e:
                 print(f"❌ Failed to save updated conflict file {conflict_file}: {e}")
-

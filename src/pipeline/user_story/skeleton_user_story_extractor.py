@@ -3,10 +3,10 @@ import json
 import shutil
 
 from collections import defaultdict
-
 from pipeline.user_persona_loader import UserPersonaLoader
 from pipeline.utils import USE_CASE_TASK_EXTRACTION_DIR, USER_STORY_DIR
 from pipeline.user_story.user_story_loader import UserStory
+
 
 def extract_skeleton_user_stories(persona_loader: UserPersonaLoader):
     # Step 1: Load persona map
@@ -31,38 +31,39 @@ def extract_skeleton_user_stories(persona_loader: UserPersonaLoader):
     uid_counter = 1
 
     for filename in os.listdir(USE_CASE_TASK_EXTRACTION_DIR):
-        if not filename.endswith(".json"):
+        if not filename.startswith("Extracted_tasks_for_") or not filename.endswith(".json"):
             continue
 
         file_path = os.path.join(USE_CASE_TASK_EXTRACTION_DIR, filename)
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-        except UnicodeDecodeError:
-            with open(file_path, 'r', encoding='cp1252') as f:
-                data = json.load(f)
+                task_list = json.load(f)
+        except Exception as e:
+            print(f"❌ Failed to load {filename}: {e}")
+            continue
 
-        uc_id = data["useCaseId"]
-        for entry in data["tasksByPersona"]:
-            persona_id = entry["personaId"]
+        for task_obj in task_list:
+            persona_id = task_obj["personaId"]
+            uc_id = task_obj["useCaseId"]
+            task = task_obj["taskDescription"]
+
             user_group = all_personas[persona_id].user_group if persona_id in all_personas else "Unknown"
 
-            for task in entry["tasks"]:
-                story = UserStory(
-                    id=f"US-{uid_counter:03}",
-                    title="",           # Leave title as empty
-                    persona=persona_id,
-                    user_group=user_group,
-                    use_case=uc_id,
-                    priority=None,      # Leave priority as unknown
-                    summary="",         # Leave summary as empty",
-                    type="",            # Unknown
-                    cluster=None,
-                    pillar=None,
-                    task=task
-                )
-                grouped_stories[persona_id].append(story)
-                uid_counter += 1
+            story = UserStory(
+                id=f"US-{uid_counter:03}",
+                title="",
+                persona=persona_id,
+                user_group=user_group,
+                use_case=uc_id,
+                priority=None,
+                summary="",
+                type="",
+                cluster=None,
+                pillar=None,
+                task=task
+            )
+            grouped_stories[persona_id].append(story)
+            uid_counter += 1
 
     # Step 4: Write grouped user stories per persona
     for persona_id, stories in grouped_stories.items():

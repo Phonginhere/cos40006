@@ -4,25 +4,30 @@ import json
 import textwrap
 
 from pathlib import Path
+from collections import defaultdict
 
-from pipeline.utils import get_llm_response, load_use_case_task_example, load_system_summary, USE_CASE_TASK_EXTRACTION_DIR
+from pipeline.utils import (
+    get_llm_response,
+    load_use_case_task_example,
+    load_system_summary,
+    USE_CASE_TASK_EXTRACTION_DIR,
+    USE_CASE_DIR
+)
 from pipeline.user_persona_loader import UserPersonaLoader
 from pipeline.use_case.use_case_loader import UseCaseLoader
 
+
 def build_task_extraction_prompt(uc, all_personas: dict, system_summary: str) -> str:
-    # Extract personas
     involved_personas = [all_personas[pid] for pid in uc.personas if pid in all_personas]
     persona_text = "\n".join(
         f"- {p.id}: {p.name}, {p.role}" for p in involved_personas
     )
-    
-    # Load example guide text
     example_guide = load_use_case_task_example()
 
     return textwrap.dedent(f"""
 You are a requirements analyst. You are reading a finalized use case from a given system.
 
-Your objective is to extract a **diverse and realistic set of persona tasks**, with a **slight preference for goal-driven functional actions**, while still capturing notable non-functional aspects. Each persona's unique motivations, behaviors, and expectations should be reflected.
+Your objective is to extract a **diverse and realistic set of persona tasks**, with a **slight preference for goal-driven functional actions**, while still capturing notable non-functional aspects...
 
 You must extract tasks that relate to:
 - **Functional tasks** – goal-directed **actions, operations, or interactions** that personas perform with or around the system.
@@ -68,7 +73,7 @@ Scenario:
 - Include **both action-based** (functional) and **quality-focused** (non-functional) tasks.
 - Each task should be written as a short, complete sentence or phrase. Also, they should be distinct, goal-oriented and not repeated across personas.
 - Group tasks by persona. In the extracted tasks, please use the persona name, NOT their id, which is only used for the attribute "personaId".
-- Strictly, please note that each task from a persona should not only from the use case only, but must align with that involved persona's information. In some cases, especially where the use case's relevant section(s) are quite vague and general, the persona's information should be the **dominant factor** in the task extraction process.
+- Strictly, please note that each task from a persona should not only from the use case only, but must align with that involved persona's information. In **most** cases, especially where the use case's relevant section(s) are quite general, abstract and/or vague, the persona's information should be the **dominant factor** in the task extraction and/or generation process(es).
 
 --- OUTPUT FORMAT ---
 
@@ -91,8 +96,9 @@ Output a **JSON array** with the following structure:
 Strictly return only valid JSON. Do not include any extra or invalid texts (e.g. "Task 1" in tasks, or the other information (e.g., name, e.t.c) of persona besides its Id) or commentary. Do NOT use any markdown, bold, italic, or special formatting in your response. Avoid duplications across personas.
 """).strip()
 
-def extract_and_save_tasks(uc, all_personas: dict) -> None:
-    """Generate persona-level tasks for a use case and save the result."""
+
+def extract_and_save_tasks(uc, all_personas: dict) -> dict:
+    """Generate persona-level tasks for a use case and return as dict."""
     system_summary = load_system_summary()
     prompt = build_task_extraction_prompt(uc, all_personas, system_summary)
     print(f"\n🧠 Extracting persona tasks for {uc.id}...")
@@ -104,50 +110,66 @@ def extract_and_save_tasks(uc, all_personas: dict) -> None:
         parsed = json.loads(raw)
     except json.JSONDecodeError:
         print(f"❌ Failed to parse JSON for {uc.id}: {raw[:120]}...")
-        return
-    
-    result = {
+        return None
+
+    return {
         "useCaseId": uc.id,
         "tasksByPersona": parsed
     }
 
-    out_path = Path(USE_CASE_TASK_EXTRACTION_DIR) / f"Extracted_tasks_from_{uc.id}.json"
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text(json.dumps(result, indent=2, ensure_ascii=False))
-    print(f"✅ Tasks saved to: {out_path}")
-    
-def analyze_all_use_cases(persona_loader: UserPersonaLoader) -> None:
-    """Run task extraction over all enriched use cases with non-null scenarios."""
-    all_personas = {p.id: p for p in persona_loader.get_personas()}
 
+def reformat_and_save_all_tasks_by_persona():
+    task_dir = Path(USE_CASE_TASK_EXTRACTION_DIR)
+    files = sorted(task_dir.glob("Extracted_tasks_from_UC-*.json"))
+    flat_task_list = []
+    task_counter = 1
+
+    for file in files:
+        with file.open("r", encoding="utf-8") as f:
+            data = json.load(f)
+            uc_id = data.get("useCaseId", "")
+            for persona_entry in data.get("tasksByPersona", []):
+                persona_id = persona_entry.get("personaId", "")
+                for desc in persona_entry.get("tasks", []):
+                    flat_task_list.append({
+                        "taskID": task_counter,
+                        "useCaseId": uc_id,
+                        "personaId": persona_id,
+                        "taskDescription": desc
+                    })
+                    task_counter += 1
+
+    # Group by personaId
+    grouped = defaultdict(list)
+    for task in flat_task_list:
+        grouped[task["personaId"]].append(task)
+
+    # Write to separate JSON files
+    for persona_id, tasks in grouped.items():
+        out_path = task_dir / f"Extracted_tasks_for_{persona_id}.json"
+        with out_path.open("w", encoding="utf-8") as f:
+            json.dump(tasks, f, indent=2, ensure_ascii=False)
+        print(f"✅ Saved {len(tasks)} tasks for {persona_id} → {out_path.name}")
+
+
+def analyze_all_use_cases(persona_loader: UserPersonaLoader):
+    all_personas = {p.id: p for p in persona_loader.get_personas()}
     uc_loader = UseCaseLoader()
     uc_loader.load()
     all_uc = [uc for uc in uc_loader.get_all() if uc.scenario and uc.scenario.strip()]
 
-    # Gather all use case IDs
-    expected_uc_ids = {uc.id for uc in all_uc}
-
-    # Gather all filenames in the analysis output folder
-    existing_filenames = set(f.name for f in Path(USE_CASE_TASK_EXTRACTION_DIR).glob("*.json"))
-
-    # Extract detected UC-IDs from filenames
-    existing_uc_ids = set()
-    for filename in existing_filenames:
-        for uc_id in expected_uc_ids:
-            if uc_id in filename:
-                existing_uc_ids.add(uc_id)
-                break
-
-    # Compare
-    if expected_uc_ids == existing_uc_ids:
-        print("✅ All use case task files already exist. Skipping analysis.")
-        return
-
-    print("🔁 Mismatch or missing task files. Regenerating all...")
-    for f in Path(USE_CASE_TASK_EXTRACTION_DIR).glob("*.json"):
-        f.unlink()
+    os.makedirs(USE_CASE_TASK_EXTRACTION_DIR, exist_ok=True)
 
     for uc in all_uc:
-        extract_and_save_tasks(uc, all_personas)
+        file_path = os.path.join(USE_CASE_TASK_EXTRACTION_DIR, f"Extracted_tasks_from_{uc.id}.json")
+        if os.path.exists(file_path):
+            print(f"⏭️ Skipping {uc.id} – already extracted.")
+            continue
 
-    print("📦 Task extraction complete.")
+        extracted = extract_and_save_tasks(uc, all_personas)
+        if extracted:
+            with open(file_path, "w", encoding="utf-8") as f:
+                json.dump(extracted, f, indent=2, ensure_ascii=False)
+            print(f"✅ Saved → {file_path}")
+
+    reformat_and_save_all_tasks_by_persona()

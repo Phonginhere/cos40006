@@ -30,6 +30,7 @@
     "Singularities": [
         "Very busy and handles patients one at a time",
         "Avoids non-emergency notifications",
+        "Force patients to wear data sensors",
         "Rarely available outside official work hours",
         "Care only the patient's health data, not their emotional state"
     ],

@@ -75,7 +75,7 @@ Then provide a concise resolution description explaining how you apply the chose
 Finally, provide the NEW summaries and decompositions for both user stories according to the resolution:
 - If a user story is discarded, its summary and decomposition should be empty strings.
 - If updated or kept, provide the updated or original summary respectively. If updated, **unlike the original user story summary (summaries)**, which is mostly dominant by the persona's information; your **updated summary (summaries)** must be smooth, consistent, and coherent, respecting the system summary. That means, at least one of the personas' information should partially be sacrificed for the coherence, consistence and smoothness.
-(Note that, a user story's summary is a short and precise user story in 1-2 sentences. Generally, it is limited to about 10 to 25 words. Format: As a <type of user>, I want (sometimes don't want) <some goal> so that <some reason>)
+(Note that, a user story's summary is a short and precise user story in 1-2 sentences. Generally, it is limited to about 10 to 25 words.  General format is: As a/an + [<role, or type of user>, 2-3 words], I would like to/want to/do not want to/... + [<some goal>, 4-6 words], so that + [<some reason>, 5-7 words])
 - For new decomposition, provide a JSON array string if updated, or empty string if discarded. Decomposition instructions:
     • New decomposition must be corresponding to the new summary. It should be a small list (1-3, depends on the complicated level of the given user story's summary) of atomic non-functional requirements (NFRs) that represent this user story.
     • Only include more than 3 if **absolutely necessary** — avoid over-decomposition.

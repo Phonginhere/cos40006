@@ -2,34 +2,36 @@
   "useCaseId": "UC-001",
   "tasksByPersona": [
     {
-      "personaId": "P-004",
+      "personaId": "P-002",
       "tasks": [
-        "Logs into ALFRED’s caregiver portal during work hours",
-        "Accesses prioritized clinical health data such as heart rate and blood pressure",
-        "Filters out non-critical notifications to maintain focus",
-        "Monitors missing data streams and respects patient’s privacy boundaries",
-        "Schedules video check-ins to assess patient condition more closely",
-        "Adapts communication style to maintain formal and professional tone with Olivia",
-        "Relies on scheduled check-ups due to limited continuous monitoring data",
-        "Balances clinical needs with patient privacy preferences",
-        "Silences emotional or non-clinical information to avoid distractions",
-        "Evaluates health data for early warning signs despite limited information"
+        "Wears lightweight health sensors embedded in a wristband and necklace",
+        "Asks ALFRED for exercise suggestions after breakfast",
+        "Follows ALFREDâ€™s recommended moderate-intensity stretches",
+        "Responds to hydration reminders timed to activity level",
+        "Listens to ALFREDâ€™s detailed explanations about health routines",
+        "Expresses desire for more challenging workout suggestions to ALFRED",
+        "Engages with ALFREDâ€™s interactive game combining physical and cognitive tasks",
+        "Receives and reflects on motivational feedback delivered through ALFRED",
+        "Balances eagerness to push limits with concerns about appearing fragile",
+        "Uses ALFRED as a subtle companion for encouragement and health guidance",
+        "Appreciates the unobtrusiveness and comfort of wearable devices",
+        "Experiences a mix of motivation and unease about being monitored closely"
       ]
     },
     {
-      "personaId": "P-005",
+      "personaId": "P-006",
       "tasks": [
-        "Activates ALFRED only with deliberate ‘push-to-talk’ voice commands",
-        "Configures ALFRED to share only explicitly permitted health data",
-        "Blocks sharing of certain sensor data to protect privacy",
-        "Dismisses unsolicited notifications, especially about physical exercises",
-        "Insists on no data sharing beyond explicitly allowed parameters",
-        "Requires ALFRED to maintain formal and polite communication style",
-        "Avoids wearing health monitoring wearables regularly due to privacy fears",
-        "Prefers offline communication over video check-ins",
-        "Uses ALFRED as a tool rather than a companion",
-        "Maintains strict control over notifications and data sharing to preserve autonomy",
-        "Feels overwhelmed by technology complexity and is skeptical about data security"
+        "Monitors multiple elderly clientsâ€™ health data remotely via ALFRED",
+        "Adjusts privacy settings to control which client data appears on dashboard",
+        "Balances desire for detailed monitoring with respecting client privacy preferences",
+        "Receives alerts from ALFRED about changes in clientsâ€™ vital signs",
+        "Sends supportive voice messages to clients through ALFRED",
+        "Provides encouragement and advice based on health data insights",
+        "Joins interactive games remotely to engage and motivate clients",
+        "Manages the tension between professional vigilance and personal warmth",
+        "Navigates the boundary between oversight and client autonomy",
+        "Values privacy controls that allow selective data sharing",
+        "Seeks to maintain clientsâ€™ motivation while avoiding overwhelming them"
       ]
     }
   ]

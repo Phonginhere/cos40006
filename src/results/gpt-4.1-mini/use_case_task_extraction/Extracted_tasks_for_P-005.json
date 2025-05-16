@@ -1,0 +1,770 @@
+[
+  {
+    "taskID": 24,
+    "useCaseId": "UC-002",
+    "personaId": "P-005",
+    "taskDescription": "Reluctantly agrees to try ALFRED’s cognitive games after caregiver suggestion"
+  },
+  {
+    "taskID": 25,
+    "useCaseId": "UC-002",
+    "personaId": "P-005",
+    "taskDescription": "Insists that no personal data be shared with anyone including caregiver, family, or medical staff"
+  },
+  {
+    "taskID": 26,
+    "useCaseId": "UC-002",
+    "personaId": "P-005",
+    "taskDescription": "Demands all communication with ALFRED be formal and only initiated by explicit activation"
+  },
+  {
+    "taskID": 27,
+    "useCaseId": "UC-002",
+    "personaId": "P-005",
+    "taskDescription": "Starts a simple memory game on ALFRED while explicitly avoiding difficult challenges"
+  },
+  {
+    "taskID": 28,
+    "useCaseId": "UC-002",
+    "personaId": "P-005",
+    "taskDescription": "Maintains strict boundaries to protect privacy and autonomy"
+  },
+  {
+    "taskID": 29,
+    "useCaseId": "UC-002",
+    "personaId": "P-005",
+    "taskDescription": "Prefers silence and minimal interaction from ALFRED once game starts"
+  },
+  {
+    "taskID": 30,
+    "useCaseId": "UC-002",
+    "personaId": "P-005",
+    "taskDescription": "Avoids engaging in social or video interactions via ALFRED"
+  },
+  {
+    "taskID": 31,
+    "useCaseId": "UC-002",
+    "personaId": "P-005",
+    "taskDescription": "Expresses stubbornness and skepticism towards technology through clipped, formal commands"
+  },
+  {
+    "taskID": 32,
+    "useCaseId": "UC-002",
+    "personaId": "P-005",
+    "taskDescription": "Seeks to retain full control over when and how ALFRED is used"
+  },
+  {
+    "taskID": 59,
+    "useCaseId": "UC-003",
+    "personaId": "P-005",
+    "taskDescription": "Responds to ALFRED's gentle reminders to drink fluids and eat balanced meals"
+  },
+  {
+    "taskID": 60,
+    "useCaseId": "UC-003",
+    "personaId": "P-005",
+    "taskDescription": "Activates ALFRED's voice assistant only when needed to avoid unsolicited interactions"
+  },
+  {
+    "taskID": 61,
+    "useCaseId": "UC-003",
+    "personaId": "P-005",
+    "taskDescription": "Manages her privacy settings to prevent data sharing with caregivers"
+  },
+  {
+    "taskID": 62,
+    "useCaseId": "UC-003",
+    "personaId": "P-005",
+    "taskDescription": "Dismissing reminders from ALFRED that feel intrusive"
+  },
+  {
+    "taskID": 63,
+    "useCaseId": "UC-003",
+    "personaId": "P-005",
+    "taskDescription": "Prefers to confirm hydration and meal intake offline without system involvement"
+  },
+  {
+    "taskID": 64,
+    "useCaseId": "UC-003",
+    "personaId": "P-005",
+    "taskDescription": "Expresses a desire for minimal explanations from ALFRED during interactions"
+  },
+  {
+    "taskID": 65,
+    "useCaseId": "UC-003",
+    "personaId": "P-005",
+    "taskDescription": "Avoids video check-ins initiated via ALFRED in favor of private conversations"
+  },
+  {
+    "taskID": 66,
+    "useCaseId": "UC-003",
+    "personaId": "P-005",
+    "taskDescription": "Experiences wariness and skepticism about technology and data privacy"
+  },
+  {
+    "taskID": 67,
+    "useCaseId": "UC-003",
+    "personaId": "P-005",
+    "taskDescription": "Feels overwhelmed by frequent or unsolicited notifications and prefers fewer interruptions"
+  },
+  {
+    "taskID": 68,
+    "useCaseId": "UC-003",
+    "personaId": "P-005",
+    "taskDescription": "Maintains control over her interactions and data despite needing support"
+  },
+  {
+    "taskID": 69,
+    "useCaseId": "UC-003",
+    "personaId": "P-005",
+    "taskDescription": "Acknowledges need for assistance but limits ALFRED’s proactive communications"
+  },
+  {
+    "taskID": 70,
+    "useCaseId": "UC-003",
+    "personaId": "P-005",
+    "taskDescription": "Engages selectively with social activity suggestions to avoid feeling pressured"
+  },
+  {
+    "taskID": 83,
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Uses ALFRED to send formal and polite messages to family and friends"
+  },
+  {
+    "taskID": 84,
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Interrupts ALFRED to correct the phrasing or tone of outgoing messages"
+  },
+  {
+    "taskID": 85,
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Blocks ALFRED from sharing personal data with family or healthcare providers"
+  },
+  {
+    "taskID": 86,
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Declines video calls from family, preferring offline check-ins"
+  },
+  {
+    "taskID": 87,
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Uses ALFRED's push-to-talk feature to send measured responses to daughter's texts"
+  },
+  {
+    "taskID": 88,
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Avoids mentioning health or mood in communications sent via ALFRED"
+  },
+  {
+    "taskID": 89,
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Dismisses most notifications related to physical or cognitive exercises"
+  },
+  {
+    "taskID": 90,
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Insists on formal, respectful communication style regardless of recipient"
+  },
+  {
+    "taskID": 91,
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Prefers ALFRED to minimize unsolicited notifications and interruptions"
+  },
+  {
+    "taskID": 92,
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Rejects ALFRED’s suggestions for social activities or games"
+  },
+  {
+    "taskID": 93,
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Appreciates ALFRED's calm and neutral voice without feature explanations"
+  },
+  {
+    "taskID": 94,
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Uses ALFRED primarily as a tool to manage essential, formal correspondence"
+  },
+  {
+    "taskID": 95,
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Maintains strict control over communication content and privacy settings"
+  },
+  {
+    "taskID": 96,
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Experiences relief that ALFRED respects boundaries but feels isolated"
+  },
+  {
+    "taskID": 97,
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Expresses skepticism and mistrust toward digital privacy and technology"
+  },
+  {
+    "taskID": 98,
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Prefers the system to avoid challenging or emotionally taxing interactions"
+  },
+  {
+    "taskID": 99,
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Dismisses cognitive game notifications upon arrival"
+  },
+  {
+    "taskID": 100,
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Activates ALFRED manually using the push-to-talk feature"
+  },
+  {
+    "taskID": 101,
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Customizes ALFRED settings to block all app installations"
+  },
+  {
+    "taskID": 102,
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Refuses to share any personal data with caregivers or medical staff"
+  },
+  {
+    "taskID": 103,
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Insists on formal and sparse communication style from ALFRED"
+  },
+  {
+    "taskID": 104,
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Rejects cognitive exercises perceived as too challenging or intrusive"
+  },
+  {
+    "taskID": 105,
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Prefers minimal system interaction and limited notifications"
+  },
+  {
+    "taskID": 106,
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Experiences frustration and isolation due to strict technology boundaries"
+  },
+  {
+    "taskID": 107,
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Monitors and controls ALFRED’s privacy settings rigorously"
+  },
+  {
+    "taskID": 108,
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Avoids casual or informal tones in system communication"
+  },
+  {
+    "taskID": 119,
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Uses push-to-talk feature to activate ALFRED voice assistant"
+  },
+  {
+    "taskID": 120,
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Configures ALFRED to suppress almost all alerts and notifications"
+  },
+  {
+    "taskID": 121,
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Blocks all sensor data sharing with family, caregivers, and medical staff"
+  },
+  {
+    "taskID": 122,
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Manually blocks all app installations unless explicitly requested"
+  },
+  {
+    "taskID": 123,
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Communicates with her daughter using formal and polite language through ALFRED"
+  },
+  {
+    "taskID": 124,
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Dismisses video check-ins arranged by caregivers"
+  },
+  {
+    "taskID": 125,
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Prefers offline visits or phone calls over digital check-ins"
+  },
+  {
+    "taskID": 126,
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Requests ALFRED to provide medication or appointment reminders only upon explicit prompting"
+  },
+  {
+    "taskID": 127,
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Maintains strict control over what personal and sensor data ALFRED collects"
+  },
+  {
+    "taskID": 128,
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Uses ALFRED strictly as a tool without engaging in unsolicited interactions"
+  },
+  {
+    "taskID": 129,
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Rejects unsolicited prompts or explanations about ALFRED’s features"
+  },
+  {
+    "taskID": 130,
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Navigates ALFRED cautiously due to mistrust of data sharing"
+  },
+  {
+    "taskID": 131,
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Insists on ALFRED respecting her firm privacy boundaries"
+  },
+  {
+    "taskID": 132,
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Experiences feelings of skepticism and mistrust toward technology and data sharing"
+  },
+  {
+    "taskID": 133,
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Expects ALFRED to use polite and formal language in all interactions"
+  },
+  {
+    "taskID": 134,
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Feels overwhelmed and intruded upon by frequent notifications or health check-ins"
+  },
+  {
+    "taskID": 135,
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Desires independence while limiting ALFRED’s proactive care capabilities"
+  },
+  {
+    "taskID": 136,
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Wears health sensors as reluctantly agreed after caregiver's insistence"
+  },
+  {
+    "taskID": 137,
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Responds minimally to ALFRED’s prompts for health measurements such as blood pressure"
+  },
+  {
+    "taskID": 138,
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Blocks most notifications from ALFRED to maintain privacy"
+  },
+  {
+    "taskID": 139,
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Refuses to share health data with medical staff or others"
+  },
+  {
+    "taskID": 140,
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Prefers interactions with ALFRED to be minimal and formal"
+  },
+  {
+    "taskID": 141,
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Grumbles or expresses unease about using ALFRED and its sensors"
+  },
+  {
+    "taskID": 142,
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Dismisses ALFRED’s offers for interactive games and social chats"
+  },
+  {
+    "taskID": 143,
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Answers messages curtly and insists on formal communication only"
+  },
+  {
+    "taskID": 144,
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Avoids unsolicited advice or check-ins through ALFRED"
+  },
+  {
+    "taskID": 145,
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Feels invaded by ALFRED’s presence yet isolated due to strict privacy preferences"
+  },
+  {
+    "taskID": 191,
+    "useCaseId": "UC-009",
+    "personaId": "P-005",
+    "taskDescription": "Activates ALFRED using the push-to-talk feature before issuing any command"
+  },
+  {
+    "taskID": 192,
+    "useCaseId": "UC-009",
+    "personaId": "P-005",
+    "taskDescription": "Issues voice commands to ALFRED only when explicitly desired"
+  },
+  {
+    "taskID": 193,
+    "useCaseId": "UC-009",
+    "personaId": "P-005",
+    "taskDescription": "Manually confirms medication intake to ALFRED"
+  },
+  {
+    "taskID": 194,
+    "useCaseId": "UC-009",
+    "personaId": "P-005",
+    "taskDescription": "Rejects or dismisses suggestions for cognitive games or challenges"
+  },
+  {
+    "taskID": 195,
+    "useCaseId": "UC-009",
+    "personaId": "P-005",
+    "taskDescription": "Prefers to handle health updates offline rather than using video check-ins"
+  },
+  {
+    "taskID": 196,
+    "useCaseId": "UC-009",
+    "personaId": "P-005",
+    "taskDescription": "Keeps communication with ALFRED formal and measured in tone"
+  },
+  {
+    "taskID": 197,
+    "useCaseId": "UC-009",
+    "personaId": "P-005",
+    "taskDescription": "Insists that ALFRED never sends unsolicited notifications or reminders"
+  },
+  {
+    "taskID": 198,
+    "useCaseId": "UC-009",
+    "personaId": "P-005",
+    "taskDescription": "Refuses to wear sensor-laden wearables due to privacy concerns"
+  },
+  {
+    "taskID": 199,
+    "useCaseId": "UC-009",
+    "personaId": "P-005",
+    "taskDescription": "Ensures ALFRED does not share any personal or health data with caregivers or family"
+  },
+  {
+    "taskID": 200,
+    "useCaseId": "UC-009",
+    "personaId": "P-005",
+    "taskDescription": "Maintains strict control over when and how ALFRED interacts with her"
+  },
+  {
+    "taskID": 201,
+    "useCaseId": "UC-009",
+    "personaId": "P-005",
+    "taskDescription": "Prefers minimal interaction with technology features, avoiding anything intrusive"
+  },
+  {
+    "taskID": 202,
+    "useCaseId": "UC-009",
+    "personaId": "P-005",
+    "taskDescription": "Experiences skepticism and guarded hope towards ALFRED’s capabilities"
+  },
+  {
+    "taskID": 203,
+    "useCaseId": "UC-009",
+    "personaId": "P-005",
+    "taskDescription": "Feels more in control yet isolated due to cautious approach to technology"
+  },
+  {
+    "taskID": 204,
+    "useCaseId": "UC-009",
+    "personaId": "P-005",
+    "taskDescription": "Avoids activities that feel demanding or overwhelming"
+  },
+  {
+    "taskID": 205,
+    "useCaseId": "UC-009",
+    "personaId": "P-005",
+    "taskDescription": "Expects ALFRED to respect her privacy boundaries without exception"
+  },
+  {
+    "taskID": 206,
+    "useCaseId": "UC-009",
+    "personaId": "P-005",
+    "taskDescription": "Prefers polite, controlled interactions and rejects overly friendly system tone"
+  },
+  {
+    "taskID": 224,
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Uses push-to-talk voice commands to interact with ALFRED"
+  },
+  {
+    "taskID": 225,
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Checks public bus schedules by asking ALFRED for specific times"
+  },
+  {
+    "taskID": 226,
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Requests concise and formal responses from ALFRED"
+  },
+  {
+    "taskID": 227,
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Declines reminders to drink water when offered by ALFRED"
+  },
+  {
+    "taskID": 228,
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Dismisses notifications about physical activity and cognitive games"
+  },
+  {
+    "taskID": 229,
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Blocks all app installations unless explicitly requested"
+  },
+  {
+    "taskID": 230,
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Refuses to permit ALFRED to share her data with family or caregivers"
+  },
+  {
+    "taskID": 231,
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Tests ALFRED’s compliance by asking if data has been shared or apps installed without consent"
+  },
+  {
+    "taskID": 232,
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Prefers to keep video or digital check-ins offline and delays calls from daughter or medical staff"
+  },
+  {
+    "taskID": 233,
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Insists on no unsolicited notifications or casual reminders from ALFRED"
+  },
+  {
+    "taskID": 234,
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Maintains a formal and polite communication style with the assistant"
+  },
+  {
+    "taskID": 235,
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Avoids engaging with technological explanations or feature descriptions"
+  },
+  {
+    "taskID": 236,
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Relies on ALFRED to operate silently in the background, only responding when summoned"
+  },
+  {
+    "taskID": 237,
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Expresses skepticism and slow trust-building toward ALFRED’s technology"
+  },
+  {
+    "taskID": 238,
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Demands strict adherence to privacy settings and boundaries"
+  },
+  {
+    "taskID": 239,
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Feels relief when ALFRED confirms no data sharing but remains uneasy about technology"
+  },
+  {
+    "taskID": 240,
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Avoids or ignores suggestions related to challenging physical activities"
+  },
+  {
+    "taskID": 241,
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Prefers minimal digital interaction and avoids casual or familiar phrasing from ALFRED"
+  },
+  {
+    "taskID": 262,
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Block most app installations to maintain control over technology use"
+  },
+  {
+    "taskID": 263,
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Refuse to share personal health data with caregivers or family"
+  },
+  {
+    "taskID": 264,
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Dismiss notifications about challenging exercises and video check-ins"
+  },
+  {
+    "taskID": 265,
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Prefer formal and polite system communication style"
+  },
+  {
+    "taskID": 266,
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Maintain a minimal and familiar ALFRED configuration"
+  },
+  {
+    "taskID": 267,
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Resist adopting new features that disrupt established routines"
+  },
+  {
+    "taskID": 268,
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Approach ALFRED with skepticism due to privacy concerns"
+  },
+  {
+    "taskID": 269,
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Avoid stimulation from proactive or demanding app notifications"
+  },
+  {
+    "taskID": 270,
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Prioritize simplicity and low technological complexity in interactions"
+  },
+  {
+    "taskID": 271,
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Monitor system interactions cautiously to prevent intrusions"
+  },
+  {
+    "taskID": 291,
+    "useCaseId": "UC-013",
+    "personaId": "P-005",
+    "taskDescription": "Expresses wariness and discomfort toward new technology during setup"
+  },
+  {
+    "taskID": 292,
+    "useCaseId": "UC-013",
+    "personaId": "P-005",
+    "taskDescription": "Insists that personal data remain private and not shared beyond immediate medical necessity"
+  },
+  {
+    "taskID": 293,
+    "useCaseId": "UC-013",
+    "personaId": "P-005",
+    "taskDescription": "Rejects social features perceived as challenging or intrusive"
+  },
+  {
+    "taskID": 294,
+    "useCaseId": "UC-013",
+    "personaId": "P-005",
+    "taskDescription": "Demands that no one besides herself can access her information"
+  },
+  {
+    "taskID": 295,
+    "useCaseId": "UC-013",
+    "personaId": "P-005",
+    "taskDescription": "Requests ALFRED to limit all notifications to avoid overwhelm"
+  },
+  {
+    "taskID": 296,
+    "useCaseId": "UC-013",
+    "personaId": "P-005",
+    "taskDescription": "Orders ALFRED to block app installations without explicit permission"
+  },
+  {
+    "taskID": 297,
+    "useCaseId": "UC-013",
+    "personaId": "P-005",
+    "taskDescription": "Prefers to interact with ALFRED minimally, using push-to-talk commands only"
+  },
+  {
+    "taskID": 298,
+    "useCaseId": "UC-013",
+    "personaId": "P-005",
+    "taskDescription": "Avoids detailed explanations of features and social nudges"
+  },
+  {
+    "taskID": 299,
+    "useCaseId": "UC-013",
+    "personaId": "P-005",
+    "taskDescription": "Feels overwhelmed by conflicting caregiver priorities during setup"
+  },
+  {
+    "taskID": 300,
+    "useCaseId": "UC-013",
+    "personaId": "P-005",
+    "taskDescription": "Maintains a firm stance on privacy and minimal system interaction"
+  }
+]

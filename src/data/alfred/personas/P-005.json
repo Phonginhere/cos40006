@@ -28,21 +28,20 @@
   ],
   "TypicalChallenges": [
     "Privacy concerns",
-    "Own customization on the system",
     "Avoid all challenging exercises",
-    "Struggle to push myself to receive a check up call"
+    "Struggle to push myself to receive a check up call",
+    "Avoid all challenging simulations and games"
   ],
   "Singularities": [
     "Peristatic about technology adaptation",
-    "Always grumpy and rarely change, takes longer time to adapt my needs",
+    "Always pessimistic and rarely change, takes longer time to adapt my needs",
     "Need constant supervision",
-    "Make myself perfect and avoid discrimination"
+    "No data sharing with third parties, app creators"
   ],
   "MainActions" : [
     "Block all app installations (unless special request)",
-    "ALFRED's voice assistant don't need to explain clearly and detailedly its features, I just want to use it",
+    "ALFRED's voice assistant MUST not explain detailedly its features, I just want to use it",
     "Block sharing of my data with family and friends, even caregivers and doctors",
-    "No sharing of my data with third parties, app creators",
     "All conversations or messages must be formal, including the ones with my family and friends",
     "Hardly wear wearables with a sensor, they must not share my data with third parties",
     "Dismiss all notifications of the hard exercises",

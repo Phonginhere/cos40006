@@ -2,27 +2,38 @@
   "useCaseId": "UC-008",
   "tasksByPersona": [
     {
-      "personaId": "P-004",
+      "personaId": "P-001",
       "tasks": [
-        "Reviews flagged unfamiliar data fields and expresses frustration",
-        "Requests simplified interface with fewer extraneous details via feedback",
-        "Balances urgency for rapid health data access with unease about overriding patient consent",
-        "Focuses on pragmatic, fast-paced use of ALFRED in a busy urban hospital environment"
+        "Develop a new healthcare monitoring app for ALFRED",
+        "Implement rigorous data collection features in the app",
+        "Design proactive voice reminders for caregivers",
+        "Force installation of critical notifications on patient devices",
+        "Enable continuous background tracking of patient data",
+        "Override patient opt-out attempts for data tracking",
+        "Maintain caregiver access to all patient sensor data by default",
+        "Defend strict notification regimes during developer-caregiver meetings",
+        "Prioritize comprehensive data capture over user comfort",
+        "Update the app to ensure absolute caregiver reachability",
+        "Build app features with conservative security and compliance focus",
+        "Respond to caregiver complaints about notification volume",
+        "Insist on system rigidity to prevent crises despite user discomfort"
       ]
     },
     {
-      "personaId": "P-001",
+      "personaId": "P-004",
       "tasks": [
-        "Works remotely from a quiet rural home office on clinical data integration toolkit development",
-        "Reads and studies ALFRED developer documentation to design APIs",
-        "Crafts secure APIs for streamlined access to patient data and clinical workflows",
-        "Ensures system compatibility with older devices used by medical staff",
-        "Prioritizes patient data privacy and security in system design",
-        "Feels tension between respecting patient autonomy and meeting medical staff needs",
-        "Reviews and considers feedback from medical staff like Mike",
-        "Contemplates implementing adaptive modes to toggle interface complexity by user role and context",
-        "Seeks to introduce innovative features like smart voice guidance and dynamic autocompletion",
-        "Balances desire for cutting-edge usability with need for simplicity and reliability"
+        "Receive notifications of new healthcare app integrations",
+        "Access validated patient vital data immediately through ALFRED",
+        "Configure ALFRED to block non-essential notifications during work hours",
+        "Express frustration over forced app reminders disrupting workflow",
+        "Manage alert settings to focus on urgent health data",
+        "Resent the system overriding patient consent for sensor data access",
+        "Balance efficient patient care with intrusive data policies",
+        "Navigate system rigidity to mitigate alert fatigue",
+        "Advocate for measured notification approaches to reduce desensitization",
+        "Use ALFRED to swiftly access comprehensive patient information",
+        "Struggle with conflicts between clinical priorities and developer designs",
+        "Attempt to adjust system behavior to reduce caregiver distraction"
       ]
     }
   ]

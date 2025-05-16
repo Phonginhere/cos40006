@@ -1,11 +1,10 @@
-import json
 import os
+import json
 import re
-
 from pathlib import Path
 
-from pipeline.user_story.user_story_loader import UserStoryLoader
 from pipeline.user_persona_loader import UserPersonaLoader
+from pipeline.user_story.user_story_loader import UserStoryLoader
 from pipeline.utils import (
     get_llm_response,
     load_system_summary,
@@ -13,10 +12,36 @@ from pipeline.utils import (
     USER_STORY_DIR
 )
 
+
+def build_pairwise_dedup_prompt(system_summary: str, persona_prompt: str, task_a: str, task_b: str) -> str:
+    return f"""You are helping with system requirement engineering for a project as follows:
+
+SYSTEM SUMMARY:
+{system_summary}
+
+PERSONA DETAILS:
+{persona_prompt}
+
+You are comparing two tasks that were extracted independently for the same persona. Determine if they mean the same thing or are so similar that one can be removed.
+
+TASK A:
+"{task_a}"
+
+TASK B:
+"{task_b}"
+
+Do these tasks clearly mean the same thing or overlap to the extent that one should be removed? Reply strictly with:
+- "Yes" if they are redundant, or similar to each other.
+- "No" if both should be kept.
+
+Only respond with "Yes" or "No". Do not include any other text, commentary or explanation. Do NOT use any markdown, bold, italic, or special formatting in your response.
+""".strip()
+
+
 def deduplicate_tasks_for_all_use_cases(persona_loader: UserPersonaLoader):
     system_summary = load_system_summary()
     all_personas = {p.id: p for p in persona_loader.get_personas()}
-    
+
     # Step Skipping Logics – check if all stories are fully generated
     user_story_dir_exists = os.path.exists(USER_STORY_DIR)
 
@@ -40,123 +65,49 @@ def deduplicate_tasks_for_all_use_cases(persona_loader: UserPersonaLoader):
             return
     else:
         print(f"⚠️ Skipping completeness check: Directory '{USER_STORY_DIR}' does not exist.")
-        
-    task_files = sorted(Path(USE_CASE_TASK_EXTRACTION_DIR).glob("*.json"))
 
-    print(f"🔄 Starting task deduplication across {len(all_personas)} personas...\n")
+    task_dir = Path(USE_CASE_TASK_EXTRACTION_DIR)
+    persona_files = sorted(task_dir.glob("Extracted_tasks_for_*.json"))
 
-    for persona_id, persona in all_personas.items():
-        print(f"🧠 Processing persona {persona_id}...")
+    print(f"🔍 Starting fine-grained task deduplication for {len(persona_files)} personas...\n")
 
-        persona_prompt = persona.to_prompt_string()
-        related_files = []
-
-        for fpath in task_files:
-            try:
-                data = json.loads(fpath.read_text(encoding="utf-8"))
-            except UnicodeDecodeError:
-                data = json.loads(fpath.read_text(encoding="latin-1"))
-
-            for entry in data.get("tasksByPersona", []):
-                if entry["personaId"] == persona_id:
-                    related_files.append((fpath, data))
-                    break
-
-        if not related_files:
-            print(f"⚠️ No tasks found for persona {persona_id}. Skipping...\n")
+    for file_path in persona_files:
+        persona_id = file_path.stem.split("_for_")[-1]
+        persona = all_personas.get(persona_id)
+        if not persona:
+            print(f"⚠️ Persona {persona_id} not found in loader. Skipping.")
             continue
 
-        print(f"📁 Found {len(related_files)} use case files involving {persona_id}.")
+        try:
+            tasks = json.loads(file_path.read_text(encoding="utf-8"))
+        except Exception as e:
+            print(f"❌ Failed to read tasks for {persona_id}: {e}")
+            continue
 
-        for i in range(len(related_files)):
-            base_file, base_data = related_files[i]
-            base_tasks = get_persona_tasks(base_data, persona_id)
+        print(f"🧠 Deduplicating {len(tasks)} tasks for {persona_id}...")
 
-            for j in range(i + 1, len(related_files)):
-                compare_file, compare_data = related_files[j]
-                compare_tasks = get_persona_tasks(compare_data, persona_id)
+        persona_prompt = persona.to_prompt_string()
+        deduplicated = []
 
-                if not compare_tasks:
-                    continue
-
-                print(f"🔍 Comparing UC {base_file.name} ➡️ {compare_file.name} for {persona_id}...")
-
-                dedup_prompt = build_dedup_prompt(
+        for i, task in enumerate(tasks):
+            duplicate = False
+            for prior in deduplicated:
+                prompt = build_pairwise_dedup_prompt(
                     system_summary,
                     persona_prompt,
-                    base_tasks,
-                    compare_tasks
+                    prior["taskDescription"],
+                    task["taskDescription"]
                 )
+                response = get_llm_response(prompt).strip().lower()
+                if response == "yes":
+                    duplicate = True
+                    print(f"🗑️ Duplicate found: \"{task['taskDescription']}\" ≈ \"{prior['taskDescription']}\"")
+                    break
+            if not duplicate:
+                deduplicated.append(task)
 
-                response = get_llm_response(dedup_prompt)
-                new_tasks = parse_json_list(response)
+        # Save the deduplicated version
+        file_path.write_text(json.dumps(deduplicated, indent=2, ensure_ascii=False), encoding="utf-8")
+        print(f"✅ {len(tasks) - len(deduplicated)} duplicates removed → {file_path.name}\n")
 
-                original_count = len(compare_tasks)
-                new_count = len(new_tasks)
-
-                for entry in compare_data["tasksByPersona"]:
-                    if entry["personaId"] == persona_id:
-                        entry["tasks"] = new_tasks
-
-                compare_file.write_text(
-                    json.dumps(compare_data, indent=2, ensure_ascii=False), encoding="utf-8"
-                )
-
-                removed = original_count - new_count
-                print(f"✅ Updated {compare_file.name}: {removed} redundant task(s) removed.")
-
-        print(f"✔️ Finished deduplicating tasks for {persona_id}.\n")
-
-    print("✅ Task deduplication complete for all personas.\n")
-
-
-def get_persona_tasks(use_case_data: dict, persona_id: str):
-    for entry in use_case_data.get("tasksByPersona", []):
-        if entry["personaId"] == persona_id:
-            return entry.get("tasks", [])
-    return []
-
-
-def build_dedup_prompt(system_summary: str, persona_prompt: str, existing_tasks: list, new_tasks: list):
-    return f"""You are helping with system requirement engineering for a project as follows:
-
-SYSTEM SUMMARY:
-{system_summary}
-
-PERSONA DETAILS:
-{persona_prompt}
-
-Below is a list of tasks previously extracted from other use cases for this persona:
-List A (existing tasks):
-{json.dumps(existing_tasks, indent=2)}
-
-Now, here is another list of tasks from a new use case:
-List B (new tasks):
-{json.dumps(new_tasks, indent=2)}
-
-Your job is to refine List B. Please remove any task that is already covered or **extremely similar** in content or meaning to a task in List A — taking into account the **system context** and **persona information** mentioned above.
-
-⚠️ Only remove tasks that are clearly overlapping. Do NOT remove tasks unless they are redundant or nearly identical.
-
-[
-  "Unique Task 1",
-  "Unique Task 2",
-  ...
-]
-
-Return ONLY the updated List B as a valid JSON list of strings. Do not include any extra or invalid texts (e.g. "Task 1", "Unique Task 2", or any other redundant information (e.g., name, e.t.c) of persona besides its Id) or commentary. Do NOT use any markdown, bold, italic, or special formatting in your response. Avoid duplications across personas.
-""".strip()
-
-
-def parse_json_list(text: str):
-    """Extract JSON list from raw LLM response."""
-    try:
-        match = re.search(r"\[\s*[\s\S]*?\s*\]", text)
-        if match:
-            json_text = match.group(0)
-            json_text = json_text.replace("“", "\"").replace("”", "\"").replace("’", "'")
-            return json.loads(json_text)
-    except json.JSONDecodeError:
-        pass
-    print("⚠️ Could not parse tasks from LLM response. Returning original.")
-    return []
+    print("🎉 Deduplication complete for all personas.\n")

@@ -23,11 +23,13 @@ from pipeline.user_story_conflict.user_story_conflict_verifier import verify_con
 from pipeline.user_story_conflict.non_functional_user_story_decomposer import decompose_non_functional_user_stories
 from pipeline.user_story_conflict.non_functional_user_story_conflict_within_one_group_identifier import identify_non_functional_conflicts_within_one_group
 from pipeline.user_story_conflict.non_functional_user_story_conflict_within_one_group_resolver import resolve_non_functional_conflicts_within_one_group
-from pipeline.user_story_conflict.non_functional_user_story_conflict_across_two_groups_identifier import identify_non_functional_conflicts_across_two_groups 
+from pipeline.user_story_conflict.non_functional_user_story_conflict_across_two_groups_identifier import identify_non_functional_conflicts_across_two_groups
+from pipeline.user_story_conflict.non_functional_user_story_conflict_across_two_groups_resolver import resolve_non_functional_conflicts_across_two_groups 
 
 from pipeline.user_story_conflict.functional_user_story_conflict_within_one_group_identifier import identify_functional_conflicts_within_one_group
 from pipeline.user_story_conflict.functional_user_story_conflict_within_one_group_resolver import resolve_functional_conflicts_within_one_group
 from pipeline.user_story_conflict.functional_user_story_conflict_across_two_groups_identifier import identify_functional_conflicts_across_two_groups
+from pipeline.user_story_conflict.functional_user_story_conflict_across_two_groups_resolver import resolve_functional_conflicts_across_two_groups
 
 def main():
     # Step 1: Load user personas
@@ -136,6 +138,10 @@ def main():
     print("\n🔍 Phase 5a-1: Verifying conflicts for non-functional user stories across two user groups...")
     verify_conflicts(persona_loader, functional=False, within_one_group=False)
     
+    #  Step 5b: Resolve conflicts across two user groups
+    print("\n🛠️ Phase 5b: Resolving conflicts for non-functional user stories across two user groups...")
+    resolve_non_functional_conflicts_across_two_groups(persona_loader)
+    
     # Step 6: Conflict analysis for functional user stories within one user group
     print("\n============================================================ ANALYZE FUNCTIONAL USER STORIES WITHIN ONE USER GROUP ====================================")
     #   Step 6a: Identify conflicts within one user group
@@ -159,6 +165,10 @@ def main():
     #       Step 7a-1: Verify conflicts for functional user stories across two user groups
     print("\n🔍 Phase 7a-1: Verifying conflicts for functional user stories across two user groups...")
     verify_conflicts(persona_loader, functional=True, within_one_group=False)
+    
+    #   Step 7b: Resolve conflicts across two user groups
+    print("\n🛠️ Phase 7b: Resolving conflicts for functional user stories across two user groups...")
+    resolve_functional_conflicts_across_two_groups(persona_loader)
     
     print("\n✅ Pipeline completed successfully. Check your results in the output folder.")
 

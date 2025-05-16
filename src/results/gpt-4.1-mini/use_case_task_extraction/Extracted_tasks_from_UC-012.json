@@ -2,26 +2,48 @@
   "useCaseId": "UC-012",
   "tasksByPersona": [
     {
-      "personaId": "P-005",
+      "personaId": "P-001",
       "tasks": [
-        "Receives notification about a new app available in the ALFRED marketplace"
+        "Develop a new health monitoring app using ALFRED’s open APIs",
+        "Study and adhere to the platform’s security guidelines",
+        "Design a cognitive exercise feature that challenges users’ mental agility",
+        "Balance app compatibility across older devices",
+        "Implement forced critical updates to ensure latest security patches",
+        "Submit the completed app to the ALFRED marketplace",
+        "Prioritize app accessibility alongside robustness",
+        "Accept potential user resistance to intrusive updates for safety reasons",
+        "Document app features clearly for marketplace approval",
+        "Evaluate privacy requirements to comply with ALFRED standards"
       ]
     },
     {
       "personaId": "P-002",
       "tasks": [
-        "Browses the ALFRED marketplace to discover new apps",
-        "Selects and installs apps that support hydration and physical activity tracking"
+        "Explore new apps on ALFRED to stay active and socially connected",
+        "Listen attentively to the voice assistant’s detailed feature explanations",
+        "Use voice commands to navigate and interact with ALFRED",
+        "Engage with challenging physical and cognitive exercises",
+        "Wear health sensors to share personal data securely",
+        "Trust ALFRED to protect privacy while providing personalized support",
+        "Manage and tolerate proactive reminders from the voice assistant",
+        "Desire occasional reduction in system prompts to avoid feeling overwhelmed",
+        "Experiment with new app functionalities to push physical and cognitive limits",
+        "Balance enthusiasm for innovation with mild mobility constraints"
       ]
     },
     {
-      "personaId": "P-001",
+      "personaId": "P-005",
       "tasks": [
-        "Accesses the ALFRED developer portal to study API documentation and guidelines",
-        "Designs app installation flows requiring explicit user permission",
-        "Monitors user feedback to identify acceptance issues and user concerns",
-        "Considers implementing stricter data controls and formal communication options",
-        "Reflects on the tension between innovation and users diverse privacy preferences"
+        "Block most app installations to maintain control over technology use",
+        "Refuse to share personal health data with caregivers or family",
+        "Dismiss notifications about challenging exercises and video check-ins",
+        "Prefer formal and polite system communication style",
+        "Maintain a minimal and familiar ALFRED configuration",
+        "Resist adopting new features that disrupt established routines",
+        "Approach ALFRED with skepticism due to privacy concerns",
+        "Avoid stimulation from proactive or demanding app notifications",
+        "Prioritize simplicity and low technological complexity in interactions",
+        "Monitor system interactions cautiously to prevent intrusions"
       ]
     }
   ]

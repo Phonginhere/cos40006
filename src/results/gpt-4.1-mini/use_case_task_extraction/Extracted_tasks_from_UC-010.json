@@ -4,19 +4,23 @@
     {
       "personaId": "P-002",
       "tasks": [
-        "Wakes up and checks the wearable sensor on her wrist for vital signs and activity data",
-        "Acknowledges and appreciates the unobtrusive design of the wearable sensor",
-        "Listens to ALFRED's tailored exercise suggestions for the day",
-        "Decides to accept ALFRED's encouragement and requests to try harder exercises",
-        "Voices commands and feedback to ALFRED using natural speech",
-        "Responds playfully to ALFRED's friendly replies and jokes aloud to engage with the system",
-        "Monitors her heart rate and movement data via ALFRED throughout the morning",
-        "Follows hydration reminders and adjusts activity goals based on ALFRED's real-time feedback",
-        "Engages with the game's adaptive difficulty and creative themes to maintain motivation",
-        "Reflects on the day's health accomplishments with ALFRED's summary report",
-        "Balances feelings of occasional frustration when ALFRED's prompts interrupt her preferred pace",
-        "Manages the tension between her independence and ALFRED's proactive health interventions",
-        "Considers her comfort level with sharing personal health data openly through the system"
+        "Puts on wearable sensors integrated with ALFRED",
+        "Activates the ALFRED system using voice commands",
+        "Requests clear and detailed explanations from ALFRED about features",
+        "Explores and learns every feature of ALFRED to gain control over health management",
+        "Pushes herself to attempt challenging exercise routines beyond usual limits",
+        "Voices frustration when exercise suggestions are too easy",
+        "Demands harder exercise tasks despite ALFRED's cautious pacing",
+        "Expresses impatience towards ALFRED’s protective progression",
+        "Monitors personalized exercise challenges and adapts effort accordingly",
+        "Responds to hydration reminders from ALFRED",
+        "Engages with social engagement prompts initiated by ALFRED",
+        "Uses ALFRED’s conversational interface to message family and friends informally",
+        "Reflects on daily achievements and challenges via ALFRED’s summary",
+        "Shares personal health data transparently to optimize care",
+        "Balances feelings of gratitude for safety features with ambivalence about constant monitoring",
+        "Prefers ALFRED’s informal and natural tone in interactions",
+        "Seeks autonomy and trusts her own judgment over system-imposed limits"
       ]
     }
   ]

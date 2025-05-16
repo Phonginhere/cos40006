@@ -4,9 +4,22 @@
     {
       "personaId": "P-005",
       "tasks": [
-        "Rejects physical exercises that seem too taxing or embarrassing",
-        "Balances minimal engagement with ALFRED against feelings of irritation and isolation",
-        "Accepts ALFRED only as a tool to support recovery on her own terms despite slower progress"
+        "Activates ALFRED using the push-to-talk feature before issuing any command",
+        "Issues voice commands to ALFRED only when explicitly desired",
+        "Manually confirms medication intake to ALFRED",
+        "Rejects or dismisses suggestions for cognitive games or challenges",
+        "Prefers to handle health updates offline rather than using video check-ins",
+        "Keeps communication with ALFRED formal and measured in tone",
+        "Insists that ALFRED never sends unsolicited notifications or reminders",
+        "Refuses to wear sensor-laden wearables due to privacy concerns",
+        "Ensures ALFRED does not share any personal or health data with caregivers or family",
+        "Maintains strict control over when and how ALFRED interacts with her",
+        "Prefers minimal interaction with technology features, avoiding anything intrusive",
+        "Experiences skepticism and guarded hope towards ALFRED’s capabilities",
+        "Feels more in control yet isolated due to cautious approach to technology",
+        "Avoids activities that feel demanding or overwhelming",
+        "Expects ALFRED to respect her privacy boundaries without exception",
+        "Prefers polite, controlled interactions and rejects overly friendly system tone"
       ]
     }
   ]

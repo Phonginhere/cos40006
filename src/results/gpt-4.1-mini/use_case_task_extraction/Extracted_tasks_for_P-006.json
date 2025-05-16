@@ -1,0 +1,314 @@
+[
+  {
+    "taskID": 13,
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Monitors multiple elderly clients’ health data remotely via ALFRED"
+  },
+  {
+    "taskID": 14,
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Adjusts privacy settings to control which client data appears on dashboard"
+  },
+  {
+    "taskID": 15,
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Balances desire for detailed monitoring with respecting client privacy preferences"
+  },
+  {
+    "taskID": 16,
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Receives alerts from ALFRED about changes in clients’ vital signs"
+  },
+  {
+    "taskID": 17,
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Sends supportive voice messages to clients through ALFRED"
+  },
+  {
+    "taskID": 18,
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Provides encouragement and advice based on health data insights"
+  },
+  {
+    "taskID": 19,
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Joins interactive games remotely to engage and motivate clients"
+  },
+  {
+    "taskID": 20,
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Manages the tension between professional vigilance and personal warmth"
+  },
+  {
+    "taskID": 21,
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Navigates the boundary between oversight and client autonomy"
+  },
+  {
+    "taskID": 22,
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Values privacy controls that allow selective data sharing"
+  },
+  {
+    "taskID": 23,
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Seeks to maintain clients’ motivation while avoiding overwhelming them"
+  },
+  {
+    "taskID": 50,
+    "useCaseId": "UC-002",
+    "personaId": "P-006",
+    "taskDescription": "Suggests ALFRED cognitive games to clients to aid recovery"
+  },
+  {
+    "taskID": 51,
+    "useCaseId": "UC-002",
+    "personaId": "P-006",
+    "taskDescription": "Monitors clients’ engagement and progress remotely through the system"
+  },
+  {
+    "taskID": 52,
+    "useCaseId": "UC-002",
+    "personaId": "P-006",
+    "taskDescription": "Respects client privacy wishes even when it limits monitoring capabilities"
+  },
+  {
+    "taskID": 53,
+    "useCaseId": "UC-002",
+    "personaId": "P-006",
+    "taskDescription": "Acts enthusiastically to encourage interactive activities and social engagement"
+  },
+  {
+    "taskID": 54,
+    "useCaseId": "UC-002",
+    "personaId": "P-006",
+    "taskDescription": "Responds promptly to all alerts and notifications from clients’ systems"
+  },
+  {
+    "taskID": 55,
+    "useCaseId": "UC-002",
+    "personaId": "P-006",
+    "taskDescription": "Initiates video check-ins with clients who allow it"
+  },
+  {
+    "taskID": 56,
+    "useCaseId": "UC-002",
+    "personaId": "P-006",
+    "taskDescription": "Balances promoting increased engagement with honoring client autonomy"
+  },
+  {
+    "taskID": 57,
+    "useCaseId": "UC-002",
+    "personaId": "P-006",
+    "taskDescription": "Feels tension between professional caregiving goals and client resistance"
+  },
+  {
+    "taskID": 58,
+    "useCaseId": "UC-002",
+    "personaId": "P-006",
+    "taskDescription": "Uses ALFRED to tailor care based on clients’ activity and cognitive stimulation data"
+  },
+  {
+    "taskID": 71,
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Configures ALFRED to send gentle, personalized reminders to Olivia for nutrition and hydration"
+  },
+  {
+    "taskID": 72,
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Adjusts reminder frequency to prevent overwhelming Olivia with notifications"
+  },
+  {
+    "taskID": 73,
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Respects Olivia’s strict privacy preferences by limiting data access to adherence logs only"
+  },
+  {
+    "taskID": 74,
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Monitors Olivia’s engagement and adherence remotely without intruding on her autonomy"
+  },
+  {
+    "taskID": 75,
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Arranges for ALFRED to suggest local social events quietly to encourage participation"
+  },
+  {
+    "taskID": 76,
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Attempts to initiate video check-ins through ALFRED but accepts Olivia’s refusal"
+  },
+  {
+    "taskID": 77,
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Sends carefully worded, formal messages to Olivia via ALFRED’s secure communication channel"
+  },
+  {
+    "taskID": 78,
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Balances professional caregiving duties with respect for Olivia’s independence"
+  },
+  {
+    "taskID": 79,
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Wishes for more real-time feedback on Olivia’s adherence to tailor care"
+  },
+  {
+    "taskID": 80,
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Manages multiple elderly clients’ care using ALFRED’s monitoring capabilities"
+  },
+  {
+    "taskID": 81,
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Adapts communication style to honor Olivia’s boundaries and privacy demands"
+  },
+  {
+    "taskID": 82,
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Seeks to maintain communication and support without causing discomfort or pressure"
+  },
+  {
+    "taskID": 146,
+    "useCaseId": "UC-007",
+    "personaId": "P-006",
+    "taskDescription": "Checks ALFRED dashboard remotely to monitor multiple elderly clients"
+  },
+  {
+    "taskID": 147,
+    "useCaseId": "UC-007",
+    "personaId": "P-006",
+    "taskDescription": "Receives a variety of notifications including critical alerts, reminders, and motivational messages"
+  },
+  {
+    "taskID": 148,
+    "useCaseId": "UC-007",
+    "personaId": "P-006",
+    "taskDescription": "Views only minimal health data for Olivia to respect her privacy choices"
+  },
+  {
+    "taskID": 149,
+    "useCaseId": "UC-007",
+    "personaId": "P-006",
+    "taskDescription": "Feels frustrated by limited data availability hindering proactive care interventions"
+  },
+  {
+    "taskID": 150,
+    "useCaseId": "UC-007",
+    "personaId": "P-006",
+    "taskDescription": "Attempts to engage Olivia via ALFRED’s messaging to suggest exercises and check wellbeing"
+  },
+  {
+    "taskID": 151,
+    "useCaseId": "UC-007",
+    "personaId": "P-006",
+    "taskDescription": "Uses interactive games and chats within ALFRED to build emotional connections with clients"
+  },
+  {
+    "taskID": 152,
+    "useCaseId": "UC-007",
+    "personaId": "P-006",
+    "taskDescription": "Wishes for better system reconciliation of clients’ privacy demands with caregiver engagement style"
+  },
+  {
+    "taskID": 153,
+    "useCaseId": "UC-007",
+    "personaId": "P-006",
+    "taskDescription": "Manages multiple clients’ information simultaneously while juggling workload"
+  },
+  {
+    "taskID": 154,
+    "useCaseId": "UC-007",
+    "personaId": "P-006",
+    "taskDescription": "Experiences growing frustration due to clients’ dismissive or private attitudes toward engagement"
+  },
+  {
+    "taskID": 155,
+    "useCaseId": "UC-007",
+    "personaId": "P-006",
+    "taskDescription": "Respects clients’ communication preferences even when it limits caregiving effectiveness"
+  },
+  {
+    "taskID": 281,
+    "useCaseId": "UC-013",
+    "personaId": "P-006",
+    "taskDescription": "Joins the ALFRED setup remotely to support the user"
+  },
+  {
+    "taskID": 282,
+    "useCaseId": "UC-013",
+    "personaId": "P-006",
+    "taskDescription": "Advocates for activating social features like video calls with family"
+  },
+  {
+    "taskID": 283,
+    "useCaseId": "UC-013",
+    "personaId": "P-006",
+    "taskDescription": "Suggests enabling light cognitive games to support mental engagement"
+  },
+  {
+    "taskID": 284,
+    "useCaseId": "UC-013",
+    "personaId": "P-006",
+    "taskDescription": "Tries to gently explain the benefits of social and cognitive features to the user"
+  },
+  {
+    "taskID": 285,
+    "useCaseId": "UC-013",
+    "personaId": "P-006",
+    "taskDescription": "Pushes for flexible data-sharing settings to stay informed about user's wellbeing"
+  },
+  {
+    "taskID": 286,
+    "useCaseId": "UC-013",
+    "personaId": "P-006",
+    "taskDescription": "Balances respecting user’s strict privacy demands with need for information"
+  },
+  {
+    "taskID": 287,
+    "useCaseId": "UC-013",
+    "personaId": "P-006",
+    "taskDescription": "Supports the user’s preference for minimal notifications and formal communications"
+  },
+  {
+    "taskID": 288,
+    "useCaseId": "UC-013",
+    "personaId": "P-006",
+    "taskDescription": "Promises to provide informal check-ins without overwhelming the user"
+  },
+  {
+    "taskID": 289,
+    "useCaseId": "UC-013",
+    "personaId": "P-006",
+    "taskDescription": "Advocates for balanced consent controls emphasizing user autonomy"
+  },
+  {
+    "taskID": 290,
+    "useCaseId": "UC-013",
+    "personaId": "P-006",
+    "taskDescription": "Maintains a nurturing and flexible caregiving approach during setup"
+  }
+]

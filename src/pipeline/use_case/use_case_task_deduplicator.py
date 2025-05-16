@@ -9,7 +9,8 @@ from pipeline.utils import (
     get_llm_response,
     load_system_summary,
     USE_CASE_TASK_EXTRACTION_DIR,
-    USER_STORY_DIR
+    USER_STORY_DIR,
+    DUPLICATE_REMOVAL_RATIO_LIMIT
 )
 
 
@@ -50,7 +51,6 @@ def deduplicate_tasks_for_all_use_cases(persona_loader: UserPersonaLoader):
         loader.load_all_user_stories()
         all_stories = loader.get_all()
 
-        # Check if all user stories for each persona are complete
         persona_ids = set(p.id for p in all_personas.values())
         complete_personas = {
             pid for pid in persona_ids
@@ -67,6 +67,13 @@ def deduplicate_tasks_for_all_use_cases(persona_loader: UserPersonaLoader):
         print(f"⚠️ Skipping completeness check: Directory '{USER_STORY_DIR}' does not exist.")
 
     task_dir = Path(USE_CASE_TASK_EXTRACTION_DIR)
+    uc_based_files = list(task_dir.glob("Extracted_tasks_from_UC-*.json"))
+
+    # Step Skipping Logic – all UC-based files already removed
+    if not uc_based_files:
+        print(f"⏭️ Skipping deduplication: All UC-based task files already removed from '{USE_CASE_TASK_EXTRACTION_DIR}'.")
+        return
+    
     persona_files = sorted(task_dir.glob("Extracted_tasks_for_*.json"))
 
     print(f"🔍 Starting fine-grained task deduplication for {len(persona_files)} personas...\n")
@@ -84,10 +91,16 @@ def deduplicate_tasks_for_all_use_cases(persona_loader: UserPersonaLoader):
             print(f"❌ Failed to read tasks for {persona_id}: {e}")
             continue
 
-        print(f"🧠 Deduplicating {len(tasks)} tasks for {persona_id}...")
+        total_tasks = len(tasks)
+        if total_tasks == 0:
+            continue
+
+        print(f"🧠 Deduplicating {total_tasks} tasks for {persona_id}...")
 
         persona_prompt = persona.to_prompt_string()
         deduplicated = []
+        removed_count = 0
+        max_removable = int(total_tasks * DUPLICATE_REMOVAL_RATIO_LIMIT)
 
         for i, task in enumerate(tasks):
             duplicate = False
@@ -100,14 +113,29 @@ def deduplicate_tasks_for_all_use_cases(persona_loader: UserPersonaLoader):
                 )
                 response = get_llm_response(prompt).strip().lower()
                 if response == "yes":
+                    removed_count += 1
                     duplicate = True
                     print(f"🗑️ Duplicate found: \"{task['taskDescription']}\" ≈ \"{prior['taskDescription']}\"")
                     break
+
+            if removed_count >= max_removable:
+                print(f"⚠️ Stopping early for {persona_id} — {removed_count} duplicates reached threshold ({max_removable}).")
+                deduplicated.extend(tasks[i:])  # Keep remaining tasks unfiltered
+                break
+
             if not duplicate:
                 deduplicated.append(task)
 
         # Save the deduplicated version
         file_path.write_text(json.dumps(deduplicated, indent=2, ensure_ascii=False), encoding="utf-8")
-        print(f"✅ {len(tasks) - len(deduplicated)} duplicates removed → {file_path.name}\n")
+        print(f"✅ {removed_count} duplicates removed → {file_path.name}\n")
+
+    # Clean up original use-case based files
+    for file in task_dir.glob("Extracted_tasks_from_UC-*.json"):
+        try:
+            file.unlink()
+            print(f"🧹 Removed file: {file.name}")
+        except Exception as e:
+            print(f"⚠️ Could not remove {file.name}: {e}")
 
     print("🎉 Deduplication complete for all personas.\n")

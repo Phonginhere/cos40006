@@ -28,6 +28,8 @@ USE_CASE_GUIDELINES_PATH = os.path.join("data", SYSTEM_NAME, "use_case_rules", "
 USE_CASE_TYPE_CONFIG_PATH = os.path.join("data", SYSTEM_NAME, "use_case_rules", "use_case_type_config.json")
 USE_CASE_TASK_EXTRACTION_EXAMPLE_PATH = os.path.join("data", SYSTEM_NAME, "use_case_rules", "use_case_task_extraction_example.txt")
 
+DUPLICATE_REMOVAL_RATIO_LIMIT = 1 / 3
+
 USER_STORY_GUIDELINES_PATH = os.path.join("data", SYSTEM_NAME, "user_story_rules", "user_story_guidelines.txt")
 NON_FUNCTIONAL_USER_STORY_CLUSTERING_SUMMARY_DIR = os.path.join("data", SYSTEM_NAME, "user_story_rules", "non_functional_user_story_clustering_summary")
 

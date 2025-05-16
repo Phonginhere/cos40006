@@ -6,7 +6,7 @@ from pathlib import Path
 from pipeline.user_story.user_story_loader import UserStory, UserStoryLoader
 from pipeline.utils import (
     load_system_summary,
-    load_user_story_summary,
+    load_user_story_guidelines,
     get_llm_response,
     USER_STORY_DIR
 )
@@ -44,7 +44,7 @@ def classify_user_story_type(story: UserStory, system_summary: str, user_story_s
 
 def update_user_stories_with_type():
     system_summary = load_system_summary()
-    user_story_summary = load_user_story_summary()
+    user_story_summary = load_user_story_guidelines()
 
     loader = UserStoryLoader()
     loader.load_all_user_stories()

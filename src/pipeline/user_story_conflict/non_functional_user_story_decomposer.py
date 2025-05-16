@@ -7,10 +7,10 @@ from pipeline.user_story.user_story_loader import UserStoryLoader, UserStory
 from pipeline.utils import (
     CURRENT_LLM,
     USER_GROUP_KEYS,
-    NON_FUNCTIONAL_USER_STORY_ANALYSIS_PATH,
+    NON_FUNCTIONAL_USER_STORY_DECOMPOSITION_PATH,
     load_system_summary,
-    load_user_group_summary,
-    load_user_story_summary,
+    load_user_group_guidelines,
+    load_user_story_guidelines,
     load_non_functional_user_story_conflict_summary,
     get_llm_response,
 )
@@ -23,8 +23,8 @@ def decompose_non_functional_user_stories(user_story_loader: Optional[UserStoryL
     nf_stories = loader.filter_by_type("Non-Functional")
 
     # Skip if analysis already exists with all entries
-    if os.path.exists(NON_FUNCTIONAL_USER_STORY_ANALYSIS_PATH):
-        with open(NON_FUNCTIONAL_USER_STORY_ANALYSIS_PATH, "r", encoding="utf-8") as f:
+    if os.path.exists(NON_FUNCTIONAL_USER_STORY_DECOMPOSITION_PATH):
+        with open(NON_FUNCTIONAL_USER_STORY_DECOMPOSITION_PATH, "r", encoding="utf-8") as f:
             existing_data = json.load(f)
             if isinstance(existing_data, list) and len(existing_data) == len(nf_stories):
                 print("✅ Skipping NFUS decomposition — already analyzed.")
@@ -33,7 +33,7 @@ def decompose_non_functional_user_stories(user_story_loader: Optional[UserStoryL
     print(f"🔍 Decomposing {len(nf_stories)} non-functional user stories...")
 
     system_summary = load_system_summary()
-    story_summary = load_user_story_summary()
+    story_summary = load_user_story_guidelines()
     technique_summary = load_non_functional_user_story_conflict_summary()
 
     all_results = []
@@ -43,7 +43,7 @@ def decompose_non_functional_user_stories(user_story_loader: Optional[UserStoryL
         if not group_key:
             continue
 
-        user_group_summary = load_user_group_summary(group_key)
+        user_group_summary = load_user_group_guidelines(group_key)
 
         prompt = build_decomposition_prompt(
             technique_summary,
@@ -71,10 +71,10 @@ def decompose_non_functional_user_stories(user_story_loader: Optional[UserStoryL
 
         # print(f"✅ Decomposed NFUS (ID: {story.id}, Persona: {story.persona}, decomposition: {decomposition})")
 
-    with open(NON_FUNCTIONAL_USER_STORY_ANALYSIS_PATH, "w", encoding="utf-8") as f:
+    with open(NON_FUNCTIONAL_USER_STORY_DECOMPOSITION_PATH, "w", encoding="utf-8") as f:
         json.dump(all_results, f, indent=2, ensure_ascii=False)
 
-    print(f"✅ Saved decompositions to: {NON_FUNCTIONAL_USER_STORY_ANALYSIS_PATH}")
+    print(f"✅ Saved decompositions to: {NON_FUNCTIONAL_USER_STORY_DECOMPOSITION_PATH}")
 
 
 def build_decomposition_prompt(technique_summary: str, system_summary: str,

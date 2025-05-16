@@ -1,11 +1,7 @@
 [
   {
-    "cluster_name": "Voice Interaction Quality",
-    "cluster_description": "Requirements related to the effectiveness of speech-based interaction. This includes speech recognition accuracy, language support, and clarity of vocal output."
-  },
-  {
-    "cluster_name": "Assistant Intelligence",
-    "cluster_description": "Requirements addressing the system's ability to understand context and provide relevant support. These include proactive suggestions, remembering preferences, and adaptive dialogue."
+    "cluster_name": "Voice Assistant Quality & Intelligence",
+    "cluster_description": "Requirements related to the effectiveness of speech-based interaction. This includes speech recognition accuracy, response intelligence, language support, and clarity of vocal output."
   },
   {
     "cluster_name": "Interaction Control & Consent",

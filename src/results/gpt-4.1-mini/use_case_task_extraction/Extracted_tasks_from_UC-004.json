@@ -4,12 +4,13 @@
     {
       "personaId": "P-005",
       "tasks": [
-        "Commands ALFRED to compose a formal message to her daughter using polite and respectful language",
-        "Ensures that no casual expressions are included in her messages",
-        "Dismisses ALFRED's prompts to add informal greetings or emojis",
-        "Declines video call health check-ins and prefers offline check-ins",
-        "Prefers formal and professional interactions without casual socialization",
-        "Finds detailed explanations about system adaptations unnecessary and irritating"
+        "Expresses frustration when ALFRED's reminders feel nagging or intrusive",
+        "Uses ALFRED sparingly and only for essential interactions",
+        "Enforces a cold and distant tone in social communications via ALFRED",
+        "Values independence and resists technological intrusions into her daily life",
+        "Demands simplicity and clarity in system interactions",
+        "Avoids social warmth or casual communication encouraged by family or system",
+        "Monitors system behavior to ensure compliance with her privacy and formality preferences"
       ]
     }
   ]

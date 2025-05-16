@@ -2,31 +2,35 @@
   "useCaseId": "UC-007",
   "tasksByPersona": [
     {
+      "personaId": "P-002",
+      "tasks": [
+        "Straps on the ALFRED wearable device",
+        "Responds aloud to ALFREDs exercise suggestions",
+        "Selects advanced stretching routines through voice commands",
+        "Monitors real-time feedback on activity levels",
+        "Engages proactively with water-drinking reminders",
+        "Prefers a lightweight, barely noticeable wearable",
+        "Feels motivated and supported through interactive coaching"
+      ]
+    },
+    {
       "personaId": "P-005",
       "tasks": [
-        "Ensures wearable sensors quietly track vital signs without disturbances"
+        "Reluctantly wears the ALFRED wearable device",
+        "Dismisses movement reminders using curt voice commands",
+        "Uses the device as a passive tracker without active engagement"
       ]
     },
     {
       "personaId": "P-006",
       "tasks": [
-        "Encourages Olivia to participate in social and cognitive activities",
-        "Avoids reliance on automatic recordings to prevent workflow complications",
-        "Balances respecting clients' privacy preferences with desire for open communication",
-        "Juggles multitasking across clients while staying responsive via ALFRED",
-        "Navigates tension between formal privacy demands and fostering emotional bonds"
-      ]
-    },
-    {
-      "personaId": "P-004",
-      "tasks": [
-        "Sets ALFRED to block all non-critical notifications during work hours",
-        "Monitors Olivias vital data focusing only on urgent alerts",
-        "Accesses validated health trends quickly without distraction",
-        "Avoids interacting with non-clinical ALFRED features outside official hours",
-        "Demands a streamlined, clinical interface for receiving sensor alerts",
-        "Expresses frustration when privacy settings delay access to important health data",
-        "Relies on ALFRED to prevent missed emergencies through tailored alert filtering"
+        "Accesses real-time health and activity data via ALFRED dashboard",
+        "Monitors detailed vitals and activity reports for engaged clients",
+        "Sends informal, encouraging messages to motivate users",
+        "Balances proactive care with respecting client data boundaries",
+        "Relies on occasional phone check-ins when data is restricted",
+        "Navigates differences in user autonomy and system interaction daily",
+        "Uses ALFRED to bridge care gaps between active and passive clients"
       ]
     }
   ]

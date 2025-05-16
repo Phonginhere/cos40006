@@ -14,9 +14,5 @@
   {
     "cluster_name": "Hardware & Physical Interaction",
     "cluster_description": "Requirements addressing physical aspects of the system. These include ergonomics, form factor of devices, wearability, button size, and durability."
-  },
-  {
-    "cluster_name": "Interaction Pace & Setup Flexibility",
-    "cluster_description": "Requirements allowing users to control the speed and complexity of onboarding, configuration, and everyday operations, especially for reluctant or skeptical users."
   }
 ]

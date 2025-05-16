@@ -4,28 +4,22 @@
     {
       "personaId": "P-005",
       "tasks": [
-        "Set strict privacy boundaries within ALFRED to block app installations",
-        "Disable most ALFRED notifications, especially those related to intense exercises",
-        "Instruct ALFRED to avoid unsolicited reminders",
-        "Dismiss ALFRED's physical activity suggestions involving wearable sensors or video check-ins",
-        "Tolerate use of ALFRED's messaging features for social interactions",
-        "Maintain control over what health metrics ALFRED shares with caregivers",
-        "Prefer to engage with ALFRED autonomously without overwhelming prompts",
-        "Express cautious autonomy by limiting system-driven interventions",
-        "Experience discomfort or overwhelm when receiving excessive notifications",
-        "Value dignity and respect in system communication style"
+        "Configures ALFRED to minimize interruptions and block intrusive apps or features",
+        "Balances desire for independence with need for support in system interactions",
+        "Maintains guarded behavior toward system nudges encouraging engagement"
       ]
     },
     {
       "personaId": "P-006",
       "tasks": [
-        "Use manual logging feature in ALFRED to record observations during visits",
-        "Respect Olivias privacy settings by not accessing blocked health metrics",
-        "Adapt caregiving approach by proposing offline check-ins",
-        "Seek timely support alerts when critical health issues arise",
-        "Observe Olivias gradual openness to gentle reminders",
-        "Experience concern over potential missed health signs due to privacy restrictions",
-        "Maintain a watchful yet unobtrusive presence through system mediation"
+        "Monitors multiple elderly clients' wellbeing through ALFRED's caregiver dashboard",
+        "Manually checks in frequently with clients using ALFRED's messaging feature",
+        "Encourages clients to engage in simple exercises and healthier meal choices",
+        "Invites clients to participate in occasional interactive cognitive and physical games",
+        "Initiates video calls through ALFRED to assess clients' status when concerned",
+        "Respects clients' boundaries by switching to offline communication when video calls are declined",
+        "Feels frustration when limited data hinders timely support and intervention",
+        "Strives to maintain effective communication without overstepping client trust"
       ]
     }
   ]

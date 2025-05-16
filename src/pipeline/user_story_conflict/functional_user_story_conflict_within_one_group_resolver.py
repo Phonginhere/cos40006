@@ -7,7 +7,7 @@ from pipeline.utils import (
     USER_STORY_DIR,
     USER_GROUP_KEYS,
     load_system_summary,
-    load_user_story_summary,
+    load_user_story_guidelines,
     load_functional_user_story_conflict_summary,
     get_llm_response,
 )
@@ -26,7 +26,7 @@ def save_json_file(path: str, data):
 
 def build_resolution_prompt(
     system_summary: str,
-    user_story_summary: str,
+    user_story_guidelines: str,
     technique_summary: str,
     personaA,
     personaB,
@@ -44,15 +44,6 @@ Apply the Chentouf et al. resolution strategies for functional user story confli
 
 System Summary:
 {system_summary}
-
-User Story Guidelines:
-{user_story_summary}
-
-Persona A Information:
-{personaA.to_prompt_string()}
-
-Persona B Information:
-{personaB.to_prompt_string()}
 
 Conflict Type: {conflictType}
 Conflict Description: {conflictDescription}
@@ -79,7 +70,8 @@ Then provide a concise resolution description explaining how the resolution stra
 
 Finally, provide the NEW summaries for both user stories according to the resolution:
 - If a user story is discarded, its summary should be an empty string.
-- If updated or kept, provide the updated or original summary.
+- If updated or kept, provide the updated or original summary respectively. If updated, **unlike the original user story summary (summaries)**, which is mostly dominant by the persona's information; your **updated summary (summaries)** must be smooth, consistent, and coherent, respecting the system summary. That means, at least one of the personas' information should partially be sacrificed for the coherence, consistence and smoothness.
+(Note that, a user story's summary is a short and precise user story in 1-2 sentences. Generally, it is limited to about 10 to 25 words. Format: As a <type of user>, I want (sometimes don't want) <some goal> so that <some reason>)
 
 Respond STRICTLY in the JSON format:
 
@@ -147,7 +139,7 @@ def update_user_story_file_by_persona(persona_id: str, story_id: str, new_summar
 
 def resolve_functional_conflicts_within_one_group(persona_loader: UserPersonaLoader):
     system_summary = load_system_summary()
-    user_story_summary = load_user_story_summary()
+    user_story_guidelines = load_user_story_guidelines()
     technique_summary = load_functional_user_story_conflict_summary()
 
     all_personas = {p.id: p for p in persona_loader.get_personas()}
@@ -209,7 +201,7 @@ def resolve_functional_conflicts_within_one_group(persona_loader: UserPersonaLoa
 
             prompt = build_resolution_prompt(
                 system_summary,
-                user_story_summary,
+                user_story_guidelines,
                 technique_summary,
                 personaA,
                 personaB,

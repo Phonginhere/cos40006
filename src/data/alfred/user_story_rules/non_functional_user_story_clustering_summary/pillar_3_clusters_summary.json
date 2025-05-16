@@ -6,9 +6,5 @@
   {
     "cluster_name": "Monitoring Accuracy & Reliability",
     "cluster_description": "Requirements ensuring health monitoring is precise and trustworthy. These include error handling, real-time feedback, and validation mechanisms for biometric readings."
-  },
-  {
-    "cluster_name": "User-Directed Care Experience",
-    "cluster_description": "Requirements ensuring older adults can dictate the timing, type, and intrusiveness of care interactions. Includes push-to-start reminders, refusal of check-ins, and conditional engagement with medical routines."
   }
 ]

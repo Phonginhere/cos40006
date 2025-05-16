@@ -4,19 +4,19 @@
     {
       "personaId": "P-002",
       "tasks": [
-        "Notices the wearable's vibration signal to start the personalized morning exercise",
-        "Evaluates and decides whether to attempt the new balance challenge suggested by ALFRED",
-        "Begins and performs exercises while receiving real-time feedback from ALFRED",
-        "Responds to ALFRED's suggestion to take a short rest during exercise",
-        "Engages in spontaneous conversations initiated by ALFRED regarding her motivation and physical activity",
-        "Replies honestly and humorously to ALFRED's inquiries about her feelings toward exercise",
-        "Accepts and attempts a step-count challenge proposed by ALFRED to boost motivation",
-        "Manages and controls data sharing preferences regarding her health information",
-        "Appreciates and expects ALFRED's tone to be informal and encouraging rather than strict",
-        "Feels reassured by ALFRED's attentiveness and personalized guidance rather than preset routines",
-        "Balances desire to push physical limits with realistic acceptance of her mild mobility constraints",
-        "Uses ALFRED to maintain spontaneous, natural interactions integrated into her daily routine",
-        "Values transparency and full visibility of her health data provided by the system"
+        "Wakes up and checks the wearable sensor on her wrist for vital signs and activity data",
+        "Acknowledges and appreciates the unobtrusive design of the wearable sensor",
+        "Listens to ALFRED's tailored exercise suggestions for the day",
+        "Decides to accept ALFRED's encouragement and requests to try harder exercises",
+        "Voices commands and feedback to ALFRED using natural speech",
+        "Responds playfully to ALFRED's friendly replies and jokes aloud to engage with the system",
+        "Monitors her heart rate and movement data via ALFRED throughout the morning",
+        "Follows hydration reminders and adjusts activity goals based on ALFRED's real-time feedback",
+        "Engages with the game's adaptive difficulty and creative themes to maintain motivation",
+        "Reflects on the day's health accomplishments with ALFRED's summary report",
+        "Balances feelings of occasional frustration when ALFRED's prompts interrupt her preferred pace",
+        "Manages the tension between her independence and ALFRED's proactive health interventions",
+        "Considers her comfort level with sharing personal health data openly through the system"
       ]
     }
   ]

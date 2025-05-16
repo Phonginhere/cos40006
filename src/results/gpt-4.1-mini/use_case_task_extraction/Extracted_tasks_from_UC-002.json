@@ -2,45 +2,46 @@
   "useCaseId": "UC-002",
   "tasksByPersona": [
     {
-      "personaId": "P-005",
+      "personaId": "P-006",
       "tasks": [
-        "Dismisses unsolicited notifications suggesting cognitive games",
-        "Uses the push-to-talk feature to initiate interaction with ALFRED",
-        "Requests ALFRED to suggest simple memory games without data sharing",
-        "Expresses irritation toward interruptions from the system",
-        "Insists on no unsolicited messages or video check-ins",
-        "Demands strict privacy of her health data, excluding caregivers",
-        "Maintains a formal and curt tone when communicating with ALFRED"
+        "Checks cognitive game progress for multiple elderly clients on ALFRED's dashboard",
+        "Manually selects which cognitive game sessions to record and share",
+        "Respects each clients privacy preferences when managing data logging",
+        "Encourages clients like Elena to try new, more challenging cognitive games",
+        "Balances clients enthusiasm and resistance while coordinating care",
+        "Configures ALFRED settings to suit individual client needs and privacy",
+        "Reflects on the challenges of supporting diverse cognitive engagement levels among clients"
       ]
     },
     {
       "personaId": "P-002",
       "tasks": [
-        "Engages in challenging physical and cognitive game activities",
-        "Shares lighthearted banter during joint gaming sessions",
-        "Explores dynamic suggestions from ALFRED to maintain social and physical health",
-        "Enjoys ALFRED's playful and informal communication style"
+        "Requests new brain exercises from ALFRED based on personal interest",
+        "Plays adapted memory games that combine physical and cognitive tasks",
+        "Interacts with ALFRED using a friendly, informal conversational style",
+        "Shares gaming progress openly with her caregiver Sarah",
+        "Invites family members to join video calls through ALFRED for social connection",
+        "Expresses curiosity and eagerness by exploring new cognitive challenges",
+        "Enjoys spontaneous chats during gameplay enhancing engagement",
+        "Relies on ALFRED to tailor activities to her mild mobility and cognitive abilities"
       ]
     },
     {
-      "personaId": "P-006",
+      "personaId": "P-005",
       "tasks": [
-        "Receives notifications about Elenas gaming progress",
-        "Joins Elena in gaming sessions to provide encouragement",
-        "Uses ALFREDs social features to strengthen emotional connection",
-        "Balances enthusiasm for informal engagement with care responsibilities",
-        "Accepts increased notifications and effort as worthwhile for relationship building"
+        "Chooses gentler cognitive activities over more stimulating games",
+        "Expresses frustration with intrusive suggestions for more stimulating games"
       ]
     },
     {
       "personaId": "P-004",
       "tasks": [
-        "Accesses clinical health data of Olivia through ALFRED",
-        "Avoids non-critical alerts and game-related notifications during shifts",
-        "Respects Olivias preference for offline contact and privacy",
-        "Balances clinical duties with patience toward users resistance",
-        "Finds Olivias refusal of video check-ins challenging",
-        "Uses ALFRED strictly for professional healthcare monitoring"
+        "Accesses ALFRED remotely to monitor older adults during busy shifts",
+        "Ignores cognitive game updates and emotional engagement features",
+        "Prioritizes clinical efficiency over informal interactions",
+        "Overrides consent settings when necessary to ensure proper care",
+        "Maintains a pragmatic approach contrasting with holistic caregiving styles",
+        "Focuses on medical data to support timely interventions"
       ]
     }
   ]

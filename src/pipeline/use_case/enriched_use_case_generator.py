@@ -2,7 +2,7 @@ import os
 import re
 import textwrap
 
-from pipeline.utils import get_llm_response, load_system_summary, load_use_case_summary, load_all_user_group_summaries
+from pipeline.utils import get_llm_response, load_system_summary, load_use_case_guidelines, load_all_user_group_guidelines
 from pipeline.user_persona_loader import UserPersonaLoader
 from pipeline.use_case.use_case_loader import UseCaseLoader
 
@@ -12,8 +12,8 @@ def build_scenario_prompt(
     uc,
     all_personas: dict,
     system_summary: str,
-    uc_summary: str,
-    group_summaries: dict,
+    uc_guidelines: str,
+    user_groups_guidelines: dict,
     previous_use_cases,
 ) -> str:
     """Return a prompt that discourages scenario duplication."""
@@ -26,7 +26,7 @@ def build_scenario_prompt(
             group_set.add(persona.user_group)
 
     persona_text = "\n".join(persona_blocks)
-    group_ctx = "\n\n".join(f"{g}:\n{group_summaries[g]}" for g in sorted(group_set))
+    group_ctx = "\n\n".join(f"{g}:\n{user_groups_guidelines[g]}" for g in sorted(group_set))
 
     # --- Prior scenarios (last 6 for brevity) ---
     persona_by_id = {p.id: p for p in all_personas.values()}
@@ -51,11 +51,11 @@ You are a UX storyteller. Write a fresh, life-like, non-repetitive scenario for 
 {system_summary}
 
 --- USER GROUP CONTEXT ---
-Here are summaries of user groups involved in this use case:
+Here are guidelines of user groups involved in this use case:
 {group_ctx}
 
 --- USE-CASE DEFINITION & NOT-REAL EXAMPLES ---
-{uc_summary}
+{uc_guidelines}
 -----------------------------
 
 --- THE USE CASE ---
@@ -87,9 +87,9 @@ def enrich_use_cases_with_scenarios(persona_loader: UserPersonaLoader) -> None:
     """Fill the `scenario` field for each use case if missing, and name+desc are already present."""
 
     all_personas = {p.id: p for p in persona_loader.get_personas()}
-    uc_summary = load_use_case_summary()
+    uc_guidelines = load_use_case_guidelines()
     system_summary = load_system_summary()
-    group_summaries = load_all_user_group_summaries()
+    user_groups_guidelines = load_all_user_group_guidelines()
 
     uc_loader = UseCaseLoader()
     uc_loader.load()
@@ -103,7 +103,7 @@ def enrich_use_cases_with_scenarios(persona_loader: UserPersonaLoader) -> None:
             continue
 
         print(f"\n🧠  Generating scenario for {uc.id} …")
-        prompt = build_scenario_prompt(uc, all_personas, system_summary, uc_summary, group_summaries, uc_loader.get_all())
+        prompt = build_scenario_prompt(uc, all_personas, system_summary, uc_guidelines, user_groups_guidelines, uc_loader.get_all())
         raw = get_llm_response(prompt)
 
         # Clean accidental code fences or markdown

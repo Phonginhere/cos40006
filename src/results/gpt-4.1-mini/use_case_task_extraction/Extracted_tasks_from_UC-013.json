@@ -2,24 +2,29 @@
   "useCaseId": "UC-013",
   "tasksByPersona": [
     {
-      "personaId": "P-004",
+      "personaId": "P-002",
       "tasks": [
-        "Prefers minimal and efficient system interactions without friendly explanations",
-        "Rejects features encouraging emotional engagement"
-      ]
-    },
-    {
-      "personaId": "P-006",
-      "tasks": [
-        "Plans and coordinates fun activities remotely using the system",
-        "Wants to be notified regardless of the hour",
-        "Seeks flexibility in system settings to support multiple clients"
+        "Configures the voice assistant using natural language commands",
+        "Requests daily to-do lists tailored to her lifestyle",
+        "Explores fitness games and interactive challenges"
       ]
     },
     {
       "personaId": "P-005",
       "tasks": [
-        "Maintains strict control over all ALFRED behaviors and settings"
+        "Maintains cautious reassurance by controlling system boundaries"
+      ]
+    },
+    {
+      "personaId": "P-006",
+      "tasks": [
+        "Walks older adults through the initial ALFRED setup process",
+        "Toggles between multiple user profiles on her caregiver console",
+        "Enables motivational exercise reminders for enthusiastic users",
+        "Configures social event suggestions appropriate to user preferences",
+        "Reassures users about data privacy and system boundaries",
+        "Balances encouraging technology adoption with respecting autonomy",
+        "Monitors and supports diverse health and social interaction preferences"
       ]
     }
   ]

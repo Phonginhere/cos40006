@@ -4,8 +4,10 @@
     {
       "personaId": "P-005",
       "tasks": [
-        "Activates voice commands only when feeling ready by pressing the push-to-talk button deliberately",
-        "Prefers functional use of ALFRED without extra features or proactive assistance"
+        "Use ALFRED to set public transport reminders and confirm bus times",
+        "Respond reluctantly but comply with hydration break reminders when prompted",
+        "Prefer phone calls over video for communication with healthcare providers",
+        "Desire a quiet, private, and non-intrusive user experience from ALFRED"
       ]
     }
   ]

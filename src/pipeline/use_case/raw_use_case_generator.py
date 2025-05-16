@@ -4,7 +4,7 @@ import json
 import textwrap
 from typing import List
 
-from pipeline.utils import get_llm_response, load_system_summary, load_use_case_summary, load_user_group_summary, load_all_user_group_summaries, USE_CASE_DIR
+from pipeline.utils import get_llm_response, load_system_summary, load_use_case_guidelines, load_user_group_guidelines, load_all_user_group_guidelines, USE_CASE_DIR
 from pipeline.user_persona_loader import UserPersonaLoader
 from pipeline.use_case.use_case_loader import UseCaseLoader
 
@@ -13,8 +13,8 @@ def build_raw_use_case_prompt(
     uc,
     all_personas: dict,
     system_summary: str,
-    uc_summary: str,
-    group_summaries: dict,
+    uc_guidelines: str,
+    user_groups_guidelines: dict,
     prev_names: List[str],
 ) -> str:
 
@@ -26,7 +26,7 @@ def build_raw_use_case_prompt(
             group_set.add(persona.user_group)
 
     persona_text = "\n".join(persona_blocks)
-    group_ctx = "\n\n".join(f"{g}:\n{group_summaries[g]}" for g in sorted(group_set))
+    group_ctx = "\n\n".join(f"{g}:\n{user_groups_guidelines[g]}" for g in sorted(group_set))
     prev_names_block = "\n".join(f"- {n}" for n in prev_names) or "None"
 
     return textwrap.dedent(
@@ -43,7 +43,7 @@ Here are summaries of user groups involved in this use case:
 {group_ctx}
 
 --- USE-CASE DEFINITION & NOT-REAL EXAMPLES  ---
-{uc_summary}
+{uc_guidelines}
 -----------------------------
 
 Now consider the following in-progress use case (skeleton):
@@ -75,8 +75,8 @@ def generate_raw_use_cases(persona_loader: UserPersonaLoader) -> None:
     os.makedirs(USE_CASE_DIR, exist_ok=True)
 
     system_summary = load_system_summary()
-    uc_summary = load_use_case_summary()
-    group_summaries = load_all_user_group_summaries()
+    uc_guidelines = load_use_case_guidelines()
+    user_groups_guidelines = load_all_user_group_guidelines()
 
     all_personas = {p.id: p for p in persona_loader.get_personas()}
     uc_loader = UseCaseLoader()
@@ -104,7 +104,7 @@ def generate_raw_use_cases(persona_loader: UserPersonaLoader) -> None:
             continue
 
         prompt = build_raw_use_case_prompt(
-            uc, all_personas, system_summary, uc_summary, group_summaries, existing_names
+            uc, all_personas, system_summary, uc_guidelines, user_groups_guidelines, existing_names
         )
 
         print(f"\n🧠  Asking model for {uc.id} ...")

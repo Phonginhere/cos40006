@@ -6,8 +6,8 @@ from pipeline.user_persona_loader import UserPersonaLoader
 from pipeline.use_case.use_case_loader import UseCaseLoader
 from pipeline.utils import (
     load_system_summary,
-    load_user_story_summary,
-    load_user_group_summary,
+    load_user_story_guidelines,
+    load_user_group_guidelines,
     get_llm_response,
     USER_GROUP_KEYS
 )
@@ -15,7 +15,7 @@ from pipeline.utils import (
 def generate_complete_user_stories(persona_loader: UserPersonaLoader, use_case_loader: UseCaseLoader):
     # Load supporting documents
     system_summary = load_system_summary()
-    story_summary = load_user_story_summary()
+    story_guidelines = load_user_story_guidelines()
     
     # Load use cases and personas
     all_personas = {p.id: p for p in persona_loader.get_personas()}
@@ -58,7 +58,7 @@ def generate_complete_user_stories(persona_loader: UserPersonaLoader, use_case_l
         persona = all_personas.get(story.persona)
         use_case = all_use_cases.get(story.use_case)
         group_key = USER_GROUP_KEYS.get(persona.user_group)
-        group_summary = load_user_group_summary(group_key) if group_key else "Unknown"
+        group_summary = load_user_group_guidelines(group_key) if group_key else "Unknown"
 
         if not persona or not use_case:
             print(f"⚠️ Skipping US {story.id} (missing persona or use case)")
@@ -84,7 +84,7 @@ Below is the system overview, user story schema, user group needs, persona, rela
 {system_summary}
 
 --- GIVEN SYSTEM'S USER STORY DEFINITIONS, STRUCTURE, RULES & UNREAL EXAMPLES ---
-{story_summary}
+{story_guidelines}
 
 --- USER GROUP CONTEXT ({persona.user_group}) ---
 {group_summary}

@@ -4,7 +4,7 @@ import json
 from pipeline.user_story.user_story_loader import UserStoryLoader
 from pipeline.utils import (
     load_system_summary,
-    load_user_story_summary,
+    load_user_story_guidelines,
     get_llm_response,
     FUNCTIONAL_USER_STORY_CLUSTER_SET_PATH,
     USER_STORY_DIR
@@ -72,7 +72,7 @@ def generate_functional_cluster_definitions():
     print("📥 Loading user stories and system documentation...")
 
     system_summary = load_system_summary()
-    story_summary = load_user_story_summary()
+    story_guidelines = load_user_story_guidelines()
 
     loader = UserStoryLoader()
     loader.load_all_user_stories()
@@ -84,7 +84,7 @@ def generate_functional_cluster_definitions():
 
     print(f"📊 Found {len(nfus_list)} non-functional user stories, which will be sent to the LLM for functional user story cluster generation...")
 
-    prompt = build_cluster_definition_prompt(system_summary, story_summary, nfus_list)
+    prompt = build_cluster_definition_prompt(system_summary, story_guidelines, nfus_list)
 
     try:
         response = get_llm_response(prompt)
@@ -171,7 +171,7 @@ def cluster_functional_user_stories(user_story_loader: UserStoryLoader = None):
 
     # Load supporting documents
     system_summary = load_system_summary()
-    guidelines = load_user_story_summary()
+    guidelines = load_user_story_guidelines()
 
     with open(FUNCTIONAL_USER_STORY_CLUSTER_SET_PATH, "r", encoding="utf-8") as f:
         cluster_definitions = json.load(f)

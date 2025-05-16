@@ -2,42 +2,34 @@
   "useCaseId": "UC-001",
   "tasksByPersona": [
     {
-      "personaId": "P-002",
+      "personaId": "P-004",
       "tasks": [
-        "Commands ALFRED to suggest a to-do list for the day",
-        "Requests ALFRED to provide a more strenuous exercise routine",
-        "Accepts ALFRED’s harder exercise routine despite feeling apprehensive",
-        "Monitors own vital signs and activity data from wearables",
-        "Expresses concern about pushing too hard during exercises",
-        "Replies to caregiver’s messages via voice command to maintain autonomy",
-        "Uses ALFRED to initiate a video call with caregiver when feeling isolated",
-        "Receives motivational and social engagement support through ALFRED",
-        "Prefers to keep most of her health data shared without filtering",
-        "Feels overwhelmed by constant data streams and notifications",
-        "Enjoys feeling in control over exercise intensity and health decisions",
-        "Tolerates health monitoring devices as unobtrusive and comfortable",
-        "Experiences mixed emotions of excitement and apprehension during exercises",
-        "Wants autonomy respected while still receiving motivational support",
-        "Welcomes social connection and reassurance through ALFRED’s suggestions"
+        "Logs into ALFRED’s caregiver portal during work hours",
+        "Accesses prioritized clinical health data such as heart rate and blood pressure",
+        "Filters out non-critical notifications to maintain focus",
+        "Monitors missing data streams and respects patient’s privacy boundaries",
+        "Schedules video check-ins to assess patient condition more closely",
+        "Adapts communication style to maintain formal and professional tone with Olivia",
+        "Relies on scheduled check-ups due to limited continuous monitoring data",
+        "Balances clinical needs with patient privacy preferences",
+        "Silences emotional or non-clinical information to avoid distractions",
+        "Evaluates health data for early warning signs despite limited information"
       ]
     },
     {
-      "personaId": "P-006",
+      "personaId": "P-005",
       "tasks": [
-        "Remotely monitors multiple elderly clients’ health data in real time",
-        "Receives and prioritizes health alerts and notifications from ALFRED",
-        "Balances cognitive load by seeking clear and concise health information",
-        "Observes significant changes in client vitals and sends gentle encouragement messages",
-        "Encourages hydration and rest through messages mediated by ALFRED",
-        "Respects client’s wishes for independence despite occasional tension",
-        "Wishes clients would restrict data sharing to reduce notification overload",
-        "Uses video calls to check in with clients and provide emotional support",
-        "Shares interactive games through ALFRED to lighten client mood and strengthen bonds",
-        "Maintains vigilance over clients’ vitals while honoring their autonomy",
-        "Manages subtle negotiation of care boundaries mediated by ALFRED",
-        "Adapts communication style to be motivational yet non-intrusive",
-        "Feels occasional frustration due to conflicting data sharing preferences",
-        "Values timely interventions balanced with clients’ privacy and control"
+        "Activates ALFRED only with deliberate ‘push-to-talk’ voice commands",
+        "Configures ALFRED to share only explicitly permitted health data",
+        "Blocks sharing of certain sensor data to protect privacy",
+        "Dismisses unsolicited notifications, especially about physical exercises",
+        "Insists on no data sharing beyond explicitly allowed parameters",
+        "Requires ALFRED to maintain formal and polite communication style",
+        "Avoids wearing health monitoring wearables regularly due to privacy fears",
+        "Prefers offline communication over video check-ins",
+        "Uses ALFRED as a tool rather than a companion",
+        "Maintains strict control over notifications and data sharing to preserve autonomy",
+        "Feels overwhelmed by technology complexity and is skeptical about data security"
       ]
     }
   ]

@@ -30,13 +30,15 @@
     "Singularities": [
         "Very busy and handles patients one at a time",
         "Avoids non-emergency notifications",
-        "Rarely available outside official work hours"
+        "Rarely available outside official work hours",
+        "Care only the patient's health data, not their emotional state"
     ],
     "MainActions": [
         "Block all non-critical notifications during work hours",
+        "The patient's health should be priotized over their privacy (data)",
         "Use ALFRED for quick access to patient data, even if their permission is not granted",
         "Automatically log all clinical actions",
-        "Strictly accept clinical, without emotional distractions to the patients"
+        "Strictly accept clinical (e.g., in games, chats, e.t.c), without emotional factors from the patients"
     ],
     "WorkingSituation": "Full-time Registered nurse for 10 years, nursing for 20 years total",
     "PlaceOfWork": "Hospitals across urban areas",

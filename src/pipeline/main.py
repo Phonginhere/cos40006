@@ -19,11 +19,15 @@ from pipeline.user_story.user_story_functional_and_non_funtional_typer import up
 from pipeline.user_story.non_functional_user_story_clusterer import cluster_non_functional_user_stories
 from pipeline.user_story.functional_user_story_clusterer import generate_functional_cluster_definitions, cluster_functional_user_stories
 
+from pipeline.user_story_conflict.user_story_conflict_verifier import verify_conflicts
 from pipeline.user_story_conflict.non_functional_user_story_decomposer import decompose_non_functional_user_stories
 from pipeline.user_story_conflict.non_functional_user_story_conflict_within_one_group_identifier import identify_non_functional_conflicts_within_one_group
 from pipeline.user_story_conflict.non_functional_user_story_conflict_within_one_group_resolver import resolve_non_functional_conflicts_within_one_group
+from pipeline.user_story_conflict.non_functional_user_story_conflict_across_two_groups_identifier import identify_non_functional_conflicts_across_two_groups 
+
 from pipeline.user_story_conflict.functional_user_story_conflict_within_one_group_identifier import identify_functional_conflicts_within_one_group
 from pipeline.user_story_conflict.functional_user_story_conflict_within_one_group_resolver import resolve_functional_conflicts_within_one_group
+from pipeline.user_story_conflict.functional_user_story_conflict_across_two_groups_identifier import identify_functional_conflicts_across_two_groups
 
 def main():
     # Step 1: Load user personas
@@ -104,8 +108,8 @@ def main():
     user_story_loader.load_all_user_stories()
     user_story_loader.print_clusters_for_functional_stories()
     
-    # Step 4: Conflict analysis for non-functional user stories
-    print("\n============================================================ ANALYZE NON-FUNCTIONAL USER STORIES ========================================================")
+    # Step 4: Conflict analysis for non-functional user stories within one user group
+    print("\n============================================================ ANALYZE NON-FUNCTIONAL USER STORIES WITHIN ONE USER GROUP ====================================")
     #   Step 4a: Decomposite non-functional user stories
     print("\n🔍 Phase 4a: Decompositing non-functional user stories...")
     decompose_non_functional_user_stories(user_story_loader)
@@ -114,19 +118,47 @@ def main():
     print("\n⚔️ Phase 4b: Identifying conflicts for non-functional user stories within one user group...")
     identify_non_functional_conflicts_within_one_group(user_story_loader)
     
+    #       Step 4b-1: Verify conflicts for non-functional user stories within one user group
+    print("\n🔍 Phase 4b-1: Verifying conflicts for non-functional user stories within one user group...")
+    verify_conflicts(persona_loader, functional=False)
+    
     #   Step 4c: Resolve conflicts within one user group
     print("\n🛠️ Phase 4c: Resolving conflicts for non-functional user stories within one user group...")
     resolve_non_functional_conflicts_within_one_group(persona_loader)
     
-    # Step 5: Conflict analysis for functional user stories
-    print("\n============================================================ ANALYZE FUNCTIONAL USER STORIES ==========================================================")
-    #   Step 5a: Identify conflicts within one user group
-    print("\n⚔️ Phase 5a: Identifying conflicts for functional user stories within one user group...")
+    # Step 5: Conflict analysis for non-functional user stories across two user groups
+    print("\n============================================================ ANALYZE NON-FUNCTIONAL USER STORIES ACROSS TWO USER GROUPS ====================================")
+    #   Step 5a: Identify conflicts across two user groups
+    print("\n⚔️ Phase 5a: Identifying conflicts for non-functional user stories across two user groups...")
+    identify_non_functional_conflicts_across_two_groups(user_story_loader)
+    
+    #       Step 5a-1: Verify conflicts for non-functional user stories across two user groups
+    print("\n🔍 Phase 5a-1: Verifying conflicts for non-functional user stories across two user groups...")
+    verify_conflicts(persona_loader, functional=False, within_one_group=False)
+    
+    # Step 6: Conflict analysis for functional user stories within one user group
+    print("\n============================================================ ANALYZE FUNCTIONAL USER STORIES WITHIN ONE USER GROUP ====================================")
+    #   Step 6a: Identify conflicts within one user group
+    print("\n⚔️ Phase 6a: Identifying conflicts for functional user stories within one user group...")
     identify_functional_conflicts_within_one_group(user_story_loader)
     
-    #   Step 5b: Resolve conflicts within one user group
-    print("\n🛠️ Phase 5b: Resolving conflicts for functional user stories within one user group...")
+    #      Step 6a-1: Verify conflicts for functional user stories within one user group
+    print("\n🔍 Phase 6a-1: Verifying conflicts for functional user stories within one user group...")
+    verify_conflicts(persona_loader, functional=True)
+    
+    #   Step 6b: Resolve conflicts within one user group
+    print("\n🛠️ Phase 6b: Resolving conflicts for functional user stories within one user group...")
     resolve_functional_conflicts_within_one_group(persona_loader)
+    
+    # Step 7: Conflict analysis for functional user stories across two user groups
+    print("\n============================================================ ANALYZE FUNCTIONAL USER STORIES ACROSS TWO USER GROUPS ====================================")
+    #   Step 7a: Identify conflicts across two user groups
+    print("\n⚔️ Phase 7a: Identifying conflicts for functional user stories across two user groups...")
+    identify_functional_conflicts_across_two_groups(user_story_loader)
+    
+    #       Step 7a-1: Verify conflicts for functional user stories across two user groups
+    print("\n🔍 Phase 7a-1: Verifying conflicts for functional user stories across two user groups...")
+    verify_conflicts(persona_loader, functional=True, within_one_group=False)
     
     print("\n✅ Pipeline completed successfully. Check your results in the output folder.")
 

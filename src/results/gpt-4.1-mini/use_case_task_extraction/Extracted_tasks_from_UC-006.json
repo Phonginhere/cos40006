@@ -4,12 +4,8 @@
     {
       "personaId": "P-005",
       "tasks": [
-        "Selects only heart rate and step count sensors for activation",
-        "Refuses to share sensor data with medical staff without direct consent",
-        "Declines medication reminders from ALFRED",
-        "Prefers offline updates and in-person visits from caregivers",
-        "Demonstrates skepticism and reluctance toward using technology",
-        "Values restoration of personal control over monitoring and data"
+        "Balances desire for autonomy with acceptance of limited personalized care opportunities",
+        "Values privacy as a protective fortress built from personal and professional experience"
       ]
     }
   ]

@@ -2,7 +2,7 @@ import os
 import json
 
 from pipeline.user_story.user_story_loader import UserStoryLoader
-from pipeline.utils import load_system_summary, load_user_story_summary, get_llm_response, USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR
+from pipeline.utils import load_system_summary, load_user_story_guidelines, get_llm_response, USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR
 
 def verify_user_stories(persona_loader):
     """Verify and possibly correct user story summaries to prioritize persona context over system context."""
@@ -14,7 +14,7 @@ def verify_user_stories(persona_loader):
 
     all_personas = {p.id: p for p in persona_loader.get_personas()}
     system_summary = load_system_summary()
-    user_story_guidelines = load_user_story_summary()
+    user_story_guidelines = load_user_story_guidelines()
 
     loader = UserStoryLoader()
     loader.load_all_user_stories()

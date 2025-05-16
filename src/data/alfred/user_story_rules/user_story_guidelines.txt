@@ -28,11 +28,11 @@ Each ALFRED user story contains the following elements:
 • Pillar              : Strictly, one of: "Developer Core", "General Requirements", "Pillar 1 - User-Driven Interaction Assistant", "Pillar 2 - Personalized Social Inclusion", "Pillar 3 - Effective & Personalized Care", or "Pillar 4 - Physical & Cognitive Impairments Prevention"
 • Task                : The raw task that inspired this story (used internally for traceability)
 • Priority Number     : A prioritization value from 1 (very high) to 5 (out of scope).
-• Summary             : A short and precise user story in 1 sentence (maybe 2, but rarely). Limit to about 10 to 30 words. 
-                        Begin with the persona’s role or situation (e.g., 'As an older person...' - generally, it should not mention directly the persona's name), describe their specific goal or action (and optionally conclude shortly with their reason or concern). 
-                        Avoid verbosity, abstract statements, or generic descriptions. Ensure they are sspoken directly, for example, use only **core** adjectives with a certain level, avoid using additional but non-essential adverbs or adjectives.
+• Summary             : A short and precise user story in 1 sentence (maybe 2, but rarely). Generally, it is limited to about 10 to 25 words. 
+                        Begin with the persona’s role or situation (e.g., 'As an older person...' - generally, it should not mention directly the persona's name), describe their specific goal or action ("want to" or sometimes "do not want to"), and (optionally) conclude shortly with their reason or concern. 
+                        Avoid verbosity, abstract statements, or generic descriptions. Ensure they are spoken directly, for example, use only **core** words (adjectives, adverbs, nouns, verbs, e.t.c.) with a certain level, avoid using additional but **non-essential** adverbs, modifiers or adjectives.
                         Strictly, the persona information should be dominant in the context of a user story rather than the system context, even if it contradicts some of the content in the system context.
-
+(For example, if the system says 'data shared balancedly between sensitive and general health data', but Persona 1 says 'all data should not be shared', then the user story must reflect 'all data should not be shared'. Conversely, if Persona 2 says 'data can be shared freely', the user story must state something like 'data can be shared freely'.)
 
 ────────────────────────────────────────────
 

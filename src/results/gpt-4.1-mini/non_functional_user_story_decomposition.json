@@ -1,0 +1,848 @@
+[
+  {
+    "id": "US-098",
+    "title": "Design Secure and Streamlined APIs",
+    "persona": "P-001",
+    "user_group": "Developers and App Creators",
+    "task": "Reads and studies ALFRED developer documentation to design APIs",
+    "use_case": "UC-008",
+    "priority": 5,
+    "summary": "As a full-stack developer, I want to design APIs that prioritize strict data privacy while keeping them simple to develop and maintain efficiently.",
+    "pillar": "Developer Core",
+    "type": "Non-Functional",
+    "cluster": "API Quality & Integration",
+    "decomposition": [
+      "Ensure APIs enforce strict data privacy and protection measures",
+      "Design APIs for simplicity to facilitate easy development",
+      "Design APIs for efficient maintenance and scalability"
+    ]
+  },
+  {
+    "id": "US-099",
+    "title": "Secure APIs for Clinical Data Access",
+    "persona": "P-001",
+    "user_group": "Developers and App Creators",
+    "task": "Crafts secure APIs for streamlined access to patient data and clinical workflows",
+    "use_case": "UC-008",
+    "priority": 5,
+    "summary": "As a developer, I want to create secure APIs that protect patient privacy while enabling efficient and scalable healthcare application development.",
+    "pillar": "Developer Core",
+    "type": "Non-Functional",
+    "cluster": "API Quality & Integration",
+    "decomposition": [
+      "APIs must ensure protection of patient privacy",
+      "APIs must support efficient healthcare application development",
+      "APIs must be scalable to handle increasing healthcare application demands"
+    ]
+  },
+  {
+    "id": "US-100",
+    "title": "Ensure Compatibility with Older Devices",
+    "persona": "P-001",
+    "user_group": "Developers and App Creators",
+    "task": "Ensures system compatibility with older devices used by medical staff",
+    "use_case": "UC-008",
+    "priority": 4,
+    "summary": "As a developer, I want to ensure ALFRED features maintain performance on older devices used by medical staff, balancing modern tools with system compatibility.",
+    "pillar": "Developer Core",
+    "type": "Non-Functional",
+    "cluster": "Development & Testing Support",
+    "decomposition": [
+      "Maintain acceptable performance of ALFRED features on older medical staff devices",
+      "Ensure compatibility of new ALFRED tools with legacy hardware and software environments",
+      "Balance use of modern features without degrading system responsiveness on older devices"
+    ]
+  },
+  {
+    "id": "US-101",
+    "title": "Enforce Strict Patient Data Privacy",
+    "persona": "P-001",
+    "user_group": "Developers and App Creators",
+    "task": "Prioritizes patient data privacy and security in system design",
+    "use_case": "UC-008",
+    "priority": 5,
+    "summary": "As a developer, I want to ensure patient data privacy and secure storage to fully respect patient autonomy and completely prevent unauthorized access.",
+    "pillar": "Developer Core",
+    "type": "Non-Functional",
+    "cluster": "Development & Testing Support",
+    "decomposition": [
+      "Ensure patient data privacy is strictly enforced",
+      "Securely store patient data to prevent unauthorized access",
+      "Respect patient autonomy in all data handling processes"
+    ]
+  },
+  {
+    "id": "US-102",
+    "title": "Balance patient autonomy with clinical access",
+    "persona": "P-001",
+    "user_group": "Developers and App Creators",
+    "task": "Feels tension between respecting patient autonomy and meeting medical staff needs",
+    "use_case": "UC-008",
+    "priority": 5,
+    "summary": "As a developer, I want to design APIs that prioritize strict patient data privacy according to user preferences, even if it limits clinical access, to fully respect patient autonomy.",
+    "pillar": "Developer Core",
+    "type": "Non-Functional",
+    "cluster": "API Quality & Integration",
+    "decomposition": [
+      "Design APIs to enforce strict patient data privacy based on user preferences",
+      "Ensure patient autonomy is fully respected in data access controls",
+      "Limit clinical access to patient data when it conflicts with patient privacy preferences"
+    ]
+  },
+  {
+    "id": "US-130",
+    "title": "Study Developer API Documentation Clearly",
+    "persona": "P-001",
+    "user_group": "Developers and App Creators",
+    "task": "Accesses the ALFRED developer portal to study API documentation and guidelines",
+    "use_case": "UC-012",
+    "priority": 5,
+    "summary": "As a full-stack developer, I want clear and comprehensive API documentation so I can efficiently build accessible, secure healthcare apps that align with my development practices and respect user privacy.",
+    "pillar": "Developer Core",
+    "type": "Non-Functional",
+    "cluster": "Development & Testing Support",
+    "decomposition": [
+      "Provide clear and comprehensive API documentation.",
+      "Ensure API documentation supports building accessible healthcare apps.",
+      "Ensure API documentation supports building secure healthcare apps respecting user privacy."
+    ]
+  },
+  {
+    "id": "US-131",
+    "title": "Require Explicit User Permission for App Installations",
+    "persona": "P-001",
+    "user_group": "Developers and App Creators",
+    "task": "Designs app installation flows requiring explicit user permission",
+    "use_case": "UC-012",
+    "priority": 2,
+    "summary": "As a developer, I want app installations to require explicit user consent so users maintain full control and trust in the system.",
+    "pillar": "Developer Core",
+    "type": "Non-Functional",
+    "cluster": "Marketplace Infrastructure",
+    "decomposition": [
+      "Require explicit user consent before any app installation",
+      "Ensure users have full control over app installation decisions",
+      "Maintain user trust by transparently enforcing consent mechanisms"
+    ]
+  },
+  {
+    "id": "US-133",
+    "title": "Stricter Data Controls and Formal Communication",
+    "persona": "P-001",
+    "user_group": "Developers and App Creators",
+    "task": "Considers implementing stricter data controls and formal communication options",
+    "use_case": "UC-012",
+    "priority": 4,
+    "summary": "As a developer, I want to enforce strict data controls and provide formal communication options to fully respect users' privacy concerns.",
+    "pillar": "General Requirements",
+    "type": "Non-Functional",
+    "cluster": "Security & Privacy",
+    "decomposition": [
+      "Enforce strict controls over access, usage, and storage of user data",
+      "Provide communication options that follow formal privacy and security standards",
+      "Ensure all data handling respects user privacy concerns comprehensively"
+    ]
+  },
+  {
+    "id": "US-134",
+    "title": "Respect User Privacy Preferences Strictly",
+    "persona": "P-001",
+    "user_group": "Developers and App Creators",
+    "task": "Reflects on the tension between innovation and users diverse privacy preferences",
+    "use_case": "UC-012",
+    "priority": 5,
+    "summary": "As a developer, I want to ensure my apps install and activate only with explicit user consent to fully respect older adults' privacy preferences.",
+    "pillar": "General Requirements",
+    "type": "Non-Functional",
+    "cluster": "Security & Privacy",
+    "decomposition": [
+      "Require explicit user consent before app installation",
+      "Require explicit user consent before app activation",
+      "Ensure all app consent mechanisms fully respect older adults' privacy preferences"
+    ]
+  },
+  {
+    "id": "US-031",
+    "title": "Informal Conversational Style with ALFRED",
+    "persona": "P-002",
+    "user_group": "Older Adults",
+    "task": "Interacts with ALFRED using a friendly, informal conversational style",
+    "use_case": "UC-002",
+    "priority": 4,
+    "summary": "As an older person, I want to interact with ALFRED using a friendly, informal conversational style to feel comfortable and motivated in my daily activities.",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "type": "Non-Functional",
+    "cluster": "Voice Assistant Quality & Intelligence",
+    "decomposition": [
+      "Use a friendly and informal conversational tone in interactions",
+      "Ensure interaction style promotes user comfort",
+      "Use conversational style that motivates daily activities"
+    ]
+  },
+  {
+    "id": "US-069",
+    "title": "Continuous Health Tracking with Wearables",
+    "persona": "P-002",
+    "user_group": "Older Adults",
+    "task": "Embraces wearables and health sensors for continuous progress tracking",
+    "use_case": "UC-005",
+    "priority": 1,
+    "summary": "As a tech-curious older adult with mild mobility issues, I want to wear small, simple, and comfortable health sensors to continuously track my progress and stay motivated to challenge myself with harder exercises.",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "type": "Non-Functional",
+    "cluster": "Therapeutic Effectiveness",
+    "decomposition": [
+      "Sensors must be small and unobtrusive for continuous wear",
+      "Sensors must be simple and comfortable for users with mild mobility issues",
+      "System must continuously track health progress to support motivation for harder exercises"
+    ]
+  },
+  {
+    "id": "US-076",
+    "title": "Comfortable and Motivating Wearable Use",
+    "persona": "P-002",
+    "user_group": "Older Adults",
+    "task": "Straps on the ALFRED wearable device",
+    "use_case": "UC-007",
+    "priority": 1,
+    "summary": "As a tech-curious older adult with mild mobility issues, I want to wear small, simple, and comfortable health wearables so I can stay motivated to challenge myself with harder exercises.",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "type": "Non-Functional",
+    "cluster": "Game Usability & Accessibility",
+    "decomposition": [
+      "Wear health wearables that are small in size",
+      "Ensure health wearables are simple to use",
+      "Ensure health wearables are comfortable to wear"
+    ]
+  },
+  {
+    "id": "US-081",
+    "title": "Lightweight Wearable Comfort",
+    "persona": "P-002",
+    "user_group": "Older Adults",
+    "task": "Prefers a lightweight, barely noticeable wearable",
+    "use_case": "UC-007",
+    "priority": 1,
+    "summary": "As an older person eager to wear health wearables, I want a small, simple, and comfortable device that does not interfere with my daily life.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "Monitoring Accuracy & Reliability",
+    "decomposition": [
+      "Wearable device must be physically small in size",
+      "Wearable device must have a simple design and operation",
+      "Wearable device must be comfortable to wear and not cause discomfort",
+      "Wearable device must not interfere with daily activities"
+    ]
+  },
+  {
+    "id": "US-111",
+    "title": "Appreciate Unobtrusive Wearable Design",
+    "persona": "P-002",
+    "user_group": "Older Adults",
+    "task": "Acknowledges and appreciates the unobtrusive design of the wearable sensor",
+    "use_case": "UC-010",
+    "priority": 5,
+    "summary": "As an older adult with mild mobility issues, I want the wearable sensor to be small, simple, and comfortable so I can wear it constantly without losing motivation or feeling stigmatized.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "Monitoring Accuracy & Reliability",
+    "decomposition": [
+      "The wearable sensor shall be small in size for continuous wearing.",
+      "The wearable sensor shall have a simple design to avoid complexity.",
+      "The wearable sensor shall be comfortable to wear for long periods without causing discomfort.",
+      "The wearable sensor shall avoid stigmatizing appearance to support user motivation."
+    ]
+  },
+  {
+    "id": "US-006",
+    "title": "Maintain Formal Communication with Patient",
+    "persona": "P-004",
+    "user_group": "Caregivers and Medical Staff",
+    "task": "Adapts communication style to maintain formal and professional tone with Olivia",
+    "use_case": "UC-001",
+    "priority": 2,
+    "summary": "As a medical staff member, I want ALFRED to use a strictly formal and clinical communication style with patients to maintain clear professional boundaries and focus on health data.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "Health Data Management & Security",
+    "decomposition": [
+      "Use a formal and clinical tone in all communication with patients",
+      "Maintain clear professional boundaries in interactions with patients",
+      "Focus communication content exclusively on health data and related information"
+    ]
+  },
+  {
+    "id": "US-011",
+    "title": "Deliberate Push-to-Talk Activation",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Activates ALFRED only with deliberate ‘push-to-talk’ voice commands",
+    "use_case": "UC-001",
+    "priority": 5,
+    "summary": "As an older person who is cautious with technology, I want to activate ALFRED only when I deliberately use push-to-talk commands to ensure I feel in control and avoid unexpected interactions.",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "type": "Non-Functional",
+    "cluster": "Interaction Control & Consent",
+    "decomposition": [
+      "Require explicit push-to-talk command to activate ALFRED",
+      "Prevent ALFRED from responding without deliberate activation",
+      "Ensure user feels control over system interaction initiation"
+    ]
+  },
+  {
+    "id": "US-012",
+    "title": "Strict Control Over Health Data Sharing",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Configures ALFRED to share only explicitly permitted health data",
+    "use_case": "UC-001",
+    "priority": 5,
+    "summary": "As an older person, I want to block all sharing of my health data to maintain full privacy and prevent any access by family, caregivers, doctors, or third parties.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "Health Data Management & Security",
+    "decomposition": [
+      "Prevent any sharing of the user's health data",
+      "Ensure no access to health data by family members",
+      "Ensure no access to health data by caregivers, doctors, or third parties"
+    ]
+  },
+  {
+    "id": "US-013",
+    "title": "Block Sharing of Selected Sensor Data",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Blocks sharing of certain sensor data to protect privacy",
+    "use_case": "UC-001",
+    "priority": 5,
+    "summary": "As an older person, I want to block sharing of all my sensor data with anyone, including caregivers and third parties, to fully protect my privacy.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "Health Data Management & Security",
+    "decomposition": [
+      "Prevent sharing of all sensor data with caregivers",
+      "Prevent sharing of all sensor data with third parties",
+      "Ensure complete privacy protection of sensor data"
+    ]
+  },
+  {
+    "id": "US-015",
+    "title": "Strict Control Over Data Sharing",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Insists on no data sharing beyond explicitly allowed parameters",
+    "use_case": "UC-001",
+    "priority": 5,
+    "summary": "As an older person, I want to block all data sharing entirely to protect my privacy and feel secure using the system.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "Health Data Management & Security",
+    "decomposition": [
+      "Prevent any data sharing outside the ALFRED system",
+      "Ensure no personal or health data leaves the user's device",
+      "Provide user control to block all external data transmission"
+    ]
+  },
+  {
+    "id": "US-016",
+    "title": "Maintain Formal and Polite Communication",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Requires ALFRED to maintain formal and polite communication style",
+    "use_case": "UC-001",
+    "priority": 1,
+    "summary": "As an older person who values formality, I want ALFRED to communicate only in formal and polite language to ensure respect and comfort.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "Health Data Management & Security",
+    "decomposition": [
+      "Use only formal language in all system communications",
+      "Ensure all communication is polite and respectful",
+      "Avoid informal or casual expressions in interactions"
+    ]
+  },
+  {
+    "id": "US-017",
+    "title": "Avoid Regular Use of Health Wearables Due to Privacy",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Avoids wearing health monitoring wearables regularly due to privacy fears",
+    "use_case": "UC-001",
+    "priority": 5,
+    "summary": "As an older person, I want to hardly wear health monitoring wearables and ensure no data is shared with third parties to protect my privacy.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "Health Data Management & Security",
+    "decomposition": [
+      "Minimize the use of health monitoring wearables by the user",
+      "Prevent sharing of any personal health data with third parties",
+      "Ensure strong privacy protection for user health information"
+    ]
+  },
+  {
+    "id": "US-018",
+    "title": "Prefer Offline Communication over Video Check-ins",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Prefers offline communication over video check-ins",
+    "use_case": "UC-001",
+    "priority": 4,
+    "summary": "As an older person, I want to avoid video check-ins arranged by caregivers and prefer offline communication to protect my privacy and feel safe.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "Health Data Management & Security",
+    "decomposition": [
+      "Avoid initiating video check-ins arranged by caregivers",
+      "Prefer offline communication methods to protect user privacy",
+      "Ensure communication methods promote user feeling of safety"
+    ]
+  },
+  {
+    "id": "US-019",
+    "title": "Use ALFRED as a strictly functional tool",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Uses ALFRED as a tool rather than a companion",
+    "use_case": "UC-001",
+    "priority": 1,
+    "summary": "As an older person, I want to use ALFRED only when I explicitly activate it with push-to-talk to keep full control and avoid feeling overwhelmed or intruded upon.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "Health Data Management & Security",
+    "decomposition": [
+      "Require explicit push-to-talk activation before ALFRED responds",
+      "Prevent ALFRED from initiating interactions without user activation",
+      "Ensure user control to avoid feelings of being overwhelmed or intruded upon"
+    ]
+  },
+  {
+    "id": "US-021",
+    "title": "Avoid Technology Overwhelm and Data Risks",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Feels overwhelmed by technology complexity and is skeptical about data security",
+    "use_case": "UC-001",
+    "priority": 5,
+    "summary": "As an older person I want ALFRED to keep its use simple and block all data sharing to ensure I do not feel overwhelmed or unsafe about my privacy.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "Health Data Management & Security",
+    "decomposition": [
+      "Keep ALFRED's user interface and interactions simple and easy to understand",
+      "Prevent ALFRED from sharing any personal or usage data externally",
+      "Ensure ALFRED maintains user privacy to avoid feelings of insecurity"
+    ]
+  },
+  {
+    "id": "US-045",
+    "title": "Minimize Interruptions and Block Intrusive Apps",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Configures ALFRED to minimize interruptions and block intrusive apps or features",
+    "use_case": "UC-003",
+    "priority": 5,
+    "summary": "As an older person, I want to block all app installations and dismiss almost all notifications to avoid feeling overwhelmed and protect my privacy.",
+    "pillar": "General Requirements",
+    "type": "Non-Functional",
+    "cluster": "Security & Privacy",
+    "decomposition": [
+      "Prevent installation of new apps by the user",
+      "Dismiss or suppress nearly all app notifications",
+      "Ensure notification suppression protects user privacy"
+    ]
+  },
+  {
+    "id": "US-046",
+    "title": "Respect My Independence with Minimal Support",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Balances desire for independence with need for support in system interactions",
+    "use_case": "UC-003",
+    "priority": 5,
+    "summary": "As an older person, I want ALFRED to send almost no notifications or check-ins and only provide minimal support to respect my privacy and avoid overwhelming me.",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "type": "Non-Functional",
+    "cluster": "Therapeutic Effectiveness",
+    "decomposition": [
+      "Minimize the number of notifications and check-ins sent to the user",
+      "Provide only essential support functions without unnecessary interventions",
+      "Respect user privacy by avoiding intrusive or overwhelming interactions"
+    ]
+  },
+  {
+    "id": "US-047",
+    "title": "Limit Nudges to Preserve Autonomy",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Maintains guarded behavior toward system nudges encouraging engagement",
+    "use_case": "UC-003",
+    "priority": 1,
+    "summary": "As an older person, I want ALFRED to send almost no reminders or prompts, so I can avoid feeling pressured or overwhelmed.",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "type": "Non-Functional",
+    "cluster": "Therapeutic Effectiveness",
+    "decomposition": [
+      "Minimize the frequency of reminders and prompts sent to the user",
+      "Avoid sending reminders or prompts that cause the user to feel pressured",
+      "Avoid sending reminders or prompts that overwhelm the user"
+    ]
+  },
+  {
+    "id": "US-057",
+    "title": "Minimal Interaction with Push-to-Talk Control",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Uses ALFRED sparingly and only for essential interactions",
+    "use_case": "UC-004",
+    "priority": 1,
+    "summary": "As an older person, I want ALFRED to respond only when I explicitly push-to-talk, avoiding almost all unsolicited messages to maintain full control and minimize overwhelming interactions.",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "type": "Non-Functional",
+    "cluster": "Social Privacy & Control",
+    "decomposition": [
+      "ALFRED must respond only after explicit push-to-talk activation by the user",
+      "ALFRED must avoid sending unsolicited messages except for critical alerts",
+      "ALFRED must minimize interaction frequency to prevent overwhelming the user"
+    ]
+  },
+  {
+    "id": "US-058",
+    "title": "Enforce Formal and Distant Social Tone",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Enforces a cold and distant tone in social communications via ALFRED",
+    "use_case": "UC-004",
+    "priority": 5,
+    "summary": "As an older person I want all communications through ALFRED to be formal, polite, and strictly distant to preserve my privacy and control.",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "type": "Non-Functional",
+    "cluster": "Social Privacy & Control",
+    "decomposition": [
+      "Ensure all communications use formal language",
+      "Ensure all communications use polite tone",
+      "Ensure all communications maintain strict social distance to preserve privacy and control"
+    ]
+  },
+  {
+    "id": "US-059",
+    "title": "Control Over Notifications and Interaction",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Values independence and resists technological intrusions into her daily life",
+    "use_case": "UC-004",
+    "priority": 5,
+    "summary": "As an older person, I want ALFRED to respond only when I push-to-talk and to block almost all notifications and messages so I can keep control and avoid feeling overwhelmed or intruded upon.",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "type": "Non-Functional",
+    "cluster": "Social Privacy & Control",
+    "decomposition": [
+      "ALFRED responds only to push-to-talk activation",
+      "Block almost all notifications and messages by default",
+      "Enable user control to prevent feelings of overwhelm or intrusion"
+    ]
+  },
+  {
+    "id": "US-060",
+    "title": "Demand Simple and Clear Interaction",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Demands simplicity and clarity in system interactions",
+    "use_case": "UC-004",
+    "priority": 1,
+    "summary": "As an older person, I want ALFRED to respond only when I push-to-talk and avoid explanations, so I can use it without feeling overwhelmed or confused.",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "type": "Non-Functional",
+    "cluster": "Interaction Control & Consent",
+    "decomposition": [
+      "Respond only when push-to-talk is activated",
+      "Avoid providing unsolicited explanations or additional information"
+    ]
+  },
+  {
+    "id": "US-061",
+    "title": "Strictly Formal Communication Only",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Avoids social warmth or casual communication encouraged by family or system",
+    "use_case": "UC-004",
+    "priority": 1,
+    "summary": "As an older person I want all my communications through ALFRED to be formal, polite, and ethical, avoiding any social warmth or casual talk that makes me uncomfortable.",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "type": "Non-Functional",
+    "cluster": "Social Privacy & Control",
+    "decomposition": [
+      "All communications must use formal language",
+      "All communications must be polite and respectful",
+      "All communications must avoid social warmth or casual talk"
+    ]
+  },
+  {
+    "id": "US-062",
+    "title": "Monitor System Compliance with Privacy and Formality",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Monitors system behavior to ensure compliance with her privacy and formality preferences",
+    "use_case": "UC-004",
+    "priority": 1,
+    "summary": "As an older person, I want ALFRED to only respond when I push-to-talk and use strictly formal, polite language in all interactions to protect my privacy and make me feel safe and respected.",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "type": "Non-Functional",
+    "cluster": "Social Privacy & Control",
+    "decomposition": [
+      "ALFRED responds only when the user activates push-to-talk",
+      "ALFRED uses strictly formal and polite language in all interactions",
+      "ALFRED protects user privacy by limiting unsolicited responses"
+    ]
+  },
+  {
+    "id": "US-064",
+    "title": "Minimal Visibility in Daily Use",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Prefers ALFRED to remain almost invisible in daily routine",
+    "use_case": "UC-005",
+    "priority": 1,
+    "summary": "As an older person, I want ALFRED to stay nearly invisible and only respond when I choose, so I can keep control and avoid feeling monitored or overwhelmed.",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "type": "Non-Functional",
+    "cluster": "Game Usability & Accessibility",
+    "decomposition": [
+      "ALFRED should have minimal visible presence during daily use",
+      "ALFRED should only respond when explicitly activated by the user",
+      "ALFRED should not monitor or interact without user initiation to avoid feeling overwhelming"
+    ]
+  },
+  {
+    "id": "US-065",
+    "title": "Reject Monitoring of Recovery Progress",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Expresses skepticism about the system's monitoring of recovery",
+    "use_case": "UC-005",
+    "priority": 5,
+    "summary": "As an older person I want to completely block system monitoring of my recovery to protect my privacy and avoid feeling controlled.",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "type": "Non-Functional",
+    "cluster": "Therapeutic Effectiveness",
+    "decomposition": [
+      "Completely block all system monitoring of user's recovery progress",
+      "Prevent any data collection related to user's recovery status",
+      "Ensure no monitoring-related notifications or feedback are sent to the user"
+    ]
+  },
+  {
+    "id": "US-066",
+    "title": "Respect Autonomy and Privacy Boundaries",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Expects the system to respect her autonomy and personal boundaries",
+    "use_case": "UC-005",
+    "priority": 1,
+    "summary": "As an older person, I want ALFRED to activate only when I explicitly ask and to never share my data or send almost any notifications, to preserve my privacy and control.",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "type": "Non-Functional",
+    "cluster": "Game Usability & Accessibility",
+    "decomposition": [
+      "Activate ALFRED only upon explicit user request",
+      "Never share user data without explicit permission",
+      "Minimize notifications to only those explicitly approved by the user"
+    ]
+  },
+  {
+    "id": "US-074",
+    "title": "Strict Privacy Control with Minimal Interaction",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Balances desire for autonomy with acceptance of limited personalized care opportunities",
+    "use_case": "UC-006",
+    "priority": 5,
+    "summary": "As an older person, I want to block all data sharing and reject almost all notifications so I can keep my privacy and avoid feeling overwhelmed by technology.",
+    "pillar": "General Requirements",
+    "type": "Non-Functional",
+    "cluster": "Security & Privacy",
+    "decomposition": [
+      "Block all sharing of personal and health data with external parties",
+      "Reject or suppress nearly all system notifications to the user",
+      "Ensure minimal user interaction to maintain strict privacy and reduce technology overwhelm"
+    ]
+  },
+  {
+    "id": "US-075",
+    "title": "Strict Privacy Control and Formal Interaction",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Values privacy as a protective fortress built from personal and professional experience",
+    "use_case": "UC-006",
+    "priority": 5,
+    "summary": "As an older person, I want to block all data sharing and receive only formal, polite messages to protect my privacy and feel secure using ALFRED.",
+    "pillar": "General Requirements",
+    "type": "Non-Functional",
+    "cluster": "Security & Privacy",
+    "decomposition": [
+      "Block all sharing of user data with external parties",
+      "Use only formal and polite language in all system messages"
+    ]
+  },
+  {
+    "id": "US-083",
+    "title": "Wear Wearable with Strict Privacy Control",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Reluctantly wears the ALFRED wearable device",
+    "use_case": "UC-007",
+    "priority": 1,
+    "summary": "As an older person I want to wear ALFRED devices only reluctantly and with no data sharing allowed to fully protect my privacy and feel safe.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "Health Data Management & Security",
+    "decomposition": [
+      "Minimize use of ALFRED wearable devices by the user",
+      "Prohibit sharing of any personal or sensor data collected by ALFRED devices",
+      "Ensure user privacy is fully protected to promote user feeling of safety"
+    ]
+  },
+  {
+    "id": "US-085",
+    "title": "Passive Wearable Tracking Without Interaction",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Uses the device as a passive tracker without active engagement",
+    "use_case": "UC-007",
+    "priority": 5,
+    "summary": "As an older person I want my wearable to collect data silently without interaction, never share my data, and avoid any prompts that make me feel overwhelmed.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "Health Data Management & Security",
+    "decomposition": [
+      "Collect wearable data silently without requiring user interaction",
+      "Never share collected data with any external parties",
+      "Avoid any prompts or notifications that may overwhelm the user"
+    ]
+  },
+  {
+    "id": "US-107",
+    "title": "Reject Overly Taxing or Embarrassing Exercises",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Rejects physical exercises that seem too taxing or embarrassing",
+    "use_case": "UC-009",
+    "priority": 1,
+    "summary": "As an older person, I want to avoid all challenging exercises that feel taxing or embarrassing, so I can maintain my comfort and control during recovery.",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "type": "Non-Functional",
+    "cluster": "Game Usability & Accessibility",
+    "decomposition": [
+      "Exclude exercises that are physically taxing or overly challenging",
+      "Exclude exercises that may cause embarrassment to the user",
+      "Ensure user comfort and sense of control during exercise selection"
+    ]
+  },
+  {
+    "id": "US-108",
+    "title": "Minimal and Formal Interaction with ALFRED",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Balances minimal engagement with ALFRED against feelings of irritation and isolation",
+    "use_case": "UC-009",
+    "priority": 5,
+    "summary": "As an older person, I want to receive only ALFRED messages and notifications I explicitly request and all communication to be formal and polite to protect my privacy and avoid feeling overwhelmed.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "Health Data Management & Security",
+    "decomposition": [
+      "Deliver ALFRED messages and notifications only when explicitly requested by the user",
+      "Ensure all ALFRED communications are formal and polite in tone",
+      "Minimize the frequency and volume of unsolicited messages to avoid overwhelming the user"
+    ]
+  },
+  {
+    "id": "US-109",
+    "title": "Support Recovery Only on My Terms",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Accepts ALFRED only as a tool to support recovery on her own terms despite slower progress",
+    "use_case": "UC-009",
+    "priority": 5,
+    "summary": "As an older person, I want ALFRED to support my recovery only when I ask, without unsolicited messages or interventions, so I can keep full control and avoid feeling overwhelmed.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "Health Data Management & Security",
+    "decomposition": [
+      "Provide recovery support only upon explicit user request",
+      "Avoid sending unsolicited messages related to recovery",
+      "Ensure user retains full control over recovery interactions to prevent feeling overwhelmed"
+    ]
+  },
+  {
+    "id": "US-126",
+    "title": "Quiet and Private Interaction Mode",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Desire a quiet, private, and non-intrusive user experience from ALFRED",
+    "use_case": "UC-011",
+    "priority": 5,
+    "summary": "As an older person, I want ALFRED to respond only when I use push-to-talk and to block almost all notifications, so I can protect my privacy and avoid feeling overwhelmed.",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "type": "Non-Functional",
+    "cluster": "Interaction Control & Consent",
+    "decomposition": [
+      "ALFRED responds only to push-to-talk activation",
+      "Block almost all notifications in quiet mode",
+      "Protect user privacy by minimizing unsolicited system interactions"
+    ]
+  },
+  {
+    "id": "US-127",
+    "title": "Block Unsolicited App Notifications",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Receives notification about a new app available in the ALFRED marketplace",
+    "use_case": "UC-012",
+    "priority": 5,
+    "summary": "As an older adult I want to block all app installations and notifications unless I specifically request them, to avoid digital intrusions and protect my privacy.",
+    "pillar": "General Requirements",
+    "type": "Non-Functional",
+    "cluster": "Security & Privacy",
+    "decomposition": [
+      "Block all app installations unless explicitly requested by the user",
+      "Block all app-generated notifications unless explicitly requested by the user",
+      "Prevent unsolicited digital intrusions to protect user privacy"
+    ]
+  },
+  {
+    "id": "US-138",
+    "title": "Control System Boundaries and Privacy Strictly",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Maintains cautious reassurance by controlling system boundaries",
+    "use_case": "UC-013",
+    "priority": 1,
+    "summary": "As an older person, I want to block almost all ALFRED notifications and prevent any data sharing with family, caregivers, doctors, or third parties to protect my privacy and feel secure.",
+    "pillar": "General Requirements",
+    "type": "Non-Functional",
+    "cluster": "Security & Privacy",
+    "decomposition": [
+      "Block almost all ALFRED notifications to the user",
+      "Prevent sharing any personal data with family, caregivers, doctors, or third parties",
+      "Ensure user privacy is strictly maintained to provide a feeling of security"
+    ]
+  },
+  {
+    "id": "US-144",
+    "title": "Balance Tech Adoption with Autonomy",
+    "persona": "P-006",
+    "user_group": "Caregivers and Medical Staff",
+    "task": "Balances encouraging technology adoption with respecting autonomy",
+    "use_case": "UC-013",
+    "priority": 1,
+    "summary": "As an informal caregiver managing multiple clients, I want to control ALFRED's technology use to prioritize each client's privacy and autonomy, ensuring their independence without discomfort or mistrust.",
+    "pillar": "General Requirements",
+    "type": "Non-Functional",
+    "cluster": "Security & Privacy",
+    "decomposition": [
+      "Allow caregivers to configure ALFRED's technology usage per client to respect individual privacy preferences",
+      "Ensure ALFRED supports client autonomy by minimizing intrusive or controlling interventions",
+      "Prevent technology use that may cause client discomfort or mistrust"
+    ]
+  }
+]

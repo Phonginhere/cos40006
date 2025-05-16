@@ -5,12 +5,12 @@ from typing import List, Optional
 from pipeline.utils import (
     get_llm_response, 
     load_system_summary, 
-    load_user_group_summary, 
+    load_user_group_guidelines, 
     PERSONA_DIR, 
     USER_GROUP_KEYS, 
     get_user_group_key_from_name, 
     get_user_group_name_from_key, 
-    load_user_group_summary
+    load_user_group_guidelines
 )
 
 class UserPersona:
@@ -48,7 +48,7 @@ class UserPersona:
         }
         
         group_summaries = {
-            name: load_user_group_summary(USER_GROUP_KEYS[name])
+            name: load_user_group_guidelines(USER_GROUP_KEYS[name])
             for name in USER_GROUP_KEYS
         }
 

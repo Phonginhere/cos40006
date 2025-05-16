@@ -1,0 +1,44 @@
+[
+  {
+    "conflictType": "Start-Forbid",
+    "conflictDescription": "User Story A emphasizes simplicity and quick, distraction-free access to clinical data, implying minimal automatic interventions, while User Story B requires ALFRED to automatically activate health support and interventions even if it feels controlling, creating opposing instructions on system behavior upon health events.",
+    "conflictId": "FCAT-060",
+    "personaAId": "P-001",
+    "personaBId": "P-002",
+    "userGroupA": "Developers and App Creators",
+    "userGroupB": "Older Adults",
+    "userStoryAId": "US-106",
+    "userStoryBId": "US-121",
+    "userStoryASummary": "As a developer, I want to build clinical integration tools that prioritize simplicity and reliability, enabling quick and distraction-free access to vital data for medical staff.",
+    "userStoryBSummary": "As an older person, I want ALFRED to automatically activate health support and interventions even if it feels controlling, because I prioritize my health and well-being.",
+    "cluster": "Balance patient autonomy with clinical access"
+  },
+  {
+    "conflictType": "Forbid-stop",
+    "conflictDescription": "User Story A requires monitoring and addressing user feedback to ensure app acceptance including exercise notifications, while User Story B strictly forbids most exercise notifications as intrusive, creating incompatible expectations on notification delivery.",
+    "conflictId": "FCAT-082",
+    "personaAId": "P-001",
+    "personaBId": "P-005",
+    "userGroupA": "Developers and App Creators",
+    "userGroupB": "Older Adults",
+    "userStoryAId": "US-132",
+    "userStoryBId": "US-014",
+    "userStoryASummary": "As a developer, I want to continuously monitor user feedback to quickly identify and address acceptance issues, ensuring my app meets diverse older adults' needs effectively.",
+    "userStoryBSummary": "As an older person, I want ALFRED to block and dismiss almost all notifications about physical exercises because I find them intrusive, overwhelming, and prefer to avoid challenging activities.",
+    "cluster": "Minimal and Formal Interaction with ALFRED"
+  },
+  {
+    "conflictType": "Forbid-stop",
+    "conflictDescription": "User Story A implies continuous monitoring and addressing user feedback including acceptance of features like hydration reminders, while User Story B forbids unsolicited hydration reminders unless explicitly requested, creating a conflict between performing an operation and strictly forbidding it under certain conditions.",
+    "conflictId": "FCAT-084",
+    "personaAId": "P-001",
+    "personaBId": "P-005",
+    "userGroupA": "Developers and App Creators",
+    "userGroupB": "Older Adults",
+    "userStoryAId": "US-132",
+    "userStoryBId": "US-124",
+    "userStoryASummary": "As a developer, I want to continuously monitor user feedback to quickly identify and address acceptance issues, ensuring my app meets diverse older adults' needs effectively.",
+    "userStoryBSummary": "As an older person, I want to receive hydration reminders only when I explicitly ask for them, so I can avoid unwanted interruptions and maintain control.",
+    "cluster": "Minimal and Formal Interaction with ALFRED"
+  }
+]

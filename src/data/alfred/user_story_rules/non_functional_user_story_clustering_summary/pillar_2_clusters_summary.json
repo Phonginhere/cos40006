@@ -6,9 +6,5 @@
   {
     "cluster_name": "Social Privacy & Control",
     "cluster_description": "Requirements ensuring users maintain control over their social presence. These include privacy settings, communication filters, and data-sharing boundaries for social interactions."
-  },
-  {
-    "cluster_name": "Autonomy in Social Participation",
-    "cluster_description": "Requirements supporting user independence in choosing when and how to engage in social features (e.g., games, events) without pressure, and avoiding stigmatization or unwanted prompts."
   }
 ]

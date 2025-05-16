@@ -29,6 +29,7 @@
   "TypicalChallenges": [
     "Privacy concerns",
     "Own customization on the system",
+    "Avoid all challenging exercises",
     "Struggle to push myself to receive a check up call"
   ],
   "Singularities": [
@@ -38,12 +39,12 @@
     "Make myself perfect and avoid discrimination"
   ],
   "MainActions" : [
-    "Block all app installations unless special request",
+    "Block all app installations (unless special request)",
     "ALFRED's voice assistant don't need to explain clearly and detailedly its features, I just want to use it",
-    "Limited sharing of my data with family and friends, even caregivers and doctors",
+    "Block sharing of my data with family and friends, even caregivers and doctors",
     "No sharing of my data with third parties, app creators",
-    "All conversations or messages must be formal",
-    "Hardly wear wearables with data sensor, they must not share my data with third parties",
+    "All conversations or messages must be formal, including the ones with my family and friends",
+    "Hardly wear wearables with a sensor, they must not share my data with third parties",
     "Dismiss all notifications of the hard exercises",
     "Hardly accept video check-ins arranged by my caregiver, prefer offline check-ins"
   ],

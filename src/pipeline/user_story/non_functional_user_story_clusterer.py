@@ -5,7 +5,7 @@ from pipeline.user_story.user_story_loader import UserStoryLoader
 from pipeline.utils import (
     USER_STORY_DIR,
     load_system_summary,
-    load_user_story_summary,
+    load_user_story_guidelines,
     get_llm_response,
     load_non_functional_user_story_cluster_summary
 )
@@ -90,7 +90,7 @@ def cluster_non_functional_user_stories(user_story_loader: UserStoryLoader = Non
         return
 
     system_summary = load_system_summary()
-    story_guidelines = load_user_story_summary()
+    story_guidelines = load_user_story_guidelines()
 
     for story in non_functional_stories:
         if story.cluster and story.cluster.strip():

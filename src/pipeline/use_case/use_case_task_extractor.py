@@ -68,6 +68,7 @@ Scenario:
 - Include **both action-based** (functional) and **quality-focused** (non-functional) tasks.
 - Each task should be written as a short, complete sentence or phrase. Also, they should be distinct, goal-oriented and not repeated across personas.
 - Group tasks by persona. In the extracted tasks, please use the persona name, NOT their id, which is only used for the attribute "personaId".
+- Strictly, please note that each task from a persona should not only from the use case only, but must align with that involved persona's information. In some cases, especially where the use case's relevant section(s) are quite vague and general, the persona's information should be the **dominant factor** in the task extraction process.
 
 --- OUTPUT FORMAT ---
 

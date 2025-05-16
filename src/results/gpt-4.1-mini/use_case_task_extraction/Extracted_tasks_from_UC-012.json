@@ -2,29 +2,26 @@
   "useCaseId": "UC-012",
   "tasksByPersona": [
     {
-      "personaId": "P-001",
-      "tasks": [
-        "Reviews final security protocols for the healthcare app",
-        "Studies ALFREDs API documentation for data protection compliance",
-        "Publishes the healthcare app on the ALFRED marketplace",
-        "Responds to privacy complaints submitted through the platform"
-      ]
-    },
-    {
       "personaId": "P-005",
       "tasks": [
-        "Reviews new apps on the ALFRED marketplace with skepticism",
-        "Avoids engaging with complicated consent forms",
-        "Submits privacy complaints emphasizing data sovereignty",
-        "Demands strict opt-in mechanisms for app installations"
+        "Receives notification about a new app available in the ALFRED marketplace"
       ]
     },
     {
       "personaId": "P-002",
       "tasks": [
-        "Explores new healthcare apps on the ALFRED marketplace eagerly",
-        "Appreciates the ease of use and feature richness of new apps",
-        "Trusts ALFRED to manage permissions and data sharing appropriately"
+        "Browses the ALFRED marketplace to discover new apps",
+        "Selects and installs apps that support hydration and physical activity tracking"
+      ]
+    },
+    {
+      "personaId": "P-001",
+      "tasks": [
+        "Accesses the ALFRED developer portal to study API documentation and guidelines",
+        "Designs app installation flows requiring explicit user permission",
+        "Monitors user feedback to identify acceptance issues and user concerns",
+        "Considers implementing stricter data controls and formal communication options",
+        "Reflects on the tension between innovation and users diverse privacy preferences"
       ]
     }
   ]

@@ -10,9 +10,5 @@
   {
     "cluster_name": "Therapeutic Effectiveness",
     "cluster_description": "Requirements ensuring games achieve their intended health benefits such as motor or cognitive improvements."
-  },
-  {
-    "cluster_name": "Comfort & Non-Stigmatizing Design",
-    "cluster_description": "Requirements related to the comfort, discretion, and non-stigmatizing nature of wearables and assistive tech. Emphasizes aesthetics, emotional impact, and integration with personal identity."
   }
 ]

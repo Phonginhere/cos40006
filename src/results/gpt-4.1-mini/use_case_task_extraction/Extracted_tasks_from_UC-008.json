@@ -4,27 +4,25 @@
     {
       "personaId": "P-004",
       "tasks": [
-        "Disables interactive tutorials in the app to avoid distractions",
-        "Navigates the healthcare app manually without relying on voice guidance",
-        "Relies on secure API integration to pull patient vitals into hospital systems",
-        "Expresses skepticism about adopting new digital tools in clinical workflow",
-        "Trusts the data validation mechanisms to ensure accuracy",
-        "Manages app settings to reduce cognitive load during work hours"
+        "Reviews flagged unfamiliar data fields and expresses frustration",
+        "Requests simplified interface with fewer extraneous details via feedback",
+        "Balances urgency for rapid health data access with unease about overriding patient consent",
+        "Focuses on pragmatic, fast-paced use of ALFRED in a busy urban hospital environment"
       ]
     },
     {
       "personaId": "P-001",
       "tasks": [
-        "Develops healthcare app integrations for the ALFRED platform remotely",
-        "Implements strict security and privacy standards in app design",
-        "Optimizes app responsiveness on older devices",
-        "Incorporates smart, proactive voice guidance and autocompletion features",
-        "Balances app complexity to avoid overwhelming end users and medical staff",
-        "Designs adjustable interaction modes to accommodate different user preferences",
-        "Refines customization options based on user feedback",
-        "Monitors and evaluates app usability for clinical and older adult users",
-        "Seeks to enhance accessibility and reduce cognitive load through voice assistance",
-        "Reflects on the tension between innovative features and clinical straightforwardness"
+        "Works remotely from a quiet rural home office on clinical data integration toolkit development",
+        "Reads and studies ALFRED developer documentation to design APIs",
+        "Crafts secure APIs for streamlined access to patient data and clinical workflows",
+        "Ensures system compatibility with older devices used by medical staff",
+        "Prioritizes patient data privacy and security in system design",
+        "Feels tension between respecting patient autonomy and meeting medical staff needs",
+        "Reviews and considers feedback from medical staff like Mike",
+        "Contemplates implementing adaptive modes to toggle interface complexity by user role and context",
+        "Seeks to introduce innovative features like smart voice guidance and dynamic autocompletion",
+        "Balances desire for cutting-edge usability with need for simplicity and reliability"
       ]
     }
   ]

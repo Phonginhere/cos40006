@@ -12,7 +12,7 @@ from pipeline.utils import (
     USER_GROUPS,
     FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR,
     load_system_summary,
-    load_user_story_summary,
+    load_user_story_guidelines,
     load_functional_user_story_conflict_summary,
     get_llm_response,
     CURRENT_LLM
@@ -44,7 +44,7 @@ def identify_functional_conflicts_within_one_group(user_story_loader: Optional[U
         cluster_map[cluster].append(story)
 
     system_summary = load_system_summary()
-    user_story_guidelines = load_user_story_summary()
+    user_story_guidelines = load_user_story_guidelines()
     conflict_technique_summary = load_functional_user_story_conflict_summary()
 
     conflict_id_counter = 1

@@ -9,12 +9,12 @@ from pipeline.utils import (
     USER_GROUP_KEYS,
     USER_GROUPS,
     load_system_summary,
-    load_user_group_summary,
-    load_user_story_summary,
+    load_user_group_guidelines,
+    load_user_story_guidelines,
     load_non_functional_user_story_conflict_summary,
     get_llm_response,
     NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR,
-    NON_FUNCTIONAL_USER_STORY_ANALYSIS_PATH
+    NON_FUNCTIONAL_USER_STORY_DECOMPOSITION_PATH
 )
 
 
@@ -27,7 +27,7 @@ def identify_non_functional_conflicts_within_one_group(user_story_loader: Option
         return
 
     # Load decomposed user stories
-    with open(NON_FUNCTIONAL_USER_STORY_ANALYSIS_PATH, "r", encoding="utf-8") as f:
+    with open(NON_FUNCTIONAL_USER_STORY_DECOMPOSITION_PATH, "r", encoding="utf-8") as f:
         decomposed_data = json.load(f)
     decomposed_map = {entry["id"]: entry for entry in decomposed_data}
 
@@ -41,7 +41,7 @@ def identify_non_functional_conflicts_within_one_group(user_story_loader: Option
             cluster_map[story.cluster].append(story)
 
     system_summary = load_system_summary()
-    user_story_summary = load_user_story_summary()
+    user_story_guidelines = load_user_story_guidelines()
     technique_summary = load_non_functional_user_story_conflict_summary()
 
     conflict_id_counter = 1
@@ -79,8 +79,8 @@ def identify_non_functional_conflicts_within_one_group(user_story_loader: Option
                             prompt = build_conflict_prompt(
                                 technique_summary,
                                 system_summary,
-                                load_user_group_summary(group_key),
-                                user_story_summary,
+                                load_user_group_guidelines(group_key),
+                                user_story_guidelines,
                                 sa,
                                 sb,
                                 cluster,
@@ -104,7 +104,7 @@ def build_conflict_prompt(
     technique_summary: str,
     system_summary: str,
     user_group_summary: str,
-    user_story_summary: str,
+    user_story_guidelines: str,
     story_a: UserStory,
     story_b: UserStory,
     cluster: str,
@@ -129,7 +129,7 @@ User Group Summary:
 ====================
 User Story Guidelines:
 ====================
-{user_story_summary}
+{user_story_guidelines}
 
 ====================
 Cluster of the two user stories below: {cluster}

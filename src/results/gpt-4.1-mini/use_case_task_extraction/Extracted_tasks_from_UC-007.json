@@ -2,31 +2,28 @@
   "useCaseId": "UC-007",
   "tasksByPersona": [
     {
-      "personaId": "P-005",
+      "personaId": "P-004",
       "tasks": [
-        "Ensures wearable sensors quietly track vital signs without disturbances"
+        "Accesses only validated, urgent health data from ALFRED",
+        "Relies on ALFRED's filtering to reduce notification overload",
+        "Avoids engaging with emotional or playful system interactions",
+        "Focuses strictly on clinical facts when reviewing patient data",
+        "Monitors Olivia's vital signs remotely through ALFRED",
+        "Prefers concise and prioritized health alerts to manage workload"
       ]
     },
     {
       "personaId": "P-006",
       "tasks": [
-        "Encourages Olivia to participate in social and cognitive activities",
-        "Avoids reliance on automatic recordings to prevent workflow complications",
-        "Balances respecting clients' privacy preferences with desire for open communication",
-        "Juggles multitasking across clients while staying responsive via ALFRED",
-        "Navigates tension between formal privacy demands and fostering emotional bonds"
+        "Supports Olivia's engagement by fostering openness through ALFRED"
       ]
     },
     {
-      "personaId": "P-004",
+      "personaId": "P-005",
       "tasks": [
-        "Sets ALFRED to block all non-critical notifications during work hours",
-        "Monitors Olivias vital data focusing only on urgent alerts",
-        "Accesses validated health trends quickly without distraction",
-        "Avoids interacting with non-clinical ALFRED features outside official hours",
-        "Demands a streamlined, clinical interface for receiving sensor alerts",
-        "Expresses frustration when privacy settings delay access to important health data",
-        "Relies on ALFRED to prevent missed emergencies through tailored alert filtering"
+        "Responds coolly and dismissively to ALFRED's reminders and check-ins",
+        "Prefers offline communication over system-mediated interactions",
+        "Guards personal health data carefully, even from medical staff"
       ]
     }
   ]

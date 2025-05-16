@@ -1,0 +1,29 @@
+{
+  "useCaseId": "UC-001",
+  "tasksByPersona": [
+    {
+      "personaId": "P-004",
+      "tasks": [
+        "Schedules regular video check-ins with Olivia to assess her health",
+        "Explains the benefits of using wearable sensors for health monitoring",
+        "Respects Olivia's privacy concerns by discussing data sharing options",
+        "Configures ALFRED to limit notifications according to Olivia's preferences",
+        "Monitors Olivia's vital signs through the ALFRED system remotely",
+        "Offers reassurance to Olivia about the non-intrusiveness of the system",
+        "Encourages Olivia to view ALFRED as a supportive tool for her health"
+      ]
+    },
+    {
+      "personaId": "P-005",
+      "tasks": [
+        "Reluctantly accepts the video call with Mike to discuss her health",
+        "Expresses skepticism about wearing the health monitoring sensors",
+        "Requests to block non-critical alerts from the ALFRED system",
+        "Engages in a dialogue with Mike to set up her health monitoring preferences",
+        "Seeks reassurance that her autonomy will be respected in using ALFRED",
+        "Feels a mix of irritation and reluctance towards the technology",
+        "Gradually acknowledges the potential benefits of using ALFRED for her health"
+      ]
+    }
+  ]
+}

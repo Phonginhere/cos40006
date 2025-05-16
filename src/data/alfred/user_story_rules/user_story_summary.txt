@@ -28,11 +28,7 @@ Each ALFRED user story contains the following elements:
 • Pillar              : Strictly, one of: "Developer Core", "General Requirements", "Pillar 1 - User-Driven Interaction Assistant", "Pillar 2 - Personalized Social Inclusion", "Pillar 3 - Effective & Personalized Care", or "Pillar 4 - Physical & Cognitive Impairments Prevention"
 • Task                : The raw task that inspired this story (used internally for traceability)
 • Priority Number     : A prioritization value from 1 (very high) to 5 (out of scope).
-• Summary             : A short and precise user story in 1 sentence (maybe 2, but rarely). Limit to about 10 to 30 words. 
-                        Begin with the persona’s role or situation (e.g., 'As an older person...' - generally, it should not mention directly the persona's name), describe their specific goal or action (and optionally conclude shortly with their reason or concern). 
-                        Avoid verbosity, abstract statements, or generic descriptions. Ensure they are sspoken directly, for example, use only **core** adjectives with a certain level, avoid using additional but non-essential adverbs or adjectives.
-                        Strictly, the persona information should be dominant in the context of a user story rather than the system context, even if it contradicts some of the content in the system context.
-
+• Summary             : A 1–2 sentence description of the story, starting with the persona’s role & intent. Generally, it should not mention directly the persona's name. Strictly, the persona information should be dominant in the context of a user story rather than the system context, even if it contradicts some of the content in the system context.
 
 ────────────────────────────────────────────
 
@@ -66,6 +62,12 @@ User Story 002: Speech Interaction
 User Story 003: Buttons  
 • "As an older person I would like use only well-visible buttons"
 
+User Story 004: Speech Interaction II  
+• "As an older person I would like ALFRED only listen to me when I ask it to (e.g. by pushing a button)"
+
+User Story 005: Control  
+• "As an older person I would like always keep control on the activities of ALFRED."
+
 User Story 030: Video Conversation II
 • "As a medical caregiver, I would like to have videophone"
 
@@ -78,11 +80,17 @@ User Story 034: Expandable ALFRED unit
 User Story 036: Wake Up Call
 • "As an older person I would like to receive a wake up call from ALFRED in the morning checking on me if I am ok"
 
+User Story 037: Agenda
+• "As an older person I would like receive day and night rythm support with agenda reminders"
+
 User Story 038: Public Transport
 • "As an older person I would like to receive support to use the public transport"
 
 User Story 039: Navigation
 • "As an older person I would like to use ALFRED for navigation"
+
+User Story 040: Tourist Information
+• "As an older person I would like to use ALFRED for touristic walks and indications with explanations on historical and cultural sights"
 
 User Story 050: Emergency II 
 • "As a medical caregiver, I would like to use video calls in case of emergency"
@@ -93,8 +101,17 @@ User Story 055: Pills Overview
 
 → Pillar 2 – Effective & Personalized Care
 
+User Story 064: Contacts
+• "As an older person I would like to use ALFRED to maintain my contact list in my phone"
+
 User Story 078: Organize Event
 • "As an older person I would like to use ALFRED to organize a meeting with a group of friends at a certain place"
+
+User Story 066: Agenda II
+• "As an older person I would like to insert my meetings into ALFRED using speech"
+
+User Story 067: Reminders I
+• "As an older person I would like to receive reminders on my appointments"
 
 User Story 080: Sports Classes in My Neighbourhood
 • "As an older person I would like to get suggestions for sports classes in my neighbourhood"
@@ -105,8 +122,17 @@ User Story 069: Shopping Reminders
 
 → Pillar 3 – Effective & Personalized Care
 
+User Story 082: Control of Body Weight
+• "As an older person, I would like to help me to control my body weight"
+
 User Story 083: Easy Contact with Caregivers
 • "As an older person, I would like to just press one button to call my caregiver"
+
+User Story 084: Access to Vital Data I
+• "As an older person I would like to would like to decide who has access to my vital data"
+
+User Story 085: Access to Vital Data II
+• "As a medical caregiver I would like to be sure that the user can decide who has access to her data"
 
 User Story 086: Wearable Sensors
 • "As an older person, I would like the wearables with integrated sensors to look good and not to be stigmatizing."
@@ -117,11 +143,26 @@ User Story 090: Measurement of Hypertension
 User Story 091: Measurement of Body Temperature
 • "As a medical caregiver, I would like ALFRED to be able to determine the user's body temperature"
 
+User Story 092: Measurement of Heart Rate
+• "As a medical caregiver, I would like ALFRED to be able to determine the user's heart rate"
+
+User Story 094: User Activity Level Monitoring I
+• "As a medical caregiver, I would like to have feedback on the activity level of the user"
+
 User Story 096: Skin Conduction Sensors
 • "As a social caregiver, I would like ALFRED to be able to recognize pain and or stress by using skin conduction sensors"
 
 
 → Pillar 4 – Physical & Cognitive Impairments Prevention
+
+User Story 098: Motivation of New Activities
+• "As an older person, I would like ALFRED to give me goals and missions that encourage me to do new activities and exercises and to go out."
+
+User Story 099: Limited Serious Games Duration
+• "As an older person, I would like ALFRED to set limits in the games duration as I get bored easily"
+
+User Story 100: Use of Imagination
+• "As an older person, I would like to play games where I can use my imagination"
 
 User Story 101: Use of Health Data in Serious Games
 • "As an older person, I would like to do guided exercises with ALFRED. ALFRED should also use sensors to capture health data while I am doing exercises"
@@ -132,6 +173,9 @@ User Story 102: Games for Interests
 User Story 105: Regular Exercise Reminder 
 • "As a medical caregiver I would like ALFRED to remind people to exercise regularly"
 
+User Story 109: Training for Muscles II 
+• "As a medical caregiver, I would like ALFRED to offer training for specific muscle groups"
+
 User Story 112: Varied Exercise I
 • "As a medical caregiver, I would like ALFRED to propose me games that require the combination of mental and physical exercise, such as opposing motion exercises of the arms and legs"
 
@@ -139,6 +183,12 @@ User Story 116: Games for Care
 • "As an informal caregiver, I would like to have a game that the carer could play together with the user (i.e. with the patient), which would enable to monitor the users’ state of health but also have some fun time"
 
 → Core Requirements (Developers)
+
+User Story 119: Clientele
+• "As a developer, I want to present my app to as many people as possible."
+
+User Story 120: Accounting
+• "As a developer, I want the accounting to be as simple and clear as possible."
 
 User Story 121: Manage Apps
 • "As a developer, I want to easily create and to maintain my apps within the market place"

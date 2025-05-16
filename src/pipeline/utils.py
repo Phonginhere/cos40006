@@ -3,12 +3,26 @@ import os
 
 from typing import List, Dict, Optional
 
+
 # ===============================================================================================
 # CONSTANTS
 
+# Base directory - path to the src directory
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 # Global variable to specify which LLM is being used in the pipeline
-# CURRENT_LLM = "gpt-4o-mini"
-CURRENT_LLM = "gpt-4.1-mini"
+CURRENT_LLM = "gpt-4o-mini"  # Default model, will be updated from API call
+
+# Function to load API key from file
+def load_api_key():
+    api_key_path = os.path.join(BASE_DIR, "openai_api_key.txt")
+    if os.path.exists(api_key_path):
+        with open(api_key_path, "r") as f:
+            api_key = f.read().strip()
+            os.environ["OPENAI_API_KEY"] = api_key
+            return api_key
+    else:
+        raise FileNotFoundError(f"API key file not found at: {api_key_path}")
 
 SYSTEM_NAME = "alfred"
 
@@ -20,32 +34,31 @@ USER_GROUP_KEYS = {
 
 USER_GROUPS = list(USER_GROUP_KEYS.keys())
 
-SYSTEM_SUMMARY_PATH = os.path.join("data", SYSTEM_NAME, "system_summary.txt")
-USER_GROUP_SUMMARY_DIR = os.path.join("data", SYSTEM_NAME, "group_summaries")
-PERSONA_DIR = os.path.join("data", SYSTEM_NAME, "personas")
+# Use absolute paths based on the BASE_DIR
+SYSTEM_SUMMARY_PATH = os.path.join(BASE_DIR, "data", SYSTEM_NAME, "system_summary.txt")
+USER_GROUP_SUMMARY_DIR = os.path.join(BASE_DIR, "data", SYSTEM_NAME, "group_summaries")
+PERSONA_DIR = os.path.join(BASE_DIR, "data", SYSTEM_NAME, "personas")
 
-USE_CASE_SUMMARY_PATH = os.path.join("data", SYSTEM_NAME, "use_case_rules", "use_case_summary.txt")
-USE_CASE_TYPE_CONFIG_PATH = os.path.join("data", SYSTEM_NAME, "use_case_rules", "use_case_type_config.json")
-USE_CASE_TASK_ANALYSIS_EXAMPLE_PATH = os.path.join("data", SYSTEM_NAME, "use_case_rules", "use_case_task_analysis_example.txt")
+USE_CASE_SUMMARY_PATH = os.path.join(BASE_DIR, "data", SYSTEM_NAME, "use_case_rules", "use_case_summary.txt")
+USE_CASE_TYPE_CONFIG_PATH = os.path.join(BASE_DIR, "data", SYSTEM_NAME, "use_case_rules", "use_case_type_config.json")
+USE_CASE_TASK_ANALYSIS_EXAMPLE_PATH = os.path.join(BASE_DIR, "data", SYSTEM_NAME, "use_case_rules", "use_case_task_analysis_example.txt")
 
-USER_STORY_SUMMARY_PATH = os.path.join("data", SYSTEM_NAME, "user_story_rules", "user_story_summary.txt")
-NON_FUNCTIONAL_USER_STORY_CLUSTERING_SUMMARY_DIR = os.path.join("data", SYSTEM_NAME, "user_story_rules", "non_functional_user_story_clustering_summary")
+USER_STORY_SUMMARY_PATH = os.path.join(BASE_DIR, "data", SYSTEM_NAME, "user_story_rules", "user_story_summary.txt")
+NON_FUNCTIONAL_USER_STORY_CLUSTERING_SUMMARY_DIR = os.path.join(BASE_DIR, "data", SYSTEM_NAME, "user_story_rules", "non_functional_user_story_clustering_summary")
 
-NON_FUNCTIONAL_USER_STORY_CONFLICT_SUMMARY_PATH = os.path.join("data", SYSTEM_NAME, "user_story_conflict_rules", "non_functional_user_story_conflict_summary.txt")
-FUNCTIONAL_USER_STORY_CONFLICT_SUMMARY_PATH = os.path.join("data", SYSTEM_NAME, "user_story_conflict_rules", "functional_user_story_conflict_summary.txt")
+NON_FUNCTIONAL_USER_STORY_CONFLICT_SUMMARY_PATH = os.path.join(BASE_DIR, "data", SYSTEM_NAME, "user_story_conflict_rules", "non_functional_user_story_conflict_summary.txt")
+FUNCTIONAL_USER_STORY_CONFLICT_SUMMARY_PATH = os.path.join(BASE_DIR, "data", SYSTEM_NAME, "user_story_conflict_rules", "functional_user_story_conflict_summary.txt")
 
-USE_CASE_DIR = os.path.join("results", CURRENT_LLM, "use_cases")
-USE_CASE_TASK_EXTRACTION_DIR = os.path.join("results", CURRENT_LLM, "use_case_task_extraction")
+USE_CASE_DIR = os.path.join(BASE_DIR, "results", CURRENT_LLM, "use_cases")
+USE_CASE_TASK_EXTRACTION_DIR = os.path.join(BASE_DIR, "results", CURRENT_LLM, "use_case_task_extraction")
 
-USER_STORY_DIR = os.path.join("results", CURRENT_LLM, "user_stories")
-FUNCTIONAL_USER_STORY_CLUSTER_SET_PATH = os.path.join("results", CURRENT_LLM, "functional_user_story_cluster_set.json")
+USER_STORY_DIR = os.path.join(BASE_DIR, "results", CURRENT_LLM, "user_stories")
+FUNCTIONAL_USER_STORY_CLUSTER_SET_PATH = os.path.join(BASE_DIR, "results", CURRENT_LLM, "functional_user_story_cluster_set.json")
 
-USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join("results", CURRENT_LLM, "conflicts_within_one_group")
+NON_FUNCTIONAL_USER_STORY_ANALYSIS_PATH = os.path.join(BASE_DIR, "results", CURRENT_LLM, "non_functional_user_story_analysis.json")
+NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join(BASE_DIR, "results", CURRENT_LLM, "conflicts_within_one_group", "non_functional_user_stories")
 
-NON_FUNCTIONAL_USER_STORY_ANALYSIS_PATH = os.path.join("results", CURRENT_LLM, "non_functional_user_story_analysis.json")
-NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join(USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, "non_functional_user_stories")
-
-FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join(USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, "functional_user_stories")
+FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join(BASE_DIR, "results", CURRENT_LLM, "conflicts_within_one_group", "functional_user_stories")
 
 # ==================================================================================================
 # ALFRED SYSTEM SUMMARY LOADER
@@ -149,31 +162,27 @@ def load_user_story_summary() -> str:
 # ==================================================================================================
 # NON-FUNCTIONAL USER STORY CLUSTER SUMMARY LOADER
 
-def load_non_functional_user_story_cluster_summary(pillar: str) -> list:
-    """Load non-functional user story clusters as JSON objects for the given pillar."""
-    filename_map = {
-        "General Requirements": "general_requirements_clusters_summary.json",
-        "Pillar 1 - User-Driven Interaction Assistant": "pillar_1_clusters_summary.json",
-        "Pillar 2 - Personalized Social Inclusion": "pillar_2_clusters_summary.json",
-        "Pillar 3 - Effective & Personalized Care": "pillar_3_clusters_summary.json",
-        "Pillar 4 - Physical & Cognitive Impairments Prevention": "pillar_4_clusters_summary.json",
-        "Developer Core": "developer_core_clusters_summary.json"
+def load_non_functional_user_story_cluster_summary(pillar: str) -> str:
+    """Loads the pillar-specific cluster summary for user story classification."""
+    path_map = {
+        "General Requirements": "general_requirements_clusters_summary.txt",
+        "Pillar 1 - User-Driven Interaction Assistant": "pillar_1_clusters_summary.txt",
+        "Pillar 2 - Personalized Social Inclusion": "pillar_2_clusters_summary.txt",
+        "Pillar 3 - Effective & Personalized Care": "pillar_3_clusters_summary.txt",
+        "Pillar 4 - Physical & Cognitive Impairments Prevention": "pillar_4_clusters_summary.txt",
+        "Developer Core": "developer_core_clusters_summary.txt"
     }
-    filename = filename_map.get(pillar)
+    filename = path_map.get(pillar)
     if not filename:
-        print(f"⚠️ No cluster JSON file mapped for pillar: {pillar}")
-        return []
+        return None
 
     full_path = os.path.join(NON_FUNCTIONAL_USER_STORY_CLUSTERING_SUMMARY_DIR, filename)
     try:
         with open(full_path, "r", encoding="utf-8") as f:
-            return json.load(f)
+            return f.read().strip()
     except FileNotFoundError:
-        print(f"❌ Cluster JSON file not found: {full_path}")
-        return []
-    except json.JSONDecodeError:
-        print(f"❌ JSON decode error in cluster file: {full_path}")
-        return []
+        print(f"❌ Cluster summary file not found: {full_path}")
+        return None
     
 # ==================================================================================================
 # NON-FUNCTIONAL USER STORY CONFLICT SUMMARY LOADER
@@ -183,13 +192,6 @@ def load_non_functional_user_story_conflict_summary() -> str:
             return f.read().strip()
     except FileNotFoundError:
         raise FileNotFoundError(f"❌ Missing non-functional user story conflict summary file at: {NON_FUNCTIONAL_USER_STORY_CONFLICT_SUMMARY_PATH}")
-    
-def load_functional_user_story_conflict_summary() -> str:
-    try:
-        with open(FUNCTIONAL_USER_STORY_CONFLICT_SUMMARY_PATH, "r", encoding="utf-8") as f:
-            return f.read().strip()
-    except FileNotFoundError:
-        raise FileNotFoundError(f"❌ Missing non-functional user story conflict summary file at: {FUNCTIONAL_USER_STORY_CONFLICT_SUMMARY_PATH}")
 
 # ==================================================================================================
 # LLM HANDLER
@@ -201,20 +203,35 @@ except ImportError:
     raise ImportError("❌ Missing dependency: Please install the OpenAI package using 'pip install openai'.")
 
 # Load OpenAI API key from file
-def load_api_key(path: str = "api_key.txt") -> str:
-    """Loads the OpenAI API key from a separate text file."""
-    try:
-        with open(path, "r") as file:
-            key = file.read().strip()
-            if not key:
-                raise ValueError("❌ OpenAI API key file is empty.")
-            return key
-    except FileNotFoundError:
-        raise FileNotFoundError("❌ API key file not found. Please create 'api_key.txt' and add your API key.")
+def load_api_key():
+    """Load API key from file"""
+    # Try current directory first
+    api_key_path = "openai_api_key.txt"
+    
+    # If not in current directory, try project root
+    if not os.path.exists(api_key_path):
+        api_key_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "openai_api_key.txt")
+    
+    if os.path.exists(api_key_path):
+        with open(api_key_path, "r") as file:
+            api_key = file.read().strip()
+            os.environ["OPENAI_API_KEY"] = api_key
+            return api_key
+    else:
+        raise FileNotFoundError("❌ API key file not found. Please create 'openai_api_key.txt' and add your API key.")
 
-# Set OpenAI API key
-api_key = load_api_key()
-client = OpenAI(api_key=api_key)
+# Don't load the API key at module import time
+# Instead, make client initialization lazy
+client = None
+
+def get_client():
+    """Get or initialize the OpenAI client"""
+    global client
+    if client is None:
+        from openai import OpenAI
+        api_key = load_api_key()
+        client = OpenAI(api_key=api_key)
+    return client
 
 # Generate a response using the Responses API
 def get_openai_response(
@@ -225,6 +242,9 @@ def get_openai_response(
 ) -> str:
     """Uses OpenAI's Responses API to generate a response from the specified model."""
     try:
+        # Get or initialize the client
+        client = get_client()
+        
         response = client.responses.create(
             model=model,
             instructions=system_prompt,
@@ -237,12 +257,40 @@ def get_openai_response(
 
     except Exception as e:
         print(f"❌ OpenAI API Error: {e}")
-        return None
+        # Return a default string instead of None to avoid None.strip() errors
+        return "Unknown"
 
 # LLM Dispatcher
 def get_llm_response(prompt: str) -> str:
     """Dispatches LLM call based on the currently selected model."""
-    if CURRENT_LLM.startswith("gpt-4"):
+    supported_models = ["gpt-4", "gpt-4o", "deepseek-coder", "cpt-4.0-mini", "gpt-4.1-mini"]
+    
+    # Check if any supported model prefix matches the current LLM
+    if any(CURRENT_LLM.startswith(model_prefix) for model_prefix in supported_models):
         return get_openai_response(prompt, model=CURRENT_LLM)
     else:
-        raise NotImplementedError(f"❌ LLM '{CURRENT_LLM}' is not supported yet.")
+        print(f"⚠️ Warning: Model '{CURRENT_LLM}' may not be fully supported. Attempting to use anyway.")
+        return get_openai_response(prompt, model=CURRENT_LLM)
+
+def set_current_llm(model_name):
+    """Updates the current LLM model and refreshes all related file paths."""
+    global CURRENT_LLM
+    global USE_CASE_DIR, USE_CASE_TASK_EXTRACTION_DIR
+    global USER_STORY_DIR, FUNCTIONAL_USER_STORY_CLUSTER_SET_PATH
+    global NON_FUNCTIONAL_USER_STORY_ANALYSIS_PATH
+    global NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR
+    global FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR
+    
+    # Update the model name
+    CURRENT_LLM = model_name
+    
+    # Refresh all path variables that depend on CURRENT_LLM
+    USE_CASE_DIR = os.path.join(BASE_DIR, "results", CURRENT_LLM, "use_cases")
+    USE_CASE_TASK_EXTRACTION_DIR = os.path.join(BASE_DIR, "results", CURRENT_LLM, "use_case_task_extraction")
+    USER_STORY_DIR = os.path.join(BASE_DIR, "results", CURRENT_LLM, "user_stories")
+    FUNCTIONAL_USER_STORY_CLUSTER_SET_PATH = os.path.join(BASE_DIR, "results", CURRENT_LLM, "functional_user_story_cluster_set.json")
+    NON_FUNCTIONAL_USER_STORY_ANALYSIS_PATH = os.path.join(BASE_DIR, "results", CURRENT_LLM, "non_functional_user_story_analysis.json")
+    NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join(BASE_DIR, "results", CURRENT_LLM, "conflicts_within_one_group", "non_functional_user_stories")
+    FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join(BASE_DIR, "results", CURRENT_LLM, "conflicts_within_one_group", "functional_user_stories")
+    
+    return CURRENT_LLM

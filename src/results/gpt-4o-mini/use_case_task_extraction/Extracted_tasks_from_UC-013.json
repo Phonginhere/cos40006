@@ -1,0 +1,33 @@
+{
+  "useCaseId": "UC-013",
+  "tasksByPersona": [
+    {
+      "personaId": "P-002",
+      "tasks": [
+        "Expresses eagerness to start customizing ALFRED",
+        "Advocates for social engagement features in ALFRED",
+        "Desires a more interactive experience with the voice assistant",
+        "Feels frustrated when Olivia insists on limiting notifications",
+        "Finds a sense of accomplishment upon completing the setup"
+      ]
+    },
+    {
+      "personaId": "P-005",
+      "tasks": [
+        "Rejects unsolicited messages regarding social activities"
+      ]
+    },
+    {
+      "personaId": "P-006",
+      "tasks": [
+        "Facilitates the onboarding process for both Elena and Olivia",
+        "Encourages Elena's eagerness and enthusiasm for the setup",
+        "Balances the differing preferences of Elena and Olivia during configuration",
+        "Ensures that both women feel heard and supported in their choices",
+        "Proposes compromises to meet both Elena's and Olivia's expectations",
+        "Monitors the emotional dynamics during the setup process",
+        "Feels relieved to successfully navigate conflicting views"
+      ]
+    }
+  ]
+}

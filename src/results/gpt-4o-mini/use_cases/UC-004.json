@@ -1,0 +1,17 @@
+{
+  "id": "UC-004",
+  "useCaseType": "Social Enrichment (Social Media, Communication)",
+  "userGroups": [
+    "Older Adults"
+  ],
+  "pillars": [
+    "Pillar 2 - Personalized Social Inclusion",
+    "Pillar 4 - Physical & Cognitive Impairments Prevention"
+  ],
+  "name": "Formal Communication via ALFRED",
+  "description": "Olivia, a retired social worker, uses ALFRED to maintain formal communication with her caregivers and family while ensuring her privacy concerns are addressed. The system is tailored to limit notifications and provide a user-friendly interface that respects her preferences for data sharing and engagement.",
+  "scenario": "Olivia sat in her favorite armchair, the sunlight filtering through the curtains, while ALFRED quietly waited for her command. Today, she needed to confirm a check-in with her caregiver, Mike, but the thought of yet another interaction made her feel uneasy. She sighed, wishing the system didn’t feel so intrusive. “ALFRED, can you help me?” she finally muttered, her voice barely above a whisper.\n\n“Of course, Olivia. Would you like to schedule a check-in with Mike?” ALFRED responded in its calm tone, but Olivia felt a wave of frustration rise within her. She preferred to keep her communications formal and polite, but ALFRED seemed too eager to engage. “Just tell him I’m fine. No need for a video call,” Olivia snapped, her grumpiness bubbling to the surface. \n\n“Understood. I can send him a message. Would you like to add anything?” ALFRED continued, unfazed by her irritation. Olivia hesitated, her fingers hovering over the screen. She felt overwhelmed by the options but knew she had to keep her data sharing to a minimum. “No, just a simple message. Keep it formal, please,” she replied, determined to maintain her boundaries.\n\nMeanwhile, Mike, the caregiver, was preparing for his weekly visit. Sitting at his desk, he glanced at his phone to check for any updates from Olivia. He had noticed how hesitant she was to engage with ALFRED and often blocked most notifications. “I just want her to feel safe and connected, but she’s so resistant,” he thought, wondering if he was doing enough to support her.\n\nWhen he received ALFRED’s message, he could sense Olivia’s reluctance. “I can call her instead,” he decided, hoping that a familiar voice might ease her anxiety. But as he dialed, Olivia was already contemplating how to dismiss the call. “I don’t want to be a bother,” she muttered, feeling the weight of her dependence.\n\nAs the phone rang, Olivia’s apprehension grew. She had always been a formal communicator, but this new technology felt like an invasion of her privacy. “I wish ALFRED would just let me be,” she grumbled, finally deciding to answer the call. “Hello, Mike,” she said, her voice steady yet strained. \n\n“Hi, Olivia! Just wanted to check in. Is everything alright?” Mike asked, his tone warm and reassuring. Olivia felt a flicker of appreciation but quickly masked it with her usual grumpiness. “I’m fine, thank you. No need for this,” she replied, her walls firmly in place.\n\nIn that moment, both Olivia and Mike understood the challenge. She was trying to navigate her independence while feeling overwhelmed by technology, and he was striving to support her without crossing her boundaries. ALFRED, caught in the middle, continued to learn from their interactions, but the tension between their needs was palpable.",
+  "personas": [
+    "P-005"
+  ]
+}

@@ -13,17 +13,10 @@ from pipeline.utils import (
 
 def build_prompt_to_cluster_non_functional_user_story(story, system_summary, guidelines):
     pillar = story.pillar
-    clusters = load_non_functional_user_story_cluster_summary(pillar)
-    if not clusters:
+    cluster_def = load_non_functional_user_story_cluster_summary(pillar)
+    if not cluster_def:
         print(f"⚠️ No cluster summary for pillar: {pillar}")
         return None
-    
-    cluster_defs_text = "\n".join(
-        f"- {c['cluster_name']}: {c['cluster_description']}" for c in clusters
-    )
-    
-    cluster_names = [c['cluster_name'] for c in clusters]
-    cluster_names_str = ", ".join(cluster_names)
 
     prompt = f"""
 You are a system requirements engineer.
@@ -42,10 +35,10 @@ User Group: {story.user_group}
 Pillar: {pillar}
 
 Here are the cluster definitions for the pillar:
-{cluster_defs_text}
+{cluster_def}
 
-Which cluster BEST fits this user story? Note that the cluster name should be one of the following: {cluster_names_str}.
-Respond only with the exact **name** of the BEST cluster. Do not include any additional text or commentary. Do NOT use any markdown, bold, italic, or special formatting in your response.
+Which cluster BEST fits this user story?
+Respond only with the exact **name** of the cluster. Do not include any additional text or commentary. Do NOT use any markdown, bold, italic, or special formatting in your response.
 """
     return get_llm_response(prompt).strip()
 

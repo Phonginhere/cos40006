@@ -1,0 +1,16 @@
+{
+  "useCaseId": "UC-004",
+  "tasksByPersona": [
+    {
+      "personaId": "P-005",
+      "tasks": [
+        "Requests ALFRED to schedule a check-in with her caregiver, Mike",
+        "Sends a message to Mike through ALFRED while maintaining formality",
+        "Expresses discomfort with video calls and prefers simple text messages",
+        "Hesitates when faced with multiple options on ALFRED's interface",
+        "Feels overwhelmed by the technology and its implications on her privacy",
+        "Struggles with the perception of being a burden during communication"
+      ]
+    }
+  ]
+}

@@ -93,9 +93,11 @@ def write_use_case_skeletons(persona_loader: UserPersonaLoader, seed: int = None
     max_allowed = max(1, int(max_gap_rate * tot))
 
     def gap() -> int:
+        if not p_counter:
+            return 0
         return max(p_counter.values()) - min(p_counter.values())
 
-    while gap() > max_allowed:
+    while p_counter and gap() > max_allowed:
         over = max(p_counter, key=p_counter.get)
         under = min(p_counter, key=p_counter.get)
         if over == under:

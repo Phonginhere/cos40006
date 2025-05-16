@@ -4,22 +4,26 @@
     {
       "personaId": "P-004",
       "tasks": [
-        "Prefers minimal and efficient system interactions without friendly explanations",
-        "Rejects features encouraging emotional engagement"
+        "Arrives to perform initial ALFRED system setup for Olivia",
+        "Suggests enabling video check-ins to monitor Olivia remotely",
+        "Respects Olivia's preferences to operate ALFRED only on her command",
+        "Adapts care approach based on limited real-time data availability",
+        "Balances efficiency needs with Olivia's strict privacy requirements",
+        "Negotiates notification settings to minimize unsolicited interruptions"
       ]
     },
     {
       "personaId": "P-006",
       "tasks": [
-        "Plans and coordinates fun activities remotely using the system",
-        "Wants to be notified regardless of the hour",
-        "Seeks flexibility in system settings to support multiple clients"
+        "Joins Olivia's ALFRED setup via video call to assist remotely",
+        "Balances nurturing approach with Olivia's guarded and formal communication style",
+        "Plans to maintain support without overwhelming Olivia"
       ]
     },
     {
       "personaId": "P-005",
       "tasks": [
-        "Maintains strict control over all ALFRED behaviors and settings"
+        "Operates ALFRED strictly on her own voice commands"
       ]
     }
   ]

@@ -1,5 +1,6 @@
 import json
 import os
+import json
 from typing import List, Optional
 
 from pipeline.utils import (
@@ -9,8 +10,7 @@ from pipeline.utils import (
     PERSONA_DIR, 
     USER_GROUP_KEYS, 
     get_user_group_key_from_name, 
-    get_user_group_name_from_key, 
-    load_user_group_summary
+    get_user_group_name_from_key
 )
 
 class UserPersona:
@@ -74,8 +74,9 @@ Persona:
 
         # Validate against canonical group names
         if cleaned not in USER_GROUP_KEYS:
-            print(f"⚠️ LLM returned unknown group '{cleaned}' for persona {self.name}.")
-            return "Unknown"
+            print(f"⚠️ LLM returned unknown group '{cleaned}' for persona {self.name}. Defaulting to first group.")
+            # Default to first group for now to allow processing to continue
+            return list(USER_GROUP_KEYS.keys())[0]
 
         return cleaned
 

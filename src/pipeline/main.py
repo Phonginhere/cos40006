@@ -1,7 +1,13 @@
 import sys
 import time
 import random
+import os
+import sys
 
+# Add the parent directory to sys.path so we can import from the local module
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+# Now import from the local modules
 from pipeline.user_persona_loader import UserPersonaLoader
 
 from pipeline.use_case.use_case_loader import UseCaseLoader
@@ -21,9 +27,7 @@ from pipeline.user_story.functional_user_story_clusterer import generate_functio
 
 from pipeline.user_story_conflict.non_functional_user_story_decomposer import decompose_non_functional_user_stories
 from pipeline.user_story_conflict.non_functional_user_story_conflict_within_one_group_identifier import identify_non_functional_conflicts_within_one_group
-from pipeline.user_story_conflict.non_functional_user_story_conflict_within_one_group_resolver import resolve_non_functional_conflicts_within_one_group
 from pipeline.user_story_conflict.functional_user_story_conflict_within_one_group_identifier import identify_functional_conflicts_within_one_group
-from pipeline.user_story_conflict.functional_user_story_conflict_within_one_group_resolver import resolve_functional_conflicts_within_one_group
 
 def main():
     # Step 1: Load user personas
@@ -114,19 +118,11 @@ def main():
     print("\n⚔️ Phase 4b: Identifying conflicts for non-functional user stories within one user group...")
     identify_non_functional_conflicts_within_one_group(user_story_loader)
     
-    #   Step 4c: Resolve conflicts within one user group
-    print("\n🛠️ Phase 4c: Resolving conflicts for non-functional user stories within one user group...")
-    resolve_non_functional_conflicts_within_one_group(persona_loader)
-    
     # Step 5: Conflict analysis for functional user stories
     print("\n============================================================ ANALYZE FUNCTIONAL USER STORIES ==========================================================")
     #   Step 5a: Identify conflicts within one user group
     print("\n⚔️ Phase 5a: Identifying conflicts for functional user stories within one user group...")
     identify_functional_conflicts_within_one_group(user_story_loader)
-    
-    #   Step 5b: Resolve conflicts within one user group
-    print("\n🛠️ Phase 5b: Resolving conflicts for functional user stories within one user group...")
-    resolve_functional_conflicts_within_one_group(persona_loader)
     
     print("\n✅ Pipeline completed successfully. Check your results in the output folder.")
 

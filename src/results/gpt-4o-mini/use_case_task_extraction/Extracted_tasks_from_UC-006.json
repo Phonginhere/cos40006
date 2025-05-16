@@ -1,0 +1,14 @@
+{
+  "useCaseId": "UC-006",
+  "tasksByPersona": [
+    {
+      "personaId": "P-005",
+      "tasks": [
+        "Asks ALFRED to help customize data-sharing settings",
+        "Requests only necessary messages from ALFRED to avoid overwhelm",
+        "Experiences a flicker of relief after confirming her data-sharing preferences",
+        "Holds lingering doubts about her choices regarding technology"
+      ]
+    }
+  ]
+}

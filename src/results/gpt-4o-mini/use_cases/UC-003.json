@@ -1,0 +1,20 @@
+{
+  "id": "UC-003",
+  "useCaseType": "Wellbeing & Lifestyle Optimization (Nutrition, Fitness)",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Older Adults"
+  ],
+  "pillars": [
+    "General Requirements",
+    "Pillar 2 - Personalized Social Inclusion",
+    "Pillar 4 - Physical & Cognitive Impairments Prevention"
+  ],
+  "name": "Interactive Nutrition and Fitness Support",
+  "description": "ALFRED provides personalized nutrition and fitness guidance to older adults, facilitating engaging activities and meal reminders while ensuring privacy. This helps informal caregivers like Sarah monitor their clients' wellbeing and encourages participation in healthy routines.",
+  "scenario": "Olivia sat in her cozy but cluttered living room, peering skeptically at the small device on her table. ALFRED's soft, reassuring voice broke the silence, “Good morning, Olivia! It’s time for your hydration reminder.” Olivia frowned, feeling a mix of annoyance and reluctance. “I don’t need reminders. Just let me be,\" she snapped back, her distrust towards technology bubbling to the surface. She had set her notifications to a bare minimum, wanting to avoid any unsolicited prompts or messages that might disturb her peace.\n\nMeanwhile, Sarah Thompson, Olivia’s informal caregiver, was in another room, juggling her responsibilities as she monitored multiple clients through ALFRED. She received a notification about Olivia's hydration reminder being dismissed. “Olivia, it’s important to drink enough water,” Sarah called out, her tone gentle yet firm. She knew her client well; Olivia's stubbornness often masked her underlying need for support. Sarah had to navigate the delicate balance between encouraging Olivia to engage with ALFRED while respecting her desire for autonomy and privacy.\n\n“Just leave me alone, Sarah,” Olivia replied, her voice tinged with frustration. She felt overwhelmed by the constant reminders that seemed to intrude on her independence. Sarah, understanding the emotional weight of Olivia’s response, took a deep breath. “I know you prefer fewer notifications, but if you let ALFRED help you with meals and activities, it might make your day a little easier. You deserve that.”\n\nOlivia paused, her defenses slightly lowered. “Fine, but only if it doesn’t share my data with anyone. I don’t trust that,” she said, her skepticism about data privacy still looming large. Sarah nodded, grateful for the small concession. “Absolutely, your data stays just between us. Let’s try setting up meal reminders together, okay?”\n\nWith a cautious agreement, Olivia allowed Sarah to assist her in configuring ALFRED for meal prompts. “But no games or anything silly,” she warned, her skepticism still evident. Sarah smiled, relieved to find common ground. “Just a simple reminder for your favorite tea, Olivia. Let’s take it one step at a time.” \n\nAs they navigated the process together, Olivia felt a flicker of hope. Perhaps this technology, with Sarah’s support, could become a helpful companion rather than a source of frustration. Sarah left with a renewed sense of purpose, knowing that she could facilitate Olivia’s wellbeing while respecting her boundaries.",
+  "personas": [
+    "P-006",
+    "P-005"
+  ]
+}

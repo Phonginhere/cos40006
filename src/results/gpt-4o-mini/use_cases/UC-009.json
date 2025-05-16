@@ -1,0 +1,17 @@
+{
+  "id": "UC-009",
+  "useCaseType": "Recovery & Rehab",
+  "userGroups": [
+    "Older Adults"
+  ],
+  "pillars": [
+    "Pillar 3 - Effective & Personalized Care",
+    "Pillar 4 - Physical & Cognitive Impairments Prevention"
+  ],
+  "name": "Guided Recovery Exercise Sessions",
+  "description": "ALFRED provides Olivia with structured exercise sessions tailored to her recovery needs, ensuring that notifications and prompts are minimal and respectful of her preferences. This use case focuses on enhancing her physical rehabilitation while maintaining her comfort and privacy regarding data sharing.",
+  "scenario": "Olivia, a retired social worker, sat in her cozy but cluttered living room, glancing skeptically at the ALFRED device perched on her coffee table. It had been a few weeks since her leg surgery, and while she was determined to recover, the thought of using technology for her rehabilitation felt daunting. “Why can’t I just do this on my own?” she muttered, sipping her tea. The device, with its ever-pleasant voice, interrupted her thoughts. \n\n“Good morning, Olivia. Are you ready for your guided exercise session?” \n\n“Not now, ALFRED. Just keep quiet,” she snapped, her irritation flaring. Olivia preferred minimal chatter, especially from a machine, and she despised unsolicited notifications. Yet beneath her grumpiness lay a flicker of hope; she knew she had to move to regain her strength. \n\nMeanwhile, Mike, her caregiver, was checking in from his office. He had noticed Olivia's reluctance to engage with ALFRED and felt a twinge of concern. “Olivia, I know you’re uncomfortable, but ALFRED can adapt to your preferences. You can ask it to limit notifications.” He hoped this would ease her worries about privacy and control. \n\n“Adapt? It’s a machine, Mike! I don’t want it poking its virtual nose into my business,” Olivia retorted, her voice rising. “The last thing I need is another thing telling me what to do!” \n\n“Just give it a chance. It’s designed to respect your choices, including how much you share. You can block data sharing if it helps,” Mike encouraged gently. \n\nOlivia sighed, the tension palpable. “Fine, ALFRED, let’s get this over with,” she relented, reluctantly pushing the button to initiate a session. \n\n“Let’s start with gentle stretches,” ALFRED chirped, seamlessly transitioning into a routine that felt oddly comforting despite her initial resistance. Olivia followed along, her body responding slowly but surely. \n\nAs the session progressed, she found herself less fixated on the machine and more focused on her movements. “This isn’t so bad,” she admitted, surprised at her own flexibility. \n\nMike, watching her progress through the health monitoring interface, smiled. “You see, Olivia? You’re doing great. And remember, I’m just a call away if you need me.” \n\n“Just don’t call me too often,” she replied, a hint of a smile breaking her usual grumpiness. \n\nIn that moment, the friction between her privacy concerns and the need for assistance began to smooth out, albeit slowly. With ALFRED’s gentle support, Olivia felt a renewed sense of agency, realizing that perhaps technology wasn’t her enemy after all.",
+  "personas": [
+    "P-005"
+  ]
+}

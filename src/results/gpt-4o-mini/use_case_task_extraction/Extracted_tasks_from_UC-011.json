@@ -1,0 +1,15 @@
+{
+  "useCaseId": "UC-011",
+  "tasksByPersona": [
+    {
+      "personaId": "P-005",
+      "tasks": [
+        "Uses voice commands to remind ALFRED to take medication at 3 PM",
+        "Inquires about daily activities from ALFRED",
+        "Contemplates the impact of her reluctance to engage with the outside world",
+        "Feels frustrated with the pressure from family regarding health activities",
+        "Sips tea while reflecting on her hesitations about using technology"
+      ]
+    }
+  ]
+}

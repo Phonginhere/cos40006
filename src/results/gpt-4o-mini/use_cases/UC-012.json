@@ -1,0 +1,20 @@
+{
+  "id": "UC-012",
+  "useCaseType": "Marketplace Discovery",
+  "userGroups": [
+    "Developers and App Creators",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Developer Core",
+    "General Requirements"
+  ],
+  "name": "App Submission for Marketplace Review",
+  "description": "A developer submits a new healthcare application to the ALFRED marketplace, ensuring compliance with data privacy and accessibility standards while considering the needs of older adult users. This process involves reviewing guidelines, preparing the app for integration, and anticipating feedback from the review team.",
+  "scenario": "Daniel Chen sits at his home office, surrounded by dual monitors displaying lines of code and design mockups. He’s put the finishing touches on a healthcare application aimed at older adults, ensuring it meets ALFRED's strict guidelines for privacy and accessibility. He’s excited about the launch, but he knows that feedback from users like Olivia and Elena will be crucial for success. His goal is to create something that genuinely enhances their lives while being mindful of the complexities of their needs.\n\nMeanwhile, Olivia, a retired social worker, sits in her cozy living room, feeling apprehensive about the incoming technology. She’s been informed about a new app aimed at helping manage her health, but she’s skeptical. “I don’t want any more notifications,” she mutters to herself, recalling the overwhelming flood of messages she receives from ALFRED. Her strong desire for privacy leads her to block almost all app installations, causing her to feel increasingly isolated. “I just need something simple that respects my boundaries,” she thinks, wishing for a way to maintain her independence without feeling pressured.\n\nElena, on the other hand, is buzzing with excitement. The tech-curious 60-year-old has been eagerly waiting for Daniel’s application to hit the ALFRED marketplace. “I hope it has features to help me stay active and connected with my friends,” she muses, envisioning how the app could enhance her life. She finds herself motivated to engage with new exercises and social activities suggested by ALFRED. Unlike Olivia, Elena thrives on notifications and anticipates every update about the app's capabilities.\n\nAs Daniel submits the app for review, he envisions how it will be received by both women. He knows Olivia’s concerns about data privacy might lead to resistance, while Elena’s enthusiasm could provide a contrasting perspective. In the coming days, he checks for feedback and hopes to see a mix of reactions. Will Olivia find the app too intrusive, or could it actually help her feel more empowered? And will Elena’s eagerness translate into long-term engagement, or will she lose interest if the app doesn’t adapt to her evolving needs?\n\nAs the app prepares for launch, the tension between the personas lingers in the air, highlighting the challenge of creating a solution that accommodates both cautious privacy seekers and adventurous tech users. Daniel knows that understanding this dichotomy is essential for the app’s success, and he feels a mix of excitement and anxiety as he awaits their responses.",
+  "personas": [
+    "P-005",
+    "P-002",
+    "P-001"
+  ]
+}

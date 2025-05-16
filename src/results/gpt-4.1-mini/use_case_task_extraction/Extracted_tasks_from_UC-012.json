@@ -4,27 +4,28 @@
     {
       "personaId": "P-001",
       "tasks": [
-        "Reviews final security protocols for the healthcare app",
-        "Studies ALFREDs API documentation for data protection compliance",
-        "Publishes the healthcare app on the ALFRED marketplace",
-        "Responds to privacy complaints submitted through the platform"
-      ]
-    },
-    {
-      "personaId": "P-005",
-      "tasks": [
-        "Reviews new apps on the ALFRED marketplace with skepticism",
-        "Avoids engaging with complicated consent forms",
-        "Submits privacy complaints emphasizing data sovereignty",
-        "Demands strict opt-in mechanisms for app installations"
+        "Uses the ALFRED API documentation to guide app development",
+        "Tests the app in a sandbox environment to ensure functionality",
+        "Uploads the app to the ALFRED marketplace for review",
+        "Verifies privacy compliance settings before submission",
+        "Considers adding granular privacy controls to address user concerns",
+        "Plans to implement clearer user consent prompts in the app"
       ]
     },
     {
       "personaId": "P-002",
       "tasks": [
-        "Explores new healthcare apps on the ALFRED marketplace eagerly",
-        "Appreciates the ease of use and feature richness of new apps",
-        "Trusts ALFRED to manage permissions and data sharing appropriately"
+        "Explores new applications in the ALFRED marketplace",
+        "Listens attentively to the voice assistant's explanation of app features",
+        "Evaluates new apps with a mixture of excitement and caution",
+        "Installs new apps that support physical activity and social connection",
+        "Prefers non-intrusive experiences that respect her autonomy"
+      ]
+    },
+    {
+      "personaId": "P-005",
+      "tasks": [
+        "Emphasizes protection of older adults from complex technological interventions"
       ]
     }
   ]

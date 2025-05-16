@@ -1,0 +1,17 @@
+{
+  "id": "UC-010",
+  "useCaseType": "Health Monitoring (Wearables, Sensors)",
+  "userGroups": [
+    "Older Adults"
+  ],
+  "pillars": [
+    "Pillar 3 - Effective & Personalized Care",
+    "Pillar 4 - Physical & Cognitive Impairments Prevention"
+  ],
+  "name": "Personalized Health Activity Monitoring",
+  "description": "ALFRED tracks daily health metrics through wearable sensors, providing Elena with tailored exercise suggestions and reminders to stay hydrated, while encouraging her to maintain an active lifestyle and connect with family. This use case supports her journey towards improved health and social engagement.",
+  "scenario": "Elena Rivera sat in her living room, the morning sun streaming through the window, illuminating the ALFRED device perched on her coffee table. She had been excited about the potential of the system, especially after hearing from her daughter about its capabilities. With her mild mobility issues, she was eager to receive tailored exercise suggestions and reminders to stay hydrated. \"ALFRED, what exercises can I do today?\" she asked, her voice curious yet slightly hesitant.\n\nAs the device processed her request, Elena's thoughts wandered to the last time she had tried a new exercise. It had been a struggle, and she feared losing motivation again. \"It’s so easy to just sit here and do nothing,\" she muttered, glancing at her favorite chair across the room. Just then, ALFRED chimed in with a cheerful tone, suggesting a light chair yoga session tailored to her preferences and health data. \n\nSimultaneously, Elena's son, Marco, was on a video call from his home several miles away. He noticed the device's suggestion pop up on the screen. \"Mom, maybe you should try something a bit more challenging? You can’t let those limitations hold you back,\" he urged, a note of concern lacing his voice. \n\nElena felt a pang of frustration. \"Marco, you don’t understand. I want to live well, but I also want to feel comfortable. There's no point in pushing myself too hard,\" she replied, her voice firm but laced with vulnerability. \n\n\"ALFRED can help you find that balance, Mom. Just give it a chance,\" Marco encouraged, trying to bridge the gap between his mother's reluctance and his desire for her to be more active. \n\nWith a sigh, Elena relented, \"Alright, let’s start with the chair yoga. But ALFRED, remind me to drink water afterward, please.\" The device responded affirmatively. \n\nAs she began the exercises, she felt a sense of accomplishment, albeit faint. Marco watched her, his expression shifting from concern to pride. “See? You’re doing great!” \n\nElena smiled but felt that familiar tug of doubt. \"Just don’t expect too much too soon. I’m still learning.\" As she moved through the gentle poses, she realized that maybe this blend of support from ALFRED and her son could help her navigate her journey toward better health—one small step at a time.",
+  "personas": [
+    "P-002"
+  ]
+}

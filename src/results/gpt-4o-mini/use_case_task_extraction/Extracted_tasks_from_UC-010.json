@@ -1,0 +1,17 @@
+{
+  "useCaseId": "UC-010",
+  "tasksByPersona": [
+    {
+      "personaId": "P-002",
+      "tasks": [
+        "Asks ALFRED for tailored exercise suggestions",
+        "Requests reminders from ALFRED to stay hydrated",
+        "Engages in chair yoga exercises as suggested by ALFRED",
+        "Expresses concern about pushing herself too hard during exercises",
+        "Requests ALFRED to remind her after completing exercises",
+        "Reflects on her progress and expresses doubts about her abilities",
+        "Seeks reassurance from her son about her exercise routine"
+      ]
+    }
+  ]
+}

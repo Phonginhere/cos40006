@@ -1,0 +1,568 @@
+[
+  {
+    "id": "US-008",
+    "title": "Limit Notifications for Health Monitoring",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Reluctantly accepts the video call with Mike to discuss her health",
+    "use_case": "UC-001",
+    "priority": 2,
+    "summary": "As an older person, I want to limit almost all notifications from ALFRED, so that I can avoid feeling overwhelmed and maintain my independence without constant interruptions that make me uneasy.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "User-Directed Care Experience",
+    "decomposition": [
+      "Limit notifications from ALFRED to essential alerts only",
+      "Suppress notifications during periods of user inactivity",
+      "Allow user to customize notification preferences"
+    ]
+  },
+  {
+    "id": "US-009",
+    "title": "Wearable Sensor Privacy Control",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Expresses skepticism about wearing the health monitoring sensors",
+    "use_case": "UC-001",
+    "priority": 2,
+    "summary": "As an older person, I want to decide exactly what data my wearable health sensors can share, so I can feel secure and not overwhelmed by technology, while making sure my privacy is completely honored.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "Health Data Management & Security",
+    "decomposition": [
+      "Allow users to choose which data wearable sensors can share.",
+      "Provide clear information about data-sharing options to users.",
+      "Ensure user consent is required before any data is shared."
+    ]
+  },
+  {
+    "id": "US-011",
+    "title": "Setup Health Monitoring Preferences",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Engages in a dialogue with Mike to set up her health monitoring preferences",
+    "use_case": "UC-001",
+    "priority": 2,
+    "summary": "As an older person, I want to have complete control over how often I receive notifications and to set my health monitoring preferences strictly so that I can feel secure and not overwhelmed, ensuring my privacy is fully respected.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "Health Data Management & Security",
+    "decomposition": [
+      "Allow users to set notification frequency for health updates.",
+      "Provide options for users to customize health monitoring preferences.",
+      "Ensure user privacy is maintained in all health monitoring configurations."
+    ]
+  },
+  {
+    "id": "US-015",
+    "title": "Customize Data Sharing Preferences",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Asks ALFRED to help customize data-sharing settings",
+    "use_case": "UC-006",
+    "priority": 2,
+    "summary": "As an older person, I want to ensure that I am the only one who decides how my personal information is shared, so I can avoid any exposure that makes me feel unsafe and overwhelmed by technology.",
+    "pillar": "General Requirements",
+    "type": "Non-Functional",
+    "cluster": "Security & Privacy",
+    "decomposition": [
+      "The user must have control over who can access their personal information.",
+      "The system must provide clear options for sharing preferences.",
+      "The user should receive confirmation of any data sharing actions taken."
+    ]
+  },
+  {
+    "id": "US-016",
+    "title": "Control Over App Installations",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Specifies to block all app installations unless requested",
+    "use_case": "UC-006",
+    "priority": 2,
+    "summary": "As an older person who feels overwhelmed by technology, I want to block all app installations unless I specifically request them, so that I can feel safe and in control of my device without the stress of unexpected changes.",
+    "pillar": "General Requirements",
+    "type": "Non-Functional",
+    "cluster": "Security & Privacy",
+    "decomposition": [
+      "Block all app installations by default",
+      "Allow installations only upon explicit user request",
+      "Provide clear notifications of any installation requests"
+    ]
+  },
+  {
+    "id": "US-017",
+    "title": "Control Over Data Sharing Preferences",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Instructs ALFRED not to share data with anyone, including her kids or caregivers",
+    "use_case": "UC-006",
+    "priority": 2,
+    "summary": "As an older person, I want to ensure that ALFRED never shares my data with anyone, not even my family or caregivers, unless I explicitly ask for it, so I can feel secure and maintain complete control over my personal information.",
+    "pillar": "General Requirements",
+    "type": "Non-Functional",
+    "cluster": "Security & Privacy",
+    "decomposition": [
+      "ALFRED must not share user data without explicit user consent.",
+      "User data sharing preferences must be configurable by the user.",
+      "ALFRED must provide clear notifications when data sharing occurs."
+    ]
+  },
+  {
+    "id": "US-018",
+    "title": "Limit Unnecessary Messages",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Requests only necessary messages from ALFRED to avoid overwhelm",
+    "use_case": "UC-006",
+    "priority": 2,
+    "summary": "As an older adult, I want ALFRED to nearly stop sending me notifications and messages because they overwhelm me and I feel safer when I have full control over my interactions.",
+    "pillar": "General Requirements",
+    "type": "Non-Functional",
+    "cluster": "Interaction Pace & Setup Flexibility",
+    "decomposition": [
+      "Minimize notifications and messages sent to the user",
+      "Allow user to customize notification settings for control"
+    ]
+  },
+  {
+    "id": "US-019",
+    "title": "Customize Data Sharing Preferences",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Feels apprehensive while navigating the ALFRED settings",
+    "use_case": "UC-006",
+    "priority": 2,
+    "summary": "As an older person, I want to completely block any sharing of my data in ALFRED, so that I can feel safe and secure about my privacy, only allowing access to my personal information when I am absolutely certain it’s necessary and trustworthy.",
+    "pillar": "General Requirements",
+    "type": "Non-Functional",
+    "cluster": "Security & Privacy",
+    "decomposition": [
+      "Allow users to block all data sharing by default.",
+      "Enable users to review and modify data sharing permissions at any time.",
+      "Require explicit user consent before sharing any personal information."
+    ]
+  },
+  {
+    "id": "US-021",
+    "title": "Control Over Data Sharing",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Seeks to maintain her privacy and control over personal information",
+    "use_case": "UC-006",
+    "priority": 2,
+    "summary": "As an older adult, I want to have complete control over whether my data is shared, ensuring that I can limit it as much as possible so I feel safe and not overwhelmed by technology.",
+    "pillar": "General Requirements",
+    "type": "Non-Functional",
+    "cluster": "Security & Privacy",
+    "decomposition": [
+      "Users must have the option to opt-in or opt-out of data sharing.",
+      "Users should be informed about what data is being shared and with whom.",
+      "Users must have the ability to revoke data sharing permissions at any time."
+    ]
+  },
+  {
+    "id": "US-022",
+    "title": "Data Sharing Control Customization",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Experiences a flicker of relief after confirming her data-sharing preferences",
+    "use_case": "UC-006",
+    "priority": 2,
+    "summary": "As an older person, I want to ensure that ALFRED does not share any of my information without my explicit permission, so I can feel safe and in control while using the system.",
+    "pillar": "General Requirements",
+    "type": "Non-Functional",
+    "cluster": "Security & Privacy",
+    "decomposition": [
+      "Do not share user information without explicit permission.",
+      "Provide user control over data sharing settings."
+    ]
+  },
+  {
+    "id": "US-023",
+    "title": "Control Over Data Sharing Preferences",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Holds lingering doubts about her choices regarding technology",
+    "use_case": "UC-006",
+    "priority": 2,
+    "summary": "As a difficult and pessimistic older adult, I want to ensure that no one can access my personal data without my explicit permission, so I can feel safe and maintain strict control over who sees my information, including family and caregivers.",
+    "pillar": "General Requirements",
+    "type": "Non-Functional",
+    "cluster": "Security & Privacy",
+    "decomposition": [
+      "No personal data can be accessed without explicit user permission.",
+      "Users must have the ability to manage and modify data sharing preferences at any time."
+    ]
+  },
+  {
+    "id": "US-036",
+    "title": "Control Over Notifications",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Sips tea while reflecting on her hesitations about using technology",
+    "use_case": "UC-011",
+    "priority": 2,
+    "summary": "As a retired social worker, I want to have control over the notifications I receive from ALFRED, as I often feel overwhelmed by constant distractions, and I prefer to limit these interruptions to maintain my independence and focus on my recovery.",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "type": "Non-Functional",
+    "cluster": "Interaction Control & Consent",
+    "decomposition": [
+      "Allow users to customize notification settings.",
+      "Enable users to set quiet hours for notifications.",
+      "Provide options to prioritize important notifications."
+    ]
+  },
+  {
+    "id": "US-066",
+    "title": "Simple App with Limited Notifications",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Desires a simple app that does not overwhelm her with updates",
+    "use_case": "UC-012",
+    "priority": 2,
+    "summary": "As an older person, I want ALFRED to send me very few notifications, only the most essential ones, so that I can feel safe and not overwhelmed while using the system.",
+    "pillar": "General Requirements",
+    "type": "Non-Functional",
+    "cluster": "Security & Privacy",
+    "decomposition": [
+      "Limit notifications to only essential alerts.",
+      "Reduce frequency of notifications to avoid overwhelming the user.",
+      "Provide an option to customize notification settings."
+    ]
+  },
+  {
+    "id": "US-074",
+    "title": "Formal Communication with Caregivers",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Maintains boundaries by limiting data sharing to minimum requirements",
+    "use_case": "UC-004",
+    "priority": 2,
+    "summary": "As a retired social worker, I want to receive only formal messages from ALFRED when communicating with my caregivers, so that I can feel secure and have my privacy respected in every interaction.",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "type": "Non-Functional",
+    "cluster": "Social Privacy & Control",
+    "decomposition": [
+      "Ensure all messages from ALFRED to caregivers are formal in tone.",
+      "Maintain user privacy in all communications with caregivers."
+    ]
+  },
+  {
+    "id": "US-080",
+    "title": "Silence Instead of Suggestions",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Communicates her desire for silence instead of unsolicited suggestions",
+    "use_case": "UC-005",
+    "priority": 2,
+    "summary": "As an older person, I want ALFRED to respect my preference for silence instead of suggesting games, so I can avoid feeling overwhelmed and maintain my comfort with technology.",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "type": "Non-Functional",
+    "cluster": "Comfort & Non-Stigmatizing Design",
+    "decomposition": [
+      "Suppress game suggestions when user prefers silence",
+      "Provide an option for users to toggle between silence and activity suggestions"
+    ]
+  },
+  {
+    "id": "US-082",
+    "title": "Privacy Control Over Game Data",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Voices concerns about data privacy and sharing habits",
+    "use_case": "UC-005",
+    "priority": 2,
+    "summary": "As a retired social worker, I want to make sure that no one, including my caregivers and family, can access my gaming data without my explicit permission, so that I can feel secure and in control while using ALFRED.",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "type": "Non-Functional",
+    "cluster": "Game Usability & Accessibility",
+    "decomposition": [
+      "Prohibit access to gaming data without explicit user permission",
+      "Implement user-controlled permissions for accessing gaming data",
+      "Notify the user when any access to gaming data is requested"
+    ]
+  },
+  {
+    "id": "US-083",
+    "title": "Engage with Games Without Notifications",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Desires to engage with the game without receiving constant notifications",
+    "use_case": "UC-005",
+    "priority": 2,
+    "summary": "As an older person, I want to engage with games without any notifications, as they overwhelm me and I prefer to focus on the activity without feeling pressured or distracted.",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "type": "Non-Functional",
+    "cluster": "Game Usability & Accessibility",
+    "decomposition": [
+      "Suppress all notifications during game engagement.",
+      "Allow user to customize notification settings."
+    ]
+  },
+  {
+    "id": "US-104",
+    "title": "Minimize Notifications During Exercise",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Snaps at ALFRED to minimize notifications and interruptions",
+    "use_case": "UC-009",
+    "priority": 2,
+    "summary": "As an older person, I want to block almost all notifications and interruptions during my guided exercise sessions, so that I can feel safe and in control of my environment without being overwhelmed by technology.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "User-Directed Care Experience",
+    "decomposition": [
+      "Block all non-essential notifications during guided exercise sessions",
+      "Suppress visual and audio alerts to minimize distractions"
+    ]
+  },
+  {
+    "id": "US-106",
+    "title": "Minimal Notification Control",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Expresses irritation about ALFRED's presence and unsolicited prompts",
+    "use_case": "UC-009",
+    "priority": 2,
+    "summary": "As an older person, I want to minimize any notifications I receive during my exercise sessions with ALFRED, as I find them overwhelming and prefer to maintain control over my activities without distractions that make me uncomfortable.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "User-Directed Care Experience",
+    "decomposition": [
+      "Suppress all notifications during exercise sessions.",
+      "Allow user to customize notification settings for exercise sessions."
+    ]
+  },
+  {
+    "id": "US-110",
+    "title": "Minimal Notifications for Exercise Sessions",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Gradually feels a sense of agency with the help of ALFRED",
+    "use_case": "UC-009",
+    "priority": 2,
+    "summary": "As an older adult, I want to receive very few notifications during my exercise sessions because I feel overwhelmed by constant reminders and prefer to focus on my activities without additional stress.",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "type": "Non-Functional",
+    "cluster": "Game Usability & Accessibility",
+    "decomposition": [
+      "Limit notifications during exercise sessions to essential alerts only.",
+      "Suppress non-urgent reminders while exercising."
+    ]
+  },
+  {
+    "id": "US-137",
+    "title": "Control Over Notifications",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Experiences frustration with the constant reminders from ALFRED",
+    "use_case": "UC-003",
+    "priority": 2,
+    "summary": "As an older adult, I want to block almost all notifications from ALFRED because I feel overwhelmed by them and worry about my data privacy, so I can maintain my peace without constant reminders that make me anxious.",
+    "pillar": "General Requirements",
+    "type": "Non-Functional",
+    "cluster": "Interaction Pace & Setup Flexibility",
+    "decomposition": [
+      "Allow users to block all notifications from ALFRED.",
+      "Ensure that users can customize notification preferences to reduce anxiety.",
+      "Protect user data privacy by not sharing notification content."
+    ]
+  },
+  {
+    "id": "US-002",
+    "title": "Wearable Sensor Trust Establishment",
+    "persona": "P-004",
+    "user_group": "Caregivers and Medical Staff",
+    "task": "Explains the benefits of using wearable sensors for health monitoring",
+    "use_case": "UC-001",
+    "priority": 2,
+    "summary": "As a medical staff member, I want my patients to trust the wearable sensors so that I can focus on providing efficient care without their concerns about privacy affecting our interactions.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "Health Data Management & Security",
+    "decomposition": [
+      "Ensure wearable sensors provide transparent data privacy policies.",
+      "Implement secure data transmission for wearable sensors.",
+      "Provide user-friendly interfaces for patients to manage sensor privacy settings."
+    ]
+  },
+  {
+    "id": "US-007",
+    "title": "Control Over Health Data Access",
+    "persona": "P-004",
+    "user_group": "Caregivers and Medical Staff",
+    "task": "Encourages Olivia to view ALFRED as a supportive tool for her health",
+    "use_case": "UC-001",
+    "priority": 2,
+    "summary": "As a medical staff member, I want to access patient health data quickly during my shifts so that I can provide timely and effective care to my patients without unnecessary delays, prioritizing their immediate needs in a busy healthcare environment.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "Health Data Management & Security",
+    "decomposition": [
+      "Access patient health data within 5 seconds during shifts.",
+      "Ensure data retrieval process is intuitive for quick navigation.",
+      "Prioritize critical health data display based on immediate patient needs."
+    ]
+  },
+  {
+    "id": "US-050",
+    "title": "Streamlined Health Data Access",
+    "persona": "P-004",
+    "user_group": "Caregivers and Medical Staff",
+    "task": "Explores the health data integration tools on ALFRED after his shift",
+    "use_case": "UC-008",
+    "priority": 2,
+    "summary": "As a registered nurse, I want to quickly access patient health data without waiting for permissions, so I can give my patients the immediate care they need during my busy shifts.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "Health Data Management & Security",
+    "decomposition": [
+      "Enable instant access to patient health data without permission delays.",
+      "Provide a user-friendly interface for rapid data retrieval."
+    ]
+  },
+  {
+    "id": "US-067",
+    "title": "Eager for New App Features",
+    "persona": "P-002",
+    "user_group": "Older Adults",
+    "task": "Eagerly anticipates the launch of Daniel's healthcare application",
+    "use_case": "UC-012",
+    "priority": 2,
+    "summary": "As an open-minded older adult, I want to be informed about new app features and updates in a way that feels natural and relaxed for me, so that I can decide when to engage and connect with my friends at my own pace, without feeling pressured or stressed.",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "type": "Non-Functional",
+    "cluster": "Autonomy in Social Participation",
+    "decomposition": [
+      "Provide updates on new app features in a non-intrusive manner.",
+      "Allow users to engage with updates at their own pace.",
+      "Ensure notifications do not induce pressure or stress."
+    ]
+  },
+  {
+    "id": "US-088",
+    "title": "Data Privacy Assurance in Games",
+    "persona": "P-002",
+    "user_group": "Older Adults",
+    "task": "Reassures Olivia about data privacy settings within ALFRED",
+    "use_case": "UC-005",
+    "priority": 2,
+    "summary": "As an older person, I want to play games with ALFRED without worrying about my data, so I can enjoy cognitive activities freely and focus on having fun.",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "type": "Non-Functional",
+    "cluster": "Game Usability & Accessibility",
+    "decomposition": [
+      "Ensure data collected during games is anonymized.",
+      "Provide clear information on data usage for gaming activities.",
+      "Implement strong data security measures to protect user information."
+    ]
+  },
+  {
+    "id": "US-092",
+    "title": "Interactive Voice Assistant Experience",
+    "persona": "P-002",
+    "user_group": "Older Adults",
+    "task": "Desires a more interactive experience with the voice assistant",
+    "use_case": "UC-013",
+    "priority": 2,
+    "summary": "As a tech-curious older adult, I want ALFRED to be fun and engaging, so I can feel motivated to use it for my daily activities and easily connect with my family and friends.",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "type": "Non-Functional",
+    "cluster": "Assistant Intelligence",
+    "decomposition": [
+      "Ensure ALFRED provides engaging and interactive responses to maintain user interest.",
+      "Incorporate gamification elements to motivate users in daily activities.",
+      "Facilitate easy access to family and friends through intuitive voice commands."
+    ]
+  },
+  {
+    "id": "US-055",
+    "title": "Streamlined Health Data Integration",
+    "persona": "P-001",
+    "user_group": "Developers and App Creators",
+    "task": "Reviews the ALFRED API documentation for health data integration",
+    "use_case": "UC-008",
+    "priority": 2,
+    "summary": "As a full-stack developer, I want to access clear and user-friendly API documentation for health data integration, so that I can create healthcare applications that empower elderly users and their caregivers to manage their health easily and effectively, without being hindered by technical challenges.",
+    "pillar": "Core Requirements",
+    "type": "Non-Functional",
+    "cluster": null,
+    "decomposition": [
+      "Provide clear API documentation for health data integration.",
+      "Ensure API documentation is user-friendly and accessible.",
+      "Facilitate integration without technical challenges for developers."
+    ]
+  },
+  {
+    "id": "US-057",
+    "title": "Ensure Compliance with Privacy Regulations",
+    "persona": "P-001",
+    "user_group": "Developers and App Creators",
+    "task": "Feels concerned about compliance with privacy regulations",
+    "use_case": "UC-008",
+    "priority": 2,
+    "summary": "As a full-stack developer, I want to easily understand the privacy compliance guidelines for integrating health data, so I can build applications that prioritize user privacy and are straightforward for older adults to use effectively.",
+    "pillar": "Developer Core",
+    "type": "Non-Functional",
+    "cluster": "Cluster 6.1 Name: \"API Quality & Integration\"",
+    "decomposition": [
+      "Provide clear privacy compliance guidelines for integrating health data.",
+      "Ensure guidelines are easily understandable for full-stack developers.",
+      "Facilitate user-friendly application design for older adults."
+    ]
+  },
+  {
+    "id": "US-059",
+    "title": "Deprecate Legacy APIs for Better Performance",
+    "persona": "P-001",
+    "user_group": "Developers and App Creators",
+    "task": "Advocates for the deprecation of legacy APIs to improve performance",
+    "use_case": "UC-008",
+    "priority": 2,
+    "summary": "As a full-stack developer creating healthcare applications, I want to ensure that my older adult users can easily and reliably access my apps by removing outdated APIs, which will allow me to focus on delivering a smooth and secure experience that meets their needs and preferences.",
+    "pillar": "Developer Core",
+    "type": "Non-Functional",
+    "cluster": "API Quality & Integration",
+    "decomposition": [
+      "Remove outdated APIs to improve system performance",
+      "Ensure reliable access to applications for older adult users",
+      "Enhance security measures in the updated API framework"
+    ]
+  },
+  {
+    "id": "US-060",
+    "title": "Streamlined Health Data Access",
+    "persona": "P-001",
+    "user_group": "Developers and App Creators",
+    "task": "Balances the need for security measures with user experience",
+    "use_case": "UC-008",
+    "priority": 2,
+    "summary": "As a full-stack developer, I want to ensure that I can quickly access and integrate health data tools in a way that allows me to design applications catering specifically to the unique needs and preferences of older adults and caregivers, prioritizing their ease of use and security in every step of my development process.",
+    "pillar": "Developer Core",
+    "type": "Non-Functional",
+    "cluster": "API Quality & Integration",
+    "decomposition": [
+      "Enable quick access to health data tools for developers.",
+      "Ensure seamless integration of health data tools prioritizing user ease.",
+      "Implement strong security measures for health data handling."
+    ]
+  },
+  {
+    "id": "US-133",
+    "title": "Personalized Meal Reminders with Privacy",
+    "persona": "P-006",
+    "user_group": "Caregivers and Medical Staff",
+    "task": "Addresses Olivia's concerns about data privacy and autonomy",
+    "use_case": "UC-003",
+    "priority": 2,
+    "summary": "As an informal caregiver managing multiple clients, I want to set up personalized meal reminders that cater to each client's individual tastes and needs, so I can effectively support their health while ensuring their privacy and autonomy are fully respected.",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "type": "Non-Functional",
+    "cluster": "Social Privacy & Control",
+    "decomposition": [
+      "Set personalized meal reminders for each client based on their individual tastes and needs.",
+      "Ensure that all client data related to meal preferences is stored securely to respect privacy.",
+      "Allow clients to opt-out of meal reminders to maintain their autonomy."
+    ]
+  }
+]

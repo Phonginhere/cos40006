@@ -1,4 +1,5 @@
 {
+    "name": "Developers and App Creators",
     "summary": "Developers and app creators are crucial for extending the ALFRED ecosystem. They will use the ALFRED platform to build applications that enhance the system's functionalities. These apps could cover domains like social event management, health tracking, or environmental control. The platform needs to support third-party applications through open APIs and developer tools.",
     "needs": [
         {

@@ -1,0 +1,236 @@
+[
+  {
+    "id": "US-008",
+    "title": "Thorough Documentation Review for Compliance",
+    "persona": "P-001",
+    "user_group": "Developers and App Creators",
+    "task": "Study ALFRED’s documentation thoroughly to ensure compliance",
+    "use_case": "UC-012",
+    "priority": 5,
+    "summary": "As a full-stack developer, I want to study ALFRED’s documentation thoroughly so I can build secure, compliant healthcare apps that respect strict data privacy.",
+    "pillar": "Developer Core",
+    "type": "Non-Functional",
+    "cluster": "API Integration & Development Support",
+    "decomposition": [
+      "Provide comprehensive and detailed ALFRED documentation",
+      "Ensure documentation covers security best practices for app development",
+      "Include clear guidelines on complying with strict data privacy regulations"
+    ]
+  },
+  {
+    "id": "US-009",
+    "title": "Enforce Accessibility Compliance on App Submission",
+    "persona": "P-001",
+    "user_group": "Developers and App Creators",
+    "task": "Balance app features with ALFRED’s accessibility standards",
+    "use_case": "UC-012",
+    "priority": 4,
+    "summary": "As a developer, I want to enforce strict accessibility compliance on my app to ensure inclusive user experiences while fully controlling user data and security.",
+    "pillar": "General Requirements",
+    "type": "Non-Functional",
+    "cluster": "Security, Privacy & Reliability",
+    "decomposition": [
+      "Enforce strict accessibility standards on all submitted apps",
+      "Ensure apps provide inclusive user experiences for diverse abilities",
+      "Allow developers full control over user data and app security"
+    ]
+  },
+  {
+    "id": "US-017",
+    "title": "Friendly and Informal Voice Interaction",
+    "persona": "P-002",
+    "user_group": "Older Adults",
+    "task": "Prefers ALFRED to communicate in a friendly, informal tone",
+    "use_case": "UC-001",
+    "priority": 2,
+    "summary": "As a tech-curious older adult, I want ALFRED to use friendly, informal language so I feel comfortable and eager to learn how to use it.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "Effective & Personalized Care",
+    "decomposition": [
+      "Use friendly language in voice interaction",
+      "Use informal language style in voice interaction",
+      "Ensure voice interaction encourages user comfort and learning"
+    ]
+  },
+  {
+    "id": "US-061",
+    "title": "Control Over App Updates and Data Collection",
+    "persona": "P-004",
+    "user_group": "Caregivers and Medical Staff",
+    "task": "Resist app-imposed mandatory updates and data collection that disrupt care",
+    "use_case": "UC-008",
+    "priority": 1,
+    "summary": "As a registered nurse, I want to block mandatory app updates and data collection during work hours to avoid distractions and stay focused on patient care.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "Effective & Personalized Care",
+    "decomposition": [
+      "Block mandatory app updates during work hours",
+      "Prevent data collection during work hours",
+      "Avoid distractions to maintain focus on patient care during work hours"
+    ]
+  },
+  {
+    "id": "US-068",
+    "title": "Express Frustration on Disabled Alerts",
+    "persona": "P-004",
+    "user_group": "Caregivers and Medical Staff",
+    "task": "Express frustration when non-critical alerts and interactive modes are disabled",
+    "use_case": "UC-013",
+    "priority": 2,
+    "summary": "As a registered nurse, I want ALFRED to remain silent and not signal frustration when non-critical alerts and interactive modes are disabled, so that my clinical focus is not distracted.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Non-Functional",
+    "cluster": "Effective & Personalized Care",
+    "decomposition": [
+      "Remain silent when non-critical alerts are disabled",
+      "Do not signal frustration when interactive modes are disabled",
+      "Avoid distracting the nurse's clinical focus"
+    ]
+  },
+  {
+    "id": "US-069",
+    "title": "Use Formal and Direct Onboarding Communication",
+    "persona": "P-004",
+    "user_group": "Caregivers and Medical Staff",
+    "task": "Use a formal and direct communication style during onboarding",
+    "use_case": "UC-013",
+    "priority": 5,
+    "summary": "As a registered nurse, I want ALFRED to use formal, direct communication during onboarding to quickly configure clinical settings without distractions.",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "type": "Non-Functional",
+    "cluster": "User-Driven Interaction Assistant",
+    "decomposition": [
+      "Use formal language during onboarding communication",
+      "Communicate directly to avoid ambiguity in onboarding",
+      "Minimize distractions during clinical settings configuration"
+    ]
+  },
+  {
+    "id": "US-072",
+    "title": "Reject Challenging Cognitive Games",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Rejects cognitive games that involve physical movement or feel challenging",
+    "use_case": "UC-002",
+    "priority": 1,
+    "summary": "As an older person, I want to avoid all challenging cognitive games and physical exercises to prevent discomfort and stress.",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "type": "Non-Functional",
+    "cluster": "Physical & Cognitive Impairments Prevention",
+    "decomposition": [
+      "Exclude all cognitive games classified as challenging",
+      "Exclude all physical exercises classified as challenging",
+      "Prevent discomfort and stress caused by difficult activities"
+    ]
+  },
+  {
+    "id": "US-081",
+    "title": "Strict Privacy and Minimal Interaction",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Evaluates ALFRED’s features with skepticism, especially regarding privacy",
+    "use_case": "UC-005",
+    "priority": 1,
+    "summary": "As an older adult, I want to block all data sharing and dismiss almost all notifications and explanations, so that I can feel safe and avoid overwhelming technology.",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "type": "Non-Functional",
+    "cluster": "Physical & Cognitive Impairments Prevention",
+    "decomposition": [
+      "Block all data sharing with external parties",
+      "Dismiss almost all system notifications",
+      "Avoid providing explanations or detailed information to the user"
+    ]
+  },
+  {
+    "id": "US-082",
+    "title": "Respect Personal Boundaries in Cognitive Games",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Ensures ALFRED respects personal boundaries even if it limits benefit",
+    "use_case": "UC-005",
+    "priority": 1,
+    "summary": "As an older adult, I want ALFRED to never start cognitive activities unless I ask, to avoid unsolicited challenges and protect my privacy.",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "type": "Non-Functional",
+    "cluster": "Physical & Cognitive Impairments Prevention",
+    "decomposition": [
+      "Do not start cognitive activities automatically without user initiation",
+      "Require explicit user request before launching any cognitive challenge",
+      "Protect user privacy by avoiding unsolicited cognitive activity prompts"
+    ]
+  },
+  {
+    "id": "US-083",
+    "title": "Manual Configuration Without Defaults",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Configures ALFRED personally without accepting automatic settings",
+    "use_case": "UC-006",
+    "priority": 1,
+    "summary": "As an older adult I want to personally configure ALFRED without any automatic settings to prevent unwanted features and completely block data sharing.",
+    "pillar": "General Requirements",
+    "type": "Non-Functional",
+    "cluster": "Security, Privacy & Reliability",
+    "decomposition": [
+      "Allow users to manually configure all ALFRED settings without automatic defaults",
+      "Prevent ALFRED from enabling any features automatically without user consent",
+      "Completely block all data sharing unless explicitly authorized by the user"
+    ]
+  },
+  {
+    "id": "US-087",
+    "title": "Accept Only Gentle Cognitive Activities",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Accepts only tailored cognitive activities that do not trigger pessimism or resistance",
+    "use_case": "UC-009",
+    "priority": 1,
+    "summary": "As an older person, I want ALFRED to only suggest very gentle cognitive activities that do not challenge or pressure me, so I can use it without feeling overwhelmed or resistant.",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "type": "Non-Functional",
+    "cluster": "Physical & Cognitive Impairments Prevention",
+    "decomposition": [
+      "Suggest only cognitive activities that are very gentle",
+      "Avoid cognitive activities that challenge or pressure the user",
+      "Ensure cognitive activities do not cause feelings of overwhelm or resistance"
+    ]
+  },
+  {
+    "id": "US-113",
+    "title": "Encourage Controlled Engagement with Olivia",
+    "persona": "P-006",
+    "user_group": "Caregivers and Medical Staff",
+    "task": "Desires increased engagement of Olivia with the system to improve wellbeing",
+    "use_case": "UC-003",
+    "priority": 2,
+    "summary": "As an informal caregiver, I want ALFRED to prompt Olivia gently and respect her privacy, so I can support her wellbeing without causing distress or violating trust.",
+    "pillar": "Pillar 2 - Personalized Social Inclusion",
+    "type": "Non-Functional",
+    "cluster": "Personalized Social Inclusion",
+    "decomposition": [
+      "Prompt Olivia gently without causing distress",
+      "Respect Olivia's privacy in all interactions",
+      "Support wellbeing without violating trust"
+    ]
+  },
+  {
+    "id": "US-118",
+    "title": "Gentle Activity Reminders for Reluctant Users",
+    "persona": "P-006",
+    "user_group": "Caregivers and Medical Staff",
+    "task": "Uses ALFRED’s interactive features to gently remind Olivia about activities",
+    "use_case": "UC-007",
+    "priority": 2,
+    "summary": "As an informal caregiver, I want ALFRED to provide activity reminders that respect my clients' privacy and autonomy without being intrusive, so I can support their engagement gently.",
+    "pillar": "Pillar 1 - User-Driven Interaction Assistant",
+    "type": "Non-Functional",
+    "cluster": "User-Driven Interaction Assistant",
+    "decomposition": [
+      "Provide activity reminders that respect user privacy",
+      "Ensure activity reminders do not intrude on user autonomy",
+      "Deliver reminders in a gentle, non-intrusive manner"
+    ]
+  }
+]

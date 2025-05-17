@@ -3,17 +3,17 @@ import json
 from typing import Optional
 
 from pipeline.utils import (
+    UserPersonaLoader,
     NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR,
     NON_FUNCTIONAL_USER_STORY_DECOMPOSITION_PATH,
     USER_STORY_DIR,
-    USER_GROUP_KEYS,
     load_system_summary,
+    load_user_group_keys,
     load_user_group_guidelines,
     load_user_story_guidelines,
     load_non_functional_user_story_conflict_summary,
     get_llm_response,
 )
-from pipeline.user_persona_loader import UserPersonaLoader
 
 
 def load_json_file(path: str):

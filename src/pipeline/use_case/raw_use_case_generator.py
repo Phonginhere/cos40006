@@ -2,11 +2,19 @@ import os
 import re
 import json
 import textwrap
+
 from typing import List
 
-from pipeline.utils import get_llm_response, load_system_summary, load_use_case_guidelines, load_user_group_guidelines, load_all_user_group_guidelines, USE_CASE_DIR
-from pipeline.user_persona_loader import UserPersonaLoader
 from pipeline.use_case.use_case_loader import UseCaseLoader
+from pipeline.utils import (
+    UserPersonaLoader,
+    get_llm_response, 
+    load_system_summary, 
+    load_use_case_guidelines, 
+    load_user_group_guidelines, 
+    load_all_user_group_guidelines, 
+    USE_CASE_DIR
+)
 
 # ========== Step b: Prompt Constructor ==========
 def build_raw_use_case_prompt(

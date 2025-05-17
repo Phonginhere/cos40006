@@ -1,0 +1,21 @@
+{
+  "id": "UC-007",
+  "useCaseType": "Health Monitoring (Wearables, Sensors)",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Pillar 1 - User-Driven Interaction Assistant",
+    "Pillar 3 - Effective & Personalized Care",
+    "Pillar 4 - Physical & Cognitive Impairments Prevention"
+  ],
+  "name": "Context-Aware Vital Sign Monitoring",
+  "description": "This use case enables seamless monitoring of older adults' vital signs through wearable sensors, balancing the differing priorities of busy medical staff seeking critical data without distractions and caregivers valuing interactive, privacy-conscious support. It ensures personalized care while respecting user preferences and situational needs.",
+  "scenario": "Olivia, a retired social worker in her seventies, lives alone in her suburban home and remains wary of technology and its implications for her privacy. She has reluctantly agreed to wear a discreet sensor shirt connected to ALFRED, mainly because her informal caregiver, Sarah Thompson, encouraged her, emphasizing that it could help monitor her health without invasive check-ins. Olivia insists that ALFRED only activates its voice assistant when she explicitly prompts it, and she frequently dismisses notifications about any physical activities or cognitive exercises, which she finds overwhelming and intrusive. She firmly blocks any data sharing with family or medical professionals, feeling vulnerable about who might access her information.\n\nMeanwhile, Sarah manages Olivia’s care alongside several other clients. She appreciates ALFRED’s real-time updates and the ability to receive non-critical notifications at any hour, often using the system’s interactive features to engage Olivia through gentle reminders and occasional light games, hoping to boost Olivia’s motivation and emotional well-being. Sarah finds herself frustrated, though, because Olivia often ignores these prompts and prefers minimal interaction with the system. Sarah also manually selects what health data gets logged, wanting to respect Olivia’s privacy as much as possible while still keeping track of essential vitals.\n\nAt the hospital, Mike Johnson, a registered nurse, relies on ALFRED to remotely monitor his patients during busy shifts. For Mike, Olivia’s privacy concerns are secondary to immediate health needs. He expects ALFRED to filter out all non-essential notifications and only alert him to critical anomalies. Mike finds the interactive and social features irrelevant, even distracting, and he strictly avoids engaging in any gamified or emotional support functions. When ALFRED occasionally attempts to send Sarah’s non-urgent messages or engage Olivia with games during his monitoring window, Mike quickly silences those alerts to focus solely on clinical data.\n\nThis contrast creates a subtle tension: while Sarah hopes ALFRED can bridge the gap between health monitoring and emotional support, Olivia’s reluctance to share data or participate actively frustrates Sarah’s efforts. Simultaneously, Mike’s clinical priorities override both Sarah’s caregiving approach and Olivia’s privacy wishes during his shifts, leading to moments when ALFRED operates under conflicting rules—balancing Olivia’s demand for minimal intrusion, Sarah’s wish for engagement, and Mike’s need for unfiltered health alerts. Despite these clashes, Olivia’s vital signs remain continuously tracked, ensuring her physical well-being is prioritized even as the system navigates the complex dynamics of privacy, care, and autonomy.",
+  "personas": [
+    "P-004",
+    "P-006",
+    "P-005"
+  ]
+}

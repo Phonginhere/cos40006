@@ -6,9 +6,9 @@ from typing import Optional
 from pipeline.user_story.user_story_loader import UserStoryLoader, UserStory
 from pipeline.utils import (
     CURRENT_LLM,
-    USER_GROUP_KEYS,
     NON_FUNCTIONAL_USER_STORY_DECOMPOSITION_PATH,
     load_system_summary,
+    load_user_group_keys,
     load_user_group_guidelines,
     load_user_story_guidelines,
     load_non_functional_user_story_conflict_summary,
@@ -37,9 +37,11 @@ def decompose_non_functional_user_stories(user_story_loader: Optional[UserStoryL
     technique_summary = load_non_functional_user_story_conflict_summary()
 
     all_results = []
+    
+    user_group_keys = load_user_group_keys()
 
     for story in nf_stories:
-        group_key = USER_GROUP_KEYS.get(story.user_group)
+        group_key = user_group_keys.get(story.user_group)
         if not group_key:
             continue
 

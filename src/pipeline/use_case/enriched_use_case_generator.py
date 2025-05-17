@@ -2,9 +2,14 @@ import os
 import re
 import textwrap
 
-from pipeline.utils import get_llm_response, load_system_summary, load_use_case_guidelines, load_all_user_group_guidelines
-from pipeline.user_persona_loader import UserPersonaLoader
 from pipeline.use_case.use_case_loader import UseCaseLoader
+from pipeline.utils import (
+    UserPersonaLoader, 
+    get_llm_response, 
+    load_system_summary, 
+    load_use_case_guidelines, 
+    load_all_user_group_guidelines
+)
 
 
 # ========== Step c: Prompt Constructor ==========

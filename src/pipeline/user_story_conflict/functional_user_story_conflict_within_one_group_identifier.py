@@ -8,10 +8,10 @@ from typing import Optional
 
 from pipeline.user_story.user_story_loader import UserStoryLoader
 from pipeline.utils import (
-    USER_GROUP_KEYS,
-    USER_GROUPS,
     FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR,
     load_system_summary,
+    load_user_group_keys,
+    get_user_groups,
     load_user_story_guidelines,
     load_functional_user_story_conflict_summary,
     get_llm_response,
@@ -23,7 +23,7 @@ def identify_functional_conflicts_within_one_group(user_story_loader: Optional[U
 
     # Skip if all user group files already exist
     existing_files = set(f for f in os.listdir(FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR) if f.endswith(".json"))
-    if len(existing_files) >= len(USER_GROUPS):
+    if len(existing_files) >= len(get_user_groups()):
         print("✅ Skipping functional user story conflict identification — all group JSONs already exist.")
         return
 
@@ -48,7 +48,9 @@ def identify_functional_conflicts_within_one_group(user_story_loader: Optional[U
     conflict_technique_summary = load_functional_user_story_conflict_summary()
 
     conflict_id_counter = 1
-    all_conflicts_by_group = {USER_GROUP_KEYS[g]: [] for g in USER_GROUPS}
+    user_group_keys = load_user_group_keys()
+    user_groups = get_user_groups()
+    all_conflicts_by_group = {user_group_keys[g]: [] for g in user_groups}
 
     # For each cluster, process conflicts by user group
     for cluster, stories_in_cluster in cluster_map.items():
@@ -59,7 +61,7 @@ def identify_functional_conflicts_within_one_group(user_story_loader: Optional[U
 
         for user_group, group_stories in group_map.items():
             # Defensive check for user group validity
-            if user_group not in USER_GROUP_KEYS:
+            if user_group not in user_group_keys:
                 print(f"⚠️ Unknown user group '{user_group}' in cluster '{cluster}', skipping.")
                 continue
 
@@ -102,7 +104,7 @@ def identify_functional_conflicts_within_one_group(user_story_loader: Optional[U
                         response, conflict_id_counter, storyA, storyB, cluster, user_group
                     )
                     if parsed:
-                        all_conflicts_by_group[USER_GROUP_KEYS[user_group]].append(parsed)
+                        all_conflicts_by_group[user_group_keys[user_group]].append(parsed)
                         conflict_id_counter += 1
 
     # Save conflicts per user group

@@ -1,0 +1,17 @@
+{
+  "id": "UC-004",
+  "useCaseType": "Social Enrichment (Social Media, Communication)",
+  "userGroups": [
+    "Older Adults"
+  ],
+  "pillars": [
+    "Pillar 2 - Personalized Social Inclusion",
+    "Pillar 4 - Physical & Cognitive Impairments Prevention"
+  ],
+  "name": "Controlled Formal Communication",
+  "description": "This use case enables Olivia to maintain formal and privacy-respecting communication via ALFRED, restricting unsolicited messages and social interactions while supporting her social inclusion and cognitive engagement preferences.",
+  "scenario": "Olivia, a retired social worker who has always been cautious about technology, finds herself reluctantly using ALFRED to stay connected without feeling overwhelmed. She insists that ALFRED only listen when she presses the push-to-talk button, refusing any unsolicited prompts or explanations that might confuse or irritate her. Olivia’s wariness about data privacy is palpable; she has firmly blocked all app installations and denied any sharing of her information, even with close family and healthcare providers. Despite ALFRED’s built-in social features, Olivia demands that all communications, even with her daughter, maintain a formal and polite tone, rejecting casual chats or friendly banter as too intrusive.\n\nHer approach creates a constant tension between her desire for social inclusion and her need for control and privacy. ALFRED, designed to encourage engagement through suggestions and reminders, finds itself silenced by Olivia’s strict limits. Notifications and invitations to join group activities or video check-ins are routinely dismissed, as Olivia prefers offline, scheduled check-ups and avoids any interaction that might feel like a challenge to her independence. She refuses to wear any health-monitoring devices that share data, fearing loss of control and exposure to third parties, even though this limits the personalized care ALFRED could provide.\n\nIn this dynamic, ALFRED adapts by respecting Olivia’s boundaries, offering only essential, user-initiated functions without proactive prompts. Olivia’s cautious stance means she seldom benefits from the system’s cognitive games or physical activity encouragement, which she deems too demanding. Her isolation remains a concern, but she tolerates ALFRED only as a tool to manage her communications on her terms, maintaining a semblance of connection while guarding her privacy fiercely. This uneasy balance reflects Olivia’s ongoing struggle between embracing helpful technology and preserving her autonomy and peace of mind.",
+  "personas": [
+    "P-005"
+  ]
+}

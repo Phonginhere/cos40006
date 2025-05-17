@@ -1,0 +1,80 @@
+[
+  {
+    "nfus_id": "US-008",
+    "nfus_summary": "As a full-stack developer, I want to study ALFRED’s documentation thoroughly so I can build secure, compliant healthcare apps that respect strict data privacy.",
+    "cluster_name": "Developer Documentation",
+    "cluster_description": "Functional stories related to providing comprehensive, clear, and compliant technical documentation to support secure and privacy-aware app development."
+  },
+  {
+    "nfus_id": "US-009",
+    "nfus_summary": "As a developer, I want to enforce strict accessibility compliance on my app to ensure inclusive user experiences while fully controlling user data and security.",
+    "cluster_name": "Accessibility Compliance",
+    "cluster_description": "Functional stories related to validating, enforcing, and maintaining accessibility standards and user data security in apps."
+  },
+  {
+    "nfus_id": "US-017",
+    "nfus_summary": "As a tech-curious older adult, I want ALFRED to use friendly, informal language so I feel comfortable and eager to learn how to use it.",
+    "cluster_name": "Voice Interaction Style",
+    "cluster_description": "Functional stories that manage the tone, style, and friendliness of voice-based interactions to enhance user comfort and engagement."
+  },
+  {
+    "nfus_id": "US-061",
+    "nfus_summary": "As a registered nurse, I want to block mandatory app updates and data collection during work hours to avoid distractions and stay focused on patient care.",
+    "cluster_name": "App Update Control",
+    "cluster_description": "Functional stories related to scheduling, deferring, or blocking app updates and data collection activities to minimize user interruptions."
+  },
+  {
+    "nfus_id": "US-068",
+    "nfus_summary": "As a registered nurse, I want ALFRED to remain silent and not signal frustration when non-critical alerts and interactive modes are disabled, so that my clinical focus is not distracted.",
+    "cluster_name": "Alert Behavior",
+    "cluster_description": "Functional stories managing alert notifications and system responses to avoid intrusive or distracting feedback during critical tasks."
+  },
+  {
+    "nfus_id": "US-069",
+    "nfus_summary": "As a registered nurse, I want ALFRED to use formal, direct communication during onboarding to quickly configure clinical settings without distractions.",
+    "cluster_name": "Onboarding Communication",
+    "cluster_description": "Functional stories that govern the style and clarity of onboarding communication to enable efficient and distraction-free user setup."
+  },
+  {
+    "nfus_id": "US-072",
+    "nfus_summary": "As an older person, I want to avoid all challenging cognitive games and physical exercises to prevent discomfort and stress.",
+    "cluster_name": "Challenge Avoidance",
+    "cluster_description": "Functional stories that enable disabling or excluding challenging cognitive and physical activities to ensure user comfort and stress avoidance."
+  },
+  {
+    "nfus_id": "US-081",
+    "nfus_summary": "As an older adult, I want to block all data sharing and dismiss almost all notifications and explanations, so that I can feel safe and avoid overwhelming technology.",
+    "cluster_name": "Data Sharing Control",
+    "cluster_description": "Functional stories controlling data sharing permissions and minimizing notifications to protect user privacy and reduce information overload."
+  },
+  {
+    "nfus_id": "US-082",
+    "nfus_summary": "As an older adult, I want ALFRED to never start cognitive activities unless I ask, to avoid unsolicited challenges and protect my privacy.",
+    "cluster_name": "User-Initiated Activities",
+    "cluster_description": "Functional stories ensuring cognitive activities and challenges only start upon explicit user request to respect privacy and autonomy."
+  },
+  {
+    "nfus_id": "US-083",
+    "nfus_summary": "As an older adult I want to personally configure ALFRED without any automatic settings to prevent unwanted features and completely block data sharing.",
+    "cluster_name": "Manual Configuration",
+    "cluster_description": "Functional stories supporting full manual setup and disabling of automatic features to prevent unwanted settings and data sharing."
+  },
+  {
+    "nfus_id": "US-087",
+    "nfus_summary": "As an older person, I want ALFRED to only suggest very gentle cognitive activities that do not challenge or pressure me, so I can use it without feeling overwhelmed or resistant.",
+    "cluster_name": "Gentle Cognitive Activities",
+    "cluster_description": "Functional stories focused on providing non-challenging, low-pressure cognitive exercises tailored for gentle user engagement."
+  },
+  {
+    "nfus_id": "US-113",
+    "nfus_summary": "As an informal caregiver, I want ALFRED to prompt Olivia gently and respect her privacy, so I can support her wellbeing without causing distress or violating trust.",
+    "cluster_name": "Gentle Social Prompts",
+    "cluster_description": "Functional stories that manage sensitive, respectful prompting and notifications to support social inclusion without causing user distress."
+  },
+  {
+    "nfus_id": "US-118",
+    "nfus_summary": "As an informal caregiver, I want ALFRED to provide activity reminders that respect my clients' privacy and autonomy without being intrusive, so I can support their engagement gently.",
+    "cluster_name": "Non-Intrusive Reminders",
+    "cluster_description": "Functional stories related to delivering respectful, unobtrusive activity reminders that support user autonomy and privacy."
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "id": "UC-001",
+  "useCaseType": "Health Monitoring (Wearables, Sensors)",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Pillar 3 - Effective & Personalized Care"
+  ],
+  "name": "Wearable Health Monitoring and Alerts",
+  "description": "Elena uses small, comfortable wearables to continuously track her vital signs and physical activity, while Sarah remotely monitors multiple clients securely through ALFRED. The system provides real-time health notifications and personalized exercise suggestions to support Elena’s independence and Sarah’s caregiving duties.",
+  "scenario": "Elena Rivera wakes up feeling a bit stiff but determined to stick with her new routine. She slips on the lightweight wearable ALFRED recommended, appreciating its comfort and subtle design. As she moves through her morning, ALFRED’s gentle voice offers a detailed explanation of how her heart rate and activity levels are being tracked, satisfying her curiosity and need to understand the technology. She enjoys that ALFRED speaks in a friendly, informal tone, avoiding any stiff or clinical language, which makes her feel more at ease. When ALFRED suggests a challenging set of exercises today, Elena hesitates momentarily—her motivation has waned in the past due to repetitive routines—but the promise of a stimulating game-like challenge piques her interest. She agrees to try, eager to push herself.\n\nMeanwhile, Sarah Thompson, remotely monitoring Elena’s health data alongside several other clients, reviews the real-time vital signs on her secure dashboard. She appreciates the clarity of the information but finds herself toggling settings frequently to selectively log data, as she prefers to control what is recorded rather than having everything automatically saved. Sarah worries about Elena’s safety when she notices a slight irregularity in her heart rate. She sends a quick video call request through ALFRED, hoping to check in personally. Elena, welcoming the interaction, answers with a smile, enjoying the spontaneous connection. However, Sarah hesitates before mentioning the irregularity, mindful of respecting Elena’s autonomy and privacy, as Elena has been eager to share data but remains wary of being overly monitored.\n\nLater, ALFRED suggests Elena drink some water and offers to remind her throughout the day. Elena finds this helpful but wonders if the reminders could be less frequent, fearing they might interrupt her flow. Sarah, on the other hand, wishes ALFRED would send her more frequent alerts about such behaviors to better support her clients. This subtle tension between Elena’s desire for independence and Sarah’s responsibility for oversight surfaces quietly but clearly. Despite these differences, both appreciate that ALFRED bridges the gap—Elena feels empowered and informed, while Sarah stays connected and responsive, each navigating their roles with ALFRED’s support.",
+  "personas": [
+    "P-002",
+    "P-006"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "UC-003",
+  "useCaseType": "Wellbeing & Lifestyle Optimization (Nutrition, Fitness)",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Older Adults"
+  ],
+  "pillars": [
+    "General Requirements",
+    "Pillar 2 - Personalized Social Inclusion",
+    "Pillar 4 - Physical & Cognitive Impairments Prevention"
+  ],
+  "name": "Tailored Nutrition and Activity Guidance",
+  "description": "ALFRED provides Olivia personalized nutrition advice and gentle physical activity suggestions respecting her privacy preferences and cautious attitude, while caregiver Sarah securely monitors progress and supports engagement to promote wellbeing and social inclusion.",
+  "scenario": "Olivia, a retired social worker with a deep mistrust of technology, sits in her quiet suburban home, hesitant as she activates ALFRED with a deliberate push-to-talk command. She dislikes unsolicited interruptions and has instructed ALFRED to limit notifications to only the most essential ones. When ALFRED gently suggests a light stretching routine tailored to her cautious preferences, Olivia dismisses the reminder without enthusiasm, wary of any exercise that might strain her. She also blocks any suggestions involving challenging activities or new app installations, determined to maintain control over her environment and data.\n\nMeanwhile, Sarah Thompson, Olivia’s informal caregiver, juggles the care of several older adults, including Olivia. Sarah relies heavily on ALFRED’s secure monitoring features to track Olivia’s progress remotely but respects the strict privacy settings Olivia has set, which prevent sharing data with family or even herself beyond minimal summaries. Sarah wishes Olivia would be more open to video check-ins, but she knows Olivia prefers offline communication, so she adapts by scheduling phone calls and leaving thoughtful, formal messages through ALFRED’s messaging system. Sarah often feels frustrated by Olivia’s guardedness, especially since she believes more engagement with the system could improve Olivia’s wellbeing and social inclusion.\n\nOne afternoon, ALFRED offers Olivia a carefully worded suggestion for a nutritious beverage aligned with her preferences. Olivia, valuing formality and privacy, asks ALFRED to confirm that no data from this interaction will be shared or stored beyond her device. ALFRED complies, quietly noting to Sarah that Olivia accepted the suggestion without requesting further guidance. Sarah reviews the anonymized, consented data later and plans to encourage Olivia gently to try some mild outdoor activities, hoping to balance Olivia’s independence with her own concerns for safety.\n\nDespite their differing attitudes—Olivia’s guarded pessimism and Sarah’s proactive caregiving—the ALFRED system mediates their interaction, respecting Olivia’s boundaries while providing Sarah with the tools she needs to support and motivate her client. The process is slow and sometimes tense, but ALFRED’s adaptability allows a fragile trust to grow between the two, fostering small steps toward improved wellbeing without overwhelming or alienating Olivia.",
+  "personas": [
+    "P-005",
+    "P-006"
+  ]
+}

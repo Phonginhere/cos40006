@@ -7,7 +7,7 @@ from typing import Optional
 
 from pipeline.user_story.user_story_loader import UserStoryLoader
 from pipeline.utils import (
-    USER_GROUP_KEYS,
+    load_user_group_keys,
     load_system_summary,
     load_user_story_guidelines,
     load_functional_user_story_conflict_summary,
@@ -145,6 +145,8 @@ def identify_functional_conflicts_across_two_groups(user_story_loader: UserStory
     conflict_technique_summary = load_functional_user_story_conflict_summary()
 
     conflict_id_counter = 1
+    
+    user_group_keys = load_user_group_keys()
 
     for cluster, stories_in_cluster in cluster_map.items():
         # Group stories by user group inside the cluster
@@ -192,7 +194,7 @@ def identify_functional_conflicts_across_two_groups(user_story_loader: UserStory
                         conflict_id_counter += 1
 
             if conflicts:
-                filename = f"{USER_GROUP_KEYS[groupA]}_vs_{USER_GROUP_KEYS[groupB]}.json"
+                filename = f"{user_group_keys[groupA]}_vs_{user_group_keys[groupB]}.json"
                 path = os.path.join(FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR, filename)
 
                 # Read existing conflicts to merge

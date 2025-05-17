@@ -1,9 +1,10 @@
 import os
 import json
+
 from pathlib import Path
 
-from pipeline.user_persona_loader import UserPersonaLoader
 from pipeline.utils import (
+    UserPersonaLoader,
     get_llm_response,
     load_system_summary,
     USER_STORY_DIR,

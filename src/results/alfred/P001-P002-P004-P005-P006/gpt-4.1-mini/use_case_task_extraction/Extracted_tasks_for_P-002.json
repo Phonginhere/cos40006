@@ -1,0 +1,170 @@
+[
+  {
+    "taskID": "TASK-001",
+    "useCaseId": "UC-001",
+    "personaId": "P-002",
+    "taskDescription": "Puts on the lightweight wearable recommended by ALFRED"
+  },
+  {
+    "taskID": "TASK-003",
+    "useCaseId": "UC-001",
+    "personaId": "P-002",
+    "taskDescription": "Interacts with ALFRED using natural voice commands"
+  },
+  {
+    "taskID": "TASK-004",
+    "useCaseId": "UC-001",
+    "personaId": "P-002",
+    "taskDescription": "Accepts ALFRED’s suggestion for a challenging exercise routine"
+  },
+  {
+    "taskID": "TASK-007",
+    "useCaseId": "UC-001",
+    "personaId": "P-002",
+    "taskDescription": "Manages and adjusts reminder frequency for hydration notifications"
+  },
+  {
+    "taskID": "TASK-009",
+    "useCaseId": "UC-001",
+    "personaId": "P-002",
+    "taskDescription": "Prefers ALFRED to communicate in a friendly, informal tone"
+  },
+  {
+    "taskID": "TASK-012",
+    "useCaseId": "UC-001",
+    "personaId": "P-002",
+    "taskDescription": "Seeks to maintain autonomy and control over personal health data sharing"
+  },
+  {
+    "taskID": "TASK-013",
+    "useCaseId": "UC-001",
+    "personaId": "P-002",
+    "taskDescription": "Wants reminders and alerts to be non-intrusive and respectful of her daily flow"
+  },
+  {
+    "taskID": "TASK-037",
+    "useCaseId": "UC-002",
+    "personaId": "P-002",
+    "taskDescription": "Accepts frequent notifications and encouragements from ALFRED"
+  },
+  {
+    "taskID": "TASK-038",
+    "useCaseId": "UC-002",
+    "personaId": "P-002",
+    "taskDescription": "Uses progress tracking features to monitor personal improvement"
+  },
+  {
+    "taskID": "TASK-042",
+    "useCaseId": "UC-002",
+    "personaId": "P-002",
+    "taskDescription": "Uses ALFRED to stave off loneliness through social interaction features"
+  },
+  {
+    "taskID": "TASK-116",
+    "useCaseId": "UC-005",
+    "personaId": "P-002",
+    "taskDescription": "Monitors personal progress through ALFRED’s rich data feedback"
+  },
+  {
+    "taskID": "TASK-118",
+    "useCaseId": "UC-005",
+    "personaId": "P-002",
+    "taskDescription": "Relies on ALFRED for personalized cognitive gaming and social engagement"
+  },
+  {
+    "taskID": "TASK-203",
+    "useCaseId": "UC-010",
+    "personaId": "P-002",
+    "taskDescription": "Wakes up responding to ALFRED's gentle voice reminders"
+  },
+  {
+    "taskID": "TASK-204",
+    "useCaseId": "UC-010",
+    "personaId": "P-002",
+    "taskDescription": "Drinks a glass of water as prompted by ALFRED before starting the day"
+  },
+  {
+    "taskID": "TASK-205",
+    "useCaseId": "UC-010",
+    "personaId": "P-002",
+    "taskDescription": "Monitors personal physical activity and vitals through a compact wrist wearable"
+  },
+  {
+    "taskID": "TASK-207",
+    "useCaseId": "UC-010",
+    "personaId": "P-002",
+    "taskDescription": "Responds to ALFRED’s exercise suggestions and evaluates their suitability"
+  },
+  {
+    "taskID": "TASK-208",
+    "useCaseId": "UC-010",
+    "personaId": "P-002",
+    "taskDescription": "Requests more challenging or varied exercise routines from ALFRED"
+  },
+  {
+    "taskID": "TASK-209",
+    "useCaseId": "UC-010",
+    "personaId": "P-002",
+    "taskDescription": "Expresses frustration when ALFRED's exercise recommendations feel repetitive or too cautious"
+  },
+  {
+    "taskID": "TASK-210",
+    "useCaseId": "UC-010",
+    "personaId": "P-002",
+    "taskDescription": "Considers ALFRED’s safety warnings and alternative exercise suggestions"
+  },
+  {
+    "taskID": "TASK-212",
+    "useCaseId": "UC-010",
+    "personaId": "P-002",
+    "taskDescription": "Chooses to accept social invitations to virtual group activities to reduce loneliness"
+  },
+  {
+    "taskID": "TASK-214",
+    "useCaseId": "UC-010",
+    "personaId": "P-002",
+    "taskDescription": "Appreciates the wearable’s unobtrusive design that avoids making her feel like a patient"
+  },
+  {
+    "taskID": "TASK-215",
+    "useCaseId": "UC-010",
+    "personaId": "P-002",
+    "taskDescription": "Desires more spontaneity and excitement in workout challenges"
+  },
+  {
+    "taskID": "TASK-216",
+    "useCaseId": "UC-010",
+    "personaId": "P-002",
+    "taskDescription": "Balances desire for autonomy in workouts with acceptance of ALFRED’s protective approach"
+  },
+  {
+    "taskID": "TASK-217",
+    "useCaseId": "UC-010",
+    "personaId": "P-002",
+    "taskDescription": "Feels empowered by learning and adapting alongside the system’s coaching"
+  },
+  {
+    "taskID": "TASK-218",
+    "useCaseId": "UC-010",
+    "personaId": "P-002",
+    "taskDescription": "Relies on ALFRED’s continuous monitoring for reassurance about her wellbeing"
+  },
+  {
+    "taskID": "TASK-249",
+    "useCaseId": "UC-012",
+    "personaId": "P-002",
+    "taskDescription": "Embrace technology to support independent living despite mild mobility issues"
+  },
+  {
+    "taskID": "TASK-250",
+    "useCaseId": "UC-012",
+    "personaId": "P-002",
+    "taskDescription": "Seek apps that provide sophisticated and personalized health support"
+  },
+  {
+    "taskID": "TASK-251",
+    "useCaseId": "UC-012",
+    "personaId": "P-002",
+    "taskDescription": "Trust ALFRED to adapt recommendations based on shared health data"
+  }
+]

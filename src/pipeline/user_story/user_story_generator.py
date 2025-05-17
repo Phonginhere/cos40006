@@ -2,14 +2,14 @@ import os
 import json
 
 from pipeline.user_story.user_story_loader import UserStoryLoader
-from pipeline.user_persona_loader import UserPersonaLoader
 from pipeline.use_case.use_case_loader import UseCaseLoader
 from pipeline.utils import (
+    UserPersonaLoader,
     load_system_summary,
     load_user_story_guidelines,
     load_user_group_guidelines,
     get_llm_response,
-    USER_GROUP_KEYS
+    load_user_group_keys,
 )
 
 def generate_complete_user_stories(persona_loader: UserPersonaLoader, use_case_loader: UseCaseLoader):
@@ -52,12 +52,14 @@ def generate_complete_user_stories(persona_loader: UserPersonaLoader, use_case_l
     ]
 
     print(f"🛠️ Generating {len(incomplete_stories)} user stories with LLM...")
+    
+    user_group_keys = load_user_group_keys()
 
     # Generate user stories' titles and summaries using LLM
     for story in incomplete_stories:
         persona = all_personas.get(story.persona)
         use_case = all_use_cases.get(story.use_case)
-        group_key = USER_GROUP_KEYS.get(persona.user_group)
+        group_key = user_group_keys.get(persona.user_group)
         group_summary = load_user_group_guidelines(group_key) if group_key else "Unknown"
 
         if not persona or not use_case:

@@ -1,0 +1,17 @@
+{
+  "id": "UC-005",
+  "useCaseType": "Cognitive Engagement & Stimulation (Gaming)",
+  "userGroups": [
+    "Older Adults"
+  ],
+  "pillars": [
+    "Pillar 4 - Physical & Cognitive Impairments Prevention"
+  ],
+  "name": "Personalized Cognitive Gaming Adaptation",
+  "description": "This use case enables ALFRED to provide tailored cognitive games that respect individual preferences and limitations, supporting engagement without overwhelming users like Olivia and Elena. It balances challenge and ease, ensuring privacy and formal communication while promoting cognitive stimulation for older adults.",
+  "scenario": "Olivia, a retired social worker, sat in her quiet suburban living room, eyeing the ALFRED device with a wary expression. She appreciated the idea of cognitive games but was deeply skeptical about technology, especially anything that might invade her privacy or push her into uncomfortable challenges. When ALFRED suggested a new memory game, Olivia dismissed it immediately, muttering that these “hard exercises” were not for her and that she preferred to keep her data strictly private. She did not want ALFRED explaining features in detail—she just wanted to use it without fuss. Any notifications about difficult games were promptly silenced by her, and she refused to share progress or health data with anyone, not even her caregivers or family. The formality of communication was paramount to her; she found informal chats or spontaneous messages intrusive and unsettling.\n\nMeanwhile, Elena Rivera, living in a lively urban neighborhood, had a very different relationship with ALFRED. She eagerly accepted notifications and was excited to try every new cognitive and physical challenge ALFRED offered. She enjoyed exploring the detailed explanations the system provided and felt motivated by ALFRED’s suggestions to push herself harder. Unlike Olivia, Elena welcomed sharing her data openly, hoping it would help her stay connected with family and medical staff. Video calls arranged by ALFRED were welcomed as opportunities to socialize and receive encouragement. She even engaged in casual chats with strangers through the platform’s social features, finding it a delightful way to combat loneliness.\n\nTheir divergent attitudes created a subtle tension within ALFRED’s adaptation logic. The system struggled to reconcile Olivia’s insistence on minimal interaction, privacy, and gentle, user-initiated engagement with Elena’s openness to continuous, sometimes unsolicited, stimulation and social connectivity. When ALFRED tried to tailor games for both, it had to carefully balance the difficulty and notification frequency, often resulting in starkly different experiences: Olivia’s gaming sessions were brief, cautious, and strictly controlled, while Elena’s were dynamic, immersive, and data-rich.\n\nUltimately, Olivia felt reassured that ALFRED respected her boundaries, even if it meant fewer benefits, while Elena thrived on the platform’s active support, embracing the challenges and social exchanges it fostered. ALFRED’s ability to navigate these contrasting needs highlighted the complexity of serving older adults with deeply personal and sometimes conflicting preferences.",
+  "personas": [
+    "P-005",
+    "P-002"
+  ]
+}

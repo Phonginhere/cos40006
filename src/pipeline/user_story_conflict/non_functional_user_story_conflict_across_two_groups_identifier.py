@@ -7,8 +7,8 @@ from typing import Optional
 
 from pipeline.user_story.user_story_loader import UserStoryLoader, UserStory
 from pipeline.utils import (
-    USER_GROUP_KEYS,
     load_system_summary,
+    load_user_group_keys,
     load_user_group_guidelines,
     load_user_story_guidelines,
     load_non_functional_user_story_conflict_summary,
@@ -194,6 +194,8 @@ def identify_non_functional_conflicts_across_two_groups(
             continue
 
         groups_in_cluster = sorted(group_map.keys())
+        
+        user_group_keys = load_user_group_keys()
 
         # Generate all unique pairs of user groups
         for groupA, groupB in combinations(groups_in_cluster, 2):
@@ -201,8 +203,8 @@ def identify_non_functional_conflicts_across_two_groups(
             groupB_stories = group_map[groupB]
 
             # Load user group summaries once per group pair
-            user_group_guidelines_A = load_user_group_guidelines(USER_GROUP_KEYS[groupA])
-            user_group_guidelines_B = load_user_group_guidelines(USER_GROUP_KEYS[groupB])
+            user_group_guidelines_A = load_user_group_guidelines(user_group_keys[groupA])
+            user_group_guidelines_B = load_user_group_guidelines(user_group_keys[groupB])
 
             conflicts = []
 
@@ -237,7 +239,7 @@ def identify_non_functional_conflicts_across_two_groups(
                         conflict_id_counter += 1
 
             if conflicts:
-                filename = f"{USER_GROUP_KEYS[groupA]}_vs_{USER_GROUP_KEYS[groupB]}.json"
+                filename = f"{user_group_keys[groupA]}_vs_{user_group_keys[groupB]}.json"
                 path = os.path.join(NON_FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR, filename)
 
                 # Read existing conflicts to merge

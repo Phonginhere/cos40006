@@ -1,4 +1,5 @@
 {
+    "name": "Caregivers and Medical Staff",
     "summary": "Caregivers (formal and informal) and medical staff are secondary users of the ALFRED system. They support the older adults by using the ALFRED platform to monitor health data, track vitals, and provide personalized care remotely. Caregivers benefit from ALFRED by receiving real-time information, managing care tasks, and ensuring the safety and well-being of their patients.",
     "needs": [
         {

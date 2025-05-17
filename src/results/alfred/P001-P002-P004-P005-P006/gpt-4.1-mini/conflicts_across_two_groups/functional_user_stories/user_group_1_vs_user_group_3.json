@@ -1,0 +1,38 @@
+[
+  {
+    "conflictType": "Forbid-stop",
+    "conflictDescription": "User Story A requires continuous data collection with strict privacy control, effectively forbidding free sharing of all user data, while User Story B demands that all personal health data be shared freely. These requirements impose opposite constraints on data sharing, making them mutually exclusive.",
+    "conflictId": "FCAT-096",
+    "personaAId": "P-001",
+    "personaBId": "P-002",
+    "userGroupA": "Developers and App Creators",
+    "userGroupB": "Older Adults",
+    "userStoryAId": "US-006",
+    "userStoryBId": "US-018",
+    "userStoryASummary": "As a developer, I want to continuously collect all user data with full control over sharing, so I can enforce strict privacy and fine-tune proactive voice reminders.",
+    "userStoryBSummary": "As an older person, I want ALFRED to share all my personal health data freely, so that I can fully benefit from personalized care and support.",
+    "cluster": "Data Sharing Control",
+    "generalResolutionType": "2. Update one and keep one remain the same",
+    "resolutionDescription": "User Story A is updated to clarify privacy controls allowing selective sharing under user consent, while User Story B remains unchanged to preserve the goal of data sharing for personalized care.",
+    "newUserStoryASummary": "As a developer, I want to collect user data continuously with strict privacy controls and user-consented sharing, so I can ensure data security and support personalized reminders.",
+    "newUserStoryBSummary": "As an older person, I want ALFRED to share all my personal health data freely, so that I can fully benefit from personalized care and support."
+  },
+  {
+    "conflictType": "Forbid-stop",
+    "conflictDescription": "User Story A requires continuous collection and sharing control of all user data, implying chat data might be collected and shared, while User Story B strictly forbids chatting with other users during games, which conflicts with continuous data collection involving social interactions.",
+    "conflictId": "FCAT-099",
+    "personaAId": "P-001",
+    "personaBId": "P-005",
+    "userGroupA": "Developers and App Creators",
+    "userGroupB": "Older Adults",
+    "userStoryAId": "US-006",
+    "userStoryBId": "US-073",
+    "userStoryASummary": "As a developer, I want to continuously collect all user data with full control over sharing, so I can enforce strict privacy and fine-tune proactive voice reminders.",
+    "userStoryBSummary": "As an older adult I want ALFRED to block all chatting with other users during games to protect my privacy and avoid all social interactions.",
+    "cluster": "Data Sharing Control",
+    "generalResolutionType": "2. Update one and keep one remain the same",
+    "resolutionDescription": "User Story A is updated to exclude collection of chat data during games to respect the privacy and social blocking required in User Story B, which remains unchanged.",
+    "newUserStoryASummary": "As a developer, I want to continuously collect all user data except chat data during games, so I can enforce privacy and fine-tune voice reminders.",
+    "newUserStoryBSummary": "As an older adult I want ALFRED to block all chatting with other users during games to protect my privacy and avoid all social interactions."
+  }
+]

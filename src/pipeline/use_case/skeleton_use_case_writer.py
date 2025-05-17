@@ -6,9 +6,12 @@ from collections import Counter, defaultdict
 from typing import List, Dict
 from pathlib import Path
 
-from pipeline.user_persona_loader import UserPersonaLoader, UserPersona
 from pipeline.use_case.use_case_loader import load_use_case_type_config
-from pipeline.utils import USE_CASE_DIR
+from pipeline.utils import (
+    UserPersona,
+    UserPersonaLoader,
+    USE_CASE_DIR
+)
 
 # ========== Utility: Persona Group Generator ==========
 def is_use_case_folder_ready() -> bool:

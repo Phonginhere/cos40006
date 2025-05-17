@@ -1,0 +1,74 @@
+[
+  {
+    "taskID": "TASK-165",
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Integrate a new secure healthcare app into the ALFRED platform"
+  },
+  {
+    "taskID": "TASK-169",
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Enable persistent notifications to caregivers regardless of time or situation"
+  },
+  {
+    "taskID": "TASK-170",
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Monitor system logs remotely to assess app performance and caregiver interactions"
+  },
+  {
+    "taskID": "TASK-172",
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Prioritize patient safety over individual privacy concerns in app design"
+  },
+  {
+    "taskID": "TASK-174",
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Negotiate technical features to comply with strict clinical and privacy requirements"
+  },
+  {
+    "taskID": "TASK-232",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Develop a healthcare app that leverages ALFRED’s APIs for health monitoring"
+  },
+  {
+    "taskID": "TASK-234",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Collect continuous user data to enhance app’s proactive voice reminders"
+  },
+  {
+    "taskID": "TASK-235",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Study ALFRED’s documentation thoroughly to ensure compliance"
+  },
+  {
+    "taskID": "TASK-236",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Balance app features with ALFRED’s accessibility standards"
+  },
+  {
+    "taskID": "TASK-238",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Submit the app to the ALFRED marketplace for review"
+  },
+  {
+    "taskID": "TASK-240",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Configure app settings to allow unobtrusive health metric tracking"
+  },
+  {
+    "taskID": "TASK-241",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Implement advanced features while maintaining user data protection"
+  }
+]

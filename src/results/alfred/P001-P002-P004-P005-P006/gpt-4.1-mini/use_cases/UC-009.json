@@ -1,0 +1,17 @@
+{
+  "id": "UC-009",
+  "useCaseType": "Recovery & Rehab",
+  "userGroups": [
+    "Older Adults"
+  ],
+  "pillars": [
+    "Pillar 3 - Effective & Personalized Care",
+    "Pillar 4 - Physical & Cognitive Impairments Prevention"
+  ],
+  "name": "Privacy-Conscious Rehab Support",
+  "description": "This use case addresses Olivia’s need for a recovery and rehabilitation process that respects her strong privacy concerns and preference for minimal notifications. ALFRED provides personalized, gentle care and cognitive support with strictly controlled data sharing and formal communication, enabling Olivia to improve her health while feeling safe and in control.",
+  "scenario": "Olivia, a retired social worker living alone, is cautious about using ALFRED for her rehabilitation. She appreciates the system’s ability to support her recovery but remains deeply skeptical about any technology that might infringe on her privacy or overwhelm her with notifications. From the start, Olivia insists on strict boundaries: she enables ALFRED’s voice assistant only when she chooses to speak, rejecting any spontaneous prompts or unsolicited messages. She refuses to wear any sensor-laden wearables, worried that data might leak to third parties, even though this limits the system’s ability to monitor her vitals in real-time.\n\nDuring her rehab exercises, Olivia dismisses any suggestion from ALFRED that involves challenging activities, preferring gentler routines that she feels she can manage without risking discomfort or failure. ALFRED respects her choice by filtering out intense workout reminders, but this frustrates the system’s usual approach of nudging users toward gradual progress. Olivia’s desire to keep all communication formal and minimal creates another tension: she blocks ALFRED from sharing messages or health updates with her family, caregivers, or medical professionals, even refusing video check-ins. This leaves her care team with limited insight, and Olivia often struggles to motivate herself to initiate check-up calls, which she finds emotionally taxing.\n\nDespite these challenges, Olivia finds comfort in ALFRED’s quiet presence—she can ask for help when she needs it without feeling pressured. The system’s restrained approach aligns with her need for control and privacy, even if it means slower progress. ALFRED carefully avoids detailed explanations of its features, honoring Olivia’s wish to simply use the system without technical overload. While this makes care coordination harder for her support network, Olivia values the trade-off, feeling safer knowing her personal data remains private and her autonomy respected. The system’s gentle reminders and tailored cognitive activities, limited to what Olivia accepts, help her maintain some engagement without triggering her pessimism or resistance. In this delicate balance, ALFRED becomes a respectful, if restrained, companion in Olivia’s rehabilitation journey.",
+  "personas": [
+    "P-005"
+  ]
+}

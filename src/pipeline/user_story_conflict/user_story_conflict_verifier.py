@@ -3,9 +3,10 @@ import json
 from typing import Optional
 
 from pipeline.utils import (
-    USER_GROUP_KEYS,
+    UserPersonaLoader,
     USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR,
     load_system_summary,
+    load_user_group_keys,
     load_user_group_guidelines,
     get_llm_response,
     NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR,
@@ -13,7 +14,7 @@ from pipeline.utils import (
     NON_FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR,
     FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR,
 )
-from pipeline.user_persona_loader import UserPersonaLoader
+
 
 def load_json_file(path: str):
     with open(path, "r", encoding="utf-8") as f:
@@ -130,7 +131,8 @@ def verify_conflicts(
         # so parse user groups from filename
         if within_one_group:
             user_group_name = conflicts[0].get("userGroup", "")
-            user_group_key = USER_GROUP_KEYS.get(user_group_name)
+            user_group_keys = load_user_group_keys()
+            user_group_key = user_group_keys.get(user_group_name)
             if not user_group_key:
                 print(f"❌ Unknown user group: {user_group_name}")
                 user_group_guidelines = "(Missing user group guidelines)"

@@ -2,7 +2,7 @@ import sys
 import time
 import random
 
-from pipeline.user_persona_loader import UserPersonaLoader
+from pipeline.utils import UserPersonaLoader
 
 from pipeline.use_case.use_case_loader import UseCaseLoader
 from pipeline.use_case.skeleton_use_case_writer import write_use_case_skeletons

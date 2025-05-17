@@ -3,9 +3,13 @@ import json
 import shutil
 
 from collections import defaultdict
-from pipeline.user_persona_loader import UserPersonaLoader
-from pipeline.utils import USE_CASE_TASK_EXTRACTION_DIR, USER_STORY_DIR
+
 from pipeline.user_story.user_story_loader import UserStory
+from pipeline.utils import (
+    UserPersonaLoader,
+    USE_CASE_TASK_EXTRACTION_DIR, 
+    USER_STORY_DIR
+)
 
 
 def extract_skeleton_user_stories(persona_loader: UserPersonaLoader):

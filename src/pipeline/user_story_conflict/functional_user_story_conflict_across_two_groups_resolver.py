@@ -3,15 +3,15 @@ import json
 from typing import Optional
 
 from pipeline.utils import (
+    UserPersonaLoader,
     FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR,
     USER_STORY_DIR,
-    USER_GROUP_KEYS,
     load_system_summary,
+    load_user_group_keys,
     load_user_story_guidelines,
     load_functional_user_story_conflict_summary,
     get_llm_response,
 )
-from pipeline.user_persona_loader import UserPersonaLoader
 
 
 def load_json_file(path: str):

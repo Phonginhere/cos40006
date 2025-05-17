@@ -7,13 +7,13 @@ from pathlib import Path
 from collections import defaultdict
 
 from pipeline.utils import (
+    UserPersonaLoader,
     get_llm_response,
     load_use_case_task_example,
     load_system_summary,
     USE_CASE_TASK_EXTRACTION_DIR,
     USE_CASE_DIR
 )
-from pipeline.user_persona_loader import UserPersonaLoader
 from pipeline.use_case.use_case_loader import UseCaseLoader
 
 

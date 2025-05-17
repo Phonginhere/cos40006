@@ -6,9 +6,10 @@ from typing import Optional
 
 from pipeline.user_story.user_story_loader import UserStoryLoader, UserStory
 from pipeline.utils import (
-    USER_GROUP_KEYS,
-    USER_GROUPS,
+
     load_system_summary,
+    load_user_group_keys,
+    get_user_groups,
     load_user_group_guidelines,
     load_user_story_guidelines,
     load_non_functional_user_story_conflict_summary,
@@ -21,8 +22,11 @@ from pipeline.utils import (
 def identify_non_functional_conflicts_within_one_group(user_story_loader: Optional[UserStoryLoader] = None):
     os.makedirs(NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, exist_ok=True)
 
+    user_groups = get_user_groups()
+    user_group_keys = load_user_group_keys()
+
     existing_files = set(f for f in os.listdir(NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR) if f.endswith(".json"))
-    if len(existing_files) >= len(USER_GROUPS):
+    if len(existing_files) >= len(user_groups):
         print("✅ Skipping conflict identification — all group JSONs already exist.")
         return
 
@@ -45,7 +49,7 @@ def identify_non_functional_conflicts_within_one_group(user_story_loader: Option
     technique_summary = load_non_functional_user_story_conflict_summary()
 
     conflict_id_counter = 1
-    all_conflicts_by_group = {USER_GROUP_KEYS[g]: [] for g in USER_GROUPS}
+    all_conflicts_by_group = {user_group_keys[g]: [] for g in user_groups}
 
     for cluster, stories in cluster_map.items():
         group_map = defaultdict(list)
@@ -53,7 +57,7 @@ def identify_non_functional_conflicts_within_one_group(user_story_loader: Option
             group_map[s.user_group].append(s)
 
         for user_group, group_stories in group_map.items():
-            group_key = USER_GROUP_KEYS.get(user_group)
+            group_key = user_group_keys.get(user_group)
             if not group_key:
                 continue
 

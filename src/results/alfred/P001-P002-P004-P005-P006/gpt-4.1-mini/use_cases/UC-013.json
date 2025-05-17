@@ -1,0 +1,22 @@
+{
+  "id": "UC-013",
+  "useCaseType": "Onboarding / Setup",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Older Adults"
+  ],
+  "pillars": [
+    "General Requirements",
+    "Pillar 1 - User-Driven Interaction Assistant",
+    "Pillar 2 - Personalized Social Inclusion",
+    "Pillar 3 - Effective & Personalized Care"
+  ],
+  "name": "Dual-Mode Care Onboarding",
+  "description": "This use case supports onboarding older adults and their caregivers with distinct interaction preferences and priorities, enabling tailored configuration of ALFRED’s features to balance clinical efficiency with privacy and emotional engagement.",
+  "scenario": "Olivia sat cautiously in her living room, eyeing the ALFRED device placed on the table. The sleek gadget felt alien to her, a reminder of technology she neither trusted nor wanted to embrace. When Mike Johnson, the registered nurse, arrived for the onboarding session, he wasted no time. Focused and efficient, Mike immediately began configuring ALFRED’s clinical settings, prioritizing access to Olivia’s vital signs and scheduling medication reminders. He spoke little, his tone formal and direct, dismissing Olivia’s hesitations about privacy as irrelevant in favor of clinical necessity. “Data sharing with caregivers like me ensures your safety,” he insisted, though Olivia bristled at the idea of her information being so accessible.\n\nSarah Thompson, the informal caregiver who would also support Olivia, joined later, bringing a contrasting energy. She encouraged Olivia to explore ALFRED’s social and interactive features, patiently guiding her through voice commands to join light games and send polite messages to family. Sarah emphasized emotional connection and privacy, carefully adjusting ALFRED’s notifications to respect Olivia’s wishes while still keeping her connected. Olivia appreciated Sarah’s gentle approach but remained stubbornly wary, declining video check-ins and firmly refusing to allow sharing of her data beyond what was absolutely necessary.\n\nThe tension between Mike’s clinical urgency and Sarah’s empathetic patience became palpable. Mike frowned at the disabled non-critical alerts and interactive modes, worried that Olivia’s guarded stance might jeopardize her health monitoring. Sarah, however, defended Olivia’s autonomy, insisting that pushing too hard would only alienate her. Olivia herself felt caught in the middle—grateful for the medical oversight Mike promised yet overwhelmed by the flood of clinical data and permissions. She preferred to keep ALFRED silent unless she initiated interaction, wary of any unexpected system chatter.\n\nBy the end of the session, ALFRED was set up with dual modes: a streamlined clinical interface accessible to Mike with prioritized alerts and automatic logging, and a more restrained, user-controlled mode for Olivia, limiting notifications and emphasizing privacy and formal communications. While this compromise left Mike frustrated by the reduced data flow, it gave Olivia a cautious sense of control—and Sarah a manageable way to foster connection without overwhelming her. The three left with differing views on ALFRED’s role, each aware that balancing efficiency, privacy, and emotional engagement would remain an ongoing challenge.",
+  "personas": [
+    "P-004",
+    "P-006",
+    "P-005"
+  ]
+}

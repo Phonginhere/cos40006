@@ -21,7 +21,8 @@
   ],
   "CoreGoals": [
     "Push-to-Talk when I ask the system to",
-    "Drink beverage",
+    "Prefer user actions in all features",
+    "Only drink beverage",
     "Take public transport",
     "Keep communication to be formal, polite, ethical and healthy",
     "Limit the sending of almost ALFRED's messages/notifications (not just unsolicited ones, but almost all of them)"
@@ -45,7 +46,8 @@
     "All conversations or messages must be formal, including the ones with my family and friends",
     "Hardly wear wearables with a sensor, they must not share my data with third parties",
     "Dismiss all notifications of the hard exercises",
-    "Hardly accept video check-ins arranged by my caregiver, prefer offline check-ins"
+    "Hardly accept video check-ins arranged by my caregiver, prefer offline check-ins",
+    "No chatting with strangers"
   ],
   "WorkingSituation": "",
   "PlaceOfWork": "",

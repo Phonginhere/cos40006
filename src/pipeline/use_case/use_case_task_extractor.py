@@ -74,6 +74,7 @@ Scenario:
 - Each task should be written as a short, complete sentence or phrase. Also, they should be distinct, goal-oriented and not repeated across personas.
 - Group tasks by persona. In the extracted tasks, please use the persona name, NOT their id, which is only used for the attribute "personaId".
 - Strictly, please note that each task from a persona should not only from the use case only, but must align with that involved persona's information. In **most** cases, especially where the use case's relevant section(s) are quite general, abstract and/or vague, the persona's information should be the **dominant factor** in the task extraction and/or generation process(es).
+- Also, the tasks must be unique. So please skip any similar operands, actions, e.t.c.
 
 --- OUTPUT FORMAT ---
 
@@ -132,7 +133,7 @@ def reformat_and_save_all_tasks_by_persona():
                 persona_id = persona_entry.get("personaId", "")
                 for desc in persona_entry.get("tasks", []):
                     flat_task_list.append({
-                        "taskID": task_counter,
+                        "taskID": f"TASK-{task_counter:03}",
                         "useCaseId": uc_id,
                         "personaId": persona_id,
                         "taskDescription": desc

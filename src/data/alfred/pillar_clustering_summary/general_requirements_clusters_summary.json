@@ -1,0 +1,12 @@
+[
+  {
+    "clusterId": "PGR-CL-01",
+    "name": "Security, Privacy & Reliability",
+    "description": "Consolidates system-wide requirements related to secure data handling, privacy controls, and reliable system behavior. Encompasses protection of personal data, prevention of unauthorized access, data-sharing transparency, high availability, failure resilience, and consistent performance under diverse conditions."
+  },
+  {
+    "clusterId": "PGR-CL-02",
+    "name": "Accessibility & Physical Usability",
+    "description": "Combines requirements ensuring physical and cognitive accessibility with ergonomic hardware interaction. Includes screen readers, font scaling, adaptive interfaces, wearable comfort, button design, and device usability for older adults with varied impairments."
+  }
+]

@@ -1,0 +1,43 @@
+Poort and de With Clustering Technique (2015)
+
+Poort and de With proposed a technique where Functional Requirements (FRs) are grouped into clusters defined by Non-Functional Requirements (NFRs). In our system, each Non-Functional User Story (NFUS) acts as a *semantic anchor* that defines a cluster.
+
+Each cluster summarizes a non-functional concern and gathers related functional expectations under a common theme.
+
+CLUSTERING RULES:
+- Each NFUS leads to a single functional cluster.
+- The cluster_name must be a short and general topic (1–4 words), such as:
+  - “Video Communication”
+  - “Data Sharing”
+  - “App Updates”
+  - “Safety Monitoring”
+  - “Reminders”
+  - ...
+- The cluster_description should explain what types of functional stories belong to the cluster and how they support the non-functional concern.
+
+UNREAL EXAMPLES:
+
+Note that, the following are just the just non-existent examples of user story's titles and summaries, which are used for references only, and do not confuse with the real inputs provided (personas, use cases, summaries, ...):
+
+
+- NFUS: “I want to avoid video communication with patients to focus on clinical monitoring...”  
+  → cluster_name: “Video Communication”  
+  → cluster_description: “Functional stories that allow disabling or limiting video-based interactions.”
+
+- NFUS: “I want to block all data sharing, including with caregivers or family...”  
+  → cluster_name: “Data Sharing”  
+  → cluster_description: “Functionalities enforcing strict consent-based control over personal data.”
+
+- NFUS: “I want ALFRED to use quiet, formal recovery support...”  
+  → cluster_name: “Recovery Support”  
+  → cluster_description: “Functionalities for non-intrusive, formal recovery guidance and notifications.”
+
+- NFUS: “I want to control app updates to prevent disruptions during my shifts...”  
+  → cluster_name: “App Updates”  
+  → cluster_description: “Functional stories related to managing, deferring, or scheduling app updates.”
+
+- NFUS: “I want ALFRED to keep all communication formal and polite...”  
+  → cluster_name: “Communication Style”  
+  → cluster_description: “Functionalities that adjust the tone and formality of messages based on user preferences.”
+
+This clustering approach ensures that each functional cluster reflects a coherent set of system capabilities that directly support a non-functional expectation.

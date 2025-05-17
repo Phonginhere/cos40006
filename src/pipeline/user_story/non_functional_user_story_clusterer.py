@@ -19,10 +19,10 @@ def build_prompt_to_cluster_non_functional_user_story(story, system_summary, gui
         return None
     
     cluster_defs_text = "\n".join(
-        f"- {c['cluster_name']}: {c['cluster_description']}" for c in clusters
+        f"- {c['name']}: {c['description']}" for c in clusters
     )
     
-    cluster_names = [c['cluster_name'] for c in clusters]
+    cluster_names = [c['name'] for c in clusters]
     cluster_names_str = ", ".join(cluster_names)
 
     prompt = f"""

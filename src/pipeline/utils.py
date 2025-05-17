@@ -3,6 +3,32 @@ import os
 
 from typing import List, Dict, Optional
 
+# ==================================================================================================
+# PERSONA ABBREVIATION LOADER
+def load_persona_ids_only() -> List[str]:
+    """Returns a sorted list of persona IDs from the persona JSON files without fully loading the objects."""
+    ids = []
+    try:
+        for filename in os.listdir(PERSONA_DIR):
+            if filename.endswith(".json"):
+                filepath = os.path.join(PERSONA_DIR, filename)
+                with open(filepath, "r", encoding="utf-8") as file:
+                    data = json.load(file)
+                    if "Id" in data:
+                        ids.append(data["Id"])
+    except Exception as e:
+        print(f"❌ Error reading persona IDs: {e}")
+    return sorted(ids)
+
+def get_persona_abbreviation() -> str:
+    """Returns a short abbreviation string from persona IDs like 'P001-P002-P004'."""
+    try:
+        persona_ids = load_persona_ids_only()
+        return "-".join(pid.replace("P-", "P") for pid in persona_ids)
+    except Exception as e:
+        print(f"⚠️ Could not generate persona abbreviation: {e}")
+        return "UnknownPersonas"
+
 # ===============================================================================================
 # CONSTANTS
 
@@ -20,32 +46,36 @@ USER_GROUP_KEYS = {
 
 USER_GROUPS = list(USER_GROUP_KEYS.keys())
 
-SYSTEM_SUMMARY_PATH = os.path.join("data", SYSTEM_NAME, "system_summary.txt")
-USER_GROUP_GUIDELINES_DIR = os.path.join("data", SYSTEM_NAME, "user_group_guidelines")
-PERSONA_DIR = os.path.join("data", SYSTEM_NAME, "personas")
+ROOT_DATA_DIR = os.path.join("data", SYSTEM_NAME)
 
-USE_CASE_GUIDELINES_PATH = os.path.join("data", SYSTEM_NAME, "use_case_rules", "use_case_guidelines.txt")
-USE_CASE_TYPE_CONFIG_PATH = os.path.join("data", SYSTEM_NAME, "use_case_rules", "use_case_type_config.json")
-USE_CASE_TASK_EXTRACTION_EXAMPLE_PATH = os.path.join("data", SYSTEM_NAME, "use_case_rules", "use_case_task_extraction_example.txt")
+SYSTEM_SUMMARY_PATH = os.path.join(ROOT_DATA_DIR, "system_summary.txt")
+USER_GROUP_GUIDELINES_DIR = os.path.join(ROOT_DATA_DIR, "user_group_guidelines")
+PERSONA_DIR = os.path.join(ROOT_DATA_DIR, "personas")
 
-DUPLICATE_REMOVAL_RATIO_LIMIT = 1 / 3
+USE_CASE_GUIDELINES_PATH = os.path.join(ROOT_DATA_DIR, "use_case_rules", "use_case_guidelines.txt")
+USE_CASE_TYPE_CONFIG_PATH = os.path.join(ROOT_DATA_DIR, "use_case_rules", "use_case_type_config.json")
+USE_CASE_TASK_EXTRACTION_EXAMPLE_PATH = os.path.join(ROOT_DATA_DIR, "use_case_rules", "use_case_task_extraction_example.txt")
 
-USER_STORY_GUIDELINES_PATH = os.path.join("data", SYSTEM_NAME, "user_story_rules", "user_story_guidelines.txt")
-NON_FUNCTIONAL_USER_STORY_CLUSTERING_SUMMARY_DIR = os.path.join("data", SYSTEM_NAME, "user_story_rules", "non_functional_user_story_clustering_summary")
+USER_STORY_GUIDELINES_PATH = os.path.join(ROOT_DATA_DIR, "user_story_rules", "user_story_guidelines.txt")
 
-NON_FUNCTIONAL_USER_STORY_CONFLICT_SUMMARY_PATH = os.path.join("data", SYSTEM_NAME, "user_story_conflict_rules", "non_functional_user_story_conflict_summary.txt")
-FUNCTIONAL_USER_STORY_CONFLICT_SUMMARY_PATH = os.path.join("data", SYSTEM_NAME, "user_story_conflict_rules", "functional_user_story_conflict_summary.txt")
+PILLAR_CLUSTERING_SUMMARY_DIR = os.path.join(ROOT_DATA_DIR, "pillar_clustering_summary")
+FUNCTIONAL_USER_STORY_CLUSTERING_TECHNIQUE_GUIDELINES = os.path.join(ROOT_DATA_DIR, "user_story_rules", "functional_user_story_clustering_technique_guidelines.txt")
 
-USE_CASE_DIR = os.path.join("results", CURRENT_LLM, "use_cases")
-USE_CASE_TASK_EXTRACTION_DIR = os.path.join("results", CURRENT_LLM, "use_case_task_extraction")
+NON_FUNCTIONAL_USER_STORY_CONFLICT_SUMMARY_PATH = os.path.join(ROOT_DATA_DIR, "user_story_conflict_rules", "non_functional_user_story_conflict_summary.txt")
+FUNCTIONAL_USER_STORY_CONFLICT_SUMMARY_PATH = os.path.join(ROOT_DATA_DIR, "user_story_conflict_rules", "functional_user_story_conflict_summary.txt")
 
-USER_STORY_DIR = os.path.join("results", CURRENT_LLM, "user_stories")
-FUNCTIONAL_USER_STORY_CLUSTER_SET_PATH = os.path.join("results", CURRENT_LLM, "functional_user_story_cluster_set.json")
+ROOT_RESULTS_DIR = os.path.join("results", get_persona_abbreviation(), CURRENT_LLM) 
 
-USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join("results", CURRENT_LLM, "conflicts_within_one_group")
-USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR = os.path.join("results", CURRENT_LLM, "conflicts_across_two_groups")
+USE_CASE_DIR = os.path.join(ROOT_RESULTS_DIR, "use_cases")
+USE_CASE_TASK_EXTRACTION_DIR = os.path.join(ROOT_RESULTS_DIR, "use_case_task_extraction")
 
-NON_FUNCTIONAL_USER_STORY_DECOMPOSITION_PATH = os.path.join("results", CURRENT_LLM, "non_functional_user_story_decomposition.json")
+USER_STORY_DIR = os.path.join(ROOT_RESULTS_DIR, "user_stories")
+FUNCTIONAL_USER_STORY_CLUSTER_SET_PATH = os.path.join(ROOT_RESULTS_DIR, "functional_user_story_cluster_set.json")
+
+USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join(ROOT_RESULTS_DIR, "conflicts_within_one_group")
+USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR = os.path.join(ROOT_RESULTS_DIR, "conflicts_across_two_groups")
+
+NON_FUNCTIONAL_USER_STORY_DECOMPOSITION_PATH = os.path.join(ROOT_RESULTS_DIR, "non_functional_user_story_decomposition.json")
 NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join(USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, "non_functional_user_stories")
 NON_FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR = os.path.join(USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR, "non_functional_user_stories")
 
@@ -169,7 +199,7 @@ def load_non_functional_user_story_cluster_summary(pillar: str) -> list:
         print(f"⚠️ No cluster JSON file mapped for pillar: {pillar}")
         return []
 
-    full_path = os.path.join(NON_FUNCTIONAL_USER_STORY_CLUSTERING_SUMMARY_DIR, filename)
+    full_path = os.path.join(PILLAR_CLUSTERING_SUMMARY_DIR, filename)
     try:
         with open(full_path, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -195,6 +225,13 @@ def load_functional_user_story_conflict_summary() -> str:
             return f.read().strip()
     except FileNotFoundError:
         raise FileNotFoundError(f"❌ Missing non-functional user story conflict summary file at: {FUNCTIONAL_USER_STORY_CONFLICT_SUMMARY_PATH}")
+
+def load_functional_user_story_clustering_technique() -> str:
+    try:
+        with open(FUNCTIONAL_USER_STORY_CLUSTERING_TECHNIQUE_GUIDELINES, "r", encoding="utf-8") as f:
+            return f.read().strip()
+    except FileNotFoundError:
+        raise FileNotFoundError(f"❌ Missing functional user story clustering technique file at: {FUNCTIONAL_USER_STORY_CLUSTERING_TECHNIQUE_GUIDELINES}")
 
 # ==================================================================================================
 # LLM HANDLER

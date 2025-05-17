@@ -20,7 +20,8 @@
         "Monitor multiple clients in parallel",
         "Enable bonding through interactive tools",
         "Stay responsive at all times",
-        "Caregivers and patients must participate in features development"
+        "Caregivers and patients must participate in features development",
+        "Patient must not take public transport, but must be driven by a caregiver"
     ],
     "TypicalChallenges": [
         "Context switching across clients and family",

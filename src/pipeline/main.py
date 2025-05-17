@@ -14,6 +14,7 @@ from pipeline.use_case.use_case_task_deduplicator import deduplicate_tasks_for_a
 from pipeline.user_story.user_story_loader import UserStoryLoader
 from pipeline.user_story.skeleton_user_story_extractor import extract_skeleton_user_stories
 from pipeline.user_story.user_story_generator import generate_complete_user_stories
+from pipeline.user_story.user_story_deduplicator import deduplicate_user_stories_for_each_persona
 from pipeline.user_story.user_story_verifier import verify_user_stories
 from pipeline.user_story.user_story_functional_and_non_funtional_typer import update_user_stories_with_type
 from pipeline.user_story.non_functional_user_story_clusterer import cluster_non_functional_user_stories
@@ -79,8 +80,12 @@ def main():
     print("\n📝 Phase 3b: Generating complete user stories...")
     generate_complete_user_stories(persona_loader, use_case_loader)
     
-    #   Step 3b-1: Verify user story summaries for persona dominance
-    print("\n🔎 Phase 3b-1: Verifying user story summaries for persona dominance...")
+    #   Step 3b-1: Deduplicate user stories for each persona
+    print("\n🔄 Phase 3b-1: Deduplicating user stories for each persona...")
+    deduplicate_user_stories_for_each_persona(persona_loader)
+    
+    #   Step 3b-2: Verify user story summaries for persona dominance
+    print("\n🔎 Phase 3b-2: Verifying user story summaries for persona dominance...")
     verify_user_stories(persona_loader)
     
     #   Step 3c: Update user stories with type (functional/non-functional)

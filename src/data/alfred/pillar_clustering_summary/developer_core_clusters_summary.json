@@ -1,0 +1,12 @@
+[
+  {
+    "clusterId": "PDC-CL-01",
+    "name": "API Integration & Development Support",
+    "description": "Combines requirements for developer interfaces and tooling. Encompasses clear, stable, and versioned APIs, comprehensive documentation, test environments, debugging support, and developer enablement features to ensure smooth integration and reliable extension of ALFRED functionalities."
+  },
+  {
+    "clusterId": "PDC-CL-02",
+    "name": "Marketplace & Interface Experience",
+    "description": "Covers requirements related to ALFREDO marketplace infrastructure and UI design principles. Includes developer submission flows, searchability, app discoverability, and support for building non-intrusive, minimal interfaces tailored for caregivers and time-constrained users."
+  }
+]

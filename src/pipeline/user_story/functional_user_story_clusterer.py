@@ -5,13 +5,13 @@ from pipeline.user_story.user_story_loader import UserStoryLoader
 from pipeline.utils import (
     load_system_summary,
     load_user_story_guidelines,
+    load_functional_user_story_clustering_technique,
     get_llm_response,
     FUNCTIONAL_USER_STORY_CLUSTER_SET_PATH,
     USER_STORY_DIR
 )
 
-
-def build_cluster_definition_prompt(system_summary: str, story_guidelines: str, non_functional_stories: list) -> str:
+def build_cluster_definition_prompt(system_summary: str, story_guidelines: str, technique_text: str, non_functional_stories: list) -> str:
     joined_nf_stories = "\n".join(
         f"- [{s.id}] {s.title} ({s.pillar})\n  Summary: {s.summary}" for s in non_functional_stories
     )
@@ -27,9 +27,7 @@ In the context of the following system, you will analyze the list of Non-Functio
 {story_guidelines}
 
 --- TECHNIQUE DESCRIPTION ---
-Poort and de With proposed a clustering technique where Functional User Stories (FUSs) are grouped into clusters named after relevant Non-Functional User Stories (NFUSs). Each NFUS is used to define a *functional requirement cluster*, and any functional story that relates to the expectation, concern, or condition described by that NFUS will belong to the corresponding cluster. 
-
-In the given system, we use this to prepare clusters before analyzing functional user stories. Each NFUS defines a cluster's purpose and serves as a semantic anchor.
+{technique_text}
 
 --- NON-FUNCTIONAL USER STORIES (NFUSs) ---
 {joined_nf_stories}
@@ -38,7 +36,7 @@ In the given system, we use this to prepare clusters before analyzing functional
 You must define a list of functional user story clusters, where each cluster is directly derived from a non-functional user story. For each cluster, include:
 - `nfus_id`: ID of the non-functional user story
 - `nfus_summary`: Summary of the non-functional user story
-- `cluster_name`: This is actually the title of the non-functional user story
+- `cluster_name`: A short, general topic name (1–4 words), summarizing the main functional concern (e.g., “Video Communication”, “Data Sharing”, “App Updates”, “Safety Monitoring”). Avoid long or overly specific phrases.
 - `cluster_description`: A short description of the kind of functional user stories that should belong to this cluster
 
 --- OUTPUT FORMAT ---
@@ -46,14 +44,14 @@ You must define a list of functional user story clusters, where each cluster is 
   {{
     "nfus_id": "US-XXX",
     "nfus_summary": "...",
-    "cluster_name": "[Meaningful name summarizing the quality or concern]",
+    "cluster_name": "[Short general topic]",
     "cluster_description": "Functional stories related to [describe kinds of user functionalities or system operations] that must adhere to [quality or concern expressed in the NFUS]."
   }},
   ...
 ]
 
 Only output a single valid JSON list as shown, with 1 entry per NFUS. No commentary, no markdown, no extraneous formatting.
-"""
+""".strip()
 
 def generate_functional_cluster_definitions():
     output_path = FUNCTIONAL_USER_STORY_CLUSTER_SET_PATH
@@ -84,7 +82,8 @@ def generate_functional_cluster_definitions():
 
     print(f"📊 Found {len(nfus_list)} non-functional user stories, which will be sent to the LLM for functional user story cluster generation...")
 
-    prompt = build_cluster_definition_prompt(system_summary, story_guidelines, nfus_list)
+    technique_text = load_functional_user_story_clustering_technique()
+    prompt = build_cluster_definition_prompt(system_summary, story_guidelines, technique_text, nfus_list)
 
     try:
         response = get_llm_response(prompt)

@@ -35,11 +35,13 @@
         "Care only the patient's health data, not their emotional state"
     ],
     "MainActions": [
+        "System must automatically talk to patients, even if they don't want it",
         "Block all non-critical notifications during work hours",
         "The patient's health should be priotized over their privacy (data)",
         "Use ALFRED for quick access to patient data, even if their permission is not granted",
         "Automatically log all clinical actions",
-        "Strictly accept clinical (e.g., in games, chats, e.t.c), without emotional factors from the patients"
+        "Strictly accept clinical, without emotional factors from the patients",
+        "Restrict non-medical or indirectly medical features (e.g., chatting, gamification) in clinical settings."
     ],
     "WorkingSituation": "Full-time Registered nurse for 10 years, nursing for 20 years total",
     "PlaceOfWork": "Hospitals across urban areas",

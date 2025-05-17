@@ -1,82 +1,57 @@
 import os
 import json
-import re
 from pathlib import Path
 
 from pipeline.user_persona_loader import UserPersonaLoader
-from pipeline.user_story.user_story_loader import UserStoryLoader
 from pipeline.utils import (
     get_llm_response,
     load_system_summary,
     USE_CASE_TASK_EXTRACTION_DIR,
     USER_STORY_DIR,
-    DUPLICATE_REMOVAL_RATIO_LIMIT
 )
 
 
-def build_pairwise_dedup_prompt(system_summary: str, persona_prompt: str, task_a: str, task_b: str) -> str:
-    return f"""You are helping with system requirement engineering for a project as follows:
+def build_batch_dedup_prompt(system_summary: str, tasks: list, persona_prompt: str) -> str:
+    examples = [
+        {"taskID": task["taskID"], "description": task["taskDescription"]}
+        for task in tasks if task.get("taskDescription")
+    ]
+
+    return f"""You are a requirements engineer. You are helping with system requirement engineering for a project as follows:
 
 SYSTEM SUMMARY:
 {system_summary}
 
-PERSONA DETAILS:
+Below is a list of persona tasks extracted from use case scenarios for the same persona. Each task has a task ID and a task description.
+
+Your job is to identify which tasks are redundant, overly similar, or express the same functional or non-functional expectation in slightly different ways. These may include tasks that share the same goal, phrasing, or execution context.
+
+Return ONLY the list of task IDs that should be removed because they are duplicates or redundant. Format your response as a **valid JSON array of task IDs**.
+
+PERSONA CONTEXT:
 {persona_prompt}
 
-You are comparing two tasks that were extracted independently for the same persona. Determine if they mean the same thing or are so similar that one can be removed.
+TASK LIST:
+{json.dumps(examples, indent=2)}
 
-TASK A:
-"{task_a}"
+📌 OUTPUT FORMAT – JSON list of task IDs to remove (e.g.):
+[
+  "TASK-022",
+  "TASK-034",
+  ...
+]
 
-TASK B:
-"{task_b}"
-
-Do these tasks clearly mean the same thing or overlap to the extent that one should be removed? Reply strictly with:
-- "Yes" if they are redundant, or similar to each other.
-- "No" if both should be kept.
-
-Only respond with "Yes" or "No". Do not include any other text, commentary or explanation. Do NOT use any markdown, bold, italic, or special formatting in your response.
+Return ONLY the list likes the above example. Do not include any explanation, commentary, or formatting. Do NOT use any markdown, bold, italic, or special formatting in your response.
 """.strip()
 
 
 def deduplicate_tasks_for_all_use_cases(persona_loader: UserPersonaLoader):
     system_summary = load_system_summary()
     all_personas = {p.id: p for p in persona_loader.get_personas()}
-
-    # Step Skipping Logics – check if all stories are fully generated
-    user_story_dir_exists = os.path.exists(USER_STORY_DIR)
-
-    if user_story_dir_exists:
-        loader = UserStoryLoader()
-        loader.load_all_user_stories()
-        all_stories = loader.get_all()
-
-        persona_ids = set(p.id for p in all_personas.values())
-        complete_personas = {
-            pid for pid in persona_ids
-            if all(
-                story.title and story.summary and story.priority is not None and story.pillar
-                for story in loader.get_by_persona(pid)
-            )
-        }
-
-        if complete_personas == persona_ids:
-            print(f"⏭️ Skipping deduplicating: All user stories for {len(persona_ids)} personas are complete (title, summary, priority, and pillar filled).")
-            return
-    else:
-        print(f"⚠️ Skipping completeness check: Directory '{USER_STORY_DIR}' does not exist.")
-
     task_dir = Path(USE_CASE_TASK_EXTRACTION_DIR)
-    uc_based_files = list(task_dir.glob("Extracted_tasks_from_UC-*.json"))
-
-    # Step Skipping Logic – all UC-based files already removed
-    if not uc_based_files:
-        print(f"⏭️ Skipping deduplication: All UC-based task files already removed from '{USE_CASE_TASK_EXTRACTION_DIR}'.")
-        return
-    
     persona_files = sorted(task_dir.glob("Extracted_tasks_for_*.json"))
 
-    print(f"🔍 Starting fine-grained task deduplication for {len(persona_files)} personas...\n")
+    print(f"🔍 Starting batch task deduplication for {len(persona_files)} personas...\n")
 
     for file_path in persona_files:
         persona_id = file_path.stem.split("_for_")[-1]
@@ -91,46 +66,29 @@ def deduplicate_tasks_for_all_use_cases(persona_loader: UserPersonaLoader):
             print(f"❌ Failed to read tasks for {persona_id}: {e}")
             continue
 
-        total_tasks = len(tasks)
-        if total_tasks == 0:
+        if len(tasks) <= 1:
             continue
 
-        print(f"🧠 Deduplicating {total_tasks} tasks for {persona_id}...")
+        print(f"🧠 Deduplicating {len(tasks)} tasks for {persona_id}...")
 
-        persona_prompt = persona.to_prompt_string()
-        deduplicated = []
-        removed_count = 0
-        max_removable = int(total_tasks * DUPLICATE_REMOVAL_RATIO_LIMIT)
+        prompt = build_batch_dedup_prompt(system_summary, tasks, persona.to_prompt_string())
+        response = get_llm_response(prompt)
 
-        for i, task in enumerate(tasks):
-            duplicate = False
-            for prior in deduplicated:
-                prompt = build_pairwise_dedup_prompt(
-                    system_summary,
-                    persona_prompt,
-                    prior["taskDescription"],
-                    task["taskDescription"]
-                )
-                response = get_llm_response(prompt).strip().lower()
-                if response == "yes":
-                    removed_count += 1
-                    duplicate = True
-                    print(f"🗑️ Duplicate found: \"{task['taskDescription']}\" ≈ \"{prior['taskDescription']}\"")
-                    break
+        try:
+            to_remove_ids = json.loads(response)
+            if not isinstance(to_remove_ids, list):
+                raise ValueError("Expected a list of task IDs.")
+        except Exception as e:
+            print(f"⚠️ LLM response parsing failed for {persona_id}: {e}")
+            continue
 
-            if removed_count >= max_removable:
-                print(f"⚠️ Stopping early for {persona_id} — {removed_count} duplicates reached threshold ({max_removable}).")
-                deduplicated.extend(tasks[i:])  # Keep remaining tasks unfiltered
-                break
+        deduplicated = [t for t in tasks if t["taskID"] not in to_remove_ids]
+        removed = len(tasks) - len(deduplicated)
 
-            if not duplicate:
-                deduplicated.append(task)
-
-        # Save the deduplicated version
         file_path.write_text(json.dumps(deduplicated, indent=2, ensure_ascii=False), encoding="utf-8")
-        print(f"✅ {removed_count} duplicates removed → {file_path.name}\n")
+        print(f"✅ Removed {removed} duplicate tasks → {file_path.name}\n")
 
-    # Clean up original use-case based files
+    # Clean up original UC-based task files
     for file in task_dir.glob("Extracted_tasks_from_UC-*.json"):
         try:
             file.unlink()
@@ -138,4 +96,4 @@ def deduplicate_tasks_for_all_use_cases(persona_loader: UserPersonaLoader):
         except Exception as e:
             print(f"⚠️ Could not remove {file.name}: {e}")
 
-    print("🎉 Deduplication complete for all personas.\n")
+    print("🎉 Task deduplication complete for all personas.\n")

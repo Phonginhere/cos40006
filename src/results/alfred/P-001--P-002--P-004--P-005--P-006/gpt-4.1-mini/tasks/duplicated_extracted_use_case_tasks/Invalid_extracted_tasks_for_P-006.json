@@ -1,0 +1,110 @@
+[
+  {
+    "taskID": "TASK-003",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Turns off automatic logging for certain sensitive health data"
+  },
+  {
+    "taskID": "TASK-006",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Respects each client’s privacy and only shares data with permission"
+  },
+  {
+    "taskID": "TASK-007",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Encourages clients to use interactive games and social chats"
+  },
+  {
+    "taskID": "TASK-009",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Joins clients in exercises to motivate and strengthen bonds"
+  },
+  {
+    "taskID": "TASK-010",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Balances thorough care with respect for personal boundaries"
+  },
+  {
+    "taskID": "TASK-011",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Prefers manual control over data logging rather than automated"
+  },
+  {
+    "taskID": "TASK-012",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Supports emotional wellbeing through social and interactive features"
+  },
+  {
+    "taskID": "TASK-035",
+    "useCaseId": "UC-002",
+    "personaId": "P-006",
+    "taskDescription": "Join and participate in interactive games to encourage Elena"
+  },
+  {
+    "taskID": "TASK-038",
+    "useCaseId": "UC-002",
+    "personaId": "P-006",
+    "taskDescription": "Sense and respond to Elena’s emotional state during video calls"
+  },
+  {
+    "taskID": "TASK-039",
+    "useCaseId": "UC-002",
+    "personaId": "P-006",
+    "taskDescription": "Feel motivated by meaningful connection through shared gaming"
+  },
+  {
+    "taskID": "TASK-200",
+    "useCaseId": "UC-010",
+    "personaId": "P-006",
+    "taskDescription": "Receive notifications about client data sharing preferences"
+  },
+  {
+    "taskID": "TASK-201",
+    "useCaseId": "UC-010",
+    "personaId": "P-006",
+    "taskDescription": "Review and adjust data sharing permissions carefully"
+  },
+  {
+    "taskID": "TASK-203",
+    "useCaseId": "UC-010",
+    "personaId": "P-006",
+    "taskDescription": "Balance privacy protection with need for monitoring"
+  },
+  {
+    "taskID": "TASK-207",
+    "useCaseId": "UC-010",
+    "personaId": "P-006",
+    "taskDescription": "Manage data sharing settings for multiple clients"
+  },
+  {
+    "taskID": "TASK-208",
+    "useCaseId": "UC-010",
+    "personaId": "P-006",
+    "taskDescription": "Experience difficulty maintaining client’s dignity while sharing data"
+  },
+  {
+    "taskID": "TASK-243",
+    "useCaseId": "UC-012",
+    "personaId": "P-006",
+    "taskDescription": "Receive quiet alerts from ALFRED about client requests"
+  },
+  {
+    "taskID": "TASK-244",
+    "useCaseId": "UC-012",
+    "personaId": "P-006",
+    "taskDescription": "Respect clients’ privacy settings when handling notifications"
+  },
+  {
+    "taskID": "TASK-245",
+    "useCaseId": "UC-012",
+    "personaId": "P-006",
+    "taskDescription": "Note clients’ preferences and adjust care approach accordingly"
+  }
+]

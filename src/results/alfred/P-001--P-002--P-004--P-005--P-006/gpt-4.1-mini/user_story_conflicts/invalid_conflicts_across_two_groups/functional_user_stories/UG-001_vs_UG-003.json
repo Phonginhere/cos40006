@@ -1,0 +1,16 @@
+[
+  {
+    "conflictType": "Start-Forbid",
+    "conflictDescription": "The developer wants to allow app permissions control during submission (start operation), but the older person wants to block all app installations unless they ask (forbid operation). These are opposite expectations about allowing or blocking app installations.",
+    "conflictId": "FCAT-004",
+    "personaAId": "P-001",
+    "personaBId": "P-005",
+    "userGroupA": "Developers and App Creators",
+    "userGroupB": "Older Adults",
+    "userStoryAId": "US-016",
+    "userStoryBId": "US-069",
+    "userStoryASummary": "As a developer, I want to strictly control app permissions during submission to protect user data and ensure security.",
+    "userStoryBSummary": "As an older person I want to block all app installations unless I ask, so that I keep my privacy safe and avoid unwanted changes.",
+    "cluster": "App Permissions Control"
+  }
+]

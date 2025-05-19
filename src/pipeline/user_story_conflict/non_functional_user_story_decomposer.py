@@ -101,7 +101,7 @@ You are an expert in non-functional requirement analysis. Apply the Sadana and L
 {story_summary}
 ------------------------------
 
---- TASK ---
+--- YOUR TASK ---
 Decompose the following non-functional user story:
 - User Story (ID: {story.id}, Persona: {story.persona}):
 - Title: {story.title}

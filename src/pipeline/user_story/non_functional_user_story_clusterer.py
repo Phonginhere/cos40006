@@ -44,7 +44,7 @@ Here are the cluster definitions for the pillar:
 {cluster_defs_text}
 -------------------------------------
 
---- TASK ---
+--- YOUR TASK ---
 Which cluster BEST fits this user story? Note that the cluster name should be one of the following: {cluster_names_str}.
 Respond only with the exact **name** of the BEST cluster. Do not include any additional text or commentary. Do NOT use any markdown, bold, italic, or special formatting in your response.
 -------------------------------------

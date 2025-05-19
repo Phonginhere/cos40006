@@ -1,0 +1,56 @@
+[
+  {
+    "taskID": "TASK-041",
+    "useCaseId": "UC-002",
+    "personaId": "P-004",
+    "taskDescription": "Log into ALFRED’s dashboard to check cognitive game performance data"
+  },
+  {
+    "taskID": "TASK-044",
+    "useCaseId": "UC-002",
+    "personaId": "P-004",
+    "taskDescription": "Disable Sarah’s ability to adjust game settings remotely"
+  },
+  {
+    "taskID": "TASK-045",
+    "useCaseId": "UC-002",
+    "personaId": "P-004",
+    "taskDescription": "Prioritize clinical safety and routine over emotional engagement"
+  },
+  {
+    "taskID": "TASK-061",
+    "useCaseId": "UC-003",
+    "personaId": "P-004",
+    "taskDescription": "Adjusts ALFRED settings to send only essential updates"
+  },
+  {
+    "taskID": "TASK-066",
+    "useCaseId": "UC-003",
+    "personaId": "P-004",
+    "taskDescription": "Monitors Olivia’s health information remotely within allowed limits"
+  },
+  {
+    "taskID": "TASK-143",
+    "useCaseId": "UC-007",
+    "personaId": "P-004",
+    "taskDescription": "Prefers quick, clinical health updates without casual alerts"
+  },
+  {
+    "taskID": "TASK-212",
+    "useCaseId": "UC-010",
+    "personaId": "P-004",
+    "taskDescription": "Prefer streamlined, clinically relevant information only"
+  },
+  {
+    "taskID": "TASK-216",
+    "useCaseId": "UC-010",
+    "personaId": "P-004",
+    "taskDescription": "Separate clinical data from social data in monitoring"
+  },
+  {
+    "taskID": "TASK-263",
+    "useCaseId": "UC-012",
+    "personaId": "P-004",
+    "taskDescription": "Focus video calls on clinical concerns only"
+  }
+]

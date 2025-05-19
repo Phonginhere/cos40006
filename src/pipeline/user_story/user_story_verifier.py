@@ -75,7 +75,7 @@ Persona's user story for checking:
 - User Group: {story.user_group}
 ------------------------------
 
---- TASK ---
+--- YOUR TASK ---
 Check the above user story summary carefully. If the summary seems more influenced by the system context than the persona, rewrite the summary so that the persona's context and perspective is dominant, even if that means contradicting or modifying the system context aspects. If the summary already properly reflects the persona's perspective, just return it unchanged.
 However, please make sure the summary is informative but concise, and avoid unnecessary verbosity. The summary should be a single sentence that captures the essence of the user story from the persona's perspective (please see the USER STORY GUIDELINES above).
 

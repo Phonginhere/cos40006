@@ -35,7 +35,7 @@ You are a System Requirement Engineer. You are identifying the conflicts between
 {user_group_guidelines}
 ----------------------
 
---- TASK ---
+--- YOUR TASK ---
 You will define if there is conflict between the following user stories. Generally, two functional user stories are said to conflict if they impose directly opposing requirements on the system's behavior in the same context or condition, without allowing both to be satisfied simultaneously.
 In other words, two functional user stories contradict if their goals or constraints are clearly incompatible in a way that would be immediately obvious to an informed reader, specifically when they require different behaviors or settings in the same feature or scenario.
 
@@ -70,7 +70,7 @@ You are a System Requirement Engineer. You are identifying the conflicts between
 {user_group_B_guidelines}
 ----------------------
 
---- TASK ---
+--- YOUR TASK ---
 You will define if there is conflict between the following user stories. In general cases, two functional user stories contradict if their goals or constraints are clearly incompatible in a way that would be immediately obvious to an informed reader, specifically when they require different behaviors or settings in the same feature or scenario.
 
 User story a (User group A): {userStoryASummary}
@@ -90,17 +90,25 @@ def verify_conflicts(
 ):
     utils = Utils()
 
+    # Conflict source directory
     if within_one_group:
         if functional:
             conflict_dir = utils.FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR
+            invalid_dir = utils.INVALID_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR
         else:
             conflict_dir = utils.NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR
+            invalid_dir = utils.INVALID_NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR
     else:
         if functional:
             conflict_dir = utils.FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR
+            invalid_dir = os.path.join(utils.INVALID_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR, "functional_user_stories")
         else:
             conflict_dir = utils.NON_FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR
+            invalid_dir = os.path.join(utils.INVALID_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR, "non_functional_user_stories")
 
+    os.makedirs(invalid_dir, exist_ok=True)
+    
+    # Load system summary and personas
     system_summary = utils.load_system_summary()
     all_personas = {p.id: p for p in persona_loader.get_personas()}
 
@@ -114,14 +122,10 @@ def verify_conflicts(
             print(f"❌ Failed to load conflicts file {conflict_file}: {e}")
             continue
 
-        updated = False
         if not conflicts:
             print(f"⚠️ No conflicts in {conflict_file}, skipping")
             continue
 
-        # Determine guidelines per conflict file
-        # For across groups, the filename is like "user_group_1_vs_user_group_2.json"
-        # so parse user groups from filename
         if within_one_group:
             user_group_name = conflicts[0].get("userGroup", "")
             user_group_keys = utils.load_user_group_keys()
@@ -136,10 +140,8 @@ def verify_conflicts(
                     print(f"⚠️ Failed to load user group guidelines for {user_group_name}: {e}")
                     user_group_guidelines = "(Missing user group guidelines)"
         else:
-            # Across two groups
             try:
-                # extract group keys from filename, e.g. "user_group_1_vs_user_group_3.json"
-                base = conflict_file[:-5]  # remove .json
+                base = conflict_file[:-5]
                 parts = base.split("_vs_")
                 if len(parts) != 2:
                     print(f"⚠️ Cannot parse user groups from filename: {conflict_file}")
@@ -149,13 +151,14 @@ def verify_conflicts(
                 user_group_guidelines_b = utils.load_user_group_description(group_key_b)
             except Exception as e:
                 print(f"⚠️ Failed to load user group guidelines for groups in {conflict_file}: {e}")
-                user_group_guidelines_a = "(Missing user group guidelines)"
-                user_group_guidelines_b = "(Missing user group guidelines)"
+                user_group_guidelines_a = "(Missing)"
+                user_group_guidelines_b = "(Missing)"
 
-        # Loop backward to safely remove invalid conflicts
-        for idx in reversed(range(len(conflicts))):
-            conflict = conflicts[idx]
+        updated = False
+        valid_conflicts = []
+        invalid_conflicts = []
 
+        for conflict in conflicts:
             summaryA = conflict.get("userStoryASummary", "")
             summaryB = conflict.get("userStoryBSummary", "")
 
@@ -179,22 +182,33 @@ def verify_conflicts(
                 response = utils.get_llm_response(prompt).strip().lower()
             except Exception as e:
                 print(f"⚠️ LLM call failed for conflict {conflict.get('conflictId')}: {e}")
+                valid_conflicts.append(conflict)
                 continue
 
             if response == "yes":
                 print(f"✅ Conflict {conflict.get('conflictId')} verified as valid.")
-                continue
+                valid_conflicts.append(conflict)
             elif response == "no":
-                print(f"🗑️ Conflict {conflict.get('conflictId')} marked invalid and removed.")
-                conflicts.pop(idx)
+                print(f"🗑️ Conflict {conflict.get('conflictId')} marked invalid.")
+                invalid_conflicts.append(conflict)
                 updated = True
             else:
                 print(f"⚠️ Unexpected LLM response for conflict {conflict.get('conflictId')}: '{response}'. Keeping conflict.")
-                continue
+                valid_conflicts.append(conflict)
 
+        # Write valid conflicts back to original file
         if updated:
             try:
-                save_json_file(conflict_path, conflicts)
-                print(f"✅ Updated conflicts saved: {conflict_file}")
+                save_json_file(conflict_path, valid_conflicts)
+                print(f"✅ Updated valid conflicts: {conflict_file}")
             except Exception as e:
                 print(f"❌ Failed to save updated conflict file {conflict_file}: {e}")
+
+        # Write invalid conflicts to corresponding subfolder
+        if invalid_conflicts:
+            invalid_path = os.path.join(invalid_dir, conflict_file)
+            try:
+                save_json_file(invalid_path, invalid_conflicts)
+                print(f"📁 Moved {len(invalid_conflicts)} invalid conflict(s) → {invalid_path}")
+            except Exception as e:
+                print(f"❌ Failed to save invalid conflicts: {invalid_path}: {e}")

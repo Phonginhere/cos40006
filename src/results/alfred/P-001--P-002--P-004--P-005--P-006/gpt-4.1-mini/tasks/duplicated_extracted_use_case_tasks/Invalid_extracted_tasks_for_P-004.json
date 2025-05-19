@@ -1,0 +1,302 @@
+[
+  {
+    "taskID": "TASK-014",
+    "useCaseId": "UC-001",
+    "personaId": "P-004",
+    "taskDescription": "Logs into ALFRED system to check assigned patients’ health data"
+  },
+  {
+    "taskID": "TASK-015",
+    "useCaseId": "UC-001",
+    "personaId": "P-004",
+    "taskDescription": "Blocks non-critical notifications during work shifts"
+  },
+  {
+    "taskID": "TASK-016",
+    "useCaseId": "UC-001",
+    "personaId": "P-004",
+    "taskDescription": "Focuses on clinical data and vital signs over social or game data"
+  },
+  {
+    "taskID": "TASK-017",
+    "useCaseId": "UC-001",
+    "personaId": "P-004",
+    "taskDescription": "Contacts patients immediately via video call when medication is missed"
+  },
+  {
+    "taskID": "TASK-018",
+    "useCaseId": "UC-001",
+    "personaId": "P-004",
+    "taskDescription": "Enforces strict medication schedules without negotiation"
+  },
+  {
+    "taskID": "TASK-019",
+    "useCaseId": "UC-001",
+    "personaId": "P-004",
+    "taskDescription": "Dismisses social or emotional features as distractions"
+  },
+  {
+    "taskID": "TASK-020",
+    "useCaseId": "UC-001",
+    "personaId": "P-004",
+    "taskDescription": "Prioritizes efficiency and urgent health issues over emotional nuances"
+  },
+  {
+    "taskID": "TASK-021",
+    "useCaseId": "UC-001",
+    "personaId": "P-004",
+    "taskDescription": "Uses the system to quickly review patient records and alerts"
+  },
+  {
+    "taskID": "TASK-022",
+    "useCaseId": "UC-001",
+    "personaId": "P-004",
+    "taskDescription": "Maintains professional distance from patients"
+  },
+  {
+    "taskID": "TASK-023",
+    "useCaseId": "UC-001",
+    "personaId": "P-004",
+    "taskDescription": "Views patient consent as less important during urgent interventions"
+  },
+  {
+    "taskID": "TASK-024",
+    "useCaseId": "UC-001",
+    "personaId": "P-004",
+    "taskDescription": "Relies on ALFRED for streamlined access to clinical alerts and data"
+  },
+  {
+    "taskID": "TASK-025",
+    "useCaseId": "UC-001",
+    "personaId": "P-004",
+    "taskDescription": "Ignores interactive or social features as irrelevant to clinical care"
+  },
+  {
+    "taskID": "TASK-042",
+    "useCaseId": "UC-002",
+    "personaId": "P-004",
+    "taskDescription": "Scan clinical data quickly to focus on medical facts"
+  },
+  {
+    "taskID": "TASK-043",
+    "useCaseId": "UC-002",
+    "personaId": "P-004",
+    "taskDescription": "Override session difficulty settings to enforce medically appropriate levels"
+  },
+  {
+    "taskID": "TASK-046",
+    "useCaseId": "UC-002",
+    "personaId": "P-004",
+    "taskDescription": "Feel that gamification elements are distractions from clinical priorities"
+  },
+  {
+    "taskID": "TASK-047",
+    "useCaseId": "UC-002",
+    "personaId": "P-004",
+    "taskDescription": "Prefer standardized difficulty without room for patient adjustment"
+  },
+  {
+    "taskID": "TASK-048",
+    "useCaseId": "UC-002",
+    "personaId": "P-004",
+    "taskDescription": "Ignore social and motivational aspects in favor of efficient data review"
+  },
+  {
+    "taskID": "TASK-060",
+    "useCaseId": "UC-003",
+    "personaId": "P-004",
+    "taskDescription": "Logs into ALFRED platform to review Olivia’s wellbeing data"
+  },
+  {
+    "taskID": "TASK-062",
+    "useCaseId": "UC-003",
+    "personaId": "P-004",
+    "taskDescription": "Disables non-critical notifications during his work shifts"
+  },
+  {
+    "taskID": "TASK-063",
+    "useCaseId": "UC-003",
+    "personaId": "P-004",
+    "taskDescription": "Respects Olivia’s privacy boundaries despite clinical concerns"
+  },
+  {
+    "taskID": "TASK-064",
+    "useCaseId": "UC-003",
+    "personaId": "P-004",
+    "taskDescription": "Schedules nurse visits instead of insisting on remote video calls"
+  },
+  {
+    "taskID": "TASK-065",
+    "useCaseId": "UC-003",
+    "personaId": "P-004",
+    "taskDescription": "Wants more health data from Olivia but accepts her restrictions"
+  },
+  {
+    "taskID": "TASK-067",
+    "useCaseId": "UC-003",
+    "personaId": "P-004",
+    "taskDescription": "Focuses on maintaining a minimal but consistent care connection"
+  },
+  {
+    "taskID": "TASK-068",
+    "useCaseId": "UC-003",
+    "personaId": "P-004",
+    "taskDescription": "Feels frustrated by limited sensor data shared by Olivia"
+  },
+  {
+    "taskID": "TASK-069",
+    "useCaseId": "UC-003",
+    "personaId": "P-004",
+    "taskDescription": "Configures ALFRED to reduce distractions during his work hours"
+  },
+  {
+    "taskID": "TASK-136",
+    "useCaseId": "UC-007",
+    "personaId": "P-004",
+    "taskDescription": "Logs into ALFRED’s caregiver interface to access health data"
+  },
+  {
+    "taskID": "TASK-137",
+    "useCaseId": "UC-007",
+    "personaId": "P-004",
+    "taskDescription": "Reviews sparse health data received from Olivia’s sensors"
+  },
+  {
+    "taskID": "TASK-138",
+    "useCaseId": "UC-007",
+    "personaId": "P-004",
+    "taskDescription": "Configures ALFRED to mute all non-critical notifications during shifts"
+  },
+  {
+    "taskID": "TASK-139",
+    "useCaseId": "UC-007",
+    "personaId": "P-004",
+    "taskDescription": "Hopes for at least a video check-in but accepts offline visits"
+  },
+  {
+    "taskID": "TASK-140",
+    "useCaseId": "UC-007",
+    "personaId": "P-004",
+    "taskDescription": "Arranges in-person home visits after receiving notifications"
+  },
+  {
+    "taskID": "TASK-141",
+    "useCaseId": "UC-007",
+    "personaId": "P-004",
+    "taskDescription": "Balances professional care needs with respect for Olivia’s privacy"
+  },
+  {
+    "taskID": "TASK-142",
+    "useCaseId": "UC-007",
+    "personaId": "P-004",
+    "taskDescription": "Feels frustration about limited data availability"
+  },
+  {
+    "taskID": "TASK-144",
+    "useCaseId": "UC-007",
+    "personaId": "P-004",
+    "taskDescription": "Monitors Olivia’s condition while managing a busy hospital shift"
+  },
+  {
+    "taskID": "TASK-145",
+    "useCaseId": "UC-007",
+    "personaId": "P-004",
+    "taskDescription": "Respects Olivia’s boundaries even when it makes care harder"
+  },
+  {
+    "taskID": "TASK-146",
+    "useCaseId": "UC-007",
+    "personaId": "P-004",
+    "taskDescription": "Experiences tension between desire for data and patient autonomy"
+  },
+  {
+    "taskID": "TASK-210",
+    "useCaseId": "UC-010",
+    "personaId": "P-004",
+    "taskDescription": "Log into ALFRED caregiver portal to access client data"
+  },
+  {
+    "taskID": "TASK-211",
+    "useCaseId": "UC-010",
+    "personaId": "P-004",
+    "taskDescription": "Mute automatic notifications to reduce distractions"
+  },
+  {
+    "taskID": "TASK-213",
+    "useCaseId": "UC-010",
+    "personaId": "P-004",
+    "taskDescription": "Access some health data without explicit consent when needed"
+  },
+  {
+    "taskID": "TASK-214",
+    "useCaseId": "UC-010",
+    "personaId": "P-004",
+    "taskDescription": "Feel frustrated by excessive non-clinical data shared by client"
+  },
+  {
+    "taskID": "TASK-215",
+    "useCaseId": "UC-010",
+    "personaId": "P-004",
+    "taskDescription": "Wish for stricter enforcement of clinical data protocols"
+  },
+  {
+    "taskID": "TASK-217",
+    "useCaseId": "UC-010",
+    "personaId": "P-004",
+    "taskDescription": "Avoid intervening in client-caregiver personal conversations"
+  },
+  {
+    "taskID": "TASK-218",
+    "useCaseId": "UC-010",
+    "personaId": "P-004",
+    "taskDescription": "Prioritize clinical needs over client’s openness in data sharing"
+  },
+  {
+    "taskID": "TASK-219",
+    "useCaseId": "UC-010",
+    "personaId": "P-004",
+    "taskDescription": "Experience difficulty due to blurred lines between medical and social data"
+  },
+  {
+    "taskID": "TASK-258",
+    "useCaseId": "UC-012",
+    "personaId": "P-004",
+    "taskDescription": "Access caregiver portal to review client vitals data"
+  },
+  {
+    "taskID": "TASK-259",
+    "useCaseId": "UC-012",
+    "personaId": "P-004",
+    "taskDescription": "Deal with limited data availability due to client privacy settings"
+  },
+  {
+    "taskID": "TASK-260",
+    "useCaseId": "UC-012",
+    "personaId": "P-004",
+    "taskDescription": "Mute non-critical ALFRED notifications during busy work shifts"
+  },
+  {
+    "taskID": "TASK-261",
+    "useCaseId": "UC-012",
+    "personaId": "P-004",
+    "taskDescription": "Need quick access to essential health information"
+  },
+  {
+    "taskID": "TASK-262",
+    "useCaseId": "UC-012",
+    "personaId": "P-004",
+    "taskDescription": "Schedule formal video check-ins with clients for medical reviews"
+  },
+  {
+    "taskID": "TASK-264",
+    "useCaseId": "UC-012",
+    "personaId": "P-004",
+    "taskDescription": "Respect client preferences for professional and no-nonsense communication"
+  },
+  {
+    "taskID": "TASK-265",
+    "useCaseId": "UC-012",
+    "personaId": "P-004",
+    "taskDescription": "Balance clinical care priorities with client’s desire for privacy"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "conflictType": "Mutually Exclusive",
+    "conflictDescription": "User Story A wants ALFRED to explain features slowly and clearly for learning, while User Story B wants ALFRED not to provide detailed explanations and avoid extra information. These goals cannot both be met at the same time.",
+    "conflictingNfrPairs": [
+      [
+        "Explain ALFRED features slowly during use",
+        "Do not provide detailed explanations of features"
+      ],
+      [
+        "Explain ALFRED features clearly to avoid confusion",
+        "Allow users to use ALFRED without extra information"
+      ]
+    ],
+    "conflictId": "NFCWI-002",
+    "personaAId": "P-002",
+    "personaBId": "P-005",
+    "userGroup": "Older Adults",
+    "userStoryAId": "US-051",
+    "userStoryBId": "US-077",
+    "userStoryASummary": "As an older person I want ALFRED to explain its features slowly and clearly so I can learn without feeling lost.",
+    "userStoryBSummary": "As an older person I want ALFRED not to explain its features in detail because I just want to use it without extra information.",
+    "cluster": "Accessibility & Physical Usability",
+    "generalResolutionType": "Update both user stories",
+    "resolutionDescription": "Adjusted both stories to apply different explanation modes based on user preference and learning stage, allowing clear slow explanations when learning and minimal info when experienced.",
+    "newUserStoryASummary": "As an older adult learning ALFRED, I want it to explain features slowly and clearly, so I can understand without confusion.",
+    "newUserStoryADecomposition": [
+      "Provide slow explanations of features during learning",
+      "Use clear language to avoid confusion"
+    ],
+    "newUserStoryBSummary": "As an experienced older adult, I want ALFRED to avoid detailed explanations and provide only necessary information, so I can use it quickly.",
+    "newUserStoryBDecomposition": [
+      "Do not provide detailed feature explanations for experienced users",
+      "Limit information to what is necessary for task completion"
+    ]
+  }
+]

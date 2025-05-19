@@ -1,0 +1,122 @@
+[
+  {
+    "taskID": "TASK-111",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Implements forced installation of app features on user devices"
+  },
+  {
+    "taskID": "TASK-112",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Configures constant data collection through in-app prompts and auto-tracking"
+  },
+  {
+    "taskID": "TASK-113",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Ensures all user data control mechanisms are strictly secure"
+  },
+  {
+    "taskID": "TASK-114",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Advocates for smart voice guidance that interrupts users persistently"
+  },
+  {
+    "taskID": "TASK-115",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Participates in online meetings with ALFRED support team"
+  },
+  {
+    "taskID": "TASK-116",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Disables flexibility in app workflows to maintain rigid control"
+  },
+  {
+    "taskID": "TASK-121",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Pushes for caregivers to receive notifications even during non-critical times"
+  },
+  {
+    "taskID": "TASK-122",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Uses modular backend components for simplicity instead of complex microservices"
+  },
+  {
+    "taskID": "TASK-158",
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Ensure the app meets ALFRED’s security standards"
+  },
+  {
+    "taskID": "TASK-160",
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Implement forced installation of app updates on user devices"
+  },
+  {
+    "taskID": "TASK-161",
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Use a modular backend architecture for easier app development"
+  },
+  {
+    "taskID": "TASK-162",
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Prepare for virtual meetings with ALFRED’s compliance team"
+  },
+  {
+    "taskID": "TASK-163",
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Defend the need for continuous data collection in the app"
+  },
+  {
+    "taskID": "TASK-164",
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Argue for strict controls to maintain data integrity and compliance"
+  },
+  {
+    "taskID": "TASK-166",
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Apply persistent voice prompts in the app to remind users"
+  },
+  {
+    "taskID": "TASK-269",
+    "useCaseId": "UC-013",
+    "personaId": "P-001",
+    "taskDescription": "Schedules a meeting with ALFRED’s compliance team"
+  },
+  {
+    "taskID": "TASK-270",
+    "useCaseId": "UC-013",
+    "personaId": "P-001",
+    "taskDescription": "Implements strict controls to enforce reminders and restrict overrides"
+  },
+  {
+    "taskID": "TASK-273",
+    "useCaseId": "UC-013",
+    "personaId": "P-001",
+    "taskDescription": "Considers how users might react to enforced reminders and restrictions"
+  },
+  {
+    "taskID": "TASK-274",
+    "useCaseId": "UC-013",
+    "personaId": "P-001",
+    "taskDescription": "Provides proactive voice guidance through the app"
+  },
+  {
+    "taskID": "TASK-275",
+    "useCaseId": "UC-013",
+    "personaId": "P-001",
+    "taskDescription": "Maintains core reminders despite user requests to reduce interruptions"
+  }
+]

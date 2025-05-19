@@ -60,7 +60,7 @@ Here are guidelines of user groups involved in this use case:
 {uc_guidelines}
 -----------------------------
 
---- THE USE CASE ---
+--- THE USE CASE (without life-like scenario) ---
 Use Case ID: {uc.id}
 Use Case Name: {uc.name}
 Use Case Description: {uc.description}
@@ -71,7 +71,8 @@ Involved Personas (actors):
 {persona_text}
 -----------------------------
 
-TASK → Compose a lifelike 200–400-word scenario that:
+--- YOUR TASK ---
+Compose a lifelike 200–400-word scenario that:
   • Mentions *every* persona by name or role (not by ID)
   • Shows their motivations, interactions with given system, and the outcome
   • Does **not** copy or closely paraphrase any previous scenarios (both non-existent examples above and real ones below)
@@ -81,7 +82,7 @@ TASK → Compose a lifelike 200–400-word scenario that:
     • Avoid over-relying on the use case name or description, or the given system context or its user group summaries to dictate behavior. Focus instead on how these personas would realistically react, misunderstand, or personalize their experience with the system, using all their information provided in the persona context
 -----------------------------
 
---- PREVIOUS REAL USE CASE SCENARIOS (Avoid duplication) ---
+--- PREVIOUS REAL USE CASE SCENARIOS (To avoid duplication) ---
 Besides the unreal and non-existent examples in the Use case Guidelines, here are the last scenarios of other use cases that has been written:
 {prev_block}
 Note that, while minor thematic similarities are acceptable, the current scenario must present clearly **distinct** actions, motivations, and interactions for the involved personas. Do not reuse **specific** activities, dialogue, or situation structures from prior scenarios—even implicitly. Focus on crafting a uniquely personalized and realistic narrative driven by the distinctive goals, traits, struggles, main actions, etc., of the personas involved in this use case.

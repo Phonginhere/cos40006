@@ -1,0 +1,33 @@
+[
+  {
+    "conflictType": "Partial",
+    "conflictDescription": "Explaining features slowly and clearly requires ALFRED to provide frequent and clear messages, which conflicts partially with the desire to block almost all notifications and messages to avoid disturbance and feeling overwhelmed.",
+    "conflictingNfrPairs": [
+      [
+        "Explain ALFRED features slowly during use",
+        "Block almost all notifications from ALFRED"
+      ],
+      [
+        "Explain ALFRED features slowly during use",
+        "Block almost all messages from ALFRED"
+      ],
+      [
+        "Explain ALFRED features clearly to avoid confusion",
+        "Block almost all notifications from ALFRED"
+      ],
+      [
+        "Explain ALFRED features clearly to avoid confusion",
+        "Block almost all messages from ALFRED"
+      ]
+    ],
+    "conflictId": "NFCWI-001",
+    "personaAId": "P-002",
+    "personaBId": "P-005",
+    "userGroup": "Older Adults",
+    "userStoryAId": "US-051",
+    "userStoryBId": "US-063",
+    "userStoryASummary": "As an older person I want ALFRED to explain its features slowly and clearly so I can learn without feeling lost.",
+    "userStoryBSummary": "As an older person, I want to block almost all ALFRED notifications and messages, so I do not feel disturbed or overwhelmed.",
+    "cluster": "Accessibility & Physical Usability"
+  }
+]

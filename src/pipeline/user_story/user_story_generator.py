@@ -1,6 +1,8 @@
 import os
 import json
 
+from pathlib import Path
+
 from pipeline.user_story.user_story_loader import UserStoryLoader
 from pipeline.use_case.use_case_loader import UseCaseLoader
 from pipeline.utils import (
@@ -10,15 +12,9 @@ from pipeline.utils import (
 
 def generate_complete_user_stories(persona_loader: UserPersonaLoader, use_case_loader: UseCaseLoader):
     utils = Utils()
-    
-    # Load supporting documents
-    system_summary = utils.load_system_context()
-    story_guidelines = utils.load_user_story_guidelines()
 
-    # Load use cases and personas
+    # Load personas
     all_personas = {p.id: p for p in persona_loader.get_personas()}
-    use_case_loader.load()
-    all_use_cases = {uc.id: uc for uc in use_case_loader.get_all()}
     
     # Step Skipping Logic – check if all stories are fully generated
     loader = UserStoryLoader()
@@ -38,6 +34,18 @@ def generate_complete_user_stories(persona_loader: UserPersonaLoader, use_case_l
     if complete_personas == persona_ids:
         print(f"⏭️ Skipping generation: All user stories for {len(persona_ids)} personas are complete (title, summary, priority, and pillar filled).")
         return
+    
+    # Load invalid user story directory
+    invalid_dir = Path(utils.INVALID_USER_STORY_DIR)
+    invalid_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Load use cases
+    use_case_loader.load()
+    all_use_cases = {uc.id: uc for uc in use_case_loader.get_all()}
+    
+    # Load supporting documents
+    system_summary = utils.load_system_context()
+    story_guidelines = utils.load_user_story_guidelines()
 
     # Reload to ensure clean state
     loader = UserStoryLoader()
@@ -51,6 +59,7 @@ def generate_complete_user_stories(persona_loader: UserPersonaLoader, use_case_l
 
     print(f"🛠️ Generating {len(incomplete_stories)} user stories with LLM...")
     
+    # Load user group keys
     user_group_keys = utils.load_user_group_keys()
     
     # Load LLM response language proficiency level
@@ -66,46 +75,47 @@ def generate_complete_user_stories(persona_loader: UserPersonaLoader, use_case_l
         if not persona or not use_case:
             print(f"⚠️ Skipping US {story.id} (missing persona or use case)")
             continue
+        
+        previous_summaries = [
+            s.summary for s in loader.get_by_persona(story.persona)
+            if s.summary and s.id != story.id
+        ]
+        
+        prev_summary_text = "\n".join(f"- {s}" for s in previous_summaries) if previous_summaries else "(None yet)"
 
         prompt = f"""
-You are a Requirement Engineer, helping define detailed user stories for a system mentioned below.
-
-Your job is to generate a complete user story that reflects either:
-- Behavioral (or functional) goals (e.g., what the user wants the system to do), or
-- Quality/constraint-focused (or Non-Functional) goals (e.g., how the system should behave, qualities like performance, privacy, usability).
-(However, for this round, you will not classify them as functional or non-functional, or put these terms directly in the story)
-
-Note that, when designing the story, you should lean **slightly** toward **functional** stories when plausible — especially those involving:
-- Clear user actions, commands, or requests
-- Interaction flows or task completions
-- Decision-making, input/output, or system responsiveness
-Use non-functional expectations when the persona’s behavior or the task **clearly emphasizes** a system quality.
-
-Below is the system overview, user story schema, user group needs, persona, related use case, and the raw task that inspired the user story.
+You are a Requirement Engineer, helping define detailed user stories for a system mentioned below. Below is the system overview, user story schema, user group needs, persona, related use case, and the raw task that **probably** inspired the user story.
 
 --- SYSTEM OVERVIEW ---
 {system_summary}
+-------------------------------------------------------------
 
---- GIVEN SYSTEM'S USER STORY DEFINITIONS, STRUCTURE, RULES & UNREAL EXAMPLES ---
+--- USER STORY GUIDELINES ---
 {story_guidelines}
+-------------------------------------------------------------
 
 --- USER GROUP CONTEXT ({persona.user_group}) ---
 {group_summary}
+-------------------------------------------------------------
 
 --- PERSONA DETAIL (ID: {persona.id}) ---
 {persona.to_prompt_string()}
+-------------------------------------------------------------
 
---- USE CASE DETAIL (ID: {use_case.id}) ---
-Name: {use_case.name}
-Type: {use_case.use_case_type}
-Pillars: {", ".join(use_case.pillars)}
-Personas: {", ".join(use_case.personas)}
+--- USE CASE DETAIL (ID: {use_case.id}
 Description: {use_case.description}
 Scenario: {use_case.scenario}
+-------------------------------------------------------------
 
 --- RAW TASK (Inspiration) ---
 {story.task}
+-------------------------------------------------------------
 
+--- PREVIOUS SUMMARIES FOR THIS PERSONA ---
+{prev_summary_text}
+-------------------------------------------------------------
+
+--- YOUR JOB ---
 📌 Based on this information, generate a structured JSON for a meaningful user story. It can focus on either:
 → A functional intent (user’s goal, command, or system response)  
 → Or a system quality (privacy, simplicity, autonomy, responsiveness, personalization, etc.)
@@ -115,26 +125,37 @@ Generate the following fields:
 - summary
 - priority (1 to 5)
 - pillar (choose the most relevant system's pillar mentioned in the system summary among the provided in the relevant use case.")
+-------------------------------------------------------------
 
 --- INSTRUCTION ---
+Your job is to generate a complete user story that reflects either:
+- Behavioral (or functional) goals (e.g., what the user wants the system to do), or
+- Quality/constraint-focused (or Non-Functional) goals (e.g., how the system should behave, qualities like performance, privacy, usability, ...).
+(However, for this round, you will not classify them as functional or non-functional, or put these terms directly in the story)
 
-Strictly, the user story must be strongly shaped by the persona's unique needs, expectations, habits, and emotional concerns — even if this leads to inconsistencies with the use case or system description.
-If the persona’s preferences clash with technical assumptions or systemic defaults, let that divergence emerge. Do NOT suppress conflicting expectations or overly rationalize differences for the sake of system alignment. 
-Your story should prioritize the **persona’s reality over system ideals**. Realism, friction, and individuality are more valuable than architectural harmony.
+However:
+- You must NOT reuse the ideas already used in this persona’s previous user stories (listed below).
+- If all of the persona’s information (e.g., goals, characteristics, challenges, singularities, main actions) has already been exhausted in those previous stories and you cannot write a new, meaningful story, return only an empty string ("") for the `summary` field.
+
+Additionally:
+- Only explore one, or (hardly) two, distinct ideas from the persona’s characteristics when generating the summary.
+- You should still prioritize the persona’s perspective over consistency with system behavior.
+
+Again, strictly, the new user story (especially the summary) must be strongly shaped by the given persona's information (e.g., unique needs, expectations, goals, characteristics, habits, concerns, ...) — even if this leads to inconsistencies with the use case or system description.
+That is, the user story should be **persona-centric** and do not make it too "rational-based-on-the-system" or system-centric.
+--------------------------------------------------------------
 
 --- OUTPUT FORMAT ---
-
 You must return a single JSON object with the following structure:
 
 {{
-  "title": "User Story Title",
+  "title": "(User Story Title)",
   "summary": ""As a [user role, not name], I want to [do something specific] (, so that I can [achieve a goal or handle a concern].)", # "so that ..." is hardly optional
   "priority": 3, # 1 (Lowest) to 5 (Highest)
-  "pillar": "[Associated Pillar]"
+  "pillar": "(Associated Pillar)"
 }}
 
 Strictly, do not include any additional text or commentary. Do NOT use any markdown, bold, italic, or special formatting in your response.
-
 ------------------------------
 
 {proficiency_level}
@@ -146,16 +167,35 @@ Strictly, do not include any additional text or commentary. Do NOT use any markd
             response = utils.get_llm_response(prompt)
             json_data = json.loads(response)
 
-            story.title = json_data.get("title", "")
-            story.summary = json_data.get("summary", "")
-            story.priority = json_data.get("priority")
-            story.pillar = json_data.get("pillar")
-            
-            print(f"✅ Processed story {story.id}: {story.title} (Priority: {story.priority}, Pillar: {story.pillar})")
+            title = json_data.get("title", "")
+            summary = json_data.get("summary", "")
+            priority = json_data.get("priority")
+            pillar = json_data.get("pillar")
+
+            if not summary or str(summary).strip().lower() in ["", "none", "null"]:
+                raise ValueError("Summary is missing or empty")
+
+            story.title = title
+            story.summary = summary
+            story.priority = priority
+            story.pillar = pillar
+
+            print(f"✅ Story {story.id} created: {title} → {summary[:40]}...")
 
         except Exception as e:
-            print(f"❌ Failed to process story {story.id}: {e}")
-            continue
+            # Move invalid story to invalid folder
+            invalid_file = invalid_dir / f"Invalid_user_stories_for_{story.persona}.json"
+            try:
+                existing = []
+                if invalid_file.exists():
+                    with open(invalid_file, "r", encoding="utf-8") as f:
+                        existing = json.load(f)
+                existing.append(story.to_dict())
+                with open(invalid_file, "w", encoding="utf-8") as f:
+                    json.dump(existing, f, indent=2, ensure_ascii=False)
+                print(f"❌ Moved invalid story {story.id} → {invalid_file.name} (Reason: {str(e)})")
+            except Exception as write_err:
+                print(f"❌ Failed to save invalid story {story.id}: {write_err}")
 
     # Save updated stories back to their respective files
     loader.save_all_user_stories_by_persona()

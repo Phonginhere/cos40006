@@ -52,7 +52,7 @@ User Story B Summary:
 {storyB_summary}
 -------------------------------------
 
---- TASK ---
+--- YOUR TASK ---
 The summary **may* or **may not** be adjusted so the conflict is no longer valid. Carefully analyze if the conflict described is still present given the current summaries.
 
 - If the conflict is NO LONGER valid, respond with ONLY:

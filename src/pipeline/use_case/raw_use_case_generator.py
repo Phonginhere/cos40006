@@ -49,6 +49,7 @@ Here are summaries of user groups involved in this use case:
 {uc_guidelines}
 -----------------------------
 
+--- YOUR TASK ---
 Now consider the following in-progress use case (skeleton):
 
 Use Case ID: {uc.id}
@@ -70,6 +71,9 @@ Return a single valid JSON object like:
 }}
 
 Strictly return only the JSON object. Do not include any additional text or commentary. Do NOT use any markdown, bold, italic, or special formatting in your response.
+--------------------------------------
+
+--- END OF PROMPT ---
 """).strip()
 
 

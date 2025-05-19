@@ -1,0 +1,20 @@
+[
+  {
+    "conflictType": "Start-Forbid",
+    "conflictDescription": "User Story A wants ALFRED to give voice reminders that interrupt users often, but User Story B expects ALFRED to respond easily and independently to voice commands without frequent interruptions. These opposite expectations about voice interaction behavior create a conflict.",
+    "conflictId": "FCAT-003",
+    "personaAId": "P-001",
+    "personaBId": "P-002",
+    "userGroupA": "Developers and App Creators",
+    "userGroupB": "Older Adults",
+    "userStoryAId": "US-007",
+    "userStoryBId": "US-053",
+    "userStoryASummary": "As a developer, I want ALFRED to give smart voice reminders that interrupt users often, so I can improve adherence even if users do not like it.",
+    "userStoryBSummary": "As an older person with mild mobility issues, I want to use voice commands to control ALFRED easily and independently.",
+    "cluster": "Voice Activation Control",
+    "generalResolutionType": "Update both user stories",
+    "resolutionDescription": "Adjusted both user stories to balance reminder frequency and voice command ease, allowing reminders that respect user control and reduce frequent interruptions.",
+    "newUserStoryASummary": "As a developer, I want ALFRED to give smart voice reminders that are helpful but not too frequent, so users stay engaged without annoyance.",
+    "newUserStoryBSummary": "As an older adult with mild mobility issues, I want ALFRED to respond easily to my voice commands without frequent interruptions, so I can control it comfortably."
+  }
+]

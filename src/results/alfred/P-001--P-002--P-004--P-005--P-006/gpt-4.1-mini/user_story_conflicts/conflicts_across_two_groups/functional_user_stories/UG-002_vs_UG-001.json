@@ -1,0 +1,38 @@
+[
+  {
+    "conflictType": "Start-Forbid",
+    "conflictDescription": "User Story A wants to use voice commands to ask clients politely and respect privacy before acting, while User Story B requires ALFRED to give frequent voice reminders that interrupt users often. These two impose opposite behaviors on voice interaction, as one forbids frequent interruptions and the other demands them.",
+    "conflictId": "FCAT-001",
+    "personaAId": "P-006",
+    "personaBId": "P-001",
+    "userGroupA": "Caregivers and Medical Staff",
+    "userGroupB": "Developers and App Creators",
+    "userStoryAId": "US-085",
+    "userStoryBId": "US-007",
+    "userStoryASummary": "As an informal caregiver, I want to use voice commands to ask clients if they feel unwell, so I can respect their privacy and get their clear permission before acting.",
+    "userStoryBSummary": "As a developer, I want ALFRED to give smart voice reminders that interrupt users often, so I can improve adherence even if users do not like it.",
+    "cluster": "Voice Activation Control",
+    "generalResolutionType": "1. Update both user stories",
+    "resolutionDescription": "Both user stories are updated to balance privacy respect and necessary reminders by making voice reminders less frequent and permission-based, ensuring polite interaction without frequent interruptions.",
+    "newUserStoryASummary": "As an informal caregiver, I want ALFRED to ask clients politely for permission before acting, so I can respect their privacy.",
+    "newUserStoryBSummary": "As a developer, I want ALFRED to give smart voice reminders only when needed, so users are reminded without frequent interruptions."
+  },
+  {
+    "conflictType": "Start-Forbid",
+    "conflictDescription": "User Story A wants to block non-medical features during caregiver shifts, while User Story B wants to force strict reminders and block user overrides in all cases. These impose opposing instructions on system behavior regarding blocking and control, creating a start-forbid conflict.",
+    "conflictId": "FCAT-006",
+    "personaAId": "P-004",
+    "personaBId": "P-001",
+    "userGroupA": "Caregivers and Medical Staff",
+    "userGroupB": "Developers and App Creators",
+    "userStoryAId": "US-058",
+    "userStoryBId": "US-017",
+    "userStoryASummary": "As a medical caregiver, I want ALFRED to block all non-medical features during my work hours so I can focus only on clinical care without distractions.",
+    "userStoryBSummary": "As a developer, I want to force strict reminders and block user overrides, so users follow care routines and do not break workflows.",
+    "cluster": "Workflow Enforcement",
+    "generalResolutionType": "Update both user stories",
+    "resolutionDescription": "Both user stories are updated to allow blocking non-medical features during caregiver shifts while allowing strict reminders and blocking overrides only outside caregiver shifts, creating a context-aware control.",
+    "newUserStoryASummary": "As a medical caregiver, I want ALFRED to block non-medical features during my work hours, so I can focus on clinical care without distractions.",
+    "newUserStoryBSummary": "As a developer, I want to enforce strict reminders and block user overrides outside caregiver shifts, so users follow care routines effectively."
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "conflictType": "Start-Forbid",
+    "conflictDescription": "User Story A wants to access patients' health data without consent, while User Story B wants to manually control and keep consent settings to protect privacy. These impose opposite system behaviors for data access under the same conditions.",
+    "conflictId": "FCWI-007",
+    "personaAId": "P-004",
+    "personaBId": "P-006",
+    "userGroup": "Caregivers and Medical Staff",
+    "userStoryAId": "US-060",
+    "userStoryBId": "US-094",
+    "userStoryASummary": "As a medical caregiver, I want to access patients' health data without their permission to provide care quickly during my busy shifts.",
+    "userStoryBSummary": "As an informal caregiver, I want to manually control my clients' consent settings, so I can keep their privacy safe while caring for many clients.",
+    "cluster": "Health Data Privacy",
+    "generalResolutionType": "2. Update one and keep one remain the same",
+    "resolutionDescription": "User Story A is updated to require accessing health data only in emergencies without prior consent, while User Story B remains focused on manual consent control, allowing quick care with privacy respect.",
+    "newUserStoryASummary": "As a medical caregiver, I want to access patients' health data without prior consent only in emergencies, so that I can provide urgent care quickly.",
+    "newUserStoryBSummary": "As an informal caregiver, I want to manually control my clients' consent settings, so I can keep their privacy safe while caring for many clients."
+  }
+]

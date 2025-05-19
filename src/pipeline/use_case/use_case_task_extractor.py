@@ -52,7 +52,7 @@ Scenario:
 {uc.scenario.strip()}
 -------------------------------------
 
---- TASK ---
+--- YOUR TASK ---
 Your objective is to extract a **diverse and realistic set of persona tasks**, with a **slight preference for goal-driven functional actions**, while still capturing notable non-functional aspects...
 
 You must extract tasks that relate to:
@@ -140,7 +140,7 @@ def extract_and_save_tasks(uc, all_personas: dict) -> dict:
 def reformat_and_save_all_tasks_by_persona():
     utils = Utils()
 
-    task_dir = Path(utils.USE_CASE_TASK_EXTRACTION_DIR)
+    task_dir = Path(utils.EXTRACTED_USE_CASE_TASKS_DIR)
     files = sorted(task_dir.glob("Extracted_tasks_from_UC-*.json"))
     flat_task_list = []
     task_counter = 1
@@ -173,7 +173,7 @@ def reformat_and_save_all_tasks_by_persona():
         print(f"✅ Saved {len(tasks)} tasks for {persona_id} → {out_path.name}")
 
 
-def analyze_all_use_cases(persona_loader: UserPersonaLoader):
+def extract_tasks_from_all_use_cases(persona_loader: UserPersonaLoader):
     all_personas = {p.id: p for p in persona_loader.get_personas()}
     uc_loader = UseCaseLoader()
     uc_loader.load()
@@ -181,10 +181,10 @@ def analyze_all_use_cases(persona_loader: UserPersonaLoader):
 
     utils = Utils()
 
-    os.makedirs(utils.USE_CASE_TASK_EXTRACTION_DIR, exist_ok=True)
+    os.makedirs(utils.EXTRACTED_USE_CASE_TASKS_DIR, exist_ok=True)
 
     # Check if we can skip the extraction
-    persona_files = set(f for f in os.listdir(utils.USE_CASE_TASK_EXTRACTION_DIR) if f.startswith("Extracted_tasks_for_") and f.endswith(".json"))
+    persona_files = set(f for f in os.listdir(utils.EXTRACTED_USE_CASE_TASKS_DIR) if f.startswith("Extracted_tasks_for_") and f.endswith(".json"))
     expected_files = {f"Extracted_tasks_for_{pid}.json" for pid in all_personas.keys()}
     
     if expected_files.issubset(persona_files) and len(expected_files) == len(all_personas):
@@ -192,7 +192,7 @@ def analyze_all_use_cases(persona_loader: UserPersonaLoader):
         return
 
     for uc in all_uc:
-        file_path = os.path.join(utils.USE_CASE_TASK_EXTRACTION_DIR, f"Extracted_tasks_from_{uc.id}.json")
+        file_path = os.path.join(utils.EXTRACTED_USE_CASE_TASKS_DIR, f"Extracted_tasks_from_{uc.id}.json")
         if os.path.exists(file_path):
             print(f"⏭️ Skipping {uc.id} – already extracted.")
             continue

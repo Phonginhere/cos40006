@@ -1,0 +1,116 @@
+[
+  {
+    "taskID": "TASK-050",
+    "useCaseId": "UC-003",
+    "personaId": "P-005",
+    "taskDescription": "Asks ALFRED to show light meal suggestions for the day"
+  },
+  {
+    "taskID": "TASK-051",
+    "useCaseId": "UC-003",
+    "personaId": "P-005",
+    "taskDescription": "Reviews simple beverage-based meal options from ALFRED"
+  },
+  {
+    "taskID": "TASK-052",
+    "useCaseId": "UC-003",
+    "personaId": "P-005",
+    "taskDescription": "Declines gentle exercise prompts offered by ALFRED"
+  },
+  {
+    "taskID": "TASK-053",
+    "useCaseId": "UC-003",
+    "personaId": "P-005",
+    "taskDescription": "Confirms to ALFRED that she has drunk her herbal tea"
+  },
+  {
+    "taskID": "TASK-058",
+    "useCaseId": "UC-003",
+    "personaId": "P-005",
+    "taskDescription": "Avoids engaging in activities she finds unnecessary or challenging"
+  },
+  {
+    "taskID": "TASK-070",
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Presses the push-to-talk button to start interaction with ALFRED"
+  },
+  {
+    "taskID": "TASK-071",
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Asks ALFRED about her daily schedule"
+  },
+  {
+    "taskID": "TASK-072",
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Requests simple information like the weather"
+  },
+  {
+    "taskID": "TASK-073",
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Asks ALFRED to remind her to drink herbal tea"
+  },
+  {
+    "taskID": "TASK-093",
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Chooses to stay offline during group video calls"
+  },
+  {
+    "taskID": "TASK-126",
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Requests ALFRED to report her vital signs on demand"
+  },
+  {
+    "taskID": "TASK-235",
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Requests ALFRED to remind her only when she asks"
+  },
+  {
+    "taskID": "TASK-250",
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Use voice commands to request medication reminders from ALFRED"
+  },
+  {
+    "taskID": "TASK-251",
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Control when to hear reminders by pressing push-to-talk button"
+  },
+  {
+    "taskID": "TASK-254",
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Dismiss detailed explanations about system features"
+  },
+  {
+    "taskID": "TASK-298",
+    "useCaseId": "UC-014",
+    "personaId": "P-005",
+    "taskDescription": "Request ALFRED to keep explanations simple and avoid interruptions"
+  },
+  {
+    "taskID": "TASK-305",
+    "useCaseId": "UC-014",
+    "personaId": "P-005",
+    "taskDescription": "Choose to arrange nurse check-ins offline rather than via video calls"
+  },
+  {
+    "taskID": "TASK-307",
+    "useCaseId": "UC-014",
+    "personaId": "P-005",
+    "taskDescription": "Limit engagement with ALFRED to essential functions only"
+  },
+  {
+    "taskID": "TASK-308",
+    "useCaseId": "UC-014",
+    "personaId": "P-005",
+    "taskDescription": "Maintain controlled communication and avoid spontaneous interactions"
+  }
+]

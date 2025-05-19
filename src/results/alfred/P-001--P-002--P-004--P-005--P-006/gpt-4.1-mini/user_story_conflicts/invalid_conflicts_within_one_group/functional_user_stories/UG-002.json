@@ -1,0 +1,15 @@
+[
+  {
+    "conflictType": "Forbid-stop",
+    "conflictDescription": "User Story A requires separation of clinical and social data to focus on medical information, implying access to clinical data. User Story B requires manual control of client consent, which could forbid access to some data including clinical data. This creates a conflict between needing access to clinical data and possibly forbidding it via consent control.",
+    "conflictId": "FCWI-008",
+    "personaAId": "P-004",
+    "personaBId": "P-006",
+    "userGroup": "Caregivers and Medical Staff",
+    "userStoryAId": "US-061",
+    "userStoryBId": "US-094",
+    "userStoryASummary": "As a medical caregiver, I want ALFRED to separate clinical data from social data so I can focus only on medical information during work and ignore non-medical details.",
+    "userStoryBSummary": "As an informal caregiver, I want to manually control my clients' consent settings, so I can keep their privacy safe while caring for many clients.",
+    "cluster": "Health Data Privacy"
+  }
+]

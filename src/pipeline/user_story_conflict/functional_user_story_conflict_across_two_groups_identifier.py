@@ -47,7 +47,7 @@ Apply the Chentouf technique for identifying functional user story conflicts (ac
 {user_story_guidelines}
 -------------------------------------
 
---- TASK ---
+--- YOUR TASK ---
 Compare the following TWO FUNCTIONAL user stories belonging to different user groups but within the same cluster:
 Cluster: {cluster}
 User Group A: {user_group_a}

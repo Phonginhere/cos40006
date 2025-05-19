@@ -330,20 +330,29 @@ class Utils:
         self.ROOT_RESULTS_DIR = os.path.join(self.RESULTS_DIR, self.SYSTEM_NAME, persona_abbr, self.CURRENT_LLM)
 
         self.USE_CASE_DIR = os.path.join(self.ROOT_RESULTS_DIR, "use_cases")
-        self.USE_CASE_TASK_EXTRACTION_DIR = os.path.join(self.ROOT_RESULTS_DIR, "use_case_task_extraction")
+        self.TASK_DIR = os.path.join(self.ROOT_RESULTS_DIR, "tasks")
+        self.EXTRACTED_USE_CASE_TASKS_DIR = os.path.join(self.TASK_DIR, "extracted_use_case_tasks")
+        self.DUPLICATED_EXTRACTED_USE_CASE_TASKS_DIR = os.path.join(self.TASK_DIR, "duplicated_extracted_use_case_tasks")
 
         self.USER_STORY_DIR = os.path.join(self.ROOT_RESULTS_DIR, "user_stories")
+        self.INVALID_USER_STORY_DIR = os.path.join(self.ROOT_RESULTS_DIR, "invalid_user_stories")
         self.FUNCTIONAL_USER_STORY_CLUSTER_SET_PATH = os.path.join(self.ROOT_RESULTS_DIR, "functional_user_story_cluster_set.json")
 
-        self.USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join(self.ROOT_RESULTS_DIR, "conflicts_within_one_group")
-        self.USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR = os.path.join(self.ROOT_RESULTS_DIR, "conflicts_across_two_groups")
+        self.CONFLICTS_DIR = os.path.join(self.ROOT_RESULTS_DIR, "user_story_conflicts")
+
+        self.USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join(self.CONFLICTS_DIR, "conflicts_within_one_group")
+        self.USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR = os.path.join(self.CONFLICTS_DIR, "conflicts_across_two_groups")
+        self.INVALID_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join(self.CONFLICTS_DIR, "invalid_conflicts_within_one_group")
+        self.INVALID_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR = os.path.join(self.CONFLICTS_DIR, "invalid_conflicts_across_two_groups")
 
         self.NON_FUNCTIONAL_USER_STORY_DECOMPOSITION_PATH = os.path.join(self.ROOT_RESULTS_DIR, "non_functional_user_story_decomposition.json")
         self.NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join(self.USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, "non_functional_user_stories")
         self.NON_FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR = os.path.join(self.USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR, "non_functional_user_stories")
+        self.INVALID_NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join(self.INVALID_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, "non_functional_user_stories")
 
         self.FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join(self.USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, "functional_user_stories")
         self.FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR = os.path.join(self.USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR, "functional_user_stories")
+        self.INVALID_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join(self.INVALID_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, "functional_user_stories")
 
 
     # ===============================

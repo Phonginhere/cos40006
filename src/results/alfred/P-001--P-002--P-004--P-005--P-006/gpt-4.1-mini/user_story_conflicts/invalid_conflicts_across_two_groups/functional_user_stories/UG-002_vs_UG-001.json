@@ -1,0 +1,16 @@
+[
+  {
+    "conflictType": "Start-Forbid",
+    "conflictDescription": "User Story A wants to stop informal caregivers from changing game settings, enforcing a restriction, while User Story B wants to force strict reminders and block user overrides, which may include changing settings. Both require the system to block certain user actions, but one focuses on preventing changes by informal caregivers while the other enforces strict control system-wide. This creates conflicting control operations triggered under the same conditions.",
+    "conflictId": "FCAT-005",
+    "personaAId": "P-004",
+    "personaBId": "P-001",
+    "userGroupA": "Caregivers and Medical Staff",
+    "userGroupB": "Developers and App Creators",
+    "userStoryAId": "US-055",
+    "userStoryBId": "US-017",
+    "userStoryASummary": "As a medical caregiver, I want to stop informal caregivers from changing game settings so clinical routines stay strict and safe.",
+    "userStoryBSummary": "As a developer, I want to force strict reminders and block user overrides, so users follow care routines and do not break workflows.",
+    "cluster": "Workflow Enforcement"
+  }
+]

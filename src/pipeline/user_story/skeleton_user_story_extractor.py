@@ -35,11 +35,11 @@ def extract_skeleton_user_stories(persona_loader: UserPersonaLoader):
     grouped_stories = defaultdict(list)
     uid_counter = 1
 
-    for filename in os.listdir(utils.USE_CASE_TASK_EXTRACTION_DIR):
+    for filename in os.listdir(utils.EXTRACTED_USE_CASE_TASKS_DIR):
         if not filename.startswith("Extracted_tasks_for_") or not filename.endswith(".json"):
             continue
 
-        file_path = os.path.join(utils.USE_CASE_TASK_EXTRACTION_DIR, filename)
+        file_path = os.path.join(utils.EXTRACTED_USE_CASE_TASKS_DIR, filename)
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 task_list = json.load(f)

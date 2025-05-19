@@ -8,7 +8,7 @@ from pipeline.use_case.use_case_loader import UseCaseLoader
 from pipeline.use_case.skeleton_use_case_randomizer import write_use_case_skeletons
 from pipeline.use_case.raw_use_case_generator import generate_raw_use_cases
 from pipeline.use_case.enriched_use_case_generator import enrich_use_cases_with_scenarios
-from pipeline.use_case.use_case_task_extractor import analyze_all_use_cases
+from pipeline.use_case.use_case_task_extractor import extract_tasks_from_all_use_cases
 from pipeline.use_case.use_case_task_deduplicator import deduplicate_tasks_for_all_use_cases
 
 from pipeline.user_story.user_story_loader import UserStoryLoader
@@ -62,7 +62,7 @@ def main():
     
     #   Step 2d: Extract persona tasks from scenarios
     print("\n🧾 Phase 2d: Extracting tasks from scenarios...")
-    analyze_all_use_cases(persona_loader)
+    extract_tasks_from_all_use_cases(persona_loader)
     
     #   Step 2e: Deduplicate tasks for each persona
     print("\n🔄 Phase 2e: Deduplicating tasks for each persona...")
@@ -80,9 +80,9 @@ def main():
     print("\n📝 Phase 3b: Generating complete user stories...")
     generate_complete_user_stories(persona_loader, use_case_loader)
     
-    #   Step 3b-1: Deduplicate user stories for each persona
-    print("\n🔄 Phase 3b-1: Deduplicating user stories for each persona...")
-    deduplicate_user_stories_for_each_persona(persona_loader)
+    # #   Step 3b-1: Deduplicate user stories for each persona
+    # print("\n🔄 Phase 3b-1: Deduplicating user stories for each persona...")
+    # deduplicate_user_stories_for_each_persona(persona_loader)
     
     #   Step 3b-2: Verify user story summaries for persona dominance
     print("\n🔎 Phase 3b-2: Verifying user story summaries for persona dominance...")

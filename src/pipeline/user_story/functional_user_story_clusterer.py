@@ -29,7 +29,7 @@ In the context of the following system, you will analyze the list of Non-Functio
 {joined_nf_stories}
 -------------------------------------
 
---- TASK ---
+--- YOUR TASK ---
 You must define a list of functional user story clusters, where each cluster is directly derived from a non-functional user story. For each cluster, include:
 - `nfus_id`: ID of the non-functional user story
 - `nfus_summary`: Summary of the non-functional user story

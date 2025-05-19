@@ -130,7 +130,7 @@ Apply the Sadana and Liu technique for indentifying non-functional requirement (
 {user_story_guidelines}
 ------------------------------
 
---- TASK ---
+--- YOUR TASK ---
 Cluster of the two user stories below: {cluster}
 Compare the following two non-functional user stories. Report any conflicts between them using the Sadana and Liu's technique mentioned above, focusing on the lowest-level non-functional (decomposed) user stories.
 

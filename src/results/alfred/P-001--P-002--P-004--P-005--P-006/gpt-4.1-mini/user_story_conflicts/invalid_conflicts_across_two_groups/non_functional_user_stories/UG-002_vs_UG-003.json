@@ -1,0 +1,110 @@
+[
+  {
+    "conflictType": "Partial",
+    "conflictDescription": "The caregiver wants to receive notifications outside quiet hours, but the older adult wants to block almost all notifications and messages all the time, which conflicts with allowing notifications at any time.",
+    "conflictingNfrPairs": [
+      [
+        "Allow caregiver to set specific quiet hours for notifications",
+        "Block almost all notifications from ALFRED"
+      ],
+      [
+        "Suppress notifications during the set quiet hours",
+        "Block almost all notifications from ALFRED"
+      ],
+      [
+        "Allow caregiver to set specific quiet hours for notifications",
+        "Block almost all messages from ALFRED"
+      ],
+      [
+        "Suppress notifications during the set quiet hours",
+        "Block almost all messages from ALFRED"
+      ]
+    ],
+    "conflictId": "NFCAT-002",
+    "personaAId": "P-006",
+    "personaBId": "P-005",
+    "userGroupA": "Caregivers and Medical Staff",
+    "userGroupB": "Older Adults",
+    "userStoryAId": "US-100",
+    "userStoryBId": "US-063",
+    "userStoryASummary": "As an informal caregiver, I want to control when I get notifications so I can manage my work and family time well.",
+    "userStoryBSummary": "As an older person, I want to block almost all ALFRED notifications and messages, so I do not feel disturbed or overwhelmed.",
+    "cluster": "Accessibility & Physical Usability"
+  },
+  {
+    "conflictType": "Partial",
+    "conflictDescription": "The caregiver wants to use polite and formal language to keep respect and trust, but the older adult prefers informal language in explanations to feel comfortable and learn easily. These two language styles are different and cannot be fully used at the same time in the same context.",
+    "conflictingNfrPairs": [
+      [
+        "Use polite and respectful language during calls",
+        "Use informal language in system explanations"
+      ],
+      [
+        "Maintain a formal tone when speaking with clients",
+        "Use informal language in system explanations"
+      ]
+    ],
+    "conflictId": "NFCAT-004",
+    "personaAId": "P-006",
+    "personaBId": "P-002",
+    "userGroupA": "Caregivers and Medical Staff",
+    "userGroupB": "Older Adults",
+    "userStoryAId": "US-099",
+    "userStoryBId": "US-044",
+    "userStoryASummary": "As an informal caregiver, I want to call clients with respect and formality to keep trust and respect their wishes.",
+    "userStoryBSummary": "As an older person, I want ALFRED to explain its features in informal language so I feel comfortable and can learn easily.",
+    "cluster": "User-Driven Interaction Assistant"
+  },
+  {
+    "conflictType": "Partial",
+    "conflictDescription": "Some caregiver data sharing permissions may allow sharing with clients that contradicts the older adult's desire to share vital signs only with official medical staff and only when asked.",
+    "conflictingNfrPairs": [
+      [
+        "Allow informal caregivers to set data sharing permissions with clients",
+        "Only official medical staff can access vital signs"
+      ],
+      [
+        "Ensure data is shared only according to clients' privacy preferences",
+        "Data sharing happens only when user asks"
+      ]
+    ],
+    "conflictId": "NFCAT-007",
+    "personaAId": "P-006",
+    "personaBId": "P-005",
+    "userGroupA": "Caregivers and Medical Staff",
+    "userGroupB": "Older Adults",
+    "userStoryAId": "US-093",
+    "userStoryBId": "US-073",
+    "userStoryASummary": "As an informal caregiver, I want to control data sharing with clients to fully protect their privacy according to their wishes.",
+    "userStoryBSummary": "As an older person I want to control all sharing of my vital signs and only allow official medical staff to see them when I ask.",
+    "cluster": "Effective & Personalized Care"
+  },
+  {
+    "conflictType": "Mutually Exclusive",
+    "conflictDescription": "User Story A wants caregivers to control data sharing according to client wishes, allowing some data sharing. User Story B wants no health data shared with anyone, even caregivers, which fully blocks data sharing. These goals cannot both be true at the same time.",
+    "conflictingNfrPairs": [
+      [
+        "Allow informal caregivers to set data sharing permissions with clients",
+        "Do not share any health data with caregivers"
+      ],
+      [
+        "Ensure data is shared only according to clients' privacy preferences",
+        "Do not share any health data with caregivers"
+      ],
+      [
+        "Protect client privacy fully by enforcing their data sharing choices",
+        "Do not share any health data with caregivers"
+      ]
+    ],
+    "conflictId": "NFCAT-008",
+    "personaAId": "P-006",
+    "personaBId": "P-005",
+    "userGroupA": "Caregivers and Medical Staff",
+    "userGroupB": "Older Adults",
+    "userStoryAId": "US-093",
+    "userStoryBId": "US-074",
+    "userStoryASummary": "As an informal caregiver, I want to control data sharing with clients to fully protect their privacy according to their wishes.",
+    "userStoryBSummary": "As an older person, I want to share no health data with anyone, not even my nurse, to keep my privacy fully protected.",
+    "cluster": "Effective & Personalized Care"
+  }
+]

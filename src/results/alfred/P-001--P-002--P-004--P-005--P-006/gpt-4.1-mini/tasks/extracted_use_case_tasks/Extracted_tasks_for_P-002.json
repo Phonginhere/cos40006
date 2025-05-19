@@ -1,0 +1,212 @@
+[
+  {
+    "taskID": "TASK-026",
+    "useCaseId": "UC-002",
+    "personaId": "P-002",
+    "taskDescription": "Ask ALFRED to start her daily cognitive challenge session"
+  },
+  {
+    "taskID": "TASK-029",
+    "useCaseId": "UC-002",
+    "personaId": "P-002",
+    "taskDescription": "Engage actively with interactive memory puzzles"
+  },
+  {
+    "taskID": "TASK-030",
+    "useCaseId": "UC-002",
+    "personaId": "P-002",
+    "taskDescription": "Chat casually with Sarah through ALFRED’s interface during sessions"
+  },
+  {
+    "taskID": "TASK-033",
+    "useCaseId": "UC-002",
+    "personaId": "P-002",
+    "taskDescription": "Hesitate to confront Mike about her disappointment"
+  },
+  {
+    "taskID": "TASK-097",
+    "useCaseId": "UC-005",
+    "personaId": "P-002",
+    "taskDescription": "Starts cognitive stimulation sessions with ALFRED eagerly"
+  },
+  {
+    "taskID": "TASK-100",
+    "useCaseId": "UC-005",
+    "personaId": "P-002",
+    "taskDescription": "Engages with physical simulations that combine mind and body activities"
+  },
+  {
+    "taskID": "TASK-102",
+    "useCaseId": "UC-005",
+    "personaId": "P-002",
+    "taskDescription": "Participates actively in social features, sharing progress with friends and strangers"
+  },
+  {
+    "taskID": "TASK-105",
+    "useCaseId": "UC-005",
+    "personaId": "P-002",
+    "taskDescription": "Joins community volunteer group video calls and shares experiences"
+  },
+  {
+    "taskID": "TASK-107",
+    "useCaseId": "UC-005",
+    "personaId": "P-002",
+    "taskDescription": "Feels energized and connected by using ALFRED’s interactive environment"
+  },
+  {
+    "taskID": "TASK-149",
+    "useCaseId": "UC-007",
+    "personaId": "P-002",
+    "taskDescription": "May desire personalized guidance to interact naturally with ALFRED"
+  },
+  {
+    "taskID": "TASK-154",
+    "useCaseId": "UC-007",
+    "personaId": "P-002",
+    "taskDescription": "Would benefit from social inclusion features to reduce isolation"
+  },
+  {
+    "taskID": "TASK-155",
+    "useCaseId": "UC-007",
+    "personaId": "P-002",
+    "taskDescription": "Interested in cognitive and physical activity support from ALFRED"
+  },
+  {
+    "taskID": "TASK-169",
+    "useCaseId": "UC-008",
+    "personaId": "P-002",
+    "taskDescription": "Use the hydration reminder app to improve personal health"
+  },
+  {
+    "taskID": "TASK-171",
+    "useCaseId": "UC-008",
+    "personaId": "P-002",
+    "taskDescription": "Respond to persistent voice reminders even during conversations"
+  },
+  {
+    "taskID": "TASK-172",
+    "useCaseId": "UC-008",
+    "personaId": "P-002",
+    "taskDescription": "Enable full integration of personal sensor data for health monitoring"
+  },
+  {
+    "taskID": "TASK-178",
+    "useCaseId": "UC-009",
+    "personaId": "P-002",
+    "taskDescription": "Asks ALFRED who is available for a quick video chat"
+  },
+  {
+    "taskID": "TASK-179",
+    "useCaseId": "UC-009",
+    "personaId": "P-002",
+    "taskDescription": "Chooses to talk with family members or acquaintances from the community group"
+  },
+  {
+    "taskID": "TASK-180",
+    "useCaseId": "UC-009",
+    "personaId": "P-002",
+    "taskDescription": "Requests ALFRED to adjust the camera angle automatically to rest her hands"
+  },
+  {
+    "taskID": "TASK-181",
+    "useCaseId": "UC-009",
+    "personaId": "P-002",
+    "taskDescription": "Engages in informal and spontaneous video calls without a strict agenda"
+  },
+  {
+    "taskID": "TASK-182",
+    "useCaseId": "UC-009",
+    "personaId": "P-002",
+    "taskDescription": "Responds to ALFRED's reminders about hydration and exercise goals"
+  },
+  {
+    "taskID": "TASK-186",
+    "useCaseId": "UC-009",
+    "personaId": "P-002",
+    "taskDescription": "Responds to family concerns about spending too much time on video chats"
+  },
+  {
+    "taskID": "TASK-188",
+    "useCaseId": "UC-009",
+    "personaId": "P-002",
+    "taskDescription": "Feels supported by ALFRED’s ability to adapt to her mobility limitations"
+  },
+  {
+    "taskID": "TASK-189",
+    "useCaseId": "UC-009",
+    "personaId": "P-002",
+    "taskDescription": "Appreciates ALFRED's respect for her requests to control social invitations"
+  },
+  {
+    "taskID": "TASK-190",
+    "useCaseId": "UC-009",
+    "personaId": "P-002",
+    "taskDescription": "Wants to maintain independence while feeling connected and cared for"
+  },
+  {
+    "taskID": "TASK-220",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Asks ALFRED about the health agenda for the day"
+  },
+  {
+    "taskID": "TASK-223",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Requests ALFRED to explain game rules in detail"
+  },
+  {
+    "taskID": "TASK-224",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Welcomes spontaneous hydration reminders from ALFRED"
+  },
+  {
+    "taskID": "TASK-227",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Invites a friend to join an online exercise session via ALFRED"
+  },
+  {
+    "taskID": "TASK-229",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Embraces proactive coaching and open engagement from ALFRED"
+  },
+  {
+    "taskID": "TASK-284",
+    "useCaseId": "UC-013",
+    "personaId": "P-002",
+    "taskDescription": "Balances enjoyment of system prompts with social interaction needs"
+  },
+  {
+    "taskID": "TASK-287",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Follow ALFRED's voice guidance through setup and feature use"
+  },
+  {
+    "taskID": "TASK-288",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Accept suggestions to connect wearable health sensors"
+  },
+  {
+    "taskID": "TASK-291",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Ask ALFRED to slow down explanations or pause notifications during calls"
+  },
+  {
+    "taskID": "TASK-294",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Adjust ALFRED's behavior to balance learning and social moments"
+  },
+  {
+    "taskID": "TASK-296",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Overcome mild mobility difficulties to operate the device"
+  }
+]

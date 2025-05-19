@@ -1,0 +1,122 @@
+[
+  {
+    "taskID": "TASK-001",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Reviews the health dashboard on her tablet every morning"
+  },
+  {
+    "taskID": "TASK-002",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Toggles through profiles of multiple older adults she supports"
+  },
+  {
+    "taskID": "TASK-004",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Manually records clinical details she finds relevant"
+  },
+  {
+    "taskID": "TASK-005",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Uses the voice interface to ask clients if they feel unwell"
+  },
+  {
+    "taskID": "TASK-008",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Invites clients to join gentle exercise simulations"
+  },
+  {
+    "taskID": "TASK-013",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Reflects on the differences between her empathetic style and others’ clinical approach"
+  },
+  {
+    "taskID": "TASK-034",
+    "useCaseId": "UC-002",
+    "personaId": "P-006",
+    "taskDescription": "Check in remotely during Elena’s cognitive challenge sessions"
+  },
+  {
+    "taskID": "TASK-036",
+    "useCaseId": "UC-002",
+    "personaId": "P-006",
+    "taskDescription": "Advocate gently for more personalized and enjoyable session settings"
+  },
+  {
+    "taskID": "TASK-037",
+    "useCaseId": "UC-002",
+    "personaId": "P-006",
+    "taskDescription": "Encourage Elena manually to keep trying when sessions are limited"
+  },
+  {
+    "taskID": "TASK-040",
+    "useCaseId": "UC-002",
+    "personaId": "P-006",
+    "taskDescription": "Experience frustration when disabled from adjusting session settings"
+  },
+  {
+    "taskID": "TASK-202",
+    "useCaseId": "UC-010",
+    "personaId": "P-006",
+    "taskDescription": "Restrict access to sensitive data like location and emotional state"
+  },
+  {
+    "taskID": "TASK-204",
+    "useCaseId": "UC-010",
+    "personaId": "P-006",
+    "taskDescription": "Feel conflicted about client’s preference for unrestricted sharing"
+  },
+  {
+    "taskID": "TASK-205",
+    "useCaseId": "UC-010",
+    "personaId": "P-006",
+    "taskDescription": "Manually override client’s consent settings when needed"
+  },
+  {
+    "taskID": "TASK-206",
+    "useCaseId": "UC-010",
+    "personaId": "P-006",
+    "taskDescription": "Explain privacy concerns patiently to the client via messaging"
+  },
+  {
+    "taskID": "TASK-209",
+    "useCaseId": "UC-010",
+    "personaId": "P-006",
+    "taskDescription": "Feel cautious about too much data being shared or accessed"
+  },
+  {
+    "taskID": "TASK-242",
+    "useCaseId": "UC-012",
+    "personaId": "P-006",
+    "taskDescription": "Manage daily schedules for multiple older adults using ALFRED"
+  },
+  {
+    "taskID": "TASK-246",
+    "useCaseId": "UC-012",
+    "personaId": "P-006",
+    "taskDescription": "Check in with clients later after receiving alerts from ALFRED"
+  },
+  {
+    "taskID": "TASK-247",
+    "useCaseId": "UC-012",
+    "personaId": "P-006",
+    "taskDescription": "Make calls to clients in a respectful and formal tone"
+  },
+  {
+    "taskID": "TASK-248",
+    "useCaseId": "UC-012",
+    "personaId": "P-006",
+    "taskDescription": "Avoid overwhelming clients with too many notifications or messages"
+  },
+  {
+    "taskID": "TASK-249",
+    "useCaseId": "UC-012",
+    "personaId": "P-006",
+    "taskDescription": "Rely on ALFRED to balance client independence and support needs"
+  }
+]

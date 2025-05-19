@@ -1,0 +1,80 @@
+[
+  {
+    "conflictType": "Two Condition Events",
+    "conflictDescription": "User Story A wants to enable hard and challenging mind-body exercises, while User Story B wants to limit food advice to only beverage options to avoid complexity. These are different condition preferences affecting health-related guidance, which can conflict in the system's setup guidance context.",
+    "conflictId": "FCWI-001",
+    "personaAId": "P-002",
+    "personaBId": "P-005",
+    "userGroup": "Older Adults",
+    "userStoryAId": "US-024",
+    "userStoryBId": "US-064",
+    "userStoryASummary": "As an older person, I want to do hard and challenging exercises that mix mind and body to improve my health and motivation.",
+    "userStoryBSummary": "As an older person I want to see only beverage options so that I avoid complex food advice and feel less overwhelmed.",
+    "cluster": "Setup Guidance"
+  },
+  {
+    "conflictType": "Start-Forbid",
+    "conflictDescription": "User Story A requires ALFRED to pause reminders during talks, while User Story B requires ALFRED to wait for explicit confirmation before sending messages about beverage intake. These impose opposite behaviors on when reminders or messages should be active during conversations.",
+    "conflictId": "FCWI-002",
+    "personaAId": "P-002",
+    "personaBId": "P-005",
+    "userGroup": "Older Adults",
+    "userStoryAId": "US-032",
+    "userStoryBId": "US-066",
+    "userStoryASummary": "As an older person, I want ALFRED to pause reminders during my talks, so I can focus on conversations without interruptions.",
+    "userStoryBSummary": "As an older person I want to tell ALFRED only when I drink my herbal tea so that I keep control and avoid unwanted messages.",
+    "cluster": "Notification Control"
+  },
+  {
+    "conflictType": "Start-Forbid",
+    "conflictDescription": "User Story A wants ALFRED to stop health reminders during social moments, while User Story B requires ALFRED to notify only when the user confirms drinking herbal tea. These impose opposite expectations on when ALFRED should send reminders or messages, causing a conflict in notification behavior during specific events.",
+    "conflictId": "FCWI-003",
+    "personaAId": "P-002",
+    "personaBId": "P-005",
+    "userGroup": "Older Adults",
+    "userStoryAId": "US-052",
+    "userStoryBId": "US-066",
+    "userStoryASummary": "As an older person, I want ALFRED to stop health reminders during family video calls so I can enjoy my social time without interruptions.",
+    "userStoryBSummary": "As an older person I want to tell ALFRED only when I drink my herbal tea so that I keep control and avoid unwanted messages.",
+    "cluster": "Notification Control"
+  },
+  {
+    "conflictType": "Start-Forbid",
+    "conflictDescription": "User Story A wants to stop new social invitations for some time, which forbids receiving invitations, while User Story B wants to avoid group video calls, which forbids joining specific social activities. Both impose forbidding social interactions, but with different triggers and operations, causing conflicting system behavior when managing social participation.",
+    "conflictId": "FCWI-004",
+    "personaAId": "P-002",
+    "personaBId": "P-005",
+    "userGroup": "Older Adults",
+    "userStoryAId": "US-039",
+    "userStoryBId": "US-072",
+    "userStoryASummary": "As an older person, I want to stop new social invitations for some time so I can enjoy quiet moments when I want.",
+    "userStoryBSummary": "As an older person I want to avoid group video calls to not feel pressured to join social activities.",
+    "cluster": "Suggestion Control"
+  },
+  {
+    "conflictType": "Start-Forbid",
+    "conflictDescription": "User Story A wants ALFRED to suggest social chats freely, encouraging spontaneous group calls, while User Story B wants to avoid group video calls to not feel pressured. These are opposite expectations about the same operation of initiating social group interactions.",
+    "conflictId": "FCWI-005",
+    "personaAId": "P-002",
+    "personaBId": "P-005",
+    "userGroup": "Older Adults",
+    "userStoryAId": "US-041",
+    "userStoryBId": "US-072",
+    "userStoryASummary": "As an older person, I want ALFRED to suggest social chats freely so I can chat spontaneously and reduce loneliness.",
+    "userStoryBSummary": "As an older person I want to avoid group video calls to not feel pressured to join social activities.",
+    "cluster": "Suggestion Control"
+  },
+  {
+    "conflictType": "Two Operation Frequencies Conflict",
+    "conflictDescription": "User Story A allows the user to choose how often ALFRED suggests social chats, while User Story B wants to avoid group video calls to avoid pressure. These conflict in how often social interactions are initiated, leading to incompatible expectations on social suggestion frequency.",
+    "conflictId": "FCWI-006",
+    "personaAId": "P-002",
+    "personaBId": "P-005",
+    "userGroup": "Older Adults",
+    "userStoryAId": "US-042",
+    "userStoryBId": "US-072",
+    "userStoryASummary": "As an older person I want to choose how often ALFRED suggests social chats so I can keep my quiet time when I want.",
+    "userStoryBSummary": "As an older person I want to avoid group video calls to not feel pressured to join social activities.",
+    "cluster": "Suggestion Control"
+  }
+]

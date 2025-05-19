@@ -1,0 +1,110 @@
+[
+  {
+    "taskID": "TASK-108",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Sets up a remote workspace to integrate a new healthcare app"
+  },
+  {
+    "taskID": "TASK-109",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Uses ALFRED’s developer tools to connect the app with the platform"
+  },
+  {
+    "taskID": "TASK-110",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Reads and follows detailed documentation about API rules and data privacy"
+  },
+  {
+    "taskID": "TASK-117",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Balances technical compliance with potential user discomfort"
+  },
+  {
+    "taskID": "TASK-118",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Prefers clear, structured communication during collaboration"
+  },
+  {
+    "taskID": "TASK-119",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Rejects informal or small talk in meetings to stay focused"
+  },
+  {
+    "taskID": "TASK-120",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Builds accessible and secure apps prioritizing data protection over user freedom"
+  },
+  {
+    "taskID": "TASK-123",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Accepts user frustration as a trade-off for security and monitoring"
+  },
+  {
+    "taskID": "TASK-156",
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Develop a healthcare app that monitors hydration levels"
+  },
+  {
+    "taskID": "TASK-157",
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Integrate the app using ALFRED’s developer documentation and APIs"
+  },
+  {
+    "taskID": "TASK-159",
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Design the app to be accessible for older adults"
+  },
+  {
+    "taskID": "TASK-165",
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Accept platform backend refresh intervals despite workflow disruption"
+  },
+  {
+    "taskID": "TASK-167",
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Accept that security and control measures may unsettle users"
+  },
+  {
+    "taskID": "TASK-266",
+    "useCaseId": "UC-013",
+    "personaId": "P-001",
+    "taskDescription": "Finalizes a new app with cognitive games for older adults"
+  },
+  {
+    "taskID": "TASK-267",
+    "useCaseId": "UC-013",
+    "personaId": "P-001",
+    "taskDescription": "Reviews app permissions to ensure security and privacy"
+  },
+  {
+    "taskID": "TASK-268",
+    "useCaseId": "UC-013",
+    "personaId": "P-001",
+    "taskDescription": "Submits the app through ALFRED’s developer marketplace"
+  },
+  {
+    "taskID": "TASK-271",
+    "useCaseId": "UC-013",
+    "personaId": "P-001",
+    "taskDescription": "Balances security needs with user experience in app design"
+  },
+  {
+    "taskID": "TASK-272",
+    "useCaseId": "UC-013",
+    "personaId": "P-001",
+    "taskDescription": "Monitors the app review process for compliance with standards"
+  }
+]

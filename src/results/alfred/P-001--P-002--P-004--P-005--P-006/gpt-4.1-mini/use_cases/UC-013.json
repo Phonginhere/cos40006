@@ -1,0 +1,21 @@
+{
+  "id": "UC-013",
+  "useCaseType": "Marketplace Discovery",
+  "userGroups": [
+    "Developers and App Creators",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Developer Core",
+    "General Requirements",
+    "Pillar 1 - User-Driven Interaction Assistant"
+  ],
+  "name": "Controlled App Submission Workflow",
+  "description": "Daniel Chen submits a healthcare app to the ALFRED marketplace, navigating strict user privacy constraints and Olivia's preference to block unsolicited app installations. This use case highlights the developer's challenge of ensuring secure, compliant app deployment while respecting older adults’ data privacy and control preferences.",
+  "scenario": "Daniel Chen sits at his cluttered home office in the countryside, the hum of his computer blending with the distant sound of birds. He’s just completed the final version of his new healthcare app tailored for ALFRED’s platform. Confident in his coding skills and firm approach to privacy, Daniel prepares to submit the app to the ALFRED marketplace. His design philosophy is clear: data must be tightly controlled, users should not be burdened with too many choices, and updates install automatically to ensure security. As he navigates the submission workflow, he encounters ALFRED’s strict privacy compliance prompts requiring explicit permissions from users before any data sharing or app installation. Daniel grumbles inwardly, frustrated by what he perceives as unnecessary hurdles, but he knows these safeguards are non-negotiable for the platform.\n\nMeanwhile, Olivia, a retired social worker living alone, receives a notification on her ALFRED device alerting her that a new app wants to install itself. She immediately blocks the installation, the familiar unease returning as she fears unsolicited apps encroaching on her privacy. Olivia values absolute control—no app should impose itself without her consent. She finds the persistent notifications and system explanations about the app’s functions overwhelming and intrusive, preferring ALFRED to stay silent unless she explicitly asks. The thought of her data being collected continuously or shared beyond her strict circle unsettles her deeply. Olivia’s skepticism about technology’s safety means she carefully guards her digital space, restricting app installations and disabling any features that might invite unsolicited contact or data sharing.\n\nBack at his desk, Daniel reviews the feedback ALFRED provides from Olivia’s device preferences and sees her rejection of his app’s auto-install feature. He debates whether to adjust the app to accommodate users like Olivia, whose cautious approach conflicts sharply with his own development style that favors control and automation. Daniel’s insistence on enforcing strict workflows and continuous data collection clashes with Olivia’s desire to block anything unsolicited and maintain formal, minimal interaction with ALFRED. He feels constrained by these user-imposed limits but recognizes their importance for trust.\n\nThe tension between Daniel’s developer perspective and Olivia’s guarded user stance remains palpable. ALFRED’s controlled app submission workflow becomes the battleground where innovation meets privacy, with Daniel striving to deploy his app securely, and Olivia determined to keep her digital autonomy intact. Neither fully satisfied, both navigate the system’s boundaries shaped by their opposing priorities—Daniel pushing for structured control and data flow, Olivia resisting any intrusion into her carefully managed world.",
+  "personas": [
+    "P-001",
+    "P-005",
+    "P-002"
+  ]
+}

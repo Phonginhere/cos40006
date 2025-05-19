@@ -1,0 +1,18 @@
+{
+  "id": "UC-001",
+  "useCaseType": "Health Monitoring (Wearables, Sensors)",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Pillar 3 - Effective & Personalized Care"
+  ],
+  "name": "Multi-Client Remote Vital Monitoring",
+  "description": "This use case supports informal and professional caregivers in remotely monitoring vital signs of multiple older adults simultaneously via wearable sensors, ensuring timely interventions while respecting privacy preferences and enabling personalized care management.",
+  "scenario": "Sarah Thompson starts her day reviewing the ALFRED dashboard on her tablet, glancing over the vital signs of the older adults in her care. Managing multiple clients simultaneously has always been a juggling act, and she appreciates that ALFRED lets her filter alerts by priority while respecting each client’s privacy settings. As she checks Elena’s heart rate trends, Sarah carefully toggles off automatic logging for a non-critical update, preferring to document only what she deems relevant. She values this manual control, contrasting with some clinical systems she’s seen, where every single data point is logged regardless of context.\n\nMeanwhile, Mike Johnson, a registered nurse in a busy urban hospital, accesses ALFRED from his workstation to review a patient’s latest blood pressure readings. His preference is for minimal distractions, so he has configured ALFRED to block all non-clinical notifications during work hours. Mike is frustrated by the system’s occasional prompts encouraging patient interaction or emotional check-ins—he dismisses these as unnecessary distractions from his clinical focus. He expects quick, unfiltered access to patient data, even if that means overriding patient privacy settings, a stance Sarah finds troubling when they discuss shared clients at a care coordination meeting.\n\nLater, Sarah arranges a video call with one client to guide her through a light exercise game recommended by ALFRED. She enjoys these moments of bonding and feels the games foster emotional connection and motivation, which Mike openly questions, preferring to prioritize strictly medical outcomes. Sarah gently defends the importance of emotional engagement, explaining how ALFRED’s interactive features help clients stay active and socially connected, reducing feelings of isolation. Mike acknowledges the value but remains wary of mixing caregiving with what he sees as non-essential activities.\n\nAs the day ends, Sarah reflects on the tension between her holistic, privacy-conscious approach and Mike’s efficiency-driven, clinical mindset. ALFRED’s flexibility allows both caregivers to coexist within the system, but Sarah hopes future updates will better balance privacy and clinical urgency without forcing her to choose. Meanwhile, Mike appreciates ALFRED’s ability to provide rapid data access but wishes it would better filter out distractions during his shifts. Despite their differences, both rely on ALFRED to keep their clients safe and supported, each tailoring the platform to fit their contrasting care philosophies.",
+  "personas": [
+    "P-006",
+    "P-004"
+  ]
+}

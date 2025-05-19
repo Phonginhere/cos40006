@@ -1,0 +1,21 @@
+{
+  "id": "UC-007",
+  "useCaseType": "Health Monitoring (Wearables, Sensors)",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Pillar 1 - User-Driven Interaction Assistant",
+    "Pillar 3 - Effective & Personalized Care",
+    "Pillar 4 - Physical & Cognitive Impairments Prevention"
+  ],
+  "name": "Privacy-Conscious Health Monitoring",
+  "description": "This use case enables older adults with strong privacy concerns to use wearable sensors and ALFRED's monitoring features under strict data-sharing controls, supporting personalized care and recovery while respecting user preferences. Caregivers can access vital health data appropriately during arranged check-ins, balancing effective care with privacy and consent.",
+  "scenario": "Olivia sits quietly in her suburban living room, feeling the familiar weight of her cautiousness toward technology. She presses the push-to-talk button on her ALFRED device, deliberately controlling when the system engages. “ALFRED, show my vital signs,” she requests in a calm but firm tone. ALFRED complies swiftly, displaying discreet readings from the minimal wearable sensors Olivia reluctantly agreed to wear—devices she insisted must never share her data with anyone beyond herself. The privacy settings remain tightly locked; Olivia firmly rejects any automatic sharing, app installations, or unsolicited notifications. She dismisses a gentle reminder about hydration, deeming it unnecessary noise in her carefully guarded routine.\n\nMeanwhile, miles away in a bustling urban hospital, Mike Johnson logs into ALFRED’s caregiver dashboard. His screen reveals sparse, carefully consented data from Olivia’s sensors, but the limited visibility frustrates him. Mike’s clinical mindset clashes with Olivia’s privacy demands; he wishes he could access her health metrics more freely, especially during his busy shifts when quick, comprehensive information could aid his decisions. Yet, he respects ALFRED’s design to honor patient consent, though he grumbles internally about the obstacles it creates. He disables all non-critical notifications, focusing strictly on vital alerts, and prepares for an upcoming check-in with Olivia—one she insists must be arranged in advance and conducted in her home, not in the hospital or via video call.\n\nWhen Mike arrives at Olivia’s house for the scheduled visit, he senses her hesitance. Olivia maintains her formal, polite demeanor, addressing him with measured respect but making it clear she prefers minimal interaction. “I expect this to be efficient and strictly clinical,” she says, emphasizing her discomfort with any social or emotional chatter. Mike nods, refraining from small talk, and reviews her vitals on his tablet, carefully noting trends without pressing Olivia for explanations or participation in exercise plans he deems necessary. Olivia declines any challenging activities, and Mike, though frustrated, accepts her refusal to wear more intrusive sensors or engage in simulations.\n\nAs the visit concludes, Olivia presses the push-to-talk button once more. “ALFRED, remind me to call the nurse if I notice any changes,” she instructs softly, ensuring the system respects her autonomy without intrusion. Mike departs, his clinical focus intact but quietly questioning how to provide effective care within such strict privacy boundaries. Olivia, meanwhile, feels a cautious reassurance that ALFRED supports her recovery without compromising her control, even if it means slower progress and limited data sharing. The tension between their priorities remains palpable, each navigating the system on their own terms, bound by ALFRED’s flexible but uncompromising design.",
+  "personas": [
+    "P-005",
+    "P-004",
+    "P-002"
+  ]
+}

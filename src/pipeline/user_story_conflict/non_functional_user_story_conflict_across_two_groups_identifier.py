@@ -6,16 +6,7 @@ from itertools import combinations
 from typing import Optional
 
 from pipeline.user_story.user_story_loader import UserStoryLoader, UserStory
-from pipeline.utils import (
-    load_system_summary,
-    load_user_group_keys,
-    load_user_group_guidelines,
-    load_user_story_guidelines,
-    load_non_functional_user_story_conflict_summary,
-    get_llm_response,
-    NON_FUNCTIONAL_USER_STORY_DECOMPOSITION_PATH,
-    NON_FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR,
-)
+from pipeline.utils import Utils
 
 
 def load_json_file(path: str):
@@ -30,7 +21,7 @@ def save_json_file(path: str, data):
 
 def build_conflict_prompt(
     technique_summary: str,
-    system_summary: str,
+    system_context: str,
     user_group_guidelines_A: str,
     user_group_guidelines_B: str,
     user_story_guidelines: str,
@@ -39,33 +30,32 @@ def build_conflict_prompt(
     cluster: str,
     decomposition_a: list,
     decomposition_b: list,
+    proficiency_level: str = "",
 ) -> str:
     prompt = f"""
-You are an expert in non-functional requirement analysis. Apply the conflict detection technique described below:
+You are an expert in non-functional requirement analysis. You are identifying conflicts between two non-functional user stories in a software system.
 
+--- SYSTEM CONTEXT ---
+{system_context}
+---------------------------------
+
+--- TECHNIQUE SUMMARY ---
+Apply the Sadana and Liu technique for indentifying non-functional requirement (a.k.a user story) conflicts (across two different user groups):
 {technique_summary}
 
-====================
-System Context:
-====================
-{system_summary}
-
-====================
-User Group A Guidelines:
-====================
+--- USER GROUP GUIDELINES ---
+- User Group A Guidelines:
 {user_group_guidelines_A}
 
-====================
-User Group B Guidelines:
-====================
+- User Group B Guidelines:
 {user_group_guidelines_B}
+---------------------------------
 
-====================
-User Story Guidelines:
-====================
+--- USER STORY GUIDELINES ---
 {user_story_guidelines}
+---------------------------------
 
-====================
+--- TASK ---
 Cluster of the two user stories below: {cluster}
 Compare the following two non-functional user stories. Report any conflicts between them using the Sadana and Liu's technique mentioned above, focusing on the lowest-level non-functional (decomposed) user stories.
 
@@ -87,7 +77,6 @@ User Story B (ID: {story_b.id}, Persona: {story_b.persona}, User Group: {story_b
 - Decomposed NFRs:
 {json.dumps(decomposition_b, indent=2)}
 
-====================
 Format your answer strictly as a JSON object:
 
 If conflict is found:
@@ -108,6 +97,11 @@ If no conflict is found:
 }}
 
 Only include actual conflicting NFR pairs. Do not include commentary or extra text outside the JSON. Do NOT use any markdown, bold, italic, or special formatting in your response.
+----------------------------------
+
+{proficiency_level}
+
+--- END OF PROMPT ---
 """.strip()
     return prompt
 
@@ -161,7 +155,9 @@ def parse_conflict_response(
 def identify_non_functional_conflicts_across_two_groups(
     user_story_loader: UserStoryLoader = None,
 ):
-    os.makedirs(NON_FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR, exist_ok=True)
+    utils = Utils()
+
+    os.makedirs(utils.NON_FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR, exist_ok=True)
 
     loader = user_story_loader if user_story_loader else UserStoryLoader()
     loader.load_all_user_stories()
@@ -174,14 +170,17 @@ def identify_non_functional_conflicts_across_two_groups(
             cluster_map[story.cluster].append(story)
 
     # Load decomposed user stories
-    with open(NON_FUNCTIONAL_USER_STORY_DECOMPOSITION_PATH, "r", encoding="utf-8") as f:
+    with open(utils.NON_FUNCTIONAL_USER_STORY_DECOMPOSITION_PATH, "r", encoding="utf-8") as f:
         decomposed_data = json.load(f)
     decomposed_map = {entry["id"]: entry for entry in decomposed_data}
 
-    system_summary = load_system_summary()
-    user_story_guidelines = load_user_story_guidelines()
+    system_context = utils.load_system_context()
+    user_story_guidelines = utils.load_user_story_guidelines()
 
     conflict_id_counter = 1
+    
+    # Load language proficiency level
+    proficiency_level = utils.load_llm_response_language_proficiency_level()
 
     for cluster, stories in cluster_map.items():
         # Group stories by user group inside the cluster
@@ -194,8 +193,8 @@ def identify_non_functional_conflicts_across_two_groups(
             continue
 
         groups_in_cluster = sorted(group_map.keys())
-        
-        user_group_keys = load_user_group_keys()
+
+        user_group_keys = utils.load_user_group_keys()
 
         # Generate all unique pairs of user groups
         for groupA, groupB in combinations(groups_in_cluster, 2):
@@ -203,8 +202,8 @@ def identify_non_functional_conflicts_across_two_groups(
             groupB_stories = group_map[groupB]
 
             # Load user group summaries once per group pair
-            user_group_guidelines_A = load_user_group_guidelines(user_group_keys[groupA])
-            user_group_guidelines_B = load_user_group_guidelines(user_group_keys[groupB])
+            user_group_guidelines_A = utils.load_user_group_description(user_group_keys[groupA])
+            user_group_guidelines_B = utils.load_user_group_description(user_group_keys[groupB])
 
             conflicts = []
 
@@ -213,8 +212,8 @@ def identify_non_functional_conflicts_across_two_groups(
                     if sa.id not in decomposed_map or sb.id not in decomposed_map:
                         continue
                     prompt = build_conflict_prompt(
-                        load_non_functional_user_story_conflict_summary(),
-                        system_summary,
+                        utils.load_non_functional_user_story_conflict_technique_description(),
+                        system_context,
                         user_group_guidelines_A,
                         user_group_guidelines_B,
                         user_story_guidelines,
@@ -223,8 +222,9 @@ def identify_non_functional_conflicts_across_two_groups(
                         cluster,
                         decomposed_map[sa.id]["decomposition"],
                         decomposed_map[sb.id]["decomposition"],
+                        proficiency_level,
                     )
-                    response = get_llm_response(prompt)
+                    response = utils.get_llm_response(prompt)
                     conflict = parse_conflict_response(
                         response,
                         conflict_id_counter,
@@ -240,7 +240,7 @@ def identify_non_functional_conflicts_across_two_groups(
 
             if conflicts:
                 filename = f"{user_group_keys[groupA]}_vs_{user_group_keys[groupB]}.json"
-                path = os.path.join(NON_FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR, filename)
+                path = os.path.join(utils.NON_FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR, filename)
 
                 # Read existing conflicts to merge
                 existing_conflicts = []

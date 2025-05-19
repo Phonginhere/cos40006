@@ -3,7 +3,7 @@ import json
 
 from typing import List, Optional
 
-from pipeline.utils import USER_STORY_DIR
+from pipeline.utils import Utils
 
 
 class UserStory:
@@ -56,8 +56,9 @@ class UserStory:
 
 
 class UserStoryLoader:
-    def __init__(self):
+    def __init__(self, user_story_dir: str = None):
         self.user_stories: List[UserStory] = []
+        self.user_story_dir = user_story_dir or Utils().USER_STORY_DIR
 
     def load_from_file(self, file_path: str):
         with open(file_path, 'r', encoding='utf-8') as f:
@@ -66,9 +67,9 @@ class UserStoryLoader:
 
     def load_all_user_stories(self):
         self.user_stories.clear()
-        for fname in os.listdir(USER_STORY_DIR):
+        for fname in os.listdir(self.user_story_dir):
             if fname.endswith(".json"):
-                self.load_from_file(os.path.join(USER_STORY_DIR, fname))
+                self.load_from_file(os.path.join(self.user_story_dir, fname))
 
     def save_to_file(self, file_path: str):
         with open(file_path, 'w', encoding='utf-8') as f:
@@ -81,7 +82,7 @@ class UserStoryLoader:
             grouped[s.persona].append(s)
 
         for persona_id, stories in grouped.items():
-            file_path = os.path.join(USER_STORY_DIR, f"User_stories_for_{persona_id}.json")
+            file_path = os.path.join(self.user_story_dir, f"User_stories_for_{persona_id}.json")
             with open(file_path, 'w', encoding='utf-8') as f:
                 json.dump([s.to_dict() for s in stories], f, indent=2)
 

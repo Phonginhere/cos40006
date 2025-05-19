@@ -6,14 +6,7 @@ from itertools import combinations
 from typing import Optional
 
 from pipeline.user_story.user_story_loader import UserStoryLoader
-from pipeline.utils import (
-    load_user_group_keys,
-    load_system_summary,
-    load_user_story_guidelines,
-    load_functional_user_story_conflict_summary,
-    get_llm_response,
-    FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR,
-)
+from pipeline.utils import Utils 
 
 
 def load_json_file(path: str):
@@ -28,30 +21,33 @@ def save_json_file(path: str, data):
 
 def build_conflict_prompt(
     technique_summary: str,
-    system_summary: str,
+    system_context: str,
     user_story_guidelines: str,
     story_a,
     story_b,
     cluster: str,
     user_group_a: str,
     user_group_b: str,
+    proficiency_level: str = "",
 ) -> str:
     return f"""
-You are an expert in functional user story conflict analysis. Apply the Chentouf technique described below:
+You are an expert in functional user story conflict analysis. You are identifying conflicts between two functional user stories that belong to different user groups but within the same cluster.
 
+
+--- SYSTEM CONTEXT ---
+{system_context}
+-------------------------------------
+
+--- IDENTIFICATION TECHNIQUE ---
+Apply the Chentouf technique for identifying functional user story conflicts (across two different user groups):
 {technique_summary}
+-------------------------------------
 
-====================
-System Context:
-====================
-{system_summary}
-
-====================
-User Story Guidelines:
-====================
+--- USER STORY GUIDELINES ---
 {user_story_guidelines}
+-------------------------------------
 
-====================
+--- TASK ---
 Compare the following TWO FUNCTIONAL user stories belonging to different user groups but within the same cluster:
 Cluster: {cluster}
 User Group A: {user_group_a}
@@ -80,6 +76,11 @@ Only respond with a valid JSON object with the following structure:
 }}
 
 Strictly, do not include commentary or extra text outside the JSON. Do NOT use any markdown, bold, italic, or special formatting in your response.
+-------------------------------------
+
+{proficiency_level}
+
+--- END OF PROMPT ---
 """.strip()
 
 
@@ -122,7 +123,9 @@ def parse_conflict_response(
 
 
 def identify_functional_conflicts_across_two_groups(user_story_loader: UserStoryLoader = None):
-    os.makedirs(FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR, exist_ok=True)
+    utils = Utils()
+
+    os.makedirs(utils.FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR, exist_ok=True)
 
     loader = user_story_loader if user_story_loader else UserStoryLoader()
     loader.load_all_user_stories()
@@ -140,13 +143,16 @@ def identify_functional_conflicts_across_two_groups(user_story_loader: UserStory
             cluster = "(Unclustered)"
         cluster_map[cluster].append(story)
 
-    system_summary = load_system_summary()
-    user_story_guidelines = load_user_story_guidelines()
-    conflict_technique_summary = load_functional_user_story_conflict_summary()
+    system_context = utils.load_system_context()
+    user_story_guidelines = utils.load_user_story_guidelines()
+    conflict_technique_summary = utils.load_functional_user_story_conflict_technique_description()
 
     conflict_id_counter = 1
-    
-    user_group_keys = load_user_group_keys()
+
+    user_group_keys = utils.load_user_group_keys()
+
+    # Load LLM response language proficiency level
+    proficiency_level = utils.load_llm_response_language_proficiency_level()
 
     for cluster, stories_in_cluster in cluster_map.items():
         # Group stories by user group inside the cluster
@@ -171,15 +177,16 @@ def identify_functional_conflicts_across_two_groups(user_story_loader: UserStory
                 for sb in groupB_stories:
                     prompt = build_conflict_prompt(
                         conflict_technique_summary,
-                        system_summary,
+                        system_context,
                         user_story_guidelines,
                         sa,
                         sb,
                         cluster,
                         groupA,
                         groupB,
+                        proficiency_level,
                     )
-                    response = get_llm_response(prompt)
+                    response = utils.get_llm_response(prompt)
                     conflict = parse_conflict_response(
                         response,
                         conflict_id_counter,
@@ -195,7 +202,7 @@ def identify_functional_conflicts_across_two_groups(user_story_loader: UserStory
 
             if conflicts:
                 filename = f"{user_group_keys[groupA]}_vs_{user_group_keys[groupB]}.json"
-                path = os.path.join(FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR, filename)
+                path = os.path.join(utils.FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR, filename)
 
                 # Read existing conflicts to merge
                 existing_conflicts = []

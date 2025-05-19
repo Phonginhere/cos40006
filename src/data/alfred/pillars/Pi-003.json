@@ -1,0 +1,12 @@
+{
+  "id": "Pi-003",
+  "name": "Pillar 3 - Effective & Personalized Care",
+  "description": "ALFRED integrates with health-monitoring devices to track users’ well-being and provide access to vital data for caregivers and medical staff. It facilitates timely intervention and long-term health tracking.",
+  "clustersList": [
+    {
+      "clusterId": "Pi-003-CL-01",
+      "name": "Effective & Personalized Care",
+      "description": "This cluster addresses expectations for reliable, timely, and autonomy-preserving care interactions. It includes personalized reminders, unobtrusive health monitoring, access control for sensitive data, and supporting both formal and informal caregiving workflows through dependable system feedback."
+    }
+  ]
+}

@@ -1,7 +1,0 @@
-[
-  {
-    "clusterId": "P1-CL-01",
-    "name": "User-Driven Interaction Assistant",
-    "description": "This cluster includes all non-functional expectations related to voice-based control, personalized interface configurations, multimodal interaction, adaptive UI support (font size, speech clarity), and ease of navigation. It ensures ALFRED is accessible, intuitive, and responsive to diverse user capabilities and interaction styles."
-  }
-]

@@ -4,13 +4,7 @@ from typing import Optional
 
 from pipeline.utils import (
     UserPersonaLoader,
-    FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR,
-    USER_STORY_DIR,
-    load_system_summary,
-    load_user_group_keys,
-    load_user_story_guidelines,
-    load_functional_user_story_conflict_summary,
-    get_llm_response,
+    Utils,
 )
 
 
@@ -25,7 +19,7 @@ def save_json_file(path: str, data):
 
 
 def build_resolution_prompt(
-    system_summary: str,
+    system_context: str,
     user_story_guidelines: str,
     technique_summary: str,
     personaA,
@@ -34,17 +28,21 @@ def build_resolution_prompt(
     storyB_summary: str,
     conflictType: str,
     conflictDescription: str,
+    proficiency_level: str = "",
 ) -> str:
     prompt = f"""
-You are an expert system requirements engineer.
+You are an expert system requirements engineer. You are resolving functional user story conflicts within the same user group.
 
-Apply the Chentouf et al. resolution strategies for functional user story conflicts:
+--- SYSTEM CONTEXT ---
+{system_context}
+-------------------------------------
 
+--- RESOLUTION TECHNIQUE ---
+Apply the Chentouf technique for resolving functional user story conflicts (within one user group):
 {technique_summary}
+-------------------------------------
 
-System Summary:
-{system_summary}
-
+--- CONFLICT ---
 Conflict Type: {conflictType}
 Conflict Description: {conflictDescription}
 
@@ -53,8 +51,9 @@ User Story A Summary:
 
 User Story B Summary:
 {storyB_summary}
+-------------------------------------
 
-TASK:
+--- TASK ---
 The summary **may* or **may not** be adjusted so the conflict is no longer valid. Carefully analyze if the conflict described is still present given the current summaries.
 
 - If the conflict is NO LONGER valid, respond with ONLY:
@@ -83,6 +82,11 @@ Respond STRICTLY in the JSON format:
 }}
 
 Do not include any additional text or commentary. Do NOT use any markdown, bold, italic, or special formatting in your response.
+-------------------------------------
+
+{proficiency_level}
+
+--- END OF PROMPT ---
 """
     return prompt.strip()
 
@@ -113,8 +117,8 @@ def parse_llm_response(raw: str) -> Optional[dict]:
         return None
 
 
-def update_user_story_file_by_persona(persona_id: str, story_id: str, new_summary: str):
-    filepath = os.path.join(USER_STORY_DIR, f"User_stories_for_{persona_id}.json")
+def update_user_story_file_by_persona(persona_id: str, story_id: str, new_summary: str, utils: Utils = Utils()):
+    filepath = os.path.join(utils.USER_STORY_DIR, f"User_stories_for_{persona_id}.json")
     if not os.path.exists(filepath):
         print(f"⚠️ User story file for persona {persona_id} not found: {filepath}")
         return
@@ -138,19 +142,21 @@ def update_user_story_file_by_persona(persona_id: str, story_id: str, new_summar
 
 
 def resolve_functional_conflicts_within_one_group(persona_loader: UserPersonaLoader):
-    system_summary = load_system_summary()
-    user_story_guidelines = load_user_story_guidelines()
-    technique_summary = load_functional_user_story_conflict_summary()
+    utils = Utils()
+
+    system_context = utils.load_system_context()
+    user_story_guidelines = utils.load_user_story_guidelines()
+    technique_summary = utils.load_functional_user_story_conflict_technique_description()
 
     all_personas = {p.id: p for p in persona_loader.get_personas()}
 
     # Load all user stories from USER_STORY_DIR by reading all persona files and indexing by story ID
     user_stories = {}
-    for fname in os.listdir(USER_STORY_DIR):
+    for fname in os.listdir(utils.USER_STORY_DIR):
         if not fname.endswith(".json"):
             continue
         try:
-            path = os.path.join(USER_STORY_DIR, fname)
+            path = os.path.join(utils.USER_STORY_DIR, fname)
             stories = load_json_file(path)
             for story in stories:
                 user_stories[story["id"]] = story
@@ -158,12 +164,15 @@ def resolve_functional_conflicts_within_one_group(persona_loader: UserPersonaLoa
             print(f"⚠️ Failed to load user stories from {fname}: {e}")
 
     conflict_files = [
-        f for f in os.listdir(FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR)
+        f for f in os.listdir(utils.FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR)
         if f.endswith(".json")
     ]
+    
+    # Load LLM response language proficiency level
+    proficiency_level = utils.load_llm_response_language_proficiency_level()
 
     for conflict_file in conflict_files:
-        conflict_path = os.path.join(FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, conflict_file)
+        conflict_path = os.path.join(utils.FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, conflict_file)
         try:
             conflicts = load_json_file(conflict_path)
         except Exception as e:
@@ -200,7 +209,7 @@ def resolve_functional_conflicts_within_one_group(persona_loader: UserPersonaLoa
                 continue
 
             prompt = build_resolution_prompt(
-                system_summary,
+                system_context,
                 user_story_guidelines,
                 technique_summary,
                 personaA,
@@ -209,9 +218,10 @@ def resolve_functional_conflicts_within_one_group(persona_loader: UserPersonaLoa
                 storyB_data.get("summary", ""),
                 conflict.get("conflictType", ""),
                 conflict.get("conflictDescription", ""),
+                proficiency_level,
             )
 
-            response = get_llm_response(prompt)
+            response = utils.get_llm_response(prompt)
             if not response:
                 print(f"⚠️ Empty LLM response for conflict {conflict.get('conflictId')}")
                 continue

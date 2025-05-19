@@ -8,25 +8,51 @@ from collections import defaultdict
 
 from pipeline.utils import (
     UserPersonaLoader,
-    get_llm_response,
-    load_use_case_task_example,
-    load_system_summary,
-    USE_CASE_TASK_EXTRACTION_DIR,
-    USE_CASE_DIR
+    Utils,
 )
 from pipeline.use_case.use_case_loader import UseCaseLoader
 
 
-def build_task_extraction_prompt(uc, all_personas: dict, system_summary: str) -> str:
+def build_task_extraction_prompt(
+    uc, 
+    all_personas: dict, 
+    system_context: str,
+    proficiency_level: str = "",
+    example_guide: str = "",
+) -> str:
+    utils = Utils()
+    
     involved_personas = [all_personas[pid] for pid in uc.personas if pid in all_personas]
     persona_text = "\n".join(
         f"- {p.id}: {p.name}, {p.role}" for p in involved_personas
     )
-    example_guide = load_use_case_task_example()
 
     return textwrap.dedent(f"""
 You are a requirements analyst. You are reading a finalized use case from a given system.
 
+--- SYSTEM CONTEXT ---
+🔍 Below is a short summary of the system:
+{system_context}
+-------------------------------------
+
+--- INVOLVED PERSONAS ---
+🧑‍🤝‍🧑 Here are the personas involved in this use case:
+{persona_text}
+-------------------------------------
+
+--- USE CASE SCENARIO ---
+Here is the scenario for the use case. It describes a specific situation in which the personas interact with the given system. The scenario is a narrative that illustrates how the personas use the system to achieve their goals.
+
+📘 Use Case Overview:
+ID: {uc.id}
+Name: {uc.name}
+Description: {uc.description}
+Type: {uc.use_case_type}
+Scenario:
+{uc.scenario.strip()}
+-------------------------------------
+
+--- TASK ---
 Your objective is to extract a **diverse and realistic set of persona tasks**, with a **slight preference for goal-driven functional actions**, while still capturing notable non-functional aspects...
 
 You must extract tasks that relate to:
@@ -46,35 +72,14 @@ You must extract tasks that relate to:
 - Avoid copying generic use case logic — only extract what is evident from how the persona *personally engages* with the system.
 - Extract **both types** of tasks, with slightly more weight on concrete **actions or interactions** (functional). However, the terms **functional** and **non-functional** should hardly be used directly in the extracted tasks.
 
---- SYSTEM SUMMARY ---
-
-🔍 Below is a short summary of the system:
-{system_summary}
-
---- INVOLVED PERSONAS ---
-
-🧑‍🤝‍🧑 Here are the personas involved in this use case:
-{persona_text}
-
---- USE CASE SCENARIO ---
-Here is the scenario for the use case. It describes a specific situation in which the personas interact with the given system. The scenario is a narrative that illustrates how the personas use the system to achieve their goals.
-
-📘 Use Case Overview:
-ID: {uc.id}
-Name: {uc.name}
-Description: {uc.description}
-Type: {uc.use_case_type}
-Scenario:
-{uc.scenario.strip()}
-
-
-📝 TASK → For each persona listed above:
+To summarize, for each persona listed above:
 - Identify all meaningful *tasks* (or operands/actions) they perform in the scenario.
 - Include **both action-based** (functional) and **quality-focused** (non-functional) tasks.
 - Each task should be written as a short, complete sentence or phrase. Also, they should be distinct, goal-oriented and not repeated across personas.
 - Group tasks by persona. In the extracted tasks, please use the persona name, NOT their id, which is only used for the attribute "personaId".
 - Strictly, please note that each task from a persona should not only from the use case only, but must align with that involved persona's information. In **most** cases, especially where the use case's relevant section(s) are quite general, abstract and/or vague, the persona's information should be the **dominant factor** in the task extraction and/or generation process(es).
 - Also, the tasks must be unique. So please skip any similar operands, actions, e.t.c.
+-----------------------------------------
 
 --- OUTPUT FORMAT ---
 
@@ -91,20 +96,33 @@ Output a **JSON array** with the following structure:
   ...
 ]
 
---- EXAMPLE ---
+For example:
 {example_guide}
 
 Strictly return only valid JSON. Do not include any extra or invalid texts (e.g. "Task 1" in tasks, or the other information (e.g., name, e.t.c) of persona besides its Id) or commentary. Do NOT use any markdown, bold, italic, or special formatting in your response. Avoid duplications across personas.
+-----------------------------------------
+
+{proficiency_level}
+
+--- END OF PROMPT ---
 """).strip()
 
 
 def extract_and_save_tasks(uc, all_personas: dict) -> dict:
     """Generate persona-level tasks for a use case and return as dict."""
-    system_summary = load_system_summary()
-    prompt = build_task_extraction_prompt(uc, all_personas, system_summary)
+    utils = Utils()
+
+    # Load system context and proficiency level
+    system_context = utils.load_system_context()
+    proficiency_level = utils.load_llm_response_language_proficiency_level()
+
+    # Load example guide
+    example_guide = utils.load_use_case_task_example()
+
+    prompt = build_task_extraction_prompt(uc, all_personas, system_context, proficiency_level, example_guide)
     print(f"\n🧠 Extracting persona tasks for {uc.id}...")
 
-    raw = get_llm_response(prompt)
+    raw = utils.get_llm_response(prompt)
     raw = re.sub(r"```.*?```", "", raw, flags=re.S).strip()
 
     try:
@@ -120,7 +138,9 @@ def extract_and_save_tasks(uc, all_personas: dict) -> dict:
 
 
 def reformat_and_save_all_tasks_by_persona():
-    task_dir = Path(USE_CASE_TASK_EXTRACTION_DIR)
+    utils = Utils()
+
+    task_dir = Path(utils.USE_CASE_TASK_EXTRACTION_DIR)
     files = sorted(task_dir.glob("Extracted_tasks_from_UC-*.json"))
     flat_task_list = []
     task_counter = 1
@@ -159,10 +179,20 @@ def analyze_all_use_cases(persona_loader: UserPersonaLoader):
     uc_loader.load()
     all_uc = [uc for uc in uc_loader.get_all() if uc.scenario and uc.scenario.strip()]
 
-    os.makedirs(USE_CASE_TASK_EXTRACTION_DIR, exist_ok=True)
+    utils = Utils()
+
+    os.makedirs(utils.USE_CASE_TASK_EXTRACTION_DIR, exist_ok=True)
+
+    # Check if we can skip the extraction
+    persona_files = set(f for f in os.listdir(utils.USE_CASE_TASK_EXTRACTION_DIR) if f.startswith("Extracted_tasks_for_") and f.endswith(".json"))
+    expected_files = {f"Extracted_tasks_for_{pid}.json" for pid in all_personas.keys()}
+    
+    if expected_files.issubset(persona_files) and len(expected_files) == len(all_personas):
+        print("⏭️ Skipping task extraction — all tasks already extracted.")
+        return
 
     for uc in all_uc:
-        file_path = os.path.join(USE_CASE_TASK_EXTRACTION_DIR, f"Extracted_tasks_from_{uc.id}.json")
+        file_path = os.path.join(utils.USE_CASE_TASK_EXTRACTION_DIR, f"Extracted_tasks_from_{uc.id}.json")
         if os.path.exists(file_path):
             print(f"⏭️ Skipping {uc.id} – already extracted.")
             continue

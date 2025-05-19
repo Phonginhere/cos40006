@@ -1,0 +1,12 @@
+{
+  "id": "Pi-001",
+  "name": "Pillar 1 - User-Driven Interaction Assistant",
+  "description": "ALFRED enables older adults to interact with the system using natural, voice-based commands to accomplish everyday tasks and access helpful information.",
+  "clustersList": [
+    {
+      "clusterId": "Pi-001-CL-01",
+      "name": "User-Driven Interaction Assistant",
+      "description": "This cluster includes all non-functional expectations related to voice-based control, personalized interface configurations, multimodal interaction, adaptive UI support (font size, speech clarity), and ease of navigation. It ensures ALFRED is accessible, intuitive, and responsive to diverse user capabilities and interaction styles."
+    }
+  ]
+}

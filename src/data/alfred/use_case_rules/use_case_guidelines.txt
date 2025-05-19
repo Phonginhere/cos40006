@@ -14,7 +14,7 @@ ALFRED USE-CASE
    userGroups    List of user-group labels involved (Older Adults, Caregivers and Medical Staff, Developers and App Creators).  
    pillars       One or more ALFRED fundamental pillars (plus “General Requirements” or “Developer Core” if applicable).  
    personas      List of persona IDs that actively participate.  
-   scenario      200-400 word lifelike narrative showing context → interaction → outcome.  Must mention EVERY persona by name or role. Strictly, it usually reflects the differences between personas' viewpoints, goals, and motivations rather than becomes smooth and rational paragraph(s)
+   scenario      200-400 word lifelike narrative showing context → interaction → outcome.  Must mention EVERY persona by name or role. Strictly, it usually reflects the differences between personas' information (e.g., viewpoints, goals, and motivations) rather than becomes system-based smooth and rational paragraph(s) 
 
 3. Quality rules  
    • Must satisfy all “requiredUserGroups” and “requiredPillars” that the useCaseType dictates.  

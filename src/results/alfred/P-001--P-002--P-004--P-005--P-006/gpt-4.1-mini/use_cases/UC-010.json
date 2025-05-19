@@ -1,0 +1,19 @@
+{
+  "id": "UC-010",
+  "useCaseType": "Trust & Privacy Negotiation (Sensor Data, Data Sharing)",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Older Adults"
+  ],
+  "pillars": [
+    "General Requirements"
+  ],
+  "name": "Consent-Driven Sensor Data Sharing",
+  "description": "This use case addresses the negotiation and management of sensor data sharing preferences between older adults and their caregivers. It ensures that data privacy is respected while enabling effective care coordination, balancing the needs and expectations of informal caregivers, medical staff, and the older adults themselves.",
+  "scenario": "Sarah Thompson juggles her morning routine, checking the ALFRED dashboard for updates on her multiple elderly clients before heading out. Today, she’s preparing to visit Elena Rivera, a tech-curious older adult eager to share all her sensor data without restrictions. Sarah appreciates Elena’s openness but knows that managing data privacy across clients requires delicate negotiation. She initiates a call through ALFRED to explain the new data-sharing settings, ensuring Elena understands how her information will be used and who will have access. Elena listens attentively, excited by the detailed explanations ALFRED provides, and readily agrees to share all health metrics with Sarah, even encouraging real-time notifications.\n\nMeanwhile, Mike Johnson logs into the ALFRED system from his hospital workstation. His clinical mindset clashes with Sarah’s more flexible approach: Mike expects to access vital health data on his patients without requesting explicit permission, prioritizing patient safety over privacy. When Mike reviews Elena’s profile, he notices the extensive data sharing enabled by Sarah and Elena. However, he is frustrated by the presence of non-clinical information and frequent notifications about social activities and games, which he deems distracting and irrelevant. Mike quickly adjusts his ALFRED settings to block all non-essential alerts during his shifts and grumbles about the system’s insistence on patient consent, which he finds cumbersome given his workload.\n\nLater, Sarah visits Elena’s urban apartment, where Elena eagerly demonstrates her wearable sensors and talks animatedly about her latest challenges in ALFRED’s exercise simulations—she even expresses a desire for more difficult workouts. Sarah encourages Elena to maintain her enthusiasm but reminds her that not all caregivers or medical staff will have the same openness to constant data streams. Elena, unconcerned by privacy, playfully suggests that Mike could loosen up a bit. Sarah chuckles but acknowledges the tension between Mike’s strict clinical focus and Elena’s relaxed attitude toward data sharing.\n\nBack at the hospital, Mike prepares for a video check-in with Elena. He keeps the conversation strictly medical, ignoring Elena’s attempts to discuss her social activities or gaming progress. Elena, used to Sarah’s warm and engaging style, finds Mike’s clinical detachment cold but tolerates it, knowing it’s part of his professional role. The ALFRED system respects these boundaries, allowing data sharing preferences to differ by caregiver, but the friction between informal and formal care priorities remains evident.\n\nThrough these interactions, ALFRED facilitates a complex dance of consent and control, balancing Sarah’s patient-centered, privacy-conscious coordination, Mike’s demand for efficient clinical oversight, and Elena’s enthusiastic embrace of technology and openness—a dynamic that challenges the system to honor diverse, sometimes conflicting, needs without erasing their differences.",
+  "personas": [
+    "P-006",
+    "P-004",
+    "P-002"
+  ]
+}

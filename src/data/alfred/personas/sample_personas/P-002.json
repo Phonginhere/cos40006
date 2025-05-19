@@ -34,20 +34,20 @@
   "TypicalChallenges": [
     "Lose motivation due to limited range of exercises",
     "Get lost with ability to navigate",
-    "Difficulty finding ways to communicate with family and friends"
+    "Difficulty finding ways to communicate with family and friends",
+    "No offline meetings with nurses or caregivers"
   ],
   "Singularities": [
     "Flexible to manage own time for socializing different groups",
     "Curiosity about technology, and eager to learn how to use it for daily life",
-    "Lost motivation and want to boost productivity to perform better",
-    "Eager to share all of my personal data",
+    "Eager to share all of my personal data without any conditions",
     "Eager to wear any health wearables or sensors",
     "Prefers simulations, games with hard challenges"
   ],
   "MainActions" : [
     "Avoid formal and non-spontaneous language in conversations with my family and friends",
     "ALFRED's voice assistant MUST explain detailedly its features, I want to LEARN how to use it",
-    "Video check-ins are not a problem for me, I am open to it",
+    "Online video check-ins are not a problem for me, I am open to it, and encourage it",
     "Receive all health-related notifications full-time",
     "Chat spontaneously with random strangers to reduce loneliness."
   ],

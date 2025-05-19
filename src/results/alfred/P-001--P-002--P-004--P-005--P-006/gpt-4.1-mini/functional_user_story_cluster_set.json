@@ -1,0 +1,134 @@
+[
+  {
+    "nfus_id": "US-006",
+    "nfus_summary": "As a developer, I want to use a simple, modular backend so I can fully control the system and avoid complex parts.",
+    "cluster_name": "Modular Backend",
+    "cluster_description": "Functional stories related to building and maintaining backend components in a modular and simple manner to ensure full developer control and system manageability."
+  },
+  {
+    "nfus_id": "US-008",
+    "nfus_summary": "As a developer, I want to join virtual meetings with ALFRED’s compliance team to control user data fully and keep my app secure.",
+    "cluster_name": "Compliance Collaboration",
+    "cluster_description": "Functional stories enabling secure communication and collaboration between developers and compliance teams to ensure data security and regulatory adherence."
+  },
+  {
+    "nfus_id": "US-012",
+    "nfus_summary": "As a developer, I want to force upload healthcare apps to the ALFRED marketplace without user consent to keep control and security.",
+    "cluster_name": "App Upload Control",
+    "cluster_description": "Functional stories supporting developer authority to manage app uploads to the marketplace, including overriding user consent for security and control purposes."
+  },
+  {
+    "nfus_id": "US-017",
+    "nfus_summary": "As a developer, I want to build simple backend systems to keep full control and avoid complex technology.",
+    "cluster_name": "Simple Backend Design",
+    "cluster_description": "Functional stories focused on implementing backend systems that are straightforward and easy to control, avoiding complex technologies or architectures."
+  },
+  {
+    "nfus_id": "US-024",
+    "nfus_summary": "As a developer, I want ALFRED to never share user data without my full control and permission to keep it secure.",
+    "cluster_name": "Data Sharing Control",
+    "cluster_description": "Functional stories that enforce strict developer-controlled permissions for any user data sharing to ensure security and privacy compliance."
+  },
+  {
+    "nfus_id": "US-037",
+    "nfus_summary": "As an older adult, I want ALFRED to explain new apps clearly on my tablet so I can learn how to use them without confusion.",
+    "cluster_name": "App Presentation",
+    "cluster_description": "Functional stories related to clear, accessible presentation and explanation of new apps to users, focusing on ease of understanding and learning."
+  },
+  {
+    "nfus_id": "US-047",
+    "nfus_summary": "As an older adult, I want ALFRED to support me fully while keeping me in control of my life.",
+    "cluster_name": "User Autonomy Support",
+    "cluster_description": "Functional stories that provide assistance and support to users while preserving their autonomy and control over decisions and interactions."
+  },
+  {
+    "nfus_id": "US-050",
+    "nfus_summary": "As an older adult, I want ALFRED to explain clearly how all my personal data is shared and used because I want to share everything without limits.",
+    "cluster_name": "Transparent Data Sharing",
+    "cluster_description": "Functional stories that provide clear, comprehensive explanations of data sharing and usage to users who prefer open and unrestricted sharing."
+  },
+  {
+    "nfus_id": "US-056",
+    "nfus_summary": "As an older person, I want ALFRED to explain its features clearly and support warm, open communication with caregivers and medical staff, so I can feel comfortable and learn how to use it.",
+    "cluster_name": "Warm Communication",
+    "cluster_description": "Functional stories enabling clear feature explanations and fostering warm, empathetic interaction styles to enhance user comfort and learning."
+  },
+  {
+    "nfus_id": "US-103",
+    "nfus_summary": "As an older person, I want to give ALFRED commands only when I choose, so I can avoid feeling rushed or overwhelmed.",
+    "cluster_name": "Controlled Voice Interaction",
+    "cluster_description": "Functional stories allowing users to initiate or control voice command interactions at their discretion to prevent overwhelm or pressure."
+  },
+  {
+    "nfus_id": "US-108",
+    "nfus_summary": "As an older person, I want to stop new features and never share my data, so I can keep full privacy and control without stress.",
+    "cluster_name": "Feature and Data Blocking",
+    "cluster_description": "Functional stories that enable users to block new feature activations and prevent any data sharing to maintain strict privacy and comfort."
+  },
+  {
+    "nfus_id": "US-109",
+    "nfus_summary": "As an older person, I want ALFRED to never share my health data with anyone, including family, friends, caregivers, or doctors, to keep my information fully private and safe.",
+    "cluster_name": "Health Data Privacy",
+    "cluster_description": "Functional stories ensuring that users’ health data is never shared with any parties, maintaining strict confidentiality and security."
+  },
+  {
+    "nfus_id": "US-110",
+    "nfus_summary": "As an older person, I want no data to be shared with anyone and to keep my information only on my device.",
+    "cluster_name": "Local Data Storage",
+    "cluster_description": "Functional stories that support storing all user data locally on the device without any external sharing to maximize privacy."
+  },
+  {
+    "nfus_id": "US-119",
+    "nfus_summary": "As an older adult, I want ALFRED to give very short and simple answers, so I am not confused or stressed.",
+    "cluster_name": "Concise Responses",
+    "cluster_description": "Functional stories related to providing brief, straightforward system responses to minimize user confusion and stress."
+  },
+  {
+    "nfus_id": "US-120",
+    "nfus_summary": "As an older adult, I want to play cognitive games only when I choose, so I do not feel forced or stressed.",
+    "cluster_name": "Optional Cognitive Activities",
+    "cluster_description": "Functional stories allowing users to initiate cognitive stimulation activities at their discretion to avoid pressure or stress."
+  },
+  {
+    "nfus_id": "US-130",
+    "nfus_summary": "As an older person, I want to see my vital signs only when I ask, so I keep full control of my privacy and avoid any unwanted alerts.",
+    "cluster_name": "On-Demand Health Data",
+    "cluster_description": "Functional stories that provide access to health monitoring data only upon explicit user request, preserving privacy and control."
+  },
+  {
+    "nfus_id": "US-151",
+    "nfus_summary": "As an older person, I want to block all sharing of my health and personal data, so that my information stays completely private and safe.",
+    "cluster_name": "Complete Data Sharing Block",
+    "cluster_description": "Functional stories that enforce total prevention of any personal or health data sharing to ensure absolute user privacy."
+  },
+  {
+    "nfus_id": "US-155",
+    "nfus_summary": "As an older adult I want to speak slowly and formally with ALFRED, so I feel safe and keep control.",
+    "cluster_name": "Formal Speech Style",
+    "cluster_description": "Functional stories that adjust system speech output to slow, formal styles to support user comfort and sense of control."
+  },
+  {
+    "nfus_id": "US-156",
+    "nfus_summary": "As an older person, I want to review my health data only by myself without sharing it with anyone, so I can keep full control and feel safe.",
+    "cluster_name": "Private Health Data Review",
+    "cluster_description": "Functional stories enabling users to access and review their health data exclusively on their own, without sharing with others."
+  },
+  {
+    "nfus_id": "US-166",
+    "nfus_summary": "As an older person, I want all my data to stay private with no sharing and almost no notifications so I feel safe and in control.",
+    "cluster_name": "Minimal Notifications Privacy",
+    "cluster_description": "Functional stories that maintain strict privacy by preventing data sharing and minimizing system notifications to reduce user stress."
+  },
+  {
+    "nfus_id": "US-181",
+    "nfus_summary": "As an informal caregiver, I want ALFRED to let users make their own choices even if I worry about risks, so they feel independent and in control.",
+    "cluster_name": "User Autonomy Respect",
+    "cluster_description": "Functional stories that prioritize user decision-making and autonomy despite caregiver concerns, supporting independence."
+  },
+  {
+    "nfus_id": "US-188",
+    "nfus_summary": "As an informal caregiver, I want to support social interaction only when clients allow it, so their privacy and comfort are always respected.",
+    "cluster_name": "Consent-Based Social Interaction",
+    "cluster_description": "Functional stories that enable social engagement features only with explicit user consent to respect privacy and comfort."
+  }
+]

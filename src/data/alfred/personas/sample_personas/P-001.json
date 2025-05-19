@@ -22,7 +22,8 @@
         "Games and simulations must be hard and challenging, no exceptions",
         "Show autocompletion suggestions while user is typing",
         "Implement smart, proactive voice guidance, forcely to remind users even if they don't want it",
-        "ALFRED should restrict user options to avoid breaking workflows"
+        "All meetings must be held online, no exceptions",
+        "ALFRED must restrict user options to avoid breaking workflows"
     ],
     "TypicalChallenges": [
         "Balancing modern development tools with system compatibility and performance on older devices",

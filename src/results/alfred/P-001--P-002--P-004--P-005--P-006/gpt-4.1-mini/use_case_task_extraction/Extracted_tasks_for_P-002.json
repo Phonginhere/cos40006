@@ -1,0 +1,236 @@
+[
+  {
+    "taskID": "TASK-025",
+    "useCaseId": "UC-002",
+    "personaId": "P-002",
+    "taskDescription": "Requests the voice assistant to explain new game features when needed"
+  },
+  {
+    "taskID": "TASK-097",
+    "useCaseId": "UC-005",
+    "personaId": "P-002",
+    "taskDescription": "Activates ALFRED voice assistant without hesitation"
+  },
+  {
+    "taskID": "TASK-099",
+    "useCaseId": "UC-005",
+    "personaId": "P-002",
+    "taskDescription": "Listens to detailed explanations of game rules and mechanics"
+  },
+  {
+    "taskID": "TASK-101",
+    "useCaseId": "UC-005",
+    "personaId": "P-002",
+    "taskDescription": "Uses social chat features and invites friends to multiplayer sessions"
+  },
+  {
+    "taskID": "TASK-102",
+    "useCaseId": "UC-005",
+    "personaId": "P-002",
+    "taskDescription": "Allows ALFRED to track physical and cognitive activities using wearables"
+  },
+  {
+    "taskID": "TASK-104",
+    "useCaseId": "UC-005",
+    "personaId": "P-002",
+    "taskDescription": "Accepts frequent notifications and updates from ALFRED"
+  },
+  {
+    "taskID": "TASK-106",
+    "useCaseId": "UC-005",
+    "personaId": "P-002",
+    "taskDescription": "Welcomes ALFRED’s encouragement for social and cognitive engagement"
+  },
+  {
+    "taskID": "TASK-107",
+    "useCaseId": "UC-005",
+    "personaId": "P-002",
+    "taskDescription": "Enjoys spontaneous social interactions facilitated by ALFRED"
+  },
+  {
+    "taskID": "TASK-163",
+    "useCaseId": "UC-008",
+    "personaId": "P-002",
+    "taskDescription": "Explores the ALFRED marketplace on a tablet to find new apps"
+  },
+  {
+    "taskID": "TASK-164",
+    "useCaseId": "UC-008",
+    "personaId": "P-002",
+    "taskDescription": "Installs a new health monitoring app to improve daily routine"
+  },
+  {
+    "taskID": "TASK-168",
+    "useCaseId": "UC-008",
+    "personaId": "P-002",
+    "taskDescription": "Attempts to customize app settings but finds them rigid"
+  },
+  {
+    "taskID": "TASK-173",
+    "useCaseId": "UC-009",
+    "personaId": "P-002",
+    "taskDescription": "Ask ALFRED who is online to chat at the moment"
+  },
+  {
+    "taskID": "TASK-174",
+    "useCaseId": "UC-009",
+    "personaId": "P-002",
+    "taskDescription": "Start a video call with her niece using ALFRED"
+  },
+  {
+    "taskID": "TASK-177",
+    "useCaseId": "UC-009",
+    "personaId": "P-002",
+    "taskDescription": "Explore social media features through ALFRED"
+  },
+  {
+    "taskID": "TASK-178",
+    "useCaseId": "UC-009",
+    "personaId": "P-002",
+    "taskDescription": "Request detailed explanations from ALFRED about chat features"
+  },
+  {
+    "taskID": "TASK-179",
+    "useCaseId": "UC-009",
+    "personaId": "P-002",
+    "taskDescription": "Ask ALFRED to slow down or simplify instructions when learning new functions"
+  },
+  {
+    "taskID": "TASK-181",
+    "useCaseId": "UC-009",
+    "personaId": "P-002",
+    "taskDescription": "Use ALFRED to order a taxi for spontaneous outings"
+  },
+  {
+    "taskID": "TASK-184",
+    "useCaseId": "UC-009",
+    "personaId": "P-002",
+    "taskDescription": "Value transparency and control over the flow of health information"
+  },
+  {
+    "taskID": "TASK-185",
+    "useCaseId": "UC-009",
+    "personaId": "P-002",
+    "taskDescription": "Prefer to maintain independence while getting help from ALFRED"
+  },
+  {
+    "taskID": "TASK-186",
+    "useCaseId": "UC-009",
+    "personaId": "P-002",
+    "taskDescription": "Enjoy mental stimulation from games suggested by ALFRED during chats"
+  },
+  {
+    "taskID": "TASK-187",
+    "useCaseId": "UC-009",
+    "personaId": "P-002",
+    "taskDescription": "Use ALFRED to connect with new acquaintances from interest groups"
+  },
+  {
+    "taskID": "TASK-210",
+    "useCaseId": "UC-010",
+    "personaId": "P-002",
+    "taskDescription": "Listens carefully to explanations about data use and sharing options"
+  },
+  {
+    "taskID": "TASK-211",
+    "useCaseId": "UC-010",
+    "personaId": "P-002",
+    "taskDescription": "Expresses excitement and curiosity about technology and data sharing"
+  },
+  {
+    "taskID": "TASK-212",
+    "useCaseId": "UC-010",
+    "personaId": "P-002",
+    "taskDescription": "Wears and demonstrates wearable sensors to caregiver"
+  },
+  {
+    "taskID": "TASK-213",
+    "useCaseId": "UC-010",
+    "personaId": "P-002",
+    "taskDescription": "Participates actively in ALFRED’s exercise simulations and challenges"
+  },
+  {
+    "taskID": "TASK-214",
+    "useCaseId": "UC-010",
+    "personaId": "P-002",
+    "taskDescription": "Expresses desire for more difficult physical workouts"
+  },
+  {
+    "taskID": "TASK-215",
+    "useCaseId": "UC-010",
+    "personaId": "P-002",
+    "taskDescription": "Enjoys sharing social activity and gaming progress information"
+  },
+  {
+    "taskID": "TASK-217",
+    "useCaseId": "UC-010",
+    "personaId": "P-002",
+    "taskDescription": "Engages warmly with informal caregiver but tolerates clinical detachment from medical staff"
+  },
+  {
+    "taskID": "TASK-218",
+    "useCaseId": "UC-010",
+    "personaId": "P-002",
+    "taskDescription": "Encourages informal caregiver to support her enthusiasm for technology"
+  },
+  {
+    "taskID": "TASK-219",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Straps on the ALFRED-integrated wearable every morning"
+  },
+  {
+    "taskID": "TASK-220",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Asks ALFRED about the exercise list for the day using voice commands"
+  },
+  {
+    "taskID": "TASK-221",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Follows physically demanding exercises suggested by ALFRED"
+  },
+  {
+    "taskID": "TASK-222",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Plays cognitive games recommended by ALFRED to stimulate the mind"
+  },
+  {
+    "taskID": "TASK-223",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Listens to ALFRED’s explanations about health benefits of activities"
+  },
+  {
+    "taskID": "TASK-224",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Allows ALFRED to automatically activate when support is needed"
+  },
+  {
+    "taskID": "TASK-225",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Accepts spontaneous video chat invitations with other exercise enthusiasts"
+  },
+  {
+    "taskID": "TASK-227",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Receives real-time updates from the wearable device"
+  },
+  {
+    "taskID": "TASK-228",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Manages interruptions caused by notifications during social chats"
+  },
+  {
+    "taskID": "TASK-229",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Feels motivated by open sharing and dynamic interaction with ALFRED"
+  }
+]

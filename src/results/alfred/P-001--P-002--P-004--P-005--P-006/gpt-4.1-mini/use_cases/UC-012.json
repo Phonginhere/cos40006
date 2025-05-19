@@ -1,0 +1,20 @@
+{
+  "id": "UC-012",
+  "useCaseType": "Daily Life Support (Assistive Tech, Smart Home, IoT, or Public Services)",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Pillar 1 - User-Driven Interaction Assistant",
+    "Pillar 2 - Personalized Social Inclusion"
+  ],
+  "name": "Privacy-Aware Daily Interaction Support",
+  "description": "This use case enables older adults and their caregivers to interact with ALFRED daily through personalized voice commands and social engagement features, while strictly respecting privacy preferences and supporting clear, formal communication tailored to the user’s comfort and needs.",
+  "scenario": "Olivia sits in her quiet suburban living room, her fingers hesitating before she presses the push-to-talk button on her ALFRED device. She speaks slowly and formally, “ALFRED, initiate my daily briefing, please.” True to its programming, ALFRED responds with measured politeness, carefully avoiding unsolicited notifications, especially those related to social activities or exercise challenges she finds overwhelming. Olivia appreciates the system’s restraint; she has explicitly blocked nearly all notifications and refuses any app installations, determined to maintain tight control over her data. She reviews her latest health readings with a cautious eye, comforted that no information is shared with family, caregivers, or even her doctors without her express permission. The system’s formality aligns with her desire to keep all communications strictly professional and polite.\n\nMeanwhile, Sarah Thompson, juggling her responsibilities as an informal caregiver for several older adults, checks her ALFRED dashboard from her home office. She notes Olivia’s locked-down privacy settings with some frustration but respects her client’s wishes. Sarah prepares to visit Olivia that afternoon and plans to gently guide her through certain ALFRED features—though she knows Olivia prefers minimal explanations. Sarah values emotional engagement and hopes to encourage some social interaction, but she anticipates resistance. She also disables automatic data logging for Olivia, understanding the client’s preference for manual control despite the extra effort it entails.\n\nIn the busy urban hospital, Mike Johnson logs into his ALFRED portal during a brief break. His clinical mindset chafes at the limited access to Olivia’s health data; the strict privacy settings hamper his ability to monitor effectively. Mike grumbles internally, convinced that patient safety should override such barriers. He disables all non-critical notifications and prepares for a scheduled video check-in with Olivia, who has insisted it occur only at home and not in any clinical setting. Mike’s conversation with Olivia is curt and strictly medical—he avoids small talk or any emotional engagement. Olivia responds with formal politeness, carefully maintaining boundaries. She declines his suggestions for harder exercises or sensor use, and Mike leaves the call feeling frustrated but resigned.\n\nLater that day, Sarah arrives at Olivia’s home. She gently encourages Olivia to try a light social game on ALFRED, hoping to spark some engagement, but Olivia firmly declines, emphasizing her preference for privacy and formality. Sarah respects this but quietly wonders if the system’s heavy customization might isolate Olivia further. Olivia, meanwhile, feels reassured that ALFRED respects her wishes for controlled interaction and data sovereignty, even if it means slower progress in her recovery. The three navigate their distinct priorities through ALFRED’s flexible but tension-filled interface—Olivia’s guarded independence, Sarah’s nurturing patience, and Mike’s clinical urgency—each shaped by their unique needs and boundaries.",
+  "personas": [
+    "P-006",
+    "P-005",
+    "P-004"
+  ]
+}

@@ -1,0 +1,476 @@
+[
+  {
+    "taskID": "TASK-047",
+    "useCaseId": "UC-003",
+    "personaId": "P-005",
+    "taskDescription": "Ask ALFRED to suggest a light meal plan that matches dietary preferences"
+  },
+  {
+    "taskID": "TASK-048",
+    "useCaseId": "UC-003",
+    "personaId": "P-005",
+    "taskDescription": "Reject optional reminders from ALFRED, such as drinking water"
+  },
+  {
+    "taskID": "TASK-049",
+    "useCaseId": "UC-003",
+    "personaId": "P-005",
+    "taskDescription": "Block installation of new apps that could disrupt routine or share data"
+  },
+  {
+    "taskID": "TASK-051",
+    "useCaseId": "UC-003",
+    "personaId": "P-005",
+    "taskDescription": "Check for nearby social events that fit a formal and polite style"
+  },
+  {
+    "taskID": "TASK-052",
+    "useCaseId": "UC-003",
+    "personaId": "P-005",
+    "taskDescription": "Choose to initiate communication with family or friends without prompts"
+  },
+  {
+    "taskID": "TASK-054",
+    "useCaseId": "UC-003",
+    "personaId": "P-005",
+    "taskDescription": "Avoid wearing sensors due to privacy concerns"
+  },
+  {
+    "taskID": "TASK-056",
+    "useCaseId": "UC-003",
+    "personaId": "P-005",
+    "taskDescription": "Carefully consider social event suggestions without feeling pressured"
+  },
+  {
+    "taskID": "TASK-067",
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Presses the push-to-talk button to activate ALFRED"
+  },
+  {
+    "taskID": "TASK-068",
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Speaks in a measured tone to give commands to ALFRED"
+  },
+  {
+    "taskID": "TASK-069",
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Asks ALFRED to show the daily exercise plan"
+  },
+  {
+    "taskID": "TASK-070",
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Follows gentle, low-intensity rehabilitation exercises provided by ALFRED"
+  },
+  {
+    "taskID": "TASK-071",
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Dismisses notifications about progress or encouragement from ALFRED"
+  },
+  {
+    "taskID": "TASK-072",
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Blocks any app installations or updates on ALFRED"
+  },
+  {
+    "taskID": "TASK-073",
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Prevents any new features or data sharing from being added to ALFRED"
+  },
+  {
+    "taskID": "TASK-074",
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Refuses to share health data with family, friends, or caregivers"
+  },
+  {
+    "taskID": "TASK-075",
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Maintains strict privacy by ensuring no personal data leaves her device"
+  },
+  {
+    "taskID": "TASK-077",
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Keeps interactions with ALFRED brief and formal"
+  },
+  {
+    "taskID": "TASK-078",
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Ensures messages through ALFRED to her daughter are polite and formal"
+  },
+  {
+    "taskID": "TASK-079",
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Avoids requesting check-ins or support from ALFRED"
+  },
+  {
+    "taskID": "TASK-080",
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Prefers ALFRED not to initiate contact or suggest extra activities"
+  },
+  {
+    "taskID": "TASK-081",
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Values quiet and private support without overwhelming messages"
+  },
+  {
+    "taskID": "TASK-082",
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Feels both comforted and frustrated by ALFRED's respect for her autonomy"
+  },
+  {
+    "taskID": "TASK-083",
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Manages her recovery independently with ALFRED’s help"
+  },
+  {
+    "taskID": "TASK-084",
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Resists technology that challenges her or invades her privacy"
+  },
+  {
+    "taskID": "TASK-085",
+    "useCaseId": "UC-004",
+    "personaId": "P-005",
+    "taskDescription": "Wants clear, concise responses from ALFRED without extra details"
+  },
+  {
+    "taskID": "TASK-087",
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Commands ALFRED to start the daily cognitive game"
+  },
+  {
+    "taskID": "TASK-088",
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Prefers slow-paced and simple memory matching games"
+  },
+  {
+    "taskID": "TASK-089",
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Avoids receiving unsolicited notifications from ALFRED"
+  },
+  {
+    "taskID": "TASK-090",
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Blocks data sharing with caregivers and third-party apps"
+  },
+  {
+    "taskID": "TASK-091",
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Refuses app installations that ALFRED suggests"
+  },
+  {
+    "taskID": "TASK-092",
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Uses formal and careful language when speaking to ALFRED"
+  },
+  {
+    "taskID": "TASK-093",
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Dismisses or mutes suggestions that encourage more engagement"
+  },
+  {
+    "taskID": "TASK-094",
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Prefers to arrange social visits offline rather than through ALFRED"
+  },
+  {
+    "taskID": "TASK-095",
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Wants ALFRED to respect her privacy and control over technology use"
+  },
+  {
+    "taskID": "TASK-096",
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Expects ALFRED to not push notifications or progress updates"
+  },
+  {
+    "taskID": "TASK-128",
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Asks ALFRED to show her vital signs from wearable sensors"
+  },
+  {
+    "taskID": "TASK-129",
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Sets privacy settings to prevent any data sharing beyond herself"
+  },
+  {
+    "taskID": "TASK-130",
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Rejects automatic sharing of her health data"
+  },
+  {
+    "taskID": "TASK-131",
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Declines installation of new apps or unsolicited notifications"
+  },
+  {
+    "taskID": "TASK-132",
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Ignores reminders she finds unnecessary, like hydration alerts"
+  },
+  {
+    "taskID": "TASK-133",
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Arranges check-ins with her nurse in advance"
+  },
+  {
+    "taskID": "TASK-134",
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Insists that check-ins happen in her home, not remotely"
+  },
+  {
+    "taskID": "TASK-135",
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Maintains a formal and polite tone during nurse visits"
+  },
+  {
+    "taskID": "TASK-136",
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Requests efficient and strictly clinical interactions without social talk"
+  },
+  {
+    "taskID": "TASK-137",
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Declines to take part in exercise or cognitive challenge activities"
+  },
+  {
+    "taskID": "TASK-138",
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Instructs ALFRED to remind her to call the nurse if she notices changes"
+  },
+  {
+    "taskID": "TASK-139",
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Prefers to keep full control over her health information and care"
+  },
+  {
+    "taskID": "TASK-140",
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Feels cautious and reluctant about technology and data sharing"
+  },
+  {
+    "taskID": "TASK-141",
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Seeks reassurance from ALFRED that her privacy is respected"
+  },
+  {
+    "taskID": "TASK-232",
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Requests to see vital signs data explicitly, avoiding unsolicited alerts"
+  },
+  {
+    "taskID": "TASK-233",
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Sets strict privacy preferences to limit data sharing beyond herself"
+  },
+  {
+    "taskID": "TASK-234",
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Uses a minimal and discreet wearable to avoid intrusion"
+  },
+  {
+    "taskID": "TASK-235",
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Suppresses notifications about hard exercises or social features"
+  },
+  {
+    "taskID": "TASK-236",
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Arranges check-ins with caregivers in advance through ALFRED"
+  },
+  {
+    "taskID": "TASK-237",
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Declines invitations to join cognitive games"
+  },
+  {
+    "taskID": "TASK-238",
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Keeps interactions with ALFRED formal and limited"
+  },
+  {
+    "taskID": "TASK-239",
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Feels reassured by control over privacy and data sharing"
+  },
+  {
+    "taskID": "TASK-240",
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Prefers a quiet and background presence of ALFRED"
+  },
+  {
+    "taskID": "TASK-241",
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Experiences feelings of isolation due to limited system use"
+  },
+  {
+    "taskID": "TASK-242",
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Values respect for boundaries and limited engagement with ALFRED"
+  },
+  {
+    "taskID": "TASK-244",
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Speaks slowly and formally to ALFRED to initiate daily briefing"
+  },
+  {
+    "taskID": "TASK-247",
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Reviews her latest health readings on ALFRED without sharing them"
+  },
+  {
+    "taskID": "TASK-248",
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Ensures no personal or health information is shared without her permission"
+  },
+  {
+    "taskID": "TASK-251",
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Maintains tight control over her privacy settings and data sharing"
+  },
+  {
+    "taskID": "TASK-252",
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Feels comforted by ALFRED respecting her privacy and communication style"
+  },
+  {
+    "taskID": "TASK-285",
+    "useCaseId": "UC-013",
+    "personaId": "P-005",
+    "taskDescription": "Disables features that might allow unsolicited contact or data sharing"
+  },
+  {
+    "taskID": "TASK-286",
+    "useCaseId": "UC-013",
+    "personaId": "P-005",
+    "taskDescription": "Finds system notifications and explanations overwhelming and intrusive"
+  },
+  {
+    "taskID": "TASK-288",
+    "useCaseId": "UC-013",
+    "personaId": "P-005",
+    "taskDescription": "Guards digital privacy carefully by restricting app permissions"
+  },
+  {
+    "taskID": "TASK-289",
+    "useCaseId": "UC-013",
+    "personaId": "P-005",
+    "taskDescription": "Feels uneasy about continuous data collection and sharing"
+  },
+  {
+    "taskID": "TASK-290",
+    "useCaseId": "UC-013",
+    "personaId": "P-005",
+    "taskDescription": "Maintains a strict circle for data sharing and communication"
+  },
+  {
+    "taskID": "TASK-292",
+    "useCaseId": "UC-014",
+    "personaId": "P-005",
+    "taskDescription": "Speaks in a formal and controlled tone to initiate system setup"
+  },
+  {
+    "taskID": "TASK-293",
+    "useCaseId": "UC-014",
+    "personaId": "P-005",
+    "taskDescription": "Configures ALFRED to have strict privacy settings during initial setup"
+  },
+  {
+    "taskID": "TASK-294",
+    "useCaseId": "UC-014",
+    "personaId": "P-005",
+    "taskDescription": "Disables all automatic notifications and alerts from ALFRED"
+  },
+  {
+    "taskID": "TASK-298",
+    "useCaseId": "UC-014",
+    "personaId": "P-005",
+    "taskDescription": "Requests ALFRED to conduct video calls with formal language and tone"
+  },
+  {
+    "taskID": "TASK-299",
+    "useCaseId": "UC-014",
+    "personaId": "P-005",
+    "taskDescription": "Limits communication through ALFRED to necessary nurse check-ins"
+  },
+  {
+    "taskID": "TASK-300",
+    "useCaseId": "UC-014",
+    "personaId": "P-005",
+    "taskDescription": "Maintains firm control over data sharing, denying access without explicit consent"
+  },
+  {
+    "taskID": "TASK-302",
+    "useCaseId": "UC-014",
+    "personaId": "P-005",
+    "taskDescription": "Accepts ALFRED's restrained behavior despite feeling occasional loneliness"
+  },
+  {
+    "taskID": "TASK-303",
+    "useCaseId": "UC-014",
+    "personaId": "P-005",
+    "taskDescription": "Insists on a polite and reserved voice from ALFRED during interactions"
+  },
+  {
+    "taskID": "TASK-304",
+    "useCaseId": "UC-014",
+    "personaId": "P-005",
+    "taskDescription": "Guards her independence by restricting proactive system engagement"
+  }
+]

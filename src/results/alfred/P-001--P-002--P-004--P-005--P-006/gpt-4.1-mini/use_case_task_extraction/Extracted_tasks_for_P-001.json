@@ -1,0 +1,170 @@
+[
+  {
+    "taskID": "TASK-108",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Starts his workday coding in his home office with dual monitors"
+  },
+  {
+    "taskID": "TASK-109",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Reads ALFRED’s developer documentation to guide app development"
+  },
+  {
+    "taskID": "TASK-110",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Integrates a new healthcare app into the ALFRED platform"
+  },
+  {
+    "taskID": "TASK-111",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Implements secure data collection of vital signs in the app"
+  },
+  {
+    "taskID": "TASK-112",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Configures real-time notifications for caregivers"
+  },
+  {
+    "taskID": "TASK-113",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Chooses a simple, modular backend architecture for better control"
+  },
+  {
+    "taskID": "TASK-116",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Forces app updates and new feature installations without user consent"
+  },
+  {
+    "taskID": "TASK-117",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Joins virtual meetings with ALFRED’s compliance team to discuss privacy"
+  },
+  {
+    "taskID": "TASK-118",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Defends strict privacy and security measures in the app design"
+  },
+  {
+    "taskID": "TASK-119",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Programs proactive voice reminders that interrupt users for medication and health checks"
+  },
+  {
+    "taskID": "TASK-120",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Tests voice guidance features to ensure clear instructions"
+  },
+  {
+    "taskID": "TASK-121",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Uploads the healthcare app to the ALFRED marketplace"
+  },
+  {
+    "taskID": "TASK-122",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Navigates the app review process with confidence and readiness for feedback"
+  },
+  {
+    "taskID": "TASK-123",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Feels motivated by the impact his app could have on older adults and caregivers"
+  },
+  {
+    "taskID": "TASK-124",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Prefers control over app behavior even if it causes user discomfort"
+  },
+  {
+    "taskID": "TASK-125",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Accepts possible user frustration as necessary to maintain health and safety"
+  },
+  {
+    "taskID": "TASK-126",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Maintains a cautious and conservative approach to adopting new technologies"
+  },
+  {
+    "taskID": "TASK-158",
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Reviews anonymous user feedback about the app"
+  },
+  {
+    "taskID": "TASK-159",
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Considers whether to soften voice reminders or keep firm control"
+  },
+  {
+    "taskID": "TASK-161",
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Believes strict measures are essential for safety and effectiveness"
+  },
+  {
+    "taskID": "TASK-162",
+    "useCaseId": "UC-008",
+    "personaId": "P-001",
+    "taskDescription": "Debates balancing clinical reliability with user preferences"
+  },
+  {
+    "taskID": "TASK-273",
+    "useCaseId": "UC-013",
+    "personaId": "P-001",
+    "taskDescription": "Completes the final version of a healthcare app for ALFRED"
+  },
+  {
+    "taskID": "TASK-275",
+    "useCaseId": "UC-013",
+    "personaId": "P-001",
+    "taskDescription": "Navigates the app submission workflow with privacy compliance prompts"
+  },
+  {
+    "taskID": "TASK-276",
+    "useCaseId": "UC-013",
+    "personaId": "P-001",
+    "taskDescription": "Provides explicit permissions required for data sharing in the app"
+  },
+  {
+    "taskID": "TASK-277",
+    "useCaseId": "UC-013",
+    "personaId": "P-001",
+    "taskDescription": "Reviews user feedback about app installation preferences"
+  },
+  {
+    "taskID": "TASK-278",
+    "useCaseId": "UC-013",
+    "personaId": "P-001",
+    "taskDescription": "Considers adjusting the app to meet cautious user settings"
+  },
+  {
+    "taskID": "TASK-280",
+    "useCaseId": "UC-013",
+    "personaId": "P-001",
+    "taskDescription": "Balances enforcing data collection while respecting user privacy"
+  },
+  {
+    "taskID": "TASK-281",
+    "useCaseId": "UC-013",
+    "personaId": "P-001",
+    "taskDescription": "Deals with frustrations about strict privacy and installation rules"
+  }
+]

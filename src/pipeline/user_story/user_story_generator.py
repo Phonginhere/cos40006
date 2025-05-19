@@ -5,18 +5,16 @@ from pipeline.user_story.user_story_loader import UserStoryLoader
 from pipeline.use_case.use_case_loader import UseCaseLoader
 from pipeline.utils import (
     UserPersonaLoader,
-    load_system_summary,
-    load_user_story_guidelines,
-    load_user_group_guidelines,
-    get_llm_response,
-    load_user_group_keys,
+    Utils,
 )
 
 def generate_complete_user_stories(persona_loader: UserPersonaLoader, use_case_loader: UseCaseLoader):
-    # Load supporting documents
-    system_summary = load_system_summary()
-    story_guidelines = load_user_story_guidelines()
+    utils = Utils()
     
+    # Load supporting documents
+    system_summary = utils.load_system_context()
+    story_guidelines = utils.load_user_story_guidelines()
+
     # Load use cases and personas
     all_personas = {p.id: p for p in persona_loader.get_personas()}
     use_case_loader.load()
@@ -53,14 +51,17 @@ def generate_complete_user_stories(persona_loader: UserPersonaLoader, use_case_l
 
     print(f"🛠️ Generating {len(incomplete_stories)} user stories with LLM...")
     
-    user_group_keys = load_user_group_keys()
+    user_group_keys = utils.load_user_group_keys()
+    
+    # Load LLM response language proficiency level
+    proficiency_level = utils.load_llm_response_language_proficiency_level()
 
     # Generate user stories' titles and summaries using LLM
     for story in incomplete_stories:
         persona = all_personas.get(story.persona)
         use_case = all_use_cases.get(story.use_case)
         group_key = user_group_keys.get(persona.user_group)
-        group_summary = load_user_group_guidelines(group_key) if group_key else "Unknown"
+        group_summary = utils.load_user_group_description(group_key) if group_key else "Unknown"
 
         if not persona or not use_case:
             print(f"⚠️ Skipping US {story.id} (missing persona or use case)")
@@ -115,7 +116,7 @@ Generate the following fields:
 - priority (1 to 5)
 - pillar (choose the most relevant system's pillar mentioned in the system summary among the provided in the relevant use case.")
 
---- STRICT INSTRUCTION ---
+--- INSTRUCTION ---
 
 Strictly, the user story must be strongly shaped by the persona's unique needs, expectations, habits, and emotional concerns — even if this leads to inconsistencies with the use case or system description.
 If the persona’s preferences clash with technical assumptions or systemic defaults, let that divergence emerge. Do NOT suppress conflicting expectations or overly rationalize differences for the sake of system alignment. 
@@ -132,11 +133,17 @@ You must return a single JSON object with the following structure:
   "pillar": "[Associated Pillar]"
 }}
 
-Do not include any additional text or commentary. Do NOT use any markdown, bold, italic, or special formatting in your response.
+Strictly, do not include any additional text or commentary. Do NOT use any markdown, bold, italic, or special formatting in your response.
+
+------------------------------
+
+{proficiency_level}
+
+--- END OF PROMPT ---
 """
 
         try:
-            response = get_llm_response(prompt)
+            response = utils.get_llm_response(prompt)
             json_data = json.loads(response)
 
             story.title = json_data.get("title", "")

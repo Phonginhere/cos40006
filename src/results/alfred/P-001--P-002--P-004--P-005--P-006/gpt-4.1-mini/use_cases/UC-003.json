@@ -1,0 +1,20 @@
+{
+  "id": "UC-003",
+  "useCaseType": "Wellbeing & Lifestyle Optimization (Nutrition, Fitness)",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Older Adults"
+  ],
+  "pillars": [
+    "General Requirements",
+    "Pillar 2 - Personalized Social Inclusion",
+    "Pillar 4 - Physical & Cognitive Impairments Prevention"
+  ],
+  "name": "Tailored Nutrition and Activity Support",
+  "description": "This use case enables personalized nutrition guidance and fitness activity recommendations for older adults, balancing their preferences and health needs while facilitating socially engaging and non-intrusive monitoring by caregivers in clinical and home settings.",
+  "scenario": "Olivia, a retired social worker cautious about technology and fiercely protective of her privacy, starts her day by quietly asking ALFRED to suggest a light meal plan that suits her dietary preferences without pushing any notifications or unsolicited advice. She appreciates that ALFRED only responds when she explicitly speaks to it, ensuring she maintains control over every interaction. However, when ALFRED gently offers an optional reminder to drink water, Olivia dismisses it, feeling the system’s attentiveness verges on intrusion. She firmly blocks any installation of new apps that might disrupt her carefully maintained routine or share her data beyond her strict limits.\n\nMeanwhile, Mike Johnson, the registered nurse assigned to Olivia’s care, accesses ALFRED’s clinical dashboard during a brief break at his urban hospital. Focused solely on her physical health, Mike reviews Olivia’s activity logs and nutrition data, which ALFRED has collected through minimal, consented monitoring. Despite Olivia’s reluctance to wear sensors, ALFRED ensures essential vitals are tracked discreetly, feeding information to Mike without alerting Olivia unnecessarily. He disables all non-critical notifications during his shift, preferring the system to communicate only urgent clinical matters. Mike, valuing efficiency, wishes ALFRED could enforce more rigorous exercise routines for Olivia, but respects that the system honors her refusal for challenging activities. He marks his observations in the clinical log without engaging in emotional check-ins, as this falls outside his scope.\n\nLater in the afternoon, Olivia uses ALFRED to check for nearby social events that align with her formal and polite communication style. ALFRED suggests a gentle community luncheon, which she cautiously considers, valuing the chance to maintain some social connection without overwhelming interaction. She opts to initiate any communication herself, declining ALFRED’s unsolicited prompts to call family or friends. Mike, receiving no notifications about social activities due to Olivia’s privacy settings, remains focused on her clinical status, unaware of her social engagements.\n\nDespite their contrasting approaches—Olivia’s guarded autonomy and Mike’s clinical rigor—ALFRED acts as the silent bridge between them, respecting Olivia’s boundaries while equipping Mike with the vital health insights he demands. Olivia maintains her independence and privacy, using ALFRED strictly on her terms, while Mike benefits from unobtrusive, reliable data to support her care during his demanding shifts. Neither fully embraces the other’s perspective, but through ALFRED’s tailored support, they coexist in a delicate balance of care and control.",
+  "personas": [
+    "P-004",
+    "P-005"
+  ]
+}

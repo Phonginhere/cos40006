@@ -4,15 +4,7 @@ from typing import Optional
 
 from pipeline.utils import (
     UserPersonaLoader,
-    NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR,
-    NON_FUNCTIONAL_USER_STORY_DECOMPOSITION_PATH,
-    USER_STORY_DIR,
-    load_system_summary,
-    load_user_group_keys,
-    load_user_group_guidelines,
-    load_user_story_guidelines,
-    load_non_functional_user_story_conflict_summary,
-    get_llm_response,
+    Utils,
 )
 
 
@@ -27,7 +19,7 @@ def save_json_file(path: str, data):
 
 
 def build_resolution_prompt(
-    system_summary: str,
+    system_context: str,
     user_story_guidelines: str,
     technique_summary: str,
     personaA,
@@ -37,16 +29,21 @@ def build_resolution_prompt(
     conflictType: str,
     conflictDescription: str,
     conflictingNfrPairs: list,
+    proficiency_level: str = "",
 ) -> str:
     prompt = f"""
-You are an expert system requirements engineer.
+You are an expert system requirements engineer. You are resolving a conflict between two non-functional requirements (NFRs) in a software system.
 
-Apply the Sadana and Liu resolution strategies for non-functional requirement (a.k.a user story) conflicts:
+--- SYSTEM CONTEXT ---
+{system_context}
+------------------------------
+
+--- RESOLUTION TECHNIQUE ---
+Apply the Sadana and Liu technique for resolving non-functional requirement (a.k.a user story) conflicts (within one user group):
 {technique_summary}
+------------------------------
 
-System Summary:
-{system_summary}
-
+--- CONFLICT ---
 Conflict Type: {conflictType}
 Conflict Description: {conflictDescription}
 Conflicting NFR Pairs:
@@ -57,8 +54,9 @@ User Story A Summary:
 
 User Story B Summary:
 {storyB_summary}
+------------------------------
 
-TASK:
+--- TASK ---
 The summary **may* or **may not** be adjusted so the conflict is no longer valid. Carefully analyze if the conflict described is still present given the current summaries.
 
 - If the conflict is NO LONGER valid, respond with ONLY:
@@ -104,6 +102,12 @@ Respond STRICTLY in the JSON format:
 }}
 
 Strictly, do not include any additional text or commentary (e.g., "A1", "B2", "NFR3", e.t.c in decomposition's elements). Do NOT use any markdown, bold, italic, or special formatting in your response.
+
+------------------------------
+
+{proficiency_level}
+
+--- END OF PROMPT ---
 """
     return prompt.strip()
 
@@ -136,8 +140,8 @@ def parse_llm_response(raw: str) -> Optional[dict]:
         print(f"Response snippet: {raw[:300]}")
         return None
 
-def update_user_story_file_by_persona(persona_id: str, story_id: str, new_summary: str):
-    filepath = os.path.join(USER_STORY_DIR, f"User_stories_for_{persona_id}.json")
+def update_user_story_file_by_persona(persona_id: str, story_id: str, new_summary: str, utils: Utils = None):
+    filepath = os.path.join(utils.USER_STORY_DIR, f"User_stories_for_{persona_id}.json")
     if not os.path.exists(filepath):
         print(f"⚠️ User story file for persona {persona_id} not found: {filepath}")
         return
@@ -160,14 +164,16 @@ def update_user_story_file_by_persona(persona_id: str, story_id: str, new_summar
         json.dump(stories, f, indent=2, ensure_ascii=False)
 
 def resolve_non_functional_conflicts_within_one_group(persona_loader: UserPersonaLoader):
-    system_summary = load_system_summary()
-    user_story_guidelines = load_user_story_guidelines()
-    technique_summary = load_non_functional_user_story_conflict_summary()
+    utils = Utils()
+
+    system_context = utils.load_system_context()
+    user_story_guidelines = utils.load_user_story_guidelines()
+    technique_summary = utils.load_non_functional_user_story_conflict_technique_description()
 
     all_personas = {p.id: p for p in persona_loader.get_personas()}
 
     try:
-        nfus_analysis = load_json_file(NON_FUNCTIONAL_USER_STORY_DECOMPOSITION_PATH)
+        nfus_analysis = load_json_file(utils.NON_FUNCTIONAL_USER_STORY_DECOMPOSITION_PATH)
     except Exception as e:
         print(f"❌ Failed to load NFUS analysis: {e}")
         return
@@ -175,12 +181,15 @@ def resolve_non_functional_conflicts_within_one_group(persona_loader: UserPerson
     nfus_dict = {entry["id"]: entry for entry in nfus_analysis}
 
     conflict_files = [
-        f for f in os.listdir(NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR)
+        f for f in os.listdir(utils.NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR)
         if f.endswith(".json")
     ]
+    
+    # Load proficiency level
+    proficiency_level = utils.load_llm_response_language_proficiency_level()
 
     for conflict_file in conflict_files:
-        conflict_path = os.path.join(NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, conflict_file)
+        conflict_path = os.path.join(utils.NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, conflict_file)
         try:
             conflicts = load_json_file(conflict_path)
         except Exception as e:
@@ -214,7 +223,7 @@ def resolve_non_functional_conflicts_within_one_group(persona_loader: UserPerson
                 continue
 
             prompt = build_resolution_prompt(
-                system_summary,
+                system_context,
                 user_story_guidelines,
                 technique_summary,
                 personaA,
@@ -224,9 +233,10 @@ def resolve_non_functional_conflicts_within_one_group(persona_loader: UserPerson
                 conflict.get("conflictType", ""),
                 conflict.get("conflictDescription", ""),
                 conflict.get("conflictingNfrPairs", []),
+                proficiency_level=proficiency_level
             )
 
-            response = get_llm_response(prompt)
+            response = utils.get_llm_response(prompt)
             if not response:
                 print(f"⚠️ Empty LLM response for conflict {conflict.get('conflictId')}")
                 continue
@@ -270,8 +280,8 @@ def resolve_non_functional_conflicts_within_one_group(persona_loader: UserPerson
             update_or_delete_story(nfus_dict, a_id, parsed["newUserStoryASummary"], parsed["newUserStoryADecomposition"])
             update_or_delete_story(nfus_dict, b_id, parsed["newUserStoryBSummary"], parsed["newUserStoryBDecomposition"])
 
-            update_user_story_file_by_persona(conflict.get("personaAId"), a_id, parsed["newUserStoryASummary"])
-            update_user_story_file_by_persona(conflict.get("personaBId"), b_id, parsed["newUserStoryBSummary"])
+            update_user_story_file_by_persona(conflict.get("personaAId"), a_id, parsed["newUserStoryASummary"], utils)
+            update_user_story_file_by_persona(conflict.get("personaBId"), b_id, parsed["newUserStoryBSummary"], utils)
 
         if updated:
             try:

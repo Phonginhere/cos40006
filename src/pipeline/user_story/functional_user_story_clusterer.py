@@ -2,16 +2,9 @@ import os
 import json
 
 from pipeline.user_story.user_story_loader import UserStoryLoader
-from pipeline.utils import (
-    load_system_summary,
-    load_user_story_guidelines,
-    load_functional_user_story_clustering_technique,
-    get_llm_response,
-    FUNCTIONAL_USER_STORY_CLUSTER_SET_PATH,
-    USER_STORY_DIR
-)
+from pipeline.utils import Utils
 
-def build_cluster_definition_prompt(system_summary: str, story_guidelines: str, technique_text: str, non_functional_stories: list) -> str:
+def build_cluster_definition_prompt(system_context: str, story_guidelines: str, technique_text: str, non_functional_stories: list) -> str:
     joined_nf_stories = "\n".join(
         f"- [{s.id}] {s.title} ({s.pillar})\n  Summary: {s.summary}" for s in non_functional_stories
     )
@@ -20,17 +13,21 @@ def build_cluster_definition_prompt(system_summary: str, story_guidelines: str, 
 
 In the context of the following system, you will analyze the list of Non-Functional User Stories (NFUSs), and define functional requirement clusters.
 
---- SYSTEM OVERVIEW ---
-{system_summary}
+--- SYSTEM CONTEXT ---
+{system_context}
+-------------------------------------
 
---- USER STORY RULES & GUIDELINES ---
+--- USER STORY GUIDELINES ---
 {story_guidelines}
+-------------------------------------
 
 --- TECHNIQUE DESCRIPTION ---
 {technique_text}
+-------------------------------------
 
 --- NON-FUNCTIONAL USER STORIES (NFUSs) ---
 {joined_nf_stories}
+-------------------------------------
 
 --- TASK ---
 You must define a list of functional user story clusters, where each cluster is directly derived from a non-functional user story. For each cluster, include:
@@ -51,10 +48,15 @@ You must define a list of functional user story clusters, where each cluster is 
 ]
 
 Only output a single valid JSON list as shown, with 1 entry per NFUS. No commentary, no markdown, no extraneous formatting.
+-------------------------------------
+
+--- END OF PROMPT ---
 """.strip()
 
 def generate_functional_cluster_definitions():
-    output_path = FUNCTIONAL_USER_STORY_CLUSTER_SET_PATH
+    utils = Utils()
+
+    output_path = utils.FUNCTIONAL_USER_STORY_CLUSTER_SET_PATH
 
     # Step-Skipping Logic
     if os.path.exists(output_path):
@@ -69,8 +71,8 @@ def generate_functional_cluster_definitions():
 
     print("📥 Loading user stories and system documentation...")
 
-    system_summary = load_system_summary()
-    story_guidelines = load_user_story_guidelines()
+    system_context = utils.load_system_context()
+    story_guidelines = utils.load_user_story_guidelines()
 
     loader = UserStoryLoader()
     loader.load_all_user_stories()
@@ -82,11 +84,11 @@ def generate_functional_cluster_definitions():
 
     print(f"📊 Found {len(nfus_list)} non-functional user stories, which will be sent to the LLM for functional user story cluster generation...")
 
-    technique_text = load_functional_user_story_clustering_technique()
-    prompt = build_cluster_definition_prompt(system_summary, story_guidelines, technique_text, nfus_list)
+    technique_text = utils.load_functional_user_story_clustering_technique_description()
+    prompt = build_cluster_definition_prompt(system_context, story_guidelines, technique_text, nfus_list)
 
     try:
-        response = get_llm_response(prompt)
+        response = utils.get_llm_response(prompt)
         cluster_data = json.loads(response)
 
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -99,40 +101,50 @@ def generate_functional_cluster_definitions():
     except Exception as e:
         print(f"❌ Failed to generate or parse LLM output: {e}")
         
-def build_prompt_to_cluster_functional_user_story(story, system_summary, guidelines, cluster_definitions):
+def build_prompt_to_cluster_functional_user_story(story, system_context, guidelines, cluster_definitions):
     formatted_clusters = "\n".join(
         f"- {cluster['cluster_name']}: {cluster['cluster_description']}" for cluster in cluster_definitions
     )
 
     return f"""
-You are a system requirements engineer.
+You are a system requirements engineer. You are clustering functional user stories for a software system.
 
-Below is the system Summary:
-{system_summary}
+--- SYSTEM CONTEXT ---
+{system_context}
+-------------------------------------
 
-Below is the given system's User Story Guidelines (Definitions, Structure, and Unreal Examples):
+--- USER STORY GUIDELINES ---
 {guidelines}
+-------------------------------------
 
+--- FUNCTIONAL USER STORY ---
 Here is a REAL Functional User Story:
 ID: {story.id}
 Title: {story.title}
 Summary: {story.summary}
 User Group: {story.user_group}
 Pillar: {story.pillar}
+--------------------------------------
 
+--- LIST OF AVAILABLE FUNCTIONAL USER STORY CLUSTERS ---
 Below are available functional user story clusters:
 {formatted_clusters}
+-------------------------------------
 
-TASK:
+--- TASK ---
 Select the best-matching cluster name from the list above. If no suitable match exists, respond with (Unclustered).
 
 Strictly, only respond with the exact **cluster name** (or **(Unclustered)** only). Do not include any additional text (even explanations) or commentary. Do NOT use any markdown, bold, italic, or special formatting in your response.
+-------------------------------------
+
+--- END OF PROMPT ---
 """.strip()
 
 
-def update_user_story_cluster_by_persona(story_id: str, persona_id: str, new_cluster: str):
+def update_user_story_cluster_by_persona(story_id: str, persona_id: str, new_cluster: str, utils: Utils = None):
+    """Update the cluster of a user story for a specific persona."""
     filename = f"User_stories_for_{persona_id}.json"
-    filepath = os.path.join(USER_STORY_DIR, filename)
+    filepath = os.path.join(utils.USER_STORY_DIR, filename)
 
     if not os.path.exists(filepath):
         print(f"❌ File not found for persona {persona_id}: {filepath}")
@@ -157,6 +169,8 @@ def update_user_story_cluster_by_persona(story_id: str, persona_id: str, new_clu
 
 
 def cluster_functional_user_stories(user_story_loader: UserStoryLoader = None):
+    utils = Utils()
+    
     print("🔄 Loading user stories for functional clustering...")
     loader = user_story_loader if user_story_loader else UserStoryLoader()
     loader.load_all_user_stories()
@@ -169,10 +183,10 @@ def cluster_functional_user_stories(user_story_loader: UserStoryLoader = None):
         return
 
     # Load supporting documents
-    system_summary = load_system_summary()
-    guidelines = load_user_story_guidelines()
+    system_context = utils.load_system_context()
+    guidelines = utils.load_user_story_guidelines()
 
-    with open(FUNCTIONAL_USER_STORY_CLUSTER_SET_PATH, "r", encoding="utf-8") as f:
+    with open(utils.FUNCTIONAL_USER_STORY_CLUSTER_SET_PATH, "r", encoding="utf-8") as f:
         cluster_definitions = json.load(f)
 
     print(f"📊 {len(functional_stories)} functional stories to process...")
@@ -185,15 +199,15 @@ def cluster_functional_user_stories(user_story_loader: UserStoryLoader = None):
         print(f"🔍 Clustering {story.id} ({story.title})...")
 
         prompt = build_prompt_to_cluster_functional_user_story(
-            story, system_summary, guidelines, cluster_definitions
+            story, system_context, guidelines, cluster_definitions
         )
 
         try:
-            cluster_name = get_llm_response(prompt).strip()
+            cluster_name = utils.get_llm_response(prompt).strip()
             if not cluster_name:
                 cluster_name = "(Unclustered)"
         except Exception as e:
             print(f"❌ Failed for {story.id}: {e}")
             cluster_name = "(Unclustered)"
 
-        update_user_story_cluster_by_persona(story.id, story.persona, cluster_name)
+        update_user_story_cluster_by_persona(story.id, story.persona, cluster_name, utils)

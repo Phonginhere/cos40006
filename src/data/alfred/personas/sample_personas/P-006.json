@@ -12,7 +12,7 @@
         "Children": "1 school-age"
     },
     "CoreCharacteristics": [
-        "Flexible",
+        "Flexible in working hours",
         "Emotionally engaged",
         "Multitasking caregiver"
     ],
@@ -26,18 +26,21 @@
     "TypicalChallenges": [
         "Context switching across clients and family",
         "May overload from overlapping responsibilities",
-        "Need for tools that support informal care routines"
+        "Need for tools that support informal care routines",
+        "Want to participate in the exercise simulation with patients"
     ],
     "Singularities": [
         "Manages care for multiple clients at once",
         "Always available, even during nights",
         "Operates in home/shared environments",
-        "Feel free to play games with patients and older adults"
+        "Feel free to play games with patients and older adults",
+        "Only talk to others when they allow me to do so"
     ],
     "MainActions": [
         "ALFRED must guide the patients detailedly the features",
         "Accept all notifications from ALFRED anytime, including non-critical or non-health-related ones",
         "Disable automatic logging and let me manually choose what gets recorded",
+        "Allow patients to do non-clinical activities (e.g., chatting, games)",
         "Encourage emotional engagement with clients/patients (e.g., via games, chats)"
     ],
     "WorkingSituation": "Home-based caregiver managing multiple clients in daily rotation",

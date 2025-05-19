@@ -1,0 +1,164 @@
+[
+  {
+    "taskID": "TASK-013",
+    "useCaseId": "UC-001",
+    "personaId": "P-004",
+    "taskDescription": "Access ALFRED from workstations to review patient data"
+  },
+  {
+    "taskID": "TASK-016",
+    "useCaseId": "UC-001",
+    "personaId": "P-004",
+    "taskDescription": "Dismiss prompts for patient interaction or emotional check-ins"
+  },
+  {
+    "taskID": "TASK-017",
+    "useCaseId": "UC-001",
+    "personaId": "P-004",
+    "taskDescription": "Demand rapid, unfiltered access to patient vital signs"
+  },
+  {
+    "taskID": "TASK-018",
+    "useCaseId": "UC-001",
+    "personaId": "P-004",
+    "taskDescription": "Override patient privacy settings when needed for clinical focus"
+  },
+  {
+    "taskID": "TASK-021",
+    "useCaseId": "UC-001",
+    "personaId": "P-004",
+    "taskDescription": "Acknowledge value of social features but remain cautious"
+  },
+  {
+    "taskID": "TASK-033",
+    "useCaseId": "UC-002",
+    "personaId": "P-004",
+    "taskDescription": "Feels concerned about the increasing challenge given the user’s mobility issues"
+  },
+  {
+    "taskID": "TASK-034",
+    "useCaseId": "UC-002",
+    "personaId": "P-004",
+    "taskDescription": "Wants to impose easier game levels or restrict certain physical activities"
+  },
+  {
+    "taskID": "TASK-036",
+    "useCaseId": "UC-002",
+    "personaId": "P-004",
+    "taskDescription": "Feels frustrated when system notifications flood the screen after work"
+  },
+  {
+    "taskID": "TASK-038",
+    "useCaseId": "UC-002",
+    "personaId": "P-004",
+    "taskDescription": "Plans to discuss care adjustments with the informal caregiver"
+  },
+  {
+    "taskID": "TASK-057",
+    "useCaseId": "UC-003",
+    "personaId": "P-004",
+    "taskDescription": "Access Olivia’s clinical dashboard during work breaks"
+  },
+  {
+    "taskID": "TASK-058",
+    "useCaseId": "UC-003",
+    "personaId": "P-004",
+    "taskDescription": "Review activity logs and nutrition data collected by ALFRED"
+  },
+  {
+    "taskID": "TASK-062",
+    "useCaseId": "UC-003",
+    "personaId": "P-004",
+    "taskDescription": "Use minimal, consented monitoring data without alerting Olivia"
+  },
+  {
+    "taskID": "TASK-063",
+    "useCaseId": "UC-003",
+    "personaId": "P-004",
+    "taskDescription": "Respect Olivia’s refusal to engage in challenging exercise routines"
+  },
+  {
+    "taskID": "TASK-064",
+    "useCaseId": "UC-003",
+    "personaId": "P-004",
+    "taskDescription": "Wish for more rigorous exercise enforcement while honoring patient’s wishes"
+  },
+  {
+    "taskID": "TASK-145",
+    "useCaseId": "UC-007",
+    "personaId": "P-004",
+    "taskDescription": "Prepares for scheduled home visits with Olivia"
+  },
+  {
+    "taskID": "TASK-146",
+    "useCaseId": "UC-007",
+    "personaId": "P-004",
+    "taskDescription": "Respects Olivia's privacy choices even if it limits care options"
+  },
+  {
+    "taskID": "TASK-151",
+    "useCaseId": "UC-007",
+    "personaId": "P-004",
+    "taskDescription": "Feels conflicted between clinical needs and respecting privacy"
+  },
+  {
+    "taskID": "TASK-152",
+    "useCaseId": "UC-007",
+    "personaId": "P-004",
+    "taskDescription": "Plans check-ins according to Olivia's strict preferences"
+  },
+  {
+    "taskID": "TASK-200",
+    "useCaseId": "UC-010",
+    "personaId": "P-004",
+    "taskDescription": "Reviews patient profiles and sensor data sharing settings"
+  },
+  {
+    "taskID": "TASK-202",
+    "useCaseId": "UC-010",
+    "personaId": "P-004",
+    "taskDescription": "Prioritizes access to vital health data without needing explicit permission each time"
+  },
+  {
+    "taskID": "TASK-204",
+    "useCaseId": "UC-010",
+    "personaId": "P-004",
+    "taskDescription": "Focuses video check-ins strictly on medical topics"
+  },
+  {
+    "taskID": "TASK-207",
+    "useCaseId": "UC-010",
+    "personaId": "P-004",
+    "taskDescription": "Resents the system's insistence on patient consent for data access"
+  },
+  {
+    "taskID": "TASK-266",
+    "useCaseId": "UC-012",
+    "personaId": "P-004",
+    "taskDescription": "Prepares and conducts scheduled video check-ins with patients like Olivia"
+  },
+  {
+    "taskID": "TASK-269",
+    "useCaseId": "UC-012",
+    "personaId": "P-004",
+    "taskDescription": "Respects patient requests for location-specific video calls only at home"
+  },
+  {
+    "taskID": "TASK-270",
+    "useCaseId": "UC-012",
+    "personaId": "P-004",
+    "taskDescription": "Suggests more intensive exercises or sensor use despite patient refusal"
+  },
+  {
+    "taskID": "TASK-271",
+    "useCaseId": "UC-012",
+    "personaId": "P-004",
+    "taskDescription": "Feels resigned when patient privacy limits clinical monitoring"
+  },
+  {
+    "taskID": "TASK-272",
+    "useCaseId": "UC-012",
+    "personaId": "P-004",
+    "taskDescription": "Prioritizes patient safety but acknowledges privacy barriers in ALFRED"
+  }
+]

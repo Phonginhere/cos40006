@@ -1,0 +1,17 @@
+{
+  "id": "UC-004",
+  "useCaseType": "Recovery & Rehab",
+  "userGroups": [
+    "Older Adults"
+  ],
+  "pillars": [
+    "Pillar 1 - User-Driven Interaction Assistant",
+    "Pillar 4 - Physical & Cognitive Impairments Prevention"
+  ],
+  "name": "Personalized Low-Intensity Rehab Support",
+  "description": "Olivia receives tailored rehabilitation guidance from ALFRED focused on gentle exercises and minimal notifications, respecting her preferences for privacy and low challenge while supporting consistent recovery and prevention of physical and cognitive decline.",
+  "scenario": "Olivia wakes up in her quiet suburban home, determined to maintain her recovery without being overwhelmed by technology. She activates ALFRED by pressing the push-to-talk button, carefully avoiding unsolicited interactions. “ALFRED, show my exercise plan for today,” she says in a measured tone, expecting the system to respond concisely. ALFRED presents a set of gentle, low-intensity rehabilitation exercises designed specifically to avoid any strain or challenge, respecting her preference for minimal physical demand. Olivia appreciates the straightforward guidance but immediately dismisses any notifications about progress or encouragement, finding them intrusive and unnecessary.\n\nThroughout the morning, Olivia uses ALFRED strictly on her own terms, never allowing the assistant to initiate contact or suggest additional activities. She deliberately blocks any app installations or updates that might introduce new features or data sharing, maintaining tight control over her digital environment. Privacy is paramount for Olivia; she refuses to share any of her health data with family, friends, or even informal caregivers. ALFRED complies silently, ensuring no personal information leaves her device without explicit consent.\n\nAlthough Olivia is cautious and somewhat pessimistic about the technology, she values ALFRED’s ability to support her daily rehab quietly, without overwhelming her with messages or social prompts. She barely uses the voice assistant beyond issuing commands, preferring to keep interactions brief and formal. Her insistence on formal, polite communication extends even to messages with her daughter, which ALFRED carefully maintains.\n\nDuring a rare moment, Olivia considers requesting a check-in but delays, feeling hesitant to impose or disrupt her routine. The system waits patiently, never pushing for contact or unsolicited support, which both comforts and frustrates her. ALFRED’s respect for her wishes creates a private space where Olivia can manage her recovery on her own terms, even if it means slower progress and fewer social connections. For Olivia, this balance between autonomy and quiet support is crucial, allowing her to feel in control despite her dependence on assistance.",
+  "personas": [
+    "P-005"
+  ]
+}

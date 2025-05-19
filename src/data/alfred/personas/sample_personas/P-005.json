@@ -37,7 +37,9 @@
     "Peristatic about technology adaptation",
     "Always pessimistic and rarely change, takes longer time to adapt my needs",
     "Need constant supervision",
-    "No data sharing with third parties, app creators"
+    "No data sharing with third parties, app creators",
+    "Discuss my health with official medical professionals only (e.g., doctors, nurses), not with informal caregivers",
+    "Nurse must be available fulltime for my messages, calls, and notifications"
   ],
   "MainActions" : [
     "Block all app installations (unless special request)",
@@ -46,7 +48,7 @@
     "All conversations or messages must be formal, including the ones with my family and friends",
     "Hardly wear wearables with a sensor, they must not share my data with third parties",
     "Dismiss all notifications of the hard exercises",
-    "Hardly accept video check-ins arranged by my caregiver, prefer offline check-ins",
+    "Accept ocheck-ins only arranged by me, prefer offline ones at my home, not in the hospital or public medical centres",
     "No chatting with strangers"
   ],
   "WorkingSituation": "",

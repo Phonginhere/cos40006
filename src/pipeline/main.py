@@ -5,7 +5,7 @@ import random
 from pipeline.utils import UserPersonaLoader
 
 from pipeline.use_case.use_case_loader import UseCaseLoader
-from pipeline.use_case.skeleton_use_case_writer import write_use_case_skeletons
+from pipeline.use_case.skeleton_use_case_randomizer import write_use_case_skeletons
 from pipeline.use_case.raw_use_case_generator import generate_raw_use_cases
 from pipeline.use_case.enriched_use_case_generator import enrich_use_cases_with_scenarios
 from pipeline.use_case.use_case_task_extractor import analyze_all_use_cases

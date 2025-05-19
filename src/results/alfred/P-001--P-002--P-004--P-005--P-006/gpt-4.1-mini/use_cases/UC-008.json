@@ -1,0 +1,19 @@
+{
+  "id": "UC-008",
+  "useCaseType": "Marketplace Discovery",
+  "userGroups": [
+    "Developers and App Creators",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Developer Core",
+    "General Requirements"
+  ],
+  "name": "App Development and Marketplace Publishing",
+  "description": "A developer creates and submits an innovative healthcare app to the ALFRED marketplace, while an older adult explores and installs new apps to enhance daily life and health management. This use case supports seamless app integration and user empowerment through accessible discovery and installation.",
+  "scenario": "Daniel Chen sits at his rural home office desk, his screens flickering with lines of code as he works on his latest healthcare app for the ALFRED platform. Focused and methodical, he configures the app to collect comprehensive health data continuously, convinced that thorough monitoring trumps user discomfort. He programs strict voice reminders designed to interrupt users persistently, believing this approach ensures adherence to medication and exercise routines, even though he foresees some older adults might find it intrusive. Daniel’s conservative style means that once the app is ready, it will install updates automatically, without giving users the choice—a design decision he rationalizes as necessary to prevent disruptions in care workflows.\n\nMeanwhile, in her urban apartment, Elena Rivera eagerly explores the ALFRED marketplace on her tablet, curious about new apps that promise to energize her daily routine. She is keen to try Daniel’s new health monitoring app, drawn by its promise of detailed notifications and challenging exercise prompts. However, when she installs it, she quickly grows frustrated as the app’s persistent voice reminders interrupt her spontaneous activities and social chats, clashing with her desire for a more natural, less controlling experience. She questions aloud why ALFRED insists on these interruptions, wishing the system would explain its features more patiently and with less formality.\n\nElena’s frustration grows because she values control and learning through detailed explanations, but Daniel’s app offers none of this flexibility. She attempts to customize the settings but finds them rigid and unyielding. Her openness to share all personal data contrasts sharply with Daniel’s underlying philosophy of data control, which manifests in the app’s hardcoded permissions. This disconnect leads Elena to voice complaints through ALFRED’s feedback feature, hoping the developer will consider user autonomy more deeply.\n\nBack at his desk, Daniel reviews anonymous user feedback and notices Elena’s comments. He feels a mix of irritation and resolve, convinced that his strict measures are essential for safety and effectiveness. He debates whether to soften the app’s voice reminders or maintain firm control, knowing that catering to users’ preferences might compromise the app’s clinical reliability. The tension between his developer mindset and Elena’s user experience perspective underscores the challenge of balancing security and autonomy within ALFRED’s ecosystem.\n\nDespite their conflicting views, the system enables Elena to benefit from the app’s health tracking and notifications, while Daniel prepares for the app’s final review and publication on the ALFRED marketplace. Their interaction—marked by Elena’s search for empowerment and Daniel’s insistence on control—illustrates the complex dynamics between developers and older adults striving to make technology both effective and respectful.",
+  "personas": [
+    "P-002",
+    "P-001"
+  ]
+}

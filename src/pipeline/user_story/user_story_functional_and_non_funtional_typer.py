@@ -4,12 +4,8 @@ import json
 from pathlib import Path
 
 from pipeline.user_story.user_story_loader import UserStory, UserStoryLoader
-from pipeline.utils import (
-    load_system_summary,
-    load_user_story_guidelines,
-    get_llm_response,
-    USER_STORY_DIR
-)
+from pipeline.utils import Utils
+
 
 def build_classification_prompt(system_summary: str, user_story_summary: str, user_story: UserStory) -> str:
     return f"""You are a Requirement Engineer, who specializes in Identifying Functional/Non-Functional requirement(s).
@@ -28,10 +24,10 @@ Summary: {user_story.summary}
 Please classify this user story as either "Functional" or "Non-Functional". Focus on the *summary* to guide your decision. 
 Strictly, only return one of the two options. Do not include any additional text or commentary. Do NOT use any markdown, bold, italic, or special formatting in your response."""
 
-def classify_user_story_type(story: UserStory, system_summary: str, user_story_summary: str) -> str:
+def classify_user_story_type(story: UserStory, system_summary: str, user_story_summary: str, utils: Utils) -> str:
     prompt = build_classification_prompt(system_summary, user_story_summary, story)
-    response = get_llm_response(prompt)
-    
+    response = utils.get_llm_response(prompt)
+
     if response:
         response_clean = response.strip().lower()
         
@@ -43,8 +39,10 @@ def classify_user_story_type(story: UserStory, system_summary: str, user_story_s
     return "Unknown"
 
 def update_user_stories_with_type():
-    system_summary = load_system_summary()
-    user_story_summary = load_user_story_guidelines()
+    utils = Utils()
+
+    system_summary = utils.load_system_context()
+    user_story_summary = utils.load_user_story_guidelines()
 
     loader = UserStoryLoader()
     loader.load_all_user_stories()
@@ -66,7 +64,7 @@ def update_user_stories_with_type():
     print(f"🔍 Classifying {len(all_stories)} user stories by type...")
 
     for story in all_stories:
-        story_type = classify_user_story_type(story, system_summary, user_story_summary)
+        story_type = classify_user_story_type(story, system_summary, user_story_summary, utils)
         story.type = story_type
         print(f"   ➤ {story.title[:40]}... → {story_type}")
 

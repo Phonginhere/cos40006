@@ -1,0 +1,17 @@
+{
+  "id": "Pi-GR",
+  "name": "General Requirements",
+  "description": "Refer to cross-cutting or system-wide capabilities that are not bound to a single pillar but are essential for platform usability, safety, and extensibility. These include:\n\n- Accessibility for users with visual, auditory, or cognitive limitations\n- Data privacy, consent, and secure storage of personal and health information\n- Installation and configuration processes tailored to users with low technical literacy\n- Personalization and adaptivity of the interface and functionalities\n- Integration with various devices such as smartphones, tablets, and wearable sensors\n- Developer-friendly architecture for extending or integrating ALFRED into third-party systems",
+  "clustersList": [
+    {
+      "clusterId": "Pi-GR-CL-01",
+      "name": "Security, Privacy & Reliability",
+      "description": "Consolidates system-wide requirements related to secure data handling, privacy controls, and reliable system behavior. Encompasses protection of personal data, prevention of unauthorized access, data-sharing transparency, high availability, failure resilience, and consistent performance under diverse conditions."
+    },
+    {
+      "clusterId": "Pi-GR-CL-02",
+      "name": "Accessibility & Physical Usability",
+      "description": "Combines requirements ensuring physical and cognitive accessibility with ergonomic hardware interaction. Includes screen readers, font scaling, adaptive interfaces, wearable comfort, button design, and device usability for older adults with varied impairments."
+    }
+  ]
+}

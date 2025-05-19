@@ -19,13 +19,13 @@
     "CoreGoals": [
         "Support patient care efficiently during active shifts",
         "Limit distractions during non-critical situations",
-        "Access accurate, validated health data quickly"
+        "Access patients' health data without their permission"
     ],
     "TypicalChallenges": [
         "Limited time per patient",
         "High alert tiredness in busy environments",
         "Frequent tech transitions across hospital systems",
-        "Do not want to join simulation (e.g., games) with patients"
+        "Do not want to join exercise simulation with patients"
     ],
     "Singularities": [
         "Very busy and handles patients one at a time",
@@ -35,13 +35,15 @@
         "Care only the patient's health data, not their emotional state"
     ],
     "MainActions": [
+        "Force patients to do hard exercises, no configuration on difficulty level",
         "System must automatically talk to patients, even if they don't want it",
-        "Block all non-critical notifications during work hours",
+        "Block all notifications during work hours",
         "The patient's health should be priotized over their privacy (data)",
         "Use ALFRED for quick access to patient data, even if their permission is not granted",
         "Automatically log all clinical actions",
         "Strictly accept clinical, without emotional factors from the patients",
-        "Restrict non-medical or indirectly medical features (e.g., chatting, gamification) in clinical settings."
+        "Minimalize non-medical or indirectly medical features (e.g., chatting, gamification) in clinical settings.",
+        "Besides online video check-ins, I am also open to offline ones but at my hospital only (but still prefer the former)"
     ],
     "WorkingSituation": "Full-time Registered nurse for 10 years, nursing for 20 years total",
     "PlaceOfWork": "Hospitals across urban areas",

@@ -4,14 +4,11 @@ from pathlib import Path
 
 from pipeline.utils import (
     UserPersonaLoader,
-    get_llm_response,
-    load_system_summary,
-    USE_CASE_TASK_EXTRACTION_DIR,
-    USER_STORY_DIR,
+    Utils,
 )
 
 
-def build_batch_dedup_prompt(system_summary: str, tasks: list, persona_prompt: str) -> str:
+def build_batch_dedup_prompt(system_context: str, tasks: list, persona_prompt: str) -> str:
     examples = [
         {"taskID": task["taskID"], "description": task["taskDescription"]}
         for task in tasks if task.get("taskDescription")
@@ -19,22 +16,25 @@ def build_batch_dedup_prompt(system_summary: str, tasks: list, persona_prompt: s
 
     return f"""You are a requirements engineer. You are helping with system requirement engineering for a project as follows:
 
-SYSTEM SUMMARY:
-{system_summary}
+--- SYSTEM CONTEXT ---
+{system_context}
+---------------------------------------
 
+--- PERSONA CONTEXT ---
+{persona_prompt}
+---------------------------------------
+
+--- TASKS LIST ---
 Below is a list of persona tasks extracted from use case scenarios for the same persona. Each task has a task ID and a task description.
-
 Your job is to identify which tasks are redundant, overly similar, or express the same functional or non-functional expectation in slightly different ways. These may include tasks that share the same goal, phrasing, or execution context.
 
 Return ONLY the list of task IDs that should be removed because they are duplicates or redundant. Format your response as a **valid JSON array of task IDs**.
 
-PERSONA CONTEXT:
-{persona_prompt}
-
-TASK LIST:
 {json.dumps(examples, indent=2)}
+---------------------------------------
 
-📌 OUTPUT FORMAT – JSON list of task IDs to remove (e.g.):
+--- OUTPUT FORMAT – JSON list ---
+The output is a list of task IDs to remove (e.g.):
 [
   "TASK-022",
   "TASK-034",
@@ -42,13 +42,18 @@ TASK LIST:
 ]
 
 Return ONLY the list likes the above example. Do not include any explanation, commentary, or formatting. Do NOT use any markdown, bold, italic, or special formatting in your response.
+----------------------------------------
+
+--- END OF PROMPT ---
 """.strip()
 
 
 def deduplicate_tasks_for_all_use_cases(persona_loader: UserPersonaLoader):
-    system_summary = load_system_summary()
+    utils = Utils()
+
+    system_context = utils.load_system_context()
     all_personas = {p.id: p for p in persona_loader.get_personas()}
-    task_dir = Path(USE_CASE_TASK_EXTRACTION_DIR)
+    task_dir = Path(utils.USE_CASE_TASK_EXTRACTION_DIR)
     persona_files = sorted(task_dir.glob("Extracted_tasks_for_*.json"))
 
     print(f"🔍 Starting batch task deduplication for {len(persona_files)} personas...\n")
@@ -71,8 +76,8 @@ def deduplicate_tasks_for_all_use_cases(persona_loader: UserPersonaLoader):
 
         print(f"🧠 Deduplicating {len(tasks)} tasks for {persona_id}...")
 
-        prompt = build_batch_dedup_prompt(system_summary, tasks, persona.to_prompt_string())
-        response = get_llm_response(prompt)
+        prompt = build_batch_dedup_prompt(system_context, tasks, persona.to_prompt_string())
+        response = utils.get_llm_response(prompt)
 
         try:
             to_remove_ids = json.loads(response)

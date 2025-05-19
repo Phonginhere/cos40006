@@ -8,19 +8,14 @@ from typing import List
 from pipeline.use_case.use_case_loader import UseCaseLoader
 from pipeline.utils import (
     UserPersonaLoader,
-    get_llm_response, 
-    load_system_summary, 
-    load_use_case_guidelines, 
-    load_user_group_guidelines, 
-    load_all_user_group_guidelines, 
-    USE_CASE_DIR
+    Utils
 )
 
 # ========== Step b: Prompt Constructor ==========
 def build_raw_use_case_prompt(
     uc,
     all_personas: dict,
-    system_summary: str,
+    system_context: str,
     uc_guidelines: str,
     user_groups_guidelines: dict,
     prev_names: List[str],
@@ -43,8 +38,8 @@ You are a system requirements engineer. You are generating a suitable name and a
 
 Firstly, below is the summary of the system:
 
---- SYSTEM SUMMARY ---
-{system_summary}
+--- SYSTEM CONTEXT ---
+{system_context}
 
 --- USER GROUP CONTEXT ---
 Here are summaries of user groups involved in this use case:
@@ -80,11 +75,13 @@ Strictly return only the JSON object. Do not include any additional text or comm
 
 # ========== Step b: Main Entry - Generate Raw Use Cases ==========
 def generate_raw_use_cases(persona_loader: UserPersonaLoader) -> None:
-    os.makedirs(USE_CASE_DIR, exist_ok=True)
+    utils = Utils()
+    
+    os.makedirs(utils.USE_CASE_DIR, exist_ok=True)
 
-    system_summary = load_system_summary()
-    uc_guidelines = load_use_case_guidelines()
-    user_groups_guidelines = load_all_user_group_guidelines()
+    system_context = utils.load_system_context()
+    uc_guidelines = utils.load_use_case_guidelines()
+    user_groups_guidelines = utils.load_all_user_group_descriptions()
 
     all_personas = {p.id: p for p in persona_loader.get_personas()}
     uc_loader = UseCaseLoader()
@@ -112,11 +109,11 @@ def generate_raw_use_cases(persona_loader: UserPersonaLoader) -> None:
             continue
 
         prompt = build_raw_use_case_prompt(
-            uc, all_personas, system_summary, uc_guidelines, user_groups_guidelines, existing_names
+            uc, all_personas, system_context, uc_guidelines, user_groups_guidelines, existing_names
         )
 
         print(f"\n🧠  Asking model for {uc.id} ...")
-        raw = get_llm_response(prompt)
+        raw = utils.get_llm_response(prompt)
 
         raw = re.sub(r"```.*?```", "", raw, flags=re.S)
 

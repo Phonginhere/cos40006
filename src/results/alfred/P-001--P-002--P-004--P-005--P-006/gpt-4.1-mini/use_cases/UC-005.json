@@ -1,0 +1,17 @@
+{
+  "id": "UC-005",
+  "useCaseType": "Cognitive Engagement & Stimulation (Gaming)",
+  "userGroups": [
+    "Older Adults"
+  ],
+  "pillars": [
+    "Pillar 4 - Physical & Cognitive Impairments Prevention"
+  ],
+  "name": "Personalized Cognitive Game Adaptation",
+  "description": "ALFRED provides tailored cognitive stimulation games that respect Olivia's privacy preferences and cautious attitude towards technology, while encouraging gradual engagement and mental activity suitable to her comfort level.",
+  "scenario": "Olivia, cautious and deliberate, sits quietly in her suburban living room, her ALFRED device resting on the table within easy reach. She presses the push-to-talk button, deliberately controlling when the system engages. “ALFRED, start today’s cognitive game,” she commands softly, wary of any unsolicited prompts. The system responds with a brief, polite acknowledgment and offers a gentle memory matching game tailored to her slow pace and preference for minimal challenge. Olivia appreciates that ALFRED respects her wish to avoid complex simulations and never pushes notifications about progress or added features, which she dismisses immediately if they appear.\n\nMeanwhile, Elena Rivera, living in a bustling urban apartment miles away, eagerly activates her ALFRED voice assistant without hesitation. “ALFRED, let’s try the ‘Brain Quest’ challenge,” she says with enthusiasm, welcoming the detailed explanations of game mechanics that ALFRED provides. Elena thrives on stimulation and complexity, choosing games that test both her mind and mobility. She enjoys the spontaneous social chat feature and occasionally invites friends into multiplayer sessions, relishing the social connection. Her openness to wearables means ALFRED frequently tracks her physical and cognitive engagement, sharing data freely with her network and caregivers.\n\nBack in Olivia’s home, the tension between her cautious use and Elena’s open embrace of technology is palpable through ALFRED’s system logs. Olivia’s privacy settings block nearly all data sharing, refusing to connect with informal caregivers or allow app installations, while Elena’s settings flood the system with shared updates and notifications. Olivia’s insistence on formal, carefully worded interactions contrasts sharply with Elena’s casual, informal tone, highlighting their differing comfort levels with technology and social connection.\n\nDespite these differences, ALFRED manages to accommodate both women’s needs, but Olivia remains resistant to any encouragement that might push her out of her comfort zone, often muting or dismissing suggestions that Elena finds inviting. Olivia’s guarded approach means she rarely initiates check-ins or social calls, preferring offline visits arranged on her terms, while Elena embraces every opportunity ALFRED offers for engagement and connectivity.\n\nThrough this contrast, ALFRED’s adaptive design is tested: it must tread carefully with Olivia’s privacy and control demands, offering only what she explicitly requests, while simultaneously supporting Elena’s proactive, exploratory use. The system’s flexibility allows each to engage with cognitive games in profoundly different ways—Olivia with cautious formality and minimal intrusion, Elena with enthusiastic openness and expansive interaction—revealing the challenges of serving diverse older adults with deeply contrasting attitudes toward technology and social engagement.",
+  "personas": [
+    "P-005",
+    "P-002"
+  ]
+}

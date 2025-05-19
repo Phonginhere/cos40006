@@ -4,15 +4,7 @@ from typing import Optional
 
 from pipeline.utils import (
     UserPersonaLoader,
-    USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR,
-    load_system_summary,
-    load_user_group_keys,
-    load_user_group_guidelines,
-    get_llm_response,
-    NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR,
-    FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR,
-    NON_FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR,
-    FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR,
+    Utils,
 )
 
 
@@ -35,22 +27,25 @@ def build_verification_within_one_group_prompt(
     return f"""
 You are a System Requirement Engineer. You are identifying the conflicts between two user stories belonging to a user group in the system.
 
-====================
-SYSTEM SUMMARY
-====================
+--- SYSTEM SUMMARY ---
 {system_summary}
+----------------------
 
-====================
-TASK
-====================
+--- USER GROUP GUIDELINES ---
+{user_group_guidelines}
+----------------------
+
+--- TASK ---
 You will define if there is conflict between the following user stories. Generally, two functional user stories are said to conflict if they impose directly opposing requirements on the system's behavior in the same context or condition, without allowing both to be satisfied simultaneously.
+In other words, two functional user stories contradict if their goals or constraints are clearly incompatible in a way that would be immediately obvious to an informed reader, specifically when they require different behaviors or settings in the same feature or scenario.
 
-Two functional user stories contradict if their goals or constraints are clearly incompatible in a way that would be immediately obvious to an informed reader, specifically when they require different behaviors or settings in the same feature or scenario.
-
-User story A: {userStoryASummary}
-User story B: {userStoryBSummary}
+User story 1: {userStoryASummary}
+User story 2: {userStoryBSummary}
 
 Strictly respond "Yes" or "No" only. Do not include commentary or extra text. Do NOT use any markdown, bold, italic, or special formatting in your response.
+-----------------------
+
+--- END OF PROMPT ---
 """.strip()
 
 def build_verification_across_two_group_prompt(
@@ -61,34 +56,30 @@ def build_verification_across_two_group_prompt(
     userStoryBSummary: str,
 ) -> str:
     return f"""
-You are a System Requirement Engineer. You are identifying the conflicts between two user stories belonging to two different user groups in the system.
+You are a System Requirement Engineer. You are identifying the conflicts between two user stories belonging to two different user groups in a software system.
 
-====================
-SYSTEM SUMMARY
-====================
+--- SYSTEM SUMMARY ---
 {system_summary}
+----------------------
 
-====================
-USER GROUP A GUIDELINES
+--- USER GROUPS GUIDELINES ---
+- User Group A:
 {user_group_A_guidelines}
-====================
 
-====================
-USER GROUP B GUIDELINES
+- User Group B:
 {user_group_B_guidelines}
-====================
+----------------------
 
-====================
-TASK
-====================
+--- TASK ---
 You will define if there is conflict between the following user stories. In general cases, two functional user stories contradict if their goals or constraints are clearly incompatible in a way that would be immediately obvious to an informed reader, specifically when they require different behaviors or settings in the same feature or scenario.
-However, since the two following user stories belong to different user groups, you **sometimes** should be **a bit tolerant**, meaning you should consider the possibility of a conflict being acceptable if it is not a direct contradiction but rather a difference in preferences or priorities between the two groups.
-On top of that, normally, if you think the contexts provided are still **completely** not relevant to each other, or **supporing/aligning** to each other, you can say that there is no conflict.
 
-User story A: {userStoryASummary}
-User story B: {userStoryBSummary}
+User story a (User group A): {userStoryASummary}
+User story b (User group B): {userStoryBSummary}
 
 Strictly respond "Yes" or "No" only. Do not include commentary or extra text. Do NOT use any markdown, bold, italic, or special formatting in your response.
+-----------------------
+
+--- END OF PROMPT ---
 """.strip()
 
 
@@ -97,18 +88,20 @@ def verify_conflicts(
     functional: bool = True,
     within_one_group: bool = True,
 ):
+    utils = Utils()
+
     if within_one_group:
         if functional:
-            conflict_dir = FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR
+            conflict_dir = utils.FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR
         else:
-            conflict_dir = NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR
+            conflict_dir = utils.NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR
     else:
         if functional:
-            conflict_dir = FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR
+            conflict_dir = utils.FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR
         else:
-            conflict_dir = NON_FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR
+            conflict_dir = utils.NON_FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR
 
-    system_summary = load_system_summary()
+    system_summary = utils.load_system_summary()
     all_personas = {p.id: p for p in persona_loader.get_personas()}
 
     conflict_files = [f for f in os.listdir(conflict_dir) if f.endswith(".json")]
@@ -131,14 +124,14 @@ def verify_conflicts(
         # so parse user groups from filename
         if within_one_group:
             user_group_name = conflicts[0].get("userGroup", "")
-            user_group_keys = load_user_group_keys()
+            user_group_keys = utils.load_user_group_keys()
             user_group_key = user_group_keys.get(user_group_name)
             if not user_group_key:
                 print(f"❌ Unknown user group: {user_group_name}")
                 user_group_guidelines = "(Missing user group guidelines)"
             else:
                 try:
-                    user_group_guidelines = load_user_group_guidelines(user_group_key)
+                    user_group_guidelines = utils.load_user_group_description(user_group_key)
                 except Exception as e:
                     print(f"⚠️ Failed to load user group guidelines for {user_group_name}: {e}")
                     user_group_guidelines = "(Missing user group guidelines)"
@@ -152,8 +145,8 @@ def verify_conflicts(
                     print(f"⚠️ Cannot parse user groups from filename: {conflict_file}")
                     continue
                 group_key_a, group_key_b = parts
-                user_group_guidelines_a = load_user_group_guidelines(group_key_a)
-                user_group_guidelines_b = load_user_group_guidelines(group_key_b)
+                user_group_guidelines_a = utils.load_user_group_description(group_key_a)
+                user_group_guidelines_b = utils.load_user_group_description(group_key_b)
             except Exception as e:
                 print(f"⚠️ Failed to load user group guidelines for groups in {conflict_file}: {e}")
                 user_group_guidelines_a = "(Missing user group guidelines)"
@@ -183,7 +176,7 @@ def verify_conflicts(
                 )
 
             try:
-                response = get_llm_response(prompt).strip().lower()
+                response = utils.get_llm_response(prompt).strip().lower()
             except Exception as e:
                 print(f"⚠️ LLM call failed for conflict {conflict.get('conflictId')}: {e}")
                 continue

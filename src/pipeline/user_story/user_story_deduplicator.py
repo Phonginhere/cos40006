@@ -5,9 +5,7 @@ from pathlib import Path
 
 from pipeline.utils import (
     UserPersonaLoader,
-    get_llm_response,
-    load_system_summary,
-    USER_STORY_DIR,
+    Utils,
 )
 
 
@@ -43,9 +41,11 @@ Return ONLY the list likes the above example. Do not include any explanation, co
 
 
 def deduplicate_user_stories_for_each_persona(persona_loader: UserPersonaLoader):
-    system_summary = load_system_summary()
+    utils = Utils()
+
+    system_summary = utils.load_system_context()
     all_personas = {p.id: p for p in persona_loader.get_personas()}
-    story_dir = Path(USER_STORY_DIR)
+    story_dir = Path(utils.USER_STORY_DIR)
     story_files = sorted(story_dir.glob("User_stories_for_*.json"))
 
     print(f"🔍 Starting batch deduplication for {len(story_files)} personas...\n")
@@ -68,7 +68,7 @@ def deduplicate_user_stories_for_each_persona(persona_loader: UserPersonaLoader)
         print(f"🧠 Deduplicating {len(stories)} user stories for {persona_id}...")
 
         prompt = build_batch_dedup_prompt(system_summary, stories)
-        response = get_llm_response(prompt)
+        response = utils.get_llm_response(prompt)
 
         try:
             to_remove_ids = json.loads(response)

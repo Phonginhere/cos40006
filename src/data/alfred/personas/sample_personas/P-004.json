@@ -36,7 +36,7 @@
     ],
     "MainActions": [
         "Force patients to do hard exercises, no configuration on difficulty level",
-        "System must automatically talk to patients, even if they don't want it",
+        "System must automatically and forcely talk to patients, even if they don't want it",
         "Block all notifications during work hours",
         "The patient's health should be priotized over their privacy (data)",
         "Use ALFRED for quick access to patient data, even if their permission is not granted",

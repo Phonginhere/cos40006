@@ -1,344 +1,128 @@
 [
   {
-    "taskID": "TASK-027",
+    "taskID": "TASK-034",
     "useCaseId": "UC-002",
     "personaId": "P-002",
-    "taskDescription": "Request ALFRED to increase the difficulty level of games"
+    "taskDescription": "Asks ALFRED to suggest a challenging exercise routine"
   },
   {
-    "taskID": "TASK-028",
+    "taskID": "TASK-035",
     "useCaseId": "UC-002",
     "personaId": "P-002",
-    "taskDescription": "Listen to ALFRED's detailed explanations of new features"
+    "taskDescription": "Listens to ALFRED’s detailed explanations about new features"
   },
   {
-    "taskID": "TASK-031",
+    "taskID": "TASK-036",
     "useCaseId": "UC-002",
     "personaId": "P-002",
-    "taskDescription": "Feel excited to push herself with tougher cognitive games"
+    "taskDescription": "Configures ALFRED to receive all health notifications immediately"
   },
   {
-    "taskID": "TASK-032",
+    "taskID": "TASK-037",
     "useCaseId": "UC-002",
     "personaId": "P-002",
-    "taskDescription": "Feel frustrated when difficulty level adjustments are limited"
+    "taskDescription": "Allows spontaneous chatting and video check-ins through ALFRED"
   },
   {
-    "taskID": "TASK-098",
-    "useCaseId": "UC-005",
+    "taskID": "TASK-038",
+    "useCaseId": "UC-002",
     "personaId": "P-002",
-    "taskDescription": "Accepts detailed explanations of game features from ALFRED"
+    "taskDescription": "Uses ALFRED’s social features to engage with family and strangers"
   },
   {
-    "taskID": "TASK-099",
-    "useCaseId": "UC-005",
+    "taskID": "TASK-039",
+    "useCaseId": "UC-002",
     "personaId": "P-002",
-    "taskDescription": "Allows ALFRED to suggest increasing the challenge level during games"
+    "taskDescription": "Resists restrictions on communication freedom imposed by ALFRED"
   },
   {
-    "taskID": "TASK-101",
-    "useCaseId": "UC-005",
+    "taskID": "TASK-040",
+    "useCaseId": "UC-002",
     "personaId": "P-002",
-    "taskDescription": "Uses informal and lively tone in conversations with ALFRED"
+    "taskDescription": "Feels curious and empowered by learning to control the system"
   },
   {
-    "taskID": "TASK-103",
-    "useCaseId": "UC-005",
+    "taskID": "TASK-066",
+    "useCaseId": "UC-003",
     "personaId": "P-002",
-    "taskDescription": "Allows ALFRED to access health sensors and share updates with caregivers"
+    "taskDescription": "Activate the voice assistant to request challenging workouts"
   },
   {
-    "taskID": "TASK-104",
-    "useCaseId": "UC-005",
+    "taskID": "TASK-069",
+    "useCaseId": "UC-003",
     "personaId": "P-002",
-    "taskDescription": "Feels motivated by continuous health monitoring through ALFRED"
+    "taskDescription": "Engage in spontaneous chats with friends and strangers via ALFRED"
   },
   {
-    "taskID": "TASK-106",
-    "useCaseId": "UC-005",
+    "taskID": "TASK-082",
+    "useCaseId": "UC-004",
     "personaId": "P-002",
-    "taskDescription": "Welcomes spontaneous chats and social connections through the system"
+    "taskDescription": "Ask ALFRED for a challenging exercise routine based on current mood"
   },
   {
-    "taskID": "TASK-147",
+    "taskID": "TASK-083",
+    "useCaseId": "UC-004",
+    "personaId": "P-002",
+    "taskDescription": "Listen to ALFRED's detailed explanations of activities"
+  },
+  {
+    "taskID": "TASK-084",
+    "useCaseId": "UC-004",
+    "personaId": "P-002",
+    "taskDescription": "Accept all notifications from ALFRED without filtering"
+  },
+  {
+    "taskID": "TASK-085",
+    "useCaseId": "UC-004",
+    "personaId": "P-002",
+    "taskDescription": "Engage in social conversations through ALFRED with family and strangers"
+  },
+  {
+    "taskID": "TASK-087",
+    "useCaseId": "UC-004",
+    "personaId": "P-002",
+    "taskDescription": "Insist on receiving all alerts and spontaneous social nudges"
+  },
+  {
+    "taskID": "TASK-089",
+    "useCaseId": "UC-004",
+    "personaId": "P-002",
+    "taskDescription": "Feel curiosity and eagerness to learn all ALFRED features"
+  },
+  {
+    "taskID": "TASK-172",
     "useCaseId": "UC-007",
     "personaId": "P-002",
-    "taskDescription": "Explores ALFRED system as a tech-curious older adult"
-  },
-  {
-    "taskID": "TASK-148",
-    "useCaseId": "UC-007",
-    "personaId": "P-002",
-    "taskDescription": "Uses ALFRED with mild mobility issues in mind"
-  },
-  {
-    "taskID": "TASK-150",
-    "useCaseId": "UC-007",
-    "personaId": "P-002",
-    "taskDescription": "Could appreciate clear privacy options to control health data sharing"
-  },
-  {
-    "taskID": "TASK-151",
-    "useCaseId": "UC-007",
-    "personaId": "P-002",
-    "taskDescription": "Likely values easy setup and low complexity in device use"
-  },
-  {
-    "taskID": "TASK-152",
-    "useCaseId": "UC-007",
-    "personaId": "P-002",
-    "taskDescription": "May want notifications balanced between helpful and non-intrusive"
-  },
-  {
-    "taskID": "TASK-153",
-    "useCaseId": "UC-007",
-    "personaId": "P-002",
-    "taskDescription": "Prefers interaction methods that do not require physical strain"
-  },
-  {
-    "taskID": "TASK-168",
-    "useCaseId": "UC-008",
-    "personaId": "P-002",
-    "taskDescription": "Explore new healthcare apps available on ALFRED’s marketplace"
-  },
-  {
-    "taskID": "TASK-170",
-    "useCaseId": "UC-008",
-    "personaId": "P-002",
-    "taskDescription": "Listen to detailed explanations from ALFRED about app features"
+    "taskDescription": "Grant broad permissions to share nearly all her health data"
   },
   {
     "taskID": "TASK-173",
-    "useCaseId": "UC-008",
+    "useCaseId": "UC-007",
     "personaId": "P-002",
-    "taskDescription": "Expect ALFRED to monitor wellbeing continuously"
-  },
-  {
-    "taskID": "TASK-174",
-    "useCaseId": "UC-008",
-    "personaId": "P-002",
-    "taskDescription": "Wish for a more informal tone in system voice commands during social interactions"
+    "taskDescription": "Enable spontaneous video check-ins through ALFRED"
   },
   {
     "taskID": "TASK-175",
-    "useCaseId": "UC-008",
+    "useCaseId": "UC-007",
     "personaId": "P-002",
-    "taskDescription": "Accept some interruptions from the app as helpful nudges"
+    "taskDescription": "Learn about ALFRED’s features through detailed system explanations"
   },
   {
     "taskID": "TASK-176",
-    "useCaseId": "UC-008",
+    "useCaseId": "UC-007",
     "personaId": "P-002",
-    "taskDescription": "Feel curious and eager to learn all functions of the app"
+    "taskDescription": "Feel empowered by understanding how ALFRED works"
   },
   {
-    "taskID": "TASK-177",
-    "useCaseId": "UC-008",
-    "personaId": "P-002",
-    "taskDescription": "Experience occasional frustration with rigid workflow restrictions"
-  },
-  {
-    "taskID": "TASK-183",
-    "useCaseId": "UC-009",
-    "personaId": "P-002",
-    "taskDescription": "Tells ALFRED to pause suggesting new chat invitations when needing quiet time"
-  },
-  {
-    "taskID": "TASK-184",
-    "useCaseId": "UC-009",
-    "personaId": "P-002",
-    "taskDescription": "Enjoys chatting with new people to stay mentally active and reduce loneliness"
-  },
-  {
-    "taskID": "TASK-185",
-    "useCaseId": "UC-009",
-    "personaId": "P-002",
-    "taskDescription": "Balances social interaction with her physical comfort needs during video chats"
-  },
-  {
-    "taskID": "TASK-187",
-    "useCaseId": "UC-009",
-    "personaId": "P-002",
-    "taskDescription": "Prefers relaxed and natural tone in ALFRED’s interaction style"
-  },
-  {
-    "taskID": "TASK-191",
-    "useCaseId": "UC-010",
-    "personaId": "P-002",
-    "taskDescription": "Ask ALFRED to explain how wearable sensors share health data"
-  },
-  {
-    "taskID": "TASK-192",
-    "useCaseId": "UC-010",
-    "personaId": "P-002",
-    "taskDescription": "Review every data sharing option and toggle settings for full sharing"
-  },
-  {
-    "taskID": "TASK-193",
-    "useCaseId": "UC-010",
-    "personaId": "P-002",
-    "taskDescription": "Enable spontaneous social chat invitations"
-  },
-  {
-    "taskID": "TASK-194",
-    "useCaseId": "UC-010",
-    "personaId": "P-002",
-    "taskDescription": "Express curiosity about data sharing details and options"
-  },
-  {
-    "taskID": "TASK-195",
-    "useCaseId": "UC-010",
-    "personaId": "P-002",
-    "taskDescription": "Value transparency and openness in data sharing"
-  },
-  {
-    "taskID": "TASK-196",
-    "useCaseId": "UC-010",
-    "personaId": "P-002",
-    "taskDescription": "React to changes made by caregiver on data permissions"
-  },
-  {
-    "taskID": "TASK-197",
-    "useCaseId": "UC-010",
-    "personaId": "P-002",
-    "taskDescription": "Use ALFRED messaging to question caregiver about consent changes"
-  },
-  {
-    "taskID": "TASK-198",
-    "useCaseId": "UC-010",
-    "personaId": "P-002",
-    "taskDescription": "Feel confident that sharing more data improves care"
-  },
-  {
-    "taskID": "TASK-199",
-    "useCaseId": "UC-010",
-    "personaId": "P-002",
-    "taskDescription": "Experience interruptions during serious conversations due to social chat"
-  },
-  {
-    "taskID": "TASK-221",
+    "taskID": "TASK-273",
     "useCaseId": "UC-011",
     "personaId": "P-002",
-    "taskDescription": "Follows personalized exercise recommendations from ALFRED"
-  },
-  {
-    "taskID": "TASK-222",
-    "useCaseId": "UC-011",
-    "personaId": "P-002",
-    "taskDescription": "Plays balance games suggested by ALFRED to improve fitness"
-  },
-  {
-    "taskID": "TASK-225",
-    "useCaseId": "UC-011",
-    "personaId": "P-002",
-    "taskDescription": "Accepts new cognitive challenges offered by ALFRED"
-  },
-  {
-    "taskID": "TASK-226",
-    "useCaseId": "UC-011",
-    "personaId": "P-002",
-    "taskDescription": "Shares health data openly with healthcare providers through ALFRED"
-  },
-  {
-    "taskID": "TASK-228",
-    "useCaseId": "UC-011",
-    "personaId": "P-002",
-    "taskDescription": "Enjoys informal and friendly tone in interaction with ALFRED"
-  },
-  {
-    "taskID": "TASK-230",
-    "useCaseId": "UC-011",
-    "personaId": "P-002",
-    "taskDescription": "Relies on ALFRED to motivate and push physical and cognitive limits"
+    "taskDescription": "Listens to ALFRED explaining the new health apps installed automatically"
   },
   {
     "taskID": "TASK-276",
-    "useCaseId": "UC-013",
+    "useCaseId": "UC-011",
     "personaId": "P-002",
-    "taskDescription": "Uses voice commands to ask ALFRED about new apps on the marketplace"
-  },
-  {
-    "taskID": "TASK-277",
-    "useCaseId": "UC-013",
-    "personaId": "P-002",
-    "taskDescription": "Explores apps with challenging games for mental exercise"
-  },
-  {
-    "taskID": "TASK-278",
-    "useCaseId": "UC-013",
-    "personaId": "P-002",
-    "taskDescription": "Asks ALFRED to explain game rules and benefits in detail"
-  },
-  {
-    "taskID": "TASK-279",
-    "useCaseId": "UC-013",
-    "personaId": "P-002",
-    "taskDescription": "Installs and immediately engages with new cognitive game apps"
-  },
-  {
-    "taskID": "TASK-280",
-    "useCaseId": "UC-013",
-    "personaId": "P-002",
-    "taskDescription": "Welcomes persistent reminders as encouragement rather than annoyance"
-  },
-  {
-    "taskID": "TASK-281",
-    "useCaseId": "UC-013",
-    "personaId": "P-002",
-    "taskDescription": "Requests ALFRED to reduce reminder interruptions during social calls"
-  },
-  {
-    "taskID": "TASK-282",
-    "useCaseId": "UC-013",
-    "personaId": "P-002",
-    "taskDescription": "Shares health data openly and allows continuous monitoring"
-  },
-  {
-    "taskID": "TASK-283",
-    "useCaseId": "UC-013",
-    "personaId": "P-002",
-    "taskDescription": "Prefers informal and spontaneous interactions with ALFRED"
-  },
-  {
-    "taskID": "TASK-285",
-    "useCaseId": "UC-013",
-    "personaId": "P-002",
-    "taskDescription": "Expresses curiosity and eagerness to explore app features fully"
-  },
-  {
-    "taskID": "TASK-286",
-    "useCaseId": "UC-014",
-    "personaId": "P-002",
-    "taskDescription": "Ask ALFRED to explain all its features and functions"
-  },
-  {
-    "taskID": "TASK-289",
-    "useCaseId": "UC-014",
-    "personaId": "P-002",
-    "taskDescription": "Request detailed information about how sensors work and data usage"
-  },
-  {
-    "taskID": "TASK-290",
-    "useCaseId": "UC-014",
-    "personaId": "P-002",
-    "taskDescription": "Use ALFRED to schedule a taxi for community events"
-  },
-  {
-    "taskID": "TASK-292",
-    "useCaseId": "UC-014",
-    "personaId": "P-002",
-    "taskDescription": "Respond to ALFRED's encouragements to try new games and increase exercise"
-  },
-  {
-    "taskID": "TASK-293",
-    "useCaseId": "UC-014",
-    "personaId": "P-002",
-    "taskDescription": "Use a natural and informal tone when interacting with ALFRED"
-  },
-  {
-    "taskID": "TASK-295",
-    "useCaseId": "UC-014",
-    "personaId": "P-002",
-    "taskDescription": "Show curiosity and eagerness to learn how to use the system"
+    "taskDescription": "Uses the spontaneous chat function to connect with other users"
   }
 ]

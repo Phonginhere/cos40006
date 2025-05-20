@@ -1,37 +1,42 @@
 [
   {
     "conflictType": "Mutually Exclusive",
-    "conflictDescription": "User Story A wants ALFRED to explain features slowly and clearly for learning, while User Story B wants ALFRED not to provide detailed explanations and avoid extra information. These goals cannot both be met at the same time.",
+    "conflictDescription": "User Story A wants ALFRED to be always active and listening all day without user action, but User Story B requires ALFRED to listen only when the user activates push-to-talk, which means ALFRED must not listen otherwise. These two cannot be true at the same time.",
     "conflictingNfrPairs": [
       [
-        "Explain ALFRED features slowly during use",
-        "Do not provide detailed explanations of features"
+        "ALFRED is always ready to respond to user commands",
+        "ALFRED does not listen without push-to-talk activation"
       ],
       [
-        "Explain ALFRED features clearly to avoid confusion",
-        "Allow users to use ALFRED without extra information"
+        "ALFRED stays active throughout the day without user action",
+        "Push-to-talk works only when the user activates it"
+      ],
+      [
+        "ALFRED provides continuous support without delays",
+        "ALFRED does not listen without push-to-talk activation"
       ]
     ],
-    "conflictId": "NFCWI-002",
+    "conflictId": "NFCWI-001",
     "personaAId": "P-002",
     "personaBId": "P-005",
     "userGroup": "Older Adults",
-    "userStoryAId": "US-051",
-    "userStoryBId": "US-077",
-    "userStoryASummary": "As an older person I want ALFRED to explain its features slowly and clearly so I can learn without feeling lost.",
-    "userStoryBSummary": "As an older person I want ALFRED not to explain its features in detail because I just want to use it without extra information.",
-    "cluster": "Accessibility & Physical Usability",
+    "userStoryAId": "US-036",
+    "userStoryBId": "US-092",
+    "userStoryASummary": "As an older adult, I want ALFRED to be always ready and active, so I feel supported without doing anything.",
+    "userStoryBSummary": "As an older adult, I want to use push-to-talk only when I ask, so I feel safe and control ALFRED's listening.",
+    "cluster": "User-Driven Interaction Assistant",
     "generalResolutionType": "Update both user stories",
-    "resolutionDescription": "Adjusted both stories to apply different explanation modes based on user preference and learning stage, allowing clear slow explanations when learning and minimal info when experienced.",
-    "newUserStoryASummary": "As an older adult learning ALFRED, I want it to explain features slowly and clearly, so I can understand without confusion.",
+    "resolutionDescription": "We update both stories to allow ALFRED to listen continuously but with privacy options. Story A keeps ALFRED always ready but with controls. Story B adds push-to-talk as a privacy mode, not the only way to listen.",
+    "newUserStoryASummary": "As an older adult, I want ALFRED to be always ready to respond, so I feel supported without delays.",
     "newUserStoryADecomposition": [
-      "Provide slow explanations of features during learning",
-      "Use clear language to avoid confusion"
+      "ALFRED listens continuously for commands",
+      "ALFRED responds without user activation",
+      "ALFRED allows privacy control over listening"
     ],
-    "newUserStoryBSummary": "As an experienced older adult, I want ALFRED to avoid detailed explanations and provide only necessary information, so I can use it quickly.",
+    "newUserStoryBSummary": "As an older adult, I want ALFRED to listen only when I activate push-to-talk or privacy mode is off, so I feel safe and in control.",
     "newUserStoryBDecomposition": [
-      "Do not provide detailed feature explanations for experienced users",
-      "Limit information to what is necessary for task completion"
+      "ALFRED listens only after push-to-talk activation or if privacy mode is off",
+      "ALFRED does not listen when privacy mode is on and push-to-talk is inactive"
     ]
   }
 ]

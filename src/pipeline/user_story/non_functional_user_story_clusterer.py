@@ -106,7 +106,7 @@ def cluster_non_functional_user_stories(user_story_loader: UserStoryLoader = Non
 
         print(f"🔍 Clustering {story.id} ({story.title})")
         pillar = story.pillar
-        clusters = utils.load_non_functional_user_story_cluster_summary(pillar)
+        clusters = utils.load_non_functional_user_story_clusters_by_each_pillar(pillar)
         cluster_name = utils.get_llm_response(build_prompt_to_cluster_non_functional_user_story(story, system_context, story_guidelines, clusters)).strip()
         if cluster_name:
             update_user_story_cluster_by_persona(story.id, story.persona, cluster_name, utils)

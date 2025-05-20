@@ -1,0 +1,24 @@
+{
+  "id": "UC-015",
+  "useCaseType": "Notification Preferences & Behavioral Nudging",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Developers and App Creators",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Developer Core",
+    "General Requirements",
+    "Pillar 1 - User-Driven Interaction Assistant",
+    "Pillar 3 - Effective & Personalized Care"
+  ],
+  "name": "Personalized Notification and Consent Management",
+  "description": "This use case enables older adults, caregivers, and developers to customize notification settings and behavioral nudges in ALFRED, balancing user autonomy, privacy preferences, and care effectiveness. It ensures notifications are tailored, respectful, and consent-driven to accommodate diverse needs and contexts.",
+  "scenario": "Olivia sits in her modest suburban living room, cautiously eyeing the ALFRED device on her side table. She has long since disabled spontaneous voice prompts and insists that ALFRED only respond when she explicitly activates the push-to-talk mode. Today, when ALFRED gently tries to remind her about a scheduled nurse check-in, Olivia replies curtly, “Confirm appointment, but no alerts before then.” She has meticulously blocked almost all notifications, especially those nudging her toward physical exercises or social activities, which she finds overwhelming and intrusive. Her privacy settings are strict—no data sharing with anyone except her nurse, and even then, only after her explicit consent. She firmly rejects any app installations that might attempt to sneak in through system updates, viewing them as unwelcome intrusions into her carefully managed routine.\n\nMeanwhile, Sarah Thompson juggles her day caring for several elderly clients, including Olivia. She respects Olivia’s rigid boundaries but finds it increasingly challenging to maintain engagement when ALFRED filters out nearly all notifications and informal messages. Sarah tries to schedule a video call with Olivia, but the system politely blocks it until Olivia herself schedules the check-in. Sarah feels caught between wanting to offer emotional support and honoring Olivia’s preference for strictly formal, minimal contact. She relies on ALFRED’s caregiver dashboard to monitor limited health data Olivia allows shared, but the lack of spontaneous updates leaves Sarah uneasy. She wishes ALFRED could encourage Olivia more assertively to accept check-ins and health nudges, but Sarah knows pushing too hard risks alienating her client.\n\nIn a metropolitan hospital, Mike Johnson logs into ALFRED during a hectic shift. He frowns at the sparse data available from Olivia’s profile, constrained by her privacy controls. Mike believes that for effective care, continuous sensor data and automatic sharing are essential but recognizes the system must respect user consent. Still, he finds the inability to access critical health information frustrating and worries it could compromise patient safety. When ALFRED attempts to initiate a video check-in with Olivia, Mike declines, frustrated by the insistence on home-only, offline visits that Olivia demands. He silences non-critical notifications, focusing solely on urgent clinical alerts, and sees little value in emotional or social features that the system limits heavily in Olivia’s case.\n\nFrom his rural home office, Daniel Chen reviews system logs and user feedback. As a developer, he feels torn between respecting Olivia’s stringent settings and implementing his design philosophy, which favors proactive nudging and automatic data collection to maximize safety and health outcomes. Daniel has programmed ALFRED to push notifications and app updates assertively, yet Olivia’s device repeatedly blocks these attempts. He debates whether to override user preferences for the sake of consistency but hesitates, aware that forcing changes could erode trust. Daniel’s vision of an assertive, integrated assistant clashes directly with Olivia’s cautious, minimalist approach. He updates backend rules to respect the user’s formal communication style but reluctantly accepts that this limits his ability to deploy certain features.\n\nTogether, these interactions reveal a palpable tension: Olivia’s guarded control and wariness of technology severely restrict data sharing and unsolicited contact; Sarah’s caregiving efforts are constrained by limited engagement and sparse information; Mike’s clinical priorities and need for comprehensive monitoring conflict with privacy-driven restrictions; and Daniel’s push for system-wide innovation meets the stubborn reality of a user unwilling to relinquish autonomy. ALFRED stands at the crossroads of these diverging needs, mediating a complex, uneasy balance between user consent, care effectiveness, and developer ambitions.",
+  "personas": [
+    "P-005",
+    "P-006",
+    "P-004",
+    "P-001"
+  ]
+}

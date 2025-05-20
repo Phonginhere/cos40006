@@ -1,56 +1,176 @@
 [
   {
-    "taskID": "TASK-041",
-    "useCaseId": "UC-002",
+    "taskID": "TASK-001",
+    "useCaseId": "UC-001",
     "personaId": "P-004",
-    "taskDescription": "Log into ALFRED’s dashboard to check cognitive game performance data"
+    "taskDescription": "Arrives to visit older adults for health check-ins"
   },
   {
-    "taskID": "TASK-044",
-    "useCaseId": "UC-002",
+    "taskID": "TASK-002",
+    "useCaseId": "UC-001",
     "personaId": "P-004",
-    "taskDescription": "Disable Sarah’s ability to adjust game settings remotely"
+    "taskDescription": "Monitors medical data provided by ALFRED during visits"
   },
   {
-    "taskID": "TASK-045",
+    "taskID": "TASK-046",
     "useCaseId": "UC-002",
     "personaId": "P-004",
-    "taskDescription": "Prioritize clinical safety and routine over emotional engagement"
+    "taskDescription": "Prefers scheduled video calls limited to hospital settings"
   },
   {
-    "taskID": "TASK-061",
+    "taskID": "TASK-049",
+    "useCaseId": "UC-002",
+    "personaId": "P-004",
+    "taskDescription": "Feels frustrated by conflicting communication preferences with Elena"
+  },
+  {
+    "taskID": "TASK-064",
     "useCaseId": "UC-003",
     "personaId": "P-004",
-    "taskDescription": "Adjusts ALFRED settings to send only essential updates"
+    "taskDescription": "Express frustration when privacy settings block needed data"
   },
   {
-    "taskID": "TASK-066",
-    "useCaseId": "UC-003",
+    "taskID": "TASK-093",
+    "useCaseId": "UC-004",
     "personaId": "P-004",
-    "taskDescription": "Monitors Olivia’s health information remotely within allowed limits"
+    "taskDescription": "Notice patient’s preference for receiving every notification"
   },
   {
-    "taskID": "TASK-143",
+    "taskID": "TASK-095",
+    "useCaseId": "UC-004",
+    "personaId": "P-004",
+    "taskDescription": "Experience frustration due to privacy restrictions on accessing patient data"
+  },
+  {
+    "taskID": "TASK-098",
+    "useCaseId": "UC-004",
+    "personaId": "P-004",
+    "taskDescription": "Prioritize efficiency and clinical control over patient notification preferences"
+  },
+  {
+    "taskID": "TASK-099",
+    "useCaseId": "UC-004",
+    "personaId": "P-004",
+    "taskDescription": "Resent having to respect patient’s notification choices that reduce clinical efficiency"
+  },
+  {
+    "taskID": "TASK-146",
+    "useCaseId": "UC-006",
+    "personaId": "P-004",
+    "taskDescription": "Attempts to access Olivia’s real-time vitals through ALFRED"
+  },
+  {
+    "taskID": "TASK-150",
+    "useCaseId": "UC-006",
+    "personaId": "P-004",
+    "taskDescription": "Wants medication reminders enforced by ALFRED"
+  },
+  {
+    "taskID": "TASK-152",
+    "useCaseId": "UC-006",
+    "personaId": "P-004",
+    "taskDescription": "Feels frustrated by limited access to patient data"
+  },
+  {
+    "taskID": "TASK-153",
+    "useCaseId": "UC-006",
+    "personaId": "P-004",
+    "taskDescription": "Manages patient care while balancing privacy limitations"
+  },
+  {
+    "taskID": "TASK-189",
     "useCaseId": "UC-007",
     "personaId": "P-004",
-    "taskDescription": "Prefers quick, clinical health updates without casual alerts"
+    "taskDescription": "Express frustration about delays caused by consent requirements"
   },
   {
-    "taskID": "TASK-212",
-    "useCaseId": "UC-010",
+    "taskID": "TASK-191",
+    "useCaseId": "UC-007",
     "personaId": "P-004",
-    "taskDescription": "Prefer streamlined, clinically relevant information only"
+    "taskDescription": "Balance clinical urgency with patient autonomy preferences"
   },
   {
-    "taskID": "TASK-216",
-    "useCaseId": "UC-010",
+    "taskID": "TASK-203",
+    "useCaseId": "UC-008",
     "personaId": "P-004",
-    "taskDescription": "Separate clinical data from social data in monitoring"
+    "taskDescription": "Monitors health data consistency and completeness for his patients"
   },
   {
-    "taskID": "TASK-263",
-    "useCaseId": "UC-012",
+    "taskID": "TASK-204",
+    "useCaseId": "UC-008",
     "personaId": "P-004",
-    "taskDescription": "Focus video calls on clinical concerns only"
+    "taskDescription": "Feels frustrated when patient data is incomplete due to privacy settings"
+  },
+  {
+    "taskID": "TASK-206",
+    "useCaseId": "UC-008",
+    "personaId": "P-004",
+    "taskDescription": "Wishes for fewer distractions and more reliable data flow during work"
+  },
+  {
+    "taskID": "TASK-208",
+    "useCaseId": "UC-008",
+    "personaId": "P-004",
+    "taskDescription": "Reviews updated vital signs after stricter compliance enforcement"
+  },
+  {
+    "taskID": "TASK-244",
+    "useCaseId": "UC-009",
+    "personaId": "P-004",
+    "taskDescription": "Feels frustrated by limited access due to privacy settings"
+  },
+  {
+    "taskID": "TASK-247",
+    "useCaseId": "UC-009",
+    "personaId": "P-004",
+    "taskDescription": "Prefers direct and efficient communication over formal messages"
+  },
+  {
+    "taskID": "TASK-250",
+    "useCaseId": "UC-009",
+    "personaId": "P-004",
+    "taskDescription": "Finds system constraints on data sharing risky and inefficient"
+  },
+  {
+    "taskID": "TASK-284",
+    "useCaseId": "UC-011",
+    "personaId": "P-004",
+    "taskDescription": "Tries to block non-critical alerts during work hours but is overridden by system policies"
+  },
+  {
+    "taskID": "TASK-285",
+    "useCaseId": "UC-011",
+    "personaId": "P-004",
+    "taskDescription": "Feels distracted by the flood of notifications while needing to focus on urgent cases"
+  },
+  {
+    "taskID": "TASK-286",
+    "useCaseId": "UC-011",
+    "personaId": "P-004",
+    "taskDescription": "Experiences frustration with the lack of control over notification settings"
+  },
+  {
+    "taskID": "TASK-290",
+    "useCaseId": "UC-011",
+    "personaId": "P-004",
+    "taskDescription": "Values steady clinical data flow despite annoyance with constant engagement demands"
+  },
+  {
+    "taskID": "TASK-376",
+    "useCaseId": "UC-015",
+    "personaId": "P-004",
+    "taskDescription": "Reviews sparse health data available due to patient’s privacy settings"
+  },
+  {
+    "taskID": "TASK-377",
+    "useCaseId": "UC-015",
+    "personaId": "P-004",
+    "taskDescription": "Prefers continuous sensor data for effective care"
+  },
+  {
+    "taskID": "TASK-380",
+    "useCaseId": "UC-015",
+    "personaId": "P-004",
+    "taskDescription": "Feels frustrated about limited access to critical health information"
   }
 ]

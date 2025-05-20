@@ -1,110 +1,272 @@
 [
   {
-    "taskID": "TASK-003",
-    "useCaseId": "UC-001",
+    "taskID": "TASK-050",
+    "useCaseId": "UC-003",
     "personaId": "P-006",
-    "taskDescription": "Turns off automatic logging for certain sensitive health data"
+    "taskDescription": "Manually decide which patient interactions to record in ALFRED"
   },
   {
-    "taskID": "TASK-006",
-    "useCaseId": "UC-001",
+    "taskID": "TASK-057",
+    "useCaseId": "UC-003",
     "personaId": "P-006",
-    "taskDescription": "Respects each client’s privacy and only shares data with permission"
+    "taskDescription": "Prefer manual logging instead of automatic health data recording"
   },
   {
-    "taskID": "TASK-007",
-    "useCaseId": "UC-001",
+    "taskID": "TASK-100",
+    "useCaseId": "UC-004",
     "personaId": "P-006",
-    "taskDescription": "Encourages clients to use interactive games and social chats"
+    "taskDescription": "Monitor multiple clients’ notifications without filtering"
   },
   {
-    "taskID": "TASK-009",
-    "useCaseId": "UC-001",
+    "taskID": "TASK-105",
+    "useCaseId": "UC-004",
     "personaId": "P-006",
-    "taskDescription": "Joins clients in exercises to motivate and strengthen bonds"
+    "taskDescription": "Wish for more flexibility in managing notifications for multiple clients"
   },
   {
-    "taskID": "TASK-010",
-    "useCaseId": "UC-001",
+    "taskID": "TASK-106",
+    "useCaseId": "UC-004",
     "personaId": "P-006",
-    "taskDescription": "Balances thorough care with respect for personal boundaries"
+    "taskDescription": "Want manual control over logging notifications to avoid overload"
   },
   {
-    "taskID": "TASK-011",
-    "useCaseId": "UC-001",
+    "taskID": "TASK-119",
+    "useCaseId": "UC-005",
     "personaId": "P-006",
-    "taskDescription": "Prefers manual control over data logging rather than automated"
+    "taskDescription": "Review daily reports on client interactions and therapy engagement"
   },
   {
-    "taskID": "TASK-012",
-    "useCaseId": "UC-001",
+    "taskID": "TASK-120",
+    "useCaseId": "UC-005",
     "personaId": "P-006",
-    "taskDescription": "Supports emotional wellbeing through social and interactive features"
+    "taskDescription": "Notice low participation in therapy sessions"
   },
   {
-    "taskID": "TASK-035",
-    "useCaseId": "UC-002",
+    "taskID": "TASK-121",
+    "useCaseId": "UC-005",
     "personaId": "P-006",
-    "taskDescription": "Join and participate in interactive games to encourage Elena"
+    "taskDescription": "Respect client’s communication preferences and privacy"
   },
   {
-    "taskID": "TASK-038",
-    "useCaseId": "UC-002",
+    "taskID": "TASK-122",
+    "useCaseId": "UC-005",
     "personaId": "P-006",
-    "taskDescription": "Sense and respond to Elena’s emotional state during video calls"
+    "taskDescription": "Send gentle, formal messages through ALFRED to clients"
   },
   {
-    "taskID": "TASK-039",
-    "useCaseId": "UC-002",
+    "taskID": "TASK-124",
+    "useCaseId": "UC-005",
     "personaId": "P-006",
-    "taskDescription": "Feel motivated by meaningful connection through shared gaming"
+    "taskDescription": "Encourage clients patiently to try simple games"
   },
   {
-    "taskID": "TASK-200",
-    "useCaseId": "UC-010",
+    "taskID": "TASK-125",
+    "useCaseId": "UC-005",
     "personaId": "P-006",
-    "taskDescription": "Receive notifications about client data sharing preferences"
+    "taskDescription": "Balance concern for client recovery with respect for autonomy"
   },
   {
-    "taskID": "TASK-201",
-    "useCaseId": "UC-010",
+    "taskID": "TASK-178",
+    "useCaseId": "UC-007",
     "personaId": "P-006",
-    "taskDescription": "Review and adjust data sharing permissions carefully"
+    "taskDescription": "Receive notifications from ALFRED about clients’ health data"
   },
   {
-    "taskID": "TASK-203",
-    "useCaseId": "UC-010",
+    "taskID": "TASK-179",
+    "useCaseId": "UC-007",
     "personaId": "P-006",
-    "taskDescription": "Balance privacy protection with need for monitoring"
+    "taskDescription": "Manage care for multiple elderly clients using ALFRED"
   },
   {
-    "taskID": "TASK-207",
-    "useCaseId": "UC-010",
+    "taskID": "TASK-180",
+    "useCaseId": "UC-007",
     "personaId": "P-006",
-    "taskDescription": "Manage data sharing settings for multiple clients"
+    "taskDescription": "Disable automatic logging to control what information is recorded"
   },
   {
-    "taskID": "TASK-208",
-    "useCaseId": "UC-010",
+    "taskID": "TASK-181",
+    "useCaseId": "UC-007",
     "personaId": "P-006",
-    "taskDescription": "Experience difficulty maintaining client’s dignity while sharing data"
+    "taskDescription": "Feel burdened by frequent alerts during off-hours"
   },
   {
-    "taskID": "TASK-243",
-    "useCaseId": "UC-012",
+    "taskID": "TASK-182",
+    "useCaseId": "UC-007",
     "personaId": "P-006",
-    "taskDescription": "Receive quiet alerts from ALFRED about client requests"
+    "taskDescription": "Appreciate ALFRED’s guidance in caregiving tasks"
   },
   {
-    "taskID": "TASK-244",
-    "useCaseId": "UC-012",
+    "taskID": "TASK-183",
+    "useCaseId": "UC-007",
     "personaId": "P-006",
-    "taskDescription": "Respect clients’ privacy settings when handling notifications"
+    "taskDescription": "Engage in games with clients to improve morale"
   },
   {
-    "taskID": "TASK-245",
-    "useCaseId": "UC-012",
+    "taskID": "TASK-184",
+    "useCaseId": "UC-007",
     "personaId": "P-006",
-    "taskDescription": "Note clients’ preferences and adjust care approach accordingly"
+    "taskDescription": "Experience exhaustion from constant responsiveness demands"
+  },
+  {
+    "taskID": "TASK-185",
+    "useCaseId": "UC-007",
+    "personaId": "P-006",
+    "taskDescription": "Consider the human limits of caregivers when dealing with system alerts"
+  },
+  {
+    "taskID": "TASK-233",
+    "useCaseId": "UC-009",
+    "personaId": "P-006",
+    "taskDescription": "Monitors Olivia’s shared health data through ALFRED caregiver interface"
+  },
+  {
+    "taskID": "TASK-234",
+    "useCaseId": "UC-009",
+    "personaId": "P-006",
+    "taskDescription": "Respects Olivia’s privacy and communication preferences"
+  },
+  {
+    "taskID": "TASK-235",
+    "useCaseId": "UC-009",
+    "personaId": "P-006",
+    "taskDescription": "Arranges formal check-ins as Olivia prefers"
+  },
+  {
+    "taskID": "TASK-236",
+    "useCaseId": "UC-009",
+    "personaId": "P-006",
+    "taskDescription": "Sends formal and respectful messages to Olivia"
+  },
+  {
+    "taskID": "TASK-237",
+    "useCaseId": "UC-009",
+    "personaId": "P-006",
+    "taskDescription": "Schedules video calls only with Olivia’s consent"
+  },
+  {
+    "taskID": "TASK-238",
+    "useCaseId": "UC-009",
+    "personaId": "P-006",
+    "taskDescription": "Filters notifications from Olivia’s profile to avoid overload"
+  },
+  {
+    "taskID": "TASK-239",
+    "useCaseId": "UC-009",
+    "personaId": "P-006",
+    "taskDescription": "Balances emotional support with respecting user autonomy"
+  },
+  {
+    "taskID": "TASK-240",
+    "useCaseId": "UC-009",
+    "personaId": "P-006",
+    "taskDescription": "Wishes ALFRED could nudge Olivia more toward participation"
+  },
+  {
+    "taskID": "TASK-241",
+    "useCaseId": "UC-009",
+    "personaId": "P-006",
+    "taskDescription": "Manages multiple elderly clients using ALFRED"
+  },
+  {
+    "taskID": "TASK-242",
+    "useCaseId": "UC-009",
+    "personaId": "P-006",
+    "taskDescription": "Focuses on urgent needs by avoiding irrelevant alerts"
+  },
+  {
+    "taskID": "TASK-324",
+    "useCaseId": "UC-013",
+    "personaId": "P-006",
+    "taskDescription": "Reviews the ALFRED dashboard on her tablet each morning"
+  },
+  {
+    "taskID": "TASK-325",
+    "useCaseId": "UC-013",
+    "personaId": "P-006",
+    "taskDescription": "Checks critical health updates for multiple elderly clients"
+  },
+  {
+    "taskID": "TASK-326",
+    "useCaseId": "UC-013",
+    "personaId": "P-006",
+    "taskDescription": "Adjusts notification settings to avoid irrelevant alerts"
+  },
+  {
+    "taskID": "TASK-327",
+    "useCaseId": "UC-013",
+    "personaId": "P-006",
+    "taskDescription": "Respects each client’s privacy preferences when accessing data"
+  },
+  {
+    "taskID": "TASK-328",
+    "useCaseId": "UC-013",
+    "personaId": "P-006",
+    "taskDescription": "Attempts to send informal messages and chats to clients"
+  },
+  {
+    "taskID": "TASK-329",
+    "useCaseId": "UC-013",
+    "personaId": "P-006",
+    "taskDescription": "Suggests social and cognitive activities to clients through ALFRED"
+  },
+  {
+    "taskID": "TASK-330",
+    "useCaseId": "UC-013",
+    "personaId": "P-006",
+    "taskDescription": "Feels frustrated when informal engagement attempts are blocked"
+  },
+  {
+    "taskID": "TASK-331",
+    "useCaseId": "UC-013",
+    "personaId": "P-006",
+    "taskDescription": "Wishes the system could balance warmth and privacy better"
+  },
+  {
+    "taskID": "TASK-367",
+    "useCaseId": "UC-015",
+    "personaId": "P-006",
+    "taskDescription": "Respects Olivia’s strict privacy and notification settings"
+  },
+  {
+    "taskID": "TASK-368",
+    "useCaseId": "UC-015",
+    "personaId": "P-006",
+    "taskDescription": "Attempts to schedule video calls with Olivia through ALFRED"
+  },
+  {
+    "taskID": "TASK-369",
+    "useCaseId": "UC-015",
+    "personaId": "P-006",
+    "taskDescription": "Uses caregiver dashboard to monitor limited health data shared by Olivia"
+  },
+  {
+    "taskID": "TASK-370",
+    "useCaseId": "UC-015",
+    "personaId": "P-006",
+    "taskDescription": "Feels challenged by limited engagement possibilities with Olivia"
+  },
+  {
+    "taskID": "TASK-371",
+    "useCaseId": "UC-015",
+    "personaId": "P-006",
+    "taskDescription": "Balances between offering emotional support and respecting preferences"
+  },
+  {
+    "taskID": "TASK-372",
+    "useCaseId": "UC-015",
+    "personaId": "P-006",
+    "taskDescription": "Wishes ALFRED could encourage Olivia to accept more check-ins"
+  },
+  {
+    "taskID": "TASK-373",
+    "useCaseId": "UC-015",
+    "personaId": "P-006",
+    "taskDescription": "Monitors health information but copes with lack of spontaneous updates"
+  },
+  {
+    "taskID": "TASK-374",
+    "useCaseId": "UC-015",
+    "personaId": "P-006",
+    "taskDescription": "Adjusts caregiving approach based on Olivia’s communication boundaries"
   }
 ]

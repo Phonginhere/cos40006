@@ -507,7 +507,7 @@ class Utils:
         except FileNotFoundError:
             raise FileNotFoundError(f"❌ Missing user story summary file at: {self.USER_STORY_GUIDELINES_PATH}")
 
-    def load_non_functional_user_story_cluster_summary(self, pillar: str) -> list:
+    def load_non_functional_user_story_clusters_by_each_pillar(self, pillar: str) -> list:
         filename_map = self.load_pillar_keys()
         filename = filename_map.get(pillar)
         if not filename:
@@ -525,6 +525,31 @@ class Utils:
         except json.JSONDecodeError:
             print(f"❌ JSON decode error in cluster file: {full_path}")
             return []
+        
+    def load_all_non_functional_user_story_clusters(self) -> list:
+        """Load and aggregate all non-functional user story clusters across all pillars."""
+        cluster_list = []
+        filename_map = self.load_pillar_keys()
+
+        for pillar, filename in filename_map.items():
+            full_path = os.path.join(self.PILLARS_DIR, filename)
+            try:
+                with open(full_path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    clusters = data.get("clustersList", [])
+                    if clusters:
+                        cluster_list.extend(clusters)
+            except FileNotFoundError:
+                print(f"⚠️ Cluster JSON file not found for pillar '{pillar}': {full_path}")
+            except json.JSONDecodeError:
+                print(f"❌ JSON decode error in file: {full_path}")
+        
+        return cluster_list
+
+    def count_all_non_functional_user_story_clusters(self) -> int:
+        """Return the total number of non-functional user story clusters across all pillars."""
+        all_clusters = self.load_all_non_functional_user_story_clusters()
+        return len(all_clusters)
 
     def load_non_functional_user_story_conflict_technique_description(self) -> str:
         try:

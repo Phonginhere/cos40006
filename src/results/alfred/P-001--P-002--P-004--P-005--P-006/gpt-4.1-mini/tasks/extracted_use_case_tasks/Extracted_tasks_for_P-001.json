@@ -1,110 +1,164 @@
 [
   {
-    "taskID": "TASK-108",
-    "useCaseId": "UC-006",
+    "taskID": "TASK-026",
+    "useCaseId": "UC-001",
     "personaId": "P-001",
-    "taskDescription": "Sets up a remote workspace to integrate a new healthcare app"
+    "taskDescription": "Reviews ALFRED developer guidelines carefully"
   },
   {
-    "taskID": "TASK-109",
-    "useCaseId": "UC-006",
+    "taskID": "TASK-029",
+    "useCaseId": "UC-001",
     "personaId": "P-001",
-    "taskDescription": "Uses ALFRED’s developer tools to connect the app with the platform"
+    "taskDescription": "Prioritizes system security and strict privacy controls"
   },
   {
-    "taskID": "TASK-110",
-    "useCaseId": "UC-006",
+    "taskID": "TASK-074",
+    "useCaseId": "UC-003",
     "personaId": "P-001",
-    "taskDescription": "Reads and follows detailed documentation about API rules and data privacy"
+    "taskDescription": "Review user feedback from caregivers and patients regularly"
   },
   {
-    "taskID": "TASK-117",
-    "useCaseId": "UC-006",
+    "taskID": "TASK-127",
+    "useCaseId": "UC-005",
     "personaId": "P-001",
-    "taskDescription": "Balances technical compliance with potential user discomfort"
+    "taskDescription": "Examine usage statistics and user feedback remotely"
   },
   {
-    "taskID": "TASK-118",
-    "useCaseId": "UC-006",
+    "taskID": "TASK-129",
+    "useCaseId": "UC-005",
     "personaId": "P-001",
-    "taskDescription": "Prefers clear, structured communication during collaboration"
+    "taskDescription": "Configure app to limit forced reminders during user quiet times"
   },
   {
-    "taskID": "TASK-119",
-    "useCaseId": "UC-006",
+    "taskID": "TASK-130",
+    "useCaseId": "UC-005",
     "personaId": "P-001",
-    "taskDescription": "Rejects informal or small talk in meetings to stay focused"
+    "taskDescription": "Maintain backend controls to alert caregivers about user engagement"
   },
   {
-    "taskID": "TASK-120",
-    "useCaseId": "UC-006",
+    "taskID": "TASK-133",
+    "useCaseId": "UC-005",
     "personaId": "P-001",
-    "taskDescription": "Builds accessible and secure apps prioritizing data protection over user freedom"
+    "taskDescription": "Monitor impact of system changes on user engagement"
   },
   {
-    "taskID": "TASK-123",
+    "taskID": "TASK-134",
+    "useCaseId": "UC-005",
+    "personaId": "P-001",
+    "taskDescription": "Support caregivers with alerts and data for intervention"
+  },
+  {
+    "taskID": "TASK-155",
     "useCaseId": "UC-006",
     "personaId": "P-001",
-    "taskDescription": "Accepts user frustration as a trade-off for security and monitoring"
+    "taskDescription": "Reviews ALFRED's privacy management modules"
   },
   {
     "taskID": "TASK-156",
-    "useCaseId": "UC-008",
+    "useCaseId": "UC-006",
     "personaId": "P-001",
-    "taskDescription": "Develop a healthcare app that monitors hydration levels"
+    "taskDescription": "Implements forced reminders for caregivers"
   },
   {
     "taskID": "TASK-157",
-    "useCaseId": "UC-008",
+    "useCaseId": "UC-006",
     "personaId": "P-001",
-    "taskDescription": "Integrate the app using ALFRED’s developer documentation and APIs"
+    "taskDescription": "Programs automatic app updates for caregivers"
   },
   {
     "taskID": "TASK-159",
-    "useCaseId": "UC-008",
+    "useCaseId": "UC-006",
     "personaId": "P-001",
-    "taskDescription": "Design the app to be accessible for older adults"
+    "taskDescription": "Programs ALFRED to prompt caregivers constantly"
+  },
+  {
+    "taskID": "TASK-162",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Struggles with user mistrust towards new features"
+  },
+  {
+    "taskID": "TASK-164",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Considers caregiver work hours when sending prompts"
   },
   {
     "taskID": "TASK-165",
+    "useCaseId": "UC-007",
+    "personaId": "P-001",
+    "taskDescription": "Review the update logs of his healthcare app integrated with ALFRED"
+  },
+  {
+    "taskID": "TASK-210",
     "useCaseId": "UC-008",
     "personaId": "P-001",
-    "taskDescription": "Accept platform backend refresh intervals despite workflow disruption"
+    "taskDescription": "Reviews system logs and user feedback about sensor compliance"
   },
   {
-    "taskID": "TASK-167",
+    "taskID": "TASK-218",
     "useCaseId": "UC-008",
     "personaId": "P-001",
-    "taskDescription": "Accept that security and control measures may unsettle users"
+    "taskDescription": "Observes system logs to confirm compliance enforcement effectiveness"
   },
   {
-    "taskID": "TASK-266",
-    "useCaseId": "UC-013",
+    "taskID": "TASK-265",
+    "useCaseId": "UC-010",
     "personaId": "P-001",
-    "taskDescription": "Finalizes a new app with cognitive games for older adults"
-  },
-  {
-    "taskID": "TASK-267",
-    "useCaseId": "UC-013",
-    "personaId": "P-001",
-    "taskDescription": "Reviews app permissions to ensure security and privacy"
-  },
-  {
-    "taskID": "TASK-268",
-    "useCaseId": "UC-013",
-    "personaId": "P-001",
-    "taskDescription": "Submits the app through ALFRED’s developer marketplace"
+    "taskDescription": "Reviews logs of user rejections for app installations"
   },
   {
     "taskID": "TASK-271",
-    "useCaseId": "UC-013",
+    "useCaseId": "UC-010",
     "personaId": "P-001",
-    "taskDescription": "Balances security needs with user experience in app design"
+    "taskDescription": "Maintains backend changes to optimize care and engagement"
   },
   {
-    "taskID": "TASK-272",
-    "useCaseId": "UC-013",
+    "taskID": "TASK-291",
+    "useCaseId": "UC-011",
     "personaId": "P-001",
-    "taskDescription": "Monitors the app review process for compliance with standards"
+    "taskDescription": "Reviews system logs and user feedback from his rural home office"
+  },
+  {
+    "taskID": "TASK-314",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Reviews user data and system logs to improve ALFRED features"
+  },
+  {
+    "taskID": "TASK-316",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Evaluates the impact of strict privacy settings on system functions"
+  },
+  {
+    "taskID": "TASK-318",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Respects privacy-conscious user settings despite development constraints"
+  },
+  {
+    "taskID": "TASK-383",
+    "useCaseId": "UC-015",
+    "personaId": "P-001",
+    "taskDescription": "Reviews system logs and user feedback from a remote location"
+  },
+  {
+    "taskID": "TASK-385",
+    "useCaseId": "UC-015",
+    "personaId": "P-001",
+    "taskDescription": "Adjusts backend rules to respect strict user communication styles"
+  },
+  {
+    "taskID": "TASK-387",
+    "useCaseId": "UC-015",
+    "personaId": "P-001",
+    "taskDescription": "Accepts limitations imposed by user privacy and autonomy"
+  },
+  {
+    "taskID": "TASK-390",
+    "useCaseId": "UC-015",
+    "personaId": "P-001",
+    "taskDescription": "Struggles between proactive nudging and respecting minimalism"
   }
 ]

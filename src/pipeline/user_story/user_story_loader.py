@@ -58,7 +58,7 @@ class UserStory:
 class UserStoryLoader:
     def __init__(self, user_story_dir: str = None):
         self.user_stories: List[UserStory] = []
-        self.user_story_dir = user_story_dir or Utils().USER_STORY_DIR
+        self.user_story_dir = user_story_dir or Utils().UNIQUE_USER_STORY_DIR_PATH
 
     def load_from_file(self, file_path: str):
         with open(file_path, 'r', encoding='utf-8') as f:

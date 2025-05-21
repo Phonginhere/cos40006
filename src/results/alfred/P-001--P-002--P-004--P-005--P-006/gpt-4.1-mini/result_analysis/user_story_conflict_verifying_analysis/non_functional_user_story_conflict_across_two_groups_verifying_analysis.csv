@@ -1,0 +1,5 @@
+﻿User Group Pair,Total Number of Identified Conflicts,Number of Identified Conflicts successfully Verified,Number of Identified Conflicts that failed Verification,Conflict Verification Success Rate
+Caregivers and Medical Staff vs Developers and App Creators,8,6,2,75%
+Caregivers and Medical Staff vs Older Adults,3,3,0,100%
+Developers and App Creators vs Older Adults,5,4,1,80%
+Total,16,13,3,81%

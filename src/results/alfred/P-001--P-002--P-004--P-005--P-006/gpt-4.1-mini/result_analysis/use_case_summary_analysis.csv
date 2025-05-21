@@ -1,0 +1,89 @@
+﻿ID,Type,Personas,User Groups,Pillars,Title
+UC-001,User Autonomy vs. System Control,"P-006
+P-001
+P-002
+P-005
+P-004","Caregivers and Medical Staff
+Developers and App Creators
+Older Adults","Developer Core
+General Requirements
+Pillar 1 - User-Driven Interaction Assistant",Balancing Autonomy and Control
+UC-002,Communication Style & Interpersonal Boundaries,P-005,Older Adults,"Pillar 1 - User-Driven Interaction Assistant
+Pillar 2 - Personalized Social Inclusion",Formal Communication and Privacy Control
+UC-003,Health Data Sharing & Monitoring Boundaries,"P-002
+P-006","Caregivers and Medical Staff
+Older Adults","Developer Core
+Pillar 3 - Effective & Personalized Care",Dynamic Health Data Sharing Control
+UC-004,Notification Preferences & Behavioral Nudging,"P-004
+P-002","Caregivers and Medical Staff
+Older Adults","General Requirements
+Pillar 1 - User-Driven Interaction Assistant
+Pillar 3 - Effective & Personalized Care",Configurable Notification and Nudging
+UC-005,Simulation & Gamified Therapy,"P-006
+P-002
+P-005
+P-001","Caregivers and Medical Staff
+Developers and App Creators
+Older Adults","Developer Core
+Pillar 4 - Physical & Cognitive Impairments Prevention",Interactive Multi-User Simulation Therapy
+UC-006,Trust & Privacy Negotiation,"P-005
+P-006
+P-001
+P-004","Caregivers and Medical Staff
+Developers and App Creators
+Older Adults","Developer Core
+General Requirements
+Pillar 1 - User-Driven Interaction Assistant",Personalized Privacy Consent Management
+UC-007,Data Governance & Consent Enforcement,"P-006
+P-001
+P-005","Caregivers and Medical Staff
+Developers and App Creators
+Older Adults","Developer Core
+General Requirements",Multi-Party Consent Coordination
+UC-008,Sensor Usage & Wearable Compliance,"P-006
+P-004
+P-002
+P-005","Caregivers and Medical Staff
+Older Adults","Developer Core
+Pillar 3 - Effective & Personalized Care
+Pillar 4 - Physical & Cognitive Impairments Prevention",Wearable Sensor Compliance Management
+UC-009,Emotional Layering in Care Scenarios,"P-004
+P-006
+P-002
+P-005","Caregivers and Medical Staff
+Older Adults","General Requirements
+Pillar 2 - Personalized Social Inclusion
+Pillar 4 - Physical & Cognitive Impairments Prevention",Emotional Engagement in Care
+UC-010,Marketplace Discovery,"P-005
+P-001","Developers and App Creators
+Older Adults","Developer Core
+General Requirements",Selective App Installation Control
+UC-011,Developer Tools / Integration,"P-001
+P-005
+P-004","Caregivers and Medical Staff
+Developers and App Creators
+Older Adults","Developer Core
+General Requirements
+Pillar 2 - Personalized Social Inclusion
+Pillar 3 - Effective & Personalized Care
+Pillar 4 - Physical & Cognitive Impairments Prevention",Enforced Integration and Compliance
+UC-012,Onboarding & Initial Setup,"P-005
+P-001","Developers and App Creators
+Older Adults","General Requirements
+Pillar 1 - User-Driven Interaction Assistant
+Pillar 2 - Personalized Social Inclusion",Controlled Onboarding with Privacy Focus
+UC-013,Emotional Layering in Care Scenarios,"P-006
+P-002","Caregivers and Medical Staff
+Older Adults","Pillar 2 - Personalized Social Inclusion
+Pillar 3 - Effective & Personalized Care",Contextual Emotional Support Coordination
+UC-014,Check-in and Availability Negotiation,P-002,Older Adults,"Pillar 1 - User-Driven Interaction Assistant
+Pillar 3 - Effective & Personalized Care",Health Check-In and Availability
+UC-015,Notification Preferences & Behavioral Nudging,"P-004
+P-002
+P-001
+P-006","Caregivers and Medical Staff
+Developers and App Creators
+Older Adults","Developer Core
+General Requirements
+Pillar 1 - User-Driven Interaction Assistant
+Pillar 3 - Effective & Personalized Care",Adaptive Notification and Nudging

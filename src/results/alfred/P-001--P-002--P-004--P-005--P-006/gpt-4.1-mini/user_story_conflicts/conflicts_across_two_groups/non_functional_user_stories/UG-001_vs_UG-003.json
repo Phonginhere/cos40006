@@ -1,54 +1,192 @@
 [
   {
     "conflictType": "Mutually Exclusive",
-    "conflictDescription": "User Story A requires only formal voice commands, rejecting informal language, while User Story B requires ALFRED to communicate in a natural and informal tone. These two goals cannot be met at the same time.",
+    "conflictDescription": "The developer wants to update the consent module remotely without asking users, but the older adult wants to block all data sharing strictly, which means no data sharing or changes without consent. These goals cannot be true at the same time.",
     "conflictingNfrPairs": [
       [
-        "ALFRED accepts only formal voice commands from users",
-        "ALFRED uses natural, everyday language in conversations"
+        "Allow remote update of the consent module without user permission",
+        "Block all personal data sharing with doctors"
       ],
       [
-        "ALFRED accepts only formal voice commands from users",
-        "ALFRED communicates in an informal, friendly tone"
+        "Allow remote update of the consent module without user permission",
+        "Block all personal data sharing with family"
       ],
       [
-        "ALFRED accepts only formal voice commands from users",
-        "ALFRED's speech style matches how family and friends talk"
-      ],
-      [
-        "ALFRED rejects informal or casual voice commands",
-        "ALFRED uses natural, everyday language in conversations"
-      ],
-      [
-        "ALFRED rejects informal or casual voice commands",
-        "ALFRED communicates in an informal, friendly tone"
-      ],
-      [
-        "ALFRED rejects informal or casual voice commands",
-        "ALFRED's speech style matches how family and friends talk"
+        "Allow remote update of the consent module without user permission",
+        "Ensure no data is shared with any other parties"
       ]
     ],
-    "conflictId": "NFCAT-001",
+    "conflictId": "NFCAT-012",
     "personaAId": "P-001",
-    "personaBId": "P-002",
+    "personaBId": "P-005",
     "userGroupA": "Developers and App Creators",
     "userGroupB": "Older Adults",
-    "userStoryAId": "US-027",
-    "userStoryBId": "US-061",
-    "userStoryASummary": "As a developer, I want ALFRED to enforce formal voice commands to keep interactions clear and professional.",
-    "userStoryBSummary": "As an older adult, I want ALFRED to talk in a natural and informal way like I do with my family and friends, so I feel comfortable and engaged.",
-    "cluster": "User-Driven Interaction Assistant",
+    "userStoryAId": "US-013",
+    "userStoryBId": "US-068",
+    "userStoryASummary": "As a developer, I want to update ALFRED’s consent module remotely without asking users, so I can keep control and make sure privacy rules are followed.",
+    "userStoryBSummary": "As an older adult, I want to block all data sharing with everyone, including doctors and family, to keep my privacy fully safe.",
+    "cluster": "Security, Privacy & Reliability",
     "generalResolutionType": "Update both user stories",
-    "resolutionDescription": "Both user stories are updated to allow ALFRED to accept both formal and informal voice commands and to adjust its communication style based on user preference or context, enabling flexible interaction modes.",
-    "newUserStoryASummary": "As a developer, I want ALFRED to support clear voice commands that can be formal or informal, so that interactions remain understandable and effective.",
+    "resolutionDescription": "The developer agrees to request user consent before any remote update to the consent module. The older adult allows data sharing only after explicit consent is given. This way, privacy is protected and updates are possible.",
+    "newUserStoryASummary": "As a developer, I want to update the consent module remotely only after user consent, so I can keep privacy rules updated and respected.",
     "newUserStoryADecomposition": [
-      "Accept both formal and informal voice commands",
-      "Enforce clarity and precision in voice command recognition"
+      "Request user consent before remote updates to consent module",
+      "Ensure updates comply with latest privacy rules"
     ],
-    "newUserStoryBSummary": "As an older adult, I want ALFRED to talk in a natural way using formal or informal tone, so I feel comfortable and understood.",
+    "newUserStoryBSummary": "As an older adult, I want to block all data sharing unless I give consent, so my privacy is fully protected.",
     "newUserStoryBDecomposition": [
-      "Use natural language in conversations",
-      "Adjust speech style to be formal or informal based on user preference"
+      "Block data sharing without explicit user consent",
+      "Require consent for sharing data with doctors, family, or others"
+    ]
+  },
+  {
+    "conflictType": "Mutually Exclusive",
+    "conflictDescription": "User Story A requires automatic enforcement of consent policies without asking users to keep caregiver workflows secure, while User Story B demands blocking all data sharing with everyone, including doctors and family, which prevents any caregiver workflows requiring data sharing.",
+    "conflictingNfrPairs": [
+      [
+        "Automatically apply consent policies without user prompts",
+        "Block all personal data sharing with doctors"
+      ],
+      [
+        "Automatically apply consent policies without user prompts",
+        "Block all personal data sharing with family"
+      ],
+      [
+        "Automatically apply consent policies without user prompts",
+        "Ensure no data is shared with any other parties"
+      ],
+      [
+        "Ensure caregiver workflows stay secure through policy enforcement",
+        "Block all personal data sharing with doctors"
+      ],
+      [
+        "Ensure caregiver workflows stay secure through policy enforcement",
+        "Block all personal data sharing with family"
+      ],
+      [
+        "Ensure caregiver workflows stay secure through policy enforcement",
+        "Ensure no data is shared with any other parties"
+      ]
+    ],
+    "conflictId": "NFCAT-013",
+    "personaAId": "P-001",
+    "personaBId": "P-005",
+    "userGroupA": "Developers and App Creators",
+    "userGroupB": "Older Adults",
+    "userStoryAId": "US-017",
+    "userStoryBId": "US-068",
+    "userStoryASummary": "As a developer, I want ALFRED to enforce consent policies automatically to keep caregiver workflows secure without asking users.",
+    "userStoryBSummary": "As an older adult, I want to block all data sharing with everyone, including doctors and family, to keep my privacy fully safe.",
+    "cluster": "Security, Privacy & Reliability",
+    "generalResolutionType": "Update both user stories",
+    "resolutionDescription": "The resolution updates both stories to allow automatic consent enforcement while respecting user control over data sharing, balancing privacy with caregiver needs.",
+    "newUserStoryASummary": "As a developer, I want ALFRED to enforce consent policies automatically while respecting user choices, so caregiver workflows are secure.",
+    "newUserStoryADecomposition": [
+      "Automatically enforce consent policies with user preferences",
+      "Support secure caregiver workflows within consent limits"
+    ],
+    "newUserStoryBSummary": "As an older adult, I want to control data sharing and block it unless I consent, so my privacy is protected.",
+    "newUserStoryBDecomposition": [
+      "Allow user control over data sharing consent",
+      "Block data sharing without explicit user consent"
+    ]
+  },
+  {
+    "conflictType": "Mutually Exclusive",
+    "conflictDescription": "The developer wants ALFRED to enforce consent rules strictly, allowing caregiver tasks only when consent is given, but the older adult wants to block all data sharing with everyone, including doctors and family. These goals cannot be met at the same time because caregiver tasks require data sharing with caregivers, which the older adult forbids.",
+    "conflictingNfrPairs": [
+      [
+        "Enforce all consent rules without exceptions",
+        "Block all personal data sharing with doctors"
+      ],
+      [
+        "Enforce all consent rules without exceptions",
+        "Block all personal data sharing with family"
+      ],
+      [
+        "Prevent caregiver tasks if consent is not given",
+        "Ensure no data is shared with any other parties"
+      ],
+      [
+        "Ensure caregiver tasks always follow consent rules",
+        "Ensure no data is shared with any other parties"
+      ]
+    ],
+    "conflictId": "NFCAT-015",
+    "personaAId": "P-001",
+    "personaBId": "P-005",
+    "userGroupA": "Developers and App Creators",
+    "userGroupB": "Older Adults",
+    "userStoryAId": "US-021",
+    "userStoryBId": "US-068",
+    "userStoryASummary": "As a developer, I want ALFRED to enforce consent rules strictly without exceptions, so caregiver tasks are always done right.",
+    "userStoryBSummary": "As an older adult, I want to block all data sharing with everyone, including doctors and family, to keep my privacy fully safe.",
+    "cluster": "Security, Privacy & Reliability",
+    "generalResolutionType": "Update both user stories",
+    "resolutionDescription": "Both stories are updated to balance strict consent enforcement with the older adult's privacy control, allowing data sharing only with explicit consent for necessary caregiver tasks.",
+    "newUserStoryASummary": "As a developer, I want ALFRED to enforce consent rules strictly for caregiver tasks, so tasks happen only with user permission.",
+    "newUserStoryADecomposition": [
+      "Enforce consent rules before any caregiver data access",
+      "Allow caregiver tasks only with explicit user consent"
+    ],
+    "newUserStoryBSummary": "As an older adult, I want to control data sharing so that my privacy is protected and my care needs are met.",
+    "newUserStoryBDecomposition": [
+      "Block all data sharing without user consent",
+      "Allow data sharing with caregivers only when consent is given"
+    ]
+  },
+  {
+    "conflictType": "Mutually Exclusive",
+    "conflictDescription": "The developer wants to enforce strict security and privacy controls in apps, which likely includes data sharing with authorized parties for functionality, but the older adult wants to block all data sharing with doctors, family, and others, preventing any data flow. These goals cannot both be met at the same time.",
+    "conflictingNfrPairs": [
+      [
+        "Enforce strict security controls to protect user data in apps",
+        "Block all personal data sharing with doctors"
+      ],
+      [
+        "Enforce strict security controls to protect user data in apps",
+        "Block all personal data sharing with family"
+      ],
+      [
+        "Enforce strict security controls to protect user data in apps",
+        "Ensure no data is shared with any other parties"
+      ],
+      [
+        "Apply strong privacy measures according to conservative developer approach",
+        "Block all personal data sharing with doctors"
+      ],
+      [
+        "Apply strong privacy measures according to conservative developer approach",
+        "Block all personal data sharing with family"
+      ],
+      [
+        "Apply strong privacy measures according to conservative developer approach",
+        "Ensure no data is shared with any other parties"
+      ]
+    ],
+    "conflictId": "NFCAT-016",
+    "personaAId": "P-001",
+    "personaBId": "P-005",
+    "userGroupA": "Developers and App Creators",
+    "userGroupB": "Older Adults",
+    "userStoryAId": "US-025",
+    "userStoryBId": "US-068",
+    "userStoryASummary": "As a developer, I want to enforce strict security and privacy controls in my apps to protect user data according to my conservative approach.",
+    "userStoryBSummary": "As an older adult, I want to block all data sharing with everyone, including doctors and family, to keep my privacy fully safe.",
+    "cluster": "Security, Privacy & Reliability",
+    "generalResolutionType": "Update both user stories",
+    "resolutionDescription": "We update both stories to balance data protection and necessary data sharing. Developer story focuses on enforcing strict privacy with controlled data sharing only with authorized parties. Older adult story allows data sharing with doctors and family only with explicit consent, ensuring privacy and care needs.",
+    "newUserStoryASummary": "As a developer, I want to enforce strict privacy controls with authorized data sharing to protect user data securely.",
+    "newUserStoryADecomposition": [
+      "Enforce strong data encryption and secure storage",
+      "Allow data sharing only with authorized parties",
+      "Ensure user consent is required for data sharing"
+    ],
+    "newUserStoryBSummary": "As an older adult, I want to control data sharing with doctors and family, so my privacy and care needs are protected.",
+    "newUserStoryBDecomposition": [
+      "Allow data sharing only with consent given",
+      "Block data sharing with unauthorized parties",
+      "Ensure privacy control over personal information"
     ]
   }
 ]

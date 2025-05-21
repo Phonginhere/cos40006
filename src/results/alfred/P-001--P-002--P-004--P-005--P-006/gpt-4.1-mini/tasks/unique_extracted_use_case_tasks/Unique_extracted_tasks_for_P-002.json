@@ -1,0 +1,80 @@
+[
+  {
+    "taskID": "TASK-010",
+    "useCaseId": "UC-001",
+    "personaId": "P-002",
+    "taskDescription": "Explores new social features of ALFRED enthusiastically"
+  },
+  {
+    "taskID": "TASK-017",
+    "useCaseId": "UC-001",
+    "personaId": "P-002",
+    "taskDescription": "Feels excited about using all ALFRED’s capabilities"
+  },
+  {
+    "taskID": "TASK-057",
+    "useCaseId": "UC-003",
+    "personaId": "P-002",
+    "taskDescription": "Expect clear and simple summaries about data sharing from ALFRED"
+  },
+  {
+    "taskID": "TASK-058",
+    "useCaseId": "UC-003",
+    "personaId": "P-002",
+    "taskDescription": "Feel excited about keeping her caregiver well informed at all times"
+  },
+  {
+    "taskID": "TASK-072",
+    "useCaseId": "UC-004",
+    "personaId": "P-002",
+    "taskDescription": "Tell ALFRED to inform Mike that I want to keep all my reminders active"
+  },
+  {
+    "taskID": "TASK-103",
+    "useCaseId": "UC-005",
+    "personaId": "P-002",
+    "taskDescription": "Prefers freedom in how to interact with therapy activities"
+  },
+  {
+    "taskID": "TASK-200",
+    "useCaseId": "UC-008",
+    "personaId": "P-002",
+    "taskDescription": "Receives encouragement and difficulty adjustments via video calls"
+  },
+  {
+    "taskID": "TASK-203",
+    "useCaseId": "UC-008",
+    "personaId": "P-002",
+    "taskDescription": "Engages actively with ALFRED for physical therapy"
+  },
+  {
+    "taskID": "TASK-324",
+    "useCaseId": "UC-013",
+    "personaId": "P-002",
+    "taskDescription": "Invites caregivers to join virtual exercise sessions"
+  },
+  {
+    "taskID": "TASK-330",
+    "useCaseId": "UC-013",
+    "personaId": "P-002",
+    "taskDescription": "Wonder if caregivers feel overwhelmed by her eagerness"
+  },
+  {
+    "taskID": "TASK-342",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Balances eagerness to push physical limits with managing alert overload"
+  },
+  {
+    "taskID": "TASK-355",
+    "useCaseId": "UC-015",
+    "personaId": "P-002",
+    "taskDescription": "Explores new features of ALFRED at home"
+  },
+  {
+    "taskID": "TASK-356",
+    "useCaseId": "UC-015",
+    "personaId": "P-002",
+    "taskDescription": "Configures the assistant to provide detailed explanations of functions"
+  }
+]

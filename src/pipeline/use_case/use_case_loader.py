@@ -20,11 +20,12 @@ class UseCase:
         self.pillars: List[str] = data.get("pillars", [])
         
         self.name: str = data.get("name", "")
+        self.title: str = self.name
         self.description: str = data.get("description", "")
         self.scenario: Optional[str] = data.get("scenario", None)
 
     def __repr__(self):
-        return f"UseCase(id={self.id}, name={self.name})"
+        return f"UseCase(id={self.id}, title={self.title})"
 
     def to_dict(self) -> dict:
         return {
@@ -85,7 +86,7 @@ class UseCaseLoader:
             return
 
         for uc in self.use_cases:
-            print(f"\n🧾 {uc.id} - {uc.name}")
+            print(f"\n🧾 {uc.id} - {uc.title}")
             print(f"   Type: {uc.use_case_type}")
             print(f"   User Groups: {', '.join(uc.user_groups)}")
             print(f"   Pillars: {', '.join(uc.pillars)}")

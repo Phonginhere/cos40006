@@ -1,0 +1,20 @@
+[
+  {
+    "taskID": "TASK-148",
+    "useCaseId": "UC-006",
+    "personaId": "P-004",
+    "taskDescription": "Access clients’ health data through ALFRED to support clinical judgment"
+  },
+  {
+    "taskID": "TASK-194",
+    "useCaseId": "UC-008",
+    "personaId": "P-004",
+    "taskDescription": "Wishes for clearer, noise-free access to critical health data"
+  },
+  {
+    "taskID": "TASK-282",
+    "useCaseId": "UC-011",
+    "personaId": "P-004",
+    "taskDescription": "Reviews and manages numerous notifications from ALFRED during work"
+  }
+]

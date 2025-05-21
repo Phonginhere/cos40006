@@ -1,0 +1,86 @@
+[
+  {
+    "taskID": "TASK-029",
+    "useCaseId": "UC-001",
+    "personaId": "P-005",
+    "taskDescription": "Declines interactive games and check-in calls"
+  },
+  {
+    "taskID": "TASK-037",
+    "useCaseId": "UC-002",
+    "personaId": "P-005",
+    "taskDescription": "Block all data sharing with third parties unless explicitly authorized"
+  },
+  {
+    "taskID": "TASK-106",
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Chooses to decline participation in interactive simulation sessions"
+  },
+  {
+    "taskID": "TASK-126",
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Dismiss notifications about app updates without allowing installation"
+  },
+  {
+    "taskID": "TASK-127",
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Set ALFRED to avoid initiating conversations or reminders automatically"
+  },
+  {
+    "taskID": "TASK-129",
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Maintain strict control over what health and interaction data is shared"
+  },
+  {
+    "taskID": "TASK-209",
+    "useCaseId": "UC-008",
+    "personaId": "P-005",
+    "taskDescription": "Rejects new app suggestions and additional features"
+  },
+  {
+    "taskID": "TASK-240",
+    "useCaseId": "UC-009",
+    "personaId": "P-005",
+    "taskDescription": "Blocks unsolicited digital contact to maintain privacy"
+  },
+  {
+    "taskID": "TASK-242",
+    "useCaseId": "UC-009",
+    "personaId": "P-005",
+    "taskDescription": "Feels overwhelmed by frequent social nudges and prefers minimalism"
+  },
+  {
+    "taskID": "TASK-244",
+    "useCaseId": "UC-010",
+    "personaId": "P-005",
+    "taskDescription": "Reviews new app notifications on the ALFRED device carefully"
+  },
+  {
+    "taskID": "TASK-250",
+    "useCaseId": "UC-010",
+    "personaId": "P-005",
+    "taskDescription": "Avoids unsolicited explanations or suggestions from ALFRED"
+  },
+  {
+    "taskID": "TASK-280",
+    "useCaseId": "UC-011",
+    "personaId": "P-005",
+    "taskDescription": "Demands control over notification settings and data sharing preferences"
+  },
+  {
+    "taskID": "TASK-293",
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Specifies no video calls, only offline formal visits with the nurse"
+  },
+  {
+    "taskID": "TASK-295",
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Allows her daughter to contact her only through ALFRED's formal channels"
+  }
+]

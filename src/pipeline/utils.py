@@ -126,13 +126,13 @@ Persona:
         print(f"   - Demographics: {self.demographic_data}")
         print(f"   - Core Characteristics: {', '.join(self.core_characteristics)}")
         print(f"   - Core Goals: {', '.join(self.core_goals)}")
-        print(f"   - Challenges: {', '.join(self.typical_challenges)}")
+        print(f"   - Typical Challenges: {', '.join(self.typical_challenges)}")
         print(f"   - Singularities: {', '.join(self.singularities)}")
-        print(f"   - Main actions: {', '.join(self.main_actions)}")
+        print(f"   - Main Actions: {', '.join(self.main_actions)}")
         print(f"   - Work Situation: {self.working_situation}")
         print(f"   - Place of Work: {self.place_of_work}")
         print(f"   - Expertise: {self.expertise}")
-        print(f"   - User group: {self.user_group}")
+        print(f"   - User Group: {self.user_group}")
 
 
 class UserPersonaLoader:
@@ -331,11 +331,12 @@ class Utils:
 
         self.USE_CASE_DIR = os.path.join(self.ROOT_RESULTS_DIR, "use_cases")
         self.TASK_DIR = os.path.join(self.ROOT_RESULTS_DIR, "tasks")
-        self.EXTRACTED_USE_CASE_TASKS_DIR = os.path.join(self.TASK_DIR, "extracted_use_case_tasks")
-        self.DUPLICATED_EXTRACTED_USE_CASE_TASKS_DIR = os.path.join(self.TASK_DIR, "duplicated_extracted_use_case_tasks")
+        self.UNIQUE_EXTRACTED_USE_CASE_TASKS_DIR = os.path.join(self.TASK_DIR, "unique_extracted_use_case_tasks")
+        self.DUPLICATED_UNIQUE_EXTRACTED_USE_CASE_TASKS_DIR = os.path.join(self.TASK_DIR, "duplicated_extracted_use_case_tasks")
 
-        self.USER_STORY_DIR = os.path.join(self.ROOT_RESULTS_DIR, "user_stories")
-        self.INVALID_USER_STORY_DIR = os.path.join(self.ROOT_RESULTS_DIR, "invalid_user_stories")
+        self.USER_STORY_DIR_PATH = os.path.join(self.ROOT_RESULTS_DIR, "user_stories")
+        self.UNIQUE_USER_STORY_DIR_PATH = os.path.join(self.USER_STORY_DIR_PATH, "unique_user_stories")
+        self.DUPLICATED_USER_STORY_DIR_PATH = os.path.join(self.USER_STORY_DIR_PATH, "duplicated_user_stories")
         self.FUNCTIONAL_USER_STORY_CLUSTER_SET_PATH = os.path.join(self.ROOT_RESULTS_DIR, "functional_user_story_cluster_set.json")
 
         self.CONFLICTS_DIR = os.path.join(self.ROOT_RESULTS_DIR, "user_story_conflicts")
@@ -349,11 +350,35 @@ class Utils:
         self.NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join(self.USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, "non_functional_user_stories")
         self.NON_FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR = os.path.join(self.USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR, "non_functional_user_stories")
         self.INVALID_NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join(self.INVALID_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, "non_functional_user_stories")
+        self.INVALID_NON_FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR = os.path.join(self.INVALID_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR, "non_functional_user_stories")
 
         self.FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join(self.USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, "functional_user_stories")
         self.FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR = os.path.join(self.USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR, "functional_user_stories")
         self.INVALID_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join(self.INVALID_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, "functional_user_stories")
+        self.INVALID_FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR = os.path.join(self.INVALID_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR, "functional_user_stories")
 
+        self.ROOT_RESULT_ANALYSIS_DIR_PATH = os.path.join(self.ROOT_RESULTS_DIR, "result_analysis")
+        self.PERSONA_ANALYSIS_CSV_FILE_PATH = os.path.join(self.ROOT_RESULT_ANALYSIS_DIR_PATH, "persona_analysis.csv")
+        
+        self.USE_CASE_SUMMARY_ANALYSIS_CSV_FILE_PATH = os.path.join(self.ROOT_RESULT_ANALYSIS_DIR_PATH, "use_case_summary_analysis.csv")
+        self.USE_CASE_TYPE_DISTRIBUTION_ANALYSIS_CSV_FILE_PATH = os.path.join(self.ROOT_RESULT_ANALYSIS_DIR_PATH, "use_case_type_distribution_analysis.csv")
+        self.USE_CASE_USER_GROUP_COVERAGE_ANALYSIS_CSV_FILE_PATH = os.path.join(self.ROOT_RESULT_ANALYSIS_DIR_PATH, "use_case_user_group_coverage_analysis.csv")
+        self.USE_CASE_PERSONA_COVERAGE_ANALYSIS_CSV_FILE_PATH = os.path.join(self.ROOT_RESULT_ANALYSIS_DIR_PATH, "use_case_persona_coverage_analysis.csv")
+        self.USE_CASE_TASK_EXTRACTION_AND_DEDUPLICATION_ANALYSIS_CSV_FILE_PATH = os.path.join(self.ROOT_RESULT_ANALYSIS_DIR_PATH, "use_case_task_extraction_and_deduplication_analysis.csv")
+        self.USE_CASE_UNIQUE_TASK_DISTRIBUTION_ANALYSIS_CSV_FILE_PATH = os.path.join(self.ROOT_RESULT_ANALYSIS_DIR_PATH, "use_case_unique_task_distribution_analysis.csv")
+        self.USER_STORY_UNIQUENESS_ANALYSIS_BY_PERSONAS_CSV_FILE_PATH = os.path.join(self.ROOT_RESULT_ANALYSIS_DIR_PATH, "user_story_uniqueness_analysis_by_personas.csv")
+        self.USER_STORY_UNIQUENESS_ANALYSIS_BY_TYPES_CSV_FILE_PATH = os.path.join(self.ROOT_RESULT_ANALYSIS_DIR_PATH, "user_story_uniqueness_analysis_by_types.csv")
+        self.NON_FUNCTIONAL_USER_STORY_CLUSTERING_ANALYSIS_CSV_FILE_PATH = os.path.join(self.ROOT_RESULT_ANALYSIS_DIR_PATH, "non_functional_user_story_clustering_analysis.csv")
+        self.FUNCTIONAL_USER_STORY_CLUSTERING_ANALYSIS_CSV_FILE_PATH = os.path.join(self.ROOT_RESULT_ANALYSIS_DIR_PATH, "functional_user_story_clustering_analysis.csv")
+        
+        self.USER_STORY_CONFLICT_VERIFYING_ANALYSIS_DIR_PATH = os.path.join(self.ROOT_RESULT_ANALYSIS_DIR_PATH, "user_story_conflict_verifying_analysis")
+        self.NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_VERIFYING_ANALYSIS_CSV_FILE_PATH = os.path.join(self.USER_STORY_CONFLICT_VERIFYING_ANALYSIS_DIR_PATH, "non_functional_user_story_conflict_within_one_group_verifying_analysis.csv")
+        self.NON_FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_VERIFYING_ANALYSIS_CSV_FILE_PATH = os.path.join(self.USER_STORY_CONFLICT_VERIFYING_ANALYSIS_DIR_PATH, "non_functional_user_story_conflict_across_two_groups_verifying_analysis.csv")
+        self.FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_VERIFYING_ANALYSIS_CSV_FILE_PATH = os.path.join(self.USER_STORY_CONFLICT_VERIFYING_ANALYSIS_DIR_PATH, "functional_user_story_conflict_within_one_group_verifying_analysis.csv")
+        self.FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_VERIFYING_ANALYSIS_CSV_FILE_PATH = os.path.join(self.USER_STORY_CONFLICT_VERIFYING_ANALYSIS_DIR_PATH, "functional_user_story_conflict_across_two_groups_verifying_analysis.csv")
+
+        self.USER_STORY_CONFLICT_VERIFICATION_ANALYSIS_BY_HUMAN_CSV_FILE_PATH = os.path.join(self.USER_STORY_CONFLICT_VERIFYING_ANALYSIS_DIR_PATH, "needed_human_check", "user_story_conflict_verification_analysis_by_human.csv")
+        self.USER_STORY_CONFLICT_RESOLUTION_ANALYSIS_BY_HUMAN_CSV_FILE_PATH = os.path.join(self.USER_STORY_CONFLICT_VERIFYING_ANALYSIS_DIR_PATH, "needed_human_check", "user_story_conflict_resolution_analysis_by_human.csv")
 
     # ===============================
     # Loaders and helpers below...

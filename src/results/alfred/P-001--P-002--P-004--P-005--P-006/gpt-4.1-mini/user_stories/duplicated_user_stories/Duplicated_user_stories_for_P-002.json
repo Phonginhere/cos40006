@@ -1,0 +1,28 @@
+[
+  {
+    "id": "US-052",
+    "title": "Clear Data Sharing Summaries",
+    "persona": "P-002",
+    "user_group": "Older Adults",
+    "task": "Expect clear and simple summaries about data sharing from ALFRED",
+    "use_case": "UC-003",
+    "priority": 2,
+    "summary": "As an older person, I want ALFRED to share all my health data without limits so I feel open and safe.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Functional",
+    "cluster": "Data Sharing Control"
+  },
+  {
+    "id": "US-057",
+    "title": "Challenge in Physical Therapy Exercises",
+    "persona": "P-002",
+    "user_group": "Older Adults",
+    "task": "Engages actively with ALFRED for physical therapy",
+    "use_case": "UC-008",
+    "priority": 2,
+    "summary": "As an older person, I want to do harder physical therapy exercises to challenge myself and improve my health.",
+    "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
+    "type": "Functional",
+    "cluster": "(Unclustered)"
+  }
+]

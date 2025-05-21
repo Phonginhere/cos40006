@@ -1,6 +1,7 @@
 import os
 import json
 
+from collections import defaultdict
 from pathlib import Path
 
 from pipeline.utils import (
@@ -9,7 +10,7 @@ from pipeline.utils import (
 )
 
 
-def build_batch_dedup_prompt(system_summary: str, user_stories: list) -> str:
+def build_batch_dedup_prompt(system_context: str, user_stories: list) -> str:
     examples = [
         {"id": story["id"], "summary": story["summary"]}
         for story in user_stories if story["summary"]
@@ -17,16 +18,18 @@ def build_batch_dedup_prompt(system_summary: str, user_stories: list) -> str:
 
     return f"""You are a requirements engineer. You are helping with system requirement engineering for a project as follows:
 
-SYSTEM SUMMARY:
-{system_summary}
+--- SYSTEM CONTEXT ---
+{system_context}
+--------------------------------------------
 
-Below is a list of user stories written by the same persona. Each user story is represented by an ID and its summary.
+--- YOUR TASK ---
+Below is a list of user stories written by the same persona and related to the same feature cluster. Each user story is represented by an ID and its summary.
 
 Your job is to identify which user stories are redundant, overly similar, or express the same intent in slightly different ways. These may include reworded duplicates, near duplicates, or stories with the same goal phrased differently.
 
 ONLY return the list of IDs of user stories that should be removed because they are duplicates or redundant. Return this as a valid JSON array of IDs.
 
-USER STORIES:
+- List of user stories:
 {json.dumps(examples, indent=2)}
 
 📌 OUTPUT FORMAT - JSON array of IDs to remove (Below is just an example)):
@@ -36,19 +39,40 @@ USER STORIES:
   ...
 ]
 
-Return ONLY the list likes the above example. Do not include any explanation, commentary, or formatting. Do NOT use any markdown, bold, italic, or special formatting in your response.
+Return ONLY the list like the above example. Do not include any explanation, commentary, or formatting. Do NOT use any markdown, bold, italic, or special formatting in your response.
+--------------------------------------------
+
+--- END OF PROMPT ---
 """.strip()
 
 
 def deduplicate_user_stories_for_each_persona(persona_loader: UserPersonaLoader):
     utils = Utils()
-
-    system_summary = utils.load_system_context()
+    
+    # Load user personas
     all_personas = {p.id: p for p in persona_loader.get_personas()}
-    story_dir = Path(utils.USER_STORY_DIR)
+    
+    story_dir = Path(utils.UNIQUE_USER_STORY_DIR_PATH)
+    invalid_dir = Path(utils.DUPLICATED_USER_STORY_DIR_PATH)
+    invalid_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Skipping Logic
+    existing_invalid_files = {
+        f.name.split("Duplicated_user_stories_for_")[-1].replace(".json", "")
+        for f in invalid_dir.glob("Duplicated_user_stories_for_*.json")
+    }
+    expected_persona_ids = set(all_personas.keys())
+
+    if existing_invalid_files >= expected_persona_ids:
+        print(f"⏭️ Skipping deduplication – all invalid user story files already exist for {len(existing_invalid_files)} personas.\n")
+        return
+
     story_files = sorted(story_dir.glob("User_stories_for_*.json"))
 
-    print(f"🔍 Starting batch deduplication for {len(story_files)} personas...\n")
+    print(f"🔍 Starting cluster-based deduplication for {len(story_files)} personas...\n")
+
+    # Load system context
+    system_context = utils.load_system_context()
 
     for file_path in story_files:
         persona_id = file_path.stem.split("_for_")[-1]
@@ -67,21 +91,41 @@ def deduplicate_user_stories_for_each_persona(persona_loader: UserPersonaLoader)
 
         print(f"🧠 Deduplicating {len(stories)} user stories for {persona_id}...")
 
-        prompt = build_batch_dedup_prompt(system_summary, stories)
-        response = utils.get_llm_response(prompt)
+        # Group stories by cluster
+        cluster_map = defaultdict(list)
+        for story in stories:
+            cluster = story.get("cluster") or "(Unclustered)"
+            cluster_map[cluster].append(story)
 
-        try:
-            to_remove_ids = json.loads(response)
-            if not isinstance(to_remove_ids, list):
-                raise ValueError("Expected a list of IDs.")
-        except Exception as e:
-            print(f"⚠️ LLM response parsing failed for {persona_id}: {e}")
-            continue
+        to_remove_ids = []
+
+        for cluster, cluster_stories in cluster_map.items():
+            if len(cluster_stories) <= 1:
+                continue
+
+            print(f"🔎 Checking {len(cluster_stories)} stories in cluster '{cluster}'")
+            prompt = build_batch_dedup_prompt(system_context, cluster_stories)
+            response = utils.get_llm_response(prompt)
+
+            try:
+                result = json.loads(response)
+                if isinstance(result, list):
+                    to_remove_ids.extend(result)
+                else:
+                    print(f"⚠️ Expected a list in cluster '{cluster}', got: {type(result)}")
+            except Exception as e:
+                print(f"⚠️ Failed to parse LLM response for cluster '{cluster}': {e}")
 
         deduplicated = [s for s in stories if s["id"] not in to_remove_ids]
-        removed = len(stories) - len(deduplicated)
+        duplicates = [s for s in stories if s["id"] in to_remove_ids]
 
         file_path.write_text(json.dumps(deduplicated, indent=2, ensure_ascii=False), encoding="utf-8")
-        print(f"✅ Removed {removed} duplicates → {file_path.name}\n")
+        print(f"✅ Removed {len(duplicates)} duplicates → {file_path.name}")
 
-    print("🎉 Batch user story deduplication complete.\n")
+        # Save invalids to a separate file
+        if duplicates:
+            invalid_file = invalid_dir / f"Duplicated_user_stories_for_{persona_id}.json"
+            invalid_file.write_text(json.dumps(duplicates, indent=2, ensure_ascii=False), encoding="utf-8")
+            print(f"📁 Moved invalid user stories → {invalid_file.name}")
+
+    print("🎉 Cluster-based user story deduplication complete.\n")

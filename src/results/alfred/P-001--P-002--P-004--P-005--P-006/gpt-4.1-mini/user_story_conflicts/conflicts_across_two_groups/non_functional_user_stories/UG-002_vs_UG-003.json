@@ -1,1 +1,173 @@
-[]
+[
+  {
+    "conflictType": "Mutually Exclusive",
+    "conflictDescription": "User Story A requires the caregiver to decide and control when to share client data, allowing sharing in some cases, while User Story B demands blocking all data sharing with everyone without exception. These goals cannot both be true at the same time.",
+    "conflictingNfrPairs": [
+      [
+        "The informal caregiver can choose when to share each client's data",
+        "Block all personal data sharing with doctors"
+      ],
+      [
+        "The informal caregiver can choose when to share each client's data",
+        "Block all personal data sharing with family"
+      ],
+      [
+        "The informal caregiver can choose when to share each client's data",
+        "Ensure no data is shared with any other parties"
+      ],
+      [
+        "The system must protect client privacy by honoring the caregiver's sharing decisions",
+        "Block all personal data sharing with doctors"
+      ],
+      [
+        "The system must protect client privacy by honoring the caregiver's sharing decisions",
+        "Block all personal data sharing with family"
+      ],
+      [
+        "The system must protect client privacy by honoring the caregiver's sharing decisions",
+        "Ensure no data is shared with any other parties"
+      ],
+      [
+        "The caregiver maintains control over data sharing actions for each client",
+        "Block all personal data sharing with doctors"
+      ],
+      [
+        "The caregiver maintains control over data sharing actions for each client",
+        "Block all personal data sharing with family"
+      ],
+      [
+        "The caregiver maintains control over data sharing actions for each client",
+        "Ensure no data is shared with any other parties"
+      ]
+    ],
+    "conflictId": "NFCAT-009",
+    "personaAId": "P-006",
+    "personaBId": "P-005",
+    "userGroupA": "Caregivers and Medical Staff",
+    "userGroupB": "Older Adults",
+    "userStoryAId": "US-082",
+    "userStoryBId": "US-068",
+    "userStoryASummary": "As an informal caregiver, I want to decide myself when to share each client's data to protect their privacy and keep control.",
+    "userStoryBSummary": "As an older adult, I want to block all data sharing with everyone, including doctors and family, to keep my privacy fully safe.",
+    "cluster": "Security, Privacy & Reliability",
+    "generalResolutionType": "Update both user stories",
+    "resolutionDescription": "Adjust both stories so caregivers can request data sharing with user consent, while older adults have final control over sharing with doctors and family, balancing privacy and workflow.",
+    "newUserStoryASummary": "As an informal caregiver, I want to request data sharing with user consent, so that privacy is respected and care is coordinated.",
+    "newUserStoryADecomposition": [
+      "Allow caregivers to request data sharing per client",
+      "Require user consent before sharing data",
+      "Protect user privacy by enforcing consent decisions"
+    ],
+    "newUserStoryBSummary": "As an older adult, I want to control data sharing decisions with doctors and family, so my privacy and care needs are protected.",
+    "newUserStoryBDecomposition": [
+      "Enable older adults to approve or deny data sharing requests",
+      "Allow older adults to set preferences for sharing with doctors",
+      "Allow older adults to set preferences for sharing with family"
+    ]
+  },
+  {
+    "conflictType": "Mutually Exclusive",
+    "conflictDescription": "User Story A requires communication with clients after they give consent, implying some data sharing is allowed with agreement. User Story B demands blocking all data sharing with everyone, including doctors and family, with no exceptions. These two goals cannot be fulfilled at the same time.",
+    "conflictingNfrPairs": [
+      [
+        "Only communicate with clients after they give consent",
+        "Block all personal data sharing with doctors"
+      ],
+      [
+        "Only communicate with clients after they give consent",
+        "Block all personal data sharing with family"
+      ],
+      [
+        "Only communicate with clients after they give consent",
+        "Ensure no data is shared with any other parties"
+      ],
+      [
+        "Respect clients' privacy in all communication",
+        "Block all personal data sharing with doctors"
+      ],
+      [
+        "Respect clients' privacy in all communication",
+        "Block all personal data sharing with family"
+      ],
+      [
+        "Respect clients' privacy in all communication",
+        "Ensure no data is shared with any other parties"
+      ],
+      [
+        "Avoid contacting clients without their agreement",
+        "Block all personal data sharing with doctors"
+      ],
+      [
+        "Avoid contacting clients without their agreement",
+        "Block all personal data sharing with family"
+      ],
+      [
+        "Avoid contacting clients without their agreement",
+        "Ensure no data is shared with any other parties"
+      ]
+    ],
+    "conflictId": "NFCAT-010",
+    "personaAId": "P-006",
+    "personaBId": "P-005",
+    "userGroupA": "Caregivers and Medical Staff",
+    "userGroupB": "Older Adults",
+    "userStoryAId": "US-083",
+    "userStoryBId": "US-068",
+    "userStoryASummary": "As an informal caregiver, I want to communicate with clients only when they agree, so I respect their privacy and comfort.",
+    "userStoryBSummary": "As an older adult, I want to block all data sharing with everyone, including doctors and family, to keep my privacy fully safe.",
+    "cluster": "Security, Privacy & Reliability",
+    "generalResolutionType": "Update both user stories",
+    "resolutionDescription": "Both user stories are updated to allow data sharing with doctors and family only after explicit consent, balancing privacy with care needs.",
+    "newUserStoryASummary": "As an informal caregiver, I want to communicate with clients only after they give clear consent, so I respect their privacy.",
+    "newUserStoryADecomposition": [
+      "Communicate with clients only after explicit consent",
+      "Respect clients' privacy in all communications"
+    ],
+    "newUserStoryBSummary": "As an older adult, I want to control data sharing with doctors and family, allowing it only with my clear consent.",
+    "newUserStoryBDecomposition": [
+      "Allow data sharing with doctors only after user consent",
+      "Allow data sharing with family only after user consent",
+      "Block data sharing with others without consent"
+    ]
+  },
+  {
+    "conflictType": "Partial",
+    "conflictDescription": "The caregiver wants to allow controlled data use on shared devices to protect privacy and avoid mix-ups, but the older adult wants to block all data sharing with everyone, including doctors and family. These goals conflict because full blocking contradicts controlled sharing rules.",
+    "conflictingNfrPairs": [
+      [
+        "Allow informal caregiver to set data use rules on shared devices",
+        "Block all personal data sharing with doctors"
+      ],
+      [
+        "Allow informal caregiver to set data use rules on shared devices",
+        "Block all personal data sharing with family"
+      ],
+      [
+        "Allow informal caregiver to set data use rules on shared devices",
+        "Ensure no data is shared with any other parties"
+      ]
+    ],
+    "conflictId": "NFCAT-011",
+    "personaAId": "P-006",
+    "personaBId": "P-005",
+    "userGroupA": "Caregivers and Medical Staff",
+    "userGroupB": "Older Adults",
+    "userStoryAId": "US-097",
+    "userStoryBId": "US-068",
+    "userStoryASummary": "As an informal caregiver, I want to control ALFRED’s data use on shared devices at home, so I can protect my clients’ privacy and avoid mix-ups.",
+    "userStoryBSummary": "As an older adult, I want to block all data sharing with everyone, including doctors and family, to keep my privacy fully safe.",
+    "cluster": "Security, Privacy & Reliability",
+    "generalResolutionType": "Update both user stories",
+    "resolutionDescription": "The caregiver's need to set data rules is limited by the older adult's consent requirements; both stories are updated to reflect controlled sharing with explicit consent and clear prompts on shared devices.",
+    "newUserStoryASummary": "As a caregiver, I want to set data use rules on shared devices with user consent prompts, so I can protect privacy and avoid confusion.",
+    "newUserStoryADecomposition": [
+      "Allow setting data use rules with explicit user consent",
+      "Provide clear prompts when sharing data on shared devices"
+    ],
+    "newUserStoryBSummary": "As an older adult, I want to control data sharing with doctors and family via clear consent, ensuring privacy on shared devices.",
+    "newUserStoryBDecomposition": [
+      "Require clear user consent before sharing data with others",
+      "Ensure privacy controls work on shared devices"
+    ]
+  }
+]

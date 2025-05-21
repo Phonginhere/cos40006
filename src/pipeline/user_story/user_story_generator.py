@@ -36,7 +36,7 @@ def generate_complete_user_stories(persona_loader: UserPersonaLoader, use_case_l
         return
     
     # Load invalid user story directory
-    invalid_dir = Path(utils.INVALID_USER_STORY_DIR)
+    invalid_dir = Path(utils.DUPLICATED_USER_STORY_DIR_PATH)
     invalid_dir.mkdir(parents=True, exist_ok=True)
     
     # Load use cases
@@ -184,18 +184,18 @@ Strictly, do not include any additional text or commentary. Do NOT use any markd
 
         except Exception as e:
             # Move invalid story to invalid folder
-            invalid_file = invalid_dir / f"Invalid_user_stories_for_{story.persona}.json"
-            try:
-                existing = []
-                if invalid_file.exists():
-                    with open(invalid_file, "r", encoding="utf-8") as f:
-                        existing = json.load(f)
-                existing.append(story.to_dict())
-                with open(invalid_file, "w", encoding="utf-8") as f:
-                    json.dump(existing, f, indent=2, ensure_ascii=False)
-                print(f"❌ Moved invalid story {story.id} → {invalid_file.name} (Reason: {str(e)})")
-            except Exception as write_err:
-                print(f"❌ Failed to save invalid story {story.id}: {write_err}")
+            # invalid_file = invalid_dir / f"Invalid_user_stories_for_{story.persona}.json"
+            # try:
+            #     existing = []
+            #     if invalid_file.exists():
+            #         with open(invalid_file, "r", encoding="utf-8") as f:
+            #             existing = json.load(f)
+            #     existing.append(story.to_dict())
+            #     with open(invalid_file, "w", encoding="utf-8") as f:
+            #         json.dump(existing, f, indent=2, ensure_ascii=False)
+            #     print(f"❌ Moved invalid story {story.id} → {invalid_file.name} (Reason: {str(e)})")
+            # except Exception as write_err:
+            print(f"❌ Failed to save invalid story {story.id}: {e}")
 
     # Save updated stories back to their respective files
     loader.save_all_user_stories_by_persona()

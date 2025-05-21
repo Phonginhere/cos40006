@@ -202,7 +202,7 @@ Strictly, only respond with the exact **cluster name** (or **(Unclustered)** onl
 def update_user_story_cluster_by_persona(story_id: str, persona_id: str, new_cluster: str, utils: Utils = None):
     """Update the cluster of a user story for a specific persona."""
     filename = f"User_stories_for_{persona_id}.json"
-    filepath = os.path.join(utils.USER_STORY_DIR, filename)
+    filepath = os.path.join(utils.UNIQUE_USER_STORY_DIR_PATH, filename)
 
     if not os.path.exists(filepath):
         print(f"❌ File not found for persona {persona_id}: {filepath}")

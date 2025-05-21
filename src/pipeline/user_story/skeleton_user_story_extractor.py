@@ -18,8 +18,8 @@ def extract_skeleton_user_stories(persona_loader: UserPersonaLoader):
     all_personas = {p.id: p for p in persona_loader.get_personas()}
 
     # Step 1.1: Check if story files already exist and match expected count
-    if os.path.exists(utils.USER_STORY_DIR):
-        existing_files = set(os.listdir(utils.USER_STORY_DIR))
+    if os.path.exists(utils.UNIQUE_USER_STORY_DIR_PATH):
+        existing_files = set(os.listdir(utils.UNIQUE_USER_STORY_DIR_PATH))
         expected_files = {f"User_stories_for_{pid}.json" for pid in all_personas}
         
         if expected_files.issubset(existing_files) and len(expected_files) == len(all_personas):
@@ -27,19 +27,19 @@ def extract_skeleton_user_stories(persona_loader: UserPersonaLoader):
             return
     
     # Step 2: Clean user story directory
-    if os.path.exists(utils.USER_STORY_DIR):
-        shutil.rmtree(utils.USER_STORY_DIR)
-    os.makedirs(utils.USER_STORY_DIR, exist_ok=True)
+    if os.path.exists(utils.UNIQUE_USER_STORY_DIR_PATH):
+        shutil.rmtree(utils.UNIQUE_USER_STORY_DIR_PATH)
+    os.makedirs(utils.UNIQUE_USER_STORY_DIR_PATH, exist_ok=True)
 
     # Step 3: Process extracted task files
     grouped_stories = defaultdict(list)
     uid_counter = 1
 
-    for filename in os.listdir(utils.EXTRACTED_USE_CASE_TASKS_DIR):
-        if not filename.startswith("Extracted_tasks_for_") or not filename.endswith(".json"):
+    for filename in os.listdir(utils.UNIQUE_EXTRACTED_USE_CASE_TASKS_DIR):
+        if not filename.startswith("Unique_extracted_tasks_for_") or not filename.endswith(".json"):
             continue
 
-        file_path = os.path.join(utils.EXTRACTED_USE_CASE_TASKS_DIR, filename)
+        file_path = os.path.join(utils.UNIQUE_EXTRACTED_USE_CASE_TASKS_DIR, filename)
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 task_list = json.load(f)
@@ -72,7 +72,7 @@ def extract_skeleton_user_stories(persona_loader: UserPersonaLoader):
 
     # Step 4: Write grouped user stories per persona
     for persona_id, stories in grouped_stories.items():
-        file_path = os.path.join(utils.USER_STORY_DIR, f"User_stories_for_{persona_id}.json")
+        file_path = os.path.join(utils.UNIQUE_USER_STORY_DIR_PATH, f"User_stories_for_{persona_id}.json")
         with open(file_path, 'w', encoding='utf-8') as f:
             json.dump([s.to_dict() for s in stories], f, indent=2, ensure_ascii=False)
 

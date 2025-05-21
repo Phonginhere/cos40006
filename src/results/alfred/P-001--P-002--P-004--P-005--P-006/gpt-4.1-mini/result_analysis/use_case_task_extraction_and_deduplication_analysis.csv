@@ -1,0 +1,7 @@
+﻿Personas,Total number of tasks extracted (from use cases),Number of duplicated tasks,Number of unique tasks,Percentage of Unique Task extracted
+P-001,70,21,49,70%
+P-002,83,70,13,16%
+P-004,47,44,3,6%
+P-005,99,85,14,14%
+P-006,77,17,60,78%
+Total,376,237,139,37%

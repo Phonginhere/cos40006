@@ -1,0 +1,296 @@
+[
+  {
+    "taskID": "TASK-018",
+    "useCaseId": "UC-001",
+    "personaId": "P-001",
+    "taskDescription": "Reviews caregiver feedback to improve ALFRED"
+  },
+  {
+    "taskID": "TASK-019",
+    "useCaseId": "UC-001",
+    "personaId": "P-001",
+    "taskDescription": "Implements strict workflow controls in the system"
+  },
+  {
+    "taskID": "TASK-020",
+    "useCaseId": "UC-001",
+    "personaId": "P-001",
+    "taskDescription": "Enforces push notifications to caregivers at all times"
+  },
+  {
+    "taskID": "TASK-021",
+    "useCaseId": "UC-001",
+    "personaId": "P-001",
+    "taskDescription": "Programs automatic updates for system integrity"
+  },
+  {
+    "taskID": "TASK-022",
+    "useCaseId": "UC-001",
+    "personaId": "P-001",
+    "taskDescription": "Advocates for security and compliance over caregiver flexibility"
+  },
+  {
+    "taskID": "TASK-114",
+    "useCaseId": "UC-005",
+    "personaId": "P-001",
+    "taskDescription": "Reviews telemetry data from simulation therapy applications"
+  },
+  {
+    "taskID": "TASK-115",
+    "useCaseId": "UC-005",
+    "personaId": "P-001",
+    "taskDescription": "Develops and refines proactive voice guidance features"
+  },
+  {
+    "taskID": "TASK-116",
+    "useCaseId": "UC-005",
+    "personaId": "P-001",
+    "taskDescription": "Codes system behaviors to push users towards more engagement"
+  },
+  {
+    "taskID": "TASK-117",
+    "useCaseId": "UC-005",
+    "personaId": "P-001",
+    "taskDescription": "Implements forced notifications overriding user preferences"
+  },
+  {
+    "taskID": "TASK-118",
+    "useCaseId": "UC-005",
+    "personaId": "P-001",
+    "taskDescription": "Disables manual data logging to enforce strict control"
+  },
+  {
+    "taskID": "TASK-120",
+    "useCaseId": "UC-005",
+    "personaId": "P-001",
+    "taskDescription": "Focuses on streamlining user workflows using autocompletion"
+  },
+  {
+    "taskID": "TASK-123",
+    "useCaseId": "UC-005",
+    "personaId": "P-001",
+    "taskDescription": "Monitors app performance and user interaction analytics"
+  },
+  {
+    "taskID": "TASK-141",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Update ALFRED’s consent management module remotely"
+  },
+  {
+    "taskID": "TASK-143",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Develop features to nudge users toward sharing health data and accepting updates"
+  },
+  {
+    "taskID": "TASK-144",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Feel frustrated by users’ stringent privacy blocks"
+  },
+  {
+    "taskID": "TASK-164",
+    "useCaseId": "UC-007",
+    "personaId": "P-001",
+    "taskDescription": "Develops updates to ALFRED's consent management system"
+  },
+  {
+    "taskID": "TASK-165",
+    "useCaseId": "UC-007",
+    "personaId": "P-001",
+    "taskDescription": "Implements automated enforcement of consent policies"
+  },
+  {
+    "taskID": "TASK-166",
+    "useCaseId": "UC-007",
+    "personaId": "P-001",
+    "taskDescription": "Codes features that push notifications persistently to caregivers"
+  },
+  {
+    "taskID": "TASK-167",
+    "useCaseId": "UC-007",
+    "personaId": "P-001",
+    "taskDescription": "Overrides some user preferences to prevent missing critical alerts"
+  },
+  {
+    "taskID": "TASK-168",
+    "useCaseId": "UC-007",
+    "personaId": "P-001",
+    "taskDescription": "Prioritizes security and care quality over individual privacy choices"
+  },
+  {
+    "taskID": "TASK-169",
+    "useCaseId": "UC-007",
+    "personaId": "P-001",
+    "taskDescription": "Creates rigid consent enforcement with little flexibility"
+  },
+  {
+    "taskID": "TASK-170",
+    "useCaseId": "UC-007",
+    "personaId": "P-001",
+    "taskDescription": "Anticipates resistance from users unhappy with forced updates"
+  },
+  {
+    "taskID": "TASK-172",
+    "useCaseId": "UC-007",
+    "personaId": "P-001",
+    "taskDescription": "Works remotely to finalize system improvements"
+  },
+  {
+    "taskID": "TASK-256",
+    "useCaseId": "UC-010",
+    "personaId": "P-001",
+    "taskDescription": "Submits new healthcare apps to the ALFRED marketplace"
+  },
+  {
+    "taskID": "TASK-257",
+    "useCaseId": "UC-010",
+    "personaId": "P-001",
+    "taskDescription": "Implements security measures to protect user data in his apps"
+  },
+  {
+    "taskID": "TASK-258",
+    "useCaseId": "UC-010",
+    "personaId": "P-001",
+    "taskDescription": "Designs apps to send proactive notifications and smart voice guidance"
+  },
+  {
+    "taskID": "TASK-259",
+    "useCaseId": "UC-010",
+    "personaId": "P-001",
+    "taskDescription": "Wants apps to be installed automatically to reach more users"
+  },
+  {
+    "taskID": "TASK-260",
+    "useCaseId": "UC-010",
+    "personaId": "P-001",
+    "taskDescription": "Monitors user feedback and settings related to app installation"
+  },
+  {
+    "taskID": "TASK-262",
+    "useCaseId": "UC-010",
+    "personaId": "P-001",
+    "taskDescription": "Considers overriding user preferences to ensure app deployment"
+  },
+  {
+    "taskID": "TASK-264",
+    "useCaseId": "UC-010",
+    "personaId": "P-001",
+    "taskDescription": "Develops features to encourage physical and cognitive activity"
+  },
+  {
+    "taskID": "TASK-267",
+    "useCaseId": "UC-011",
+    "personaId": "P-001",
+    "taskDescription": "Pushes updates to enforce stricter notification policies on ALFRED"
+  },
+  {
+    "taskID": "TASK-268",
+    "useCaseId": "UC-011",
+    "personaId": "P-001",
+    "taskDescription": "Overrides user preferences to ensure caregivers receive immediate alerts"
+  },
+  {
+    "taskID": "TASK-269",
+    "useCaseId": "UC-011",
+    "personaId": "P-001",
+    "taskDescription": "Codes the system to prevent users from opting out of essential notifications"
+  },
+  {
+    "taskID": "TASK-270",
+    "useCaseId": "UC-011",
+    "personaId": "P-001",
+    "taskDescription": "Forces installation of essential apps on user devices without consent"
+  },
+  {
+    "taskID": "TASK-271",
+    "useCaseId": "UC-011",
+    "personaId": "P-001",
+    "taskDescription": "Schedules meetings to defend and explain enforcement updates to stakeholders"
+  },
+  {
+    "taskID": "TASK-272",
+    "useCaseId": "UC-011",
+    "personaId": "P-001",
+    "taskDescription": "Believes in prioritizing caregiver needs over user privacy in notifications"
+  },
+  {
+    "taskID": "TASK-273",
+    "useCaseId": "UC-011",
+    "personaId": "P-001",
+    "taskDescription": "Monitors system compliance with strict data sharing and notification rules"
+  },
+  {
+    "taskID": "TASK-301",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Prepares and updates the onboarding process for ALFRED remotely"
+  },
+  {
+    "taskID": "TASK-302",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Codes ALFRED to encourage users to accept new apps and share health data"
+  },
+  {
+    "taskID": "TASK-303",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Monitors onboarding logs to track user behaviors and preferences"
+  },
+  {
+    "taskID": "TASK-304",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Adjusts onboarding flow to accommodate stringent user privacy settings"
+  },
+  {
+    "taskID": "TASK-305",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Balances desire for proactive health data sharing with user autonomy"
+  },
+  {
+    "taskID": "TASK-308",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Seeks to improve onboarding to promote seamless and secure user experience"
+  },
+  {
+    "taskID": "TASK-309",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Analyzes user blocks on app installations and notifications"
+  },
+  {
+    "taskID": "TASK-370",
+    "useCaseId": "UC-015",
+    "personaId": "P-001",
+    "taskDescription": "Reviews and enforces ALFRED's notification policies"
+  },
+  {
+    "taskID": "TASK-371",
+    "useCaseId": "UC-015",
+    "personaId": "P-001",
+    "taskDescription": "Programs strict notification delivery for caregivers"
+  },
+  {
+    "taskID": "TASK-372",
+    "useCaseId": "UC-015",
+    "personaId": "P-001",
+    "taskDescription": "Overrides user preferences to ensure critical alerts are seen"
+  },
+  {
+    "taskID": "TASK-373",
+    "useCaseId": "UC-015",
+    "personaId": "P-001",
+    "taskDescription": "Pushes reminders and nudges persistently to caregivers"
+  },
+  {
+    "taskID": "TASK-376",
+    "useCaseId": "UC-015",
+    "personaId": "P-001",
+    "taskDescription": "Aims to tighten control of notifications for better care delivery"
+  }
+]

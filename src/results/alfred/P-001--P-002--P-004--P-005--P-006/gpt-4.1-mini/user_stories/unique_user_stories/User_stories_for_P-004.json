@@ -1,0 +1,41 @@
+[
+  {
+    "id": "US-063",
+    "title": "Access Patient Health Data Without Consent",
+    "persona": "P-004",
+    "user_group": "Caregivers and Medical Staff",
+    "task": "Access clients’ health data through ALFRED to support clinical judgment",
+    "use_case": "UC-006",
+    "priority": 1,
+    "summary": "As a registered nurse, I want to access patient health data quickly with consent or in emergencies, so I can make fast clinical decisions.",
+    "pillar": "Pillar 3 - Effective & Personalized Care",
+    "type": "Functional",
+    "cluster": "Consent Enforcement"
+  },
+  {
+    "id": "US-064",
+    "title": "Block Non-Emergency Notifications",
+    "persona": "P-004",
+    "user_group": "Caregivers and Medical Staff",
+    "task": "Wishes for clearer, noise-free access to critical health data",
+    "use_case": "UC-008",
+    "priority": 1,
+    "summary": "As a registered nurse, I want to block non-emergency notifications during work hours so I can focus on patients without distractions.",
+    "pillar": "General Requirements",
+    "type": "Functional",
+    "cluster": "Notification Control"
+  },
+  {
+    "id": "US-065",
+    "title": "Suppress Non-Medical Features During Work",
+    "persona": "P-004",
+    "user_group": "Caregivers and Medical Staff",
+    "task": "Reviews and manages numerous notifications from ALFRED during work",
+    "use_case": "UC-011",
+    "priority": 2,
+    "summary": "As a registered nurse, I want ALFRED to block all non-medical features during my work hours so I can focus only on clinical tasks.",
+    "pillar": "General Requirements",
+    "type": "Functional",
+    "cluster": "Silent Mode"
+  }
+]

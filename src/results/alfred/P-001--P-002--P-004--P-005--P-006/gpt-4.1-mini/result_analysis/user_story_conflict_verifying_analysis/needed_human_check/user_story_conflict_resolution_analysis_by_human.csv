@@ -1,0 +1,357 @@
+﻿ID,Personas,User Group(s),Old User Stories,New User Stories,Agreed by human (the team),Notes
+FCWI-001,"P-004,
+P-006",Caregivers and Medical Staff,"
+As a registered nurse, I want to access patient health data without their permission to make fast clinical decisions during my busy work.,
+As an informal caregiver, I want to choose when to log data for each client myself, so I can protect their privacy the way they want.","
+As a registered nurse, I want to access patient health data quickly with proper consent, so I can make fast clinical decisions.,
+As an informal caregiver, I want to control when health data is logged, so I can protect privacy according to user wishes.",NOT AGREED,The original is not a conflict
+FCWI-002,"P-004,
+P-006",Caregivers and Medical Staff,"
+As a registered nurse, I want to access patient health data without their permission to make fast clinical decisions during my busy work.,
+As an informal caregiver, I want to receive urgent alerts only when clients agree, so I respect their privacy and help them properly.","
+As a registered nurse, I want to access patient health data quickly with consent or in emergencies, so I can make fast clinical decisions.,
+As an informal caregiver, I want to receive urgent alerts only with client consent or in emergencies, so I respect their privacy and help properly.",NOT AGREED,The original is not a conflict
+NFCAT-012,"P-001,
+P-005","Developers and App Creators,
+Older Adults","
+As a developer, I want to update ALFRED’s consent module remotely without asking users, so I can keep control and make sure privacy rules are followed.,
+As an older adult, I want to block all data sharing with everyone, including doctors and family, to keep my privacy fully safe.","
+As a developer, I want to update the consent module remotely only after user consent, so I can keep privacy rules updated and respected.,
+As an older adult, I want to block all data sharing unless I give consent, so my privacy is fully protected.",AGREED,
+NFCAT-013,"P-001,
+P-005","Developers and App Creators,
+Older Adults","
+As a developer, I want ALFRED to enforce consent policies automatically to keep caregiver workflows secure without asking users.,
+As an older adult, I want to block all data sharing with everyone, including doctors and family, to keep my privacy fully safe.","
+As a developer, I want ALFRED to enforce consent policies automatically while respecting user choices, so caregiver workflows are secure.,
+As an older adult, I want to control data sharing and block it unless I consent, so my privacy is protected.",NOT AGREED,The original is not a conflict
+NFCAT-015,"P-001,
+P-005","Developers and App Creators,
+Older Adults","
+As a developer, I want ALFRED to enforce consent rules strictly without exceptions, so caregiver tasks are always done right.,
+As an older adult, I want to block all data sharing with everyone, including doctors and family, to keep my privacy fully safe.","
+As a developer, I want ALFRED to enforce consent rules strictly for caregiver tasks, so tasks happen only with user permission.,
+As an older adult, I want to control data sharing so that my privacy is protected and my care needs are met.",NOT AGREED,The original is not a conflict
+NFCAT-016,"P-001,
+P-005","Developers and App Creators,
+Older Adults","
+As a developer, I want to enforce strict security and privacy controls in my apps to protect user data according to my conservative approach.,
+As an older adult, I want to block all data sharing with everyone, including doctors and family, to keep my privacy fully safe.","
+As a developer, I want to enforce strict privacy controls with authorized data sharing to protect user data securely.,
+As an older adult, I want to control data sharing with doctors and family, so my privacy and care needs are protected.",NOT AGREED,The original is not a conflict
+NFCAT-001,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver, I want to decide myself when to share each client's data to protect their privacy and keep control.,
+As a developer, I want to update ALFRED’s consent module remotely without asking users, so I can keep control and make sure privacy rules are followed.","
+As an informal caregiver, I want to control when to share each client's data, so that privacy is protected.,
+As a developer, I want to update the consent module remotely only with user permission, so that privacy rules stay current and respected.",NOT AGREED,The original is not a conflict
+NFCAT-002,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver, I want to decide myself when to share each client's data to protect their privacy and keep control.,
+As a developer, I want ALFRED to enforce consent policies automatically to keep caregiver workflows secure without asking users.","
+As an informal caregiver, I want to control data sharing times with minimal prompts, so that privacy is protected and workflow is smooth.,
+As a developer, I want ALFRED to enforce consent policies automatically while allowing caregiver overrides with minimal prompts, so workflows remain secure and user-friendly.",NOT AGREED,The original is not a conflict
+NFCAT-003,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver, I want to decide myself when to share each client's data to protect their privacy and keep control.,
+As a developer, I want ALFRED to enforce consent rules strictly without exceptions, so caregiver tasks are always done right.","
+As an informal caregiver, I want to request data sharing with user consent, so that privacy is respected and workflow is smooth.,
+As a developer, I want ALFRED to enforce strict consent rules for caregiver data sharing, so that user privacy is fully protected.",AGREED,Partially agreed since the original conflict is still quite vague
+NFCAT-004,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver, I want to communicate with clients only when they agree, so I respect their privacy and comfort.,
+As a developer, I want to update ALFRED’s consent module remotely without asking users, so I can keep control and make sure privacy rules are followed.","
+As an informal caregiver, I want to communicate with clients only with their clear consent, so I respect their privacy and comfort.,
+As a developer, I want to update the consent module remotely only with explicit user permission and transparent notification, so privacy rules remain current and respected.",AGREED,
+NFCAT-006,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver, I want to control ALFRED’s data use on shared devices at home, so I can protect my clients’ privacy and avoid mix-ups.,
+As a developer, I want to update ALFRED’s consent module remotely without asking users, so I can keep control and make sure privacy rules are followed.","
+As a caregiver, I want to control data use rules on shared devices so I can protect clients’ privacy and avoid mix-ups.,
+As a developer, I want to update the consent module remotely with caregiver approval and notification to keep privacy rules current and respected.",AGREED,Partially agreed since the original conflict is still quite vague
+NFCAT-007,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver, I want to control ALFRED’s data use on shared devices at home, so I can protect my clients’ privacy and avoid mix-ups.,
+As a developer, I want ALFRED to enforce consent policies automatically to keep caregiver workflows secure without asking users.","
+As a caregiver, I want to set data use rules on shared devices with clear user prompts, so I can protect privacy and avoid confusion.,
+As a developer, I want ALFRED to enforce consent policies automatically with minimal user prompts and allow caregiver overrides, so the system stays secure and user-friendly.",NOT AGREED,"The original is already quite vague, the new one is even more vague"
+NFCAT-009,"P-006,
+P-005","Caregivers and Medical Staff,
+Older Adults","
+As an informal caregiver, I want to decide myself when to share each client's data to protect their privacy and keep control.,
+As an older adult, I want to block all data sharing with everyone, including doctors and family, to keep my privacy fully safe.","
+As an informal caregiver, I want to request data sharing with user consent, so that privacy is respected and care is coordinated.,
+As an older adult, I want to control data sharing decisions with doctors and family, so my privacy and care needs are protected.",NOT AGREED,The original is not a conflict
+NFCAT-010,"P-006,
+P-005","Caregivers and Medical Staff,
+Older Adults","
+As an informal caregiver, I want to communicate with clients only when they agree, so I respect their privacy and comfort.,
+As an older adult, I want to block all data sharing with everyone, including doctors and family, to keep my privacy fully safe.","
+As an informal caregiver, I want to communicate with clients only after they give clear consent, so I respect their privacy.,
+As an older adult, I want to control data sharing with doctors and family, allowing it only with my clear consent.",NOT AGREED,The original is not a conflict
+NFCAT-011,"P-006,
+P-005","Caregivers and Medical Staff,
+Older Adults","
+As an informal caregiver, I want to control ALFRED’s data use on shared devices at home, so I can protect my clients’ privacy and avoid mix-ups.,
+As an older adult, I want to block all data sharing with everyone, including doctors and family, to keep my privacy fully safe.","
+As a caregiver, I want to set data use rules on shared devices with user consent prompts, so I can protect privacy and avoid confusion.,
+As an older adult, I want to control data sharing with doctors and family via clear consent, ensuring privacy on shared devices.",NOT AGREED,The original is not a conflict
+FCAT-066,"P-001,
+P-002","Developers and App Creators,
+Older Adults","
+As a developer, I want ALFRED to send notifications to users even if they refuse, so caregivers and patients always get important information.,
+As an older person, I want to receive all social invitations and calls freely, so I can stay connected without limits.","
+As a developer, I want ALFRED to send only critical notifications even if users refuse, so caregivers and patients get important information.,
+As an older person, I want to receive all social invitations and calls freely, so I can stay connected without limits.",NOT AGREED,The original is not a conflict
+FCAT-067,"P-001,
+P-002","Developers and App Creators,
+Older Adults","
+As a developer, I want ALFRED to send notifications to users even if they refuse, so caregivers and patients always get important information.,
+As an older person who likes challenges, I want ALFRED to send alerts that keep me motivated without feeling too much.","
+As a developer, I want ALFRED to send important notifications while respecting user preferences, so caregivers and patients get key information without annoyance.,
+As an older person who likes challenges, I want ALFRED to send alerts that motivate me without feeling too many, so I stay engaged comfortably.",NOT AGREED,The original is not a conflict
+FCAT-068,"P-001,
+P-005","Developers and App Creators,
+Older Adults","
+As a developer, I want ALFRED to send notifications to users even if they refuse, so caregivers and patients always get important information.,
+As an older adult, I want to block all app updates and installations, so that I avoid unwanted changes and keep full control.","
+As a developer, I want ALFRED to send important notifications even if users refuse, so caregivers and patients get vital information.,
+As an older adult, I want to block all app updates and installations unless I approve, so I keep control and avoid unwanted changes.",NOT AGREED,Nothing changes
+FCAT-002,"P-004,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As a registered nurse, I want to access patient health data quickly with consent or in emergencies, so I can make fast clinical decisions.,
+As a developer, I want ALFRED to restrict caregiver options to keep control and force workflows even if caregivers do not want it.","
+As a registered nurse, I want quick access to patient data with consent or emergencies, so I can make fast and safe decisions.,
+As a developer, I want ALFRED to enforce controlled caregiver workflows with flexibility for emergency access, to keep security and usability balanced.",AGREED,Partially agreed since the new one may not be good enough
+FCAT-003,"P-004,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As a registered nurse, I want to access patient health data quickly with consent or in emergencies, so I can make fast clinical decisions.,
+As a developer, I want ALFRED to push users to share health data and accept updates even if they do not want to, so data collection is complete and apps stay current.","
+As a nurse, I want to access patient data quickly with consent or during emergencies, so I can make fast clinical decisions.,
+As a developer, I want ALFRED to encourage users to share health data and accept updates while respecting their consent, so data collection is reliable.",NOT AGREED,The original is not a conflict
+FCAT-004,"P-004,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As a registered nurse, I want to access patient health data quickly with consent or in emergencies, so I can make fast clinical decisions.,
+As a developer, I want to forcibly install apps on users' devices, so that healthcare features are always present regardless of user consent.","
+As a registered nurse, I want to access patient health data only with user consent or emergencies, so I can make safe clinical decisions.,
+As a developer, I want to install apps on users' devices only with consent or in emergencies, so healthcare features are available without violating privacy.",NOT AGREED,The original is not a conflict
+FCAT-005,"P-004,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As a registered nurse, I want to access patient health data quickly with consent or in emergencies, so I can make fast clinical decisions.,
+As a developer, I want to enforce strict notification delivery in ALFRED, even if users do not want to receive them.","
+As a registered nurse, I want to access patient health data quickly with consent or in emergencies, so I can make fast clinical decisions.,
+As a developer, I want to enforce notification delivery only with user consent or in emergencies, so that privacy and user preferences are respected.",NOT AGREED,The original is not a conflict
+FCAT-006,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver, I want to control when health data is logged, so I can protect privacy according to user wishes.,
+As a developer, I want ALFRED to restrict caregiver options to keep control and force workflows even if caregivers do not want it.","
+As a caregiver, I want to control when health data is logged, so I can protect user privacy within system rules.,
+As a developer, I want ALFRED to enforce privacy policies while allowing caregiver control to maintain workflow and data security.",NOT AGREED,The original is not a conflict
+FCAT-007,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver, I want to control when health data is logged, so I can protect privacy according to user wishes.,
+As a developer, I want ALFRED to push users to share health data and accept updates even if they do not want to, so data collection is complete and apps stay current.","
+As an informal caregiver, I want to control health data logging with user consent, so that privacy is protected.,
+As a developer, I want ALFRED to encourage users to share health data and accept updates with clear consent, so data is complete and apps stay current.",AGREED,
+FCAT-008,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver, I want to control when health data is logged, so I can protect privacy according to user wishes.,
+As a developer, I want to forcibly install apps on users' devices, so that healthcare features are always present regardless of user consent.","
+As an informal caregiver, I want to control when health data is logged, so I can protect privacy according to user wishes.,
+As a developer, I want to install healthcare apps only with user consent, so essential features are present without violating privacy.",NOT AGREED,The original is not a conflict
+FCAT-009,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver, I want to control when health data is logged, so I can protect privacy according to user wishes.,
+As a developer, I want to enforce strict notification delivery in ALFRED, even if users do not want to receive them.","
+As an informal caregiver, I want to control when health data is logged, so that user privacy is protected following their wishes.,
+As a developer, I want to enforce important notification delivery in ALFRED, respecting user consent except in urgent cases.",AGREED,
+FCAT-010,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver, I want to receive urgent alerts only with client consent or in emergencies, so I respect their privacy and help properly.,
+As a developer, I want ALFRED to restrict caregiver options to keep control and force workflows even if caregivers do not want it.","
+As an informal caregiver, I want urgent alerts only with client consent or emergencies, so I respect privacy and help properly.,
+As a developer, I want ALFRED to enforce caregiver workflows but allow exceptions for client consent and emergencies.",AGREED,"Partially agreed, it may be better if dev allow caregiver to control workflow freely"
+FCAT-011,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver, I want to receive urgent alerts only with client consent or in emergencies, so I respect their privacy and help properly.,
+As a developer, I want ALFRED to push users to share health data and accept updates even if they do not want to, so data collection is complete and apps stay current.","
+As an informal caregiver, I want to receive urgent alerts only with user consent or in emergencies, so I respect privacy and provide proper help.,
+As a developer, I want ALFRED to encourage users to share health data and accept updates with clear consent, to keep data complete and apps current.",NOT AGREED,The original is not a conflict
+FCAT-012,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver, I want to receive urgent alerts only with client consent or in emergencies, so I respect their privacy and help properly.,
+As a developer, I want to forcibly install apps on users' devices, so that healthcare features are always present regardless of user consent.","
+As an informal caregiver, I want to receive urgent alerts only with client consent or in emergencies, so I respect their privacy and help properly.,
+As a developer, I want to install apps on users' devices only with user consent or in emergencies, so healthcare features are available without violating privacy.",NOT AGREED,The original is not a conflict
+FCAT-013,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver, I want to receive urgent alerts only with client consent or in emergencies, so I respect their privacy and help properly.,
+As a developer, I want to enforce strict notification delivery in ALFRED, even if users do not want to receive them.","
+As an informal caregiver, I want to receive urgent alerts with client consent or in emergencies, so I respect their privacy and help properly.,
+As a developer, I want to enforce strict notification delivery only in emergencies or with user consent override, so urgent alerts are always delivered when needed.",AGREED,
+FCAT-014,"P-004,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As a registered nurse, I want to block all non-emergency notifications during work hours so I can focus on patients and avoid distractions.,
+As a developer, I want ALFRED to send notifications to users even if they refuse, so caregivers and patients always get important information.","
+As a nurse, I want to block non-emergency notifications during work hours so I can focus on patients without distractions.,
+As a developer, I want ALFRED to send emergency notifications even if users refuse, so caregivers and patients get critical information.",AGREED,
+FCAT-015,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver, I want to control notifications for each client myself, so I can avoid overload and respect their wishes.,
+As a developer, I want ALFRED to send notifications to users even if they refuse, so caregivers and patients always get important information.","
+As an informal caregiver, I want to control non-critical notifications for clients, so I can avoid overload and respect their wishes.,
+As a developer, I want ALFRED to always send critical notifications, even if users refuse, so caregivers and patients get important information.",AGREED,
+FCAT-016,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver, I want to see notifications for each client clearly, so I can care for them without getting mixed up or tired.,
+As a developer, I want ALFRED to send notifications to users even if they refuse, so caregivers and patients always get important information.","
+As an informal caregiver, I want to see clear notifications with user consent, so I can care well without overload.,
+As a developer, I want ALFRED to send important notifications even if users refuse, only for critical alerts, so caregivers and patients get urgent info.",NOT AGREED,The original is not a conflict
+FCAT-017,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver, I want to choose which client notifications to see first so I can handle my work without feeling too busy.,
+As a developer, I want ALFRED to send notifications to users even if they refuse, so caregivers and patients always get important information.","
+As an informal caregiver, I want to prioritize notifications by importance so I can manage my work without feeling too busy.,
+As a developer, I want ALFRED to send critical notifications to users even if they refuse, so important information is always received.",AGREED,"Partially agreed. Although the original is vague in conflicting, but the new one is not vague and no conflicting"
+FCAT-018,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver, I want to manually choose which alerts to acknowledge for each client, so I can control my responses and not miss important messages.,
+As a developer, I want ALFRED to send notifications to users even if they refuse, so caregivers and patients always get important information.","
+As a caregiver, I want to choose which alerts to acknowledge, so I can manage my responses carefully.,
+As a developer, I want ALFRED to always send critical notifications even if users refuse, so important information is not missed.",AGREED,"Partially agreed, the new one may not be conflicting in general, but may be so in some special cases"
+FCAT-019,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver, I want to control when I get notifications during care tasks so I can focus on each client without interruptions.,
+As a developer, I want ALFRED to send notifications to users even if they refuse, so caregivers and patients always get important information.","
+As an informal caregiver, I want to set notification preferences during care tasks so I can reduce interruptions but still get important alerts.,
+As a developer, I want ALFRED to send urgent notifications even if users refuse, so caregivers and patients receive critical information on time.",AGREED,
+FCAT-020,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver, I want to choose alert sounds for each client to quickly know who needs help without looking.,
+As a developer, I want ALFRED to send notifications to users even if they refuse, so caregivers and patients always get important information.","
+As an informal caregiver, I want to choose alert sounds for each client, so I quickly know who needs help without looking, except in emergencies.,
+As a developer, I want ALFRED to send critical notifications even if users refuse, so caregivers and patients always get urgent information.",NOT AGREED,The original is not a conflict
+FCAT-021,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver, I want to manually control urgent alerts for each client to respect their privacy and respond properly.,
+As a developer, I want ALFRED to send notifications to users even if they refuse, so caregivers and patients always get important information.","
+As an informal caregiver, I want to control urgent alerts respecting privacy, so I can respond properly without blocking critical notifications.,
+As a developer, I want ALFRED to send notifications even if users refuse, so caregivers and patients always get important information.",NOT AGREED,The conflict is still existed to some extent
+FCAT-022,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver, I want to accept all notifications at night but choose which are urgent, so I can stay responsive without missing important alerts.,
+As a developer, I want ALFRED to send notifications to users even if they refuse, so caregivers and patients always get important information.","
+As an informal caregiver, I want to accept all notifications at night but choose urgent ones, so I stay responsive without missing important alerts.,
+As a developer, I want ALFRED to always send critical notifications, even if users refuse, so caregivers and patients get vital information.",NOT AGREED,The original is not a conflict
+FCAT-023,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver managing many clients, I want ALFRED to show urgent needs clearly so I can act fast without losing focus.,
+As a developer, I want ALFRED to send notifications to users even if they refuse, so caregivers and patients always get important information.","
+As an informal caregiver, I want ALFRED to show urgent needs clearly so I can act fast without losing focus.,
+As a developer, I want ALFRED to send critical notifications even if users refuse, so caregivers always get important information.",NOT AGREED,The original is not a conflict
+FCAT-024,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver, I want to follow clients' wishes for interaction times, so I do not disturb their daily routine.,
+As a developer, I want ALFRED to send notifications to users even if they refuse, so caregivers and patients always get important information.","
+As an informal caregiver, I want to respect clients' preferred times for notifications, so I do not disturb their daily routine unnecessarily.,
+As a developer, I want ALFRED to send urgent notifications even during quiet times, so caregivers and patients receive critical information promptly.",AGREED,
+FCAT-025,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver, I want to control when clients send social invitations, so I can manage my time and avoid feeling too busy.,
+As a developer, I want ALFRED to send notifications to users even if they refuse, so caregivers and patients always get important information.","
+As an informal caregiver, I want to control when social invitations notify users, so I can manage my time and avoid overload.,
+As a developer, I want ALFRED to send critical notifications even if users refuse, so caregivers and patients always get important information.",AGREED,"Partially agreed, since the first user story in the new one is still quite vague"
+FCAT-026,"P-006,
+P-001","Caregivers and Medical Staff,
+Developers and App Creators","
+As an informal caregiver, I want to receive all notifications, including health updates and emotional prompts, so I can support my clients well.,
+As a developer, I want ALFRED to send notifications to users even if they refuse, so caregivers and patients always get important information.","
+As an informal caregiver, I want to receive all notifications, including health updates and emotional prompts, so I can support my clients well.,
+As a developer, I want ALFRED to send notifications only with user consent, so caregivers and patients receive important information respectfully.",NOT AGREED,The original is not a conflict
+FCAT-027,"P-004,
+P-002","Caregivers and Medical Staff,
+Older Adults","
+As a registered nurse, I want to block all non-emergency notifications during work hours so I can focus on patients and avoid distractions.,
+As an older person, I want to receive all social invitations and calls freely, so I can stay connected without limits.","
+As a registered nurse, I want to block non-emergency notifications during work hours so I can focus on patients without distractions.,
+As an older person, I want to receive social invitations and calls freely outside work hours and emergency calls anytime to stay connected.",NOT AGREED,The original is not a conflict
+FCAT-030,"P-006,
+P-002","Caregivers and Medical Staff,
+Older Adults","
+As an informal caregiver, I want to control notifications for each client myself, so I can avoid overload and respect their wishes.,
+As an older person, I want to receive all social invitations and calls freely, so I can stay connected without limits.","
+As an informal caregiver, I want to manage notifications with the older person's consent, so I can avoid overload and respect their wishes.,
+As an older person, I want to receive all social invitations and calls freely, so I can stay connected without limits.",NOT AGREED,The original is not a conflict
+FCAT-051,"P-006,
+P-002","Caregivers and Medical Staff,
+Older Adults","
+As an informal caregiver, I want to accept all notifications at night but choose which are urgent, so I can stay responsive without missing important alerts.,
+As an older person, I want to receive all social invitations and calls freely, so I can stay connected without limits.","
+As an informal caregiver, I want to allow all urgent notifications at night while filtering non-urgent ones, so I can stay responsive without disturbance.,
+As an older person, I want to receive all social invitations and calls freely during the day, so I can stay connected without limits.",NOT AGREED,The original is not a conflict
+FCAT-057,"P-006,
+P-002","Caregivers and Medical Staff,
+Older Adults","
+As an informal caregiver, I want to follow clients' wishes for interaction times, so I do not disturb their daily routine.,
+As an older person, I want to receive all social invitations and calls freely, so I can stay connected without limits.","
+As an informal caregiver, I want to respect clients' preferred interaction times, so I avoid disturbing their daily routine.,
+As an older person, I want to receive social invitations and calls during my preferred times, so I stay connected without being disturbed.",NOT AGREED,The original is not a conflict
+FCAT-060,"P-006,
+P-002","Caregivers and Medical Staff,
+Older Adults","
+As an informal caregiver, I want to control when clients send social invitations, so I can manage my time and avoid feeling too busy.,
+As an older person, I want to receive all social invitations and calls freely, so I can stay connected without limits.","
+As an informal caregiver, I want to control social invitations sent by clients, so I can manage my time and avoid overload.,
+As an older person, I want to receive social invitations freely within caregiver-set limits, so I can stay connected safely.",NOT AGREED,The original is not a conflict
+FCAT-064,"P-006,
+P-002","Caregivers and Medical Staff,
+Older Adults","
+As an informal caregiver, I want to receive all notifications, including health updates and emotional prompts, so I can support my clients well.,
+As an older person who likes challenges, I want ALFRED to send alerts that keep me motivated without feeling too much.","
+As an informal caregiver, I want to receive important health and emotional notifications, so I can support my clients effectively without too many alerts.,
+As an older person who likes challenges, I want ALFRED to send motivating alerts at a comfortable pace, so I stay engaged without feeling overwhelmed.",NOT AGREED,The original is not a conflict
+FCAT-065,"P-006,
+P-005","Caregivers and Medical Staff,
+Older Adults","
+As an informal caregiver, I want to receive all notifications, including health updates and emotional prompts, so I can support my clients well.,
+As an older adult, I want to block all app updates and installations, so that I avoid unwanted changes and keep full control.","
+As an informal caregiver, I want to receive all health and emotional notifications, so I can support my clients well.,
+As an older adult, I want to block all app updates and installations except important health notifications, so I keep control and stay informed.",AGREED,"Partially agreed. Although the original is vague in conflicting, but the new one is not vague and consistent"
+FCAT-072,"P-006,
+P-002","Caregivers and Medical Staff,
+Older Adults","
+As an informal caregiver, I want to manually choose when to share each client's data to keep their privacy safe.,
+As an older person, I want to share all my health data freely and in real time with my caregiver, so she always knows my health status.","
+As an informal caregiver, I want to share client data only with their consent to protect privacy and trust.,
+As an older person, I want to share selected health data in real time with my caregiver to keep them informed.",NOT AGREED,The original is not a conflict
+,,,,Human check on LLM's resolution proposals,33% AGREED,

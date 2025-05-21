@@ -1,0 +1,266 @@
+[
+  {
+    "taskID": "TASK-078",
+    "useCaseId": "UC-004",
+    "personaId": "P-004",
+    "taskDescription": "Log into ALFRED’s caregiver dashboard to monitor patient health data"
+  },
+  {
+    "taskID": "TASK-079",
+    "useCaseId": "UC-004",
+    "personaId": "P-004",
+    "taskDescription": "Configure my ALFRED interface to block all non-emergency alerts during work hours"
+  },
+  {
+    "taskID": "TASK-080",
+    "useCaseId": "UC-004",
+    "personaId": "P-004",
+    "taskDescription": "Attempt to adjust patient notification preferences remotely to silence non-urgent prompts"
+  },
+  {
+    "taskID": "TASK-081",
+    "useCaseId": "UC-004",
+    "personaId": "P-004",
+    "taskDescription": "Schedule video check-ins with patients to review their health status"
+  },
+  {
+    "taskID": "TASK-082",
+    "useCaseId": "UC-004",
+    "personaId": "P-004",
+    "taskDescription": "Filter alerts to focus only on clinically relevant notifications during work"
+  },
+  {
+    "taskID": "TASK-083",
+    "useCaseId": "UC-004",
+    "personaId": "P-004",
+    "taskDescription": "Express frustration when non-critical notifications distract me during clinical tasks"
+  },
+  {
+    "taskID": "TASK-084",
+    "useCaseId": "UC-004",
+    "personaId": "P-004",
+    "taskDescription": "Wish the system would force patients to wear sensors and accept only critical alerts"
+  },
+  {
+    "taskID": "TASK-085",
+    "useCaseId": "UC-004",
+    "personaId": "P-004",
+    "taskDescription": "Prefer to reduce patients’ non-clinical activities to focus on medical monitoring"
+  },
+  {
+    "taskID": "TASK-086",
+    "useCaseId": "UC-004",
+    "personaId": "P-004",
+    "taskDescription": "Feel annoyed when patients are engaged in non-medical activities during visits"
+  },
+  {
+    "taskID": "TASK-087",
+    "useCaseId": "UC-004",
+    "personaId": "P-004",
+    "taskDescription": "Balance care efficiency needs with respecting patient autonomy in notification settings"
+  },
+  {
+    "taskID": "TASK-149",
+    "useCaseId": "UC-006",
+    "personaId": "P-004",
+    "taskDescription": "Respect clients’ wishes for offline, home-based check-ins"
+  },
+  {
+    "taskID": "TASK-150",
+    "useCaseId": "UC-006",
+    "personaId": "P-004",
+    "taskDescription": "Prefer online video check-ins but adapt to user preferences"
+  },
+  {
+    "taskID": "TASK-151",
+    "useCaseId": "UC-006",
+    "personaId": "P-004",
+    "taskDescription": "Feel constrained by limited data due to privacy restrictions"
+  },
+  {
+    "taskID": "TASK-152",
+    "useCaseId": "UC-006",
+    "personaId": "P-004",
+    "taskDescription": "Find formal communication style cumbersome for urgent exchanges"
+  },
+  {
+    "taskID": "TASK-153",
+    "useCaseId": "UC-006",
+    "personaId": "P-004",
+    "taskDescription": "Use ALFRED to arrange and manage nurse visits"
+  },
+  {
+    "taskID": "TASK-154",
+    "useCaseId": "UC-006",
+    "personaId": "P-004",
+    "taskDescription": "Balance need for fuller data access with respecting privacy settings"
+  },
+  {
+    "taskID": "TASK-190",
+    "useCaseId": "UC-008",
+    "personaId": "P-004",
+    "taskDescription": "Reviews patient data through ALFRED dashboard"
+  },
+  {
+    "taskID": "TASK-191",
+    "useCaseId": "UC-008",
+    "personaId": "P-004",
+    "taskDescription": "Filters out non-clinical activity logs to focus on vital signs"
+  },
+  {
+    "taskID": "TASK-192",
+    "useCaseId": "UC-008",
+    "personaId": "P-004",
+    "taskDescription": "Blocks non-emergency alerts during work shifts"
+  },
+  {
+    "taskID": "TASK-193",
+    "useCaseId": "UC-008",
+    "personaId": "P-004",
+    "taskDescription": "Accepts user privacy settings even if they limit data access"
+  },
+  {
+    "taskID": "TASK-195",
+    "useCaseId": "UC-008",
+    "personaId": "P-004",
+    "taskDescription": "Manages contrasting data availability for different patients"
+  },
+  {
+    "taskID": "TASK-196",
+    "useCaseId": "UC-008",
+    "personaId": "P-004",
+    "taskDescription": "Feels frustrated by excessive or missing patient data"
+  },
+  {
+    "taskID": "TASK-197",
+    "useCaseId": "UC-008",
+    "personaId": "P-004",
+    "taskDescription": "Respects patient control over data sharing despite clinical needs"
+  },
+  {
+    "taskID": "TASK-214",
+    "useCaseId": "UC-009",
+    "personaId": "P-004",
+    "taskDescription": "Logs into ALFRED’s caregiver dashboard to monitor patient health"
+  },
+  {
+    "taskID": "TASK-215",
+    "useCaseId": "UC-009",
+    "personaId": "P-004",
+    "taskDescription": "Scans vital signs of patients to identify critical alerts"
+  },
+  {
+    "taskID": "TASK-216",
+    "useCaseId": "UC-009",
+    "personaId": "P-004",
+    "taskDescription": "Filters out non-critical notifications to reduce distractions"
+  },
+  {
+    "taskID": "TASK-217",
+    "useCaseId": "UC-009",
+    "personaId": "P-004",
+    "taskDescription": "Disables social and cognitive challenge notifications for specific users"
+  },
+  {
+    "taskID": "TASK-218",
+    "useCaseId": "UC-009",
+    "personaId": "P-004",
+    "taskDescription": "Attempts to schedule video check-ins with patients"
+  },
+  {
+    "taskID": "TASK-219",
+    "useCaseId": "UC-009",
+    "personaId": "P-004",
+    "taskDescription": "Respects patient privacy choices but feels concerned about limited access"
+  },
+  {
+    "taskID": "TASK-220",
+    "useCaseId": "UC-009",
+    "personaId": "P-004",
+    "taskDescription": "Prefers a clean, efficient interface focused on clinical data"
+  },
+  {
+    "taskID": "TASK-221",
+    "useCaseId": "UC-009",
+    "personaId": "P-004",
+    "taskDescription": "Feels frustration when non-essential notifications interfere with workflow"
+  },
+  {
+    "taskID": "TASK-281",
+    "useCaseId": "UC-011",
+    "personaId": "P-004",
+    "taskDescription": "Logs into ALFRED’s caregiver dashboard to monitor patient health"
+  },
+  {
+    "taskID": "TASK-283",
+    "useCaseId": "UC-011",
+    "personaId": "P-004",
+    "taskDescription": "Relies on forced notifications to ensure patient compliance with care protocols"
+  },
+  {
+    "taskID": "TASK-284",
+    "useCaseId": "UC-011",
+    "personaId": "P-004",
+    "taskDescription": "Feels frustrated by excessive and disruptive alerts during critical work hours"
+  },
+  {
+    "taskID": "TASK-285",
+    "useCaseId": "UC-011",
+    "personaId": "P-004",
+    "taskDescription": "Prefers receiving clinical and straightforward communication from the system"
+  },
+  {
+    "taskID": "TASK-286",
+    "useCaseId": "UC-011",
+    "personaId": "P-004",
+    "taskDescription": "Finds social features of ALFRED irrelevant and distracting for his tasks"
+  },
+  {
+    "taskID": "TASK-287",
+    "useCaseId": "UC-011",
+    "personaId": "P-004",
+    "taskDescription": "Understands and respects patient privacy limits on health data access"
+  },
+  {
+    "taskID": "TASK-348",
+    "useCaseId": "UC-015",
+    "personaId": "P-004",
+    "taskDescription": "Logs into the ALFRED caregiver dashboard"
+  },
+  {
+    "taskID": "TASK-349",
+    "useCaseId": "UC-015",
+    "personaId": "P-004",
+    "taskDescription": "Activates the 'work hours only' mode to block non-clinical notifications"
+  },
+  {
+    "taskID": "TASK-350",
+    "useCaseId": "UC-015",
+    "personaId": "P-004",
+    "taskDescription": "Checks patient profiles for health status updates"
+  },
+  {
+    "taskID": "TASK-351",
+    "useCaseId": "UC-015",
+    "personaId": "P-004",
+    "taskDescription": "Monitors vital signs for critical thresholds"
+  },
+  {
+    "taskID": "TASK-352",
+    "useCaseId": "UC-015",
+    "personaId": "P-004",
+    "taskDescription": "Respects patient privacy by requiring consent before accessing health data"
+  },
+  {
+    "taskID": "TASK-353",
+    "useCaseId": "UC-015",
+    "personaId": "P-004",
+    "taskDescription": "Wishes to avoid social or non-urgent notifications during work"
+  },
+  {
+    "taskID": "TASK-354",
+    "useCaseId": "UC-015",
+    "personaId": "P-004",
+    "taskDescription": "Prefers minimal distractions to focus on clinical priorities"
+  }
+]

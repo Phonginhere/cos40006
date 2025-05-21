@@ -101,10 +101,10 @@ def verify_conflicts(
     else:
         if functional:
             conflict_dir = utils.FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR
-            invalid_dir = os.path.join(utils.INVALID_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR, "functional_user_stories")
+            invalid_dir = utils.INVALID_FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR
         else:
             conflict_dir = utils.NON_FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR
-            invalid_dir = os.path.join(utils.INVALID_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR, "non_functional_user_stories")
+            invalid_dir = utils.INVALID_NON_FUNCTIONAL_USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR
 
     os.makedirs(invalid_dir, exist_ok=True)
     

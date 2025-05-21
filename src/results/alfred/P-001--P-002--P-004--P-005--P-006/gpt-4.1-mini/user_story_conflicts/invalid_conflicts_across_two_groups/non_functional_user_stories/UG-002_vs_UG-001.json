@@ -1,0 +1,54 @@
+[
+  {
+    "conflictType": "Partial",
+    "conflictDescription": "User Story A requires communication only after explicit client consent, while User Story B requires automatic enforcement of consent policies without asking users, which may bypass explicit user agreement. These goals partially conflict because automatic enforcement without user prompts can contradict the need for explicit client agreement.",
+    "conflictingNfrPairs": [
+      [
+        "Only communicate with clients after they give consent",
+        "Automatically apply consent policies without user prompts"
+      ],
+      [
+        "Avoid contacting clients without their agreement",
+        "Automatically apply consent policies without user prompts"
+      ]
+    ],
+    "conflictId": "NFCAT-005",
+    "personaAId": "P-006",
+    "personaBId": "P-001",
+    "userGroupA": "Caregivers and Medical Staff",
+    "userGroupB": "Developers and App Creators",
+    "userStoryAId": "US-083",
+    "userStoryBId": "US-017",
+    "userStoryASummary": "As an informal caregiver, I want to communicate with clients only when they agree, so I respect their privacy and comfort.",
+    "userStoryBSummary": "As a developer, I want ALFRED to enforce consent policies automatically to keep caregiver workflows secure without asking users.",
+    "cluster": "Security, Privacy & Reliability"
+  },
+  {
+    "conflictType": "Partial",
+    "conflictDescription": "Some caregiver control over data use on shared devices may require exceptions or flexibility in consent enforcement, which conflicts with strict no-exception enforcement of consent rules by the developer.",
+    "conflictingNfrPairs": [
+      [
+        "Allow informal caregiver to set data use rules on shared devices",
+        "Enforce all consent rules without exceptions"
+      ],
+      [
+        "Prevent data mix-ups between different users on shared devices",
+        "Prevent caregiver tasks if consent is not given"
+      ],
+      [
+        "Protect clients' privacy when ALFRED is used on shared devices",
+        "Ensure caregiver tasks always follow consent rules"
+      ]
+    ],
+    "conflictId": "NFCAT-008",
+    "personaAId": "P-006",
+    "personaBId": "P-001",
+    "userGroupA": "Caregivers and Medical Staff",
+    "userGroupB": "Developers and App Creators",
+    "userStoryAId": "US-097",
+    "userStoryBId": "US-021",
+    "userStoryASummary": "As an informal caregiver, I want to control ALFRED’s data use on shared devices at home, so I can protect my clients’ privacy and avoid mix-ups.",
+    "userStoryBSummary": "As a developer, I want ALFRED to enforce consent rules strictly without exceptions, so caregiver tasks are always done right.",
+    "cluster": "Security, Privacy & Reliability"
+  }
+]

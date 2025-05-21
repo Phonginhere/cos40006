@@ -1,0 +1,128 @@
+[
+  {
+    "taskID": "TASK-023",
+    "useCaseId": "UC-001",
+    "personaId": "P-001",
+    "taskDescription": "Insists on mandatory features despite caregiver discomfort"
+  },
+  {
+    "taskID": "TASK-024",
+    "useCaseId": "UC-001",
+    "personaId": "P-001",
+    "taskDescription": "Supports rigid control to maintain system standards"
+  },
+  {
+    "taskID": "TASK-025",
+    "useCaseId": "UC-001",
+    "personaId": "P-001",
+    "taskDescription": "Prioritizes developer needs for system stability"
+  },
+  {
+    "taskID": "TASK-119",
+    "useCaseId": "UC-005",
+    "personaId": "P-001",
+    "taskDescription": "Believes strict system control leads to better therapy outcomes"
+  },
+  {
+    "taskID": "TASK-121",
+    "useCaseId": "UC-005",
+    "personaId": "P-001",
+    "taskDescription": "Underestimates possible user frustration or alienation"
+  },
+  {
+    "taskID": "TASK-122",
+    "useCaseId": "UC-005",
+    "personaId": "P-001",
+    "taskDescription": "Prioritizes system efficiency over caregiver discretion"
+  },
+  {
+    "taskID": "TASK-142",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Favor enforcing security with rigid default settings in the system"
+  },
+  {
+    "taskID": "TASK-145",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Balance system security with respect for user autonomy"
+  },
+  {
+    "taskID": "TASK-146",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Prefer proactive system control over passive consent management"
+  },
+  {
+    "taskID": "TASK-147",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Consider overriding some user preferences to improve care outcomes"
+  },
+  {
+    "taskID": "TASK-171",
+    "useCaseId": "UC-007",
+    "personaId": "P-001",
+    "taskDescription": "Ignores negotiation possibilities in consent management design"
+  },
+  {
+    "taskID": "TASK-261",
+    "useCaseId": "UC-010",
+    "personaId": "P-001",
+    "taskDescription": "Feels frustrated by users refusing app installations and data sharing"
+  },
+  {
+    "taskID": "TASK-263",
+    "useCaseId": "UC-010",
+    "personaId": "P-001",
+    "taskDescription": "Accepts the ALFRED system respects user control over installations"
+  },
+  {
+    "taskID": "TASK-265",
+    "useCaseId": "UC-010",
+    "personaId": "P-001",
+    "taskDescription": "Worries that strict privacy settings limit user benefits"
+  },
+  {
+    "taskID": "TASK-266",
+    "useCaseId": "UC-010",
+    "personaId": "P-001",
+    "taskDescription": "Balances aggressive app promotion with respecting user autonomy"
+  },
+  {
+    "taskID": "TASK-306",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Feels frustrated by users blocking notifications and app installations"
+  },
+  {
+    "taskID": "TASK-307",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Respects ALFRED’s built-in privacy controls despite personal views"
+  },
+  {
+    "taskID": "TASK-310",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Tries to gently nudge users towards more open communication"
+  },
+  {
+    "taskID": "TASK-311",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Balances developer goals with user needs for privacy and control"
+  },
+  {
+    "taskID": "TASK-374",
+    "useCaseId": "UC-015",
+    "personaId": "P-001",
+    "taskDescription": "Recognizes conflicts between caregiver and older adult preferences"
+  },
+  {
+    "taskID": "TASK-375",
+    "useCaseId": "UC-015",
+    "personaId": "P-001",
+    "taskDescription": "Believes caregiver compliance is more important than user comfort"
+  }
+]

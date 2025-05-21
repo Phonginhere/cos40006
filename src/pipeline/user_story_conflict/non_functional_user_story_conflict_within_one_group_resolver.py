@@ -141,7 +141,7 @@ def parse_llm_response(raw: str) -> Optional[dict]:
         return None
 
 def update_user_story_file_by_persona(persona_id: str, story_id: str, new_summary: str, utils: Utils = None):
-    filepath = os.path.join(utils.USER_STORY_DIR, f"User_stories_for_{persona_id}.json")
+    filepath = os.path.join(utils.UNIQUE_USER_STORY_DIR_PATH, f"User_stories_for_{persona_id}.json")
     if not os.path.exists(filepath):
         print(f"⚠️ User story file for persona {persona_id} not found: {filepath}")
         return

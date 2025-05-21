@@ -1,47 +1,53 @@
 [
   {
-    "cluster_name": "Reminder Control"
+    "cluster_name": "Consent Module Updates"
   },
   {
-    "cluster_name": "Dashboard Management"
+    "cluster_name": "Consent Enforcement"
   },
   {
-    "cluster_name": "Backend Architecture"
+    "cluster_name": "Backend Updates"
   },
   {
-    "cluster_name": "Formal Communication"
+    "cluster_name": "App Security"
   },
   {
-    "cluster_name": "Wearable Comfort"
+    "cluster_name": "Online Meetings"
   },
   {
-    "cluster_name": "System Availability"
-  },
-  {
-    "cluster_name": "Support Postponement"
-  },
-  {
-    "cluster_name": "Natural Communication"
-  },
-  {
-    "cluster_name": "Video Check-in Control"
+    "cluster_name": "Feature Explanation"
   },
   {
     "cluster_name": "Notification Control"
   },
   {
-    "cluster_name": "Push-to-Talk Control"
+    "cluster_name": "Data Sharing Control"
   },
   {
-    "cluster_name": "Data Privacy"
+    "cluster_name": "Reminder Control"
   },
   {
-    "cluster_name": "App Installation Control"
+    "cluster_name": "Voice Activation Control"
   },
   {
-    "cluster_name": "Shared Environment Privacy"
+    "cluster_name": "App Suggestion Control"
   },
   {
-    "cluster_name": "Consent Management"
+    "cluster_name": "Communication Style"
+  },
+  {
+    "cluster_name": "Social Nudges Control"
+  },
+  {
+    "cluster_name": "Silent Mode"
+  },
+  {
+    "cluster_name": "Video Communication Control"
+  },
+  {
+    "cluster_name": "Consent-Based Communication"
+  },
+  {
+    "cluster_name": "Shared Device Privacy"
   }
 ]

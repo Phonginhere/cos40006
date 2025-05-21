@@ -118,7 +118,7 @@ def parse_llm_response(raw: str) -> Optional[dict]:
 
 
 def update_user_story_file_by_persona(persona_id: str, story_id: str, new_summary: str, utils: Utils = Utils()):
-    filepath = os.path.join(utils.USER_STORY_DIR, f"User_stories_for_{persona_id}.json")
+    filepath = os.path.join(utils.UNIQUE_USER_STORY_DIR_PATH, f"User_stories_for_{persona_id}.json")
     if not os.path.exists(filepath):
         print(f"⚠️ User story file for persona {persona_id} not found: {filepath}")
         return
@@ -152,11 +152,11 @@ def resolve_functional_conflicts_within_one_group(persona_loader: UserPersonaLoa
 
     # Load all user stories from USER_STORY_DIR by reading all persona files and indexing by story ID
     user_stories = {}
-    for fname in os.listdir(utils.USER_STORY_DIR):
+    for fname in os.listdir(utils.UNIQUE_USER_STORY_DIR_PATH):
         if not fname.endswith(".json"):
             continue
         try:
-            path = os.path.join(utils.USER_STORY_DIR, fname)
+            path = os.path.join(utils.UNIQUE_USER_STORY_DIR_PATH, fname)
             stories = load_json_file(path)
             for story in stories:
                 user_stories[story["id"]] = story

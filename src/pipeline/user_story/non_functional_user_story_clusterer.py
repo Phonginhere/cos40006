@@ -58,7 +58,7 @@ Respond only with the exact **name** of the BEST cluster. Do not include any add
 def update_user_story_cluster_by_persona(story_id: str, persona_id: str, new_cluster: str, utils: Utils = None):
     """Update the user story in the persona-specific file (User_stories_for_P-XXX.json)."""
     filename = f"User_stories_for_{persona_id}.json"
-    filepath = os.path.join(utils.USER_STORY_DIR, filename)
+    filepath = os.path.join(utils.UNIQUE_USER_STORY_DIR_PATH, filename)
 
     if not os.path.exists(filepath):
         print(f"❌ File not found for persona {persona_id}: {filepath}")

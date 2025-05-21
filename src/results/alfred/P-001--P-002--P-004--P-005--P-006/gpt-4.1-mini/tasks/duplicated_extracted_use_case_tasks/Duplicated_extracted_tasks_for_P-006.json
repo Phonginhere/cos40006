@@ -1,0 +1,104 @@
+[
+  {
+    "taskID": "TASK-004",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Controls notification preferences to avoid overload"
+  },
+  {
+    "taskID": "TASK-006",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Balances manual control over data logging with system functions"
+  },
+  {
+    "taskID": "TASK-007",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Negotiates privacy boundaries between clients and ALFRED"
+  },
+  {
+    "taskID": "TASK-009",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Seeks clear options to customize notifications and data sharing"
+  },
+  {
+    "taskID": "TASK-061",
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Manage alerts to avoid being overloaded by continuous health data streams"
+  },
+  {
+    "taskID": "TASK-062",
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Select manually which health data to review and when"
+  },
+  {
+    "taskID": "TASK-090",
+    "useCaseId": "UC-005",
+    "personaId": "P-006",
+    "taskDescription": "Configures session settings, including data recording options"
+  },
+  {
+    "taskID": "TASK-091",
+    "useCaseId": "UC-005",
+    "personaId": "P-006",
+    "taskDescription": "Manually chooses what data to record during therapy sessions"
+  },
+  {
+    "taskID": "TASK-093",
+    "useCaseId": "UC-005",
+    "personaId": "P-006",
+    "taskDescription": "Filters and manages notifications to avoid overload"
+  },
+  {
+    "taskID": "TASK-094",
+    "useCaseId": "UC-005",
+    "personaId": "P-006",
+    "taskDescription": "Balances care needs of clients with different privacy preferences"
+  },
+  {
+    "taskID": "TASK-137",
+    "useCaseId": "UC-006",
+    "personaId": "P-006",
+    "taskDescription": "Manage conflicting privacy preferences among different clients"
+  },
+  {
+    "taskID": "TASK-157",
+    "useCaseId": "UC-007",
+    "personaId": "P-006",
+    "taskDescription": "Manually approves urgent notifications for clients with strict privacy settings"
+  },
+  {
+    "taskID": "TASK-183",
+    "useCaseId": "UC-008",
+    "personaId": "P-006",
+    "taskDescription": "Manages alerts and sensor data streams from clients"
+  },
+  {
+    "taskID": "TASK-185",
+    "useCaseId": "UC-008",
+    "personaId": "P-006",
+    "taskDescription": "Manually approves which client data is logged"
+  },
+  {
+    "taskID": "TASK-314",
+    "useCaseId": "UC-013",
+    "personaId": "P-006",
+    "taskDescription": "Manually disables non-critical notifications for clients to prevent burnout"
+  },
+  {
+    "taskID": "TASK-366",
+    "useCaseId": "UC-015",
+    "personaId": "P-006",
+    "taskDescription": "Prefers to manually control clinical action logging"
+  },
+  {
+    "taskID": "TASK-367",
+    "useCaseId": "UC-015",
+    "personaId": "P-006",
+    "taskDescription": "Disables automatic recording features to keep records clear"
+  }
+]

@@ -15,7 +15,7 @@ from pipeline.user_story.user_story_loader import UserStoryLoader
 from pipeline.user_story.skeleton_user_story_extractor import extract_skeleton_user_stories
 from pipeline.user_story.user_story_generator import generate_complete_user_stories
 from pipeline.user_story.user_story_deduplicator import deduplicate_user_stories_for_each_persona
-from pipeline.user_story.user_story_verifier import verify_user_stories
+from pipeline.user_story.user_story_persona_centric_verifier import verify_user_stories_to_ensure_persona_centricity
 from pipeline.user_story.user_story_functional_and_non_funtional_typer import update_user_stories_with_type
 from pipeline.user_story.non_functional_user_story_clusterer import cluster_non_functional_user_stories
 from pipeline.user_story.functional_user_story_clusterer import generate_functional_cluster_definitions, cluster_functional_user_stories
@@ -80,13 +80,9 @@ def main():
     print("\n📝 Phase 3b: Generating complete user stories...")
     generate_complete_user_stories(persona_loader, use_case_loader)
     
-    # #   Step 3b-1: Deduplicate user stories for each persona
-    # print("\n🔄 Phase 3b-1: Deduplicating user stories for each persona...")
-    # deduplicate_user_stories_for_each_persona(persona_loader)
-    
-    #   Step 3b-2: Verify user story summaries for persona dominance
-    print("\n🔎 Phase 3b-2: Verifying user story summaries for persona dominance...")
-    verify_user_stories(persona_loader)
+    #   Step 3b-1: Verify user story summaries for persona dominance
+    print("\n🔎 Phase 3b-1: Verifying user story summaries for persona dominance...")
+    verify_user_stories_to_ensure_persona_centricity(persona_loader)
     
     #   Step 3c: Update user stories with type (functional/non-functional)
     print("\n🔍 Phase 3c: Updating user stories with type...")
@@ -114,6 +110,10 @@ def main():
     print("\n📊 Phase 3e-3: Summary of clustered functional user stories...")
     user_story_loader.load_all_user_stories()
     user_story_loader.print_clusters_for_functional_stories()
+    
+    #   Step 3f: Deduplicate user stories for each persona within each cluster
+    print("\n🗂️ Phase 3f: Deduplicating user stories for each persona within each cluster...")
+    deduplicate_user_stories_for_each_persona(persona_loader)
     
     # Step 4: Conflict analysis for non-functional user stories within one user group
     print("\n============================================================ ANALYZE NON-FUNCTIONAL USER STORIES WITHIN ONE USER GROUP ====================================")

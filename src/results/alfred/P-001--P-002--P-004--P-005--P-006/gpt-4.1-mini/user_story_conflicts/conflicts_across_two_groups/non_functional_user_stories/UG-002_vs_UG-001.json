@@ -1,0 +1,229 @@
+[
+  {
+    "conflictType": "Mutually Exclusive",
+    "conflictDescription": "The informal caregiver wants full control over when to share client data, but the developer wants to update the consent module remotely without user permission, removing user control. These goals cannot both be true at the same time.",
+    "conflictingNfrPairs": [
+      [
+        "The informal caregiver can choose when to share each client's data",
+        "Allow remote update of the consent module without user permission"
+      ],
+      [
+        "The caregiver maintains control over data sharing actions for each client",
+        "Allow remote update of the consent module without user permission"
+      ]
+    ],
+    "conflictId": "NFCAT-001",
+    "personaAId": "P-006",
+    "personaBId": "P-001",
+    "userGroupA": "Caregivers and Medical Staff",
+    "userGroupB": "Developers and App Creators",
+    "userStoryAId": "US-082",
+    "userStoryBId": "US-013",
+    "userStoryASummary": "As an informal caregiver, I want to decide myself when to share each client's data to protect their privacy and keep control.",
+    "userStoryBSummary": "As a developer, I want to update ALFRED’s consent module remotely without asking users, so I can keep control and make sure privacy rules are followed.",
+    "cluster": "Security, Privacy & Reliability",
+    "generalResolutionType": "Update both user stories",
+    "resolutionDescription": "We update both stories to respect user control over data sharing while allowing remote updates to the consent module only with explicit user permission, balancing privacy and maintenance needs.",
+    "newUserStoryASummary": "As an informal caregiver, I want to control when to share each client's data, so that privacy is protected.",
+    "newUserStoryADecomposition": [
+      "Caregiver decides timing of data sharing",
+      "Control over each client's data sharing"
+    ],
+    "newUserStoryBSummary": "As a developer, I want to update the consent module remotely only with user permission, so that privacy rules stay current and respected.",
+    "newUserStoryBDecomposition": [
+      "Remote updates require user consent",
+      "Consent module is kept up to date"
+    ]
+  },
+  {
+    "conflictType": "Partial",
+    "conflictDescription": "User Story A requires the caregiver to manually decide when to share client data, while User Story B requires automatic enforcement of consent policies without user prompts. These two goals conflict because manual control excludes fully automatic enforcement without prompts.",
+    "conflictingNfrPairs": [
+      [
+        "The informal caregiver can choose when to share each client's data",
+        "Automatically apply consent policies without user prompts"
+      ],
+      [
+        "The caregiver maintains control over data sharing actions for each client",
+        "Automatically apply consent policies without user prompts"
+      ]
+    ],
+    "conflictId": "NFCAT-002",
+    "personaAId": "P-006",
+    "personaBId": "P-001",
+    "userGroupA": "Caregivers and Medical Staff",
+    "userGroupB": "Developers and App Creators",
+    "userStoryAId": "US-082",
+    "userStoryBId": "US-017",
+    "userStoryASummary": "As an informal caregiver, I want to decide myself when to share each client's data to protect their privacy and keep control.",
+    "userStoryBSummary": "As a developer, I want ALFRED to enforce consent policies automatically to keep caregiver workflows secure without asking users.",
+    "cluster": "Security, Privacy & Reliability",
+    "generalResolutionType": "Update both user stories",
+    "resolutionDescription": "Both stories are updated to balance manual caregiver control with automatic consent enforcement by applying consent policies automatically while allowing caregiver override with minimal prompts.",
+    "newUserStoryASummary": "As an informal caregiver, I want to control data sharing times with minimal prompts, so that privacy is protected and workflow is smooth.",
+    "newUserStoryADecomposition": [
+      "Allow caregiver to approve data sharing decisions",
+      "Minimize prompts for caregiver actions",
+      "Protect client privacy during sharing"
+    ],
+    "newUserStoryBSummary": "As a developer, I want ALFRED to enforce consent policies automatically while allowing caregiver overrides with minimal prompts, so workflows remain secure and user-friendly.",
+    "newUserStoryBDecomposition": [
+      "Automatically apply consent policies by default",
+      "Enable caregiver override with minimal prompts",
+      "Ensure secure data sharing according to consent"
+    ]
+  },
+  {
+    "conflictType": "Partial",
+    "conflictDescription": "There is a partial conflict because the informal caregiver wants to decide when to share data, which may allow some sharing actions without strict enforcement, but the developer requires strict consent enforcement with no exceptions, blocking caregiver tasks without consent.",
+    "conflictingNfrPairs": [
+      [
+        "The informal caregiver can choose when to share each client's data",
+        "Enforce all consent rules without exceptions"
+      ],
+      [
+        "The caregiver maintains control over data sharing actions for each client",
+        "Prevent caregiver tasks if consent is not given"
+      ]
+    ],
+    "conflictId": "NFCAT-003",
+    "personaAId": "P-006",
+    "personaBId": "P-001",
+    "userGroupA": "Caregivers and Medical Staff",
+    "userGroupB": "Developers and App Creators",
+    "userStoryAId": "US-082",
+    "userStoryBId": "US-021",
+    "userStoryASummary": "As an informal caregiver, I want to decide myself when to share each client's data to protect their privacy and keep control.",
+    "userStoryBSummary": "As a developer, I want ALFRED to enforce consent rules strictly without exceptions, so caregiver tasks are always done right.",
+    "cluster": "Security, Privacy & Reliability",
+    "generalResolutionType": "Update both user stories",
+    "resolutionDescription": "Both user stories are updated to balance caregiver control with strict consent enforcement by allowing caregivers to initiate sharing requests, which ALFRED enforces only with explicit user consent.",
+    "newUserStoryASummary": "As an informal caregiver, I want to request data sharing with user consent, so that privacy is respected and workflow is smooth.",
+    "newUserStoryADecomposition": [
+      "Allow caregiver to initiate data sharing requests",
+      "Require user consent before sharing data"
+    ],
+    "newUserStoryBSummary": "As a developer, I want ALFRED to enforce strict consent rules for caregiver data sharing, so that user privacy is fully protected.",
+    "newUserStoryBDecomposition": [
+      "Enforce user consent before any data sharing",
+      "Block caregiver tasks if consent is not given"
+    ]
+  },
+  {
+    "conflictType": "Mutually Exclusive",
+    "conflictDescription": "User Story A requires communication only after client consent, respecting privacy and avoiding contact without agreement, while User Story B requires remote update of the consent module without user permission, directly opposing the consent requirement.",
+    "conflictingNfrPairs": [
+      [
+        "Only communicate with clients after they give consent",
+        "Allow remote update of the consent module without user permission"
+      ],
+      [
+        "Only communicate with clients after they give consent",
+        "Ensure developers control the update process of the consent module"
+      ],
+      [
+        "Avoid contacting clients without their agreement",
+        "Allow remote update of the consent module without user permission"
+      ],
+      [
+        "Avoid contacting clients without their agreement",
+        "Ensure developers control the update process of the consent module"
+      ]
+    ],
+    "conflictId": "NFCAT-004",
+    "personaAId": "P-006",
+    "personaBId": "P-001",
+    "userGroupA": "Caregivers and Medical Staff",
+    "userGroupB": "Developers and App Creators",
+    "userStoryAId": "US-083",
+    "userStoryBId": "US-013",
+    "userStoryASummary": "As an informal caregiver, I want to communicate with clients only when they agree, so I respect their privacy and comfort.",
+    "userStoryBSummary": "As a developer, I want to update ALFRED’s consent module remotely without asking users, so I can keep control and make sure privacy rules are followed.",
+    "cluster": "Security, Privacy & Reliability",
+    "generalResolutionType": "Update both user stories",
+    "resolutionDescription": "The conflict is resolved by clarifying that communication with clients requires their consent, and remote updates to the consent module occur only with explicit user permission and transparency, balancing privacy with the need for updates.",
+    "newUserStoryASummary": "As an informal caregiver, I want to communicate with clients only with their clear consent, so I respect their privacy and comfort.",
+    "newUserStoryADecomposition": [
+      "Communicate with clients only after explicit consent",
+      "Respect client privacy in all communications"
+    ],
+    "newUserStoryBSummary": "As a developer, I want to update the consent module remotely only with explicit user permission and transparent notification, so privacy rules remain current and respected.",
+    "newUserStoryBDecomposition": [
+      "Allow remote updates only with explicit user permission",
+      "Notify users transparently about consent module updates"
+    ]
+  },
+  {
+    "conflictType": "Partial",
+    "conflictDescription": "The caregiver wants control over data use on shared devices to protect privacy, while the developer wants to update the consent module remotely without user permission, which can reduce caregiver control and user consent. These goals partly conflict because remote forced updates can override user control and consent settings, but privacy compliance is still required.",
+    "conflictingNfrPairs": [
+      [
+        "Allow informal caregiver to set data use rules on shared devices",
+        "Allow remote update of the consent module without user permission"
+      ],
+      [
+        "Protect clients' privacy when ALFRED is used on shared devices",
+        "Allow remote update of the consent module without user permission"
+      ]
+    ],
+    "conflictId": "NFCAT-006",
+    "personaAId": "P-006",
+    "personaBId": "P-001",
+    "userGroupA": "Caregivers and Medical Staff",
+    "userGroupB": "Developers and App Creators",
+    "userStoryAId": "US-097",
+    "userStoryBId": "US-013",
+    "userStoryASummary": "As an informal caregiver, I want to control ALFRED’s data use on shared devices at home, so I can protect my clients’ privacy and avoid mix-ups.",
+    "userStoryBSummary": "As a developer, I want to update ALFRED’s consent module remotely without asking users, so I can keep control and make sure privacy rules are followed.",
+    "cluster": "Security, Privacy & Reliability",
+    "generalResolutionType": "Update both user stories",
+    "resolutionDescription": "We update both stories to require caregiver control over data use on shared devices, while allowing remote updates of the consent module only with caregiver approval and transparent notification. This respects privacy and consent without forced changes.",
+    "newUserStoryASummary": "As a caregiver, I want to control data use rules on shared devices so I can protect clients’ privacy and avoid mix-ups.",
+    "newUserStoryADecomposition": [
+      "Allow caregiver to configure data use rules on shared devices",
+      "Protect client privacy by enforcing caregiver settings"
+    ],
+    "newUserStoryBSummary": "As a developer, I want to update the consent module remotely with caregiver approval and notification to keep privacy rules current and respected.",
+    "newUserStoryBDecomposition": [
+      "Allow remote updates of consent module only with caregiver approval",
+      "Notify caregiver and user transparently about updates"
+    ]
+  },
+  {
+    "conflictType": "Partial",
+    "conflictDescription": "The informal caregiver wants to control data use and protect privacy on shared devices, which implies user involvement in setting rules. The developer wants automated enforcement of consent policies without asking users, which can conflict with caregiver control and user prompts.",
+    "conflictingNfrPairs": [
+      [
+        "Allow informal caregiver to set data use rules on shared devices",
+        "Automatically apply consent policies without user prompts"
+      ],
+      [
+        "Protect clients' privacy when ALFRED is used on shared devices",
+        "Automatically apply consent policies without user prompts"
+      ]
+    ],
+    "conflictId": "NFCAT-007",
+    "personaAId": "P-006",
+    "personaBId": "P-001",
+    "userGroupA": "Caregivers and Medical Staff",
+    "userGroupB": "Developers and App Creators",
+    "userStoryAId": "US-097",
+    "userStoryBId": "US-017",
+    "userStoryASummary": "As an informal caregiver, I want to control ALFRED’s data use on shared devices at home, so I can protect my clients’ privacy and avoid mix-ups.",
+    "userStoryBSummary": "As a developer, I want ALFRED to enforce consent policies automatically to keep caregiver workflows secure without asking users.",
+    "cluster": "Security, Privacy & Reliability",
+    "generalResolutionType": "Update both user stories",
+    "resolutionDescription": "Both user stories are updated to balance caregiver control and developer automation by applying consent policies automatically but allowing caregivers to set rules with minimal, clear prompts to users only when needed.",
+    "newUserStoryASummary": "As a caregiver, I want to set data use rules on shared devices with clear user prompts, so I can protect privacy and avoid confusion.",
+    "newUserStoryADecomposition": [
+      "Allow caregiver to configure data use rules on shared devices",
+      "Provide clear user prompts for consent when caregiver rules apply"
+    ],
+    "newUserStoryBSummary": "As a developer, I want ALFRED to enforce consent policies automatically with minimal user prompts and allow caregiver overrides, so the system stays secure and user-friendly.",
+    "newUserStoryBDecomposition": [
+      "Automatically enforce consent policies on shared devices",
+      "Minimize user prompts for consent unless caregiver overrides require them",
+      "Allow caregivers to override automated consent enforcement"
+    ]
+  }
+]

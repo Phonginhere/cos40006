@@ -54,12 +54,12 @@ def deduplicate_tasks_for_all_use_cases(persona_loader: UserPersonaLoader):
     all_personas = {p.id: p for p in persona_loader.get_personas()}
     persona_ids = set(all_personas.keys())
     
-    task_dir = Path(utils.EXTRACTED_USE_CASE_TASKS_DIR)
-    invalid_dir = Path(utils.DUPLICATED_EXTRACTED_USE_CASE_TASKS_DIR)
+    task_dir = Path(utils.UNIQUE_EXTRACTED_USE_CASE_TASKS_DIR)
+    invalid_dir = Path(utils.DUPLICATED_UNIQUE_EXTRACTED_USE_CASE_TASKS_DIR)
     
     # Skipping logic
     if invalid_dir.exists():
-        invalid_files = list(invalid_dir.glob("Invalid_extracted_tasks_for_P-*.json"))
+        invalid_files = list(invalid_dir.glob("Duplicated_extracted_tasks_for_P-*.json"))
         found_ids = {f.stem.split("_for_")[-1] for f in invalid_files}
         if found_ids >= persona_ids:
             print(f"⏭️ Skipping task deduplication – all invalid task files already exist for {len(found_ids)} personas.\n")
@@ -72,7 +72,7 @@ def deduplicate_tasks_for_all_use_cases(persona_loader: UserPersonaLoader):
     system_context = utils.load_system_context()
     
     # Load all persona tasks
-    persona_files = sorted(task_dir.glob("Extracted_tasks_for_*.json"))
+    persona_files = sorted(task_dir.glob("Unique_extracted_tasks_for_*.json"))
     print(f"🔍 Starting batch task deduplication for {len(persona_files)} personas...\n")
 
     for file_path in persona_files:
@@ -111,7 +111,7 @@ def deduplicate_tasks_for_all_use_cases(persona_loader: UserPersonaLoader):
         file_path.write_text(json.dumps(valid_tasks, indent=2, ensure_ascii=False), encoding="utf-8")
 
         # Save invalid tasks to new path
-        invalid_path = invalid_dir / f"Invalid_extracted_tasks_for_{persona_id}.json"
+        invalid_path = invalid_dir / f"Duplicated_extracted_tasks_for_{persona_id}.json"
         invalid_path.write_text(json.dumps(invalid_tasks, indent=2, ensure_ascii=False), encoding="utf-8")
 
         print(f"✅ {len(invalid_tasks)} duplicate task(s) moved to → {invalid_path.name}")

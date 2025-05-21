@@ -1,0 +1,41 @@
+[
+  {
+    "id": "US-070",
+    "title": "Disable automatic reminders and alerts",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Set ALFRED to avoid initiating conversations or reminders automatically",
+    "use_case": "UC-006",
+    "priority": 2,
+    "summary": "As an older adult, I want ALFRED to block almost all automatic reminders and alerts unless I ask for them, so I do not feel overwhelmed and keep full control.",
+    "pillar": "General Requirements",
+    "type": "Non-Functional",
+    "cluster": "Accessibility & Physical Usability"
+  },
+  {
+    "id": "US-075",
+    "title": "Silent Mode for All Notifications",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Reviews new app notifications on the ALFRED device carefully",
+    "use_case": "UC-010",
+    "priority": 2,
+    "summary": "As an older adult, I want ALFRED to block almost all notifications and messages, so I avoid disturbances and keep full control.",
+    "pillar": "General Requirements",
+    "type": "Non-Functional",
+    "cluster": "Accessibility & Physical Usability"
+  },
+  {
+    "id": "US-077",
+    "title": "Formal Language Only",
+    "persona": "P-005",
+    "user_group": "Older Adults",
+    "task": "Demands control over notification settings and data sharing preferences",
+    "use_case": "UC-011",
+    "priority": 2,
+    "summary": "As an older adult, I want all ALFRED messages to be formal, polite, and respectful, so I feel safe and comfortable in every interaction.",
+    "pillar": "General Requirements",
+    "type": "Non-Functional",
+    "cluster": "Accessibility & Physical Usability"
+  }
+]

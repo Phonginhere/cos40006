@@ -234,7 +234,7 @@ Developers and App Creators","
 As an informal caregiver, I want to choose which client notifications to see first so I can handle my work without feeling too busy.,
 As a developer, I want ALFRED to send notifications to users even if they refuse, so caregivers and patients always get important information.","
 As an informal caregiver, I want to prioritize notifications by importance so I can manage my work without feeling too busy.,
-As a developer, I want ALFRED to send critical notifications to users even if they refuse, so important information is always received.",AGREED,"Partially agreed. Although the original is vague in conflicting, but the new one is not vague and no conflicting"
+As a developer, I want ALFRED to send critical notifications to users even if they refuse, so important information is always received.",NOT AGREED,"Partially disagreed. Although the original is vague in conflicting, but the new one is not too vague and no major conflicting"
 FCAT-018,"P-006,
 P-001","Caregivers and Medical Staff,
 Developers and App Creators","
@@ -346,7 +346,7 @@ Older Adults","
 As an informal caregiver, I want to receive all notifications, including health updates and emotional prompts, so I can support my clients well.,
 As an older adult, I want to block all app updates and installations, so that I avoid unwanted changes and keep full control.","
 As an informal caregiver, I want to receive all health and emotional notifications, so I can support my clients well.,
-As an older adult, I want to block all app updates and installations except important health notifications, so I keep control and stay informed.",AGREED,"Partially agreed. Although the original is vague in conflicting, but the new one is not vague and consistent"
+As an older adult, I want to block all app updates and installations except important health notifications, so I keep control and stay informed.",NOT AGREED,"Partially disagreed. Although the original is vague in conflicting, but the new one is not too vague and a bit consistent"
 FCAT-072,"P-006,
 P-002","Caregivers and Medical Staff,
 Older Adults","
@@ -354,4 +354,4 @@ As an informal caregiver, I want to manually choose when to share each client's 
 As an older person, I want to share all my health data freely and in real time with my caregiver, so she always knows my health status.","
 As an informal caregiver, I want to share client data only with their consent to protect privacy and trust.,
 As an older person, I want to share selected health data in real time with my caregiver to keep them informed.",NOT AGREED,The original is not a conflict
-,,,,Human check on LLM's resolution proposals,33% AGREED,
+,,,,Human check on LLM's resolution proposals,29% AGREED,

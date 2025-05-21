@@ -1,0 +1,19 @@
+{
+  "id": "UC-003",
+  "useCaseType": "Health Data Sharing & Monitoring Boundaries",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Developer Core",
+    "Pillar 3 - Effective & Personalized Care"
+  ],
+  "name": "Client Health Data Sharing Control",
+  "description": "This use case enables caregivers and older adults to establish secure boundaries for health data sharing within the ALFRED system. It focuses on ensuring that both parties can manage and consent to the sharing of sensitive health information, enhancing trust and autonomy in the caregiving relationship.",
+  "scenario": "Elena Rivera settled into her favorite armchair, the afternoon sun streaming through the window as she activated the ALFRED app on her tablet. “Why does it keep asking me about my health? I know what I need!” she grumbled, feeling overwhelmed by the persistent notifications. Although she was tech-curious, the reminders felt intrusive, tugging at her desire for independence.\n\nAt that moment, Sarah Thompson, her informal caregiver, arrived. “Hi, Elena! Let’s explore the app together today,” she suggested, noticing Elena’s frustration. “I think we can customize it to better suit your preferences.” Elena crossed her arms defiantly. “I don’t want to be coddled, Sarah. I want to manage my health on my own terms, without constant nudges.”\n\nJust then, Mike Johnson, her nurse, joined a video call. “Elena, how are you doing with your exercises? We need to stay on track!” His tone was filled with genuine concern, but to Elena, it felt like another reminder of her limitations. “I don’t need you checking in like I’m a child, Mike! I want control over what notifications I receive,” she shot back, her irritation palpable.\n\nSarah, sensing the rising tension, interjected, “What if we set up the reminders to activate only for your medications? That way, you can still have some autonomy.” Elena hesitated, considering the suggestion. “Alright, but I want to disable anything I don’t want. I feel like I’m being monitored all the time,” she finally conceded, her voice softening slightly.\n\nMeanwhile, Daniel Chen, the developer behind ALFRED, monitored user feedback remotely. He noticed Elena’s struggle with the app’s notifications and felt a pang of responsibility. “I need to make this system more user-friendly,” he thought, recognizing the need to balance support with personal autonomy.\n\nAs Sarah guided Elena through the customization, they adjusted the tone of the notifications to be more formal, as Elena preferred. Mike watched as her demeanor shifted from frustration to relief. “Thank you, Sarah. This feels better,” she admitted, a smile breaking through her earlier irritation.\n\nBy the end of the session, Elena felt empowered. The adjustments made her feel more in control of her health journey. Mike and Sarah learned the importance of respecting her boundaries, while Daniel realized that fostering trust was crucial for making technology a true ally in her life.",
+  "personas": [
+    "P-002",
+    "P-006"
+  ]
+}

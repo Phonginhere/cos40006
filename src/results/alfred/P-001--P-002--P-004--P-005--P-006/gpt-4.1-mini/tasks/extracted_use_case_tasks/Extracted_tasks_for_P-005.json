@@ -1,0 +1,74 @@
+[
+  {
+    "taskID": "TASK-008",
+    "useCaseId": "UC-001",
+    "personaId": "P-005",
+    "taskDescription": "Uses push-to-talk mode to control when ALFRED listens"
+  },
+  {
+    "taskID": "TASK-013",
+    "useCaseId": "UC-001",
+    "personaId": "P-005",
+    "taskDescription": "Prefers health check-ins in her own home over hospital settings"
+  },
+  {
+    "taskID": "TASK-017",
+    "useCaseId": "UC-001",
+    "personaId": "P-005",
+    "taskDescription": "Feels cautious but somewhat secure with health monitoring"
+  },
+  {
+    "taskID": "TASK-112",
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Control when and how to interact with ALFRED"
+  },
+  {
+    "taskID": "TASK-116",
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Maintain privacy and autonomy over therapy participation"
+  },
+  {
+    "taskID": "TASK-140",
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Dismisses unsolicited notifications about social activities"
+  },
+  {
+    "taskID": "TASK-221",
+    "useCaseId": "UC-009",
+    "personaId": "P-005",
+    "taskDescription": "Sets medication reminders through ALFRED"
+  },
+  {
+    "taskID": "TASK-304",
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Uses formal and concise speech when interacting with ALFRED"
+  },
+  {
+    "taskID": "TASK-311",
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Feels uneasy about technology and prefers to keep her privacy intact"
+  },
+  {
+    "taskID": "TASK-333",
+    "useCaseId": "UC-013",
+    "personaId": "P-005",
+    "taskDescription": "Responds curtly to medication reminders from ALFRED"
+  },
+  {
+    "taskID": "TASK-357",
+    "useCaseId": "UC-015",
+    "personaId": "P-005",
+    "taskDescription": "Disables spontaneous voice prompts on ALFRED"
+  },
+  {
+    "taskID": "TASK-365",
+    "useCaseId": "UC-015",
+    "personaId": "P-005",
+    "taskDescription": "Maintains control over communication and contact preferences"
+  }
+]

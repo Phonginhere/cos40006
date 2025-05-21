@@ -1,0 +1,56 @@
+[
+  {
+    "taskID": "TASK-021",
+    "useCaseId": "UC-002",
+    "personaId": "P-005",
+    "taskDescription": "Expresses discomfort with ALFRED's casual tone during interactions"
+  },
+  {
+    "taskID": "TASK-022",
+    "useCaseId": "UC-002",
+    "personaId": "P-005",
+    "taskDescription": "Requests a more formal communication style from ALFRED"
+  },
+  {
+    "taskID": "TASK-084",
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Expresses concern about sharing her health data with others."
+  },
+  {
+    "taskID": "TASK-112",
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Wants to feel in control of her data sharing settings"
+  },
+  {
+    "taskID": "TASK-113",
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Requests a simple setup that does not compromise her privacy"
+  },
+  {
+    "taskID": "TASK-114",
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Seeks reassurance about how her data will be used"
+  },
+  {
+    "taskID": "TASK-155",
+    "useCaseId": "UC-010",
+    "personaId": "P-005",
+    "taskDescription": "Wants to feel secure while using ALFRED"
+  },
+  {
+    "taskID": "TASK-157",
+    "useCaseId": "UC-010",
+    "personaId": "P-005",
+    "taskDescription": "Asks Sarah to help navigate the app installation process"
+  },
+  {
+    "taskID": "TASK-178",
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Expresses frustration about having to approve every installation on ALFRED"
+  }
+]

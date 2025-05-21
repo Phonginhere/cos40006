@@ -1,0 +1,17 @@
+{
+  "id": "UC-014",
+  "useCaseType": "Check-in and Availability Negotiation",
+  "userGroups": [
+    "Older Adults"
+  ],
+  "pillars": [
+    "Pillar 1 - User-Driven Interaction Assistant",
+    "Pillar 3 - Effective & Personalized Care"
+  ],
+  "name": "Health Status Check-In",
+  "description": "Elena uses ALFRED to perform regular health check-ins and negotiate availability for personalized support and interventions. This use case ensures timely health monitoring while respecting her autonomy and preferences.",
+  "scenario": "Elena Rivera sits in her cozy urban apartment, the morning sun filtering through the window as she speaks confidently to ALFRED. “ALFRED, let’s do my health check-in now,” she says, eager to engage with the system. She appreciates that ALFRED not only tracks her vitals through the wearables she happily dons but also respects her autonomy by asking about her preferences for support. Today, however, Elena feels a bit tired and suggests postponing the more challenging exercises ALFRED usually proposes after check-ins. ALFRED responds patiently, explaining the benefits of staying active but acknowledges her choice, demonstrating the balance between encouragement and respect she values.\n\nDespite her eagerness to share all her health data openly, Elena sometimes wrestles with the flood of information ALFRED provides. At times, she wishes the system would offer clearer explanations rather than assuming she already understands complex metrics. Still, her curiosity drives her to ask ALFRED detailed questions about her heart rate trends and hydration reminders, as she is determined to learn how to manage her health better. She especially likes that ALFRED can be activated automatically if her condition changes abruptly, offering reassurance without feeling intrusive.\n\nAcross town, Elena’s daughter calls to check in, and Elena uses ALFRED’s video feature to connect effortlessly, appreciating how natural and informal the interaction feels—just like a chat with a close friend. She enjoys sharing her progress and even jokes about how ALFRED is sometimes a pushy coach but admits it’s helping her stay motivated. Yet, she also confesses concern about becoming too dependent on the system’s prompts and wonders aloud whether she might lose some of her spontaneity.\n\nLater in the day, ALFRED gently suggests scheduling a video consultation with a healthcare provider, tailored to Elena’s availability. Elena hesitates, valuing her independence and flexible time management, but recognizes the importance of timely interventions. She negotiates with ALFRED to set a reminder for the next day instead, wanting to maintain control over when and how support arrives. This negotiation reveals her ongoing struggle to balance accepting help with preserving her freedom.\n\nThroughout these interactions, Elena’s openness contrasts with moments of cautious self-regulation. ALFRED adapts to her dynamic needs, fostering a partnership that respects her tech curiosity and mild mobility limitations while supporting her desire to live well on her own terms.",
+  "personas": [
+    "P-002"
+  ]
+}

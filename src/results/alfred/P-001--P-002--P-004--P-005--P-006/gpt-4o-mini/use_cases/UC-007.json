@@ -1,0 +1,21 @@
+{
+  "id": "UC-007",
+  "useCaseType": "Data Governance & Consent Enforcement",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Developers and App Creators",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Developer Core",
+    "General Requirements"
+  ],
+  "name": "Client Data Privacy Management",
+  "description": "This use case focuses on enabling caregivers, older adults, and developers to manage and control data privacy settings effectively within the ALFRED system. It ensures that all user interactions are transparent and consensual, allowing users to define their data sharing preferences and access rights while using the platform.",
+  "scenario": "In a cozy, sunlit room, Olivia sat with her tablet, feeling overwhelmed by the ALFRED app’s persistent notifications. “Why do I have to approve every single app installation?” she grumbled, her fingers hesitating over the screen. The idea of sharing her data, even with caregivers, made her uneasy. “I just want to use it without feeling like I’m signing away my privacy.”\n\nMeanwhile, Sarah Thompson, her informal caregiver, arrived with a folder of updates. “Good morning, Olivia! I’m here to help you navigate the app. Let’s make sure you’re set up correctly,” she said, noticing Olivia’s furrowed brow. “It’ll be easier if we enable some features that could help with your health.”\n\n“Only if I can control what data gets shared,” Olivia snapped, her voice steady but firm. She felt the weight of her independence slipping away each time ALFRED chimed in with reminders. “I don’t want unsolicited messages. They make me feel like I’m being monitored.”\n\nSarah sighed, understanding Olivia’s concerns but also trying to balance her role as a caregiver. “I understand, but some notifications are critical for your health. Can we at least enable the ones about your medication?” she suggested, hoping to find common ground.\n\nIn the background, Daniel Chen, the full-stack developer behind ALFRED, was analyzing user feedback. He had been tracking Olivia’s interactions and sensed the friction. “I need to simplify the permissions process,” he thought, feeling the pressure to make the system more user-friendly while maintaining privacy.\n\nAs they talked, Mike Johnson, Olivia’s nurse, joined via video call. “Olivia, how are you feeling today? Are you following the exercise plan?” His tone was warm yet professional, but Olivia felt her irritation rise again. “I’ll do what I want when I want, Mike. I don’t need a checklist,” she replied sharply.\n\n“Maybe we can find a compromise,” Sarah suggested diplomatically. “What if we download just one app that focuses on your interests, with limited data requirements? It could help you manage your health without feeling overwhelmed.”\n\nOlivia paused, considering the offer. “Alright, but I want full control over what it can access,” she finally relented, her voice softening slightly. “I need to feel secure.”\n\nAs they began to explore the app together, Olivia felt a flicker of empowerment. Sarah and Mike learned the importance of respecting her boundaries, while Daniel, observing from afar, realized that the real challenge was about trust and human connection, not just technology. Choosing an app that respected her preferences, Olivia smiled for the first time that day, feeling more in control of her health journey.",
+  "personas": [
+    "P-006",
+    "P-001",
+    "P-005"
+  ]
+}

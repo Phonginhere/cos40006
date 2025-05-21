@@ -1,0 +1,23 @@
+{
+  "id": "UC-007",
+  "useCaseType": "Data Governance & Consent Enforcement",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Developers and App Creators",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Developer Core",
+    "General Requirements"
+  ],
+  "name": "Enforced Data Access and Consent",
+  "description": "This use case addresses the enforcement of data governance policies within ALFRED, ensuring that developers, caregivers, and older adults interact with health data according to strict consent rules. It balances system-mandated access and notifications with user privacy preferences to support secure, compliant healthcare applications.",
+  "scenario": "Daniel Chen sits in his rural home office, reviewing the latest update logs from his healthcare app integrated with ALFRED. His new feature enforces strict consent checks before any health data is accessed, designed to comply with privacy regulations. His approach is unapologetically rigid: notifications must be sent to caregivers like Sarah Thompson regardless of the time or the caregiver’s current workload, and users cannot override these enforced alerts. Daniel is convinced this uncompromising design will guarantee safety and compliance, even if it means some friction with users.\n\nMeanwhile, Elena Rivera, embracing her tech curiosity and eager to challenge herself, interacts with ALFRED on a bright afternoon. She enjoys how the system persistently reminds her to take on difficult exercises and daily health checks, even when she tries to postpone them. Elena has granted ALFRED broad permissions—sharing nearly all her health data and enabling spontaneous video check-ins. She delights in the detailed explanations ALFRED provides about its features, feeling empowered by learning how the system works. Yet, when an unsolicited notification buzzes on Sarah’s device at midnight, Elena feels a twinge of guilt, knowing her openness may be taxing her caregivers.\n\nSarah Thompson, managing care for multiple clients including Elena, feels the weight of Daniel’s enforced notification policy. Her phone incessantly pings with alerts, some non-critical, disrupting her off-hours. Though she values the system’s guidance and enjoys playing games with Elena to boost morale, Sarah finds it exhausting to be forced into constant responsiveness. She’s grateful, however, that ALFRED respects her choice to disable automatic logging, allowing her to control what information gets recorded. Still, Sarah wonders if Daniel’s all-or-nothing approach neglects the human limits caregivers face.\n\nAt Elena’s home, the tension sharpens when Mike Johnson logs in from his busy urban hospital. He appreciates that ALFRED silences non-critical notifications during his shifts, enabling focus on urgent patient care. However, Mike bristles at the system’s insistence on waiting for explicit consent to access certain health data from Elena, whom he regards as needing closer monitoring. His clinical mindset clashes with Elena’s preference for autonomy and with Daniel’s rigid consent enforcement, which sometimes delays critical alerts. Mike wishes ALFRED would grant him unfettered access in emergencies, but the system’s privacy safeguards leave him frustrated.\n\nElena, Sarah, Mike, and Daniel are caught in a web of conflicting priorities: Elena’s enthusiastic sharing and desire for learning collide with Mike’s clinical urgency and Sarah’s caregiving limits, all shaped by Daniel’s uncompromising enforcement of data access and notifications. The ALFRED platform becomes a battleground where privacy, care, and developer mandates intersect, exposing the real-world complexities of balancing autonomy and safety in eldercare technology.",
+  "personas": [
+    "P-001",
+    "P-002",
+    "P-006",
+    "P-004",
+    "P-005"
+  ]
+}

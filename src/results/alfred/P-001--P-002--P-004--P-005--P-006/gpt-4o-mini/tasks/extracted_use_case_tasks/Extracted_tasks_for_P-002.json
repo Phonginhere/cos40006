@@ -1,0 +1,290 @@
+[
+  {
+    "taskID": "TASK-011",
+    "useCaseId": "UC-001",
+    "personaId": "P-002",
+    "taskDescription": "Interacts with ALFRED to request new activities or games"
+  },
+  {
+    "taskID": "TASK-013",
+    "useCaseId": "UC-001",
+    "personaId": "P-002",
+    "taskDescription": "Suggests alternatives to health reminders for a more enjoyable experience"
+  },
+  {
+    "taskID": "TASK-014",
+    "useCaseId": "UC-001",
+    "personaId": "P-002",
+    "taskDescription": "Engages with Sarah in a dialogue about her preferences"
+  },
+  {
+    "taskID": "TASK-015",
+    "useCaseId": "UC-001",
+    "personaId": "P-002",
+    "taskDescription": "Balances her desire for fun with health-related activities"
+  },
+  {
+    "taskID": "TASK-036",
+    "useCaseId": "UC-003",
+    "personaId": "P-002",
+    "taskDescription": "Activates the ALFRED app on her tablet"
+  },
+  {
+    "taskID": "TASK-038",
+    "useCaseId": "UC-003",
+    "personaId": "P-002",
+    "taskDescription": "Requests to manage her health notifications"
+  },
+  {
+    "taskID": "TASK-039",
+    "useCaseId": "UC-003",
+    "personaId": "P-002",
+    "taskDescription": "Agrees to customize the app with Sarah's help"
+  },
+  {
+    "taskID": "TASK-041",
+    "useCaseId": "UC-003",
+    "personaId": "P-002",
+    "taskDescription": "Prefers formal tone for reminders"
+  },
+  {
+    "taskID": "TASK-042",
+    "useCaseId": "UC-003",
+    "personaId": "P-002",
+    "taskDescription": "Feels relieved after making adjustments to the notifications"
+  },
+  {
+    "taskID": "TASK-043",
+    "useCaseId": "UC-003",
+    "personaId": "P-002",
+    "taskDescription": "Desires to maintain her independence in health management"
+  },
+  {
+    "taskID": "TASK-057",
+    "useCaseId": "UC-004",
+    "personaId": "P-002",
+    "taskDescription": "Opens the ALFRED app on her tablet to review notifications"
+  },
+  {
+    "taskID": "TASK-059",
+    "useCaseId": "UC-004",
+    "personaId": "P-002",
+    "taskDescription": "Desires to control which notifications are sent to her"
+  },
+  {
+    "taskID": "TASK-060",
+    "useCaseId": "UC-004",
+    "personaId": "P-002",
+    "taskDescription": "Wants to choose what health information is shared"
+  },
+  {
+    "taskID": "TASK-061",
+    "useCaseId": "UC-004",
+    "personaId": "P-002",
+    "taskDescription": "Feels overwhelmed by constant prompts from the ALFRED app"
+  },
+  {
+    "taskID": "TASK-062",
+    "useCaseId": "UC-004",
+    "personaId": "P-002",
+    "taskDescription": "Considers a compromise about enabling specific notifications"
+  },
+  {
+    "taskID": "TASK-068",
+    "useCaseId": "UC-005",
+    "personaId": "P-002",
+    "taskDescription": "Expresses feeling overwhelmed by constant exercise reminders"
+  },
+  {
+    "taskID": "TASK-069",
+    "useCaseId": "UC-005",
+    "personaId": "P-002",
+    "taskDescription": "Voices her desire to manage health on her own terms"
+  },
+  {
+    "taskID": "TASK-070",
+    "useCaseId": "UC-005",
+    "personaId": "P-002",
+    "taskDescription": "Requests control over what the app accesses regarding her data"
+  },
+  {
+    "taskID": "TASK-071",
+    "useCaseId": "UC-005",
+    "personaId": "P-002",
+    "taskDescription": "Engages in the app with Sarah and Mike for support"
+  },
+  {
+    "taskID": "TASK-072",
+    "useCaseId": "UC-005",
+    "personaId": "P-002",
+    "taskDescription": "Reflects on the importance of feeling secure while using the app"
+  },
+  {
+    "taskID": "TASK-124",
+    "useCaseId": "UC-008",
+    "personaId": "P-002",
+    "taskDescription": "Navigates the ALFRED app on her tablet"
+  },
+  {
+    "taskID": "TASK-126",
+    "useCaseId": "UC-008",
+    "personaId": "P-002",
+    "taskDescription": "Requests control over what notifications and data are shared"
+  },
+  {
+    "taskID": "TASK-127",
+    "useCaseId": "UC-008",
+    "personaId": "P-002",
+    "taskDescription": "Desires to maintain her sense of independence while using ALFRED"
+  },
+  {
+    "taskID": "TASK-143",
+    "useCaseId": "UC-009",
+    "personaId": "P-002",
+    "taskDescription": "Wants to control which notifications she receives from ALFRED"
+  },
+  {
+    "taskID": "TASK-144",
+    "useCaseId": "UC-009",
+    "personaId": "P-002",
+    "taskDescription": "Asks for autonomy in deciding what information gets shared"
+  },
+  {
+    "taskID": "TASK-145",
+    "useCaseId": "UC-009",
+    "personaId": "P-002",
+    "taskDescription": "Feels pressured by the monitoring aspect of the system"
+  },
+  {
+    "taskID": "TASK-146",
+    "useCaseId": "UC-009",
+    "personaId": "P-002",
+    "taskDescription": "Seeks to engage with technology while maintaining her independence"
+  },
+  {
+    "taskID": "TASK-163",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Interacts with the ALFRED app to find suitable exercises."
+  },
+  {
+    "taskID": "TASK-164",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Expresses frustration about constant reminders from ALFRED."
+  },
+  {
+    "taskID": "TASK-165",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Requests to skip non-essential notifications."
+  },
+  {
+    "taskID": "TASK-166",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Chooses who can join her in social activities."
+  },
+  {
+    "taskID": "TASK-167",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Participates in a game to stay active."
+  },
+  {
+    "taskID": "TASK-168",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Seeks reassurance about maintaining her independence while using the app."
+  },
+  {
+    "taskID": "TASK-195",
+    "useCaseId": "UC-013",
+    "personaId": "P-002",
+    "taskDescription": "Scrolls through the ALFRED app on her tablet"
+  },
+  {
+    "taskID": "TASK-197",
+    "useCaseId": "UC-013",
+    "personaId": "P-002",
+    "taskDescription": "Communicates her desire to manage her health independently"
+  },
+  {
+    "taskID": "TASK-198",
+    "useCaseId": "UC-013",
+    "personaId": "P-002",
+    "taskDescription": "Requests control over what information the app accesses"
+  },
+  {
+    "taskID": "TASK-199",
+    "useCaseId": "UC-013",
+    "personaId": "P-002",
+    "taskDescription": "Selects a game that involves light exercises and fun challenges"
+  },
+  {
+    "taskID": "TASK-200",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Navigates the ALFRED app on her tablet for health check-ins"
+  },
+  {
+    "taskID": "TASK-202",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Engages in conversation with her nurse Mike about her exercise routine"
+  },
+  {
+    "taskID": "TASK-203",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Requests to control what health notifications she wants to receive"
+  },
+  {
+    "taskID": "TASK-204",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Explores features of the app with her caregiver Sarah"
+  },
+  {
+    "taskID": "TASK-205",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Seeks to manage her own health without feeling monitored"
+  },
+  {
+    "taskID": "TASK-206",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Consents to enable one feature that aligns with her interests"
+  },
+  {
+    "taskID": "TASK-207",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Feels empowered when she gains control over the app's functions"
+  },
+  {
+    "taskID": "TASK-224",
+    "useCaseId": "UC-015",
+    "personaId": "P-002",
+    "taskDescription": "Adjusts notification settings on the ALFRED app."
+  },
+  {
+    "taskID": "TASK-225",
+    "useCaseId": "UC-015",
+    "personaId": "P-002",
+    "taskDescription": "Expresses frustration about receiving too many health notifications."
+  },
+  {
+    "taskID": "TASK-226",
+    "useCaseId": "UC-015",
+    "personaId": "P-002",
+    "taskDescription": "Wants to feel in control of her health reminders."
+  },
+  {
+    "taskID": "TASK-227",
+    "useCaseId": "UC-015",
+    "personaId": "P-002",
+    "taskDescription": "Seeks to customize alerts to fit her lifestyle."
+  }
+]

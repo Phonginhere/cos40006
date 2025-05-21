@@ -1,0 +1,22 @@
+{
+  "id": "UC-005",
+  "useCaseType": "Simulation & Gamified Therapy",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Developers and App Creators",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Developer Core",
+    "Pillar 4 - Physical & Cognitive Impairments Prevention"
+  ],
+  "name": "Gamified Therapy Engagement Tools",
+  "description": "This use case facilitates the development of engaging gamified therapy applications for older adults, allowing caregivers to monitor client participation and progress while ensuring privacy and data security. By providing interactive simulations, it enhances cognitive and physical rehabilitation within a supportive environment.",
+  "scenario": "Elena Rivera was sitting on her couch, the ALFRED app flashing on her tablet. “Why does it keep reminding me to exercise? I know I need to, but this feels like pressure,” she muttered, her brow furrowed. Just then, Sarah Thompson, her informal caregiver, entered the room with a warm smile. “Hey, Elena! I thought we could explore some new games that might make it fun to move around. What do you think?” she suggested, trying to lighten the mood.\n\nElena crossed her arms, feeling overwhelmed. “Games? I don’t need distractions. I want to manage my health on my own terms, not feel like I’m being forced into something.” Sarah sensed the tension but was determined to help. “I understand, but some activities are crucial for your recovery. They can be enjoyable, too! Let’s just try one.”\n\nMeanwhile, Daniel Chen, the full-stack developer behind ALFRED, was reviewing feedback from users like Elena. He had seen her interactions and felt a wave of responsibility. “I need to make this system more user-friendly,” he thought, noting Elena’s struggle with the constant notifications that were supposed to be helpful but felt intrusive.\n\nIn the background, Mike Johnson, Elena's nurse, joined via video call. “Elena, how’s everything going? Are you keeping up with your exercises?” His voice was filled with genuine concern, but Elena felt her irritation rise again. “I’ll do what I want, Mike. I don’t want to feel like I’m being monitored constantly,” she replied, her tone sharp.\n\n“Perhaps we can find a balance,” Mike suggested. “How about we focus on one app that aligns with your interests? It can help you stay on track without overwhelming you.” Elena pondered this, her defenses softening slightly. “Alright, but I want full control over what it accesses. I need to feel secure,” she finally relented.\n\nAs they navigated the app together, Elena felt a flicker of empowerment. Sarah and Mike learned the importance of respecting her boundaries, while Daniel, observing from afar, recognized that fostering trust and autonomy was crucial. By the end of the session, Elena was smiling, feeling more in control of her health journey, grateful for the collaborative effort that respected her wishes while still aiming for her well-being.",
+  "personas": [
+    "P-006",
+    "P-002",
+    "P-005",
+    "P-001"
+  ]
+}

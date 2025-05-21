@@ -1,0 +1,21 @@
+{
+  "id": "UC-008",
+  "useCaseType": "Sensor Usage & Wearable Compliance",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Developers and App Creators",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Pillar 3 - Effective & Personalized Care",
+    "Pillar 4 - Physical & Cognitive Impairments Prevention"
+  ],
+  "name": "Wearable Sensor Compliance Enforcement",
+  "description": "This use case addresses the challenge of ensuring older adults consistently wear health-monitoring sensors and comply with data collection protocols, balancing the strict monitoring needs of caregivers and the privacy concerns of users. It supports developers in implementing mandatory sensor usage features while respecting user and caregiver roles.",
+  "scenario": "Olivia sits in her modest suburban living room, glancing warily at the wearable sensor clipped discreetly to her blouse. She has always been resistant to such devices, fearing constant monitoring and loss of privacy. When ALFRED gently reminds her to wear the sensor today, Olivia’s voice is curt but polite as she commands, “ALFRED, only remind me if absolutely necessary.” She blocks most notifications and firmly rejects any unsolicited data sharing, insisting that her health information remain strictly between herself and her official nurse, Mike Johnson. She prefers offline check-ins at home, arranging them only after careful consideration, and refuses any video calls initiated by ALFRED or caregivers without her explicit consent.\n\nMeanwhile, Mike Johnson logs into ALFRED from the bustling hospital where he works long, demanding shifts. He immediately notices that Olivia’s sensor data is incomplete and that many alerts have been suppressed due to her strict privacy settings. Mike’s frustration simmers; he believes that continuous, full access to vitals is critical for effective care, especially since Olivia’s condition requires monitoring. He wishes ALFRED could enforce sensor wearing and data transmission automatically, overriding user reluctance in the interest of safety. Mike is also irritated by the limited communication options, as Olivia refuses video check-ins in the hospital or spontaneous calls, preferring formal, scheduled home visits. He silently reprimands ALFRED for not enforcing his clinical priorities more assertively, longing for a system that minimizes distractions and maximizes data flow during his shifts.\n\nFar away in his rural home office, Daniel Chen reviews the system logs and user feedback. As a developer, he is caught between his mandate to implement strict compliance enforcement and his awareness of user resistance like Olivia’s. His philosophy is uncompromising: sensors must be worn at all times, and caregivers like Mike must receive continuous notifications, no exceptions. Daniel codes the latest update to forcibly prompt Olivia whenever she removes the sensor, and configures the system to alert Mike instantly, regardless of Olivia’s preferences. He also programs ALFRED to override Olivia’s attempts to block app installations related to sensor management. Daniel’s rigid approach fuels tension—he dismisses Olivia’s privacy concerns as obstacles to safety and views Mike’s clinical focus as paramount. He rarely engages directly with patients, trusting technical enforcement over persuasion.\n\nBack at Olivia’s home, the wearable sensor buzzes persistently despite her attempts to ignore it. She sighs, feeling invaded and pressured. ALFRED’s voice interjects firmly, “Olivia, please wear your health sensor now for your safety,” disregarding her usual polite tone. Olivia’s resistance mounts, but she reluctantly clips the sensor on, wary of the system’s intrusive persistence. Mike later reviews the updated data, relieved to see more consistent vitals but uneasy about Olivia’s distress. Daniel watches the logs, convinced that his strict enforcement is the only way to ensure compliance, even as the human friction becomes palpable. The three remain locked in a delicate standoff—Olivia guarding her autonomy, Mike demanding clinical reliability, and Daniel driving uncompromising system control—each perspective clashing in the daily rhythm shaped by ALFRED’s relentless balance of care and compliance.",
+  "personas": [
+    "P-001",
+    "P-004",
+    "P-005"
+  ]
+}

@@ -7,24 +7,16 @@ from itertools import combinations
 from typing import Optional
 
 from pipeline.user_story.user_story_loader import UserStoryLoader
-from pipeline.utils import (
-    USER_GROUP_KEYS,
-    USER_GROUPS,
-    FUNCTIONAL_USER_STORY_CONFLICT_SUMMARY_PATH,
-    FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR,
-    load_system_summary,
-    load_user_story_summary,
-    get_llm_response,
-    CURRENT_LLM
-)
-
+from pipeline.utils import Utils
 
 def identify_functional_conflicts_within_one_group(user_story_loader: Optional[UserStoryLoader] = None):
-    os.makedirs(FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, exist_ok=True)
+    utils = Utils()
+    
+    os.makedirs(utils.FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, exist_ok=True)
 
     # Skip if all user group files already exist
-    existing_files = set(f for f in os.listdir(FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR) if f.endswith(".json"))
-    if len(existing_files) >= len(USER_GROUPS):
+    existing_files = set(f for f in os.listdir(utils.FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR) if f.endswith(".json"))
+    if len(existing_files) >= len(utils.get_user_groups()):
         print("✅ Skipping functional user story conflict identification — all group JSONs already exist.")
         return
 
@@ -44,12 +36,17 @@ def identify_functional_conflicts_within_one_group(user_story_loader: Optional[U
             cluster = "(Unclustered)"
         cluster_map[cluster].append(story)
 
-    system_summary = load_system_summary()
-    user_story_guidelines = load_user_story_summary()
-    conflict_technique_summary = load_functional_conflict_summary()
+    system_context = utils.load_system_context()
+    user_story_guidelines = utils.load_user_story_guidelines()
+    conflict_technique_summary = utils.load_functional_user_story_conflict_technique_description()
 
     conflict_id_counter = 1
-    all_conflicts_by_group = {USER_GROUP_KEYS[g]: [] for g in USER_GROUPS}
+    user_group_keys = utils.load_user_group_keys()
+    user_groups = utils.get_user_groups()
+    all_conflicts_by_group = {user_group_keys[g]: [] for g in user_groups}
+    
+    # Load LLM response language proficiency level
+    proficiency_level = utils.load_llm_response_language_proficiency_level()
 
     # For each cluster, process conflicts by user group
     for cluster, stories_in_cluster in cluster_map.items():
@@ -60,7 +57,7 @@ def identify_functional_conflicts_within_one_group(user_story_loader: Optional[U
 
         for user_group, group_stories in group_map.items():
             # Defensive check for user group validity
-            if user_group not in USER_GROUP_KEYS:
+            if user_group not in user_group_keys:
                 print(f"⚠️ Unknown user group '{user_group}' in cluster '{cluster}', skipping.")
                 continue
 
@@ -91,63 +88,57 @@ def identify_functional_conflicts_within_one_group(user_story_loader: Optional[U
                 for storyB in storiesB:
                     prompt = build_conflict_prompt(
                         conflict_technique_summary,
-                        system_summary,
+                        system_context,
                         user_story_guidelines,
                         storyA,
                         storyB,
                         cluster,
-                        user_group
+                        user_group,
+                        proficiency_level,
                     )
-                    response = get_llm_response(prompt)
+                    response = utils.get_llm_response(prompt)
                     parsed = parse_conflict_response(
                         response, conflict_id_counter, storyA, storyB, cluster, user_group
                     )
                     if parsed:
-                        all_conflicts_by_group[USER_GROUP_KEYS[user_group]].append(parsed)
+                        all_conflicts_by_group[user_group_keys[user_group]].append(parsed)
                         conflict_id_counter += 1
 
     # Save conflicts per user group
     for group_key, conflicts in all_conflicts_by_group.items():
-        path = os.path.join(FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, f"{group_key}.json")
+        path = os.path.join(utils.FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, f"{group_key}.json")
         with open(path, "w", encoding="utf-8") as f:
             json.dump(conflicts, f, indent=2, ensure_ascii=False)
         print(f"✅ Saved {len(conflicts)} conflicts for user group {group_key} at {path}")
 
 
-def load_functional_conflict_summary() -> str:
-    try:
-        with open(FUNCTIONAL_USER_STORY_CONFLICT_SUMMARY_PATH, "r", encoding="utf-8") as f:
-            return f.read().strip()
-    except Exception as e:
-        print(f"❌ Could not load functional conflict summary: {e}")
-        return ""
-
-
 def build_conflict_prompt(
-    conflict_summary: str,
-    system_summary: str,
+    technique_summary: str,
+    system_context: str,
     user_story_guidelines: str,
     storyA,
     storyB,
     cluster: str,
     user_group: str,
+    proficiency_level: str = ""
 ) -> str:
     return f"""
-You are an expert in functional user story conflict analysis. Apply the Chentouf technique described below:
+You are an expert in functional user story conflict analysis. You are identifying conflicts between two functional user stories within the same user group and cluster.
 
-{conflict_summary}
+--- SYSTEM CONTEXT ---
+{system_context}
+-------------------------------------
 
-====================
-System Context:
-====================
-{system_summary}
+--- IDENTIFICATION TECHNIQUE ---
+Apply the Chentouf technique for identifying functional user story conflicts (within one user group):
+{technique_summary}
+-------------------------------------
 
-====================
-User Story Guidelines:
-====================
+--- USER STORY GUIDELINES ---
 {user_story_guidelines}
+-------------------------------------
 
-====================
+--- YOUR TASK ---
 Compare the following TWO FUNCTIONAL user stories belonging to different personas but within the same user group and cluster:
 Cluster: {cluster}
 User Group: {user_group}
@@ -164,6 +155,8 @@ User Story B:
 
 TASK:
 If you think there is a conflict between these two user stories, identify it according to the Chentouf conflict types (Start-Forbid, Forbid-stop, Two Condition Events, Two Operation Frequencies Conflict). If there is no conflict, respond with an empty JSON object: {{}}
+Note that, please strictly follow the definition of conflict between two user stories in the Chentouf's technique summary. Do not consider diversity of user preferences or slight differences in user stories as a conflict.
+If you think the conflict found is a mild or nuanced one, it is likely that the user stories are not conflicting at all. In that case, please respond with an empty JSON object: {{}}.
 
 Only respond with a valid JSON object with the following structure:
 
@@ -173,6 +166,11 @@ Only respond with a valid JSON object with the following structure:
 }}
 
 Strictly, do not include commentary or extra text outside the JSON. Do NOT use any markdown, bold, italic, or special formatting in your response.
+-------------------------------------
+
+{proficiency_level}
+
+--- END OF PROMPT ---
 """
 
 

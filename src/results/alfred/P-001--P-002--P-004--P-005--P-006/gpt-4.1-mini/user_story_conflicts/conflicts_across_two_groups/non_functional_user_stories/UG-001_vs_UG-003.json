@@ -1,0 +1,54 @@
+[
+  {
+    "conflictType": "Mutually Exclusive",
+    "conflictDescription": "User Story A requires only formal voice commands, rejecting informal language, while User Story B requires ALFRED to communicate in a natural and informal tone. These two goals cannot be met at the same time.",
+    "conflictingNfrPairs": [
+      [
+        "ALFRED accepts only formal voice commands from users",
+        "ALFRED uses natural, everyday language in conversations"
+      ],
+      [
+        "ALFRED accepts only formal voice commands from users",
+        "ALFRED communicates in an informal, friendly tone"
+      ],
+      [
+        "ALFRED accepts only formal voice commands from users",
+        "ALFRED's speech style matches how family and friends talk"
+      ],
+      [
+        "ALFRED rejects informal or casual voice commands",
+        "ALFRED uses natural, everyday language in conversations"
+      ],
+      [
+        "ALFRED rejects informal or casual voice commands",
+        "ALFRED communicates in an informal, friendly tone"
+      ],
+      [
+        "ALFRED rejects informal or casual voice commands",
+        "ALFRED's speech style matches how family and friends talk"
+      ]
+    ],
+    "conflictId": "NFCAT-001",
+    "personaAId": "P-001",
+    "personaBId": "P-002",
+    "userGroupA": "Developers and App Creators",
+    "userGroupB": "Older Adults",
+    "userStoryAId": "US-027",
+    "userStoryBId": "US-061",
+    "userStoryASummary": "As a developer, I want ALFRED to enforce formal voice commands to keep interactions clear and professional.",
+    "userStoryBSummary": "As an older adult, I want ALFRED to talk in a natural and informal way like I do with my family and friends, so I feel comfortable and engaged.",
+    "cluster": "User-Driven Interaction Assistant",
+    "generalResolutionType": "Update both user stories",
+    "resolutionDescription": "Both user stories are updated to allow ALFRED to accept both formal and informal voice commands and to adjust its communication style based on user preference or context, enabling flexible interaction modes.",
+    "newUserStoryASummary": "As a developer, I want ALFRED to support clear voice commands that can be formal or informal, so that interactions remain understandable and effective.",
+    "newUserStoryADecomposition": [
+      "Accept both formal and informal voice commands",
+      "Enforce clarity and precision in voice command recognition"
+    ],
+    "newUserStoryBSummary": "As an older adult, I want ALFRED to talk in a natural way using formal or informal tone, so I feel comfortable and understood.",
+    "newUserStoryBDecomposition": [
+      "Use natural language in conversations",
+      "Adjust speech style to be formal or informal based on user preference"
+    ]
+  }
+]

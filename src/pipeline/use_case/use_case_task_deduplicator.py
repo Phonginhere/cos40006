@@ -1,162 +1,128 @@
-import json
 import os
-import re
-
+import json
 from pathlib import Path
 
-from pipeline.user_story.user_story_loader import UserStoryLoader
-from pipeline.user_persona_loader import UserPersonaLoader
 from pipeline.utils import (
-    get_llm_response,
-    load_system_summary,
-    USE_CASE_TASK_EXTRACTION_DIR,
-    USER_STORY_DIR
+    UserPersonaLoader,
+    Utils,
 )
 
-def deduplicate_tasks_for_all_use_cases(persona_loader: UserPersonaLoader):
-    system_summary = load_system_summary()
-    all_personas = {p.id: p for p in persona_loader.get_personas()}
-    
-    # Step Skipping Logics – check if all stories are fully generated
-    user_story_dir_exists = os.path.exists(USER_STORY_DIR)
 
-    if user_story_dir_exists:
-        loader = UserStoryLoader()
-        loader.load_all_user_stories()
-        all_stories = loader.get_all()
+def build_batch_dedup_prompt(system_context: str, tasks: list, persona_prompt: str) -> str:
+    examples = [
+        {"taskID": task["taskID"], "description": task["taskDescription"]}
+        for task in tasks if task.get("taskDescription")
+    ]
 
-        # Check if all user stories for each persona are complete
-        persona_ids = set(p.id for p in all_personas.values())
-        complete_personas = {
-            pid for pid in persona_ids
-            if all(
-                story.title and story.summary and story.priority is not None and story.pillar
-                for story in loader.get_by_persona(pid)
-            )
-        }
+    return f"""You are a requirements engineer. You are helping with system requirement engineering for a project as follows:
 
-        if complete_personas == persona_ids:
-            print(f"⏭️ Skipping deduplicating: All user stories for {len(persona_ids)} personas are complete (title, summary, priority, and pillar filled).")
-            return
-    else:
-        print(f"⚠️ Skipping completeness check: Directory '{USER_STORY_DIR}' does not exist.")
-        
-    task_files = sorted(Path(USE_CASE_TASK_EXTRACTION_DIR).glob("*.json"))
+--- SYSTEM CONTEXT ---
+{system_context}
+---------------------------------------
 
-    print(f"🔄 Starting task deduplication across {len(all_personas)} personas...\n")
-
-    for persona_id, persona in all_personas.items():
-        print(f"🧠 Processing persona {persona_id}...")
-
-        persona_prompt = persona.to_prompt_string()
-        related_files = []
-
-        for fpath in task_files:
-            try:
-                data = json.loads(fpath.read_text(encoding="utf-8"))
-            except UnicodeDecodeError:
-                data = json.loads(fpath.read_text(encoding="latin-1"))
-
-            for entry in data.get("tasksByPersona", []):
-                if entry["personaId"] == persona_id:
-                    related_files.append((fpath, data))
-                    break
-
-        if not related_files:
-            print(f"⚠️ No tasks found for persona {persona_id}. Skipping...\n")
-            continue
-
-        print(f"📁 Found {len(related_files)} use case files involving {persona_id}.")
-
-        for i in range(len(related_files)):
-            base_file, base_data = related_files[i]
-            base_tasks = get_persona_tasks(base_data, persona_id)
-
-            for j in range(i + 1, len(related_files)):
-                compare_file, compare_data = related_files[j]
-                compare_tasks = get_persona_tasks(compare_data, persona_id)
-
-                if not compare_tasks:
-                    continue
-
-                print(f"🔍 Comparing UC {base_file.name} ➡️ {compare_file.name} for {persona_id}...")
-
-                dedup_prompt = build_dedup_prompt(
-                    system_summary,
-                    persona_prompt,
-                    base_tasks,
-                    compare_tasks
-                )
-
-                response = get_llm_response(dedup_prompt)
-                new_tasks = parse_json_list(response)
-
-                original_count = len(compare_tasks)
-                new_count = len(new_tasks)
-
-                for entry in compare_data["tasksByPersona"]:
-                    if entry["personaId"] == persona_id:
-                        entry["tasks"] = new_tasks
-
-                compare_file.write_text(
-                    json.dumps(compare_data, indent=2, ensure_ascii=False), encoding="utf-8"
-                )
-
-                removed = original_count - new_count
-                print(f"✅ Updated {compare_file.name}: {removed} redundant task(s) removed.")
-
-        print(f"✔️ Finished deduplicating tasks for {persona_id}.\n")
-
-    print("✅ Task deduplication complete for all personas.\n")
-
-
-def get_persona_tasks(use_case_data: dict, persona_id: str):
-    for entry in use_case_data.get("tasksByPersona", []):
-        if entry["personaId"] == persona_id:
-            return entry.get("tasks", [])
-    return []
-
-
-def build_dedup_prompt(system_summary: str, persona_prompt: str, existing_tasks: list, new_tasks: list):
-    return f"""You are helping with system requirement engineering for a project as follows:
-
-SYSTEM SUMMARY:
-{system_summary}
-
-PERSONA DETAILS:
+--- PERSONA CONTEXT ---
 {persona_prompt}
+---------------------------------------
 
-Below is a list of tasks previously extracted from other use cases for this persona:
-List A (existing tasks):
-{json.dumps(existing_tasks, indent=2)}
+--- YOUR TASKS LIST ---
+Below is a list of persona tasks extracted from use case scenarios for the same persona. Each task has a task ID and a task description.
+Your job is to identify which tasks are redundant, overly similar, or express the same functional or non-functional expectation in slightly different ways. These may include tasks that share the same goal, phrasing, or execution context.
 
-Now, here is another list of tasks from a new use case:
-List B (new tasks):
-{json.dumps(new_tasks, indent=2)}
+Return ONLY the list of task IDs that should be removed because they are duplicates or redundant. Format your response as a **valid JSON array of task IDs**.
 
-Your job is to refine List B. Please remove any task that is already covered or **extremely similar** in content or meaning to a task in List A — taking into account the **system context** and **persona information** mentioned above.
+{json.dumps(examples, indent=2)}
+---------------------------------------
 
-⚠️ Only remove tasks that are clearly overlapping. Do NOT remove tasks unless they are redundant or nearly identical.
-
+--- OUTPUT FORMAT – JSON list ---
+The output is a list of task IDs to remove (e.g.):
 [
-  "Unique Task 1",
-  "Unique Task 2",
+  "TASK-022",
+  "TASK-034",
   ...
 ]
 
-Return ONLY the updated List B as a valid JSON list of strings. Do not include any extra or invalid texts (e.g. "Task 1", "Unique Task 2", or any other redundant information (e.g., name, e.t.c) of persona besides its Id) or commentary. Do NOT use any markdown, bold, italic, or special formatting in your response. Avoid duplications across personas.
+Return ONLY the list likes the above example. Do not include any explanation, commentary, or formatting. Do NOT use any markdown, bold, italic, or special formatting in your response.
+----------------------------------------
+
+--- END OF PROMPT ---
 """.strip()
 
 
-def parse_json_list(text: str):
-    """Extract JSON list from raw LLM response."""
-    try:
-        match = re.search(r"\[\s*[\s\S]*?\s*\]", text)
-        if match:
-            json_text = match.group(0)
-            json_text = json_text.replace("“", "\"").replace("”", "\"").replace("’", "'")
-            return json.loads(json_text)
-    except json.JSONDecodeError:
-        pass
-    print("⚠️ Could not parse tasks from LLM response. Returning original.")
-    return []
+def deduplicate_tasks_for_all_use_cases(persona_loader: UserPersonaLoader):
+    utils = Utils()
+
+    all_personas = {p.id: p for p in persona_loader.get_personas()}
+    persona_ids = set(all_personas.keys())
+    
+    task_dir = Path(utils.EXTRACTED_USE_CASE_TASKS_DIR)
+    invalid_dir = Path(utils.DUPLICATED_EXTRACTED_USE_CASE_TASKS_DIR)
+    
+    # Skipping logic
+    if invalid_dir.exists():
+        invalid_files = list(invalid_dir.glob("Invalid_extracted_tasks_for_P-*.json"))
+        found_ids = {f.stem.split("_for_")[-1] for f in invalid_files}
+        if found_ids >= persona_ids:
+            print(f"⏭️ Skipping task deduplication – all invalid task files already exist for {len(found_ids)} personas.\n")
+            return
+
+    # Create invalid directory if it doesn't exist
+    invalid_dir.mkdir(parents=True, exist_ok=True)
+
+    # Load system context
+    system_context = utils.load_system_context()
+    
+    # Load all persona tasks
+    persona_files = sorted(task_dir.glob("Extracted_tasks_for_*.json"))
+    print(f"🔍 Starting batch task deduplication for {len(persona_files)} personas...\n")
+
+    for file_path in persona_files:
+        persona_id = file_path.stem.split("_for_")[-1]
+        persona = all_personas.get(persona_id)
+        if not persona:
+            print(f"⚠️ Persona {persona_id} not found in loader. Skipping.")
+            continue
+
+        try:
+            tasks = json.loads(file_path.read_text(encoding="utf-8"))
+        except Exception as e:
+            print(f"❌ Failed to read tasks for {persona_id}: {e}")
+            continue
+
+        if len(tasks) <= 1:
+            continue
+
+        print(f"🧠 Deduplicating {len(tasks)} tasks for {persona_id}...")
+
+        prompt = build_batch_dedup_prompt(system_context, tasks, persona.to_prompt_string())
+        response = utils.get_llm_response(prompt)
+
+        try:
+            to_remove_ids = json.loads(response)
+            if not isinstance(to_remove_ids, list):
+                raise ValueError("Expected a list of task IDs.")
+        except Exception as e:
+            print(f"⚠️ LLM response parsing failed for {persona_id}: {e}")
+            continue
+
+        valid_tasks = [t for t in tasks if t["taskID"] not in to_remove_ids]
+        invalid_tasks = [t for t in tasks if t["taskID"] in to_remove_ids]
+
+        # Save valid tasks back to original path
+        file_path.write_text(json.dumps(valid_tasks, indent=2, ensure_ascii=False), encoding="utf-8")
+
+        # Save invalid tasks to new path
+        invalid_path = invalid_dir / f"Invalid_extracted_tasks_for_{persona_id}.json"
+        invalid_path.write_text(json.dumps(invalid_tasks, indent=2, ensure_ascii=False), encoding="utf-8")
+
+        print(f"✅ {len(invalid_tasks)} duplicate task(s) moved to → {invalid_path.name}")
+        print(f"📄 {len(valid_tasks)} valid task(s) retained → {file_path.name}\n")
+
+    # Clean up original UC-based task files
+    for file in task_dir.glob("Extracted_tasks_from_UC-*.json"):
+        try:
+            file.unlink()
+            print(f"🧹 Removed file: {file.name}")
+        except Exception as e:
+            print(f"⚠️ Could not remove {file.name}: {e}")
+
+    print("🎉 Task deduplication complete for all personas.\n")

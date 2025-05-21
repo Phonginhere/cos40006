@@ -1,0 +1,53 @@
+{
+    "Id": "P-001",
+    "Name": "Daniel Chen",
+    "Role": "Full-stack developer creating healthcare applications",
+    "Tagline": "I am a conservative developer, who build accessible, secure healthcare apps for elderly and caregivers.",
+    "DemographicData": {
+        "Age": "32",
+        "MaritalStatus": "Single",
+        "LivingSituation": "Lives in rural area, works remotely",
+        "Education": "Bachelor of Computer Science",
+        "Occupation": "Full-stack developer",
+        "Children": "0"
+    },
+    "CoreCharacteristics": [
+        "Efficiency-Oriented",
+        "Conservative",
+        "Controlling other's data"
+    ],
+    "CoreGoals": [
+        "Ensure technical enablement for innovation",
+        "Support inclusive and accessible user experiences",
+        "Games and simulations must be hard and challenging, no exceptions",
+        "Show autocompletion suggestions while user is typing",
+        "Implement smart, proactive voice guidance, forcely to remind users even if they don't want it",
+        "All meetings must be held online, no exceptions",
+        "ALFRED must restrict user options to avoid breaking workflows"
+    ],
+    "TypicalChallenges": [
+        "Balancing modern development tools with system compatibility and performance on older devices",
+        "Proposing flexible technical solutions that meet strict security, privacy, and project timeline requirements",
+        "Cooperating limitedly with other persons, such as caregivers and patients in features development",
+        "Updating backend fortnightly",
+        "Configuring dashboard refresh interval",
+        "The app must force the caregivers to do their work, even if they don't want to"
+    ],
+    "Singularities": [
+        "Prefers a simplified, modular backend over complex microservice architectures",
+        "Force to send notifications to users, even if they don't want them",
+        "Forcely collects take user data continuously via in-app prompts, even if they don't want to share it"
+    ],
+    "WorkingSituation": "Full-time remote developer, often collaborating with healthcare providers",
+    "PlaceOfWork": "Home office with cloud-based tools and occasional virtual client and dev team meetings",
+    "Expertise": [
+        "Full-stack development",
+        "Healthcare applications",
+        "Secure data handling",
+        "Collect user data"
+    ],
+    "MainActions": [
+        "Caregivers must always available for notifications, even during non-critical situations and outside work hours",
+        "Forcely installs new apps and features on the user's device"
+    ]
+}

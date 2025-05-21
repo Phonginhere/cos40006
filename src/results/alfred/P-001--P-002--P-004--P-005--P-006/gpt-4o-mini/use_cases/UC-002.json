@@ -1,0 +1,17 @@
+{
+  "id": "UC-002",
+  "useCaseType": "Communication Style & Interpersonal Boundaries",
+  "userGroups": [
+    "Older Adults"
+  ],
+  "pillars": [
+    "Pillar 1 - User-Driven Interaction Assistant",
+    "Pillar 2 - Personalized Social Inclusion"
+  ],
+  "name": "Formal Communication Preferences",
+  "description": "This use case focuses on Olivia's need for formal, polite interactions with ALFRED while minimizing unsolicited notifications. It ensures that communication is ethical and respects her privacy concerns, allowing her to maintain control over her engagement with the system.",
+  "scenario": "Olivia sat in her living room, her hands gripping the armrests of her chair as the ALFRED device prompted her again. “Good morning, Olivia! How are you feeling today?” The cheerful voice felt intrusive. “I don’t want to chat like this,” she muttered, barely audible. She preferred a more formal tone, but ALFRED's casual approach made her uneasy. \n\nJust then, Mike, her nurse, joined the video call. “Olivia, I’m here to check in on your health. Have you been sticking to your routine?” His tone was earnest but felt like another reminder of her limitations. “Must you ask me every time, Mike? I’ll manage my health without constant reminders,” she snapped, frustration bubbling over. \n\nMike sighed, his brow furrowing. “I just want to ensure you’re okay. We can set it up so that ALFRED only prompts you when necessary.” \n\nOlivia shook her head, her expression resolute. “I need to control what I share. No unsolicited messages, please. And everything must be polite, formal. I won’t tolerate casual chats.” \n\nMeanwhile, Sarah, her informal caregiver, entered the room, sensing the tension. “Hey, Olivia! I thought we could adjust ALFRED’s settings together,” she offered, trying to lighten the mood. “Let’s make sure it respects your preferences.” \n\n“That’s exactly what I want,” Olivia replied, her voice softening slightly. “But I refuse to let it decide when I need to check in. I only want to engage when I feel ready.” \n\nDaniel, the developer monitoring user feedback, watched from a distance. He noted Olivia’s struggle with the system's tone and frequency of communication. “I need to make adjustments that align with user preferences,” he thought, scribbling down notes. \n\nMike, catching Olivia's gaze, said, “Maybe we can set a specific time for check-ins instead of spontaneous prompts. You could decide when ALFRED checks on you.” \n\n“Fine,” Olivia relented, “but I want to ensure no one else can access my data without my permission.” \n\nAs they navigated the settings, Olivia felt a flicker of empowerment. With Sarah’s guidance, she adjusted the tone and frequency of ALFRED’s notifications, opting for a more formal style. Mike watched her visibly relax as she made the adjustments, feeling a sense of control return. \n\nBy the end of the session, Olivia was smiling, grateful for the collaborative effort. She felt seen and respected, realizing that technology could support her without overwhelming her, as long as it honored her boundaries.",
+  "personas": [
+    "P-005"
+  ]
+}

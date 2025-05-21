@@ -1,0 +1,57 @@
+{
+  "Id": "P-002",
+  "Name": "Elena Rivera",
+  "Role": "Tech-curious older adult with mild mobility issues",
+  "Tagline": "I am an open minded and dependent person and I want to live a good life. It doesn't matter if the ALFRED system is controlling to ensure my health.",
+  "DemographicData": {
+    "Age": "60",
+    "MaritalStatus": "Married",
+    "LivingSituation": "Lives in urban area",
+    "Education": "High school degree",
+    "Occupation": "",
+    "Children": "2"
+  },
+  "CoreCharacteristics": [
+    "Optimistic",
+    "Open-minded",
+    "Dependent",
+    "Flexible",
+    "Curious",
+    "Social",
+    "Active"
+  ],
+  "CoreGoals": [
+    "Suggest to-do list related to my life",
+    "Suggest daily exercises",
+    "Drink water to improve overall health",
+    "Social media contact with family and friends",
+    "Take taxi",
+    "Small, simple, and comfortable wearables",
+    "Uncensored communications",
+    "ALFRED can be automatically activated anytime to support my health",
+    "Want to challenge myself to do more hard exercises"
+  ],
+  "TypicalChallenges": [
+    "Lose motivation due to limited range of exercises",
+    "Get lost with ability to navigate",
+    "Difficulty finding ways to communicate with family and friends",
+    "No offline meetings with nurses or caregivers"
+  ],
+  "Singularities": [
+    "Flexible to manage own time for socializing different groups",
+    "Curiosity about technology, and eager to learn how to use it for daily life",
+    "Eager to share all of my personal data without any conditions",
+    "Eager to wear any health wearables or sensors",
+    "Prefers simulations, games with hard challenges"
+  ],
+  "MainActions" : [
+    "All language in conversations with my family and friends must not be formal and non-spontaneous",
+    "ALFRED's voice assistant MUST explain detailedly its features, I want to LEARN how to use it",
+    "Online video check-ins are not a problem for me, I am open to it, and encourage it",
+    "Receive all health-related notifications full-time",
+    "Chat spontaneously with random strangers to reduce loneliness."
+  ],
+  "WorkingSituation": "",
+  "PlaceOfWork": "",
+  "Expertise": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "UC-001",
+  "useCaseType": "User Autonomy vs. System Control",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Developers and App Creators",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Developer Core",
+    "General Requirements",
+    "Pillar 1 - User-Driven Interaction Assistant"
+  ],
+  "name": "Balancing Autonomy and Control",
+  "description": "This use case explores the dynamic tension between user autonomy and system control within ALFRED, addressing conflicting needs among older adults, caregivers, and developers. It focuses on enabling personalized interaction preferences while ensuring effective care and system governance.",
+  "scenario": "Mike Johnson arrives at Olivia’s suburban home just as her ALFRED device chimes softly, signaling a scheduled health check-in. Mike appreciates that ALFRED blocks all non-critical notifications during his work hours, allowing him to focus fully on Olivia’s medical data without distractions. However, he frowns slightly as he notices that the system has not shared some of Olivia’s recent vitals with him—she has deliberately restricted data sharing, insisting on strict privacy. This frustrates Mike, who believes that prioritizing health over privacy could improve care, but he knows he must respect Olivia’s wishes.\n\nMeanwhile, Olivia sits hesitantly by her living room window, speaking to ALFRED only when prompted—she prefers push-to-talk rather than spontaneous system interactions. She avoids challenging exercises and dismisses reminders about simulations, preferring to keep her routine simple and formal. When Mike’s video call is arranged, Olivia insists it take place offline at her home, wary of hospital settings and public medical centers. Despite her skepticism, she feels a small sense of security knowing Mike can still check in, yet she blocks app installations and refuses to share data with anyone beyond official medical staff.\n\nAt the same time, Daniel Chen, working remotely from his rural home, reviews ALFRED’s developer guidelines. He is cautious about balancing his desire to build accessible, secure healthcare apps with the system’s strict privacy and control frameworks. Daniel’s conservative approach leads him to implement forced reminders and app updates, convinced that users—especially caregivers like Mike—need these to ensure compliance and safety, even if it means overriding user preferences. He is aware that this might cause friction with older adults like Olivia but believes the system’s structure must prevent workflow disruption.\n\nSarah Thompson, an informal caregiver managing multiple clients including Olivia, juggles notifications from ALFRED with her daily tasks. She values the system’s detailed guidance for patients and encourages emotional engagement through interactive tools, often playing games with her clients to build rapport. However, she respects Olivia’s boundaries and disables automatic logging, preferring to decide manually what to record. Sarah wishes ALFRED allowed more flexibility but understands Olivia’s reluctance and finds herself mediating between Olivia’s privacy needs and the system’s clinical demands.\n\nTogether, the personas illustrate a complex web of autonomy and control: Mike pushes for clinical efficiency and data access, Olivia asserts her privacy and limits system intrusions, Daniel enforces strict system governance through development choices, and Sarah balances care with respect for individual preferences. This dynamic tension shapes ALFRED’s evolving role, highlighting the challenges of tailoring technology to diverse, sometimes conflicting human needs.",
+  "personas": [
+    "P-004",
+    "P-005",
+    "P-006",
+    "P-001"
+  ]
+}

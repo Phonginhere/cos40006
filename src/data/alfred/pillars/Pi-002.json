@@ -1,0 +1,12 @@
+{
+  "id": "Pi-002",
+  "name": "Pillar 2 - Personalized Social Inclusion",
+  "description": "ALFRED helps prevent social isolation by fostering engagement in social activities, recommending events based on user interests, and supporting communication with friends and family.",
+  "clustersList": [
+    {
+      "clusterId": "Pi-002-CL-01",
+      "name": "Personalized Social Inclusion",
+      "description": "This cluster covers non-functional needs for respectful, inclusive, and privacy-conscious social engagement. It includes support for moderated content, stigma-free communication, group bonding tools, and options for controlling the degree of visibility in public or semi-public environments."
+    }
+  ]
+}

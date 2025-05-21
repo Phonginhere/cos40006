@@ -1,0 +1,44 @@
+[
+  {
+    "taskID": "TASK-033",
+    "useCaseId": "UC-002",
+    "personaId": "P-003",
+    "taskDescription": "Offers to help Olivia adjust ALFRED's settings"
+  },
+  {
+    "taskID": "TASK-034",
+    "useCaseId": "UC-002",
+    "personaId": "P-003",
+    "taskDescription": "Attempts to lighten the mood during tense situations"
+  },
+  {
+    "taskID": "TASK-035",
+    "useCaseId": "UC-002",
+    "personaId": "P-003",
+    "taskDescription": "Encourages Olivia to express her preferences for ALFRED's interaction style"
+  },
+  {
+    "taskID": "TASK-213",
+    "useCaseId": "UC-014",
+    "personaId": "P-003",
+    "taskDescription": "Enters the room to assist Elena with the ALFRED app"
+  },
+  {
+    "taskID": "TASK-214",
+    "useCaseId": "UC-014",
+    "personaId": "P-003",
+    "taskDescription": "Attempts to ease tension between Elena and Mike during the check-in"
+  },
+  {
+    "taskID": "TASK-215",
+    "useCaseId": "UC-014",
+    "personaId": "P-003",
+    "taskDescription": "Suggests exploring interactive exercises to engage Elena"
+  },
+  {
+    "taskID": "TASK-216",
+    "useCaseId": "UC-014",
+    "personaId": "P-003",
+    "taskDescription": "Mediates the discussion about Elena's preferences and health management"
+  }
+]

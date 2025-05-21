@@ -1,0 +1,36 @@
+[
+  {
+    "conflictType": "Start-Forbid",
+    "conflictDescription": "User Story A wants ALFRED to offer help automatically when needed, but User Story B forbids health check-ins outside the home and only allows them when arranged by the user. These are opposite instructions on when and how ALFRED can offer help.",
+    "conflictId": "FCWI-061",
+    "personaAId": "P-002",
+    "personaBId": "P-005",
+    "userGroup": "Older Adults",
+    "userStoryAId": "US-057",
+    "userStoryBId": "US-093",
+    "userStoryASummary": "As an older person, I want ALFRED to offer help automatically when needed, so I can stay healthy without losing control.",
+    "userStoryBSummary": "As an older adult, I want health check-ins only at my home and arranged by me, so I feel safe and avoid hospitals.",
+    "cluster": "Support Postponement",
+    "generalResolutionType": "2. Update one and keep one remain the same",
+    "resolutionDescription": "User Story A is updated to include user consent and location limits for automatic help, aligning with User Story B that prioritizes user control and home-only check-ins.",
+    "newUserStoryASummary": "As an older person, I want ALFRED to offer help automatically at home with my permission, so I stay healthy and feel safe.",
+    "newUserStoryBSummary": "As an older adult, I want health check-ins only at my home and arranged by me, so I feel safe and avoid hospitals."
+  },
+  {
+    "conflictType": "Start-Forbid",
+    "conflictDescription": "User Story A asks ALFRED to give reminders anytime without user control, while User Story B asks to allow reminders only when the user says, forbidding automatic reminders. These are opposite expectations for reminder activation.",
+    "conflictId": "FCWI-077",
+    "personaAId": "P-002",
+    "personaBId": "P-005",
+    "userGroup": "Older Adults",
+    "userStoryAId": "US-062",
+    "userStoryBId": "US-098",
+    "userStoryASummary": "As an older adult, I want ALFRED to give me reminders and support anytime so it can help me fully, even if I cannot control the timing.",
+    "userStoryBSummary": "As an older adult, I want to turn on medication reminders only when I say, so I do not get unwanted alerts and keep full control.",
+    "cluster": "Reminder Control",
+    "generalResolutionType": "1. Update both user stories",
+    "resolutionDescription": "Both stories are updated to allow reminders with user control: reminders can be automatic but only when allowed by the user, balancing help and control.",
+    "newUserStoryASummary": "As an older adult, I want ALFRED to give me reminders automatically only when I allow, so I get help without losing control.",
+    "newUserStoryBSummary": "As an older adult, I want to enable medication reminders when I say, so I avoid unwanted alerts and keep control."
+  }
+]

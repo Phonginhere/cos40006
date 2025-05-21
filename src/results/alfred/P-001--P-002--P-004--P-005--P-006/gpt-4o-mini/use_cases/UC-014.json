@@ -1,0 +1,17 @@
+{
+  "id": "UC-014",
+  "useCaseType": "Check-in and Availability Negotiation",
+  "userGroups": [
+    "Older Adults"
+  ],
+  "pillars": [
+    "Pillar 1 - User-Driven Interaction Assistant",
+    "Pillar 3 - Effective & Personalized Care"
+  ],
+  "name": "Health Check-In Coordination",
+  "description": "Elena Rivera interacts with ALFRED for regular health check-ins and to negotiate availability for support. This ensures her health needs are met while fostering engagement and communication with her family and caregivers.",
+  "scenario": "Elena Rivera sat on her couch, tablet in hand, her brows knitted in concentration as she navigated the ALFRED app. “Why does it keep asking me about my health? I know what I need!” she muttered, feeling overwhelmed by the persistent notifications. She valued her independence and didn’t want to feel like she was being monitored. Just then, Mike Johnson, her nurse, appeared on the screen with a warm smile. “Elena, how’s your exercise routine going? We need to stay on track!” he said, his voice filled with genuine concern.\n\nElena’s frustration bubbled to the surface. “Mike, I don’t want you checking in on me like I’m a child. I want to choose what’s important for my health,” she replied sharply. Her irritation was palpable, and she felt her autonomy slipping away each time ALFRED chimed in.\n\nAt that moment, Sarah Thompson, her informal caregiver, entered the room. “Good morning, Elena! I’m here to help you with the app today,” she said, trying to ease the tension. Noticing Elena’s discomfort, Sarah added, “Let’s find some features that can actually make this fun. How about we explore some interactive exercises?”\n\nElena crossed her arms defiantly. “I don’t need to be entertained; I want to manage my own health. I don’t want unsolicited reminders cluttering my day,” she retorted, feeling increasingly pressured. Sarah understood the importance of motivation but felt caught between Elena’s desire for independence and the necessity of health management.\n\nMeanwhile, Daniel Chen, the developer behind ALFRED, monitored user feedback from his office. He noticed Elena’s struggle and felt a pang of responsibility. “I need to make this system more user-friendly,” he thought, realizing that balancing support with personal autonomy was crucial.\n\nMike, sensing the rising tension, interjected, “Elena, your health is my priority. I want to help you, but I need your cooperation. Can we at least keep reminders for your medication?” His urgency contrasted sharply with Elena’s need for control. “I’ll decide what notifications I want, Mike. I feel like I’m being forced into this,” she insisted, her tone firm.\n\nSarah stepped in, trying to mediate. “What if we enable just one feature that aligns with your interests? It could help without feeling overwhelming.” Elena paused for a moment, the suggestion sparking some interest. “Alright, but I want to control what it accesses,” she finally conceded, her voice softening slightly.\n\nAs they explored the app together, Elena felt a flicker of empowerment. She began to see the potential for helpfulness rather than intrusion. Mike and Sarah learned the importance of respecting her boundaries, while Daniel recognized that trust was key to making technology a genuine ally in her health journey. By the end of the session, Elena felt more in control, grateful for the collaborative effort that honored her needs while still encouraging her to stay active.",
+  "personas": [
+    "P-002"
+  ]
+}

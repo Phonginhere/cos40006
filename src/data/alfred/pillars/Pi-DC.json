@@ -1,0 +1,17 @@
+{
+  "id": "Pi-DC",
+  "name": "Developer Core",
+  "description": "These define foundational capabilities that support external developers and maintain the ALFRED ecosystem. It covers:\n\n- Management of apps and services via the ALFRED marketplace\n- Provision of APIs, documentation, and technical support for app developers\n- User feedback collection, app crash reporting, and performance analytics\n- Enabling app monetization, pricing models, and accounting\n- Ensuring new apps meet ALFRED's standards for usability, accessibility, and privacy",
+  "clustersList": [
+    {
+      "clusterId": "Pi-DC-CL-01",
+      "name": "API Integration & Development Support",
+      "description": "Combines requirements for developer interfaces and tooling. Encompasses clear, stable, and versioned APIs, comprehensive documentation, test environments, debugging support, and developer enablement features to ensure smooth integration and reliable extension of ALFRED functionalities."
+    },
+    {
+      "clusterId": "Pi-DC-CL-02",
+      "name": "Marketplace & Interface Experience",
+      "description": "Covers requirements related to ALFREDO marketplace infrastructure and UI design principles. Includes developer submission flows, searchability, app discoverability, and support for building non-intrusive, minimal interfaces tailored for caregivers and time-constrained users."
+    }
+  ]
+}

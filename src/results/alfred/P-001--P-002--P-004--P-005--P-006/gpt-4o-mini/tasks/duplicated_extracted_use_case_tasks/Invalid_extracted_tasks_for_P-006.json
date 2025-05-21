@@ -1,0 +1,44 @@
+[
+  {
+    "taskID": "TASK-045",
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Suggests customizing the app to reduce notifications"
+  },
+  {
+    "taskID": "TASK-101",
+    "useCaseId": "UC-007",
+    "personaId": "P-006",
+    "taskDescription": "Helps Olivia navigate the ALFRED app and settings"
+  },
+  {
+    "taskID": "TASK-103",
+    "useCaseId": "UC-007",
+    "personaId": "P-006",
+    "taskDescription": "Balances Olivia's need for privacy with necessary health notifications"
+  },
+  {
+    "taskID": "TASK-117",
+    "useCaseId": "UC-008",
+    "personaId": "P-006",
+    "taskDescription": "Suggests enabling reminders for Elena's medication"
+  },
+  {
+    "taskID": "TASK-139",
+    "useCaseId": "UC-009",
+    "personaId": "P-006",
+    "taskDescription": "Proposes keeping essential notifications like medication reminders"
+  },
+  {
+    "taskID": "TASK-173",
+    "useCaseId": "UC-011",
+    "personaId": "P-006",
+    "taskDescription": "Collaborates with Elena to adjust notification settings in ALFRED."
+  },
+  {
+    "taskID": "TASK-193",
+    "useCaseId": "UC-013",
+    "personaId": "P-006",
+    "taskDescription": "Suggests limiting notifications from ALFRED to reduce stress"
+  }
+]

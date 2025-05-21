@@ -1,0 +1,23 @@
+{
+  "id": "UC-006",
+  "useCaseType": "Trust & Privacy Negotiation",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Developers and App Creators",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Developer Core",
+    "General Requirements",
+    "Pillar 1 - User-Driven Interaction Assistant"
+  ],
+  "name": "Privacy Settings Negotiation",
+  "description": "This use case focuses on the negotiation of privacy settings between older adults and caregivers using the ALFRED system. It addresses the concerns of older adults regarding data sharing and personal information security while ensuring caregivers can effectively monitor and support their clients.",
+  "scenario": "Olivia, a 75-year-old retired social worker, sat in her cozy but cluttered living room, her brow furrowed in concentration as she adjusted the ALFRED app settings on her tablet. “I don’t want anyone else looking at my data,” she muttered. The privacy settings felt overwhelming, and the constant prompts from ALFRED made her anxious. She had spent years managing personal information in her career, and now, the thought of sharing her health data with anyone—even caregivers—felt like a breach of her hard-won independence.\n\nMeanwhile, Sarah Thompson, Olivia's informal caregiver, was juggling multiple clients, each with their unique needs. As she entered Olivia’s home, she was already thinking about the next check-in. “Good morning, Olivia! How about we review your health stats today?” she suggested, hoping to make the process smooth. But Olivia, still apprehensive about data sharing, replied firmly, “Only what I consent to, Sarah. I need to feel secure.”\n\nSarah sighed, trying to balance Olivia’s concerns with her duty to monitor her health. “I understand, but I need to ensure I can help you. Can we at least enable some notifications? It’ll make things easier for both of us.” The tension built as Olivia's resolve hardened, “No unsolicited messages, please. I prefer to keep things simple and formal.”\n\nIn the background, Daniel Chen, the developer of ALFRED, was reviewing the feedback from caregivers and users. He sensed the friction between privacy and usability. “I need to address these issues in the next update,” he thought, feeling the weight of responsibility. But he also knew that technology couldn’t replace the human element in care.\n\nAs Mike Johnson, a registered nurse, checked in via video call, he could sense the tension. “Sarah, is Olivia complying with the exercises I prescribed?” he asked, glancing at the clock, aware of his busy schedule. Olivia interjected, “I’d rather not do complicated exercises today. Can we focus on the features I want to use instead?” \n\nMike, frustrated, replied, “We need to prioritize your health, Olivia.” Sarah stepped in, “Maybe we can find a middle ground. How about a less intensive activity that still respects your wishes?” \n\nThe conversation highlighted their differing priorities—Olivia’s desire for control and security, Sarah’s need for effective monitoring, and Mike’s focus on health metrics. Eventually, they agreed to a compromise: a light exercise session using ALFRED’s guided features, tailored to Olivia’s comfort level. As they navigated the app together, Olivia felt a sense of empowerment, while Sarah and Mike learned the importance of respecting her boundaries.\n\nIn that moment, they found a balance, each contributing to Olivia’s care in a way that acknowledged her needs and concerns, showcasing the delicate interplay between technology and human connection in the caregiving process.",
+  "personas": [
+    "P-005",
+    "P-006",
+    "P-001",
+    "P-004"
+  ]
+}

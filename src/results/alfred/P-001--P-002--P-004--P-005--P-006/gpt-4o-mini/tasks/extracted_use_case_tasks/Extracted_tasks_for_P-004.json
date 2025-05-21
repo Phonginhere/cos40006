@@ -1,0 +1,158 @@
+[
+  {
+    "taskID": "TASK-030",
+    "useCaseId": "UC-002",
+    "personaId": "P-004",
+    "taskDescription": "Supports Olivia in managing her health without constant reminders"
+  },
+  {
+    "taskID": "TASK-031",
+    "useCaseId": "UC-002",
+    "personaId": "P-004",
+    "taskDescription": "Observes Olivia's reactions to ALFRED's communication style"
+  },
+  {
+    "taskID": "TASK-051",
+    "useCaseId": "UC-004",
+    "personaId": "P-004",
+    "taskDescription": "Checks in with Elena via video call to discuss her health plan"
+  },
+  {
+    "taskID": "TASK-052",
+    "useCaseId": "UC-004",
+    "personaId": "P-004",
+    "taskDescription": "Asks Elena about her exercise management during the call"
+  },
+  {
+    "taskID": "TASK-053",
+    "useCaseId": "UC-004",
+    "personaId": "P-004",
+    "taskDescription": "Tries to ensure that Elena adheres to her health plan"
+  },
+  {
+    "taskID": "TASK-054",
+    "useCaseId": "UC-004",
+    "personaId": "P-004",
+    "taskDescription": "Suggests enabling reminders for medication to support Elena"
+  },
+  {
+    "taskID": "TASK-055",
+    "useCaseId": "UC-004",
+    "personaId": "P-004",
+    "taskDescription": "Recognizes the need to balance support and Elena's autonomy"
+  },
+  {
+    "taskID": "TASK-097",
+    "useCaseId": "UC-006",
+    "personaId": "P-004",
+    "taskDescription": "Checks in with Olivia via video call to monitor her health."
+  },
+  {
+    "taskID": "TASK-098",
+    "useCaseId": "UC-006",
+    "personaId": "P-004",
+    "taskDescription": "Asks about Olivia's compliance with prescribed exercises."
+  },
+  {
+    "taskID": "TASK-099",
+    "useCaseId": "UC-006",
+    "personaId": "P-004",
+    "taskDescription": "Expresses frustration when Olivia resists certain activities."
+  },
+  {
+    "taskID": "TASK-100",
+    "useCaseId": "UC-006",
+    "personaId": "P-004",
+    "taskDescription": "Encourages a balance between health needs and Olivia's preferences."
+  },
+  {
+    "taskID": "TASK-121",
+    "useCaseId": "UC-008",
+    "personaId": "P-004",
+    "taskDescription": "Asks Elena about her progress with exercises"
+  },
+  {
+    "taskID": "TASK-122",
+    "useCaseId": "UC-008",
+    "personaId": "P-004",
+    "taskDescription": "Expresses urgency in monitoring Elena's health"
+  },
+  {
+    "taskID": "TASK-123",
+    "useCaseId": "UC-008",
+    "personaId": "P-004",
+    "taskDescription": "Tries to convince Elena to accept health reminders from ALFRED"
+  },
+  {
+    "taskID": "TASK-132",
+    "useCaseId": "UC-009",
+    "personaId": "P-004",
+    "taskDescription": "Checks in with Elena during video calls to discuss her health plan"
+  },
+  {
+    "taskID": "TASK-133",
+    "useCaseId": "UC-009",
+    "personaId": "P-004",
+    "taskDescription": "Encourages Elena to stick to her exercise routine"
+  },
+  {
+    "taskID": "TASK-134",
+    "useCaseId": "UC-009",
+    "personaId": "P-004",
+    "taskDescription": "Tries to reassure Elena about the monitoring process"
+  },
+  {
+    "taskID": "TASK-135",
+    "useCaseId": "UC-009",
+    "personaId": "P-004",
+    "taskDescription": "Listens to Elena's concerns about constant notifications"
+  },
+  {
+    "taskID": "TASK-136",
+    "useCaseId": "UC-009",
+    "personaId": "P-004",
+    "taskDescription": "Works with Sarah to find solutions that respect Elena's preferences"
+  },
+  {
+    "taskID": "TASK-209",
+    "useCaseId": "UC-014",
+    "personaId": "P-004",
+    "taskDescription": "Asks Elena about her exercise routine to encourage her health"
+  },
+  {
+    "taskID": "TASK-210",
+    "useCaseId": "UC-014",
+    "personaId": "P-004",
+    "taskDescription": "Attempts to reassure Elena about the importance of health management"
+  },
+  {
+    "taskID": "TASK-211",
+    "useCaseId": "UC-014",
+    "personaId": "P-004",
+    "taskDescription": "Requests cooperation from Elena for medication reminders"
+  },
+  {
+    "taskID": "TASK-212",
+    "useCaseId": "UC-014",
+    "personaId": "P-004",
+    "taskDescription": "Observes Elena’s reactions to understand her feelings about monitoring"
+  },
+  {
+    "taskID": "TASK-221",
+    "useCaseId": "UC-015",
+    "personaId": "P-004",
+    "taskDescription": "Encourages Elena to follow her exercise plan."
+  },
+  {
+    "taskID": "TASK-222",
+    "useCaseId": "UC-015",
+    "personaId": "P-004",
+    "taskDescription": "Suggests setting reminders only for medication."
+  },
+  {
+    "taskID": "TASK-223",
+    "useCaseId": "UC-015",
+    "personaId": "P-004",
+    "taskDescription": "Works with Elena to find a balance between reminders and her independence."
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "taskID": "TASK-001",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Checks Elena's health metrics using the ALFRED app"
+  },
+  {
+    "taskID": "TASK-002",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Manages reminders for multiple clients through ALFRED"
+  },
+  {
+    "taskID": "TASK-003",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Engages Elena in light games to encourage interaction"
+  },
+  {
+    "taskID": "TASK-004",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Requests adjustments to notifications based on Elena's feedback"
+  },
+  {
+    "taskID": "TASK-005",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Balances health activities with enjoyable tasks for Elena"
+  },
+  {
+    "taskID": "TASK-044",
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Arrives to support Elena in using the ALFRED app"
+  },
+  {
+    "taskID": "TASK-046",
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Guides Elena through the customization process"
+  },
+  {
+    "taskID": "TASK-047",
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Observes Elena's reactions to the app adjustments"
+  },
+  {
+    "taskID": "TASK-048",
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Reinforces Elena's autonomy by respecting her preferences"
+  },
+  {
+    "taskID": "TASK-049",
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Seeks to enhance trust in the caregiving relationship"
+  },
+  {
+    "taskID": "TASK-050",
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Recognizes the importance of balancing support and independence"
+  },
+  {
+    "taskID": "TASK-063",
+    "useCaseId": "UC-005",
+    "personaId": "P-006",
+    "taskDescription": "Suggests exploring new games to encourage Elena to exercise"
+  },
+  {
+    "taskID": "TASK-064",
+    "useCaseId": "UC-005",
+    "personaId": "P-006",
+    "taskDescription": "Monitors Elena's participation in therapy activities through ALFRED"
+  },
+  {
+    "taskID": "TASK-065",
+    "useCaseId": "UC-005",
+    "personaId": "P-006",
+    "taskDescription": "Attempts to balance support and respect for Elena's autonomy"
+  },
+  {
+    "taskID": "TASK-066",
+    "useCaseId": "UC-005",
+    "personaId": "P-006",
+    "taskDescription": "Communicates with other caregivers about Elena's progress"
+  },
+  {
+    "taskID": "TASK-067",
+    "useCaseId": "UC-005",
+    "personaId": "P-006",
+    "taskDescription": "Encourages Elena to try one game to see if it helps her mood"
+  },
+  {
+    "taskID": "TASK-088",
+    "useCaseId": "UC-006",
+    "personaId": "P-006",
+    "taskDescription": "Enters Olivia's home to check in on her health."
+  },
+  {
+    "taskID": "TASK-089",
+    "useCaseId": "UC-006",
+    "personaId": "P-006",
+    "taskDescription": "Suggests reviewing Olivia's health stats for better care."
+  },
+  {
+    "taskID": "TASK-090",
+    "useCaseId": "UC-006",
+    "personaId": "P-006",
+    "taskDescription": "Tries to negotiate enabling notifications for easier communication."
+  },
+  {
+    "taskID": "TASK-091",
+    "useCaseId": "UC-006",
+    "personaId": "P-006",
+    "taskDescription": "Balances Olivia's privacy concerns with the need for monitoring."
+  },
+  {
+    "taskID": "TASK-092",
+    "useCaseId": "UC-006",
+    "personaId": "P-006",
+    "taskDescription": "Aims to find a compromise that respects Olivia's wishes."
+  },
+  {
+    "taskID": "TASK-102",
+    "useCaseId": "UC-007",
+    "personaId": "P-006",
+    "taskDescription": "Suggests enabling features that could assist with Olivia's health"
+  },
+  {
+    "taskID": "TASK-104",
+    "useCaseId": "UC-007",
+    "personaId": "P-006",
+    "taskDescription": "Explores app options with Olivia to find a suitable solution"
+  },
+  {
+    "taskID": "TASK-105",
+    "useCaseId": "UC-007",
+    "personaId": "P-006",
+    "taskDescription": "Listens to Olivia's concerns about data sharing and privacy"
+  },
+  {
+    "taskID": "TASK-116",
+    "useCaseId": "UC-008",
+    "personaId": "P-006",
+    "taskDescription": "Helps Elena navigate the ALFRED app during a video call"
+  },
+  {
+    "taskID": "TASK-118",
+    "useCaseId": "UC-008",
+    "personaId": "P-006",
+    "taskDescription": "Tries to ease tension between Elena and Mike"
+  },
+  {
+    "taskID": "TASK-119",
+    "useCaseId": "UC-008",
+    "personaId": "P-006",
+    "taskDescription": "Discusses the importance of monitoring health with Elena"
+  },
+  {
+    "taskID": "TASK-137",
+    "useCaseId": "UC-009",
+    "personaId": "P-006",
+    "taskDescription": "Enters the room to support Elena with the ALFRED app"
+  },
+  {
+    "taskID": "TASK-138",
+    "useCaseId": "UC-009",
+    "personaId": "P-006",
+    "taskDescription": "Suggests looking at the app together to ease Elena's frustration"
+  },
+  {
+    "taskID": "TASK-140",
+    "useCaseId": "UC-009",
+    "personaId": "P-006",
+    "taskDescription": "Seeks to find common ground between Elena and Mike"
+  },
+  {
+    "taskID": "TASK-141",
+    "useCaseId": "UC-009",
+    "personaId": "P-006",
+    "taskDescription": "Respects Elena's need for control over shared information"
+  },
+  {
+    "taskID": "TASK-169",
+    "useCaseId": "UC-011",
+    "personaId": "P-006",
+    "taskDescription": "Enters Elena's room to encourage her to try new exercises."
+  },
+  {
+    "taskID": "TASK-170",
+    "useCaseId": "UC-011",
+    "personaId": "P-006",
+    "taskDescription": "Scrolls through the ALFRED app for engaging activities."
+  },
+  {
+    "taskID": "TASK-171",
+    "useCaseId": "UC-011",
+    "personaId": "P-006",
+    "taskDescription": "Suggests playing a game to make exercise more enjoyable."
+  },
+  {
+    "taskID": "TASK-172",
+    "useCaseId": "UC-011",
+    "personaId": "P-006",
+    "taskDescription": "Explains how games can help with movement and social connection."
+  },
+  {
+    "taskID": "TASK-190",
+    "useCaseId": "UC-013",
+    "personaId": "P-006",
+    "taskDescription": "Enters the room to greet Elena and suggest fun exercises"
+  },
+  {
+    "taskID": "TASK-191",
+    "useCaseId": "UC-013",
+    "personaId": "P-006",
+    "taskDescription": "Listens to Elena's concerns about feeling pressured by reminders"
+  },
+  {
+    "taskID": "TASK-192",
+    "useCaseId": "UC-013",
+    "personaId": "P-006",
+    "taskDescription": "Proposes to explore one app that aligns with Elena's interests"
+  },
+  {
+    "taskID": "TASK-194",
+    "useCaseId": "UC-013",
+    "personaId": "P-006",
+    "taskDescription": "Encourages Elena to choose an interactive game for exercise"
+  },
+  {
+    "taskID": "TASK-231",
+    "useCaseId": "UC-015",
+    "personaId": "P-006",
+    "taskDescription": "Supports Elena in customizing her notification preferences."
+  },
+  {
+    "taskID": "TASK-232",
+    "useCaseId": "UC-015",
+    "personaId": "P-006",
+    "taskDescription": "Recognizes Elena's need for autonomy in her health management."
+  },
+  {
+    "taskID": "TASK-233",
+    "useCaseId": "UC-015",
+    "personaId": "P-006",
+    "taskDescription": "Encourages a positive interaction with the ALFRED app."
+  }
+]

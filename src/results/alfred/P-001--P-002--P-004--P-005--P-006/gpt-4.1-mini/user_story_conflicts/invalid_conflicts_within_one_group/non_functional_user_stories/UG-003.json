@@ -1,0 +1,29 @@
+[
+  {
+    "conflictType": "Mutually Exclusive",
+    "conflictDescription": "The first story requires ALFRED to listen only when the user activates push-to-talk, while the second story requires ALFRED to listen continuously without user action. These two behaviors cannot happen at the same time.",
+    "conflictingNfrPairs": [
+      [
+        "Push-to-talk works only when the user activates it",
+        "ALFRED is always ready to respond to user commands"
+      ],
+      [
+        "ALFRED does not listen without push-to-talk activation",
+        "ALFRED stays active throughout the day without user action"
+      ],
+      [
+        "User feels safe and in control of ALFRED's listening",
+        "ALFRED provides continuous support without delays"
+      ]
+    ],
+    "conflictId": "NFCWI-001",
+    "personaAId": "P-005",
+    "personaBId": "P-002",
+    "userGroup": "Older Adults",
+    "userStoryAId": "US-092",
+    "userStoryBId": "US-036",
+    "userStoryASummary": "As an older adult, I want ALFRED to listen only when I activate push-to-talk, so I feel safe and in control.",
+    "userStoryBSummary": "As an older adult, I want ALFRED to be ready to respond without action, when I enable continuous listening, so I feel supported easily.",
+    "cluster": "User-Driven Interaction Assistant"
+  }
+]

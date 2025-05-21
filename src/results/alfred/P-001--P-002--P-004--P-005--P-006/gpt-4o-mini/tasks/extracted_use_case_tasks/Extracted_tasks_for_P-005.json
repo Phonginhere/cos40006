@@ -1,0 +1,266 @@
+[
+  {
+    "taskID": "TASK-016",
+    "useCaseId": "UC-001",
+    "personaId": "P-005",
+    "taskDescription": "Checks in on Elena's health during video calls"
+  },
+  {
+    "taskID": "TASK-017",
+    "useCaseId": "UC-001",
+    "personaId": "P-005",
+    "taskDescription": "Instructs Sarah to focus on Elena's prescribed exercises"
+  },
+  {
+    "taskID": "TASK-018",
+    "useCaseId": "UC-001",
+    "personaId": "P-005",
+    "taskDescription": "Expresses urgency regarding Elena's health metrics"
+  },
+  {
+    "taskID": "TASK-019",
+    "useCaseId": "UC-001",
+    "personaId": "P-005",
+    "taskDescription": "Provides support and guidance to Sarah about Elena's care"
+  },
+  {
+    "taskID": "TASK-020",
+    "useCaseId": "UC-001",
+    "personaId": "P-005",
+    "taskDescription": "Negotiates with Sarah and Elena about combining fun and health activities"
+  },
+  {
+    "taskID": "TASK-023",
+    "useCaseId": "UC-002",
+    "personaId": "P-005",
+    "taskDescription": "Asks for control over when ALFRED prompts for check-ins"
+  },
+  {
+    "taskID": "TASK-024",
+    "useCaseId": "UC-002",
+    "personaId": "P-005",
+    "taskDescription": "Adjusts the frequency of notifications received from ALFRED"
+  },
+  {
+    "taskID": "TASK-025",
+    "useCaseId": "UC-002",
+    "personaId": "P-005",
+    "taskDescription": "Collaborates with Sarah to change ALFRED's settings"
+  },
+  {
+    "taskID": "TASK-026",
+    "useCaseId": "UC-002",
+    "personaId": "P-005",
+    "taskDescription": "Communicates her privacy concerns about data sharing"
+  },
+  {
+    "taskID": "TASK-027",
+    "useCaseId": "UC-002",
+    "personaId": "P-005",
+    "taskDescription": "Feels a sense of empowerment after customizing ALFRED's interactions"
+  },
+  {
+    "taskID": "TASK-028",
+    "useCaseId": "UC-002",
+    "personaId": "P-005",
+    "taskDescription": "Responds positively to the collaborative effort in setting preferences"
+  },
+  {
+    "taskID": "TASK-073",
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Participates in discussions about Elena's therapy options"
+  },
+  {
+    "taskID": "TASK-074",
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Supports Elena by suggesting activities that align with her interests"
+  },
+  {
+    "taskID": "TASK-075",
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Encourages social engagement through ALFRED's features"
+  },
+  {
+    "taskID": "TASK-076",
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Listens to Elena's concerns about feeling monitored"
+  },
+  {
+    "taskID": "TASK-077",
+    "useCaseId": "UC-005",
+    "personaId": "P-005",
+    "taskDescription": "Collaborates with Sarah and Mike to find a suitable app for Elena"
+  },
+  {
+    "taskID": "TASK-083",
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Adjusts the privacy settings on the ALFRED app."
+  },
+  {
+    "taskID": "TASK-085",
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Requests only specific data to be shared with her caregiver."
+  },
+  {
+    "taskID": "TASK-086",
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Feels anxious about the constant prompts regarding data sharing."
+  },
+  {
+    "taskID": "TASK-087",
+    "useCaseId": "UC-006",
+    "personaId": "P-005",
+    "taskDescription": "Seeks to maintain her independence by controlling data access."
+  },
+  {
+    "taskID": "TASK-111",
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Expresses discomfort with constant app notifications"
+  },
+  {
+    "taskID": "TASK-115",
+    "useCaseId": "UC-007",
+    "personaId": "P-005",
+    "taskDescription": "Feels empowered when able to select app functionalities that suit her needs"
+  },
+  {
+    "taskID": "TASK-128",
+    "useCaseId": "UC-008",
+    "personaId": "P-005",
+    "taskDescription": "Offers support to Elena in using the ALFRED app"
+  },
+  {
+    "taskID": "TASK-129",
+    "useCaseId": "UC-008",
+    "personaId": "P-005",
+    "taskDescription": "Encourages open communication between Elena and her caregivers"
+  },
+  {
+    "taskID": "TASK-130",
+    "useCaseId": "UC-008",
+    "personaId": "P-005",
+    "taskDescription": "Suggests finding a compromise for Elena's notifications"
+  },
+  {
+    "taskID": "TASK-131",
+    "useCaseId": "UC-008",
+    "personaId": "P-005",
+    "taskDescription": "Aims to empower Elena by respecting her boundaries"
+  },
+  {
+    "taskID": "TASK-147",
+    "useCaseId": "UC-009",
+    "personaId": "P-005",
+    "taskDescription": "Offers emotional support to Elena during her interaction with Mike"
+  },
+  {
+    "taskID": "TASK-148",
+    "useCaseId": "UC-009",
+    "personaId": "P-005",
+    "taskDescription": "Encourages Elena to communicate her needs clearly"
+  },
+  {
+    "taskID": "TASK-149",
+    "useCaseId": "UC-009",
+    "personaId": "P-005",
+    "taskDescription": "Advocates for Elena's autonomy in the use of the ALFRED app"
+  },
+  {
+    "taskID": "TASK-150",
+    "useCaseId": "UC-009",
+    "personaId": "P-005",
+    "taskDescription": "Reinforces the importance of emotional connections in care"
+  },
+  {
+    "taskID": "TASK-151",
+    "useCaseId": "UC-009",
+    "personaId": "P-005",
+    "taskDescription": "Promotes a collaborative approach to using technology in her care"
+  },
+  {
+    "taskID": "TASK-152",
+    "useCaseId": "UC-010",
+    "personaId": "P-005",
+    "taskDescription": "Expresses frustration about needing to approve every app installation"
+  },
+  {
+    "taskID": "TASK-153",
+    "useCaseId": "UC-010",
+    "personaId": "P-005",
+    "taskDescription": "Requests no unsolicited notifications from the system"
+  },
+  {
+    "taskID": "TASK-154",
+    "useCaseId": "UC-010",
+    "personaId": "P-005",
+    "taskDescription": "Insists on controlling which data apps can access"
+  },
+  {
+    "taskID": "TASK-156",
+    "useCaseId": "UC-010",
+    "personaId": "P-005",
+    "taskDescription": "Relents to consider downloading one app if she can manage the settings"
+  },
+  {
+    "taskID": "TASK-179",
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Requests control over what data gets shared with caregivers"
+  },
+  {
+    "taskID": "TASK-180",
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Agrees to allow reminders for medication to manage health better"
+  },
+  {
+    "taskID": "TASK-181",
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Explores the ALFRED app with the help of her caregiver"
+  },
+  {
+    "taskID": "TASK-182",
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Seeks reassurance about privacy and data sharing"
+  },
+  {
+    "taskID": "TASK-183",
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Wants to feel empowered in her health decisions"
+  },
+  {
+    "taskID": "TASK-184",
+    "useCaseId": "UC-012",
+    "personaId": "P-005",
+    "taskDescription": "Communicates her boundaries about unsolicited messages"
+  },
+  {
+    "taskID": "TASK-217",
+    "useCaseId": "UC-014",
+    "personaId": "P-005",
+    "taskDescription": "Monitors user feedback regarding the ALFRED app"
+  },
+  {
+    "taskID": "TASK-218",
+    "useCaseId": "UC-014",
+    "personaId": "P-005",
+    "taskDescription": "Reflects on the need to make the system more user-friendly"
+  },
+  {
+    "taskID": "TASK-219",
+    "useCaseId": "UC-014",
+    "personaId": "P-005",
+    "taskDescription": "Considers how to balance support and personal autonomy in the app"
+  }
+]

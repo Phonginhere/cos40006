@@ -1,0 +1,170 @@
+[
+  {
+    "taskID": "TASK-006",
+    "useCaseId": "UC-001",
+    "personaId": "P-001",
+    "taskDescription": "Receives feedback from caregivers about the ALFRED system"
+  },
+  {
+    "taskID": "TASK-007",
+    "useCaseId": "UC-001",
+    "personaId": "P-001",
+    "taskDescription": "Works on improving the user experience for caregivers and clients"
+  },
+  {
+    "taskID": "TASK-009",
+    "useCaseId": "UC-001",
+    "personaId": "P-001",
+    "taskDescription": "Develops new features based on user needs and preferences"
+  },
+  {
+    "taskID": "TASK-010",
+    "useCaseId": "UC-001",
+    "personaId": "P-001",
+    "taskDescription": "Tests the app for usability and accessibility standards"
+  },
+  {
+    "taskID": "TASK-078",
+    "useCaseId": "UC-005",
+    "personaId": "P-001",
+    "taskDescription": "Reviews user feedback to improve the ALFRED system"
+  },
+  {
+    "taskID": "TASK-079",
+    "useCaseId": "UC-005",
+    "personaId": "P-001",
+    "taskDescription": "Observes interactions of users like Elena for insights"
+  },
+  {
+    "taskID": "TASK-081",
+    "useCaseId": "UC-005",
+    "personaId": "P-001",
+    "taskDescription": "Aims to enhance user trust through better design"
+  },
+  {
+    "taskID": "TASK-082",
+    "useCaseId": "UC-005",
+    "personaId": "P-001",
+    "taskDescription": "Documents issues related to users feeling overwhelmed by notifications"
+  },
+  {
+    "taskID": "TASK-094",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Identifies issues between privacy and usability in the system."
+  },
+  {
+    "taskID": "TASK-095",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Plans to address privacy concerns in the next software update."
+  },
+  {
+    "taskID": "TASK-096",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Considers how technology can enhance human care without replacing it."
+  },
+  {
+    "taskID": "TASK-107",
+    "useCaseId": "UC-007",
+    "personaId": "P-001",
+    "taskDescription": "Observes Olivia's interactions to identify pain points"
+  },
+  {
+    "taskID": "TASK-108",
+    "useCaseId": "UC-007",
+    "personaId": "P-001",
+    "taskDescription": "Considers simplifying the permissions process for users"
+  },
+  {
+    "taskID": "TASK-109",
+    "useCaseId": "UC-007",
+    "personaId": "P-001",
+    "taskDescription": "Thinks about how to enhance user trust in data management"
+  },
+  {
+    "taskID": "TASK-110",
+    "useCaseId": "UC-007",
+    "personaId": "P-001",
+    "taskDescription": "Develops features that prioritize user privacy while ensuring functionality"
+  },
+  {
+    "taskID": "TASK-158",
+    "useCaseId": "UC-010",
+    "personaId": "P-001",
+    "taskDescription": "Reviews user feedback to improve app installation process"
+  },
+  {
+    "taskID": "TASK-159",
+    "useCaseId": "UC-010",
+    "personaId": "P-001",
+    "taskDescription": "Considers creating a feature for individual notification approval"
+  },
+  {
+    "taskID": "TASK-160",
+    "useCaseId": "UC-010",
+    "personaId": "P-001",
+    "taskDescription": "Aims to simplify the app installation experience for users"
+  },
+  {
+    "taskID": "TASK-161",
+    "useCaseId": "UC-010",
+    "personaId": "P-001",
+    "taskDescription": "Tries to balance security with usability in app development"
+  },
+  {
+    "taskID": "TASK-162",
+    "useCaseId": "UC-010",
+    "personaId": "P-001",
+    "taskDescription": "Watches user interactions through system analytics to gather insights"
+  },
+  {
+    "taskID": "TASK-175",
+    "useCaseId": "UC-011",
+    "personaId": "P-001",
+    "taskDescription": "Considers adding customizable notification settings based on user preferences."
+  },
+  {
+    "taskID": "TASK-176",
+    "useCaseId": "UC-011",
+    "personaId": "P-001",
+    "taskDescription": "Notes the need for a balance between guidance and user autonomy."
+  },
+  {
+    "taskID": "TASK-177",
+    "useCaseId": "UC-011",
+    "personaId": "P-001",
+    "taskDescription": "Tracks the performance of the ALFRED app to enhance user experience."
+  },
+  {
+    "taskID": "TASK-186",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Notes Olivia's reluctance towards sharing data"
+  },
+  {
+    "taskID": "TASK-187",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Considers simplifying the permissions process for better user experience"
+  },
+  {
+    "taskID": "TASK-188",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Reflects on the importance of trust and human connection in technology"
+  },
+  {
+    "taskID": "TASK-189",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Aims to develop features that enhance user comfort with the system"
+  },
+  {
+    "taskID": "TASK-230",
+    "useCaseId": "UC-015",
+    "personaId": "P-001",
+    "taskDescription": "Aims to make the application more user-friendly for older adults."
+  }
+]

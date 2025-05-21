@@ -1,0 +1,20 @@
+{
+  "id": "UC-012",
+  "useCaseType": "Onboarding & Initial Setup",
+  "userGroups": [
+    "Developers and App Creators",
+    "Older Adults"
+  ],
+  "pillars": [
+    "General Requirements",
+    "Pillar 1 - User-Driven Interaction Assistant",
+    "Pillar 2 - Personalized Social Inclusion"
+  ],
+  "name": "Privacy-Focused Onboarding Setup",
+  "description": "This use case addresses the onboarding and initial setup process tailored for privacy-conscious older adults like Olivia, ensuring strict control over data sharing, limited app installations, and formal, user-initiated interactions, while supporting developers in implementing secure and accessible configurations.",
+  "scenario": "Olivia sits quietly in her modest suburban home, her posture tense as she clutches the ALFRED device. Technology has always felt like a maze to her, and the thought of surrendering control over her private life to an assistant unsettles her deeply. When ALFRED awaits her command, she responds only when necessary, activating the push-to-talk function with deliberate care. Today, she speaks firmly yet politely, instructing ALFRED to block any new app installations and to suppress the usual flood of notifications, especially those urging physical exercises or social invitations. Olivia is resolute: no unsolicited alerts, no data sharing beyond her explicit consent, and certainly no casual chats or informal messaging. Her interactions with ALFRED remain formal and concise, mirroring her desire to keep communications strictly professional—even with family.\n\nMeanwhile, in his rural home office, Daniel Chen pores over the latest user data and system logs. His developer instincts urge him to enhance ALFRED’s capabilities by introducing automated reminders and proactive health monitoring features. Yet, he recognizes Olivia’s stringent privacy settings as a formidable barrier. To Daniel, the system’s strict enforcement of user preferences conflicts with the imperative to ensure safety and clinical efficacy. He debates internally whether to override some user controls for critical functions but hesitates, knowing that pushing too hard could alienate privacy-conscious users like Olivia. Despite his conservative approach to app development and insistence on delivering challenging simulations, Daniel finds himself constrained by the system’s need to respect Olivia’s formal, limited interactions and blocked app installations.\n\nBack in Olivia’s living room, ALFRED waits patiently as she schedules her next nurse visit. She insists on arranging check-ins only on her terms, preferring offline, at-home appointments rather than hospital calls or video sessions. She dismisses ALFRED’s tentative suggestions for cognitive games or social engagements with a curt “No, thank you,” unwilling to engage in anything that feels intrusive or overly demanding. Olivia’s distrust extends even to healthcare providers beyond her official nurse, whom she expects to be available at all times yet refuses to grant broader access to her data.\n\nThe tension between Olivia’s guarded autonomy and Daniel’s developer-driven push for comprehensive monitoring creates a palpable divide. ALFRED becomes a silent mediator, carefully honoring Olivia’s preferences while Daniel wrestles with the limitations these impose on system innovation and care efficiency. Olivia’s cautious, formal use of ALFRED contrasts sharply with Daniel’s vision of a proactive, integrated assistant—highlighting the delicate balance between a user’s need for control and the developer’s pursuit of technological advancement.",
+  "personas": [
+    "P-005",
+    "P-001"
+  ]
+}

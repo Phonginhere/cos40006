@@ -1,0 +1,24 @@
+{
+  "id": "UC-011",
+  "useCaseType": "Developer Tools / Integration",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Developers and App Creators",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Developer Core",
+    "General Requirements",
+    "Pillar 2 - Personalized Social Inclusion",
+    "Pillar 3 - Effective & Personalized Care",
+    "Pillar 4 - Physical & Cognitive Impairments Prevention"
+  ],
+  "name": "Forced Integration and Compliance Enforcement",
+  "description": "This use case describes how developers implement strict integration protocols within ALFRED to enforce mandatory app installations, data collection, and caregiver notifications, while balancing the needs of busy medical staff and tech-curious older adults. It addresses the tension between user autonomy and system-driven control in healthcare support.",
+  "scenario": "Elena Rivera sits comfortably in her urban apartment, excitedly exploring the latest update on her ALFRED device. True to her curious nature, she eagerly listens as ALFRED explains in detail the new health apps that have been automatically installed, including a set of challenging physical and cognitive exercises. She appreciates the system’s proactive voice reminders and doesn’t shy away from the hard simulations, feeling motivated rather than annoyed. When ALFRED activates a spontaneous notification urging her to start a demanding workout, Elena accepts without hesitation, embracing the push to improve her health. She even enjoys the occasional spontaneous chat function that connects her with other users, seeing it as a way to reduce loneliness and expand her social circle.\n\nMeanwhile, at the metropolitan hospital, Mike Johnson logs into ALFRED during a busy shift. He immediately notices the flood of notifications from his patients, including Elena’s frequent exercise confirmations and sensor readings. Despite his preference to block non-critical alerts during work hours, the system’s forced integration protocols have overridden these settings, pushing vital and non-vital notifications alike. Mike feels torn: on one hand, he values the steady stream of clinical data and automated alerts that help him monitor patient health remotely, especially when his time with patients is limited. On the other, he finds the incessant notifications distracting and intrusive, conflicting with his need to focus on urgent cases without interruption. He grimaces when ALFRED initiates a forced video check-in with Elena, knowing she welcomes these online sessions but wishing the system allowed him more control to schedule them selectively. Mike’s clinical mindset clashes with the system’s insistence on constant engagement, leaving him frustrated by the lack of configurability.\n\nFrom his rural home office, Daniel Chen reviews the system logs and user feedback. His developer philosophy drives him to enforce strict integration rules: apps must be installed automatically, data collected continuously, and caregivers notified without exception. He is unapologetic about overriding user preferences, convinced that this approach guarantees safety and compliance. Daniel programs ALFRED to activate unsolicited voice prompts for users like Elena, regardless of their willingness, believing that persistent reminders lead to better health outcomes. He also hardcodes notification policies that block caregivers like Mike from muting alerts during work hours, reasoning that any missed data could be critical. While Daniel appreciates Elena’s enthusiasm for technology, he dismisses her autonomy in favor of rigid workflows. He rarely considers the emotional or practical burdens his policies impose, focusing instead on the technical challenge of ensuring system-wide compliance.\n\nBack in Elena’s apartment, the ALFRED device chimes again, urging her to begin another rigorous exercise session. Elena acknowledges the prompt happily, but a brief flicker of doubt crosses her mind about the system’s insistence on forcing these activities—even when she might want to rest. She feels a strange mix of empowerment and loss of control. Meanwhile, Mike silences his phone discreetly, annoyed by yet another non-critical alert flooding his screen, but he knows he cannot disable these without risking clinical oversight. The tension between Elena’s eager acceptance, Mike’s professional frustration, and Daniel’s uncompromising enforcement radiates clearly through their interactions with ALFRED, revealing the complex balancing act between user autonomy, caregiver efficiency, and developer mandates within the system.",
+  "personas": [
+    "P-004",
+    "P-001",
+    "P-002"
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "conflictType": "Partial",
+    "conflictDescription": "User Story A allows sharing data in shared homes respecting family wishes, while User Story B requires no data sharing without explicit user permission, including with medical staff. These rules partially conflict because User Story A expects some sharing based on family wishes, and User Story B forbids sharing without clear consent.",
+    "conflictingNfrPairs": [
+      [
+        "Ensure ALFRED respects family privacy wishes when sharing data or alerts",
+        "Do not share any user data without explicit user permission"
+      ],
+      [
+        "Ensure ALFRED respects family privacy wishes when sharing data or alerts",
+        "Require clear user consent before sharing data with medical staff"
+      ]
+    ],
+    "conflictId": "NFCAT-002",
+    "personaAId": "P-006",
+    "personaBId": "P-005",
+    "userGroupA": "Caregivers and Medical Staff",
+    "userGroupB": "Older Adults",
+    "userStoryAId": "US-107",
+    "userStoryBId": "US-100",
+    "userStoryASummary": "As an informal caregiver, I want ALFRED to protect client privacy in shared homes so I can keep sensitive information safe and respect family wishes.",
+    "userStoryBSummary": "As an older person, I want ALFRED to never share my data with anyone, including medical staff, without my clear permission, so I feel safe and keep my privacy.",
+    "cluster": "Security, Privacy & Reliability"
+  },
+  {
+    "conflictType": "Partial",
+    "conflictDescription": "User Story A allows caregivers to manage data sharing settings in shared homes, which may include sharing data with others, while User Story B requires no data sharing without explicit permission from the older adult, including sharing with medical staff. These goals can conflict when caregivers want to share data but the older adult denies permission.",
+    "conflictingNfrPairs": [
+      [
+        "Enable caregiver to manage data sharing settings to protect privacy in shared homes",
+        "Do not share any user data without explicit user permission"
+      ],
+      [
+        "Enable caregiver to manage data sharing settings to protect privacy in shared homes",
+        "Require clear user consent before sharing data with medical staff"
+      ]
+    ],
+    "conflictId": "NFCAT-003",
+    "personaAId": "P-006",
+    "personaBId": "P-005",
+    "userGroupA": "Caregivers and Medical Staff",
+    "userGroupB": "Older Adults",
+    "userStoryAId": "US-117",
+    "userStoryBId": "US-100",
+    "userStoryASummary": "As an informal caregiver, I want to control notifications and data sharing in shared homes to protect privacy and avoid bothering others.",
+    "userStoryBSummary": "As an older person, I want ALFRED to never share my data with anyone, including medical staff, without my clear permission, so I feel safe and keep my privacy.",
+    "cluster": "Security, Privacy & Reliability"
+  }
+]

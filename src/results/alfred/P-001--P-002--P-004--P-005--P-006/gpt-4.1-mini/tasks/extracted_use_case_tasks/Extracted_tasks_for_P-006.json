@@ -1,0 +1,134 @@
+[
+  {
+    "taskID": "TASK-018",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Manages notifications from ALFRED for multiple clients"
+  },
+  {
+    "taskID": "TASK-019",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Encourages emotional engagement through interactive games"
+  },
+  {
+    "taskID": "TASK-020",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Manually decides what data to log by disabling automatic logging"
+  },
+  {
+    "taskID": "TASK-021",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Respects clients' privacy boundaries and preferences"
+  },
+  {
+    "taskID": "TASK-022",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Balances care needs with respect for user autonomy"
+  },
+  {
+    "taskID": "TASK-023",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Mediates between privacy needs and clinical demands"
+  },
+  {
+    "taskID": "TASK-024",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Uses detailed patient guidance provided by ALFRED"
+  },
+  {
+    "taskID": "TASK-025",
+    "useCaseId": "UC-001",
+    "personaId": "P-006",
+    "taskDescription": "Plays games with clients to build rapport and engagement"
+  },
+  {
+    "taskID": "TASK-051",
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Receive real-time health data updates for elderly clients"
+  },
+  {
+    "taskID": "TASK-052",
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Schedule gentle reminders for medication for clients"
+  },
+  {
+    "taskID": "TASK-053",
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Plan video calls to encourage clients' participation in activities"
+  },
+  {
+    "taskID": "TASK-054",
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Limit notifications to avoid overwhelming clients and herself"
+  },
+  {
+    "taskID": "TASK-055",
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Maintain control over what health data is shared from clients"
+  },
+  {
+    "taskID": "TASK-056",
+    "useCaseId": "UC-003",
+    "personaId": "P-006",
+    "taskDescription": "Balance care coordination with respect for clients' privacy"
+  },
+  {
+    "taskID": "TASK-101",
+    "useCaseId": "UC-004",
+    "personaId": "P-006",
+    "taskDescription": "Stay responsive to alerts at any time, including nights"
+  },
+  {
+    "taskID": "TASK-102",
+    "useCaseId": "UC-004",
+    "personaId": "P-006",
+    "taskDescription": "Play games and encourage social chats and community event participation with clients"
+  },
+  {
+    "taskID": "TASK-103",
+    "useCaseId": "UC-004",
+    "personaId": "P-006",
+    "taskDescription": "Respect client consent before sharing data with others"
+  },
+  {
+    "taskID": "TASK-104",
+    "useCaseId": "UC-004",
+    "personaId": "P-006",
+    "taskDescription": "Seek clear boundaries for data sharing and notifications"
+  },
+  {
+    "taskID": "TASK-107",
+    "useCaseId": "UC-004",
+    "personaId": "P-006",
+    "taskDescription": "Balance responsiveness with personal boundaries in caregiving"
+  },
+  {
+    "taskID": "TASK-108",
+    "useCaseId": "UC-004",
+    "personaId": "P-006",
+    "taskDescription": "Embrace emotional and social aspects of care through ALFRED"
+  },
+  {
+    "taskID": "TASK-123",
+    "useCaseId": "UC-005",
+    "personaId": "P-006",
+    "taskDescription": "Invite clients to scheduled video calls for shared game sessions"
+  },
+  {
+    "taskID": "TASK-126",
+    "useCaseId": "UC-005",
+    "personaId": "P-006",
+    "taskDescription": "Use ALFRED’s platform to monitor multiple clients’ progress"
+  }
+]

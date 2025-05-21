@@ -1,0 +1,93 @@
+[
+  {
+    "id": "US-141",
+    "title": "",
+    "persona": "P-003",
+    "user_group": "Unknown",
+    "task": "Offers to help Olivia adjust ALFRED's settings",
+    "use_case": "UC-002",
+    "priority": null,
+    "summary": "",
+    "pillar": null,
+    "type": "",
+    "cluster": null
+  },
+  {
+    "id": "US-142",
+    "title": "",
+    "persona": "P-003",
+    "user_group": "Unknown",
+    "task": "Attempts to lighten the mood during tense situations",
+    "use_case": "UC-002",
+    "priority": null,
+    "summary": "",
+    "pillar": null,
+    "type": "",
+    "cluster": null
+  },
+  {
+    "id": "US-143",
+    "title": "",
+    "persona": "P-003",
+    "user_group": "Unknown",
+    "task": "Encourages Olivia to express her preferences for ALFRED's interaction style",
+    "use_case": "UC-002",
+    "priority": null,
+    "summary": "",
+    "pillar": null,
+    "type": "",
+    "cluster": null
+  },
+  {
+    "id": "US-144",
+    "title": "",
+    "persona": "P-003",
+    "user_group": "Unknown",
+    "task": "Enters the room to assist Elena with the ALFRED app",
+    "use_case": "UC-014",
+    "priority": null,
+    "summary": "",
+    "pillar": null,
+    "type": "",
+    "cluster": null
+  },
+  {
+    "id": "US-145",
+    "title": "",
+    "persona": "P-003",
+    "user_group": "Unknown",
+    "task": "Attempts to ease tension between Elena and Mike during the check-in",
+    "use_case": "UC-014",
+    "priority": null,
+    "summary": "",
+    "pillar": null,
+    "type": "",
+    "cluster": null
+  },
+  {
+    "id": "US-146",
+    "title": "",
+    "persona": "P-003",
+    "user_group": "Unknown",
+    "task": "Suggests exploring interactive exercises to engage Elena",
+    "use_case": "UC-014",
+    "priority": null,
+    "summary": "",
+    "pillar": null,
+    "type": "",
+    "cluster": null
+  },
+  {
+    "id": "US-147",
+    "title": "",
+    "persona": "P-003",
+    "user_group": "Unknown",
+    "task": "Mediates the discussion about Elena's preferences and health management",
+    "use_case": "UC-014",
+    "priority": null,
+    "summary": "",
+    "pillar": null,
+    "type": "",
+    "cluster": null
+  }
+]

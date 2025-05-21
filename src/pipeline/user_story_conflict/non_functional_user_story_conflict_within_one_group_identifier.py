@@ -5,29 +5,23 @@ from collections import defaultdict
 from typing import Optional
 
 from pipeline.user_story.user_story_loader import UserStoryLoader, UserStory
-from pipeline.utils import (
-    USER_GROUP_KEYS,
-    USER_GROUPS,
-    load_system_summary,
-    load_user_group_summary,
-    load_user_story_summary,
-    load_non_functional_user_story_conflict_summary,
-    get_llm_response,
-    NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR,
-    NON_FUNCTIONAL_USER_STORY_ANALYSIS_PATH
-)
+from pipeline.utils import Utils
 
 
 def identify_non_functional_conflicts_within_one_group(user_story_loader: Optional[UserStoryLoader] = None):
-    os.makedirs(NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, exist_ok=True)
+    utils = Utils()
+    os.makedirs(utils.NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, exist_ok=True)
 
-    existing_files = set(f for f in os.listdir(NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR) if f.endswith(".json"))
-    if len(existing_files) >= len(USER_GROUPS):
+    user_groups = utils.get_user_groups()
+    user_group_keys = utils.load_user_group_keys()
+
+    existing_files = set(f for f in os.listdir(utils.NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR) if f.endswith(".json"))
+    if len(existing_files) >= len(user_groups):
         print("✅ Skipping conflict identification — all group JSONs already exist.")
         return
 
     # Load decomposed user stories
-    with open(NON_FUNCTIONAL_USER_STORY_ANALYSIS_PATH, "r", encoding="utf-8") as f:
+    with open(utils.NON_FUNCTIONAL_USER_STORY_DECOMPOSITION_PATH, "r", encoding="utf-8") as f:
         decomposed_data = json.load(f)
     decomposed_map = {entry["id"]: entry for entry in decomposed_data}
 
@@ -40,12 +34,15 @@ def identify_non_functional_conflicts_within_one_group(user_story_loader: Option
         if story.cluster:
             cluster_map[story.cluster].append(story)
 
-    system_summary = load_system_summary()
-    user_story_summary = load_user_story_summary()
-    technique_summary = load_non_functional_user_story_conflict_summary()
+    system_context = utils.load_system_context()
+    user_story_guidelines = utils.load_user_story_guidelines()
+    technique_summary = utils.load_non_functional_user_story_conflict_technique_description()
 
     conflict_id_counter = 1
-    all_conflicts_by_group = {USER_GROUP_KEYS[g]: [] for g in USER_GROUPS}
+    all_conflicts_by_group = {user_group_keys[g]: [] for g in user_groups}
+    
+    # Load LLM response language proficiency level
+    proficiency_level = utils.load_llm_response_language_proficiency_level()
 
     for cluster, stories in cluster_map.items():
         group_map = defaultdict(list)
@@ -53,7 +50,7 @@ def identify_non_functional_conflicts_within_one_group(user_story_loader: Option
             group_map[s.user_group].append(s)
 
         for user_group, group_stories in group_map.items():
-            group_key = USER_GROUP_KEYS.get(user_group)
+            group_key = user_group_keys.get(user_group)
             if not group_key:
                 continue
 
@@ -78,16 +75,17 @@ def identify_non_functional_conflicts_within_one_group(user_story_loader: Option
                                 continue
                             prompt = build_conflict_prompt(
                                 technique_summary,
-                                system_summary,
-                                load_user_group_summary(group_key),
-                                user_story_summary,
+                                system_context,
+                                utils.load_user_group_description(group_key),
+                                user_story_guidelines,
                                 sa,
                                 sb,
                                 cluster,
                                 decomposed_map[sa.id]["decomposition"],
-                                decomposed_map[sb.id]["decomposition"]
+                                decomposed_map[sb.id]["decomposition"],
+                                proficiency_level
                             )
-                            response = get_llm_response(prompt)
+                            response = utils.get_llm_response(prompt)
                             parsed = parse_conflict_response(response, conflict_id_counter, sa, sb, cluster, user_group)
                             if parsed:
                                 all_conflicts_by_group[group_key].append(parsed)
@@ -95,45 +93,50 @@ def identify_non_functional_conflicts_within_one_group(user_story_loader: Option
 
     for group_key, conflicts in all_conflicts_by_group.items():
         if conflicts:
-            path = os.path.join(NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, f"{group_key}.json")
+            path = os.path.join(utils.NON_FUNCTIONAL_USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR, f"{group_key}.json")
             with open(path, 'w', encoding='utf-8') as f:
                 json.dump(conflicts, f, indent=2, ensure_ascii=False)
 
 
 def build_conflict_prompt(
     technique_summary: str,
-    system_summary: str,
+    system_context: str,
     user_group_summary: str,
-    user_story_summary: str,
+    user_story_guidelines: str,
     story_a: UserStory,
     story_b: UserStory,
     cluster: str,
     decomposition_a: list,
-    decomposition_b: list
+    decomposition_b: list,
+    proficiency_level: str = "",
 ) -> str:
     return f"""
-You are an expert in non-functional requirement analysis. Apply the conflict detection technique described below:
+You are an expert in non-functional requirement analysis. You are identifying conflicts between two non-functional user stories in a software system.
 
+--- SYSTEM CONTEXT ---
+{system_context}
+------------------------------
+
+--- IDENTIFICATION TECHNIQUE ---
+Apply the Sadana and Liu technique for indentifying non-functional requirement (a.k.a user story) conflicts (within one user group):
 {technique_summary}
+------------------------------
 
-====================
-System Context:
-====================
-{system_summary}
-
-====================
-User Group Summary:
-====================
+--- USER GROUP CONTEXT ---
 {user_group_summary}
+------------------------------
 
-====================
-User Story Guidelines:
-====================
-{user_story_summary}
+--- USER STORY GUIDELINES ---
+{user_story_guidelines}
+------------------------------
 
-====================
+--- YOUR TASK ---
 Cluster of the two user stories below: {cluster}
-Compare the following two non-functional user stories. Report any conflicts between them, focusing on the lowest-level non-functional (decomposed) user stories.
+Compare the following two non-functional user stories. Report any conflicts between them using the Sadana and Liu's technique mentioned above, focusing on the lowest-level non-functional (decomposed) user stories.
+
+If there is no conflict, respond with an empty JSON object: {{}}
+Note that, please strictly follow the definition of conflict between two user stories in the Chentouf's technique summary. Do not consider diversity of user preferences or slight differences in user stories as a conflict.
+If you think the conflict found is a mild or nuanced one, it is likely that the user stories are not conflicting at all. In that case, please respond with an empty JSON object: {{}}.
 
 Do NOT attempt to propose resolutions. Only identify clear contradictions or incompatible goals.
 
@@ -149,7 +152,6 @@ User Story B (ID: {story_b.id}, Persona: {story_b.persona}):
 - Decomposed NFRs:
 {json.dumps(decomposition_b, indent=2)}
 
-====================
 Format your answer strictly as a JSON object:
 
 If conflict is found:
@@ -170,6 +172,11 @@ If no conflict is found:
 }}
 
 Only include actual conflicting NFR pairs. Do not include commentary or extra text outside the JSON. Do NOT use any markdown, bold, italic, or special formatting in your response.
+------------------------------
+
+{proficiency_level}
+
+--- END OF PROMPT ---
 """.strip()
 
 

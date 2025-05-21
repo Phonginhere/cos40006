@@ -1,0 +1,38 @@
+[
+  {
+    "taskID": "TASK-029",
+    "useCaseId": "UC-002",
+    "personaId": "P-004",
+    "taskDescription": "Suggests setting specific times for ALFRED to check in on Olivia"
+  },
+  {
+    "taskID": "TASK-032",
+    "useCaseId": "UC-002",
+    "personaId": "P-004",
+    "taskDescription": "Notes the need for adjustments based on user feedback regarding ALFRED"
+  },
+  {
+    "taskID": "TASK-056",
+    "useCaseId": "UC-004",
+    "personaId": "P-004",
+    "taskDescription": "Observes user feedback to improve the ALFRED app experience"
+  },
+  {
+    "taskID": "TASK-120",
+    "useCaseId": "UC-008",
+    "personaId": "P-004",
+    "taskDescription": "Checks in with Elena via video call to monitor her health"
+  },
+  {
+    "taskID": "TASK-208",
+    "useCaseId": "UC-014",
+    "personaId": "P-004",
+    "taskDescription": "Checks in with Elena during her health check-ins via video call"
+  },
+  {
+    "taskID": "TASK-220",
+    "useCaseId": "UC-015",
+    "personaId": "P-004",
+    "taskDescription": "Checks in with Elena via video call to discuss her health."
+  }
+]

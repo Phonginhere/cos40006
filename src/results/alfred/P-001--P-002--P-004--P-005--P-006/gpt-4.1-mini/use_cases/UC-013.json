@@ -1,0 +1,19 @@
+{
+  "id": "UC-013",
+  "useCaseType": "Emotional Layering in Care Scenarios",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Pillar 2 - Personalized Social Inclusion",
+    "Pillar 3 - Effective & Personalized Care"
+  ],
+  "name": "Context-Sensitive Emotional Support",
+  "description": "This use case enables ALFRED to provide personalized emotional engagement tailored to the differing privacy preferences and interaction needs of older adults and their caregivers. It fosters meaningful social inclusion and care by balancing formal communication with supportive informal interactions.",
+  "scenario": "Sarah Thompson, juggling her responsibilities as an informal caregiver for multiple elderly clients, begins her day reviewing the ALFRED dashboard on her tablet. She appreciates how the system compiles critical health updates without flooding her with irrelevant notifications, yet she remains cautious about respecting each client’s privacy preferences. One of her clients, Olivia, is particularly challenging. Sarah knows Olivia’s strong stance against sharing personal data beyond her official nurse and her insistence on formal communication styles. Today, Sarah plans to check in with Olivia but is mindful not to overwhelm her with spontaneous messages or casual chats, which Olivia finds intrusive.\n\nAt Olivia’s quiet suburban home, Olivia sits with ALFRED nearby, activating the push-to-talk mode only when she needs to. When ALFRED gently prompts her with a scheduled medication reminder, Olivia responds curtly, emphasizing her desire to maintain control and limit interaction to essential tasks. She dismisses ALFRED’s occasional suggestions for social or cognitive activities, perceiving them as unwelcome challenges. Her mistrust of technology and deep privacy concerns make her wary of any feature that feels like an intrusion. Olivia specifically blocks all app installations and has set ALFRED to prohibit sharing her data with anyone except her nurse, rejecting even Sarah’s informal care messages. Yet, she values the assurance that Mike, her official nurse, remains available for formal check-ins she schedules herself.\n\nMeanwhile, Mike Johnson, balancing his demanding hospital shifts, logs into ALFRED to review Olivia’s health data. Frustration gnaws at him as he encounters the strict limitations Olivia has placed on data sharing. He understands her need for privacy but worries the gaps in information could conceal critical health changes. Mike wishes ALFRED could enforce continuous sensor use and more open data access, but he must navigate Olivia’s preferences carefully. When ALFRED alerts him that Olivia has declined a proposed video check-in, he refrains from pressing further, instead planning a formal home visit as Olivia prefers. He communicates in brief, clinical terms, focusing solely on vital information, avoiding any informal or emotional engagement that might unsettle Olivia.\n\nBack in her suburban home, Olivia maintains a guarded stance, using ALFRED strictly to manage her essential routines. Sarah’s attempts to foster emotional connection through informal chats and game suggestions remain blocked, leaving Sarah feeling frustrated but respectful of Olivia’s boundaries. Sarah wishes ALFRED could find a middle ground—encouraging more warmth without breaching privacy. The system’s design to tailor communication according to each user’s preferences underscores the delicate balance between formal care and emotional support. In this triad, Olivia’s insistence on control and formality, Sarah’s desire for compassionate engagement, and Mike’s clinical pragmatism converge uneasily, with ALFRED mediating their conflicting needs through nuanced, context-sensitive emotional support.",
+  "personas": [
+    "P-006",
+    "P-005"
+  ]
+}

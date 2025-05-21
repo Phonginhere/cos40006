@@ -1,0 +1,50 @@
+[
+  {
+    "taskID": "TASK-008",
+    "useCaseId": "UC-001",
+    "personaId": "P-001",
+    "taskDescription": "Ensures that notifications in ALFRED are not overwhelming for users"
+  },
+  {
+    "taskID": "TASK-080",
+    "useCaseId": "UC-005",
+    "personaId": "P-001",
+    "taskDescription": "Considers making the app more user-friendly and less intrusive"
+  },
+  {
+    "taskID": "TASK-093",
+    "useCaseId": "UC-006",
+    "personaId": "P-001",
+    "taskDescription": "Reviews feedback from users and caregivers about ALFRED."
+  },
+  {
+    "taskID": "TASK-106",
+    "useCaseId": "UC-007",
+    "personaId": "P-001",
+    "taskDescription": "Analyzes user feedback to improve the ALFRED system"
+  },
+  {
+    "taskID": "TASK-174",
+    "useCaseId": "UC-011",
+    "personaId": "P-001",
+    "taskDescription": "Reviews user feedback to improve the ALFRED system."
+  },
+  {
+    "taskID": "TASK-185",
+    "useCaseId": "UC-012",
+    "personaId": "P-001",
+    "taskDescription": "Monitors user feedback remotely to improve ALFRED's usability"
+  },
+  {
+    "taskID": "TASK-228",
+    "useCaseId": "UC-015",
+    "personaId": "P-001",
+    "taskDescription": "Monitors user feedback to improve the ALFRED app."
+  },
+  {
+    "taskID": "TASK-229",
+    "useCaseId": "UC-015",
+    "personaId": "P-001",
+    "taskDescription": "Identifies issues with notification preferences based on user experiences."
+  }
+]

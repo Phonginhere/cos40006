@@ -1,0 +1,21 @@
+{
+  "id": "UC-003",
+  "useCaseType": "Health Data Sharing & Monitoring Boundaries",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Developers and App Creators",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Pillar 3 - Effective & Personalized Care"
+  ],
+  "name": "Dynamic Health Data Sharing Control",
+  "description": "This use case addresses the complex needs of sharing and monitoring health data between older adults, caregivers, medical staff, and developers, focusing on customizable privacy boundaries and real-time data access. It ensures that health data visibility is balanced with user consent and clinical necessities, supporting personalized and secure care coordination.",
+  "scenario": "Sarah Thompson starts her day juggling the care schedules of several elderly clients, including Elena Rivera. Sarah appreciates how ALFRED keeps her instantly updated with real-time health data, but she deliberately opts out of automatic logging, preferring to manually decide which patient interactions to record. She knows Elena’s eagerness to share all her health data without restrictions but worries about overwhelming her other clients with constant notifications. Sarah schedules a gentle reminder for Elena’s medication and plans a video call to encourage her participation in a new exercise game, hoping to blend care with emotional engagement.\n\nMeanwhile, Mike Johnson is at his hospital, preparing for his shift. He logs into ALFRED to review patients’ vitals, including Elena’s, but immediately notices that he cannot access some of her data without explicit consent. Mike’s irritation grows; he believes health should trump privacy and resents the system’s barriers that prevent him from swiftly obtaining crucial information. He disables all non-critical notifications to avoid distractions during his busy rounds and ignores social or emotional updates, focusing strictly on clinical metrics. When ALFRED initiates an unsolicited video call with Elena, Mike declines, firmly insisting that such interactions belong only in controlled hospital settings.\n\nAt the same time, Elena Rivera enjoys the freedom ALFRED affords her. She activates the voice assistant and requests a challenging workout, eager to push her limits. She openly shares data with Sarah but remains cautious about Mike’s access, valuing her privacy outside the hospital context. Elena frequently engages in spontaneous chats with friends and even strangers, relishing the social connection ALFRED facilitates. When Sarah calls to encourage participation in the exercise simulation, Elena happily agrees and looks forward to the interaction, appreciating Sarah’s respectful approach.\n\nOver in a rural home office, Daniel Chen reviews recent feedback from caregivers and patients. He contemplates tightening control in his latest app update by enforcing more rigid notification policies and data collection, convinced that it will improve safety and compliance. Yet, he recognizes the friction this causes—Sarah’s desire for manual control clashes with Mike’s demand for unfettered data access, while Elena’s openness to sharing contrasts with her insistence on privacy boundaries. Daniel debates how to balance these competing needs in the next release, knowing the decisions will affect trust and usability across the ALFRED ecosystem.\n\nThis tangled dynamic reveals the nuanced reality: Sarah mediates between the autonomy of older adults and the clinical urgency of medical staff, Mike prioritizes efficiency and access often at odds with patient preferences, Elena embraces technology but guards her independence, and Daniel shapes the system’s architecture while wrestling with conflicting user expectations. The ALFRED platform becomes a living negotiation of privacy, care, and control, reflecting the complex human landscape it serves.",
+  "personas": [
+    "P-006",
+    "P-004",
+    "P-001",
+    "P-002"
+  ]
+}

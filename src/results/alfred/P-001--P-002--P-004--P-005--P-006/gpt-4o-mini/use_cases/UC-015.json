@@ -1,0 +1,24 @@
+{
+  "id": "UC-015",
+  "useCaseType": "Notification Preferences & Behavioral Nudging",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Developers and App Creators",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Developer Core",
+    "General Requirements",
+    "Pillar 1 - User-Driven Interaction Assistant",
+    "Pillar 3 - Effective & Personalized Care"
+  ],
+  "name": "Personalized Notification Management",
+  "description": "This use case enables caregivers, older adults, and developers to customize notification preferences within the ALFRED system, ensuring that alerts are meaningful and relevant. By integrating behavioral nudging techniques, it supports user engagement while maintaining the privacy and preferences of each individual.",
+  "scenario": "Elena Rivera sat at her kitchen table, her fingers tapping impatiently on the ALFRED app's screen. “Why am I getting so many notifications about my health? I just want to live my life,” she grumbled, feeling suffocated by the constant alerts. As a tech-curious older adult, she was open to using technology, but this felt intrusive. Just then, Mike Johnson, her registered nurse, appeared on a video call.\n\n“Elena, we need to ensure you're following your exercise plan. Have you done your stretches today?” he asked, his tone urgent. Elena bristled at his concern. “I don’t want to be treated like a child, Mike! I want to decide what I need, not have you dictating my day.”\n\nHearing the tension, Sarah Thompson, her informal caregiver, entered the room with a bright smile. “Hey, Elena! Let’s adjust the app together. We can customize the notifications to suit you better,” she suggested, sensing Elena's frustration. “But I want to be the one in control. I don’t want unsolicited reminders clogging my day,” Elena insisted, crossing her arms defiantly.\n\nMeanwhile, Daniel Chen, the developer behind ALFRED, was monitoring user feedback from a distance. He noticed Elena’s struggle with the app’s notifications and felt a sense of responsibility. “I need to make this more user-friendly,” he thought, noting her desire for autonomy.\n\nMike, trying to bridge the gap, said, “How about we set the reminders only for your medication? That way, you can still have some independence.” Elena considered this, her heart softening slightly. “Fine, but I want to control what gets sent to me. I feel like I’m being forced into this,” she replied, her tone still firm.\n\nAs Sarah guided Elena through the customization process, they adjusted the notification settings. Elena’s demeanor began to shift from irritation to relief as she saw her preferences being respected. “This is better. I can handle my health without being bombarded,” she said, a hint of a smile appearing.\n\nBy the end of their session, Elena felt empowered, having taken control of her health journey. Mike and Sarah learned the importance of respecting her boundaries, while Daniel recognized that fostering trust was crucial for technology to truly serve its users.",
+  "personas": [
+    "P-004",
+    "P-002",
+    "P-001",
+    "P-006"
+  ]
+}

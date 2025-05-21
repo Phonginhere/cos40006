@@ -1,0 +1,22 @@
+{
+  "id": "UC-008",
+  "useCaseType": "Sensor Usage & Wearable Compliance",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Developer Core",
+    "Pillar 3 - Effective & Personalized Care",
+    "Pillar 4 - Physical & Cognitive Impairments Prevention"
+  ],
+  "name": "Wearable Sensor Compliance Monitoring",
+  "description": "This use case enables caregivers and medical staff to monitor the usage and compliance of wearable health sensors for older adults. It ensures that health data is collected securely while respecting the privacy preferences of individuals, facilitating effective and personalized care.",
+  "scenario": "Elena Rivera sat in her sunlit kitchen, her tablet propped up as she navigated the ALFRED app. “Why do I need to approve every single notification?” she muttered, frustration creeping into her voice as another alert pinged. Each reminder felt like a tether, pulling at her independence. She craved autonomy, not the constant monitoring that seemed to come with the technology.\n\nMeanwhile, Mike Johnson, her registered nurse, checked in via video call. “Elena, how are we doing with those exercises? I need to make sure you’re on track with your health plan,” he said, his tone professional yet slightly impatient. Elena's irritation flared. “I don't want to be treated like a child, Mike. I want the freedom to decide what matters to me,” she retorted, her arms crossed defiantly.\n\nSarah Thompson, her informal caregiver, entered the room, sensing the tension. “Good morning, Elena! I’m here to help with the app today,” she said, trying to ease the mood. But Elena, still fuming, shot back, “Only if I can control what gets shared. I don’t want unsolicited messages from ALFRED.”\n\n“Can we at least agree to enable reminders for your medication?” Sarah suggested, her voice steady yet conciliatory. “It’s crucial for your health.” Elena’s brow furrowed. “I’ll decide what notifications I want. I feel like I’m being forced into this,” she insisted, her frustration bubbling over.\n\nAs they discussed, Daniel Chen, the developer behind ALFRED, monitored user feedback from his office. He noted Elena’s struggle and felt a pang of responsibility. “I need to make this easier for users like her,” he thought, recognizing the fine line between support and intrusion.\n\nMike, sensing the rising tension, chimed in, “Elena, your health must come first. I want to help you monitor it effectively.” His urgency clashed with Elena’s desire for autonomy. “But I need to feel secure, not just like a patient on a checklist,” she countered, her voice firm.\n\nSarah interjected, “How about we find a compromise? Let’s enable just one app that focuses on your interests and has minimal data requirements.” Elena paused, considering the offer. “Alright, but I want full control over what it accesses,” she finally conceded, her tone softening slightly.\n\nAs they explored the app together, Elena felt a flicker of hope. Mike and Sarah learned the importance of respecting her boundaries, while Daniel recognized that the real challenge lay in establishing trust. They wrapped up the session with a renewed sense of collaboration, demonstrating that technology could empower rather than control, provided it honored the user's wishes.",
+  "personas": [
+    "P-006",
+    "P-004",
+    "P-002",
+    "P-005"
+  ]
+}

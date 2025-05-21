@@ -2,7 +2,7 @@ import json
 import os
 from typing import List, Optional
 
-from pipeline.utils import CURRENT_LLM, USE_CASE_DIR, USE_CASE_TYPE_CONFIG_PATH
+from pipeline.utils import Utils
 
 
 class UseCase:
@@ -42,8 +42,10 @@ class UseCase:
 class UseCaseLoader:
     """Loads all ALFRED use cases from a directory of JSON files."""
 
-    def __init__(self, directory: str = USE_CASE_DIR):
-        self.directory = directory
+    def __init__(self, directory: str = None):
+        self.utils = Utils()
+        self.directory = directory or self.utils.USE_CASE_DIR
+
         self.use_cases: List[UseCase] = []
 
     def load(self) -> None:
@@ -103,11 +105,13 @@ class UseCaseLoader:
         
         
 def load_use_case_type_config():
+    utils = Utils()
+    
     """Load the use case type configuration (distribution + constraints)."""
-    if not os.path.exists(USE_CASE_TYPE_CONFIG_PATH):
-        raise FileNotFoundError(f"Use case type config not found at: {USE_CASE_TYPE_CONFIG_PATH}")
+    if not os.path.exists(utils.USE_CASE_TYPE_CONFIG_PATH):
+        raise FileNotFoundError(f"Use case type config not found at: {utils.USE_CASE_TYPE_CONFIG_PATH}")
 
-    with open(USE_CASE_TYPE_CONFIG_PATH, "r", encoding="utf-8") as f:
+    with open(utils.USE_CASE_TYPE_CONFIG_PATH, "r", encoding="utf-8") as f:
         config = json.load(f)
     
     print(f"✅ Loaded {len(config)} use case type configuration entries.")

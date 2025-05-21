@@ -3,7 +3,7 @@ import json
 
 from typing import List, Optional
 
-from pipeline.utils import USER_STORY_DIR
+from pipeline.utils import Utils
 
 
 class UserStory:
@@ -56,130 +56,20 @@ class UserStory:
 
 
 class UserStoryLoader:
-    def __init__(self):
+    def __init__(self, user_story_dir: str = None):
         self.user_stories: List[UserStory] = []
+        self.user_story_dir = user_story_dir or Utils().USER_STORY_DIR
 
     def load_from_file(self, file_path: str):
-        """
-        Load user stories from a JSON file with error handling.
-        
-        Args:
-            file_path: Path to the JSON file to load
-        """
-        try:
-            with open(file_path, 'r', encoding='utf-8') as f:
-                raw_data = json.load(f)
-            self.user_stories.extend([UserStory.from_dict(d) for d in raw_data])
-            print(f"✅ Loaded {len(raw_data)} stories from {os.path.basename(file_path)}")
-        except json.JSONDecodeError as e:
-            print(f"\n❌ JSON Error in file: {os.path.basename(file_path)}")
-            print(f"   Error details: {str(e)}")
-            
-            # Get the problematic line(s)
-            with open(file_path, 'r', encoding='utf-8') as f:
-                lines = f.readlines()
-                
-            error_line = e.lineno - 1  # Convert to 0-based index
-            start_line = max(0, error_line - 2)
-            end_line = min(len(lines), error_line + 3)
-            
-            print("\n   Context around the error:")
-            for i in range(start_line, end_line):
-                line_marker = "→ " if i == error_line else "  "
-                print(f"   {line_marker}{i+1}: {lines[i].rstrip()}")
-            
-            print("\nRun the JSON fixer script to repair this file:")
-            print(f"python src/pipeline/user_story/fix_json.py")
-            
-            raise
-        except Exception as e:
-            print(f"\n❌ Error loading {os.path.basename(file_path)}: {str(e)}")
-            raise
-
-    def check_json_file(self, file_path: str, try_fix: bool = False):
-        """
-        Check a JSON file for syntax errors and optionally try to fix common issues.
-        
-        Args:
-            file_path: Path to the JSON file to check
-            try_fix: If True, attempt to fix simple JSON syntax errors
-            
-        Returns:
-            tuple: (is_valid, error_message, fixed_content)
-        """
-        content = ""
-        try:
-            # Read the file content
-            with open(file_path, 'r', encoding='utf-8') as f:
-                content = f.read()
-            
-            # Try parsing the JSON
-            json.loads(content)
-            return True, "File is valid JSON", None
-        
-        except json.JSONDecodeError as e:
-            error_msg = f"JSON error at line {e.lineno}, column {e.colno}: {e.msg}"
-            
-            if not try_fix:
-                return False, error_msg, None
-                
-            # Try to fix the error
-            lines = content.splitlines(True)  # Keep line endings
-            fixed_content = content
-            
-            # Fix for missing comma between objects in an array
-            if "Expecting ',' delimiter" in str(e):
-                try:
-                    line_idx = e.lineno - 1
-                    col_idx = e.colno - 1
-                    
-                    # Insert a comma at the position
-                    if 0 <= line_idx < len(lines):
-                        line = lines[line_idx]
-                        if 0 <= col_idx < len(line):
-                            fixed_line = line[:col_idx] + ',' + line[col_idx:]
-                            lines[line_idx] = fixed_line
-                            fixed_content = ''.join(lines)
-                            
-                            # Validate the fix
-                            try:
-                                json.loads(fixed_content)
-                                return False, error_msg, fixed_content
-                            except json.JSONDecodeError:
-                                pass  # Fix didn't work
-                except Exception:
-                    pass  # Any other error during fix attempt
-            
-            # Add other common fixes as needed
-            
-            return False, error_msg, None
-            
-        except Exception as e:
-            return False, f"Error reading file: {str(e)}", None
+        with open(file_path, 'r', encoding='utf-8') as f:
+            raw_data = json.load(f)
+        self.user_stories.extend([UserStory.from_dict(d) for d in raw_data])
 
     def load_all_user_stories(self):
-        """
-        Load all user stories from JSON files in the user story directory.
-        Will attempt to continue loading other files if one file has an error.
-        """
         self.user_stories.clear()
-        errors = []
-        
-        for fname in os.listdir(USER_STORY_DIR):
+        for fname in os.listdir(self.user_story_dir):
             if fname.endswith(".json"):
-                file_path = os.path.join(USER_STORY_DIR, fname)
-                try:
-                    self.load_from_file(file_path)
-                except Exception as e:
-                    errors.append((file_path, str(e)))
-        
-        if errors:
-            print(f"\n⚠️ Completed with {len(errors)} errors:")
-            for file_path, error in errors:
-                print(f"  - {os.path.basename(file_path)}: {error}")
-                
-            # If there are errors, let the caller decide what to do
-            raise ValueError(f"{len(errors)} files could not be loaded. Run fix_json.py to repair them.")
+                self.load_from_file(os.path.join(self.user_story_dir, fname))
 
     def save_to_file(self, file_path: str):
         with open(file_path, 'w', encoding='utf-8') as f:
@@ -192,7 +82,7 @@ class UserStoryLoader:
             grouped[s.persona].append(s)
 
         for persona_id, stories in grouped.items():
-            file_path = os.path.join(USER_STORY_DIR, f"User_stories_for_{persona_id}.json")
+            file_path = os.path.join(self.user_story_dir, f"User_stories_for_{persona_id}.json")
             with open(file_path, 'w', encoding='utf-8') as f:
                 json.dump([s.to_dict() for s in stories], f, indent=2)
 

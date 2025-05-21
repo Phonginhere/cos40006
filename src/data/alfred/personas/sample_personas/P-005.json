@@ -1,0 +1,57 @@
+{
+  "Id": "P-005",
+  "Name": "Olivia",
+  "Role": "Retired social worker and community volunteer",
+  "Tagline": "I am a difficult, pessimistic, and dependent person and I need some help to monitor and improve my recovery constantly. However technology sometimes make me feels overwhelming, or even unsafe in terms of data privacy.",
+  "DemographicData": {
+    "Age": "75",
+    "MaritalStatus": "Widow",
+    "LivingSituation": "Lives alone in suburban area",
+    "Education": "Bachelor degree in social work",
+    "Occupation": "Retired social worker",
+    "Children": "1"
+  },
+  "CoreCharacteristics": [
+    "Difficult",
+    "Pessimistic",
+    "Emotionally damaged",
+    "Independent",
+    "Reclusive",
+    "Abrasive"
+  ],
+  "CoreGoals": [
+    "Push-to-Talk when I ask the system to",
+    "Prefer user actions in all features",
+    "Only drink beverage",
+    "Take public transport",
+    "Keep communication to be formal, polite, ethical and healthy",
+    "Limit the sending of almost ALFRED's messages/notifications (not just unsolicited ones, but almost all of them)"
+  ],
+  "TypicalChallenges": [
+    "Privacy concerns",
+    "Avoid all challenging exercises",
+    "Struggle to push myself to receive a check up call",
+    "Avoid all challenging simulations and games"
+  ],
+  "Singularities": [
+    "Peristatic about technology adaptation",
+    "Always pessimistic and rarely change, takes longer time to adapt my needs",
+    "Need constant supervision",
+    "No data sharing with third parties, app creators",
+    "Discuss my health with official medical professionals only (e.g., doctors, nurses), not with informal caregivers",
+    "Nurse must be available fulltime for my messages, calls, and notifications"
+  ],
+  "MainActions" : [
+    "Block all app installations (unless special request)",
+    "ALFRED's voice assistant MUST not explain detailedly its features, I just want to use it",
+    "Block sharing of my data with family and friends, even caregivers and doctors",
+    "All conversations or messages must be formal, including the ones with my family and friends",
+    "Hardly wear wearables with a sensor, if so, they must not share my data with third parties",
+    "Dismiss all notifications of the hard exercises",
+    "Accept ocheck-ins only arranged by me, prefer offline ones at my home, not in the hospital or public medical centres",
+    "No chatting with strangers"
+  ],
+  "WorkingSituation": "",
+  "PlaceOfWork": "",
+  "Expertise": []
+}

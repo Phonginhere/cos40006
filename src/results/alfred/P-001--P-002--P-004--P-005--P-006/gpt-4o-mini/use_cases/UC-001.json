@@ -1,0 +1,24 @@
+{
+  "id": "UC-001",
+  "useCaseType": "User Autonomy vs. System Control",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Developers and App Creators",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Developer Core",
+    "General Requirements",
+    "Pillar 1 - User-Driven Interaction Assistant"
+  ],
+  "name": "Caregiver-Client Interaction Control",
+  "description": "This use case focuses on enabling caregivers to manage their interactions with multiple elderly clients using the ALFRED system. It emphasizes the importance of privacy, manual data control, and the ability to engage clients in non-clinical activities, ensuring that caregivers can provide personalized support without overwhelming the users.",
+  "scenario": "Sarah Thompson arrived at Elena Rivera's home, ready to start her day as an informal caregiver. As she settled into the routine, she opened the ALFRED app to check on Elena's health metrics and reminders. Although Sarah was familiar with the system, managing multiple clients often left her feeling overwhelmed. She appreciated ALFRED’s ability to streamline her tasks, but she sometimes found it challenging to switch contexts between different clients.\n\n“Good morning, Elena! How are you feeling today?” Sarah asked, her tone warm but professional. Elena smiled, a hint of excitement in her eyes. “I’m ready to tackle today’s exercise! But I really want to try something new—maybe a game?” \n\nJust then, the app chimed in with a reminder for Elena’s daily water intake. “Elena, remember to drink water to stay hydrated,” ALFRED prompted, its voice clear and encouraging. Sarah took a mental note of the reminder, but she also sensed Elena’s frustration with the constant notifications. “Can we turn off some of these reminders?” Elena asked, her brow furrowing slightly. \n\nMeanwhile, Daniel Chen, the developer behind ALFRED, was busy at his workstation. He was aware of the feedback from caregivers like Sarah and users like Elena, and he was determined to create a more user-friendly experience. “I need to ensure the system doesn’t bombard users with notifications,” he muttered to himself, frustrated that the tech was at odds with the human elements of caregiving.\n\nAs Sarah encouraged Elena to engage in a light game, Mike Johnson, a registered nurse, checked in via video call. He seemed rushed, glancing at his watch. “We need to focus on your health metrics, Elena. Sarah, can you make sure she’s doing the exercises I prescribed?” \n\nElena felt torn. “But I want to play a game too! It’s more fun and helps me feel connected,” she protested. Sarah sensed the tension; she wanted to support Elena’s desire for enjoyment but also had to ensure compliance with Mike’s medical recommendations.\n\n“Let’s balance both,” Sarah suggested diplomatically. “How about we play a game that also includes some light exercises?” Elena brightened at the idea, while Mike reluctantly agreed, acknowledging that a more holistic approach could be beneficial.\n\nIn the end, as they played a light game that incorporated movement, Sarah felt relieved. The interaction allowed Elena to engage without feeling overwhelmed, and the collaborative effort among the personas—each with their unique motivations—created a more supportive environment. Daniel’s work on ALFRED had made a difference, but the nuances of human connection remained essential in navigating their daily lives together.",
+  "personas": [
+    "P-006",
+    "P-001",
+    "P-002",
+    "P-005",
+    "P-004"
+  ]
+}

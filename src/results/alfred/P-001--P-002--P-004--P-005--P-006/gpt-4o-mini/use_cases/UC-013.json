@@ -1,0 +1,19 @@
+{
+  "id": "UC-013",
+  "useCaseType": "Emotional Layering in Care Scenarios",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Pillar 2 - Personalized Social Inclusion",
+    "Pillar 3 - Effective & Personalized Care"
+  ],
+  "name": "Emotional Bonding Through ALFRED",
+  "description": "This use case focuses on enhancing emotional connections between informal caregivers and older adults through interactive tools within the ALFRED system. By enabling caregivers like Sarah to engage meaningfully with clients like Elena, the system fosters social inclusion and enhances personalized care experiences, making daily interactions more fulfilling.",
+  "scenario": "Elena Rivera sat in her cozy living room, her tablet resting on her lap as she scrolled through the ALFRED app. “Why does it keep reminding me to drink water and do exercises?” she grumbled, feeling increasingly pressured. “I’m not a child; I know what I need.” Just then, her informal caregiver, Sarah Thompson, entered with a bright smile. “Good morning, Elena! I thought we could explore some fun exercises together today,” she suggested, sensing that Elena was feeling overwhelmed.\n\nElena frowned, crossing her arms. “I don’t need to be coddled, Sarah. I want to manage my own health without feeling like I’m being pushed into things.” Sarah, understanding the importance of motivation, replied gently, “I get it, but some activities can really help you feel better. Let’s find something that you actually enjoy!”\n\nMeanwhile, Mike Johnson, Elena's nurse, joined the video call from his office. “Elena, how are you feeling today? Are you managing to stick to your exercise plan?” His tone was warm but firm, and Elena felt frustration bubbling up. “I’ll do what I want, Mike. I don’t want to feel monitored all the time,” she snapped, her voice sharp.\n\nHearing the tension, Sarah interjected. “How about we find a balance? We could focus on just one app that aligns with your interests and limits notifications. Maybe something interactive that feels less like a chore?” Elena hesitated, considering the suggestion. “Alright, but it has to respect my privacy. I want control over what it accesses,” she finally relented, her tone softening slightly.\n\nMeanwhile, Daniel Chen, the developer behind ALFRED, was reviewing user feedback from afar. He noted Elena’s struggle with the notifications and felt a sense of responsibility. “I need to make this more user-friendly,” he thought, realizing that technology needed to foster connection rather than pressure.\n\nAs they navigated the app together, Elena felt a flicker of empowerment. She chose a game that involved light exercises and fun challenges, and to her surprise, she found herself smiling. Sarah and Mike learned the importance of respecting Elena’s boundaries, while Daniel recognized that fostering trust was crucial. By the end of the session, Elena felt more in control of her health journey, grateful for the collaborative effort that honored her needs while still encouraging her to stay active.",
+  "personas": [
+    "P-006",
+    "P-002"
+  ]
+}

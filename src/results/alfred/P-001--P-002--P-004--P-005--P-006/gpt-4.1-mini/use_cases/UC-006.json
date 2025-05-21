@@ -1,0 +1,22 @@
+{
+  "id": "UC-006",
+  "useCaseType": "Trust & Privacy Negotiation",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Developers and App Creators",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Developer Core",
+    "General Requirements",
+    "Pillar 1 - User-Driven Interaction Assistant"
+  ],
+  "name": "Consent-Driven Privacy Management",
+  "description": "This use case enables older adults, caregivers, and developers to negotiate and enforce personalized privacy settings within ALFRED. It ensures that data sharing, notifications, and system interactions respect user consent and trust preferences, addressing concerns of security and autonomy.",
+  "scenario": "Olivia sits cautiously in her quiet suburban living room, eyeing the ALFRED device warily. She feels overwhelmed by technology and is deeply concerned about her privacy. When ALFRED softly suggests enabling easier data sharing with her nurse Mike for more proactive care, Olivia quickly declines, insisting that no data beyond what she authorizes be shared. She prefers to initiate every interaction herself, using push-to-talk only, and has blocked all app installations to maintain control. Olivia finds unsolicited notifications intrusive and dismisses any alerts about exercises or social activities, determined to keep her routine simple and formal. She expects all communications, even with family, to remain strictly polite and professional.\n\nAt the same time, Mike Johnson, managing a hectic urban hospital schedule, logs into ALFRED to check on his patients. He immediately notices that Olivia’s data sharing preferences severely limit his access, preventing him from seeing real-time vitals or receiving timely alerts. Frustrated, Mike believes that prioritizing clinical data over strict privacy would improve Olivia’s care and reduce risks. He wishes ALFRED would automatically share critical health information and enforce medication reminders, but respects the system’s constraints. During his shift, he silences non-essential notifications to avoid distractions but grows impatient knowing that some vital signs from Olivia may be delayed or unavailable. Mike prefers scheduled video check-ins at the hospital, but Olivia’s insistence on home visits complicates coordination.\n\nMeanwhile, Daniel Chen, a developer working remotely, reviews ALFRED’s privacy management modules. He is aware that Olivia’s restrictive settings conflict with Mike’s clinical needs. Daniel’s conservative approach leads him to implement forced reminders and automatic app updates for caregivers, convinced these ensure safety and compliance. However, he struggles with balancing system control against user autonomy, knowing Olivia’s mistrust might cause her to reject new features. Daniel also programs the system to prompt caregivers constantly, even outside work hours, believing this vigilance is essential, despite potential annoyance. He debates whether to relax enforcement for users like Olivia or maintain strict policies to uphold workflow integrity.\n\nThe tension is palpable: Olivia fiercely guards her privacy and demands control over every interaction; Mike seeks unfettered access to health data and prefers clinical efficiency over autonomy; Daniel enforces system rules that sometimes override user preferences for the sake of safety. This uneasy balance shapes their day, with ALFRED navigating between respecting Olivia’s independence and accommodating the clinical urgency Mike represents, all under Daniel’s watchful development decisions.",
+  "personas": [
+    "P-005",
+    "P-004",
+    "P-001"
+  ]
+}

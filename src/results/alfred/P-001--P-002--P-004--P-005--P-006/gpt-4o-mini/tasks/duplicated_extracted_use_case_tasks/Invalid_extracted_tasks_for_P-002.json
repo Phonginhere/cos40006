@@ -1,0 +1,50 @@
+[
+  {
+    "taskID": "TASK-012",
+    "useCaseId": "UC-001",
+    "personaId": "P-002",
+    "taskDescription": "Expresses frustration about constant reminders from ALFRED"
+  },
+  {
+    "taskID": "TASK-037",
+    "useCaseId": "UC-003",
+    "personaId": "P-002",
+    "taskDescription": "Expresses frustration about constant health notifications"
+  },
+  {
+    "taskID": "TASK-040",
+    "useCaseId": "UC-003",
+    "personaId": "P-002",
+    "taskDescription": "Wants to disable notifications that feel intrusive"
+  },
+  {
+    "taskID": "TASK-058",
+    "useCaseId": "UC-004",
+    "personaId": "P-002",
+    "taskDescription": "Expresses frustration about needing to approve each notification"
+  },
+  {
+    "taskID": "TASK-125",
+    "useCaseId": "UC-008",
+    "personaId": "P-002",
+    "taskDescription": "Expresses frustration about needing to approve every notification"
+  },
+  {
+    "taskID": "TASK-142",
+    "useCaseId": "UC-009",
+    "personaId": "P-002",
+    "taskDescription": "Expresses frustration about having to approve every notification"
+  },
+  {
+    "taskID": "TASK-196",
+    "useCaseId": "UC-013",
+    "personaId": "P-002",
+    "taskDescription": "Expresses frustration with constant reminders to drink water and exercise"
+  },
+  {
+    "taskID": "TASK-201",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Expresses frustration about unsolicited health reminders"
+  }
+]

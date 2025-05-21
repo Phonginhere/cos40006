@@ -1,0 +1,24 @@
+{
+  "id": "UC-011",
+  "useCaseType": "Developer Tools / Integration",
+  "userGroups": [
+    "Caregivers and Medical Staff",
+    "Developers and App Creators",
+    "Older Adults"
+  ],
+  "pillars": [
+    "Developer Core",
+    "General Requirements",
+    "Pillar 2 - Personalized Social Inclusion",
+    "Pillar 3 - Effective & Personalized Care",
+    "Pillar 4 - Physical & Cognitive Impairments Prevention"
+  ],
+  "name": "Interactive Client Engagement Tools",
+  "description": "This use case focuses on integrating interactive tools that facilitate communication and engagement between older adults and their caregivers through the ALFRED system. It aims to enhance user experience by enabling caregivers to monitor and support clients effectively while fostering social connections and promoting personal health management.",
+  "scenario": "Elena Rivera sat at her kitchen table, peering at the ALFRED app on her tablet with a mix of curiosity and apprehension. “I just want to find exercises that I can actually do without feeling overwhelmed,” she muttered, her fingers hovering over the screen. The app chimed in, offering a series of reminders: “Drink water, check your vitals, connect with family.” Each notification felt like a gentle nudge, but to Elena, it felt like being prodded constantly.\n\nSarah Thompson, her informal caregiver, entered the room, her arms full of health pamphlets and an encouraging smile. “Good morning, Elena! Ready to dive into some new exercises?” she asked, trying to elevate the mood. Elena sighed, “Can we skip the reminders? I know I need to drink water, but I don’t need ALFRED treating me like a child.”\n\nMeanwhile, Daniel Chen, the full-stack developer behind ALFRED, was reviewing user feedback. He noted Elena’s frustration. “I need to find a way to balance guidance with user autonomy,” he thought, feeling the pressure of creating a system that should empower, not overwhelm. \n\nAs Sarah scrolled through potential exercises, she said, “How about we try a game today? It could be a fun way to move without it feeling like a chore.” Elena raised an eyebrow. “Games? I thought the point was to get fit, not play.” \n\n“Actually, the games can incorporate movement, too,” Sarah explained, excitedly. “We can even invite some of your friends online to join us, which could make it more social.” \n\nElena hesitated, caught between her desire for independence and the loneliness creeping in. “Okay, but only if I can choose who joins. I don’t want to be forced into anything.” \n\nAt that moment, Mike Johnson, the registered nurse, called in for a routine check-in via video. “Elena, how are we doing on those health goals?” he asked, his tone professional yet concerned. \n\n“I’m fine, Mike. Just trying to figure out this app,” Elena replied, her irritation bubbling. “But I don't want constant reminders. I feel like a prisoner to this technology.”\n\nSarah chimed in, “Let’s work together. We can set up the app to send you notifications only for critical things, like your medication.” \n\nDaniel, still observing from his workstation, recognized a need for more adaptive features. “What if I added an option for users to customize their notification settings?” he pondered, jotting down notes.\n\nAs the trio navigated the app, Elena felt a flicker of control returning. “Alright, let’s try this game,” she finally said, softening her stance. “But I want to feel secure that I’m not losing my independence.” \n\nThe blend of their desires—Elena’s need for autonomy, Sarah’s quest for efficient care, and Mike’s focus on health metrics—created a unique dynamic. They ended the session with laughter as they engaged in a light-hearted game, illustrating how technology could indeed foster connection rather than isolation, but only when the needs and preferences of each person were genuinely considered.",
+  "personas": [
+    "P-002",
+    "P-006",
+    "P-001"
+  ]
+}

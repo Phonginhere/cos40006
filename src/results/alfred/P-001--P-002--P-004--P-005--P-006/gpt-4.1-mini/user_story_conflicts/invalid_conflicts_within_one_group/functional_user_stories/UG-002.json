@@ -1,0 +1,19 @@
+[
+  {
+    "conflictType": "Start-Forbid",
+    "conflictDescription": "User Story A wants ALFRED to enforce medication reminders automatically without asking, which means strong reminders. User Story B wants to send gentle reminders to avoid stress. These are opposite ways of reminding for the same event and operation.",
+    "conflictId": "FCWI-079",
+    "personaAId": "P-004",
+    "personaBId": "P-006",
+    "userGroup": "Caregivers and Medical Staff",
+    "userStoryAId": "US-073",
+    "userStoryBId": "US-113",
+    "userStoryASummary": "As a medical caregiver, I want ALFRED to enforce medication reminders without asking patients, so they take medicine on time.",
+    "userStoryBSummary": "As an informal caregiver, I want to send gentle medication reminders to my clients so I can help their health without making them feel stressed.",
+    "cluster": "Reminder Control",
+    "generalResolutionType": "1. Update both user stories",
+    "resolutionDescription": "Both user stories are updated to allow ALFRED to adjust reminder strength based on user stress levels and preferences, balancing enforcement and gentleness.",
+    "newUserStoryASummary": "As a medical caregiver, I want ALFRED to send medication reminders that adjust in strength, so patients take medicine on time without feeling stressed.",
+    "newUserStoryBSummary": "As an informal caregiver, I want ALFRED to provide gentle medication reminders that can become stronger if needed, so clients stay healthy and feel comfortable."
+  }
+]

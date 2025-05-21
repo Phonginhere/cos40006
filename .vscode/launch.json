@@ -1,0 +1,51 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Streamlit",
+      "type": "python",            // VS Code's default debug type (uses debugpy behind the scenes)
+      "request": "launch",
+      "module": "streamlit",       // runs "python -m streamlit …"
+      "args": [
+        "run",
+        "${file}",                 // the current file in the editor
+        "--server.port",
+        "8501"                     // or any port you prefer
+      ],
+      "console": "integratedTerminal",
+      "justMyCode": true           // optional: skip stepping into library code
+    },
+    {
+      "name": "Python: Streamlit UI Index",
+      "type": "python",
+      "request": "launch",
+      "module": "streamlit",
+      "args": [
+        "run",
+        "${workspaceFolder}/src/ui/index.py",   // Directly specify the path to index.py
+        "--server.port",
+        "8502"                     // Using a different port to avoid conflicts
+      ],
+      "console": "integratedTerminal",
+      "justMyCode": false,         // Set to false to debug into library code if needed
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"  // Ensure the workspace is in the Python path
+      }
+    },
+    {
+      "name": "Python: Run Pipeline Fast",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/run_pipeline_fast.py",  
+      "args": [
+        "--model", 
+        "gpt-4.1-mini"
+      ],
+      "console": "integratedTerminal",
+      "justMyCode": false,
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      }
+    }
+  ]
+}

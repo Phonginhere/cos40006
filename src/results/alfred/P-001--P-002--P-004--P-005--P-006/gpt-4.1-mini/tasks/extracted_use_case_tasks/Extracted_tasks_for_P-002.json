@@ -1,0 +1,212 @@
+[
+  {
+    "taskID": "TASK-033",
+    "useCaseId": "UC-002",
+    "personaId": "P-002",
+    "taskDescription": "Activates ALFRED to explore new features"
+  },
+  {
+    "taskID": "TASK-067",
+    "useCaseId": "UC-003",
+    "personaId": "P-002",
+    "taskDescription": "Share health data openly with her informal caregiver Sarah"
+  },
+  {
+    "taskID": "TASK-068",
+    "useCaseId": "UC-003",
+    "personaId": "P-002",
+    "taskDescription": "Set cautious limits on medical staff’s access to her health data"
+  },
+  {
+    "taskID": "TASK-070",
+    "useCaseId": "UC-003",
+    "personaId": "P-002",
+    "taskDescription": "Respond positively to video calls encouraging exercise participation"
+  },
+  {
+    "taskID": "TASK-071",
+    "useCaseId": "UC-003",
+    "personaId": "P-002",
+    "taskDescription": "Enjoy the freedom and independence enabled by ALFRED"
+  },
+  {
+    "taskID": "TASK-072",
+    "useCaseId": "UC-003",
+    "personaId": "P-002",
+    "taskDescription": "Value privacy outside of hospital contexts"
+  },
+  {
+    "taskID": "TASK-073",
+    "useCaseId": "UC-003",
+    "personaId": "P-002",
+    "taskDescription": "Use ALFRED to maintain social connections and emotional engagement"
+  },
+  {
+    "taskID": "TASK-086",
+    "useCaseId": "UC-004",
+    "personaId": "P-002",
+    "taskDescription": "Use ALFRED as a supportive companion for staying active and socially connected"
+  },
+  {
+    "taskID": "TASK-088",
+    "useCaseId": "UC-004",
+    "personaId": "P-002",
+    "taskDescription": "Enjoy the presence of ALFRED throughout the day"
+  },
+  {
+    "taskID": "TASK-090",
+    "useCaseId": "UC-004",
+    "personaId": "P-002",
+    "taskDescription": "Value autonomy and continuous connection provided by ALFRED"
+  },
+  {
+    "taskID": "TASK-171",
+    "useCaseId": "UC-007",
+    "personaId": "P-002",
+    "taskDescription": "Interact with ALFRED using voice commands to perform daily activities"
+  },
+  {
+    "taskID": "TASK-174",
+    "useCaseId": "UC-007",
+    "personaId": "P-002",
+    "taskDescription": "Respond to persistent reminders for exercises and health checks"
+  },
+  {
+    "taskID": "TASK-177",
+    "useCaseId": "UC-007",
+    "personaId": "P-002",
+    "taskDescription": "Experience guilt when caregivers receive notifications late at night"
+  },
+  {
+    "taskID": "TASK-274",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Accepts voice reminders from ALFRED to start physical and cognitive exercises"
+  },
+  {
+    "taskID": "TASK-275",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Follows challenging workout prompts given by ALFRED"
+  },
+  {
+    "taskID": "TASK-277",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Feels motivated by the system pushing her to improve her health"
+  },
+  {
+    "taskID": "TASK-278",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Experiences mixed feelings about losing some control over exercise scheduling"
+  },
+  {
+    "taskID": "TASK-279",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Enjoys the social engagement features to reduce loneliness"
+  },
+  {
+    "taskID": "TASK-280",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Responds happily to ALFRED’s exercise prompts"
+  },
+  {
+    "taskID": "TASK-281",
+    "useCaseId": "UC-011",
+    "personaId": "P-002",
+    "taskDescription": "Reflects briefly on the system’s insistence on forcing activities even when wanting rest"
+  },
+  {
+    "taskID": "TASK-342",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Tells ALFRED to start the health check-in"
+  },
+  {
+    "taskID": "TASK-343",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Wears wearable devices to track vital signs"
+  },
+  {
+    "taskID": "TASK-344",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Chooses to postpone challenging exercises after health check-in"
+  },
+  {
+    "taskID": "TASK-345",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Asks ALFRED detailed questions about heart rate trends"
+  },
+  {
+    "taskID": "TASK-346",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Requests explanations about health data in a clear way"
+  },
+  {
+    "taskID": "TASK-347",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Lets ALFRED activate automatically if health condition changes suddenly"
+  },
+  {
+    "taskID": "TASK-348",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Uses ALFRED to make a video call with her daughter"
+  },
+  {
+    "taskID": "TASK-349",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Shares her health progress during video calls"
+  },
+  {
+    "taskID": "TASK-350",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Negotiates with ALFRED to set reminders for healthcare appointments"
+  },
+  {
+    "taskID": "TASK-351",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Balances between accepting ALFRED's support and keeping personal freedom"
+  },
+  {
+    "taskID": "TASK-352",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Feels curious about managing her health better with ALFRED’s help"
+  },
+  {
+    "taskID": "TASK-353",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Wants ALFRED to respect her choices and not be too pushy"
+  },
+  {
+    "taskID": "TASK-354",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Feels concerned about becoming too dependent on ALFRED’s prompts"
+  },
+  {
+    "taskID": "TASK-355",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Appreciates natural and easy communication with ALFRED"
+  },
+  {
+    "taskID": "TASK-356",
+    "useCaseId": "UC-014",
+    "personaId": "P-002",
+    "taskDescription": "Prefers flexible timing for receiving support and reminders"
+  }
+]

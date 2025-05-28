@@ -143,19 +143,6 @@
     "cluster": "Security, Privacy & Reliability"
   },
   {
-    "id": "US-021",
-    "title": "Rigid Consent Enforcement",
-    "persona": "P-001",
-    "user_group": "Developers and App Creators",
-    "task": "Creates rigid consent enforcement with little flexibility",
-    "use_case": "UC-007",
-    "priority": 2,
-    "summary": "As a developer, I want ALFRED to enforce strict consent rules for caregiver data sharing, so that user privacy is fully protected.",
-    "pillar": "General Requirements",
-    "type": "Non-Functional",
-    "cluster": "Security, Privacy & Reliability"
-  },
-  {
     "id": "US-022",
     "title": "Remote Backend Updates",
     "persona": "P-001",
@@ -169,32 +156,6 @@
     "cluster": "API Integration & Development Support"
   },
   {
-    "id": "US-025",
-    "title": "Secure Data Handling in Apps",
-    "persona": "P-001",
-    "user_group": "Developers and App Creators",
-    "task": "Implements security measures to protect user data in his apps",
-    "use_case": "UC-010",
-    "priority": 2,
-    "summary": "As a developer, I want to enforce strict privacy controls with authorized data sharing to protect user data securely.",
-    "pillar": "General Requirements",
-    "type": "Non-Functional",
-    "cluster": "Security, Privacy & Reliability"
-  },
-  {
-    "id": "US-028",
-    "title": "Monitor user feedback and settings",
-    "persona": "P-001",
-    "user_group": "Developers and App Creators",
-    "task": "Monitors user feedback and settings related to app installation",
-    "use_case": "UC-010",
-    "priority": 2,
-    "summary": "As a developer, I want to forcibly monitor user feedback and app settings continuously, so I can control app deployment and enforce usage.",
-    "pillar": "Developer Core",
-    "type": "Functional",
-    "cluster": "Backend Updates"
-  },
-  {
     "id": "US-029",
     "title": "Override User App Installation Preferences",
     "persona": "P-001",
@@ -206,19 +167,6 @@
     "pillar": "Developer Core",
     "type": "Functional",
     "cluster": "App Security"
-  },
-  {
-    "id": "US-034",
-    "title": "Force app installation without consent",
-    "persona": "P-001",
-    "user_group": "Developers and App Creators",
-    "task": "Forces installation of essential apps on user devices without consent",
-    "use_case": "UC-011",
-    "priority": 2,
-    "summary": "As a developer, I want to install apps on users' devices only with user consent or in emergencies, so healthcare features are available without violating privacy.",
-    "pillar": "Developer Core",
-    "type": "Functional",
-    "cluster": "Consent Enforcement"
   },
   {
     "id": "US-035",
@@ -245,32 +193,6 @@
     "pillar": "General Requirements",
     "type": "Non-Functional",
     "cluster": "Security, Privacy & Reliability"
-  },
-  {
-    "id": "US-037",
-    "title": "Monitor App Compliance and Usage",
-    "persona": "P-001",
-    "user_group": "Developers and App Creators",
-    "task": "Monitors system compliance with strict data sharing and notification rules",
-    "use_case": "UC-011",
-    "priority": 3,
-    "summary": "As a developer, I want to monitor app compliance and usage continuously to enforce strict control and fix issues quickly.",
-    "pillar": "Developer Core",
-    "type": "Functional",
-    "cluster": "Backend Updates"
-  },
-  {
-    "id": "US-045",
-    "title": "Enforce Notification Policy Review",
-    "persona": "P-001",
-    "user_group": "Developers and App Creators",
-    "task": "Reviews and enforces ALFRED's notification policies",
-    "use_case": "UC-015",
-    "priority": 2,
-    "summary": "As a developer, I want to enforce strict notification delivery only in emergencies or with user consent override, so urgent alerts are always delivered when needed.",
-    "pillar": "General Requirements",
-    "type": "Functional",
-    "cluster": "Consent Enforcement"
   },
   {
     "id": "US-047",

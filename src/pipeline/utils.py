@@ -289,8 +289,10 @@ class Utils:
         self.SYSTEM_NAME = "alfred"
 
         self.LLM_RESPONSE_LANGUAGE_PROFICIENCY_LEVEL_PATH = os.path.join("data", "llm_response_language_proficiency_level.txt")
-        
-        self.ROOT_DATA_DIR = os.path.join("data", self.SYSTEM_NAME)
+
+        self.DATA_DIR = os.path.join("data")
+
+        self.ROOT_DATA_DIR = os.path.join(self.DATA_DIR, self.SYSTEM_NAME)
 
         self.SYSTEM_SUMMARY_PATH = os.path.join(self.ROOT_DATA_DIR, "system_summary.txt")
         self.USER_GROUPS_DIR = os.path.join(self.ROOT_DATA_DIR, "user_groups")
@@ -379,6 +381,26 @@ class Utils:
 
         self.USER_STORY_CONFLICT_VERIFICATION_ANALYSIS_BY_HUMAN_CSV_FILE_PATH = os.path.join(self.USER_STORY_CONFLICT_VERIFYING_ANALYSIS_DIR_PATH, "needed_human_check", "user_story_conflict_verification_analysis_by_human.csv")
         self.USER_STORY_CONFLICT_RESOLUTION_ANALYSIS_BY_HUMAN_CSV_FILE_PATH = os.path.join(self.USER_STORY_CONFLICT_VERIFYING_ANALYSIS_DIR_PATH, "needed_human_check", "user_story_conflict_resolution_analysis_by_human.csv")
+
+    def refresh_result_paths_for_ui(self, persona_abbr: str):
+        """
+        Refresh all internal result paths using the current SYSTEM_NAME, CURRENT_LLM, and provided persona abbreviation.
+        """
+        self.ROOT_RESULTS_DIR = os.path.join(self.RESULTS_DIR, self.SYSTEM_NAME, persona_abbr, self.CURRENT_LLM)
+
+        self.USE_CASE_DIR = os.path.join(self.ROOT_RESULTS_DIR, "use_cases")
+        self.TASK_DIR = os.path.join(self.ROOT_RESULTS_DIR, "tasks")
+        self.UNIQUE_EXTRACTED_USE_CASE_TASKS_DIR = os.path.join(self.TASK_DIR, "unique_extracted_use_case_tasks")
+        self.DUPLICATED_UNIQUE_EXTRACTED_USE_CASE_TASKS_DIR = os.path.join(self.TASK_DIR, "duplicated_extracted_use_case_tasks")
+
+        self.USER_STORY_DIR_PATH = os.path.join(self.ROOT_RESULTS_DIR, "user_stories")
+        self.UNIQUE_USER_STORY_DIR_PATH = os.path.join(self.USER_STORY_DIR_PATH, "unique_user_stories")
+        self.DUPLICATED_USER_STORY_DIR_PATH = os.path.join(self.USER_STORY_DIR_PATH, "duplicated_user_stories")
+        self.FUNCTIONAL_USER_STORY_CLUSTER_SET_PATH = os.path.join(self.ROOT_RESULTS_DIR, "functional_user_story_cluster_set.json")
+
+        self.CONFLICTS_DIR = os.path.join(self.ROOT_RESULTS_DIR, "user_story_conflicts")
+        self.USER_STORY_CONFLICT_WITHIN_ONE_GROUP_DIR = os.path.join(self.CONFLICTS_DIR, "conflicts_within_one_group")
+        self.USER_STORY_CONFLICT_ACROSS_TWO_GROUPS_DIR = os.path.join(self.CONFLICTS_DIR, "conflicts_across_two_groups")
 
     # ===============================
     # Loaders and helpers below...
@@ -649,3 +671,18 @@ class Utils:
             return self.get_openai_response(prompt, model=self.CURRENT_LLM)
         else:
             raise NotImplementedError(f"❌ LLM '{self.CURRENT_LLM}' is not supported yet.")
+        
+    def test_llm_response(self) -> Optional[str]:
+        """
+        Test the LLM response with a simple prompt.
+        Returns the response or None if an error occurs.
+        """
+        test_prompt = "I am testing the API connection. Strictly, please respond with 'successful'"
+        try:
+            response = self.get_llm_response(test_prompt)
+            if response == "successful":
+                return "✅ API connection test successful."
+            else:
+                return "❌ No response from LLM."
+        except Exception as e:
+            return f"❌ Error during LLM test: {e}"

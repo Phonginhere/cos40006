@@ -65,19 +65,6 @@
     "cluster": "Security, Privacy & Reliability"
   },
   {
-    "id": "US-072",
-    "title": "Reject New App Suggestions",
-    "persona": "P-005",
-    "user_group": "Older Adults",
-    "task": "Rejects new app suggestions and additional features",
-    "use_case": "UC-008",
-    "priority": 2,
-    "summary": "As an older adult, I want to block all new app suggestions and features, so I do not feel overwhelmed or forced to change.",
-    "pillar": "General Requirements",
-    "type": "Non-Functional",
-    "cluster": "Accessibility & Physical Usability"
-  },
-  {
     "id": "US-073",
     "title": "Control Formal Communication Only",
     "persona": "P-005",
@@ -102,19 +89,6 @@
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "type": "Non-Functional",
     "cluster": "Personalized Social Inclusion"
-  },
-  {
-    "id": "US-076",
-    "title": "Silent Mode Without Explanations",
-    "persona": "P-005",
-    "user_group": "Older Adults",
-    "task": "Avoids unsolicited explanations or suggestions from ALFRED",
-    "use_case": "UC-010",
-    "priority": 2,
-    "summary": "As an older adult, I want ALFRED to stay silent without any explanations or suggestions unless I ask, so I feel safe and not overwhelmed.",
-    "pillar": "General Requirements",
-    "type": "Non-Functional",
-    "cluster": "Accessibility & Physical Usability"
   },
   {
     "id": "US-078",

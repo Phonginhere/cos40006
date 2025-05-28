@@ -111,7 +111,7 @@
     "task": "Balances eagerness to push physical limits with managing alert overload",
     "use_case": "UC-014",
     "priority": 2,
-    "summary": "As an older person who likes challenges, I want ALFRED to send motivating alerts at a comfortable pace, so I stay engaged without feeling overwhelmed.",
+    "summary": "As an older adult, I want ALFRED to send alerts at a comfortable pace so I stay motivated without stress.",
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "type": "Functional",
     "cluster": "Notification Control"

@@ -1,7 +1,7 @@
 [
   {
     "conflictType": "Start-Forbid",
-    "conflictDescription": "User Story A wants ALFRED to force voice reminders even if users do not want them, while User Story B wants ALFRED to activate automatically to support health without the user needing to ask. The conflict is about when and how ALFRED should start voice interactions, with one forcing reminders regardless of user desire and the other expecting automatic activation for support. These are opposing instructions on system behavior for voice activation.",
+    "conflictDescription": "User Story A wants ALFRED to force voice reminders even if users do not want them, while User Story B wants ALFRED to activate automatically to support health without user request. The conflict is on the system behavior about voice activation: one forces reminders regardless of user consent, and the other expects automatic activation to support users proactively. These are opposite expectations on voice activation control.",
     "conflictId": "FCAT-001",
     "personaAId": "P-001",
     "personaBId": "P-002",
@@ -15,8 +15,8 @@
   },
   {
     "conflictType": "Start-Forbid",
-    "conflictDescription": "User Story A requires all meetings to be held online without exceptions, while User Story B needs online meetings specifically to invite caregivers to exercise sessions. Although both want online meetings, User Story A forbids any other type of meeting, which may conflict with potential offline or hybrid meetings desired for other purposes.",
-    "conflictId": "FCAT-070",
+    "conflictDescription": "User Story A wants all meetings to be online without exceptions, while User Story B requires inviting caregivers to virtual exercise sessions, implying some meetings can be non-online or flexible. This creates opposite expectations about holding only online meetings.",
+    "conflictId": "FCAT-060",
     "personaAId": "P-001",
     "personaBId": "P-002",
     "userGroupA": "Developers and App Creators",

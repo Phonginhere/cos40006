@@ -1,4 +1,6 @@
 import sys
+import os
+import io
 import time
 import random
 
@@ -31,6 +33,8 @@ from pipeline.user_story_conflict.functional_user_story_conflict_within_one_grou
 from pipeline.user_story_conflict.functional_user_story_conflict_within_one_group_resolver import resolve_functional_conflicts_within_one_group
 from pipeline.user_story_conflict.functional_user_story_conflict_across_two_groups_identifier import identify_functional_conflicts_across_two_groups
 from pipeline.user_story_conflict.functional_user_story_conflict_across_two_groups_resolver import resolve_functional_conflicts_across_two_groups
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 def main():
     # Step 1: Load user personas

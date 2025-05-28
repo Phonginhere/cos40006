@@ -142,5 +142,23 @@
     "resolutionDescription": "We apply a contextual policy layer that allows manual data sharing control by caregivers with user consent, while enabling older adults to set preferences for selective real-time data sharing. This balances privacy and timely health updates.",
     "newUserStoryASummary": "As an informal caregiver, I want to share client data only with their consent to protect privacy and trust.",
     "newUserStoryBSummary": "As an older person, I want to share selected health data in real time with my caregiver to keep them informed."
+  },
+  {
+    "conflictType": "Two Operation Frequencies Conflict",
+    "conflictDescription": "User Story A wants ALFRED to show urgent needs clearly and quickly for fast action, while User Story B wants alerts at a comfortable, motivating pace to avoid feeling overwhelmed. These specify different alert frequencies that cannot be fully satisfied together under the same conditions.",
+    "conflictId": "FCAT-045",
+    "personaAId": "P-006",
+    "personaBId": "P-002",
+    "userGroupA": "Caregivers and Medical Staff",
+    "userGroupB": "Older Adults",
+    "userStoryAId": "US-122",
+    "userStoryBId": "US-060",
+    "userStoryASummary": "As an informal caregiver, I want ALFRED to show urgent needs clearly so I can act fast without losing focus.",
+    "userStoryBSummary": "As an older person who likes challenges, I want ALFRED to send motivating alerts at a comfortable pace, so I stay engaged without feeling overwhelmed.",
+    "cluster": "Notification Control",
+    "generalResolutionType": "1. Update both user stories",
+    "resolutionDescription": "Both user stories are updated to allow configurable alert frequencies. The caregiver receives urgent alerts for fast action, while the older adult receives motivating alerts at a comfortable pace. The system adapts alert timing based on user preferences and context.",
+    "newUserStoryASummary": "As a caregiver, I want ALFRED to show urgent alerts quickly so I can respond fast when needed.",
+    "newUserStoryBSummary": "As an older adult, I want ALFRED to send alerts at a comfortable pace so I stay motivated without stress."
   }
 ]

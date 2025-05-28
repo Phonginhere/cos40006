@@ -7,14 +7,14 @@
     "task": "Update ALFRED’s consent management module remotely",
     "use_case": "UC-006",
     "priority": 2,
-    "summary": "As a developer, I want to update ALFRED’s consent module remotely without asking users, so I can keep control and make sure privacy rules are followed.",
+    "summary": "As a developer, I want to update the consent module remotely with caregiver approval and notification to keep privacy rules current and respected.",
     "pillar": "General Requirements",
     "type": "Non-Functional",
     "cluster": "Security, Privacy & Reliability",
     "decomposition": [
-      "Allow remote update of the consent module without user permission",
-      "Ensure developers control the update process of the consent module",
-      "Maintain compliance with privacy rules during remote updates"
+      "Allow remote update of the consent module",
+      "Require caregiver approval before updating the consent module",
+      "Notify caregiver when the consent module is updated"
     ]
   },
   {
@@ -25,31 +25,14 @@
     "task": "Implements automated enforcement of consent policies",
     "use_case": "UC-007",
     "priority": 2,
-    "summary": "As a developer, I want ALFRED to enforce consent policies automatically to keep caregiver workflows secure without asking users.",
+    "summary": "As a developer, I want ALFRED to enforce consent policies automatically with minimal user prompts and allow caregiver overrides, so the system stays secure and user-friendly.",
     "pillar": "General Requirements",
     "type": "Non-Functional",
     "cluster": "Security, Privacy & Reliability",
     "decomposition": [
-      "Automatically apply consent policies without user prompts",
-      "Ensure caregiver workflows stay secure through policy enforcement"
-    ]
-  },
-  {
-    "id": "US-021",
-    "title": "Rigid Consent Enforcement",
-    "persona": "P-001",
-    "user_group": "Developers and App Creators",
-    "task": "Creates rigid consent enforcement with little flexibility",
-    "use_case": "UC-007",
-    "priority": 2,
-    "summary": "As a developer, I want ALFRED to enforce consent rules strictly without exceptions, so caregiver tasks are always done right.",
-    "pillar": "General Requirements",
-    "type": "Non-Functional",
-    "cluster": "Security, Privacy & Reliability",
-    "decomposition": [
-      "Enforce all consent rules without exceptions",
-      "Prevent caregiver tasks if consent is not given",
-      "Ensure caregiver tasks always follow consent rules"
+      "Automatically enforce user consent policies with minimal prompts",
+      "Allow caregivers to override consent settings when needed",
+      "Ensure system stays secure while being easy to use"
     ]
   },
   {
@@ -65,26 +48,9 @@
     "type": "Non-Functional",
     "cluster": "API Integration & Development Support",
     "decomposition": [
-      "Allow remote updates to the backend system",
+      "Allow remote updates of the backend system",
       "Ensure updates are simple to perform",
-      "Keep the system stable during and after updates"
-    ]
-  },
-  {
-    "id": "US-025",
-    "title": "Secure Data Handling in Apps",
-    "persona": "P-001",
-    "user_group": "Developers and App Creators",
-    "task": "Implements security measures to protect user data in his apps",
-    "use_case": "UC-010",
-    "priority": 2,
-    "summary": "As a developer, I want to enforce strict security and privacy controls in my apps to protect user data according to my conservative approach.",
-    "pillar": "General Requirements",
-    "type": "Non-Functional",
-    "cluster": "Security, Privacy & Reliability",
-    "decomposition": [
-      "Enforce strict security controls to protect user data in apps",
-      "Apply strong privacy measures according to conservative developer approach"
+      "Control updates to keep the system stable and maintainable"
     ]
   },
   {
@@ -101,7 +67,7 @@
     "cluster": "Security, Privacy & Reliability",
     "decomposition": [
       "All system update meetings must be held online",
-      "No exceptions are allowed for in-person or other meeting types",
+      "No exceptions are allowed for online meetings",
       "Online meetings ensure controlled and consistent collaboration"
     ]
   },
@@ -120,7 +86,7 @@
     "decomposition": [
       "All update meetings must be held online",
       "No exceptions allowed for offline meetings",
-      "Online meetings must support consistent and efficient collaboration"
+      "Online meetings must support consistent collaboration"
     ]
   },
   {
@@ -137,8 +103,8 @@
     "cluster": "Marketplace & Interface Experience",
     "decomposition": [
       "All meetings about system updates must be held online",
-      "No exceptions are allowed for holding meetings offline",
-      "Online meetings should support consistent and efficient collaboration"
+      "No in-person meetings are allowed for system updates",
+      "Online meetings must support consistent and efficient collaboration"
     ]
   },
   {
@@ -154,9 +120,9 @@
     "type": "Non-Functional",
     "cluster": "User-Driven Interaction Assistant",
     "decomposition": [
-      "Provide detailed explanations of ALFRED features upon request",
-      "Ensure explanations are clear and easy to understand",
-      "Support learning by allowing repeated or step-by-step feature explanations"
+      "Provide detailed explanations of ALFRED's features upon request",
+      "Use clear and simple language suitable for older adults",
+      "Ensure explanations help users learn how to use ALFRED well"
     ]
   },
   {
@@ -172,9 +138,9 @@
     "type": "Non-Functional",
     "cluster": "Accessibility & Physical Usability",
     "decomposition": [
-      "Send no notifications unless the user asks",
-      "Avoid overwhelming the user with notifications",
-      "Allow the user to keep full control over notifications"
+      "Send notifications only when the user requests them",
+      "Avoid sending unsolicited or automatic notifications",
+      "Allow the user to control notification settings fully"
     ]
   },
   {
@@ -185,14 +151,14 @@
     "task": "Chooses to decline participation in interactive simulation sessions",
     "use_case": "UC-005",
     "priority": 1,
-    "summary": "As an older adult, I want to block all data sharing with everyone, including doctors and family, to keep my privacy fully safe.",
+    "summary": "As an older adult, I want to control data sharing with doctors and family via clear consent, ensuring privacy on shared devices.",
     "pillar": "General Requirements",
     "type": "Non-Functional",
     "cluster": "Security, Privacy & Reliability",
     "decomposition": [
-      "Block all personal data sharing with doctors",
-      "Block all personal data sharing with family",
-      "Ensure no data is shared with any other parties"
+      "Allow user to give clear consent before sharing data with doctors and family",
+      "Ensure privacy of user data when shared on devices used by others",
+      "Give user control to decide what data is shared and with whom"
     ]
   },
   {
@@ -208,27 +174,9 @@
     "type": "Non-Functional",
     "cluster": "Security, Privacy & Reliability",
     "decomposition": [
-      "ALFRED should listen only when the talk button is pressed",
-      "ALFRED must not respond to voice commands without button press",
-      "User control over ALFRED's listening state to prevent unwanted use"
-    ]
-  },
-  {
-    "id": "US-072",
-    "title": "Reject New App Suggestions",
-    "persona": "P-005",
-    "user_group": "Older Adults",
-    "task": "Rejects new app suggestions and additional features",
-    "use_case": "UC-008",
-    "priority": 2,
-    "summary": "As an older adult, I want to block all new app suggestions and features, so I do not feel overwhelmed or forced to change.",
-    "pillar": "General Requirements",
-    "type": "Non-Functional",
-    "cluster": "Accessibility & Physical Usability",
-    "decomposition": [
-      "Block all new app suggestions from appearing",
-      "Prevent automatic introduction of new features",
-      "Avoid making the user feel forced to change"
+      "ALFRED listens only after the talk button is pressed",
+      "ALFRED does not respond to voice commands without button press",
+      "User feels safe from unwanted listening or activation"
     ]
   },
   {
@@ -262,27 +210,9 @@
     "type": "Non-Functional",
     "cluster": "Personalized Social Inclusion",
     "decomposition": [
-      "Send very few social nudges or suggestions",
-      "Avoid causing feelings of being overwhelmed",
-      "Help the user feel calm during interaction"
-    ]
-  },
-  {
-    "id": "US-076",
-    "title": "Silent Mode Without Explanations",
-    "persona": "P-005",
-    "user_group": "Older Adults",
-    "task": "Avoids unsolicited explanations or suggestions from ALFRED",
-    "use_case": "UC-010",
-    "priority": 2,
-    "summary": "As an older adult, I want ALFRED to stay silent without any explanations or suggestions unless I ask, so I feel safe and not overwhelmed.",
-    "pillar": "General Requirements",
-    "type": "Non-Functional",
-    "cluster": "Accessibility & Physical Usability",
-    "decomposition": [
-      "ALFRED stays silent unless the user asks for information",
-      "ALFRED does not give explanations without user request",
-      "ALFRED does not offer suggestions unless asked"
+      "Send very few social nudges to the user",
+      "Avoid sending social suggestions that cause user stress or overwhelm",
+      "Keep social notifications calm and minimal"
     ]
   },
   {
@@ -298,9 +228,9 @@
     "type": "Non-Functional",
     "cluster": "Effective & Personalized Care",
     "decomposition": [
-      "Do not allow video calls with nurses.",
-      "Only support in-person nurse visits.",
-      "Protect user privacy during nurse interactions."
+      "Do not allow nurse visits by video call",
+      "Only allow in-person nurse visits",
+      "Protect user privacy during nurse visits"
     ]
   },
   {
@@ -316,9 +246,9 @@
     "type": "Non-Functional",
     "cluster": "Personalized Social Inclusion",
     "decomposition": [
-      "Ensure all messages with family use formal language",
-      "Maintain politeness in all family communications",
-      "Keep all family messages healthy and respectful"
+      "Ensure all messages with family use polite language",
+      "Maintain a formal tone in family communications",
+      "Prevent informal or disrespectful content in family messages"
     ]
   },
   {
@@ -329,32 +259,14 @@
     "task": "Adjusts privacy settings to limit data sharing for clients",
     "use_case": "UC-001",
     "priority": 2,
-    "summary": "As an informal caregiver, I want to decide myself when to share each client's data to protect their privacy and keep control.",
+    "summary": "As an informal caregiver, I want to request data sharing with user consent, so that privacy is respected and care is coordinated.",
     "pillar": "General Requirements",
     "type": "Non-Functional",
     "cluster": "Security, Privacy & Reliability",
     "decomposition": [
-      "The informal caregiver can choose when to share each client's data",
-      "The system must protect client privacy by honoring the caregiver's sharing decisions",
-      "The caregiver maintains control over data sharing actions for each client"
-    ]
-  },
-  {
-    "id": "US-083",
-    "title": "Respect Client Consent for Communication",
-    "persona": "P-006",
-    "user_group": "Caregivers and Medical Staff",
-    "task": "Respects clients’ wishes to decline certain system interactions",
-    "use_case": "UC-001",
-    "priority": 2,
-    "summary": "As an informal caregiver, I want to communicate with clients only when they agree, so I respect their privacy and comfort.",
-    "pillar": "General Requirements",
-    "type": "Non-Functional",
-    "cluster": "Security, Privacy & Reliability",
-    "decomposition": [
-      "Only communicate with clients after they give consent",
-      "Respect clients' privacy in all communication",
-      "Avoid contacting clients without their agreement"
+      "Allow informal caregiver to request data sharing",
+      "Require user consent before sharing data",
+      "Ensure privacy is respected during data sharing"
     ]
   },
   {
@@ -365,14 +277,14 @@
     "task": "Log into the ALFRED caregiver dashboard to manage multiple clients",
     "use_case": "UC-006",
     "priority": 2,
-    "summary": "As an informal caregiver, I want to control ALFRED’s data use on shared devices at home, so I can protect my clients’ privacy and avoid mix-ups.",
+    "summary": "As a caregiver, I want to set data use rules on shared devices with user consent prompts, so I can protect privacy and avoid confusion.",
     "pillar": "General Requirements",
     "type": "Non-Functional",
     "cluster": "Security, Privacy & Reliability",
     "decomposition": [
-      "Allow informal caregiver to set data use rules on shared devices",
-      "Prevent data mix-ups between different users on shared devices",
-      "Protect clients' privacy when ALFRED is used on shared devices"
+      "Allow caregivers to set rules for data use on shared devices",
+      "Require user consent prompts before data use on shared devices",
+      "Protect user privacy by enforcing data use rules on shared devices"
     ]
   }
 ]

@@ -1,8 +1,8 @@
 [
   {
     "conflictType": "Start-Forbid",
-    "conflictDescription": "User Story A wants caregivers to join virtual exercise sessions with clients, implying meetings should be open for them. User Story B requires all developer meetings to be online without exceptions, implying control over meeting access, which may forbid open joining by caregivers. These opposite expectations on meeting access create a conflict.",
-    "conflictId": "FCAT-069",
+    "conflictDescription": "User Story A expects caregivers to join virtual exercise sessions with clients, while User Story B requires all developer meetings to be held online without exceptions, which may forbid or restrict in-person or mixed meeting formats. This creates opposite instructions about how meetings or sessions should be conducted.",
+    "conflictId": "FCAT-059",
     "personaAId": "P-006",
     "personaBId": "P-001",
     "userGroupA": "Caregivers and Medical Staff",

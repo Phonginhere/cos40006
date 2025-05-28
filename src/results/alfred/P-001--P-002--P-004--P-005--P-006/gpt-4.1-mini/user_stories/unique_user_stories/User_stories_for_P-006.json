@@ -39,19 +39,6 @@
     "cluster": "Security, Privacy & Reliability"
   },
   {
-    "id": "US-083",
-    "title": "Respect Client Consent for Communication",
-    "persona": "P-006",
-    "user_group": "Caregivers and Medical Staff",
-    "task": "Respects clients’ wishes to decline certain system interactions",
-    "use_case": "UC-001",
-    "priority": 2,
-    "summary": "As an informal caregiver, I want to communicate with clients only after they give clear consent, so I respect their privacy.",
-    "pillar": "General Requirements",
-    "type": "Non-Functional",
-    "cluster": "Security, Privacy & Reliability"
-  },
-  {
     "id": "US-084",
     "title": "Control Notifications by Client",
     "persona": "P-006",
@@ -60,19 +47,6 @@
     "use_case": "UC-001",
     "priority": 2,
     "summary": "As an informal caregiver, I want to manage notifications with the older person's consent, so I can avoid overload and respect their wishes.",
-    "pillar": "General Requirements",
-    "type": "Functional",
-    "cluster": "Notification Control"
-  },
-  {
-    "id": "US-085",
-    "title": "Manage Notifications for Multiple Clients",
-    "persona": "P-006",
-    "user_group": "Caregivers and Medical Staff",
-    "task": "Receive notifications about changes in Elena’s health data sharing preferences",
-    "use_case": "UC-003",
-    "priority": 2,
-    "summary": "As an informal caregiver, I want to see clear notifications with user consent, so I can care well without overload.",
     "pillar": "General Requirements",
     "type": "Functional",
     "cluster": "Notification Control"
@@ -141,19 +115,6 @@
     "pillar": "Pillar 4 - Physical & Cognitive Impairments Prevention",
     "type": "Functional",
     "cluster": "(Unclustered)"
-  },
-  {
-    "id": "US-093",
-    "title": "Manage shared device use in homes",
-    "persona": "P-006",
-    "user_group": "Caregivers and Medical Staff",
-    "task": "Ensures privacy settings for each client are properly applied",
-    "use_case": "UC-005",
-    "priority": 2,
-    "summary": "As an informal caregiver, I want to control ALFRED on shared devices in clients' homes to protect privacy and avoid mixing information.",
-    "pillar": "General Requirements",
-    "type": "Functional",
-    "cluster": "Shared Device Privacy"
   },
   {
     "id": "US-094",
@@ -312,19 +273,6 @@
     "cluster": "Notification Control"
   },
   {
-    "id": "US-113",
-    "title": "Manage client data access in shared homes",
-    "persona": "P-006",
-    "user_group": "Caregivers and Medical Staff",
-    "task": "Adjusts sensor data sharing settings for clients to reduce information overload",
-    "use_case": "UC-008",
-    "priority": 2,
-    "summary": "As an informal caregiver, I want to switch client profiles easily on shared devices to keep each client's data private and avoid mistakes in homes.",
-    "pillar": "General Requirements",
-    "type": "Functional",
-    "cluster": "Shared Device Privacy"
-  },
-  {
     "id": "US-114",
     "title": "Encourage Client Autonomy in Therapy",
     "persona": "P-006",
@@ -397,7 +345,7 @@
     "task": "Balances attention between clients with different social and tech preferences",
     "use_case": "UC-009",
     "priority": 2,
-    "summary": "As an informal caregiver, I want ALFRED to show urgent needs clearly so I can act fast without losing focus.",
+    "summary": "As a caregiver, I want ALFRED to show urgent alerts quickly so I can respond fast when needed.",
     "pillar": "General Requirements",
     "type": "Functional",
     "cluster": "Notification Control"
@@ -424,19 +372,6 @@
     "use_case": "UC-013",
     "priority": 2,
     "summary": "As an informal caregiver, I want to control clients' social invitations, so I can protect their privacy and avoid too many requests.",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "type": "Functional",
-    "cluster": "Consent-Based Communication"
-  },
-  {
-    "id": "US-130",
-    "title": "Schedule Controlled Video Check-Ins",
-    "persona": "P-006",
-    "user_group": "Caregivers and Medical Staff",
-    "task": "Schedules video check-ins for clients who prefer controlled interactions",
-    "use_case": "UC-013",
-    "priority": 2,
-    "summary": "As an informal caregiver, I want to schedule video check-ins only with clients who agree, so I respect their privacy and comfort.",
     "pillar": "Pillar 2 - Personalized Social Inclusion",
     "type": "Functional",
     "cluster": "Consent-Based Communication"
@@ -518,19 +453,6 @@
     "pillar": "General Requirements",
     "type": "Functional",
     "cluster": "Notification Control"
-  },
-  {
-    "id": "US-137",
-    "title": "Manage Social Invitations from Clients",
-    "persona": "P-006",
-    "user_group": "Caregivers and Medical Staff",
-    "task": "Responds to social invitations from clients",
-    "use_case": "UC-015",
-    "priority": 2,
-    "summary": "As an informal caregiver, I want to decide how to respond to social invitations for my clients, so I can protect their wishes and avoid feeling too busy.",
-    "pillar": "Pillar 2 - Personalized Social Inclusion",
-    "type": "Functional",
-    "cluster": "Consent-Based Communication"
   },
   {
     "id": "US-138",

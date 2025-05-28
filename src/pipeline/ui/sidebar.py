@@ -1,69 +1,33 @@
-import streamlit as st
 import os
+import streamlit as st
+
 from pipeline.utils import Utils
 
-def sidebar_config():
+def sidebar():
+    st.sidebar.title("⚙️ Pipeline Configuration")
     utils = Utils()
 
-    with st.sidebar:
-        st.header("Configuration")
+    # SYSTEM_NAME selection from subfolders of data/
+    available_systems = sorted([
+        f for f in os.listdir(utils.DATA_DIR)
+        if os.path.isdir(os.path.join(utils.DATA_DIR, f))
+    ])
+    selected_system = st.sidebar.selectbox("Select System Name", available_systems, index=available_systems.index(utils.SYSTEM_NAME))
+    utils.SYSTEM_NAME = selected_system
 
-        # Load existing API key and sync to Utils.api_key
-        def load_existing_api_key():
-            try:
-                project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-                api_key_path = os.path.join(project_root, "api_key.txt")
-                if os.path.exists(api_key_path):
-                    with open(api_key_path, 'r') as f:
-                        return f.read().strip()
-                return ""
-            except Exception as e:
-                print(f"Error loading API key: {str(e)}")
-                return ""
+    # LLM model selection
+    model_options = ["gpt-4.1-mini", "gpt-4o-mini"]
+    selected_model = st.sidebar.selectbox("Select LLM Model", model_options, index=model_options.index(utils.CURRENT_LLM))
+    utils.CURRENT_LLM = selected_model
 
-        existing_api_key = load_existing_api_key()
-        api_key = st.text_input(
-            "API Key Input",
-            value=existing_api_key,
-            type="password",
-            help="Enter your OpenAI API key. It will be saved locally for future use."
-        )
-
-        # Update Utils.api_key if changed
-        if api_key and api_key != utils.api_key:
-            utils.api_key = api_key
-            # Save to file for persistence
-            try:
-                project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-                api_key_path = os.path.join(project_root, "api_key.txt")
-                with open(api_key_path, "w") as f:
-                    f.write(api_key)
-            except Exception as e:
-                st.error(f"Failed to save API key: {e}")
-            else:
-                st.success("✅ API key updated and saved.")
-
-        if utils.api_key:
-            st.info("API Key is ready to use.")
+    # API key input
+    st.sidebar.markdown("### 🔑 OpenAI API Key")
+    api_key_input = st.sidebar.text_input("Enter your OpenAI API key", type="password")
+    if api_key_input:
+        if utils.save_api_key(api_key_input):
+            st.sidebar.success("✅ API key saved successfully.")
         else:
-            st.warning("No API Key provided yet.")
+            st.sidebar.error("❌ Failed to save API key.")
 
-        st.markdown("---")
-
-        st.subheader("Model Selection")
-        model_options = ["gpt-4.1-mini", "gpt-4o-mini"]
-
-        # Use Utils.CURRENT_LLM for selection default
-        selected_model = st.selectbox(
-            "Select Model",
-            model_options,
-            index=model_options.index(utils.CURRENT_LLM) if utils.CURRENT_LLM in model_options else 0,
-            help="Choose the AI model to use."
-        )
-
-        # Update Utils.CURRENT_LLM on selection change
-        if selected_model != utils.CURRENT_LLM:
-            utils.CURRENT_LLM = selected_model
-
-        st.markdown("---")
-        # st.caption("App by AI")
+    st.sidebar.markdown("---")
+    st.sidebar.caption("Changes will update constants in Utils.")

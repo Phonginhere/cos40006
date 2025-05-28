@@ -1,29 +1,25 @@
 [
   {
     "conflictType": "Partial",
-    "conflictDescription": "The developer wants ALFRED to enforce consent policies automatically without asking users, which may include automatic listening or processing. The older adult wants to control when ALFRED listens by pressing a button, to prevent unwanted use. These goals conflict on how ALFRED listens and processes data.",
+    "conflictDescription": "The developer story wants ALFRED to enforce consent policies automatically with minimal user prompts, which may imply some automatic listening or processing. The older adult story wants ALFRED to listen only after the talk button is pressed, to avoid unwanted listening. These goals partly conflict because automatic enforcement might require ALFRED to listen or act without explicit button press, which the older adult wants to prevent.",
     "conflictingNfrPairs": [
       [
-        "Automatically apply consent policies without user prompts",
-        "User control over ALFRED's listening state to prevent unwanted use"
+        "Automatically enforce user consent policies with minimal prompts",
+        "ALFRED listens only after the talk button is pressed"
       ],
       [
-        "Automatically apply consent policies without user prompts",
-        "ALFRED should listen only when the talk button is pressed"
-      ],
-      [
-        "Automatically apply consent policies without user prompts",
-        "ALFRED must not respond to voice commands without button press"
+        "Automatically enforce user consent policies with minimal prompts",
+        "ALFRED does not respond to voice commands without button press"
       ]
     ],
-    "conflictId": "NFCAT-014",
+    "conflictId": "NFCAT-004",
     "personaAId": "P-001",
     "personaBId": "P-005",
     "userGroupA": "Developers and App Creators",
     "userGroupB": "Older Adults",
     "userStoryAId": "US-017",
     "userStoryBId": "US-071",
-    "userStoryASummary": "As a developer, I want ALFRED to enforce consent policies automatically to keep caregiver workflows secure without asking users.",
+    "userStoryASummary": "As a developer, I want ALFRED to enforce consent policies automatically with minimal user prompts and allow caregiver overrides, so the system stays secure and user-friendly.",
     "userStoryBSummary": "As an older adult, I want ALFRED to respond only when I press the talk button, so I control when it listens and feel safe from unwanted use.",
     "cluster": "Security, Privacy & Reliability"
   }

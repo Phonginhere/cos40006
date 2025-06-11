@@ -12,7 +12,7 @@ jobs:
       - name: 🤗 Sync to Space
         uses: nateraw/huggingface-sync-action@v0.0.5
         with:
-          github_repo_id: 'cos40006/cos40006'
+          github_repo_id: 'Phonginhere/cos40006'
           huggingface_repo_id: 'cos40006/persona_conflict_detection'
           hf_token: ${{ secrets.HF_TOKEN }}
           repo_type: 'space'

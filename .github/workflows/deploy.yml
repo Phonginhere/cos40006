@@ -1,0 +1,17 @@
+name: 🪄 Deploy to HF Space
+on:
+  push:
+    branches: [ main ]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          lfs: true      # ensure Git-LFS files are fetched
+      - name: 🤗 Sync to Space
+        uses: huggingface/hub-action@v1
+        with:
+          repo_id: cos40006/persona_conflict_detection
+          repo_type: space
+          token: ${{ secrets.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 }}   # store your PAT as a GitHub Secret

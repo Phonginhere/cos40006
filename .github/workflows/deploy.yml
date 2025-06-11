@@ -17,5 +17,5 @@ jobs:
           hf_token: ${{ secrets.HF_TOKEN }}
           repo_type: 'space'
           private: false
-          space_sdk: 'streamlit'
+          space_sdk: 'docker'
           subdirectory: ''

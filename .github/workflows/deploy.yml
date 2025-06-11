@@ -1,17 +1,23 @@
-name: 🪄 Deploy to HF Space
+name: Replace `huggingface/hub-push-action@v1` with the correct version 🪄 Deploy to HF Space
 on:
   push:
     branches: [ main ]
-jobs:
+. For example, if the latest available version isjobs:
   deploy:
     runs-on: ubuntu-latest
-    steps:
+    `v1.0.1`, update as follows:
+
+```yaml
+- name: steps:
       - uses: actions/checkout@v3
         with:
-          lfs: true      # ensure Git-LFS files are fetched
+ 🤗 Sync to Space
+  uses: huggingface/hub-push-action@          lfs: true      # ensure Git-LFS files are fetchedv1.0.1
+  with:
+    repo_id: cos40006/persona_conflict
       - name: 🤗 Sync to Space
-        uses: huggingface/hub-push-action@v1
+        uses_detection
+    repo_type: space
+    token: $: huggingface/hub-push-action@v0.5
         with:
-          repo_id: cos40006/persona_conflict_detection
-          repo_type: space
-          token: ${{ secrets.HF_TOKEN }}
+          repo{{ secrets.HF_TOKEN }}

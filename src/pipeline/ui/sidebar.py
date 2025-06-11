@@ -16,7 +16,7 @@ def sidebar():
     utils.SYSTEM_NAME = selected_system
 
     # LLM model selection
-    model_options = ["gpt-4.1-mini", "gpt-4o-mini"]
+    model_options = ["gpt-4.1-mini"]
     selected_model = st.sidebar.selectbox("Select LLM Model", model_options, index=model_options.index(utils.CURRENT_LLM))
     utils.CURRENT_LLM = selected_model
 

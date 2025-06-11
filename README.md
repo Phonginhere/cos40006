@@ -58,11 +58,14 @@ Our organisation page: https://huggingface.co/cos40006
 
 i. Access to our organization page, then please click on the Space named Persona Conflict Detection, or you can access the space by hit the link below: {%preview https://huggingface.co/spaces/cos40006/persona_conflict_detection %}
 
-![image](https://private-user-images.githubusercontent.com/56731537/454079703-3b1c7ca5-3f2d-41db-b97a-4f5a455295fc.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDk2NzEyNzEsIm5iZiI6MTc0OTY3MDk3MSwicGF0aCI6Ii81NjczMTUzNy80NTQwNzk3MDMtM2IxYzdjYTUtM2YyZC00MWRiLWI5N2EtNGY1YTQ1NTI5NWZjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA2MTElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNjExVDE5NDI1MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVhODU2MzM0ZmQ1MWFhOTNkNjhiNmZhMTY4YWI5NGVmZTdkMmI1ZGQ5MThhYjZkNjIzZTBjM2YwNzg1MTVjYjAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.RnH86xAKCBVHQvlwkZlGeXLz4TmYqeW7s0pVolxtaMU)
+![image](https://hackmd.io/_uploads/BkDBaPDmex.png)
+
 
 ii. You can see the image below that the system that has been deployed before, so you can access and operate the running system.
 
-![image](https://private-user-images.githubusercontent.com/56731537/454079879-db0434f4-bfb6-4576-882b-326a955cd02c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDk2NzEzMDYsIm5iZiI6MTc0OTY3MTAwNiwicGF0aCI6Ii81NjczMTUzNy80NTQwNzk4NzktZGIwNDM0ZjQtYmZiNi00NTc2LTg4MmItMzI2YTk1NWNkMDJjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA2MTElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNjExVDE5NDMyNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTUwMzY0YTczNzM0MmIwOTdhN2NiNzRkYTJhY2E1NDdkM2IwMGE3MTczZmEzZmY1M2ZkM2IwOWIyNDdkZTdhMTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.7Syz8L8AsdKsgHGHD4ZJD7v_gBzb7TT5TtiIwVlYZR8)
+![image](https://hackmd.io/_uploads/S1zh6wDXgx.png)
+
+
 
 iii. Input your own API key from OpenAI platform at: https://platform.openai.com/api-keys, with the interface below that the website accessing the API Keys at the left sidebar with pointing out that click on the Create new secret key to show the pop up.
 

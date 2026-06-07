@@ -185,9 +185,8 @@ cos40006/
 │   │   ├── use_cases/ (UC-001 to UC-015)
 │   │   ├── user_stories/ (duplicated & unique)
 │   │   └── user_story_conflicts/ (conflicts & resolutions)
-│   └── api_key.txt ← Local-only API key file (gitignored)
+│   └── api_key.txt ← Create this locally for your own key (gitignored)
 ├── .gitignore
 ├── README.md
 └── requirements.txt
 ```
-
